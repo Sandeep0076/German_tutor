@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { BrainCircuit, FileText, Send, Sparkles, Check, ChevronRight } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const DocTutor = () => {
     useAppContext();
@@ -8,15 +9,48 @@ const DocTutor = () => {
     const [isAnalyzing, setIsAnalyzing] = useState(false);
     const [result, setResult] = useState<any>(null);
 
-    const handleAnalyze = () => {
+    // Access the API key from environment variables
+    const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+    const genAI = API_KEY ? new GoogleGenerativeAI(API_KEY) : null;
+
+    const handleAnalyze = async () => {
         if (!text.trim()) return;
         setIsAnalyzing(true);
 
-        // Simulate AI Delay
-        setTimeout(() => {
+        try {
+            if (genAI) {
+                const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+                const prompt = `
+                    Analyze this German text at an A1 level.
+                    Text: "${text}"
+                    
+                    Return response in JSON format ONLY:
+                    {
+                        "concepts": [{"title": "Concept Name", "description": "Short explanation"}],
+                        "questions": [{"q": "German question?", "a": "German answer"}]
+                    }
+                    Limit to 3 concepts and 3 questions.
+                `;
+
+                const result = await model.generateContent(prompt);
+                const responseText = result.response.text();
+                // Extract JSON if AI includes markdown code blocks
+                const jsonStr = responseText.replace(/```json/g, "").replace(/```/g, "").trim();
+                setResult(JSON.parse(jsonStr));
+            } else {
+                // FALLBACK
+                setTimeout(() => {
+                    setResult(mockAIResponse);
+                    setIsAnalyzing(false);
+                }, 1000);
+                return; // Exit here to prevent double setIsAnalyzing(false)
+            }
+        } catch (error) {
+            console.error("AI Error:", error);
+            alert("Failed to analyze text. Please check your API key.");
+        } finally {
             setIsAnalyzing(false);
-            setResult(mockAIResponse);
-        }, 2000);
+        }
     };
 
     return (
@@ -28,6 +62,11 @@ const DocTutor = () => {
                     </h1>
                     <p className="text-slate-500 mt-1">Paste German text to get instant analysis and practice questions.</p>
                 </div>
+                {API_KEY && (
+                    <span className="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1">
+                        <Sparkles size={12} /> AI Mode Active
+                    </span>
+                )}
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -70,7 +109,11 @@ const DocTutor = () => {
                         )}
                     </button>
 
-                    <p className="text-center text-xs text-slate-400">Powered by AI (Mocked for Demo)</p>
+                    {!API_KEY && (
+                        <p className="text-center text-xs text-slate-400">
+                            Mode: Demo (Mocked). Provide <b>VITE_GEMINI_API_KEY</b> in <b>.env</b> for real AI.
+                        </p>
+                    )}
                 </div>
 
                 {/* Right: Results Area */}
@@ -91,7 +134,7 @@ const DocTutor = () => {
                                     <Sparkles size={18} className="text-amber-500" /> Core Concepts
                                 </h3>
                                 <div className="space-y-4">
-                                    {result.concepts.map((concept: any, idx: number) => (
+                                    {result.concepts && result.concepts.map((concept: any, idx: number) => (
                                         <div key={idx} className="bg-slate-50 rounded-lg p-3 border border-slate-100">
                                             <div className="text-sm font-semibold text-slate-800">{concept.title}</div>
                                             <div className="text-sm text-slate-600 mt-1">{concept.description}</div>
@@ -104,7 +147,7 @@ const DocTutor = () => {
                             <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
                                 <h3 className="text-lg font-bold text-slate-900 mb-4">Generated Quiz</h3>
                                 <div className="space-y-4">
-                                    {result.questions.map((q: any, idx: number) => (
+                                    {result.questions && result.questions.map((q: any, idx: number) => (
                                         <QuizItem key={idx} question={q} />
                                     ))}
                                 </div>

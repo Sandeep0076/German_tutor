@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { BookOpen, Home, GraduationCap, BrainCircuit } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
+import QuickTranslator from './QuickTranslator';
 
 const Layout = () => {
     const { role, setRole } = useAppContext();
@@ -50,6 +51,9 @@ const Layout = () => {
                     </div>
                 </div>
             </nav>
+
+            {/* Quick Translator Section */}
+            <QuickTranslator />
 
             {/* Main Content */}
             <main className="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">

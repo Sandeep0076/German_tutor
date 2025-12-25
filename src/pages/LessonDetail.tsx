@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { syllabusData, type DayPlan, type Question } from '../data/syllabus';
 import { ArrowLeft, Volume2, Check, ChevronDown, ChevronUp } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
+import LessonChatbot from '../components/LessonChatbot';
+import { speak } from '../utils/speech';
 
 const LessonDetail = () => {
     const { dayId } = useParams<{ dayId: string }>();
@@ -80,7 +82,11 @@ const LessonDetail = () => {
                                                             <div className="font-semibold text-slate-800">{ex.german}</div>
                                                             <div className="text-sm text-slate-500 italic">{ex.english}</div>
                                                         </div>
-                                                        <button className="text-slate-300 group-hover:text-indigo-500 transition-colors">
+                                                        <button
+                                                            onClick={() => speak(ex.german)}
+                                                            className="text-slate-300 group-hover:text-indigo-500 transition-colors cursor-pointer"
+                                                            title="Listen to pronunciation"
+                                                        >
                                                             <Volume2 size={18} />
                                                         </button>
                                                     </div>
@@ -100,6 +106,8 @@ const LessonDetail = () => {
                     )}
                 </div>
             </div>
+
+            <LessonChatbot day={currentDay} />
         </div>
     );
 };
