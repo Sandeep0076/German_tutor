@@ -1960,6 +1960,149 @@ export const syllabusData: Phase[] = [
                             question: "Translate: 'Her brother'",
                             answer: "Ihr Bruder",
                             explanation: "Owner is 'sie' (her) -> ihr. Bruder is Masc -> no 'e'."
+                        },
+                        {
+                            id: "d11-q4",
+                            type: "choice",
+                            question: "What is 'die Mutter'?",
+                            options: ["Father", "Mother", "Sister"],
+                            answer: "Mother",
+                            explanation: "die Mutter = mother (feminine)"
+                        },
+                        {
+                            id: "d11-q5",
+                            type: "text",
+                            question: "Translate: 'Our children'",
+                            answer: "Unsere Kinder",
+                            explanation: "Kinder is plural -> unsere (add -e)"
+                        },
+                        {
+                            id: "d11-q6",
+                            type: "choice",
+                            question: "Complete: 'Ist das ___ Vater?' (your - informal)",
+                            options: ["dein", "deine", "deinen"],
+                            answer: "dein",
+                            explanation: "Vater is masculine nominative -> dein"
+                        },
+                        {
+                            id: "d11-q7",
+                            type: "text",
+                            question: "Translate: 'My parents'",
+                            answer: "Meine Eltern",
+                            explanation: "Eltern is always plural -> meine"
+                        },
+                        {
+                            id: "d11-q8",
+                            type: "choice",
+                            question: "What is 'der Bruder'?",
+                            options: ["Brother", "Cousin", "Uncle"],
+                            answer: "Brother",
+                            explanation: "der Bruder = brother (masculine)"
+                        },
+                        {
+                            id: "d11-q9",
+                            type: "text",
+                            question: "Translate: 'Your grandmother' (formal Sie)",
+                            answer: "Ihre Großmutter",
+                            explanation: "Formal Sie -> Ihr/Ihre (capitalized). Großmutter feminine -> Ihre"
+                        },
+                        {
+                            id: "d11-q10",
+                            type: "choice",
+                            question: "Complete: 'Das ist ___ Schwester.' (his)",
+                            options: ["sein", "seine", "ihr"],
+                            answer: "seine",
+                            explanation: "Schwester is feminine -> seine (add -e for feminine)"
+                        },
+                        {
+                            id: "d11-q11",
+                            type: "text",
+                            question: "Translate: 'Their son'",
+                            answer: "Ihr Sohn",
+                            explanation: "sie (they) -> ihr. Sohn is masculine -> ihr"
+                        },
+                        {
+                            id: "d11-q12",
+                            type: "choice",
+                            question: "What is 'die Tochter'?",
+                            options: ["Daughter", "Son", "Niece"],
+                            answer: "Daughter",
+                            explanation: "die Tochter = daughter (feminine)"
+                        },
+                        {
+                            id: "d11-q13",
+                            type: "text",
+                            question: "Translate: 'I have two brothers.'",
+                            answer: "Ich habe zwei Brüder.",
+                            explanation: "Bruder plural = Brüder (with Umlaut)"
+                        },
+                        {
+                            id: "d11-q14",
+                            type: "choice",
+                            question: "Complete: '___ Oma ist sehr alt.' (our)",
+                            options: ["Unser", "Unsere", "Unseren"],
+                            answer: "Unsere",
+                            explanation: "Oma is feminine -> unsere"
+                        },
+                        {
+                            id: "d11-q15",
+                            type: "text",
+                            question: "What is 'der Onkel'?",
+                            answer: "Uncle",
+                            explanation: "der Onkel = uncle (masculine)"
+                        },
+                        {
+                            id: "d11-q16",
+                            type: "choice",
+                            question: "Complete: 'Wo wohnen ___ Großeltern?' (your - du)",
+                            options: ["dein", "deine", "deinen"],
+                            answer: "deine",
+                            explanation: "Großeltern is plural -> deine"
+                        },
+                        {
+                            id: "d11-q17",
+                            type: "text",
+                            question: "Translate: 'Her daughter is 5 years old.'",
+                            answer: "Ihre Tochter ist 5 Jahre alt.",
+                            explanation: "sie (her) -> ihr. Tochter feminine -> ihre"
+                        },
+                        {
+                            id: "d11-q18",
+                            type: "choice",
+                            question: "What is 'die Tante'?",
+                            options: ["Aunt", "Uncle", "Cousin"],
+                            answer: "Aunt",
+                            explanation: "die Tante = aunt (feminine)"
+                        },
+                        {
+                            id: "d11-q19",
+                            type: "text",
+                            question: "Translate: 'My family is big.'",
+                            answer: "Meine Familie ist groß.",
+                            explanation: "Familie is feminine -> meine"
+                        },
+                        {
+                            id: "d11-q20",
+                            type: "choice",
+                            question: "Complete: 'Das sind ___ Eltern.' (my)",
+                            options: ["mein", "meine", "meinen"],
+                            answer: "meine",
+                            explanation: "Eltern is plural -> meine"
+                        },
+                        {
+                            id: "d11-q21",
+                            type: "text",
+                            question: "Translate: 'Your siblings' (ihr - plural you)",
+                            answer: "Eure Geschwister",
+                            explanation: "ihr -> euer/eure. Geschwister plural -> eure. Note: euer drops -e- before endings"
+                        },
+                        {
+                            id: "d11-q22",
+                            type: "choice",
+                            question: "Error check: 'Mein Schwester ist nett.'",
+                            options: ["Correct", "Should be: Meine Schwester", "Should be: Meinen Schwester"],
+                            answer: "Should be: Meine Schwester",
+                            explanation: "Schwester is feminine -> meine (add -e)"
                         }
                     ]
                 }
@@ -2025,6 +2168,171 @@ export const syllabusData: Phase[] = [
                             question: "Translate: 'It is 3 o'clock.'",
                             answer: "Es ist drei Uhr.",
                             explanation: "Use 'Uhr' for full hours."
+                        },
+                        {
+                            id: "d12-q4",
+                            type: "choice",
+                            question: "Ask: 'What time is it?'",
+                            options: ["Wie spät ist es?", "Was ist Zeit?", "Wann ist es?"],
+                            answer: "Wie spät ist es?",
+                            explanation: "Standard question for asking the time. Also: 'Wie viel Uhr ist es?'"
+                        },
+                        {
+                            id: "d12-q5",
+                            type: "text",
+                            question: "Say 14:30 in official time",
+                            answer: "Es ist vierzehn Uhr dreißig.",
+                            explanation: "24-hour format: hour + Uhr + minutes"
+                        },
+                        {
+                            id: "d12-q6",
+                            type: "choice",
+                            question: "What does 'halb sieben' mean?",
+                            options: ["7:30", "6:30", "7:15"],
+                            answer: "6:30",
+                            explanation: "Halb refers to NEXT hour. Halb sieben = half to seven = 6:30"
+                        },
+                        {
+                            id: "d12-q7",
+                            type: "text",
+                            question: "Say 9:45 informally",
+                            answer: "Es ist Viertel vor zehn.",
+                            explanation: "Quarter TO/BEFORE ten (15 minutes before 10)"
+                        },
+                        {
+                            id: "d12-q8",
+                            type: "choice",
+                            question: "Translate: 'to get up'",
+                            options: ["aufstehen", "stehen", "aufgehen"],
+                            answer: "aufstehen",
+                            explanation: "aufstehen = to get up (separable verb)"
+                        },
+                        {
+                            id: "d12-q9",
+                            type: "text",
+                            question: "Say 2:05 informally",
+                            answer: "Es ist fünf nach zwei.",
+                            explanation: "5 minutes AFTER two"
+                        },
+                        {
+                            id: "d12-q10",
+                            type: "choice",
+                            question: "What is 'frühstücken'?",
+                            options: ["to have breakfast", "to have lunch", "to have dinner"],
+                            answer: "to have breakfast",
+                            explanation: "frühstücken = to eat breakfast"
+                        },
+                        {
+                            id: "d12-q11",
+                            type: "text",
+                            question: "Translate: 'I eat breakfast at 8.' (frühstücken)",
+                            answer: "Ich frühstücke um 8 Uhr.",
+                            explanation: "Use 'um' + time for 'at' a specific time"
+                        },
+                        {
+                            id: "d12-q12",
+                            type: "choice",
+                            question: "Say 11:50 informally",
+                            options: ["Zehn vor zwölf", "Zehn nach elf", "Halb zwölf"],
+                            answer: "Zehn vor zwölf",
+                            explanation: "10 minutes BEFORE twelve"
+                        },
+                        {
+                            id: "d12-q13",
+                            type: "text",
+                            question: "Say 17:20 in official time",
+                            answer: "Es ist siebzehn Uhr zwanzig.",
+                            explanation: "24-hour format used for schedules"
+                        },
+                        {
+                            id: "d12-q14",
+                            type: "choice",
+                            question: "What does 'fernsehen' mean?",
+                            options: ["to watch TV", "to see far", "to telephone"],
+                            answer: "to watch TV",
+                            explanation: "fernsehen = to watch TV (separable: fern + sehen)"
+                        },
+                        {
+                            id: "d12-q15",
+                            type: "text",
+                            question: "Translate: 'It is 12:30' (informal)",
+                            answer: "Es ist halb eins.",
+                            explanation: "Half to ONE (not half twelve!)"
+                        },
+                        {
+                            id: "d12-q16",
+                            type: "choice",
+                            question: "Complete: 'Ich stehe um 7 Uhr ___.' (get up)",
+                            options: ["auf", "an", "ein"],
+                            answer: "auf",
+                            explanation: "aufstehen is separable: stehe...auf"
+                        },
+                        {
+                            id: "d12-q17",
+                            type: "text",
+                            question: "Say 3:15 informally",
+                            answer: "Es ist Viertel nach drei.",
+                            explanation: "Quarter AFTER three"
+                        },
+                        {
+                            id: "d12-q18",
+                            type: "choice",
+                            question: "Translate: 'to work'",
+                            options: ["arbeiten", "arbeit", "werkten"],
+                            answer: "arbeiten",
+                            explanation: "arbeiten = to work"
+                        },
+                        {
+                            id: "d12-q19",
+                            type: "text",
+                            question: "Translate: 'He cooks in the evening.'",
+                            answer: "Er kocht am Abend.",
+                            explanation: "am Abend = in the evening"
+                        },
+                        {
+                            id: "d12-q20",
+                            type: "choice",
+                            question: "What is 'einkaufen'?",
+                            options: ["to shop", "to buy in", "to cook"],
+                            answer: "to shop",
+                            explanation: "einkaufen = to shop/go shopping (separable verb)"
+                        },
+                        {
+                            id: "d12-q21",
+                            type: "text",
+                            question: "Say 20:00 in official time",
+                            answer: "Es ist zwanzig Uhr.",
+                            explanation: "8 PM = 20:00 in 24-hour format"
+                        },
+                        {
+                            id: "d12-q22",
+                            type: "choice",
+                            question: "Error check: 'Es ist halb acht.' What time?",
+                            options: ["8:30", "7:30", "8:00"],
+                            answer: "7:30",
+                            explanation: "Halb acht = half to eight = 7:30"
+                        },
+                        {
+                            id: "d12-q23",
+                            type: "text",
+                            question: "Translate: 'I watch TV at 8 PM.' (fernsehen)",
+                            answer: "Ich sehe um 20 Uhr fern.",
+                            explanation: "fernsehen separable: sehe...fern. Use 20 Uhr for 8 PM"
+                        },
+                        {
+                            id: "d12-q24",
+                            type: "text",
+                            question: "Say 5:55 informally",
+                            answer: "Es ist fünf vor sechs.",
+                            explanation: "5 minutes BEFORE six"
+                        },
+                        {
+                            id: "d12-q25",
+                            type: "choice",
+                            question: "What does 'schlafen' mean?",
+                            options: ["to sleep", "to hit", "to close"],
+                            answer: "to sleep",
+                            explanation: "schlafen = to sleep (irregular verb: ich schlafe)"
                         }
                     ]
                 }
@@ -2081,6 +2389,171 @@ export const syllabusData: Phase[] = [
                             question: "Translate: 'The movie starts.' (anfangen)",
                             answer: "Der Film fängt an.",
                             explanation: "anfangen is separable -> fängt ... an."
+                        },
+                        {
+                            id: "d13-q4",
+                            type: "choice",
+                            question: "What is a separable verb?",
+                            options: ["A verb with two parts that split", "A verb that changes vowel", "A verb with sein"],
+                            answer: "A verb with two parts that split",
+                            explanation: "Separable verbs have prefix + main verb that separate in sentences"
+                        },
+                        {
+                            id: "d13-q5",
+                            type: "text",
+                            question: "Translate: 'I get up at 7.' (aufstehen)",
+                            answer: "Ich stehe um 7 Uhr auf.",
+                            explanation: "aufstehen separable: stehe...auf"
+                        },
+                        {
+                            id: "d13-q6",
+                            type: "choice",
+                            question: "Where does the prefix go in a simple sentence?",
+                            options: ["At the end", "After the subject", "Position 2"],
+                            answer: "At the end",
+                            explanation: "Prefix goes to the very end of the sentence"
+                        },
+                        {
+                            id: "d13-q7",
+                            type: "text",
+                            question: "Complete: 'Der Zug ___ um 9 Uhr ___.' (abfahren - depart)",
+                            answer: "Der Zug fährt um 9 Uhr ab.",
+                            explanation: "abfahren: fährt...ab (vowel change + separable)"
+                        },
+                        {
+                            id: "d13-q8",
+                            type: "choice",
+                            question: "Which is a separable prefix?",
+                            options: ["an-", "be-", "ver-"],
+                            answer: "an-",
+                            explanation: "an-, auf-, ein-, mit-, aus- are separable. be-, ver-, er- are not"
+                        },
+                        {
+                            id: "d13-q9",
+                            type: "text",
+                            question: "Translate: 'We're going out.' (ausgehen)",
+                            answer: "Wir gehen aus.",
+                            explanation: "ausgehen: gehen...aus"
+                        },
+                        {
+                            id: "d13-q10",
+                            type: "choice",
+                            question: "Complete: 'Kommst du ___?' (mitkommen - come along)",
+                            options: ["mit", "an", "auf"],
+                            answer: "mit",
+                            explanation: "mitkommen: Kommst du mit?"
+                        },
+                        {
+                            id: "d13-q11",
+                            type: "text",
+                            question: "Sort: 'Sie / um 6 Uhr / auf / steht'",
+                            answer: "Sie steht um 6 Uhr auf.",
+                            explanation: "Subject + verb (Pos 2) + time + prefix (end)"
+                        },
+                        {
+                            id: "d13-q12",
+                            type: "choice",
+                            question: "What does 'ankommen' mean?",
+                            options: ["to arrive", "to call", "to start"],
+                            answer: "to arrive",
+                            explanation: "ankommen = to arrive (separable)"
+                        },
+                        {
+                            id: "d13-q13",
+                            type: "text",
+                            question: "Translate: 'He's cleaning up his room.' (aufräumen)",
+                            answer: "Er räumt sein Zimmer auf.",
+                            explanation: "aufräumen: räumt...auf"
+                        },
+                        {
+                            id: "d13-q14",
+                            type: "choice",
+                            question: "Complete: 'Ich lade dich ___.' (einladen - invite)",
+                            options: ["ein", "an", "auf"],
+                            answer: "ein",
+                            explanation: "einladen: Ich lade...ein"
+                        },
+                        {
+                            id: "d13-q15",
+                            type: "text",
+                            question: "Ask: 'When does the train arrive?' (ankommen)",
+                            answer: "Wann kommt der Zug an?",
+                            explanation: "Question: Wann + kommt + subject + an"
+                        },
+                        {
+                            id: "d13-q16",
+                            type: "choice",
+                            question: "What is 'einkaufen'?",
+                            options: ["to shop", "to sell", "to buy in"],
+                            answer: "to shop",
+                            explanation: "einkaufen = to go shopping (separable)"
+                        },
+                        {
+                            id: "d13-q17",
+                            type: "text",
+                            question: "Complete: 'Wir ___ heute im Supermarkt ___.' (shop)",
+                            answer: "Wir kaufen heute im Supermarkt ein.",
+                            explanation: "einkaufen: kaufen...ein"
+                        },
+                        {
+                            id: "d13-q18",
+                            type: "choice",
+                            question: "Error check: 'Ich anrufe meine Mutter.'",
+                            options: ["Correct", "Should be: Ich rufe meine Mutter an", "Should be: Ich anrufe an meine Mutter"],
+                            answer: "Should be: Ich rufe meine Mutter an",
+                            explanation: "anrufen separates: rufe...an (prefix to end)"
+                        },
+                        {
+                            id: "d13-q19",
+                            type: "text",
+                            question: "Translate: 'The class begins.' (anfangen)",
+                            answer: "Der Unterricht fängt an.",
+                            explanation: "anfangen: fängt...an"
+                        },
+                        {
+                            id: "d13-q20",
+                            type: "choice",
+                            question: "Which verb means 'to read aloud'?",
+                            options: ["vorlesen", "lesen", "auslesen"],
+                            answer: "vorlesen",
+                            explanation: "vorlesen = to read aloud (separable)"
+                        },
+                        {
+                            id: "d13-q21",
+                            type: "text",
+                            question: "Complete: 'Er ___ das Buch ___.' (vorlesen)",
+                            answer: "Er liest das Buch vor.",
+                            explanation: "vorlesen: liest...vor (vowel change + separable)"
+                        },
+                        {
+                            id: "d13-q22",
+                            type: "choice",
+                            question: "Complete: 'Wann ___ du ___?' (zurückkommen - come back)",
+                            options: ["kommst...zurück", "zurückkommst", "kommst...zurück"],
+                            answer: "kommst...zurück",
+                            explanation: "zurückkommen: kommst...zurück"
+                        },
+                        {
+                            id: "d13-q23",
+                            type: "text",
+                            question: "Translate: 'I'm picking you up at 8.' (abholen)",
+                            answer: "Ich hole dich um 8 Uhr ab.",
+                            explanation: "abholen = to pick up (separable): hole...ab"
+                        },
+                        {
+                            id: "d13-q24",
+                            type: "text",
+                            question: "What does 'mitbringen' mean?",
+                            answer: "to bring along",
+                            explanation: "mitbringen = to bring along/with (separable)"
+                        },
+                        {
+                            id: "d13-q25",
+                            type: "choice",
+                            question: "Complete: 'Bringst du Wein ___?' (mitbringen)",
+                            options: ["mit", "an", "ein"],
+                            answer: "mit",
+                            explanation: "mitbringen: Bringst du...mit?"
                         }
                     ]
                 }
@@ -2133,6 +2606,171 @@ export const syllabusData: Phase[] = [
                             question: "Translate: 'I enter the room.' (Der Raum)",
                             answer: "Ich betrete den Raum.",
                             explanation: "Room is the direct object."
+                        },
+                        {
+                            id: "d14-q4",
+                            type: "choice",
+                            question: "Which articles change in accusative?",
+                            options: ["Only masculine", "All genders", "Only feminine"],
+                            answer: "Only masculine",
+                            explanation: "Only masculine changes: der→den, ein→einen"
+                        },
+                        {
+                            id: "d14-q5",
+                            type: "text",
+                            question: "What is 'der Apfel'?",
+                            answer: "apple",
+                            explanation: "der Apfel = the apple (masculine)"
+                        },
+                        {
+                            id: "d14-q6",
+                            type: "choice",
+                            question: "Complete: 'Ich esse ___ Apfel.' (den/einen)",
+                            options: ["den", "der", "dem"],
+                            answer: "den",
+                            explanation: "Masculine accusative: der Apfel → den Apfel"
+                        },
+                        {
+                            id: "d14-q7",
+                            type: "text",
+                            question: "Translate: 'I have a brother.'",
+                            answer: "Ich habe einen Bruder.",
+                            explanation: "Bruder masculine → einen Bruder (accusative)"
+                        },
+                        {
+                            id: "d14-q8",
+                            type: "choice",
+                            question: "What is 'das Brot'?",
+                            options: ["Bread", "Meat", "Egg"],
+                            answer: "Bread",
+                            explanation: "das Brot = bread (neuter, no change in accusative)"
+                        },
+                        {
+                            id: "d14-q9",
+                            type: "text",
+                            question: "Complete: 'Ich kaufe ___ Brot.' (das)",
+                            answer: "das",
+                            explanation: "Neuter doesn't change in accusative: das Brot"
+                        },
+                        {
+                            id: "d14-q10",
+                            type: "choice",
+                            question: "What is 'die Banane'?",
+                            options: ["Banana", "Apple", "Orange"],
+                            answer: "Banana",
+                            explanation: "die Banane = banana (feminine)"
+                        },
+                        {
+                            id: "d14-q11",
+                            type: "text",
+                            question: "Complete: 'Ich esse ___ Banane.' (die)",
+                            answer: "die",
+                            explanation: "Feminine doesn't change: die Banane"
+                        },
+                        {
+                            id: "d14-q12",
+                            type: "choice",
+                            question: "What is 'der Käse'?",
+                            options: ["Cheese", "Cake", "Coffee"],
+                            answer: "Cheese",
+                            explanation: "der Käse = cheese (masculine)"
+                        },
+                        {
+                            id: "d14-q13",
+                            type: "text",
+                            question: "Translate: 'I like cheese.' (mögen)",
+                            answer: "Ich mag Käse.",
+                            explanation: "mögen + accusative (no article for general food)"
+                        },
+                        {
+                            id: "d14-q14",
+                            type: "choice",
+                            question: "Complete: 'Ich trinke ___ Kaffee.'",
+                            options: ["den", "der", "das"],
+                            answer: "den",
+                            explanation: "der Kaffee → den Kaffee (masculine accusative)"
+                        },
+                        {
+                            id: "d14-q15",
+                            type: "text",
+                            question: "What is 'das Ei'?",
+                            answer: "egg",
+                            explanation: "das Ei = the egg (neuter)"
+                        },
+                        {
+                            id: "d14-q16",
+                            type: "choice",
+                            question: "What is 'das Fleisch'?",
+                            options: ["Meat", "Fish", "Bread"],
+                            answer: "Meat",
+                            explanation: "das Fleisch = meat (neuter)"
+                        },
+                        {
+                            id: "d14-q17",
+                            type: "text",
+                            question: "Translate: 'I eat meat.'",
+                            answer: "Ich esse Fleisch.",
+                            explanation: "No article for food in general"
+                        },
+                        {
+                            id: "d14-q18",
+                            type: "choice",
+                            question: "What is 'der Fisch'?",
+                            options: ["Fish", "Meat", "Vegetable"],
+                            answer: "Fish",
+                            explanation: "der Fisch = fish (masculine)"
+                        },
+                        {
+                            id: "d14-q19",
+                            type: "text",
+                            question: "Complete: 'Ich esse ___ Fisch.' (der - the fish)",
+                            answer: "den",
+                            explanation: "der Fisch → den Fisch (masculine accusative)"
+                        },
+                        {
+                            id: "d14-q20",
+                            type: "choice",
+                            question: "What is 'das Gemüse'?",
+                            options: ["Vegetables", "Fruit", "Meat"],
+                            answer: "Vegetables",
+                            explanation: "das Gemüse = vegetables (neuter, singular in German)"
+                        },
+                        {
+                            id: "d14-q21",
+                            type: "text",
+                            question: "Translate: 'I like vegetables.'",
+                            answer: "Ich mag Gemüse.",
+                            explanation: "das Gemüse (no change in accusative)"
+                        },
+                        {
+                            id: "d14-q22",
+                            type: "choice",
+                            question: "Complete: 'Ich sehe ___ Mann.' (der Mann)",
+                            options: ["den", "der", "dem"],
+                            answer: "den",
+                            explanation: "Direct object: der Mann → den Mann"
+                        },
+                        {
+                            id: "d14-q23",
+                            type: "text",
+                            question: "Translate: 'I don't eat fish.' (negation with kein)",
+                            answer: "Ich esse keinen Fisch.",
+                            explanation: "kein + masculine accusative → keinen Fisch"
+                        },
+                        {
+                            id: "d14-q24",
+                            type: "choice",
+                            question: "Error check: 'Ich habe ein Bruder.'",
+                            options: ["Correct", "Should be: einen Bruder", "Should be: der Bruder"],
+                            answer: "Should be: einen Bruder",
+                            explanation: "Masculine accusative: ein → einen"
+                        },
+                        {
+                            id: "d14-q25",
+                            type: "text",
+                            question: "Complete: 'Trinkst du ___ Tee?' (der Tee - the tea)",
+                            answer: "den",
+                            explanation: "der Tee → den Tee (accusative)"
                         }
                     ]
                 }
@@ -2189,6 +2827,171 @@ export const syllabusData: Phase[] = [
                             question: "Fix order: 'Er will essen Pizza.'",
                             answer: "Er will Pizza essen.",
                             explanation: "Infinitive MUST be at the end."
+                        },
+                        {
+                            id: "d15-q4",
+                            type: "choice",
+                            question: "What are modal verbs?",
+                            options: ["Verbs that modify another verb", "Regular verbs", "Past tense verbs"],
+                            answer: "Verbs that modify another verb",
+                            explanation: "Modal verbs express ability, desire, necessity"
+                        },
+                        {
+                            id: "d15-q5",
+                            type: "text",
+                            question: "Conjugate 'können' for 'ich'",
+                            answer: "kann",
+                            explanation: "ich kann (irregular - no -e ending)"
+                        },
+                        {
+                            id: "d15-q6",
+                            type: "choice",
+                            question: "Conjugate 'können' for 'du'",
+                            options: ["kannst", "kann", "können"],
+                            answer: "kannst",
+                            explanation: "du kannst"
+                        },
+                        {
+                            id: "d15-q7",
+                            type: "text",
+                            question: "Conjugate 'können' for 'wir'",
+                            answer: "können",
+                            explanation: "wir können (same as infinitive)"
+                        },
+                        {
+                            id: "d15-q8",
+                            type: "choice",
+                            question: "Translate: 'Can you help me?' (du)",
+                            options: ["Kannst du mir helfen?", "Kann du mir helfen?", "Können du mir helfen?"],
+                            answer: "Kannst du mir helfen?",
+                            explanation: "du kannst: Kannst du...?"
+                        },
+                        {
+                            id: "d15-q9",
+                            type: "text",
+                            question: "Translate: 'I can't come.'",
+                            answer: "Ich kann nicht kommen.",
+                            explanation: "Modal + nicht + infinitive at end"
+                        },
+                        {
+                            id: "d15-q10",
+                            type: "choice",
+                            question: "Conjugate 'wollen' for 'ich'",
+                            options: ["will", "wolle", "wollen"],
+                            answer: "will",
+                            explanation: "ich will (irregular)"
+                        },
+                        {
+                            id: "d15-q11",
+                            type: "text",
+                            question: "Conjugate 'wollen' for 'du'",
+                            answer: "willst",
+                            explanation: "du willst"
+                        },
+                        {
+                            id: "d15-q12",
+                            type: "choice",
+                            question: "Complete: 'Er ___ nach Hause gehen.'",
+                            options: ["will", "wollen", "willst"],
+                            answer: "will",
+                            explanation: "er will (same as ich)"
+                        },
+                        {
+                            id: "d15-q13",
+                            type: "text",
+                            question: "Translate: 'Do you want to eat?' (du)",
+                            answer: "Willst du essen?",
+                            explanation: "Question: Willst du + infinitive?"
+                        },
+                        {
+                            id: "d15-q14",
+                            type: "choice",
+                            question: "What does 'können' mean?",
+                            options: ["can/to be able to", "want to", "must"],
+                            answer: "can/to be able to",
+                            explanation: "können = can, to be able to"
+                        },
+                        {
+                            id: "d15-q15",
+                            type: "text",
+                            question: "Translate: 'We want to learn German.'",
+                            answer: "Wir wollen Deutsch lernen.",
+                            explanation: "wir wollen + infinitive at end"
+                        },
+                        {
+                            id: "d15-q16",
+                            type: "choice",
+                            question: "Where does the infinitive go with modal verbs?",
+                            options: ["At the end", "After the modal", "Position 2"],
+                            answer: "At the end",
+                            explanation: "Infinitive ALWAYS goes to the end with modals"
+                        },
+                        {
+                            id: "d15-q17",
+                            type: "text",
+                            question: "Translate: 'She can swim well.'",
+                            answer: "Sie kann gut schwimmen.",
+                            explanation: "sie kann + gut + infinitive (end)"
+                        },
+                        {
+                            id: "d15-q18",
+                            type: "choice",
+                            question: "Complete: 'Ihr ___ Fußball spielen.'",
+                            options: ["könnt", "kann", "können"],
+                            answer: "könnt",
+                            explanation: "ihr könnt"
+                        },
+                        {
+                            id: "d15-q19",
+                            type: "text",
+                            question: "Translate: 'They want to go home.'",
+                            answer: "Sie wollen nach Hause gehen.",
+                            explanation: "sie wollen + infinitive at end"
+                        },
+                        {
+                            id: "d15-q20",
+                            type: "choice",
+                            question: "Error check: 'Ich kann schwimmen gut.'",
+                            options: ["Correct", "Should be: Ich kann gut schwimmen", "Should be: Ich gut kann schwimmen"],
+                            answer: "Should be: Ich kann gut schwimmen",
+                            explanation: "Infinitive must be at the very end"
+                        },
+                        {
+                            id: "d15-q21",
+                            type: "text",
+                            question: "Ask: 'Can we go?' (wir)",
+                            answer: "Können wir gehen?",
+                            explanation: "Question: Können wir + infinitive?"
+                        },
+                        {
+                            id: "d15-q22",
+                            type: "choice",
+                            question: "Complete: 'Was ___ du machen?' (want)",
+                            options: ["willst", "will", "wollen"],
+                            answer: "willst",
+                            explanation: "du willst: Was willst du...?"
+                        },
+                        {
+                            id: "d15-q23",
+                            type: "text",
+                            question: "Translate: 'I want to sleep.'",
+                            answer: "Ich will schlafen.",
+                            explanation: "ich will + infinitive"
+                        },
+                        {
+                            id: "d15-q24",
+                            type: "choice",
+                            question: "Conjugate 'können' for 'sie' (they)",
+                            options: ["können", "kann", "könnt"],
+                            answer: "können",
+                            explanation: "sie können (plural)"
+                        },
+                        {
+                            id: "d15-q25",
+                            type: "text",
+                            question: "Complete: 'Kannst du Deutsch ___?' (sprechen)",
+                            answer: "sprechen",
+                            explanation: "Infinitive goes at end: Kannst du Deutsch sprechen?"
                         }
                     ]
                 }
@@ -2245,6 +3048,171 @@ export const syllabusData: Phase[] = [
                             question: "Translate: 'We must wait.'",
                             answer: "Wir müssen warten.",
                             explanation: "Müssen + Infinitive."
+                        },
+                        {
+                            id: "d16-q4",
+                            type: "choice",
+                            question: "What does 'müssen' mean?",
+                            options: ["must/have to", "may/allowed to", "want to"],
+                            answer: "must/have to",
+                            explanation: "müssen = must, have to (necessity/obligation)"
+                        },
+                        {
+                            id: "d16-q5",
+                            type: "text",
+                            question: "Conjugate 'müssen' for 'du'",
+                            answer: "musst",
+                            explanation: "du musst (vowel change: ü→u)"
+                        },
+                        {
+                            id: "d16-q6",
+                            type: "choice",
+                            question: "Complete: 'Er ___ arbeiten.'",
+                            options: ["muss", "müssen", "musst"],
+                            answer: "muss",
+                            explanation: "er muss (same as ich)"
+                        },
+                        {
+                            id: "d16-q7",
+                            type: "text",
+                            question: "Translate: 'I have to go.'",
+                            answer: "Ich muss gehen.",
+                            explanation: "ich muss + infinitive"
+                        },
+                        {
+                            id: "d16-q8",
+                            type: "choice",
+                            question: "What does 'dürfen' mean?",
+                            options: ["to be allowed to/may", "must", "can"],
+                            answer: "to be allowed to/may",
+                            explanation: "dürfen = to be allowed to, may (permission)"
+                        },
+                        {
+                            id: "d16-q9",
+                            type: "text",
+                            question: "Conjugate 'dürfen' for 'ich'",
+                            answer: "darf",
+                            explanation: "ich darf (vowel change: ü→a)"
+                        },
+                        {
+                            id: "d16-q10",
+                            type: "choice",
+                            question: "Conjugate 'dürfen' for 'du'",
+                            options: ["darfst", "darf", "dürfen"],
+                            answer: "darfst",
+                            explanation: "du darfst"
+                        },
+                        {
+                            id: "d16-q11",
+                            type: "text",
+                            question: "Ask: 'May I smoke here?' (dürfen)",
+                            answer: "Darf ich hier rauchen?",
+                            explanation: "Darf ich + infinitive?"
+                        },
+                        {
+                            id: "d16-q12",
+                            type: "choice",
+                            question: "Complete: 'Ihr ___ nicht laut sein.' (must not be loud)",
+                            options: ["dürft", "müsst", "könnt"],
+                            answer: "dürft",
+                            explanation: "nicht dürfen = forbidden: ihr dürft nicht"
+                        },
+                        {
+                            id: "d16-q13",
+                            type: "text",
+                            question: "Translate: 'You don't have to work.' (du)",
+                            answer: "Du musst nicht arbeiten.",
+                            explanation: "nicht müssen = not necessary (optional)"
+                        },
+                        {
+                            id: "d16-q14",
+                            type: "choice",
+                            question: "Difference: 'nicht dürfen' vs 'nicht müssen'?",
+                            options: ["forbidden vs not necessary", "not allowed vs forbidden", "same meaning"],
+                            answer: "forbidden vs not necessary",
+                            explanation: "nicht dürfen = forbidden; nicht müssen = not necessary"
+                        },
+                        {
+                            id: "d16-q15",
+                            type: "text",
+                            question: "Translate: 'We must learn.'",
+                            answer: "Wir müssen lernen.",
+                            explanation: "wir müssen + infinitive"
+                        },
+                        {
+                            id: "d16-q16",
+                            type: "choice",
+                            question: "Complete: 'Sie ___ jetzt schlafen.' (sie - they, must)",
+                            options: ["müssen", "muss", "müsst"],
+                            answer: "müssen",
+                            explanation: "sie müssen (plural)"
+                        },
+                        {
+                            id: "d16-q17",
+                            type: "text",
+                            question: "Ask: 'May I come in?' (reinkommen)",
+                            answer: "Darf ich reinkommen?",
+                            explanation: "Darf ich + infinitive?"
+                        },
+                        {
+                            id: "d16-q18",
+                            type: "choice",
+                            question: "Translate: 'You're not allowed to park here.' (du)",
+                            options: ["Du darfst hier nicht parken.", "Du musst hier nicht parken.", "Du kannst hier nicht parken."],
+                            answer: "Du darfst hier nicht parken.",
+                            explanation: "nicht dürfen = not allowed/forbidden"
+                        },
+                        {
+                            id: "d16-q19",
+                            type: "text",
+                            question: "Complete: 'Wir ___ pünktlich sein.' (müssen - be punctual)",
+                            answer: "müssen",
+                            explanation: "wir müssen + infinitive"
+                        },
+                        {
+                            id: "d16-q20",
+                            type: "choice",
+                            question: "Conjugate 'müssen' for 'ihr'",
+                            options: ["müsst", "muss", "müssen"],
+                            answer: "müsst",
+                            explanation: "ihr müsst"
+                        },
+                        {
+                            id: "d16-q21",
+                            type: "text",
+                            question: "Translate: 'She must go home.'",
+                            answer: "Sie muss nach Hause gehen.",
+                            explanation: "sie muss + infinitive"
+                        },
+                        {
+                            id: "d16-q22",
+                            type: "choice",
+                            question: "Error check: 'Du dürfen nicht laufen.'",
+                            options: ["Correct", "Should be: Du darfst nicht laufen", "Should be: Du dürfst nicht laufen"],
+                            answer: "Should be: Du darfst nicht laufen",
+                            explanation: "du darfst (conjugate correctly)"
+                        },
+                        {
+                            id: "d16-q23",
+                            type: "text",
+                            question: "Translate: 'May we ask?' (fragen)",
+                            answer: "Dürfen wir fragen?",
+                            explanation: "Dürfen wir + infinitive?"
+                        },
+                        {
+                            id: "d16-q24",
+                            type: "choice",
+                            question: "Complete: 'Ich ___ jetzt gehen.' (must)",
+                            options: ["muss", "müssen", "musst"],
+                            answer: "muss",
+                            explanation: "ich muss"
+                        },
+                        {
+                            id: "d16-q25",
+                            type: "text",
+                            question: "Translate: 'You're allowed to sit here.' (Sie - formal)",
+                            answer: "Sie dürfen hier sitzen.",
+                            explanation: "Sie dürfen + infinitive"
                         }
                     ]
                 }
@@ -2293,6 +3261,171 @@ export const syllabusData: Phase[] = [
                             question: "Translate: 'I would like to pay.'",
                             answer: "Ich möchte bezahlen.",
                             explanation: "Möchten + Infinitive."
+                        },
+                        {
+                            id: "d17-q4",
+                            type: "choice",
+                            question: "What does 'möchten' mean?",
+                            options: ["would like to", "must", "can"],
+                            answer: "would like to",
+                            explanation: "möchten = would like to (polite form of mögen)"
+                        },
+                        {
+                            id: "d17-q5",
+                            type: "text",
+                            question: "Conjugate 'möchten' for 'ich'",
+                            answer: "möchte",
+                            explanation: "ich möchte"
+                        },
+                        {
+                            id: "d17-q6",
+                            type: "choice",
+                            question: "Conjugate 'möchten' for 'du'",
+                            options: ["möchtest", "möchte", "möchten"],
+                            answer: "möchtest",
+                            explanation: "du möchtest"
+                        },
+                        {
+                            id: "d17-q7",
+                            type: "text",
+                            question: "Ask politely: 'What would you like to drink?' (Sie)",
+                            answer: "Was möchten Sie trinken?",
+                            explanation: "Was möchten Sie + infinitive?"
+                        },
+                        {
+                            id: "d17-q8",
+                            type: "choice",
+                            question: "In a restaurant: 'Bitte schön?' means:",
+                            options: ["May I help you?", "Please sit", "Thank you"],
+                            answer: "May I help you?",
+                            explanation: "Bitte schön? = May I help you? (in shops/restaurants)"
+                        },
+                        {
+                            id: "d17-q9",
+                            type: "text",
+                            question: "Translate: 'I would like a coffee, please.'",
+                            answer: "Ich möchte einen Kaffee, bitte.",
+                            explanation: "Ich möchte + accusative (einen Kaffee)"
+                        },
+                        {
+                            id: "d17-q10",
+                            type: "choice",
+                            question: "Customer says: 'Ich hätte gern...' This means:",
+                            options: ["I would like to have...", "I have...", "I had..."],
+                            answer: "I would like to have...",
+                            explanation: "Ich hätte gern = I would like to have (polite, common in shops)"
+                        },
+                        {
+                            id: "d17-q11",
+                            type: "text",
+                            question: "Complete: 'Er ___ ein Bier.' (would like)",
+                            answer: "möchte",
+                            explanation: "er möchte"
+                        },
+                        {
+                            id: "d17-q12",
+                            type: "choice",
+                            question: "What does 'Das macht 5 Euro' mean?",
+                            options: ["That comes to 5 euros", "Make 5 euros", "It makes 5 euros"],
+                            answer: "That comes to 5 euros",
+                            explanation: "Das macht... = That comes to... (total price)"
+                        },
+                        {
+                            id: "d17-q13",
+                            type: "text",
+                            question: "Ask: 'Would you like something to eat?' (du)",
+                            answer: "Möchtest du etwas essen?",
+                            explanation: "Möchtest du + etwas + infinitive?"
+                        },
+                        {
+                            id: "d17-q14",
+                            type: "choice",
+                            question: "Conjugate 'möchten' for 'wir'",
+                            options: ["möchten", "möchte", "möchtet"],
+                            answer: "möchten",
+                            explanation: "wir möchten"
+                        },
+                        {
+                            id: "d17-q15",
+                            type: "text",
+                            question: "Translate: 'We would like to order.'",
+                            answer: "Wir möchten bestellen.",
+                            explanation: "wir möchten + infinitive"
+                        },
+                        {
+                            id: "d17-q16",
+                            type: "choice",
+                            question: "In a shop: 'Sonst noch etwas?' - You don't need anything else:",
+                            options: ["Nein, danke. Das ist alles.", "Ja, bitte.", "Vielleicht."],
+                            answer: "Nein, danke. Das ist alles.",
+                            explanation: "Das ist alles = That's all/everything"
+                        },
+                        {
+                            id: "d17-q17",
+                            type: "text",
+                            question: "Complete: 'Ihr ___ Pizza essen.' (would like)",
+                            answer: "möchtet",
+                            explanation: "ihr möchtet"
+                        },
+                        {
+                            id: "d17-q18",
+                            type: "choice",
+                            question: "What does 'bezahlen' mean?",
+                            options: ["to pay", "to order", "to drink"],
+                            answer: "to pay",
+                            explanation: "bezahlen = to pay"
+                        },
+                        {
+                            id: "d17-q19",
+                            type: "text",
+                            question: "Say politely: 'I would like the bill.' (die Rechnung)",
+                            answer: "Ich möchte die Rechnung, bitte.",
+                            explanation: "Ich möchte die Rechnung (the bill/check)"
+                        },
+                        {
+                            id: "d17-q20",
+                            type: "choice",
+                            question: "Complete: 'Was ___ Sie?' (What would you like? - formal)",
+                            options: ["möchten", "möchte", "möchtest"],
+                            answer: "möchten",
+                            explanation: "Sie möchten (formal you - plural form)"
+                        },
+                        {
+                            id: "d17-q21",
+                            type: "text",
+                            question: "Translate: 'They would like to go shopping.'",
+                            answer: "Sie möchten einkaufen gehen.",
+                            explanation: "sie möchten + infinitive"
+                        },
+                        {
+                            id: "d17-q22",
+                            type: "choice",
+                            question: "Customer phrase: 'Ich brauche...' means:",
+                            options: ["I need...", "I want...", "I have..."],
+                            answer: "I need...",
+                            explanation: "brauchen = to need"
+                        },
+                        {
+                            id: "d17-q23",
+                            type: "text",
+                            question: "Ask politely: 'Would you like to come?' (du)",
+                            answer: "Möchtest du mitkommen?",
+                            explanation: "Möchtest du + infinitive (separable)"
+                        },
+                        {
+                            id: "d17-q24",
+                            type: "choice",
+                            question: "Error check: 'Ich möchte ein Kaffee.'",
+                            options: ["Correct", "Should be: einen Kaffee", "Should be: der Kaffee"],
+                            answer: "Should be: einen Kaffee",
+                            explanation: "Kaffee is masculine → einen Kaffee (accusative)"
+                        },
+                        {
+                            id: "d17-q25",
+                            type: "text",
+                            question: "Complete shopping dialogue: 'Das macht 12 Euro.' - 'Hier ___ 15 Euro.'",
+                            answer: "sind",
+                            explanation: "Hier sind... = Here is/are..."
                         }
                     ]
                 }
@@ -2344,6 +3477,171 @@ export const syllabusData: Phase[] = [
                             question: "Opposite of 'neu'?",
                             answer: "alt",
                             explanation: "Old."
+                        },
+                        {
+                            id: "d18-q4",
+                            type: "choice",
+                            question: "What is 'das Bett'?",
+                            options: ["Bed", "Chair", "Table"],
+                            answer: "Bed",
+                            explanation: "das Bett = the bed"
+                        },
+                        {
+                            id: "d18-q5",
+                            type: "text",
+                            question: "What is 'der Tisch'?",
+                            answer: "table",
+                            explanation: "der Tisch = the table"
+                        },
+                        {
+                            id: "d18-q6",
+                            type: "choice",
+                            question: "What is 'der Stuhl'?",
+                            options: ["Chair", "Table", "Lamp"],
+                            answer: "Chair",
+                            explanation: "der Stuhl = the chair"
+                        },
+                        {
+                            id: "d18-q7",
+                            type: "text",
+                            question: "Translate: 'The lamp is expensive.'",
+                            answer: "Die Lampe ist teuer.",
+                            explanation: "Predicative adjective - no ending change"
+                        },
+                        {
+                            id: "d18-q8",
+                            type: "choice",
+                            question: "What is 'die Tür'?",
+                            options: ["Door", "Window", "Wall"],
+                            answer: "Door",
+                            explanation: "die Tür = the door"
+                        },
+                        {
+                            id: "d18-q9",
+                            type: "text",
+                            question: "What is 'das Fenster'?",
+                            answer: "window",
+                            explanation: "das Fenster = the window"
+                        },
+                        {
+                            id: "d18-q10",
+                            type: "choice",
+                            question: "Opposite pair: groß - ___",
+                            options: ["klein", "alt", "neu"],
+                            answer: "klein",
+                            explanation: "groß (big) ↔ klein (small)"
+                        },
+                        {
+                            id: "d18-q11",
+                            type: "text",
+                            question: "Translate: 'The chairs are old.'",
+                            answer: "Die Stühle sind alt.",
+                            explanation: "Plural + predicative adjective (no ending)"
+                        },
+                        {
+                            id: "d18-q12",
+                            type: "choice",
+                            question: "What is 'das Sofa'?",
+                            options: ["Sofa/Couch", "Bed", "Chair"],
+                            answer: "Sofa/Couch",
+                            explanation: "das Sofa = the sofa/couch"
+                        },
+                        {
+                            id: "d18-q13",
+                            type: "text",
+                            question: "Opposite of 'teuer'?",
+                            answer: "billig",
+                            explanation: "teuer (expensive) ↔ billig (cheap)"
+                        },
+                        {
+                            id: "d18-q14",
+                            type: "choice",
+                            question: "What is 'der Spiegel'?",
+                            options: ["Mirror", "Picture", "Window"],
+                            answer: "Mirror",
+                            explanation: "der Spiegel = the mirror"
+                        },
+                        {
+                            id: "d18-q15",
+                            type: "text",
+                            question: "Translate: 'The room is dark.'",
+                            answer: "Das Zimmer ist dunkel.",
+                            explanation: "das Zimmer (room), dunkel (dark)"
+                        },
+                        {
+                            id: "d18-q16",
+                            type: "choice",
+                            question: "Opposite pair: hell - ___",
+                            options: ["dunkel", "klein", "alt"],
+                            answer: "dunkel",
+                            explanation: "hell (light/bright) ↔ dunkel (dark)"
+                        },
+                        {
+                            id: "d18-q17",
+                            type: "text",
+                            question: "What is 'das Bild'?",
+                            answer: "picture",
+                            explanation: "das Bild = the picture/image"
+                        },
+                        {
+                            id: "d18-q18",
+                            type: "choice",
+                            question: "What is 'die Küche'?",
+                            options: ["Kitchen", "Bedroom", "Bathroom"],
+                            answer: "Kitchen",
+                            explanation: "die Küche = the kitchen"
+                        },
+                        {
+                            id: "d18-q19",
+                            type: "text",
+                            question: "Translate: 'The bed is comfortable.' (bequem)",
+                            answer: "Das Bett ist bequem.",
+                            explanation: "bequem = comfortable"
+                        },
+                        {
+                            id: "d18-q20",
+                            type: "choice",
+                            question: "Opposite pair: schön - ___",
+                            options: ["hässlich", "klein", "dunkel"],
+                            answer: "hässlich",
+                            explanation: "schön (beautiful) ↔ hässlich (ugly)"
+                        },
+                        {
+                            id: "d18-q21",
+                            type: "text",
+                            question: "Complete: 'Die Lampe ist sehr ___.' (beautiful)",
+                            answer: "schön",
+                            explanation: "schön = beautiful (predicative, no ending)"
+                        },
+                        {
+                            id: "d18-q22",
+                            type: "choice",
+                            question: "When do adjectives NOT change endings?",
+                            options: ["After sein/werden (predicative)", "Before nouns", "Never"],
+                            answer: "After sein/werden (predicative)",
+                            explanation: "Predicative adjectives (after sein) don't change: Das ist schön."
+                        },
+                        {
+                            id: "d18-q23",
+                            type: "text",
+                            question: "Translate: 'I need a chair.'",
+                            answer: "Ich brauche einen Stuhl.",
+                            explanation: "brauchen + accusative (einen Stuhl)"
+                        },
+                        {
+                            id: "d18-q24",
+                            type: "choice",
+                            question: "Error check: 'Das Bett ist neue.'",
+                            options: ["Correct", "Should be: neu", "Should be: neuen"],
+                            answer: "Should be: neu",
+                            explanation: "Predicative adjective has no ending: neu (not neue)"
+                        },
+                        {
+                            id: "d18-q25",
+                            type: "text",
+                            question: "Describe: 'The table is big and new.'",
+                            answer: "Der Tisch ist groß und neu.",
+                            explanation: "Multiple predicative adjectives, no endings"
                         }
                     ]
                 }
@@ -2485,6 +3783,171 @@ export const syllabusData: Phase[] = [
                             options: ["gegen", "ohne", "für"],
                             answer: "gegen",
                             explanation: "Gegen means against (an opponent)."
+                        },
+                        {
+                            id: "d19-q4",
+                            type: "choice",
+                            question: "Which prepositions ALWAYS take accusative? (DOGFU)",
+                            options: ["durch, ohne, gegen, für, um", "mit, nach, zu", "in, an, auf"],
+                            answer: "durch, ohne, gegen, für, um",
+                            explanation: "DOGFU mnemonic: Durch, Ohne, Gegen, Für, Um"
+                        },
+                        {
+                            id: "d19-q5",
+                            type: "text",
+                            question: "What does 'durch' mean?",
+                            answer: "through",
+                            explanation: "durch = through (+ accusative)"
+                        },
+                        {
+                            id: "d19-q6",
+                            type: "choice",
+                            question: "Complete: 'Ich komme ___ dich.' (without you)",
+                            options: ["ohne", "für", "gegen"],
+                            answer: "ohne",
+                            explanation: "ohne = without (+ accusative)"
+                        },
+                        {
+                            id: "d19-q7",
+                            type: "text",
+                            question: "Translate: 'Without money'",
+                            answer: "Ohne Geld",
+                            explanation: "ohne + accusative (das Geld - no change in neuter)"
+                        },
+                        {
+                            id: "d19-q8",
+                            type: "choice",
+                            question: "What does 'gegen' mean?",
+                            options: ["against/around (time)", "for", "through"],
+                            answer: "against/around (time)",
+                            explanation: "gegen = against (opponent) or around (time)"
+                        },
+                        {
+                            id: "d19-q9",
+                            type: "text",
+                            question: "Complete: 'Das Geschenk ist ___ meine Mutter.' (for)",
+                            answer: "für",
+                            explanation: "für = for (+ accusative)"
+                        },
+                        {
+                            id: "d19-q10",
+                            type: "choice",
+                            question: "Complete: 'Wir treffen uns ___ 8 Uhr.' (around 8)",
+                            options: ["gegen", "für", "um"],
+                            answer: "gegen",
+                            explanation: "gegen + time = around (approximately)"
+                        },
+                        {
+                            id: "d19-q11",
+                            type: "text",
+                            question: "What does 'um' mean with locations?",
+                            answer: "around",
+                            explanation: "um = around (spatial) (+ accusative)"
+                        },
+                        {
+                            id: "d19-q12",
+                            type: "choice",
+                            question: "Complete: 'Wir sitzen ___ den Tisch.' (around table)",
+                            options: ["um", "für", "gegen"],
+                            answer: "um",
+                            explanation: "um + accusative = around (spatial)"
+                        },
+                        {
+                            id: "d19-q13",
+                            type: "text",
+                            question: "Translate: 'Through the city' (die Stadt)",
+                            answer: "Durch die Stadt",
+                            explanation: "durch + accusative (die Stadt - no change in feminine)"
+                        },
+                        {
+                            id: "d19-q14",
+                            type: "choice",
+                            question: "Complete: 'Der Film ist ___ Kinder.' (for children)",
+                            options: ["für", "gegen", "ohne"],
+                            answer: "für",
+                            explanation: "für = for (+ accusative)"
+                        },
+                        {
+                            id: "d19-q15",
+                            type: "text",
+                            question: "Translate: 'Against the wall' (die Wand)",
+                            answer: "Gegen die Wand",
+                            explanation: "gegen + accusative"
+                        },
+                        {
+                            id: "d19-q16",
+                            type: "choice",
+                            question: "Complete: 'Ich gehe ___ meinen Hund spazieren.' (without)",
+                            options: ["ohne", "für", "durch"],
+                            answer: "ohne",
+                            explanation: "ohne + accusative (meinen Hund)"
+                        },
+                        {
+                            id: "d19-q17",
+                            type: "text",
+                            question: "Translate: 'For my sister' (die Schwester)",
+                            answer: "Für meine Schwester",
+                            explanation: "für + accusative (feminine no change: meine)"
+                        },
+                        {
+                            id: "d19-q18",
+                            type: "choice",
+                            question: "Error check: 'Ich gehe durch der Park.'",
+                            options: ["Correct", "Should be: durch den Park", "Should be: durch dem Park"],
+                            answer: "Should be: durch den Park",
+                            explanation: "durch + ACCUSATIVE: den Park (not dative dem)"
+                        },
+                        {
+                            id: "d19-q19",
+                            type: "text",
+                            question: "Complete: 'Ohne ___ kann ich nicht leben.' (you - du)",
+                            answer: "dich",
+                            explanation: "ohne + accusative pronoun: dich"
+                        },
+                        {
+                            id: "d19-q20",
+                            type: "choice",
+                            question: "Complete: 'Wir fahren ___ den Tunnel.' (through)",
+                            options: ["durch", "für", "gegen"],
+                            answer: "durch",
+                            explanation: "durch = through (+ accusative)"
+                        },
+                        {
+                            id: "d19-q21",
+                            type: "text",
+                            question: "Translate: 'I'm playing against him.'",
+                            answer: "Ich spiele gegen ihn.",
+                            explanation: "gegen + accusative pronoun: ihn"
+                        },
+                        {
+                            id: "d19-q22",
+                            type: "choice",
+                            question: "Complete: 'Das ist ___ dich.' (for you - du)",
+                            options: ["für", "ohne", "gegen"],
+                            answer: "für",
+                            explanation: "für + accusative: für dich"
+                        },
+                        {
+                            id: "d19-q23",
+                            type: "text",
+                            question: "Translate: 'Around the house' (das Haus)",
+                            answer: "Um das Haus",
+                            explanation: "um + accusative"
+                        },
+                        {
+                            id: "d19-q24",
+                            type: "choice",
+                            question: "All DOGFU prepositions take which case?",
+                            options: ["Accusative", "Dative", "Nominative"],
+                            answer: "Accusative",
+                            explanation: "DOGFU prepositions ALWAYS take accusative"
+                        },
+                        {
+                            id: "d19-q25",
+                            type: "text",
+                            question: "Complete: 'Ich laufe ___ den See.' (around the lake - der See)",
+                            answer: "um",
+                            explanation: "um + accusative: um den See"
                         }
                     ]
                 }
@@ -2639,6 +4102,149 @@ export const syllabusData: Phase[] = [
                             options: ["Accusative", "Nominative"],
                             answer: "Accusative",
                             explanation: "Für is always Accusative."
+                        },
+                        {
+                            id: "d20-q4",
+                            type: "choice",
+                            question: "Review: Modal verbs are:",
+                            options: ["können, wollen, müssen, dürfen, möchten", "sein, haben, werden", "machen, gehen, kommen"],
+                            answer: "können, wollen, müssen, dürfen, möchten",
+                            explanation: "The five modals covered: können, wollen, müssen, dürfen, möchten"
+                        },
+                        {
+                            id: "d20-q5",
+                            type: "text",
+                            question: "Review: Name all possessive pronouns for 'ich'",
+                            answer: "mein, meine",
+                            explanation: "mein (masc/neuter), meine (fem/plural)"
+                        },
+                        {
+                            id: "d20-q6",
+                            type: "choice",
+                            question: "Review: Which article changes in accusative?",
+                            options: ["Only masculine", "All three", "Only feminine"],
+                            answer: "Only masculine",
+                            explanation: "Only masculine: der→den, ein→einen"
+                        },
+                        {
+                            id: "d20-q7",
+                            type: "text",
+                            question: "Review: Say 2:30 informally",
+                            answer: "Halb drei",
+                            explanation: "halb refers to NEXT hour: halb drei = 2:30"
+                        },
+                        {
+                            id: "d20-q8",
+                            type: "choice",
+                            question: "Review: Separable verbs have prefix at:",
+                            options: ["End of sentence", "Position 2", "After subject"],
+                            answer: "End of sentence",
+                            explanation: "Prefix goes to the end: Ich stehe...auf"
+                        },
+                        {
+                            id: "d20-q9",
+                            type: "text",
+                            question: "Review: Translate 'I have a brother.'",
+                            answer: "Ich habe einen Bruder.",
+                            explanation: "Accusative: einen Bruder"
+                        },
+                        {
+                            id: "d20-q10",
+                            type: "choice",
+                            question: "Review: nicht dürfen means:",
+                            options: ["forbidden/not allowed", "not necessary", "cannot"],
+                            answer: "forbidden/not allowed",
+                            explanation: "nicht dürfen = forbidden"
+                        },
+                        {
+                            id: "d20-q11",
+                            type: "text",
+                            question: "Review: 'I would like coffee' (möchten)",
+                            answer: "Ich möchte Kaffee.",
+                            explanation: "möchten for polite requests"
+                        },
+                        {
+                            id: "d20-q12",
+                            type: "choice",
+                            question: "Review: DOGFU prepositions take which case?",
+                            options: ["Accusative", "Dative", "Nominative"],
+                            answer: "Accusative",
+                            explanation: "durch, ohne, gegen, für, um = accusative"
+                        },
+                        {
+                            id: "d20-q13",
+                            type: "text",
+                            question: "Review: Opposite of 'groß'?",
+                            answer: "klein",
+                            explanation: "groß (big) ↔ klein (small)"
+                        },
+                        {
+                            id: "d20-q14",
+                            type: "choice",
+                            question: "Review: What is 'das Bett'?",
+                            options: ["bed", "table", "chair"],
+                            answer: "bed",
+                            explanation: "das Bett = the bed"
+                        },
+                        {
+                            id: "d20-q15",
+                            type: "text",
+                            question: "Review: Translate 'My parents'",
+                            answer: "Meine Eltern",
+                            explanation: "Eltern always plural: meine Eltern"
+                        },
+                        {
+                            id: "d20-q16",
+                            type: "choice",
+                            question: "Review: 'Ich kann schwimmen' - infinitive position?",
+                            options: ["At the end", "After kann", "Position 2"],
+                            answer: "At the end",
+                            explanation: "Modal verbs send infinitive to end"
+                        },
+                        {
+                            id: "d20-q17",
+                            type: "text",
+                            question: "Review: Ask 'What time is it?'",
+                            answer: "Wie spät ist es?",
+                            explanation: "Or: Wie viel Uhr ist es?"
+                        },
+                        {
+                            id: "d20-q18",
+                            type: "choice",
+                            question: "Review: Predicative adjectives (after sein) have:",
+                            options: ["No endings", "Endings based on gender", "Always -e"],
+                            answer: "No endings",
+                            explanation: "Das Bett ist neu (no ending)"
+                        },
+                        {
+                            id: "d20-q19",
+                            type: "text",
+                            question: "Review: Translate 'We must go.'",
+                            answer: "Wir müssen gehen.",
+                            explanation: "wir müssen + infinitive"
+                        },
+                        {
+                            id: "d20-q20",
+                            type: "choice",
+                            question: "Review: 'Sonst noch etwas?' means:",
+                            options: ["Anything else?", "How much?", "Thank you"],
+                            answer: "Anything else?",
+                            explanation: "Standard shop phrase"
+                        },
+                        {
+                            id: "d20-q21",
+                            type: "text",
+                            question: "Phase 2 Complete! Name one modal verb you learned:",
+                            answer: "können/wollen/müssen/dürfen/möchten",
+                            explanation: "Any of the five modals is correct"
+                        },
+                        {
+                            id: "d20-q22",
+                            type: "choice",
+                            question: "Self-assessment: Rate your Phase 2 confidence (1-10)",
+                            options: ["Answers vary", "Answers vary", "Answers vary"],
+                            answer: "Answers vary",
+                            explanation: "Honest self-assessment helps identify areas for review"
                         }
                     ]
                 }
