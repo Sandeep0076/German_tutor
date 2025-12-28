@@ -5389,6 +5389,117 @@ export const syllabusData: Phase[] = [
                             question: "Translate: 'We worked.'",
                             answer: "Wir haben gearbeitet.",
                             explanation: "arbeiten -> gearbeitet. Special rule for -t stem."
+                        },
+                        {
+                            id: "d26-q6",
+                            type: "choice",
+                            question: "Auxiliary for 'machen' in Perfekt?",
+                            options: ["sein", "haben"],
+                            answer: "haben",
+                            explanation: "Most verbs use haben."
+                        },
+                        {
+                            id: "d26-q7",
+                            type: "text",
+                            question: "Form Perfekt: 'Ich spiele Fußball.'",
+                            answer: "Ich habe Fußball gespielt.",
+                            explanation: "ge-spiel-t pattern."
+                        },
+                        {
+                            id: "d26-q8",
+                            type: "choice",
+                            question: "Where does the participle go?",
+                            options: ["Position 2", "At the end"],
+                            answer: "At the end",
+                            explanation: "Participle goes to the end."
+                        },
+                        {
+                            id: "d26-q9",
+                            type: "text",
+                            question: "Form Perfekt: 'Wir lernen Deutsch.'",
+                            answer: "Wir haben Deutsch gelernt.",
+                            explanation: "ge-lern-t pattern."
+                        },
+                        {
+                            id: "d26-q10",
+                            type: "text",
+                            question: "Perfekt: 'Er arbeitet heute nicht.'",
+                            answer: "Er hat heute nicht gearbeitet.",
+                            explanation: "Negation before participle."
+                        },
+                        {
+                            id: "d26-q11",
+                            type: "choice",
+                            question: "Choose correct Perfekt: 'Sie (pl.) sagen etwas.'",
+                            options: ["Sie haben etwas gesagt.", "Sie sind etwas gesagt."],
+                            answer: "Sie haben etwas gesagt.",
+                            explanation: "haben + gesagt."
+                        },
+                        {
+                            id: "d26-q12",
+                            type: "text",
+                            question: "Perfekt: 'Ich kaufe Brot.'",
+                            answer: "Ich habe Brot gekauft.",
+                            explanation: "ge-kauf-t."
+                        },
+                        {
+                            id: "d26-q13",
+                            type: "choice",
+                            question: "Perfekt of 'fragen' (ich)?",
+                            options: ["Ich habe gefragt.", "Ich bin gefragt."],
+                            answer: "Ich habe gefragt.",
+                            explanation: "fragen → gefragt."
+                        },
+                        {
+                            id: "d26-q14",
+                            type: "text",
+                            question: "Perfekt: 'Ihr hört die Musik.'",
+                            answer: "Ihr habt die Musik gehört.",
+                            explanation: "haben + ge-hört."
+                        },
+                        {
+                            id: "d26-q15",
+                            type: "text",
+                            question: "Perfekt: 'Sie (sg.) spielt Tennis.'",
+                            answer: "Sie hat Tennis gespielt.",
+                            explanation: "Regular verb + haben."
+                        },
+                        {
+                            id: "d26-q16",
+                            type: "choice",
+                            question: "Pick correct: Perfekt word order",
+                            options: ["Ich habe gespielt gestern.", "Ich habe gestern gespielt."],
+                            answer: "Ich habe gestern gespielt.",
+                            explanation: "Time before participle."
+                        },
+                        {
+                            id: "d26-q17",
+                            type: "text",
+                            question: "Translate to Perfekt: 'We cooked yesterday.'",
+                            answer: "Wir haben gestern gekocht.",
+                            explanation: "Regular verb pattern."
+                        },
+                        {
+                            id: "d26-q18",
+                            type: "text",
+                            question: "Perfekt: 'Du lernst viel.'",
+                            answer: "Du hast viel gelernt.",
+                            explanation: "haben + gelernt."
+                        },
+                        {
+                            id: "d26-q19",
+                            type: "choice",
+                            question: "Perfekt of 'machen' (wir)?",
+                            options: ["Wir sind gemacht.", "Wir haben gemacht."],
+                            answer: "Wir haben gemacht.",
+                            explanation: "haben for regular verbs."
+                        },
+                        {
+                            id: "d26-q20",
+                            type: "text",
+                            question: "Perfekt: 'Ich höre Radio.'",
+                            answer: "Ich habe Radio gehört.",
+                            explanation: "ge-hört pattern."
                         }
                     ]
                 }
@@ -5455,6 +5566,116 @@ export const syllabusData: Phase[] = [
                             question: "Translate: 'She slept well.'",
                             answer: "Sie hat gut geschlafen.",
                             explanation: "schlafen -> geschlafen."
+                        },
+                        {
+                            id: "d27-q6",
+                            type: "choice",
+                            question: "Perfekt of 'sehen' (wir)?",
+                            options: ["Wir haben gesehen.", "Wir sind gesehen."],
+                            answer: "Wir haben gesehen.",
+                            explanation: "sehen → gesehen."
+                        },
+                        {
+                            id: "d27-q7",
+                            type: "text",
+                            question: "Perfekt: 'Ich schreibe einen Brief.'",
+                            answer: "Ich habe einen Brief geschrieben.",
+                            explanation: "schreiben → geschrieben."
+                        },
+                        {
+                            id: "d27-q8",
+                            type: "choice",
+                            question: "Perfekt of 'essen' (sie - sg.)?",
+                            options: ["Sie hat gegessen.", "Sie ist gegessen."],
+                            answer: "Sie hat gegessen.",
+                            explanation: "essen → gegessen."
+                        },
+                        {
+                            id: "d27-q9",
+                            type: "text",
+                            question: "Perfekt: 'Du trinkst Wasser.'",
+                            answer: "Du hast Wasser getrunken.",
+                            explanation: "trinken → getrunken."
+                        },
+                        {
+                            id: "d27-q10",
+                            type: "text",
+                            question: "Perfekt: 'Ich nehme den Bus.'",
+                            answer: "Ich habe den Bus genommen.",
+                            explanation: "nehmen → genommen."
+                        },
+                        {
+                            id: "d27-q11",
+                            type: "choice",
+                            question: "Perfekt of 'geben' (er)?",
+                            options: ["Er hat gegeben.", "Er ist gegeben."],
+                            answer: "Er hat gegeben.",
+                            explanation: "geben → gegeben."
+                        },
+                        {
+                            id: "d27-q12",
+                            type: "text",
+                            question: "Perfekt: 'Sie (pl.) finden das Haus.'",
+                            answer: "Sie haben das Haus gefunden.",
+                            explanation: "finden → gefunden."
+                        },
+                        {
+                            id: "d27-q13",
+                            type: "text",
+                            question: "Perfekt: 'Wir beginnen um 8 Uhr.'",
+                            answer: "Wir haben um 8 Uhr begonnen.",
+                            explanation: "beginnen → begonnen."
+                        },
+                        {
+                            id: "d27-q14",
+                            type: "choice",
+                            question: "Perfekt of 'helfen' (ich)?",
+                            options: ["Ich habe geholfen.", "Ich bin geholfen."],
+                            answer: "Ich habe geholfen.",
+                            explanation: "helfen → geholfen."
+                        },
+                        {
+                            id: "d27-q15",
+                            type: "text",
+                            question: "Perfekt: 'Ihr versteht die Aufgabe.'",
+                            answer: "Ihr habt die Aufgabe verstanden.",
+                            explanation: "verstehen → verstanden."
+                        },
+                        {
+                            id: "d27-q16",
+                            type: "text",
+                            question: "Perfekt: 'Er schreibt E-Mails.'",
+                            answer: "Er hat E-Mails geschrieben.",
+                            explanation: "schreiben → geschrieben."
+                        },
+                        {
+                            id: "d27-q17",
+                            type: "choice",
+                            question: "Choose correct Perfekt: 'Ich (sprechen) mit ihm.'",
+                            options: ["Ich habe mit ihm gesprochen.", "Ich bin mit ihm gesprochen."],
+                            answer: "Ich habe mit ihm gesprochen.",
+                            explanation: "sprechen → gesprochen."
+                        },
+                        {
+                            id: "d27-q18",
+                            type: "text",
+                            question: "Perfekt: 'Sie (sg.) liest ein Buch.'",
+                            answer: "Sie hat ein Buch gelesen.",
+                            explanation: "lesen → gelesen."
+                        },
+                        {
+                            id: "d27-q19",
+                            type: "text",
+                            question: "Perfekt: 'Wir treffen Freunde.'",
+                            answer: "Wir haben Freunde getroffen.",
+                            explanation: "treffen → getroffen."
+                        },
+                        {
+                            id: "d27-q20",
+                            type: "text",
+                            question: "Perfekt: 'Ich vergesse den Namen.'",
+                            answer: "Ich habe den Namen vergessen.",
+                            explanation: "vergessen → vergessen (inseparable)."
                         }
                     ]
                 }
@@ -5523,6 +5744,116 @@ export const syllabusData: Phase[] = [
                             question: "Translate: 'You (du) swam in the sea.'",
                             answer: "Du bist im Meer geschwommen.",
                             explanation: "'schwimmen' implies movement and takes 'sein'."
+                        },
+                        {
+                            id: "d28-q6",
+                            type: "text",
+                            question: "Perfekt: 'Ich gehe nach Hause.'",
+                            answer: "Ich bin nach Hause gegangen.",
+                            explanation: "Movement → sein."
+                        },
+                        {
+                            id: "d28-q7",
+                            type: "choice",
+                            question: "Perfekt of 'kommen' (wir)?",
+                            options: ["Wir sind gekommen.", "Wir haben gekommen."],
+                            answer: "Wir sind gekommen.",
+                            explanation: "kommen → sein."
+                        },
+                        {
+                            id: "d28-q8",
+                            type: "text",
+                            question: "Perfekt: 'Er fährt nach Berlin.'",
+                            answer: "Er ist nach Berlin gefahren.",
+                            explanation: "fahren → sein."
+                        },
+                        {
+                            id: "d28-q9",
+                            type: "choice",
+                            question: "Perfekt of 'bleiben' (sie - sg.)?",
+                            options: ["Sie ist geblieben.", "Sie hat geblieben."],
+                            answer: "Sie ist geblieben.",
+                            explanation: "bleiben → sein."
+                        },
+                        {
+                            id: "d28-q10",
+                            type: "text",
+                            question: "Perfekt: 'Wir laufen im Park.'",
+                            answer: "Wir sind im Park gelaufen.",
+                            explanation: "laufen → sein (movement)."
+                        },
+                        {
+                            id: "d28-q11",
+                            type: "text",
+                            question: "Perfekt: 'Er steht früh auf.'",
+                            answer: "Er ist früh aufgestanden.",
+                            explanation: "aufstehen → sein."
+                        },
+                        {
+                            id: "d28-q12",
+                            type: "choice",
+                            question: "Perfekt of 'werden' (sie - pl.)?",
+                            options: ["Sie sind geworden.", "Sie haben geworden."],
+                            answer: "Sie sind geworden.",
+                            explanation: "werden → sein."
+                        },
+                        {
+                            id: "d28-q13",
+                            type: "text",
+                            question: "Perfekt: 'Ich reise nach Köln.'",
+                            answer: "Ich bin nach Köln gereist.",
+                            explanation: "reisen → sein."
+                        },
+                        {
+                            id: "d28-q14",
+                            type: "text",
+                            question: "Perfekt: 'Ihr kommt spät.'",
+                            answer: "Ihr seid spät gekommen.",
+                            explanation: "kommen → sein."
+                        },
+                        {
+                            id: "d28-q15",
+                            type: "choice",
+                            question: "Pick correct: 'schwimmen' Perfekt (er)",
+                            options: ["Er ist geschwommen.", "Er hat geschwommen."],
+                            answer: "Er ist geschwommen.",
+                            explanation: "schwimmen → sein (movement)."
+                        },
+                        {
+                            id: "d28-q16",
+                            type: "text",
+                            question: "Perfekt: 'Sie (sg.) fliegt nach München.'",
+                            answer: "Sie ist nach München geflogen.",
+                            explanation: "fliegen → sein (movement)."
+                        },
+                        {
+                            id: "d28-q17",
+                            type: "text",
+                            question: "Perfekt: 'Ich bin zu Hause.'",
+                            answer: "Ich bin zu Hause gewesen.",
+                            explanation: "sein → sein + gewesen."
+                        },
+                        {
+                            id: "d28-q18",
+                            type: "choice",
+                            question: "Perfekt of 'laufen' (du)?",
+                            options: ["Du bist gelaufen.", "Du hast gelaufen."],
+                            answer: "Du bist gelaufen.",
+                            explanation: "laufen → sein."
+                        },
+                        {
+                            id: "d28-q19",
+                            type: "text",
+                            question: "Perfekt: 'Wir fahren mit dem Zug.'",
+                            answer: "Wir sind mit dem Zug gefahren.",
+                            explanation: "fahren → sein."
+                        },
+                        {
+                            id: "d28-q20",
+                            type: "text",
+                            question: "Perfekt: 'Die Kinder wachsen schnell.'",
+                            answer: "Die Kinder sind schnell gewachsen.",
+                            explanation: "wachsen → sein (change of state)."
                         }
                     ]
                 }
@@ -5541,7 +5872,28 @@ export const syllabusData: Phase[] = [
                             examples: []
                         }
                     ],
-                    homework: [{ id: "d29-q1", type: "text", question: "Translate: 'I was at home.' (Präteritum of sein)", answer: "Ich war zu Hause.", explanation: "Sein generally uses Präteritum 'war'." }]
+                    homework: [
+                        { id: "d29-q1", type: "text", question: "Translate: 'I was at home.' (Präteritum of sein)", answer: "Ich war zu Hause.", explanation: "Sein generally uses Präteritum 'war'." },
+                        { id: "d29-q2", type: "choice", question: "Perfekt: 'Ich (gehen) ins Kino.'", options: ["Ich bin ins Kino gegangen.", "Ich habe ins Kino gegangen."], answer: "Ich bin ins Kino gegangen.", explanation: "gehen → sein." },
+                        { id: "d29-q3", type: "choice", question: "Perfekt: 'Wir (kaufen) Brot.'", options: ["Wir haben Brot gekauft.", "Wir sind Brot gekauft."], answer: "Wir haben Brot gekauft.", explanation: "kaufen → haben." },
+                        { id: "d29-q4", type: "choice", question: "Perfekt: 'Er (kommen) früh.'", options: ["Er ist früh gekommen.", "Er hat früh gekommen."], answer: "Er ist früh gekommen.", explanation: "kommen → sein." },
+                        { id: "d29-q5", type: "text", question: "Perfekt: 'Sie (pl.) lernen viel.'", answer: "Sie haben viel gelernt.", explanation: "lernen → haben." },
+                        { id: "d29-q6", type: "text", question: "Perfekt: 'Ich (fahren) nach München.'", answer: "Ich bin nach München gefahren.", explanation: "fahren → sein." },
+                        { id: "d29-q7", type: "choice", question: "Pick auxiliary: 'bleiben'", options: ["haben", "sein"], answer: "sein", explanation: "bleiben uses sein." },
+                        { id: "d29-q8", type: "text", question: "Perfekt: 'Wir (sehen) den Film.'", answer: "Wir haben den Film gesehen.", explanation: "sehen → haben." },
+                        { id: "d29-q9", type: "choice", question: "Perfekt: 'Sie (sg.) (laufen) schnell.'", options: ["Sie ist schnell gelaufen.", "Sie hat schnell gelaufen."], answer: "Sie ist schnell gelaufen.", explanation: "laufen → sein." },
+                        { id: "d29-q10", type: "text", question: "Perfekt: 'Du (schreiben) eine E-Mail.'", answer: "Du hast eine E-Mail geschrieben.", explanation: "schreiben → haben." },
+                        { id: "d29-q11", type: "choice", question: "Perfekt: 'Ich (aufstehen) um 7 Uhr.'", options: ["Ich bin um 7 Uhr aufgestanden.", "Ich habe um 7 Uhr aufgestanden."], answer: "Ich bin um 7 Uhr aufgestanden.", explanation: "aufstehen → sein." },
+                        { id: "d29-q12", type: "text", question: "Perfekt: 'Er (arbeiten) gestern.'", answer: "Er hat gestern gearbeitet.", explanation: "arbeiten → haben." },
+                        { id: "d29-q13", type: "text", question: "Perfekt: 'Wir (kommen) spät nach Hause.'", answer: "Wir sind spät nach Hause gekommen.", explanation: "kommen → sein." },
+                        { id: "d29-q14", type: "choice", question: "Choose correct: 'reisen'", options: ["hat gereist", "ist gereist"], answer: "ist gereist", explanation: "reisen → sein." },
+                        { id: "d29-q15", type: "text", question: "Perfekt: 'Ich (nehmen) den Zug.'", answer: "Ich habe den Zug genommen.", explanation: "nehmen → haben." },
+                        { id: "d29-q16", type: "text", question: "Perfekt: 'Sie (pl.) (gehen) ins Büro.'", answer: "Sie sind ins Büro gegangen.", explanation: "gehen → sein." },
+                        { id: "d29-q17", type: "choice", question: "Perfekt: 'Wir (essen) Pizza.'", options: ["Wir haben Pizza gegessen.", "Wir sind Pizza gegessen."], answer: "Wir haben Pizza gegessen.", explanation: "essen → haben." },
+                        { id: "d29-q18", type: "text", question: "Perfekt: 'Er (werden) Arzt.'", answer: "Er ist Arzt geworden.", explanation: "werden → sein." },
+                        { id: "d29-q19", type: "text", question: "Perfekt: 'Ich (trinken) Kaffee.'", answer: "Ich habe Kaffee getrunken.", explanation: "trinken → haben." },
+                        { id: "d29-q20", type: "choice", question: "Perfekt: 'Sie (fliegen) nach Berlin.'", options: ["Sie ist nach Berlin geflogen.", "Sie hat nach Berlin geflogen."], answer: "Sie ist nach Berlin geflogen.", explanation: "fliegen → sein." }
+                    ]
                 }
             },
             {
@@ -5558,7 +5910,28 @@ export const syllabusData: Phase[] = [
                             examples: []
                         }
                     ],
-                    homework: [{ id: "d30-q1", type: "text", question: "Dative of 'die Kinder'?", answer: "den Kindern", explanation: "Plural Dative adds -n." }]
+                    homework: [
+                        { id: "d30-q1", type: "text", question: "Dative of 'die Kinder'?", answer: "den Kindern", explanation: "Plural Dative adds -n." },
+                        { id: "d30-q2", type: "choice", question: "Complete: 'Ich danke ___ (der Lehrer).'", options: ["dem Lehrer", "den Lehrer"], answer: "dem Lehrer", explanation: "danken takes dative." },
+                        { id: "d30-q3", type: "text", question: "Rewrite with inversion: 'Ich gehe heute ins Kino.'", answer: "Heute gehe ich ins Kino.", explanation: "Time expression + inversion." },
+                        { id: "d30-q4", type: "text", question: "Perfekt: 'Sie (sg.) geht einkaufen.'", answer: "Sie ist einkaufen gegangen.", explanation: "gehen → sein." },
+                        { id: "d30-q5", type: "choice", question: "Which verb takes dative?", options: ["helfen", "sehen"], answer: "helfen", explanation: "helfen requires dative object." },
+                        { id: "d30-q6", type: "text", question: "Imperative (Sie): 'nehmen Sie die erste Straße'", answer: "Nehmen Sie die erste Straße!", explanation: "Formal imperative." },
+                        { id: "d30-q7", type: "text", question: "Perfekt: 'Wir trinken Bier.'", answer: "Wir haben Bier getrunken.", explanation: "trinken → haben + getrunken." },
+                        { id: "d30-q8", type: "choice", question: "Complete: 'Das Buch gehört ___ (ich).'", options: ["mir", "mich"], answer: "mir", explanation: "gehören takes dative." },
+                        { id: "d30-q9", type: "text", question: "Translate: 'Turn left!' (formal)", answer: "Biegen Sie links ab!", explanation: "Formal imperative + direction." },
+                        { id: "d30-q10", type: "text", question: "Perfekt: 'Er kommt zu spät.'", answer: "Er ist zu spät gekommen.", explanation: "kommen → sein." },
+                        { id: "d30-q11", type: "choice", question: "Which preposition is dative-only?", options: ["für", "mit"], answer: "mit", explanation: "mit always takes dative." },
+                        { id: "d30-q12", type: "text", question: "Complete inversion: '___ lernen wir Deutsch.' (On Monday)", answer: "Am Montag", explanation: "Time expression for inversion." },
+                        { id: "d30-q13", type: "text", question: "Perfekt: 'Ich lese ein Buch.'", answer: "Ich habe ein Buch gelesen.", explanation: "lesen → haben + gelesen." },
+                        { id: "d30-q14", type: "choice", question: "Dative pronoun for 'du'?", options: ["dir", "dich"], answer: "dir", explanation: "dir is dative, dich is accusative." },
+                        { id: "d30-q15", type: "text", question: "Imperative (du): 'sein Sie nett'", answer: "Sei nett!", explanation: "du-form imperative of sein." },
+                        { id: "d30-q16", type: "text", question: "Perfekt: 'Sie (pl.) fahren nach Hause.'", answer: "Sie sind nach Hause gefahren.", explanation: "fahren → sein." },
+                        { id: "d30-q17", type: "choice", question: "Complete: 'Ich wohne ___ meinen Eltern.' (with)", options: ["bei", "für"], answer: "bei", explanation: "bei = with/at (dative)." },
+                        { id: "d30-q18", type: "text", question: "Translate with inversion: 'In the evening I watch TV.'", answer: "Am Abend sehe ich fern.", explanation: "Time + inversion + separable verb." },
+                        { id: "d30-q19", type: "text", question: "Perfekt: 'Du hilfst mir.'", answer: "Du hast mir geholfen.", explanation: "helfen → haben + geholfen." },
+                        { id: "d30-q20", type: "choice", question: "Complete Phase 3 review: Which tense for completed actions?", options: ["Perfekt", "Präsens"], answer: "Perfekt", explanation: "Perfect tense for completed past actions." }
+                    ]
                 }
             }
         ]
