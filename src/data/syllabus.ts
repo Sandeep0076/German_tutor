@@ -616,28 +616,49 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. Regular Verb Conjugation (The 'EN' Rule)",
-                            content: "Verbs are the engine of the sentence. Regular verbs follow a strict pattern.\n\n**Pattern:** Remove '-en' from the infinitive (e.g., *kommen* -> *komm*), then add endings:\n* ich: **-e** (komme)\n* du: **-st** (kommst)\n* er/sie/es: **-t** (kommt)\n* wir: **-en** (kommen)\n* ihr: **-t** (kommt)\n* sie/Sie: **-en** (kommen)\n\n**Common Regular Verbs:** *machen* (to do), *lernen* (to learn), *hören* (to hear), *sagen* (to say), *trinken* (to drink), *spielen* (to play).",
+                            content: "Verbs are the engine of the sentence. Regular verbs follow a strict pattern that you must master to communicate effectively.\n\n**The Pattern:** Remove '-en' from the infinitive (e.g., *kommen* -> *komm*), then add specific endings:\n* **ich**: **-e** (komme, lerne, spiele)\n* **du**: **-st** (kommst, lernst, spielst)\n* **er/sie/es**: **-t** (kommt, lernt, spielt)\n* **wir**: **-en** (kommen, lernen, spielen)\n* **ihr**: **-t** (kommt, lernt, spielt)\n* **sie/Sie**: **-en** (kommen, lernen, spielen)\n\n**Important Notes:**\n- The 'wir' and 'sie/Sie' forms are identical to the infinitive\n- The 'ihr' and 'er/sie/es' forms both end in '-t'\n- Always remember: verb stem + ending\n\n**Essential Regular Verbs for A1:**\n* **machen** (to do/make) - ich mache, du machst, er macht\n* **lernen** (to learn) - ich lerne, du lernst, sie lernt\n* **hören** (to hear) - ich höre, du hörst, wir hören\n* **sagen** (to say) - ich sage, du sagst, ihr sagt\n* **trinken** (to drink) - ich trinke, du trinkst, sie trinken\n* **spielen** (to play) - ich spiele, du spielst, er spielt\n* **wohnen** (to live) - ich wohne, du wohnst, wir wohnen\n* **arbeiten** (to work) - ich arbeite, du arbeitest, sie arbeitet\n* **kochen** (to cook) - ich koche, du kochst, er kocht\n* **kaufen** (to buy) - ich kaufe, du kaufst, sie kaufen",
                             examples: [
                                 { german: "Was machst du?", english: "What are you doing?" },
                                 { german: "Wir lernen zusammen.", english: "We are learning together." },
-                                { german: "Ich trinke Wasser.", english: "I drink water." }
+                                { german: "Ich trinke Wasser.", english: "I drink water." },
+                                { german: "Sie arbeitet in Berlin.", english: "She works in Berlin." },
+                                { german: "Ihr spielt Fußball.", english: "You (plural) play football." },
+                                { german: "Er kocht gern.", english: "He likes to cook." }
                             ]
                         },
                         {
-                            title: "2. Sentence Structure (Position 2)",
-                            content: "The Golden Rule: **The conjugated verb is ALWAYS in position 2.**\n\n* **Standard (Subject first):**\n  * [Ich] [komme] [heute] [nach Hause].\n  * (1) Subject, (2) Verb, (3) Time, (4) Place.\n\n* **Inversion (Emphasis):** If you start with Time or Place, the Verb STAYS in position 2, and the Subject moves to position 3.\n  * [Heute] [komme] [ich] [nach Hause].\n  * (1) Time, (2) Verb, (3) Subject.",
+                            title: "2. Sentence Structure (Position 2 Rule)",
+                            content: "The Golden Rule: **The conjugated verb is ALWAYS in position 2.** This is the backbone of German sentence structure.\n\n**Standard Word Order (Subject-Verb-Object):**\n* **Position 1:** Subject (Ich, Du, Er, etc.)\n* **Position 2:** Conjugated Verb (bin, machst, lernt, etc.)\n* **Position 3+:** Other elements (Time, Manner, Place)\n\n**Formula:** [Subject] [Verb] [Time] [Manner] [Place]\n\n**Examples of Standard Order:**\n* Ich komme heute nach Hause. (I come home today)\n* Du lernst jeden Tag Deutsch. (You learn German every day)\n* Wir spielen morgen Fußball. (We play football tomorrow)\n\n**Inversion (Emphasis/Style):**\nIf you start with something other than the subject, the verb STILL stays in position 2, but the subject moves to position 3.\n\n**Formula:** [Time/Place/Object] [Verb] [Subject] [Rest]\n\n**Examples of Inversion:**\n* Heute komme ich nach Hause. (Today I come home)\n* Jeden Tag lernst du Deutsch. (Every day you learn German)\n* Morgen spielen wir Fußball. (Tomorrow we play football)\n\n**When to Use Inversion:**\n- To emphasize time, place, or manner\n- To create variety in your speaking/writing\n- To answer questions that start with 'Wann?' (When?) or 'Wo?' (Where?)\n\n**Question Formation:**\nFor Yes/No questions, start with the verb:\n* Kommst du heute? (Are you coming today?)\n* Lernt ihr Deutsch? (Are you learning German?)",
                             examples: [
-                                { german: "Ich wohne in Berlin.", english: "I live in Berlin." },
-                                { german: "In Berlin wohne ich.", english: "In Berlin live I. (Correct structure!)" },
-                                { german: "Morgen lerne ich Deutsch.", english: "Tomorrow I learn German." }
+                                { german: "Ich wohne in Berlin.", english: "I live in Berlin. (Standard)" },
+                                { german: "In Berlin wohne ich.", english: "In Berlin I live. (Inversion)" },
+                                { german: "Morgen lerne ich Deutsch.", english: "Tomorrow I learn German. (Inversion)" },
+                                { german: "Sie macht heute Hausaufgaben.", english: "She does homework today. (Standard)" },
+                                { german: "Heute macht sie Hausaufgaben.", english: "Today she does homework. (Inversion)" },
+                                { german: "Spielst du Tennis?", english: "Do you play tennis? (Question)" }
                             ]
                         },
                         {
-                            title: "3. Extending Sentences",
-                            content: "Use 'und' (and) or 'aber' (but) to connect two main sentences. These words occupy position 0 (they don't count for position 2).\n\n* Ich bin müde, **aber** ich lerne.",
+                            title: "3. Connecting Sentences with Coordinating Conjunctions",
+                            content: "To express more complex ideas, you can connect two complete sentences using coordinating conjunctions. These conjunctions occupy 'position 0' - they don't count toward the position 2 rule.\n\n**Main Coordinating Conjunctions:**\n* **und** (and) - adds information\n* **aber** (but) - shows contrast\n* **oder** (or) - shows alternatives\n* **denn** (because) - gives reasons\n* **sondern** (but rather) - corrects information\n\n**Structure:** [Sentence 1], [conjunction] [Sentence 2]\n\n**Important:** Each part maintains normal word order (verb in position 2).\n\n**Usage Rules:**\n- **aber vs sondern:** Use 'aber' after positive statements, 'sondern' after negative statements\n- **denn:** Always preceded by a comma\n- **und/oder:** Can be used with or without comma\n\n**Advanced Sentence Building:**\nCombine different elements to create natural-sounding German:\n* Time + Activity: \"Heute lerne ich, aber morgen arbeite ich.\"\n* Reason + Result: \"Ich bin müde, denn ich arbeite viel.\"\n* Contrast: \"Er spielt gern Fußball, aber sie spielt lieber Tennis.\"",
                             examples: [
-                                { german: "Der Kaffee ist gut und er ist billig.", english: "The coffee is good and it is cheap." },
-                                { german: "Ich möchte kommen, aber ich habe keine Zeit.", english: "I would like to come, but I have no time." }
+                                { german: "Ich lerne Deutsch und sie lernt Englisch.", english: "I learn German and she learns English." },
+                                { german: "Er ist müde, aber er arbeitet noch.", english: "He is tired, but he is still working." },
+                                { german: "Wir spielen Fußball oder wir gehen ins Kino.", english: "We play football or we go to the cinema." },
+                                { german: "Sie kommt nicht heute, sondern morgen.", english: "She's not coming today, but rather tomorrow." },
+                                { german: "Ich trinke Kaffee, denn ich bin müde.", english: "I drink coffee because I am tired." },
+                                { german: "Heute arbeite ich, aber morgen spiele ich.", english: "Today I work, but tomorrow I play." }
+                            ]
+                        },
+                        {
+                            title: "4. Common Verb Patterns and Irregularities",
+                            content: "While most verbs are regular, some common verbs have slight variations you should know:\n\n**Verbs ending in -t, -d, -n, -m:**\nAdd an extra 'e' before the ending for 'du' and 'ihr' forms:\n* **arbeiten:** du arbeit**e**st, ihr arbeit**e**t\n* **finden:** du find**e**st, ihr find**e**t\n* **öffnen:** du öffn**e**st, ihr öffn**e**t\n\n**Verbs ending in -s, -ss, -ß, -z:**\nDrop one 's' in the 'du' form:\n* **heißen:** du heißt (not heißst)\n* **tanzen:** du tanzt (not tanzst)\n\n**Practice Conjugations:**\nMaster these essential verbs:\n* **leben** (to live): ich lebe, du lebst, er lebt\n* **suchen** (to search): ich suche, du suchst, wir suchen\n* **fragen** (to ask): ich frage, du fragst, sie fragen\n* **antworten** (to answer): ich antworte, du antwortest, ihr antwortet\n* **brauchen** (to need): ich brauche, du brauchst, sie braucht",
+                            examples: [
+                                { german: "Wie heißt du?", english: "What is your name?" },
+                                { german: "Du arbeitest zu viel.", english: "You work too much." },
+                                { german: "Wir tanzen gern.", english: "We like to dance." },
+                                { german: "Sie antwortet schnell.", english: "She answers quickly." },
+                                { german: "Ich brauche Hilfe.", english: "I need help." }
                             ]
                         }
                     ],
@@ -647,7 +668,7 @@ export const syllabusData: Phase[] = [
                             type: "text",
                             question: "Conjugate 'trinken' for 'du'.",
                             answer: "trinkst",
-                            explanation: "Stem 'trink' + 'st'."
+                            explanation: "Stem 'trink' + 'st' = trinkst."
                         },
                         {
                             id: "d6-q2",
@@ -662,7 +683,150 @@ export const syllabusData: Phase[] = [
                             type: "text",
                             question: "Translate: 'I play football'.",
                             answer: "Ich spiele Fußball.",
-                            explanation: "Standard SVO sentence."
+                            explanation: "Standard SVO sentence: Ich spiele Fußball."
+                        },
+                        {
+                            id: "d6-q4",
+                            type: "choice",
+                            question: "Conjugate 'lernen' for 'er'.",
+                            options: ["lernt", "lerne", "lernst"],
+                            answer: "lernt",
+                            explanation: "Third person singular: er lernt (stem + t)."
+                        },
+                        {
+                            id: "d6-q5",
+                            type: "text",
+                            question: "Conjugate 'machen' for 'wir'.",
+                            answer: "machen",
+                            explanation: "First person plural: wir machen (same as infinitive)."
+                        },
+                        {
+                            id: "d6-q6",
+                            type: "choice",
+                            question: "Correct sentence: 'Morgen / ich / arbeite'.",
+                            options: ["Morgen ich arbeite.", "Morgen arbeite ich.", "Ich arbeite morgen."],
+                            answer: "Morgen arbeite ich.",
+                            explanation: "Inversion: Time element first, verb second, subject third."
+                        },
+                        {
+                            id: "d6-q7",
+                            type: "text",
+                            question: "Conjugate 'hören' for 'ihr'.",
+                            answer: "hört",
+                            explanation: "Second person plural: ihr hört (stem + t)."
+                        },
+                        {
+                            id: "d6-q8",
+                            type: "choice",
+                            question: "Which conjunction means 'but' (contrast)?",
+                            options: ["und", "aber", "oder"],
+                            answer: "aber",
+                            explanation: "'Aber' expresses contrast or contradiction."
+                        },
+                        {
+                            id: "d6-q9",
+                            type: "text",
+                            question: "Complete: 'Du _____ Deutsch.' (lernen)",
+                            answer: "lernst",
+                            explanation: "Second person singular: du lernst (stem + st)."
+                        },
+                        {
+                            id: "d6-q10",
+                            type: "choice",
+                            question: "Correct order: 'Sie / heute / kocht'.",
+                            options: ["Sie kocht heute.", "Heute sie kocht.", "Kocht sie heute?"],
+                            answer: "Sie kocht heute.",
+                            explanation: "Standard word order: Subject + Verb + Time."
+                        },
+                        {
+                            id: "d6-q11",
+                            type: "text",
+                            question: "Conjugate 'wohnen' for 'sie' (plural).",
+                            answer: "wohnen",
+                            explanation: "Third person plural: sie wohnen (same as infinitive)."
+                        },
+                        {
+                            id: "d6-q12",
+                            type: "choice",
+                            question: "Transform to inversion: 'Wir spielen morgen.'",
+                            options: ["Morgen spielen wir.", "Morgen wir spielen.", "Spielen wir morgen?"],
+                            answer: "Morgen spielen wir.",
+                            explanation: "Time first, verb second, subject third."
+                        },
+                        {
+                            id: "d6-q13",
+                            type: "text",
+                            question: "Complete: 'Er _____ gern Musik.' (hören)",
+                            answer: "hört",
+                            explanation: "Third person singular: er hört (stem + t)."
+                        },
+                        {
+                            id: "d6-q14",
+                            type: "choice",
+                            question: "Which word connects two sentences with 'because'?",
+                            options: ["aber", "denn", "und"],
+                            answer: "denn",
+                            explanation: "'Denn' means 'because' and gives a reason."
+                        },
+                        {
+                            id: "d6-q15",
+                            type: "text",
+                            question: "Conjugate 'arbeiten' for 'du'.",
+                            answer: "arbeitest",
+                            explanation: "Special case: du arbeitest (add extra 'e' before 'st')."
+                        },
+                        {
+                            id: "d6-q16",
+                            type: "choice",
+                            question: "Make a question: 'Du kommst heute.'",
+                            options: ["Kommst du heute?", "Du kommst heute?", "Heute kommst du?"],
+                            answer: "Kommst du heute?",
+                            explanation: "Yes/No question: Verb first, then subject."
+                        },
+                        {
+                            id: "d6-q17",
+                            type: "text",
+                            question: "Complete: 'Ich _____ jeden Tag.' (kochen)",
+                            answer: "koche",
+                            explanation: "First person singular: ich koche (stem + e)."
+                        },
+                        {
+                            id: "d6-q18",
+                            type: "choice",
+                            question: "Correct conjunction: 'Ich lerne Deutsch ___ es ist schwer.'",
+                            options: ["aber", "und", "oder"],
+                            answer: "aber",
+                            explanation: "'But' shows contrast between learning and difficulty."
+                        },
+                        {
+                            id: "d6-q19",
+                            type: "text",
+                            question: "Conjugate 'sagen' for 'Sie' (formal).",
+                            answer: "sagen",
+                            explanation: "Formal 'Sie': Sie sagen (same as infinitive)."
+                        },
+                        {
+                            id: "d6-q20",
+                            type: "choice",
+                            question: "Emphasize time: 'Ich kaufe heute ein.'",
+                            options: ["Heute kaufe ich ein.", "Kaufe ich heute ein.", "Heute ich kaufe ein."],
+                            answer: "Heute kaufe ich ein.",
+                            explanation: "Inversion for emphasis: Time + Verb + Subject."
+                        },
+                        {
+                            id: "d6-q21",
+                            type: "text",
+                            question: "Complete: 'Ihr _____ sehr gut.' (spielen)",
+                            answer: "spielt",
+                            explanation: "Second person plural: ihr spielt (stem + t)."
+                        },
+                        {
+                            id: "d6-q22",
+                            type: "choice",
+                            question: "Complete: 'Ich bin müde, ___ ich lerne.'",
+                            options: ["aber", "und", "sondern"],
+                            answer: "aber",
+                            explanation: "'But' shows contrast between being tired and studying."
                         }
                     ]
                 }
@@ -676,30 +840,61 @@ export const syllabusData: Phase[] = [
                 details: {
                     sections: [
                         {
-                            title: "1. The Big 3: Der, Die, Das (Gender)",
-                            content: "Grammar gender is random, but there are some helpers:\n\n* **Der (Masculine):** Days (Montag), Months (Mai), Seasons, Directions (Nord), Alcohol & Cars (*mostly*).\n* **Die (Feminine):** Endings: -ung, -heit, -keit, -schaft, -tät, -ion, -ei. Numbers (die Eins), Fruits (*mostly*).\n* **Das (Neutral):** Endings: -chen, -lein (diminutives), -ment, -um. Colors, Metals.",
+                            title: "1. The German Gender System: Der, Die, Das",
+                            content: "Every German noun has one of three genders: masculine, feminine, or neuter. This is grammatical gender, not biological gender - it's a classification system that affects articles, adjectives, and pronouns.\n\n**The Three Articles:**\n* **der** (masculine) - approximately 35% of nouns\n* **die** (feminine) - approximately 40% of nouns  \n* **das** (neuter) - approximately 25% of nouns\n\n**Why Gender Matters:**\n- Determines which article to use (der/die/das)\n- Affects adjective endings (later lessons)\n- Changes in different cases (Accusative, Dative, Genitive)\n- Essential for pronoun replacement (er/sie/es)\n\n**Learning Strategy:**\nALWAYS learn nouns with their articles! Never memorize just 'Tisch' - always learn 'der Tisch'. Think of the article as part of the word itself.\n\n**Gender Memory Tips:**\n1. **Masculine (der):** Days of the week, months, seasons, directions, weather phenomena, alcoholic drinks, most car brands\n2. **Feminine (die):** Most fruits, flowers, most countries ending in -e, numbers as nouns, most rivers\n3. **Neuter (das):** Colors as nouns, metals, most countries without -e ending, diminutives",
                             examples: [
-                                { german: "die Freiheit", english: "Freedom (-heit = die)" },
-                                { german: "das Mädchen", english: "Girl (-chen = das)" },
-                                { german: "der Mercedes", english: "The Mercedes (Car = der)" }
+                                { german: "der Montag, der Januar, der Sommer", english: "Monday, January, summer (all masculine)" },
+                                { german: "die Banane, die Rose, die Schweiz", english: "banana, rose, Switzerland (all feminine)" },
+                                { german: "das Rot, das Gold, das Deutschland", english: "the color red, gold, Germany (all neuter)" },
+                                { german: "der Mercedes, der Wein, der Norden", english: "Mercedes, wine, north (all masculine)" },
+                                { german: "die Drei, die Donau, die Türkei", english: "the number three, Danube river, Turkey (all feminine)" }
                             ]
                         },
                         {
-                            title: "2. The Indefinite Article (Ein/Eine)",
-                            content: "Used for 'a' or 'an'.\n\n* **Masculine (der) -> ein**\n* **Neutral (das) -> ein**\n* **Feminine (die) -> eine**\n* **Plural:** No indefinite article (like English 'books', not 'a books').",
+                            title: "2. Gender Rules Based on Word Endings",
+                            content: "While gender can seem random, there are reliable patterns based on word endings. Learning these rules will help you predict gender for unknown words.\n\n**MASCULINE Endings (der):**\n* **-er**: der Lehrer (teacher), der Computer, der Finger\n* **-el**: der Apfel (apple), der Schlüssel (key), der Artikel\n* **-en**: der Ofen (oven), der Regen (rain), der Wagen (car)\n* **-ig**: der König (king), der Honig (honey)\n* **-ling**: der Schmetterling (butterfly), der Lehrling (apprentice)\n\n**FEMININE Endings (die):**\n* **-ung**: die Zeitung (newspaper), die Wohnung (apartment), die Meinung (opinion)\n* **-heit**: die Freiheit (freedom), die Gesundheit (health), die Wahrheit (truth)\n* **-keit**: die Möglichkeit (possibility), die Geschwindigkeit (speed), die Persönlichkeit (personality)\n* **-schaft**: die Freundschaft (friendship), die Gesellschaft (society), die Wirtschaft (economy)\n* **-tät**: die Universität (university), die Qualität (quality), die Aktivität (activity)\n* **-ion**: die Nation (nation), die Information (information), die Tradition (tradition)\n* **-ei**: die Bäckerei (bakery), die Polizei (police), die Bücherei (library)\n* **-ie**: die Energie (energy), die Fantasie (fantasy), die Biologie (biology)\n\n**NEUTER Endings (das):**\n* **-chen**: das Mädchen (girl), das Kätzchen (kitten), das Brötchen (bread roll)\n* **-lein**: das Fräulein (miss), das Büchlein (booklet)\n* **-ment**: das Element (element), das Dokument (document), das Instrument (instrument)\n* **-um**: das Museum (museum), das Zentrum (center), das Studium (studies)\n* **-tum**: das Eigentum (property), das Christentum (Christianity)\n\n**Exceptions Exist!**\nRemember: Rules help, but there are always exceptions. For example: das Mädchen (neuter) even though it refers to a girl, because of the -chen ending.",
+                            examples: [
+                                { german: "die Freundschaft", english: "friendship (-schaft = die)" },
+                                { german: "das Mädchen", english: "girl (-chen = das, despite being female)" },
+                                { german: "der Computer", english: "computer (-er = der)" },
+                                { german: "die Information", english: "information (-ion = die)" },
+                                { german: "das Dokument", english: "document (-ment = das)" },
+                                { german: "die Universität", english: "university (-tät = die)" }
+                            ]
+                        },
+                        {
+                            title: "3. Indefinite Articles: Ein, Eine, Ein",
+                            content: "The indefinite articles correspond to 'a' or 'an' in English. They change based on the gender of the noun they accompany.\n\n**Indefinite Article System:**\n* **Masculine (der) → ein**: ein Tisch, ein Mann, ein Apfel\n* **Feminine (die) → eine**: eine Lampe, eine Frau, eine Banane  \n* **Neuter (das) → ein**: ein Auto, ein Kind, ein Haus\n* **Plural**: NO indefinite article (just like English: 'books', not 'a books')\n\n**Usage Patterns:**\n1. **Introducing something new:** Das ist ein Auto. (That's a car.)\n2. **Talking about professions:** Ich bin ein Lehrer. (I am a teacher.)\n3. **Describing quantities:** Ich möchte ein Bier. (I would like a beer.)\n4. **General statements:** Ein Hund ist ein Tier. (A dog is an animal.)\n\n**Important Notes:**\n- Unlike English, you can't use the indefinite article with plural nouns\n- The indefinite article changes form in Accusative case (later lesson)\n- Some expressions don't use articles where English does\n\n**Negative Form - Kein:**\nThe negative form of 'ein' is 'kein' (no/not a):\n* ein Apfel → kein Apfel (no apple)\n* eine Lampe → keine Lampe (no lamp)\n* ein Auto → kein Auto (no car)",
                             examples: [
                                 { german: "Das ist ein Tisch (der).", english: "That is a table." },
                                 { german: "Ich habe eine Lampe (die).", english: "I have a lamp." },
-                                { german: "Das sind Bücher.", english: "Those are books. (No 'ein')" }
+                                { german: "Das ist ein Haus (das).", english: "That is a house." },
+                                { german: "Das sind Bücher.", english: "Those are books. (No indefinite article for plural)" },
+                                { german: "Ich habe kein Auto.", english: "I don't have a car." },
+                                { german: "Sie ist eine Lehrerin.", english: "She is a teacher." }
                             ]
                         },
                         {
-                            title: "3. Plural Formation Rules",
-                            content: "There are 5 ways to make plurals. Guessing strategy:\n\n* **-n / -en:** Most feminine nouns (die Frau -> die Frauen).\n* **-e:** Most masculine/neutral one-syllable nouns (der Tag -> die Tage).\n* **-r / -er:** Most neutral one-syllable nouns (das Kind -> die Kinder).\n* **-s:** Loan words (das Auto -> die Autos).\n* **No change:** Words ending in -el, -en, -er (der Löffel -> die Löffel).",
+                            title: "4. Plural Formation - The Five Ways",
+                            content: "German plurals are more complex than English. There are five main patterns, and you must memorize the plural form with each noun.\n\n**Type 1: Add -n or -en (Most Common)**\nMost feminine nouns and many masculines:\n* die Lampe → die Lampen (lamps)\n* die Frau → die Frauen (women)\n* der Herr → die Herren (gentlemen)\n* der Mensch → die Menschen (people)\n\n**Type 2: Add -e (Common)**\nMany masculine and some neuter one-syllable nouns:\n* der Tag → die Tage (days)\n* der Hund → die Hunde (dogs)\n* das Jahr → die Jahre (years)\n* Sometimes with Umlaut: der Ball → die Bälle (balls)\n\n**Type 3: Add -er (Neuter + Some Masculine)**\nMost neuter one-syllable nouns, often with Umlaut:\n* das Kind → die Kinder (children)\n* das Haus → die Häuser (houses)\n* der Mann → die Männer (men)\n* das Buch → die Bücher (books)\n\n**Type 4: Add -s (Foreign Words)**\nLoanwords, especially from English:\n* das Auto → die Autos (cars)\n* das Hotel → die Hotels (hotels)\n* der Chef → die Chefs (bosses)\n* das Foto → die Fotos (photos)\n\n**Type 5: No Change (Often with Umlaut)**\nWords ending in -el, -en, -er, some neuters:\n* der Lehrer → die Lehrer (teachers)\n* das Mädchen → die Mädchen (girls)\n* der Apfel → die Äpfel (apples)\n* die Mutter → die Mütter (mothers)\n\n**Learning Strategy:**\nAlways learn: Article + Singular + Plural\nExample: der Tisch, die Tische (not just 'Tisch')",
                             examples: [
-                                { german: "die Blume -> die Blumen", english: "The flower -> flowers" },
-                                { german: "der Freund -> die Freunde", english: "The friend -> friends" },
-                                { german: "das Bild -> die Bilder", english: "The picture -> pictures" }
+                                { german: "die Blume → die Blumen", english: "flower → flowers (add -n)" },
+                                { german: "der Freund → die Freunde", english: "friend → friends (add -e)" },
+                                { german: "das Bild → die Bilder", english: "picture → pictures (add -er)" },
+                                { german: "das Handy → die Handys", english: "cell phone → cell phones (add -s)" },
+                                { german: "der Löffel → die Löffel", english: "spoon → spoons (no change)" },
+                                { german: "die Maus → die Mäuse", english: "mouse → mice (Umlaut + -e)" }
+                            ]
+                        },
+                        {
+                            title: "5. Compound Nouns - German's Building Blocks",
+                            content: "German is famous for creating long compound nouns by combining multiple words. The gender is always determined by the LAST word in the compound.\n\n**Formation Rule:**\nWord 1 + Word 2 + Word 3... = Compound Noun\n**Gender = Gender of the LAST word**\n\n**Common Compound Patterns:**\n1. **Noun + Noun:** das Haus (house) + die Tür (door) = die Haustür (front door)\n2. **Verb + Noun:** schlafen (sleep) + das Zimmer (room) = das Schlafzimmer (bedroom)\n3. **Adjective + Noun:** klein (small) + das Kind (child) = das Kleinkind (toddler)\n\n**Connecting Elements (Fugen-s/n):**\nSometimes a connecting element is added:\n* der Geburtstag (birthday) = die Geburt + -s- + der Tag\n* die Studentenpartei = der Student + -en- + die Partei\n\n**Useful Household Compounds:**\n* die Küche (kitchen) + der Tisch (table) = der Küchentisch (kitchen table)\n* das Wohn (living) + das Zimmer (room) = das Wohnzimmer (living room)\n* das Bade (bath) + das Zimmer (room) = das Badezimmer (bathroom)\n* schlafen (sleep) + das Zimmer (room) = das Schlafzimmer (bedroom)",
+                            examples: [
+                                { german: "die Haustür", english: "front door (das Haus + die Tür = die Tür determines gender)" },
+                                { german: "das Schlafzimmer", english: "bedroom (schlafen + das Zimmer = das Zimmer determines gender)" },
+                                { german: "der Küchentisch", english: "kitchen table (die Küche + der Tisch = der Tisch determines gender)" },
+                                { german: "die Bushaltestelle", english: "bus stop (der Bus + halten + die Stelle = die Stelle determines gender)" },
+                                { german: "das Wörterbuch", english: "dictionary (das Wort + das Buch = das Buch determines gender)" }
                             ]
                         }
                     ],
@@ -717,7 +912,7 @@ export const syllabusData: Phase[] = [
                             type: "text",
                             question: "Plural of 'die Lampe'?",
                             answer: "die Lampen",
-                            explanation: "Feminine nouns usually add -n."
+                            explanation: "Feminine nouns usually add -n: Lampe → Lampen."
                         },
                         {
                             id: "d7-q3",
@@ -725,14 +920,149 @@ export const syllabusData: Phase[] = [
                             question: "Indefinite article: 'Das ist ___ Haus (das).'",
                             options: ["ein", "eine", "einen"],
                             answer: "ein",
-                            explanation: "Das Haus -> ein Haus."
+                            explanation: "Das Haus (neuter) → ein Haus."
                         },
                         {
                             id: "d7-q4",
                             type: "text",
                             question: "Translate: 'That is a car.'",
                             answer: "Das ist ein Auto.",
-                            explanation: "Das Auto -> ein Auto."
+                            explanation: "Das Auto (neuter) → ein Auto."
+                        },
+                        {
+                            id: "d7-q5",
+                            type: "choice",
+                            question: "What gender is 'Universität' (university)?",
+                            options: ["masculine", "feminine", "neuter"],
+                            answer: "feminine",
+                            explanation: "Words ending in -tät are always feminine: die Universität."
+                        },
+                        {
+                            id: "d7-q6",
+                            type: "text",
+                            question: "Plural of 'das Kind' (child)?",
+                            answer: "die Kinder",
+                            explanation: "Neuter monosyllabic noun: Kind → Kinder (add -er)."
+                        },
+                        {
+                            id: "d7-q7",
+                            type: "choice",
+                            question: "Article for 'Mädchen' (girl)?",
+                            options: ["der", "die", "das"],
+                            answer: "das",
+                            explanation: "Words ending in -chen are always neuter: das Mädchen."
+                        },
+                        {
+                            id: "d7-q8",
+                            type: "text",
+                            question: "Indefinite article for 'Frau' (woman)?",
+                            answer: "eine",
+                            explanation: "Die Frau (feminine) → eine Frau."
+                        },
+                        {
+                            id: "d7-q9",
+                            type: "choice",
+                            question: "Plural of 'der Apfel' (apple)?",
+                            options: ["die Äpfel", "die Apfel", "die Äpfels"],
+                            answer: "die Äpfel",
+                            explanation: "Words ending in -el: no change but add Umlaut: Apfel → Äpfel."
+                        },
+                        {
+                            id: "d7-q10",
+                            type: "text",
+                            question: "What gender is 'Computer'?",
+                            answer: "masculine",
+                            explanation: "Words ending in -er are usually masculine: der Computer."
+                        },
+                        {
+                            id: "d7-q11",
+                            type: "choice",
+                            question: "Article for 'Information'?",
+                            options: ["der", "die", "das"],
+                            answer: "die",
+                            explanation: "Words ending in -ion are always feminine: die Information."
+                        },
+                        {
+                            id: "d7-q12",
+                            type: "text",
+                            question: "Plural of 'das Auto' (car)?",
+                            answer: "die Autos",
+                            explanation: "Foreign loanword: Auto → Autos (add -s)."
+                        },
+                        {
+                            id: "d7-q13",
+                            type: "choice",
+                            question: "Complete: 'Das ist ___ Lehrer.' (teacher/male)",
+                            options: ["ein", "eine", "der"],
+                            answer: "ein",
+                            explanation: "Der Lehrer (masculine) → ein Lehrer."
+                        },
+                        {
+                            id: "d7-q14",
+                            type: "text",
+                            question: "What gender is 'Freundschaft' (friendship)?",
+                            answer: "feminine",
+                            explanation: "Words ending in -schaft are always feminine: die Freundschaft."
+                        },
+                        {
+                            id: "d7-q15",
+                            type: "choice",
+                            question: "Plural of 'der Tag' (day)?",
+                            options: ["die Tage", "die Täge", "die Tags"],
+                            answer: "die Tage",
+                            explanation: "Masculine monosyllabic noun: Tag → Tage (add -e)."
+                        },
+                        {
+                            id: "d7-q16",
+                            type: "text",
+                            question: "Article for 'Dokument' (document)?",
+                            answer: "das",
+                            explanation: "Words ending in -ment are always neuter: das Dokument."
+                        },
+                        {
+                            id: "d7-q17",
+                            type: "choice",
+                            question: "Gender of compound 'Schlafzimmer' (bedroom)?",
+                            options: ["masculine", "feminine", "neuter"],
+                            answer: "neuter",
+                            explanation: "Compound gender = last word gender: das Zimmer → das Schlafzimmer."
+                        },
+                        {
+                            id: "d7-q18",
+                            type: "text",
+                            question: "Plural of 'die Blume' (flower)?",
+                            answer: "die Blumen",
+                            explanation: "Feminine noun: Blume → Blumen (add -n)."
+                        },
+                        {
+                            id: "d7-q19",
+                            type: "choice",
+                            question: "Complete: 'Ich habe ___ Katze.' (cat/female)",
+                            options: ["ein", "eine", "der"],
+                            answer: "eine",
+                            explanation: "Die Katze (feminine) → eine Katze."
+                        },
+                        {
+                            id: "d7-q20",
+                            type: "text",
+                            question: "What gender is 'Museum'?",
+                            answer: "neuter",
+                            explanation: "Words ending in -um are usually neuter: das Museum."
+                        },
+                        {
+                            id: "d7-q21",
+                            type: "choice",
+                            question: "Plural of 'das Buch' (book)?",
+                            options: ["die Bücher", "die Bucher", "die Buchs"],
+                            answer: "die Bücher",
+                            explanation: "Neuter monosyllabic: Buch → Bücher (add -er + Umlaut)."
+                        },
+                        {
+                            id: "d7-q22",
+                            type: "text",
+                            question: "Article for 'Gesundheit' (health)?",
+                            answer: "die",
+                            explanation: "Words ending in -heit are always feminine: die Gesundheit."
                         }
                     ]
                 }
@@ -746,29 +1076,65 @@ export const syllabusData: Phase[] = [
                 details: {
                     sections: [
                         {
-                            title: "1. The W-Questions (W-Fragen)",
-                            content: "Essential for gathering information.\n\n* **Wer?** (Who? - Person)\n* **Was?** (What? - Thing)\n* **Wo?** (Where? - Location/Place)\n* **Wann?** (When? - Time/Date)\n* **Wie?** (How? - Manner/Quantity)\n* **Warum / Wieso?** (Why? - Reason)",
+                            title: "1. The Essential W-Question Words (W-Fragen)",
+                            content: "W-questions are crucial for gathering information and having natural conversations. In German, question words are called 'W-Fragen' because most start with 'W'.\n\n**The Big Six W-Words:**\n* **Wer?** (Who?) - Asks about people/persons\n* **Was?** (What?) - Asks about things/objects/actions\n* **Wo?** (Where?) - Asks about location/place (static position)\n* **Wann?** (When?) - Asks about time/date\n* **Wie?** (How?) - Asks about manner/way/condition\n* **Warum?** (Why?) - Asks about reasons/causes\n\n**Alternative Forms:**\n* **Wieso?** (Why?) - Alternative to 'warum', more casual\n* **Weshalb?** (Why?) - Alternative to 'warum', more formal\n* **Welcher/Welche/Welches?** (Which?) - Asks for specific choice\n* **Wessen?** (Whose?) - Asks about possession (Genitive case)\n\n**Memory Tip:** English also has W-questions (Who, What, Where, When, Why, How), but German has different rules for word order and usage.",
                             examples: [
                                 { german: "Wer ist das?", english: "Who is that?" },
                                 { german: "Was machst du?", english: "What are you doing?" },
-                                { german: "Wann kommst du?", english: "When are you coming?" }
+                                { german: "Wo wohnst du?", english: "Where do you live?" },
+                                { german: "Wann kommst du?", english: "When are you coming?" },
+                                { german: "Wie geht's?", english: "How are you?" },
+                                { german: "Warum lernst du Deutsch?", english: "Why are you learning German?" }
                             ]
                         },
                         {
-                            title: "2. Woher vs Wohin (Motion)",
-                            content: "German distinguishes between location and motion.\n\n* **Wo?** = Where (Stationary). Uses Dative (later).\n* **Woher?** = Where from (Origin). (Woher kommst du?)\n* **Wohin?** = Where to (Destination). (Wohin gehst du?)",
+                            title: "2. Movement vs. Location: Wo, Woher, Wohin",
+                            content: "German makes important distinctions about spatial relationships that English doesn't always make clearly. This is crucial for giving and understanding directions.\n\n**The Three Spatial Question Words:**\n\n**1. WO? (Where - Location/Position)**\n- Asks about **static location** where someone/something IS\n- Answer uses Dative case prepositions (in, auf, an + Dative)\n- English equivalent: 'Where?' (at a place)\n\n**2. WOHER? (Where from - Origin)**\n- Asks about **origin or source** where someone/something COMES FROM\n- Answer uses 'aus' (from) + Dative\n- English equivalent: 'Where from?' or 'From where?'\n\n**3. WOHIN? (Where to - Destination)**\n- Asks about **destination** where someone/something IS GOING TO\n- Answer uses Accusative case prepositions (in, auf, an + Accusative)\n- English equivalent: 'Where to?' (toward a place)\n\n**Usage Examples:**\n* **Static:** Wo arbeitest du? → Ich arbeite im Büro. (Where do you work? → I work in the office.)\n* **Origin:** Woher kommst du? → Ich komme aus Deutschland. (Where are you from? → I come from Germany.)\n* **Destination:** Wohin gehst du? → Ich gehe zum Supermarkt. (Where are you going? → I'm going to the supermarket.)\n\n**Common Verbs by Type:**\n- **Wo:** sein (be), arbeiten (work), wohnen (live), stehen (stand), liegen (lie)\n- **Woher:** kommen (come), stammen (originate)\n- **Wohin:** gehen (go), fahren (drive), fliegen (fly), laufen (run/walk)",
                             examples: [
                                 { german: "Wo wohnst du?", english: "Where do you live? (Location)" },
                                 { german: "Woher kommen Sie?", english: "Where do you come from? (Origin)" },
-                                { german: "Wohin fahren wir?", english: "Where are we driving to? (Destination)" }
+                                { german: "Wohin fahren wir?", english: "Where are we driving to? (Destination)" },
+                                { german: "Wo ist dein Auto?", english: "Where is your car? (Location)" },
+                                { german: "Woher hast du das Buch?", english: "Where did you get the book from? (Origin)" },
+                                { german: "Wohin bringst du die Kinder?", english: "Where are you taking the children? (Destination)" }
                             ]
                         },
                         {
-                            title: "3. Building W-Questions",
-                            content: "Structure: **[W-Word] + [Verb] + [Subject]?**\n\nThe verb MUST be in position 2, immediately after the W-Word.",
+                            title: "3. Question Formation and Word Order",
+                            content: "German W-questions follow a strict word order pattern that differs from English. Understanding this structure is essential for clear communication.\n\n**Basic Structure:** [W-Word] + [Conjugated Verb] + [Subject] + [Other Elements]?\n\n**Key Rules:**\n1. **W-word occupies position 1** (always first)\n2. **Conjugated verb must be in position 2** (immediately after W-word)\n3. **Subject follows in position 3** (after the verb)\n4. **Other elements** (time, place, object) follow normal German word order\n\n**Detailed Examples:**\n* Wie (1) heißt (2) deine Mutter (3)? (What is your mother's name?)\n* Warum (1) lernst (2) du (3) Deutsch (4)? (Why are you learning German?)\n* Wann (1) kommst (2) ihr (3) nach Hause (4)? (When are you coming home?)\n\n**Special Cases:**\n\n**1. Compound Verbs (Separable Verbs):**\nThe prefix goes to the end:\n* Wann stehst du auf? (When do you get up?)\n* Wo kaufst du ein? (Where do you shop?)\n\n**2. Modal Verbs:**\nInfinitive goes to the end:\n* Was willst du machen? (What do you want to do?)\n* Wo können wir essen? (Where can we eat?)\n\n**3. Multiple Questions:**\nYou can ask follow-up questions:\n* Wer ist das? Und wie heißt er? (Who is that? And what's his name?)\n\n**Common Mistakes to Avoid:**\n- Don't use English word order: ❌ 'Wer du bist?' ✅ 'Wer bist du?'\n- Don't forget verb-second position: ❌ 'Wo du wohnst?' ✅ 'Wo wohnst du?'\n- Don't confuse wo/woher/wohin based on context",
                             examples: [
                                 { german: "Wie (1) heißt (2) deine Mutter (3)?", english: "What is your mother's name?" },
-                                { german: "Warum (1) lernst (2) du (3) Deutsch?", english: "Why are you learning German?" }
+                                { german: "Warum (1) lernst (2) du (3) Deutsch?", english: "Why are you learning German?" },
+                                { german: "Wann (1) fährt (2) der Zug (3) ab?", english: "When does the train depart?" },
+                                { german: "Was (1) machst (2) du (3) heute Abend?", english: "What are you doing tonight?" },
+                                { german: "Wo (1) kann (2) ich (3) hier parken?", english: "Where can I park here?" },
+                                { german: "Wer (1) ist (2) dein Lehrer (3)?", english: "Who is your teacher?" }
+                            ]
+                        },
+                        {
+                            title: "4. Extended W-Questions and Combinations",
+                            content: "As you advance, you'll encounter more complex W-questions and combinations that add precision to your German.\n\n**Extended W-Question Words:**\n\n**1. WIE + Adjective/Adverb:**\n* **Wie alt?** (How old?) - Wie alt bist du?\n* **Wie viel?** (How much/many?) - Wie viel kostet das?\n* **Wie viele?** (How many?) - Wie viele Bücher hast du?\n* **Wie lange?** (How long?) - Wie lange lernst du schon Deutsch?\n* **Wie oft?** (How often?) - Wie oft gehst du ins Kino?\n* **Wie groß?** (How big/tall?) - Wie groß bist du?\n\n**2. WAS FÜR + Article:**\n* **Was für ein/eine?** (What kind of?) - Was für ein Auto hast du?\n* This asks for description or type, not identification\n\n**3. WELCHER/WELCHE/WELCHES:**\n* Changes based on gender and case of the noun it modifies\n* **Masculine:** Welcher Mann? (Which man?)\n* **Feminine:** Welche Frau? (Which woman?)\n* **Neuter:** Welches Kind? (Which child?)\n* **Plural:** Welche Kinder? (Which children?)\n\n**4. UM WIE VIEL UHR?**\n* **Um wie viel Uhr?** (At what time?) - Um wie viel Uhr kommst du?\n\n**Practical Question Combinations:**\nIn real conversations, you often need to ask multiple questions:\n* Wo wohnst du und wie lange schon? (Where do you live and for how long?)\n* Was machst du beruflich und wie findest du das? (What do you do professionally and how do you like it?)\n\n**Polite Question Forms:**\nAdd these for politeness:\n* **Entschuldigung** + W-question: Entschuldigung, wo ist der Bahnhof?\n* **Können Sie mir sagen** + W-question: Können Sie mir sagen, wann der Zug kommt?\n* **Wissen Sie vielleicht** + W-question: Wissen Sie vielleicht, wo ich hier parken kann?",
+                            examples: [
+                                { german: "Wie alt bist du?", english: "How old are you?" },
+                                { german: "Wie viel kostet der Kaffee?", english: "How much does the coffee cost?" },
+                                { german: "Wie oft gehst du schwimmen?", english: "How often do you go swimming?" },
+                                { german: "Was für ein Auto hast du?", english: "What kind of car do you have?" },
+                                { german: "Welches Buch liest du?", english: "Which book are you reading?" },
+                                { german: "Um wie viel Uhr stehst du auf?", english: "At what time do you get up?" },
+                                { german: "Entschuldigung, wo ist die Post?", english: "Excuse me, where is the post office?" },
+                                { german: "Können Sie mir sagen, wann der Bus kommt?", english: "Can you tell me when the bus comes?" }
+                            ]
+                        },
+                        {
+                            title: "5. Answering W-Questions Appropriately",
+                            content: "Knowing how to ask questions is only half the skill - you must also know how to provide appropriate answers that match the question type.\n\n**Answer Patterns by Question Word:**\n\n**WER → Person/Name:**\n* Q: Wer ist das? → A: Das ist mein Bruder/Maria/Herr Schmidt.\n\n**WAS → Thing/Action:**\n* Q: Was machst du? → A: Ich lerne/arbeite/esse...\n* Q: Was ist das? → A: Das ist ein Buch/Auto/Handy...\n\n**WO → Place/Location:**\n* Q: Wo wohnst du? → A: Ich wohne in Berlin/zu Hause/in der Stadtmitte...\n\n**WOHER → Origin:**\n* Q: Woher kommst du? → A: Ich komme aus Deutschland/Vietnam/der Schweiz...\n\n**WOHIN → Destination:**\n* Q: Wohin gehst du? → A: Ich gehe zum Supermarkt/nach Hause/ins Kino...\n\n**WANN → Time:**\n* Q: Wann kommst du? → A: Ich komme um 8 Uhr/morgen/heute Abend...\n\n**WIE → Manner/Condition:**\n* Q: Wie geht's? → A: Gut/schlecht/sehr gut, danke...\n* Q: Wie kommst du zur Arbeit? → A: Mit dem Bus/zu Fuß/mit dem Auto...\n\n**WARUM → Reason:**\n* Q: Warum lernst du Deutsch? → A: Weil ich in Deutschland arbeiten möchte...\n\n**Complete Answer Strategies:**\n1. **Short answers** for simple questions\n2. **Complete sentences** for formal situations  \n3. **Additional information** to keep conversation flowing\n4. **Counter-questions** to show interest: 'Und du?' (And you?)",
+                            examples: [
+                                { german: "Q: Wer ist das? A: Das ist meine Schwester.", english: "Q: Who is that? A: That's my sister." },
+                                { german: "Q: Was machst du? A: Ich lese ein Buch.", english: "Q: What are you doing? A: I'm reading a book." },
+                                { german: "Q: Wo arbeitest du? A: Ich arbeite in München.", english: "Q: Where do you work? A: I work in Munich." },
+                                { german: "Q: Wann hast du Zeit? A: Ich habe morgen Zeit.", english: "Q: When do you have time? A: I have time tomorrow." },
+                                { german: "Q: Wie kommst du hier her? A: Mit der U-Bahn.", english: "Q: How did you get here? A: By subway." },
+                                { german: "Q: Warum lernst du Deutsch? A: Für meine Arbeit.", english: "Q: Why are you learning German? A: For my job." }
                             ]
                         }
                     ],
@@ -793,7 +1159,150 @@ export const syllabusData: Phase[] = [
                             type: "text",
                             question: "Translate: 'Why is it cold?'",
                             answer: "Warum ist es kalt?",
-                            explanation: "Warum = Why."
+                            explanation: "Warum = Why. Question structure: W-word + verb + subject."
+                        },
+                        {
+                            id: "d8-q4",
+                            type: "choice",
+                            question: "Ask about origin: 'Where do you come from?'",
+                            options: ["Wo kommst du?", "Woher kommst du?", "Wohin kommst du?"],
+                            answer: "Woher kommst du?",
+                            explanation: "'Woher' asks about origin/source."
+                        },
+                        {
+                            id: "d8-q5",
+                            type: "text",
+                            question: "Ask: 'What is that?' (pointing to an object)",
+                            answer: "Was ist das?",
+                            explanation: "'Was' asks about things/objects."
+                        },
+                        {
+                            id: "d8-q6",
+                            type: "choice",
+                            question: "Ask about time: 'When does the train arrive?'",
+                            options: ["Wo kommt der Zug an?", "Wann kommt der Zug an?", "Wie kommt der Zug an?"],
+                            answer: "Wann kommt der Zug an?",
+                            explanation: "'Wann' asks about time. Note: ankommen is separable."
+                        },
+                        {
+                            id: "d8-q7",
+                            type: "text",
+                            question: "Ask: 'How are you?' (informal)",
+                            answer: "Wie geht es dir?",
+                            explanation: "Standard greeting question using 'wie' (how)."
+                        },
+                        {
+                            id: "d8-q8",
+                            type: "choice",
+                            question: "Ask about location: 'Where is the bathroom?'",
+                            options: ["Wo ist das Bad?", "Wohin ist das Bad?", "Woher ist das Bad?"],
+                            answer: "Wo ist das Bad?",
+                            explanation: "'Wo' asks about static location."
+                        },
+                        {
+                            id: "d8-q9",
+                            type: "text",
+                            question: "Ask: 'How old are you?' (Sie form)",
+                            answer: "Wie alt sind Sie?",
+                            explanation: "'Wie alt' asks about age. Formal 'Sie' form."
+                        },
+                        {
+                            id: "d8-q10",
+                            type: "choice",
+                            question: "Ask about quantity: 'How much does it cost?'",
+                            options: ["Wie kostet es?", "Wie viel kostet es?", "Was kostet es?"],
+                            answer: "Wie viel kostet es?",
+                            explanation: "'Wie viel' asks about amount/price."
+                        },
+                        {
+                            id: "d8-q11",
+                            type: "text",
+                            question: "Ask: 'Who is your teacher?' (dein)",
+                            answer: "Wer ist dein Lehrer?",
+                            explanation: "'Wer' asks about people. Standard word order."
+                        },
+                        {
+                            id: "d8-q12",
+                            type: "choice",
+                            question: "Ask about destination: 'Where is she driving to?'",
+                            options: ["Wo fährt sie?", "Woher fährt sie?", "Wohin fährt sie?"],
+                            answer: "Wohin fährt sie?",
+                            explanation: "'Wohin' asks about destination/direction."
+                        },
+                        {
+                            id: "d8-q13",
+                            type: "text",
+                            question: "Ask: 'What kind of car do you have?'",
+                            answer: "Was für ein Auto hast du?",
+                            explanation: "'Was für ein' asks about type/kind."
+                        },
+                        {
+                            id: "d8-q14",
+                            type: "choice",
+                            question: "Ask politely: 'Excuse me, where is the station?'",
+                            options: ["Wo ist der Bahnhof?", "Entschuldigung, wo ist der Bahnhof?", "Bahnhof wo ist?"],
+                            answer: "Entschuldigung, wo ist der Bahnhof?",
+                            explanation: "'Entschuldigung' makes the question polite."
+                        },
+                        {
+                            id: "d8-q15",
+                            type: "text",
+                            question: "Ask: 'How often do you exercise?' (Sport machen)",
+                            answer: "Wie oft machst du Sport?",
+                            explanation: "'Wie oft' asks about frequency."
+                        },
+                        {
+                            id: "d8-q16",
+                            type: "choice",
+                            question: "Complete: '___ Buch liest du?' (Which book...)",
+                            options: ["Was", "Welches", "Wie"],
+                            answer: "Welches",
+                            explanation: "'Welches' (which) agrees with das Buch (neuter)."
+                        },
+                        {
+                            id: "d8-q17",
+                            type: "text",
+                            question: "Ask: 'At what time do you get up?'",
+                            answer: "Um wie viel Uhr stehst du auf?",
+                            explanation: "'Um wie viel Uhr' asks for specific time."
+                        },
+                        {
+                            id: "d8-q18",
+                            type: "choice",
+                            question: "Ask about method: 'How do you come to work?'",
+                            options: ["Wo kommst du zur Arbeit?", "Wie kommst du zur Arbeit?", "Wann kommst du zur Arbeit?"],
+                            answer: "Wie kommst du zur Arbeit?",
+                            explanation: "'Wie' asks about method/manner."
+                        },
+                        {
+                            id: "d8-q19",
+                            type: "text",
+                            question: "Ask: 'How many brothers do you have?'",
+                            answer: "Wie viele Brüder hast du?",
+                            explanation: "'Wie viele' asks about countable quantities."
+                        },
+                        {
+                            id: "d8-q20",
+                            type: "choice",
+                            question: "Ask about reason: 'Why are you sad?'",
+                            options: ["Wie bist du traurig?", "Warum bist du traurig?", "Was bist du traurig?"],
+                            answer: "Warum bist du traurig?",
+                            explanation: "'Warum' asks for reasons/causes."
+                        },
+                        {
+                            id: "d8-q21",
+                            type: "text",
+                            question: "Ask: 'How long have you been living here?'",
+                            answer: "Wie lange wohnst du schon hier?",
+                            explanation: "'Wie lange' asks about duration. 'Schon' = already."
+                        },
+                        {
+                            id: "d8-q22",
+                            type: "choice",
+                            question: "Ask about choice: '___ Farbe magst du?' (Which color...)",
+                            options: ["Welche", "Was", "Wie"],
+                            answer: "Welche",
+                            explanation: "'Welche' (which) agrees with die Farbe (feminine)."
                         }
                     ]
                 }
@@ -808,28 +1317,67 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. Yes/No Questions (Entscheidungsfragen)",
-                            content: "To ask a question without a question word (Yes/No answer), Start with the **Verb**.\n\n* **Structure:** [Verb] + [Subject] ...?\n* **Statement:** Du kommst aus Berlin.\n* **Question:** Kommst du aus Berlin?",
+                            content: "Yes/No questions expect a simple 'ja' (yes) or 'nein' (no) answer. Unlike English, German doesn't use helping verbs like 'do/does' - instead, the main verb moves to the front.\n\n**Formation Rule:** Start with the **conjugated verb**\n\n**Structure:** [Conjugated Verb] + [Subject] + [Other Elements]?\n\n**From Statement to Question:**\n* **Statement:** Du kommst aus Berlin. (You come from Berlin.)\n* **Question:** Kommst du aus Berlin? (Do you come from Berlin?)\n\n**Examples by Verb Type:**\n\n**1. With 'sein' (to be):**\n* Statement: Sie ist müde. → Question: Ist sie müde?\n* Statement: Ihr seid Studenten. → Question: Seid ihr Studenten?\n\n**2. With 'haben' (to have):**\n* Statement: Er hat Zeit. → Question: Hat er Zeit?\n* Statement: Wir haben Hunger. → Question: Haben wir Hunger?\n\n**3. With regular verbs:**\n* Statement: Du lernst Deutsch. → Question: Lernst du Deutsch?\n* Statement: Sie arbeitet hier. → Question: Arbeitet sie hier?\n\n**4. With modal verbs:**\n* Statement: Ich kann schwimmen. → Question: Kann ich schwimmen?\n* Statement: Sie will kommen. → Question: Will sie kommen?\n\n**5. With separable verbs:**\n* Statement: Er steht früh auf. → Question: Steht er früh auf?\n* Statement: Wir kaufen ein. → Question: Kaufen wir ein?\n\n**Intonation:** In spoken German, your voice should rise at the end of Yes/No questions, just like in English.",
                             examples: [
                                 { german: "Lernst du Deutsch?", english: "Are you learning German?" },
                                 { german: "Ist das dein Auto?", english: "Is that your car?" },
-                                { german: "Trinken Sie Kaffee?", english: "Do you drink coffee? (Formal)" }
+                                { german: "Trinken Sie Kaffee?", english: "Do you drink coffee? (Formal)" },
+                                { german: "Haben Sie Zeit?", english: "Do you have time? (Formal)" },
+                                { german: "Kommst du heute?", english: "Are you coming today?" },
+                                { german: "Arbeitet er in München?", english: "Does he work in Munich?" },
+                                { german: "Können wir hier parken?", english: "Can we park here?" },
+                                { german: "Steht ihr früh auf?", english: "Do you (plural) get up early?" }
                             ]
                         },
                         {
-                            title: "2. Negation: Nicht vs Kein",
-                            content: "How to say 'No' or 'Not'.\n\n**Use 'KEIN' (None/No) for:**\n* Nouns with indefinite articles (ein/eine).\n* Nouns with NO article.\n* *Formula: Ich habe ein Auto. -> Ich habe kein Auto.*\n\n**Use 'NICHT' (Not) for:**\n* Verbs (Ich schlafe nicht).\n* Adjectives (Er ist nicht nett).\n* Proper Nouns (Das ist nicht Max).\n* Nouns with DEFINITE articles (Das ist nicht das Auto von Tom).",
+                            title: "2. The Negation System: Nicht vs. Kein",
+                            content: "German has two main ways to say 'no' or 'not': **nicht** and **kein**. Choosing the correct one depends on what you're negating.\n\n**KEIN (No/Not a/Not any):**\nUse 'kein' to negate:\n1. **Nouns with indefinite articles** (ein/eine)\n2. **Nouns with NO article** (bare nouns)\n3. **Plural nouns** (since they have no indefinite article)\n\n**KEIN Declension (changes like ein):**\n* **Masculine:** kein Mann (no man)\n* **Feminine:** keine Frau (no woman)\n* **Neuter:** kein Kind (no child)\n* **Plural:** keine Kinder (no children)\n\n**Examples with KEIN:**\n* Ich habe ein Auto. → Ich habe **kein** Auto.\n* Das ist eine Katze. → Das ist **keine** Katze.\n* Wir haben Zeit. → Wir haben **keine** Zeit.\n* Sie trinken Bier. → Sie trinken **kein** Bier.\n\n**NICHT (Not):**\nUse 'nicht' to negate:\n1. **Verbs** and actions\n2. **Adjectives** and adverbs\n3. **Nouns with definite articles** (der/die/das)\n4. **Proper nouns** (names, places)\n5. **Possessive pronouns** (mein/dein/sein...)\n6. **Entire clauses or specific parts**\n\n**Examples with NICHT:**\n* Ich schlafe. → Ich schlafe **nicht**.\n* Das ist gut. → Das ist **nicht** gut.\n* Das ist das Auto von Tom. → Das ist **nicht** das Auto von Tom.\n* Das ist Maria. → Das ist **nicht** Maria.\n* Das ist mein Buch. → Das ist **nicht** mein Buch.",
                             examples: [
-                                { german: "Ich habe keinen Hunger.", english: "I have no hunger. (Kein)" },
+                                { german: "Ich habe keinen Hunger.", english: "I have no hunger./I'm not hungry. (Kein)" },
                                 { german: "Das ist nicht gut.", english: "That is not good. (Nicht)" },
-                                { german: "Ich wohne nicht in Berlin.", english: "I don't live in Berlin. (Nicht)" }
+                                { german: "Ich wohne nicht in Berlin.", english: "I don't live in Berlin. (Nicht)" },
+                                { german: "Er hat keine Geschwister.", english: "He has no siblings. (Kein)" },
+                                { german: "Wir trinken keinen Alkohol.", english: "We don't drink alcohol. (Kein)" },
+                                { german: "Sie kommt nicht heute.", english: "She's not coming today. (Nicht)" },
+                                { german: "Das ist kein Problem.", english: "That's no problem. (Kein)" },
+                                { german: "Ich verstehe nicht.", english: "I don't understand. (Nicht)" }
                             ]
                         },
                         {
-                            title: "3. The 'Doch' Response",
-                            content: "If someone asks a **negative question**, and you want to say **YES**, you use **Doch**.\n\n* **Q:** Hast du keinen Hunger? (Aren't you hungry?)\n* **A (Yes I am):** Doch! Ich habe Hunger!\n* **A (No I'm not):** Nein, ich habe keinen Hunger.",
+                            title: "3. Position of Nicht in Sentences",
+                            content: "The position of 'nicht' in a German sentence follows specific rules and can change the meaning.\n\n**Basic Rule:** 'Nicht' comes as **late as possible** in the sentence, but before certain elements.\n\n**NICHT comes BEFORE:**\n1. **Adjectives:** Das ist nicht gut.\n2. **Prepositional phrases:** Ich gehe nicht ins Kino.\n3. **Infinitives:** Ich kann nicht kommen.\n4. **Separable prefixes:** Er steht nicht auf.\n5. **Past participles:** Ich habe nicht geschlafen.\n\n**NICHT comes AFTER:**\n1. **Direct objects:** Ich sehe den Mann nicht.\n2. **Time expressions:** Er kommt heute nicht.\n3. **Definite places:** Wir waren gestern nicht da.\n\n**Position Examples:**\n* **Wrong:** Ich nicht schlafe. ❌\n* **Correct:** Ich schlafe nicht. ✅\n\n* **Wrong:** Wir nicht gehen ins Theater. ❌\n* **Correct:** Wir gehen nicht ins Theater. ✅\n\n**Special Cases:**\n\n**1. Negating specific elements:**\n* Ich trinke nicht Kaffee, sondern Tee. (Not coffee, but tea)\n* Er kommt nicht heute, sondern morgen. (Not today, but tomorrow)\n\n**2. With modal verbs:**\n* Ich kann nicht kommen. (I cannot come)\n* Du musst nicht arbeiten. (You don't have to work)\n\n**3. Emphasis through position:**\n* Normal: Ich verstehe das nicht. (I don't understand that)\n* Emphasis: Ich verstehe nicht das Problem. (It's not the problem I don't understand)",
                             examples: [
-                                { german: "Kommst du nicht?", english: "Are you not coming?" },
-                                { german: "Doch! Ich komme gleich.", english: "Yes (on the contrary)! I'm coming soon." }
+                                { german: "Ich bin nicht müde.", english: "I am not tired." },
+                                { german: "Sie arbeitet nicht hier.", english: "She doesn't work here." },
+                                { german: "Wir gehen nicht ins Kino.", english: "We're not going to the cinema." },
+                                { german: "Er kann nicht Deutsch sprechen.", english: "He can't speak German." },
+                                { german: "Ich esse nicht gern Fisch.", english: "I don't like eating fish." },
+                                { german: "Das Auto fährt nicht schnell.", english: "The car doesn't drive fast." }
+                            ]
+                        },
+                        {
+                            title: "4. The 'Doch' Response - Contradicting Negative Questions",
+                            content: "German has a special word 'doch' that doesn't exist in English. It's used to contradict negative questions or statements.\n\n**When to use DOCH:**\nWhen someone asks a **negative question** and you want to give a **positive answer** (contradicting their assumption).\n\n**The Three Response Options:**\n1. **JA** - for positive questions → positive answers\n2. **NEIN** - for any question → negative answers  \n3. **DOCH** - for negative questions → positive answers (contradiction)\n\n**Examples:**\n\n**Positive Question:**\n* Q: Trinkst du Kaffee? (Do you drink coffee?)\n* A: Ja, ich trinke Kaffee. (Yes, I drink coffee.)\n* A: Nein, ich trinke keinen Kaffee. (No, I don't drink coffee.)\n\n**Negative Question:**\n* Q: Trinkst du keinen Kaffee? (Don't you drink coffee?)\n* A: **Doch**, ich trinke Kaffee! (Yes, I do drink coffee! [contradicting])\n* A: Nein, ich trinke keinen Kaffee. (No, I don't drink coffee. [agreeing])\n\n**More Examples:**\n* Q: Kommst du nicht? (Aren't you coming?)\n* A: Doch! Ich komme gleich. (Yes! I'm coming soon.)\n\n* Q: Hast du keine Zeit? (Don't you have time?)\n* A: Doch, ich habe Zeit. (Yes, I do have time.)\n\n**Usage in Corrections:**\n'Doch' can also correct false statements:\n* Person A: Du bist nicht verheiratet. (You're not married.)\n* Person B: Doch! Ich bin verheiratet. (Yes I am! I am married.)\n\n**Cultural Note:** Using 'doch' appropriately makes you sound more natural and shows you understand the nuances of German conversation.",
+                            examples: [
+                                { german: "Kommst du nicht? - Doch! Ich komme gleich.", english: "Aren't you coming? - Yes! I'm coming soon." },
+                                { german: "Hast du keinen Hunger? - Doch! Ich habe großen Hunger.", english: "Aren't you hungry? - Yes! I'm very hungry." },
+                                { german: "Ist das nicht dein Auto? - Doch, das ist mein Auto.", english: "Isn't that your car? - Yes, that is my car." },
+                                { german: "Kannst du nicht schwimmen? - Doch, ich kann gut schwimmen.", english: "Can't you swim? - Yes, I can swim well." },
+                                { german: "Wohnst du nicht hier? - Doch, ich wohne hier.", english: "Don't you live here? - Yes, I do live here." }
+                            ]
+                        },
+                        {
+                            title: "5. Advanced Negation Patterns and Common Expressions",
+                            content: "Beyond basic nicht/kein usage, German has several advanced negation patterns and fixed expressions.\n\n**Double Negation Avoidance:**\nUnlike English, German avoids double negatives:\n* English: 'I don't have nothing.' (incorrect but common)\n* German: Ich habe nichts. (I have nothing.) NOT: Ich habe nicht nichts.\n\n**Common Negative Words:**\n* **nichts** (nothing): Ich verstehe nichts.\n* **niemand** (nobody): Niemand ist da.\n* **nie/niemals** (never): Ich gehe nie ins Theater.\n* **nirgendwo** (nowhere): Ich finde es nirgendwo.\n* **weder...noch** (neither...nor): Weder Hans noch Maria kommt.\n\n**Negating Different Sentence Elements:**\n\n**1. Negating Time:**\n* Heute nicht → nicht heute (not today)\n* Nie → niemals (never)\n\n**2. Negating Quantity:**\n* nicht viel (not much)\n* nicht alle (not all)\n* nicht genug (not enough)\n\n**3. Negating Comparison:**\n* nicht so... wie (not as... as)\n* nicht größer als (not bigger than)\n\n**Fixed Expressions with Negation:**\n* **Das macht nichts.** (That doesn't matter.)\n* **Keine Ahnung!** (No idea!)\n* **Nicht wahr?** (Isn't that right? / Right?)\n* **Kein Problem!** (No problem!)\n* **Nicht schlecht!** (Not bad!)\n* **Gar nicht** (not at all): Das ist gar nicht schwer.\n\n**Polite Negation:**\n* **Leider nicht** (unfortunately not): Kann ich helfen? - Leider nicht.\n* **Noch nicht** (not yet): Bist du fertig? - Noch nicht.",
+                            examples: [
+                                { german: "Ich verstehe nichts.", english: "I understand nothing." },
+                                { german: "Niemand ist zu Hause.", english: "Nobody is at home." },
+                                { german: "Wir gehen nie ins Theater.", english: "We never go to the theater." },
+                                { german: "Das macht nichts.", english: "That doesn't matter." },
+                                { german: "Keine Ahnung!", english: "No idea!" },
+                                { german: "Das ist gar nicht schwer.", english: "That's not difficult at all." },
+                                { german: "Leider kann ich nicht kommen.", english: "Unfortunately, I can't come." },
+                                { german: "Ich bin noch nicht fertig.", english: "I'm not finished yet." }
                             ]
                         }
                     ],
@@ -839,7 +1387,7 @@ export const syllabusData: Phase[] = [
                             type: "text",
                             question: "Make a question: 'Du bist müde.'",
                             answer: "Bist du müde?",
-                            explanation: "Verb 'Bist' comes first."
+                            explanation: "Verb 'Bist' comes first in Yes/No questions."
                         },
                         {
                             id: "d9-q2",
@@ -847,14 +1395,157 @@ export const syllabusData: Phase[] = [
                             question: "He is ___ (not) my brother.",
                             options: ["kein", "nicht"],
                             answer: "nicht",
-                            explanation: "'My brother' is a specific person (defined), so use 'nicht'. Also, possessives usually take nicht."
+                            explanation: "'My brother' is a specific person (possessive), so use 'nicht'."
                         },
                         {
                             id: "d9-q3",
                             type: "text",
                             question: "Reply 'Yes!' to: 'Wohnst du nicht hier?'",
                             answer: "Doch!",
-                            explanation: "Doch contradicts the negative question."
+                            explanation: "Doch contradicts the negative question assumption."
+                        },
+                        {
+                            id: "d9-q4",
+                            type: "choice",
+                            question: "Transform to question: 'Sie arbeitet hier.'",
+                            options: ["Arbeitet sie hier?", "Sie arbeitet hier?", "Arbeitet hier sie?"],
+                            answer: "Arbeitet sie hier?",
+                            explanation: "Verb first, then subject: Arbeitet sie hier?"
+                        },
+                        {
+                            id: "d9-q5",
+                            type: "text",
+                            question: "Negate with 'kein': 'Ich habe ein Auto.'",
+                            answer: "Ich habe kein Auto.",
+                            explanation: "'ein Auto' → 'kein Auto' (indefinite article becomes kein)"
+                        },
+                        {
+                            id: "d9-q6",
+                            type: "choice",
+                            question: "Complete: 'Das ist ___ gut.' (not good)",
+                            options: ["kein", "nicht", "keine"],
+                            answer: "nicht",
+                            explanation: "Adjectives are negated with 'nicht': nicht gut."
+                        },
+                        {
+                            id: "d9-q7",
+                            type: "text",
+                            question: "Ask: 'Do you have time?' (Sie form)",
+                            answer: "Haben Sie Zeit?",
+                            explanation: "Formal question: Haben Sie Zeit?"
+                        },
+                        {
+                            id: "d9-q8",
+                            type: "choice",
+                            question: "Negate: 'Wir trinken Bier.'",
+                            options: ["Wir trinken nicht Bier.", "Wir trinken kein Bier.", "Wir nicht trinken Bier."],
+                            answer: "Wir trinken kein Bier.",
+                            explanation: "Bare noun 'Bier' is negated with 'kein'."
+                        },
+                        {
+                            id: "d9-q9",
+                            type: "text",
+                            question: "Transform: 'Er kann schwimmen.' (question)",
+                            answer: "Kann er schwimmen?",
+                            explanation: "Modal verb 'kann' goes first: Kann er schwimmen?"
+                        },
+                        {
+                            id: "d9-q10",
+                            type: "choice",
+                            question: "Answer positively: 'Kommst du nicht mit?' (Aren't you coming along?)",
+                            options: ["Ja!", "Doch!", "Nein!"],
+                            answer: "Doch!",
+                            explanation: "'Doch' contradicts negative questions positively."
+                        },
+                        {
+                            id: "d9-q11",
+                            type: "text",
+                            question: "Negate: 'Das ist mein Buch.'",
+                            answer: "Das ist nicht mein Buch.",
+                            explanation: "Possessive 'mein' is negated with 'nicht'."
+                        },
+                        {
+                            id: "d9-q12",
+                            type: "choice",
+                            question: "Complete: 'Ich habe ___ Geschwister.' (no siblings)",
+                            options: ["nicht", "keine", "kein"],
+                            answer: "keine",
+                            explanation: "Plural noun without article: keine Geschwister."
+                        },
+                        {
+                            id: "d9-q13",
+                            type: "text",
+                            question: "Ask: 'Are you learning German?' (du form)",
+                            answer: "Lernst du Deutsch?",
+                            explanation: "Regular verb question: Lernst du Deutsch?"
+                        },
+                        {
+                            id: "d9-q14",
+                            type: "choice",
+                            question: "Position of 'nicht': 'Ich ___ ins Kino ___.'",
+                            options: ["nicht...gehe", "gehe...nicht", "beide richtig"],
+                            answer: "gehe...nicht",
+                            explanation: "'Nicht' comes before prepositional phrases: gehe nicht ins Kino."
+                        },
+                        {
+                            id: "d9-q15",
+                            type: "text",
+                            question: "Negate: 'Sie ist Lehrerin.'",
+                            answer: "Sie ist keine Lehrerin.",
+                            explanation: "Profession without article: keine Lehrerin."
+                        },
+                        {
+                            id: "d9-q16",
+                            type: "choice",
+                            question: "Transform: 'Ihr steht früh auf.' (question)",
+                            options: ["Steht ihr früh auf?", "Früh steht ihr auf?", "Ihr steht auf früh?"],
+                            answer: "Steht ihr früh auf?",
+                            explanation: "Separable verb question: Steht ihr früh auf?"
+                        },
+                        {
+                            id: "d9-q17",
+                            type: "text",
+                            question: "Complete: 'Ich verstehe ___.' (nothing)",
+                            answer: "nichts",
+                            explanation: "'Nichts' means 'nothing': Ich verstehe nichts."
+                        },
+                        {
+                            id: "d9-q18",
+                            type: "choice",
+                            question: "'Hast du keine Zeit?' - Answer: 'Yes, I do have time.'",
+                            options: ["Ja, ich habe Zeit.", "Doch, ich habe Zeit.", "Nein, ich habe Zeit."],
+                            answer: "Doch, ich habe Zeit.",
+                            explanation: "'Doch' contradicts the negative assumption."
+                        },
+                        {
+                            id: "d9-q19",
+                            type: "text",
+                            question: "Ask: 'Is that your car?' (dein Auto)",
+                            answer: "Ist das dein Auto?",
+                            explanation: "'Sein' question: Ist das dein Auto?"
+                        },
+                        {
+                            id: "d9-q20",
+                            type: "choice",
+                            question: "Negate correctly: 'Das ist die Lösung.'",
+                            options: ["Das ist keine Lösung.", "Das ist nicht die Lösung.", "beide richtig"],
+                            answer: "Das ist nicht die Lösung.",
+                            explanation: "Definite article 'die' requires 'nicht': nicht die Lösung."
+                        },
+                        {
+                            id: "d9-q21",
+                            type: "text",
+                            question: "Express: 'I never go to the theater.'",
+                            answer: "Ich gehe nie ins Theater.",
+                            explanation: "'Nie' means 'never': Ich gehe nie ins Theater."
+                        },
+                        {
+                            id: "d9-q22",
+                            type: "choice",
+                            question: "Common expression for 'No idea!'",
+                            options: ["Nicht Idee!", "Keine Ahnung!", "Kein Wissen!"],
+                            answer: "Keine Ahnung!",
+                            explanation: "Fixed expression: Keine Ahnung! (No idea!)"
                         }
                     ]
                 }
@@ -868,17 +1559,55 @@ export const syllabusData: Phase[] = [
                 details: {
                     sections: [
                         {
-                            title: "Phase 1 Review (Wiederholung)",
-                            content: "You have completed the first major milestone! You can now:\n\n* **Greet people** (Hallo, Guten Tag).\n* **Introduce yourself** (Ich heiße... Ich komme aus...).\n* **Count & Shop** (Numbers, Prices, Colors).\n* **talk about basic needs** (Hunger haben, müde sein).\n* **Build sentences** (SVO, Inversion).\n* **Ask questions** (Wer, Wo, Wann, Wohin).\n* **Avoid pitfalls** (du vs Sie, kein vs nicht).",
+                            title: "1. Phase 1 Complete Review (Wiederholung)",
+                            content: "Congratulations! You have completed the first major milestone of your German learning journey. You can now handle basic everyday situations with confidence.\n\n**What You Have Mastered:**\n\n**🔤 Pronunciation & Alphabet (Day 1):**\n* German alphabet and special characters (ä, ö, ü, ß)\n* Key pronunciation rules (W=V, V=F, Z=TS, CH sounds)\n* Essential greetings and farewells\n* Letter combinations (ei, ie, eu, sch, st/sp)\n\n**👥 Personal Introduction (Day 2):**\n* Personal pronouns (ich, du, er/sie/es, wir, ihr, sie/Sie)\n* Formal vs informal address (du vs Sie)\n* Self-introduction patterns (Ich heiße... Ich komme aus... Ich wohne in...)\n\n**🔢 Numbers & Basic Needs (Days 3-4):**\n* Numbers 0-100 with special German patterns\n* Essential verbs 'sein' and 'haben'\n* Expressing basic needs (Hunger/Durst haben)\n* Colors and age expressions\n* Asking prices (Wie viel kostet das?)\n\n**📅 Time & Preferences (Day 5):**\n* Days of the week and months\n* Seasons and time expressions\n* Expressing likes with 'gern'\n* Using prepositions 'am' and 'im'\n\n**⚙️ Grammar Foundation (Days 6-9):**\n* Regular verb conjugation patterns\n* Sentence structure and Position 2 rule\n* Noun genders (der/die/das) and articles\n* Plural formation strategies\n* W-questions for information gathering\n* Yes/No question formation\n* Negation with 'nicht' vs 'kein'\n* The 'doch' response for contradicting negative questions\n\n**Your German Toolbox Now Contains:**\n* ~150-200 essential vocabulary words\n* Basic sentence patterns for everyday communication\n* Question formation for gathering information\n* Ability to express agreement, disagreement, and preferences\n* Foundation for more complex grammar structures",
                             examples: [
                                 { german: "Ich spreche ein bisschen Deutsch.", english: "I speak a little German." },
-                                { german: "Das macht sehr viel Spaß.", english: "That is a lot of fun." }
+                                { german: "Das macht sehr viel Spaß.", english: "That is a lot of fun." },
+                                { german: "Können Sie mir helfen?", english: "Can you help me?" },
+                                { german: "Entschuldigung, wo ist die Toilette?", english: "Excuse me, where is the bathroom?" },
+                                { german: "Ich verstehe nicht. Können Sie das wiederholen?", english: "I don't understand. Can you repeat that?" }
                             ]
                         },
                         {
-                            title: "Mock Conversation: At the Café",
-                            content: "**Kellner (Waiter):** Guten Tag! Was möchten Sie?\n**Gast (Guest):** Guten Tag. Ich möchte einen Kaffee und einen Kuchen, bitte.\n**Kellner:** Gerne. Mit Milch und Zucker?\n**Gast:** Ja, bitte. Was kostet das?\n**Kellner:** Das macht 8 Euro.\n**Gast:** Hier, bitte. Tschüss!\n**Kellner:** Auf Wiedersehen!",
-                            examples: []
+                            title: "2. Self-Assessment Checklist",
+                            content: "Use this checklist to evaluate your progress and identify areas that need more practice:\n\n**Pronunciation (✓ = Confident, ~ = Need Practice, ✗ = Need Review):**\n□ I can pronounce German umlauts (ä, ö, ü) correctly\n□ I know the difference between 'ei' and 'ie' sounds\n□ I can pronounce 'sch', 'ch', and 'st/sp' correctly\n□ I can say German 'r' or use an acceptable substitute\n□ I can greet people appropriately (formal vs informal)\n\n**Grammar & Structure:**\n□ I can conjugate regular verbs in present tense\n□ I understand and use the Position 2 rule\n□ I can form both W-questions and Yes/No questions\n□ I know when to use 'nicht' vs 'kein'\n□ I can identify noun genders at least 70% of the time\n□ I can create simple sentences with correct word order\n\n**Vocabulary & Communication:**\n□ I can introduce myself completely\n□ I can count from 0-100 confidently\n□ I know all days of the week and months\n□ I can express basic needs and preferences\n□ I can ask for prices and understand simple responses\n□ I can handle basic greetings and small talk\n\n**Areas for Continued Focus:**\n* If you checked mostly ✓: Excellent! You're ready for Phase 2\n* If you have several ~: Review those specific topics before moving on\n* If you have any ✗: Dedicate extra time to those areas\n\n**Study Tips for Weak Areas:**\n* Create flashcards for vocabulary you still struggle with\n* Practice verb conjugations daily until they become automatic\n* Record yourself speaking and compare to native speakers\n* Find a language exchange partner for conversation practice",
+                            examples: [
+                                { german: "Ich bin noch Anfänger.", english: "I'm still a beginner." },
+                                { german: "Ich muss mehr üben.", english: "I need to practice more." },
+                                { german: "Das ist schwer für mich.", english: "That's difficult for me." },
+                                { german: "Ich mache Fortschritte.", english: "I'm making progress." }
+                            ]
+                        },
+                        {
+                            title: "3. Practical Conversation Scenarios",
+                            content: "These real-world scenarios combine everything you've learned. Practice these until you feel comfortable:\n\n**Scenario 1: At a Café**\n**Kellner:** Guten Tag! Was möchten Sie trinken?\n**Sie:** Guten Tag. Ich möchte einen Kaffee, bitte.\n**Kellner:** Mit Milch und Zucker?\n**Sie:** Nur mit Milch, bitte. Was kostet der Kaffee?\n**Kellner:** Drei Euro fünfzig.\n**Sie:** Hier sind vier Euro. Danke schön!\n**Kellner:** Vielen Dank. Auf Wiedersehen!\n\n**Scenario 2: Meeting Someone New**\n**Person A:** Hallo! Wie heißen Sie?\n**Sie:** Ich heiße [Your Name]. Und Sie?\n**Person A:** Ich bin Maria Schmidt. Woher kommen Sie?\n**Sie:** Ich komme aus [Your Country]. Und Sie? Sind Sie aus Deutschland?\n**Person A:** Ja, ich wohne hier in Berlin. Sprechen Sie gut Deutsch?\n**Sie:** Nein, ich lerne erst seit kurzer Zeit. Aber es macht Spaß!\n\n**Scenario 3: Getting Directions**\n**Sie:** Entschuldigung, wo ist der Bahnhof?\n**Person:** Der Bahnhof? Das ist nicht weit. Gehen Sie geradeaus und dann links.\n**Sie:** Wie lange dauert das zu Fuß?\n**Person:** Etwa zehn Minuten.\n**Sie:** Vielen Dank für Ihre Hilfe!\n**Person:** Gern geschehen!\n\n**Scenario 4: Shopping**\n**Verkäufer:** Kann ich Ihnen helfen?\n**Sie:** Ja, wie viel kostet das Brot?\n**Verkäufer:** Zwei Euro zwanzig.\n**Sie:** Gut, ich nehme zwei Brote, bitte.\n**Verkäufer:** Das macht vier Euro vierzig.\n**Sie:** Hier sind fünf Euro.\n**Verkäufer:** Danke. Sechzig Cent zurück.\n\n**Practice Tips:**\n* Act out these scenarios with a partner or alone\n* Substitute different vocabulary (drinks, food, places)\n* Add your own variations and complications\n* Focus on natural intonation and rhythm",
+                            examples: [
+                                { german: "Können Sie mir bitte helfen?", english: "Can you please help me?" },
+                                { german: "Wo kann ich das kaufen?", english: "Where can I buy that?" },
+                                { german: "Wie komme ich zum Hauptbahnhof?", english: "How do I get to the main train station?" },
+                                { german: "Sprechen Sie Englisch?", english: "Do you speak English?" }
+                            ]
+                        },
+                        {
+                            title: "4. Cultural Notes and Practical Tips",
+                            content: "Understanding German culture is as important as learning the language:\n\n**Important Cultural Behaviors:**\n\n**1. Greetings and Formality:**\n* Always use 'Sie' with strangers, authority figures, and in business\n* 'Du' is offered, not assumed - wait for someone to say 'Wir können uns duzen'\n* Handshakes are common in professional settings\n* Eye contact shows respect and attention\n\n**2. Punctuality:**\n* Being on time is extremely important in German culture\n* 'Pünktlichkeit' (punctuality) is a core German value\n* If you're running late, call or text ahead\n\n**3. Direct Communication:**\n* Germans appreciate directness and honesty\n* 'Wie geht's?' usually expects a real answer, not just 'gut'\n* Constructive criticism is normal and not meant personally\n\n**4. Privacy and Personal Space:**\n* Germans value privacy ('Privatsphäre')\n* Don't ask personal questions too quickly\n* Respect personal space in public transportation\n\n**Practical Survival Phrases:**\n* **Entschuldigung** (Excuse me) - for getting attention or apologizing\n* **Können Sie mir helfen?** (Can you help me?) - universal request\n* **Ich verstehe nicht** (I don't understand) - essential for learners\n* **Sprechen Sie Englisch?** (Do you speak English?) - backup option\n* **Wie bitte?** (Pardon me?) - polite way to ask for repetition\n* **Das macht nichts** (That doesn't matter) - when someone apologizes\n* **Kein Problem** (No problem) - casual response\n\n**Learning Mindset:**\n* Embrace mistakes - they're part of learning\n* Germans often appreciate your effort to speak German\n* Don't be afraid to ask 'Können Sie das wiederholen?' (Can you repeat that?)\n* Use gestures and context when words fail you",
+                            examples: [
+                                { german: "Entschuldigung, ich bin neu hier.", english: "Excuse me, I'm new here." },
+                                { german: "Können Sie langsamer sprechen?", english: "Can you speak more slowly?" },
+                                { german: "Ich lerne noch Deutsch.", english: "I'm still learning German." },
+                                { german: "Vielen Dank für Ihre Geduld.", english: "Thank you for your patience." }
+                            ]
+                        },
+                        {
+                            title: "5. Transition to Phase 2: What's Next?",
+                            content: "You're now ready for Phase 2, which focuses on daily life and practical communication skills.\n\n**Phase 2 Preview - What You'll Learn Next:**\n\n**Days 11-15: Personal Life & Relationships**\n* Family vocabulary and possessive pronouns\n* Telling time (formal and informal)\n* Daily routines and separable verbs\n* Food vocabulary and the Accusative case\n* Modal verbs (können, wollen, müssen, dürfen, möchten)\n\n**Days 16-20: Advanced Communication**\n* Describing objects and people\n* Making polite requests and orders\n* Understanding German shopping culture\n* Prepositions and spatial relationships\n* Connecting ideas with conjunctions\n\n**Preparation Strategies:**\n* Review any weak areas from Phase 1 before continuing\n* Start a vocabulary journal for new words\n* Find German media (YouTube, podcasts) appropriate for A1 level\n* Set up regular practice schedules (15-30 minutes daily)\n* Consider finding a language exchange partner\n\n**Recommended Practice Between Phases:**\n* Download a German learning app for daily vocabulary review\n* Watch simple German YouTube videos with subtitles\n* Practice the conversation scenarios from this lesson\n* Try to think in German for simple daily activities\n* Join online German learning communities for support\n\n**Success Metrics for Phase 2:**\nBy the end of Phase 2, you should be able to:\n* Have a 5-minute conversation about your daily routine\n* Order food in a restaurant confidently\n* Describe your family and living situation\n* Handle basic shopping transactions\n* Express needs, wants, and obligations using modal verbs\n\n**Motivation Reminder:**\nLearning German is like building a house - Phase 1 was your foundation. Phase 2 will add the walls and rooms where you can actually live and communicate effectively. Keep going - you're making excellent progress!",
+                            examples: [
+                                { german: "Ich freue mich auf Phase 2!", english: "I'm looking forward to Phase 2!" },
+                                { german: "Ich habe viel gelernt.", english: "I have learned a lot." },
+                                { german: "Jetzt kann ich einfache Gespräche führen.", english: "Now I can have simple conversations." },
+                                { german: "Deutsch wird jeden Tag einfacher.", english: "German gets easier every day." }
+                            ]
                         }
                     ],
                     homework: [
@@ -888,7 +1617,7 @@ export const syllabusData: Phase[] = [
                             question: "Big Review: Plural of 'das Kind'?",
                             options: ["die Kinde", "die Kinder", "die Kinders"],
                             answer: "die Kinder",
-                            explanation: "Neutral monosyllabic noun -> -er ending."
+                            explanation: "Neuter monosyllabic noun -> -er ending: Kind → Kinder."
                         },
                         {
                             id: "d10-q2",
@@ -902,7 +1631,150 @@ export const syllabusData: Phase[] = [
                             type: "text",
                             question: "Ask: 'Are you hungry?'",
                             answer: "Hast du Hunger?",
-                            explanation: "Use 'haben' for Hunger, verb first."
+                            explanation: "Use 'haben' for Hunger, verb first for yes/no questions."
+                        },
+                        {
+                            id: "d10-q4",
+                            type: "choice",
+                            question: "Review: How do you say 16 in German?",
+                            options: ["sechszehn", "sechzehn", "zechszehn"],
+                            answer: "sechzehn",
+                            explanation: "Drop the 's' from sechs: sechzehn (not sechszehn)."
+                        },
+                        {
+                            id: "d10-q5",
+                            type: "text",
+                            question: "Complete greeting: 'Guten ___' (Good day)",
+                            answer: "Tag",
+                            explanation: "Guten Tag is the standard formal greeting."
+                        },
+                        {
+                            id: "d10-q6",
+                            type: "choice",
+                            question: "Review: 'Wie alt ___?' (How old are you - informal)",
+                            options: ["sind Sie", "bist du", "ist er"],
+                            answer: "bist du",
+                            explanation: "Informal 'you' is 'du bist': Wie alt bist du?"
+                        },
+                        {
+                            id: "d10-q7",
+                            type: "text",
+                            question: "Translate: 'My name is Anna.'",
+                            answer: "Ich heiße Anna.",
+                            explanation: "Standard introduction: Ich heiße + name."
+                        },
+                        {
+                            id: "d10-q8",
+                            type: "choice",
+                            question: "Review: Which preposition with days? '___Montag'",
+                            options: ["am", "im", "um"],
+                            answer: "am",
+                            explanation: "Days of the week use 'am': am Montag."
+                        },
+                        {
+                            id: "d10-q9",
+                            type: "text",
+                            question: "Express preference: 'I like learning German.'",
+                            answer: "Ich lerne gern Deutsch.",
+                            explanation: "Use verb + gern: lerne gern."
+                        },
+                        {
+                            id: "d10-q10",
+                            type: "choice",
+                            question: "Review: Verb position - 'Heute / ich / arbeite'",
+                            options: ["Heute ich arbeite.", "Heute arbeite ich.", "Ich arbeite heute."],
+                            answer: "Heute arbeite ich.",
+                            explanation: "Inversion: Time + Verb + Subject."
+                        },
+                        {
+                            id: "d10-q11",
+                            type: "text",
+                            question: "Review: Article for 'Mädchen' (girl)?",
+                            answer: "das",
+                            explanation: "Words ending in -chen are always neuter: das Mädchen."
+                        },
+                        {
+                            id: "d10-q12",
+                            type: "choice",
+                            question: "Review: 'I don't understand.' in German?",
+                            options: ["Ich verstehe nicht.", "Ich nicht verstehe.", "Nicht ich verstehe."],
+                            answer: "Ich verstehe nicht.",
+                            explanation: "'Nicht' goes after the verb: verstehe nicht."
+                        },
+                        {
+                            id: "d10-q13",
+                            type: "text",
+                            question: "Ask for location: 'Where do you live?' (informal)",
+                            answer: "Wo wohnst du?",
+                            explanation: "Static location question: Wo wohnst du?"
+                        },
+                        {
+                            id: "d10-q14",
+                            type: "choice",
+                            question: "Review: Conjugate 'sein' for 'wir'",
+                            options: ["sind", "seid", "ist"],
+                            answer: "sind",
+                            explanation: "First person plural: wir sind."
+                        },
+                        {
+                            id: "d10-q15",
+                            type: "text",
+                            question: "Review: How do you say 'excuse me'?",
+                            answer: "Entschuldigung",
+                            explanation: "Entschuldigung = excuse me (to get attention or apologize)."
+                        },
+                        {
+                            id: "d10-q16",
+                            type: "choice",
+                            question: "Review: 'Das ist ___ Auto.' (not a car)",
+                            options: ["nicht", "kein", "keine"],
+                            answer: "kein",
+                            explanation: "Indefinite article 'ein Auto' → 'kein Auto'."
+                        },
+                        {
+                            id: "d10-q17",
+                            type: "text",
+                            question: "Count: What comes after neunzehn?",
+                            answer: "zwanzig",
+                            explanation: "After nineteen (neunzehn) comes twenty (zwanzig)."
+                        },
+                        {
+                            id: "d10-q18",
+                            type: "choice",
+                            question: "Review: Answer 'Kommst du nicht?' positively",
+                            options: ["Ja!", "Doch!", "Nein!"],
+                            answer: "Doch!",
+                            explanation: "'Doch' contradicts negative questions positively."
+                        },
+                        {
+                            id: "d10-q19",
+                            type: "text",
+                            question: "Review: 'Good morning' in German?",
+                            answer: "Guten Morgen",
+                            explanation: "Guten Morgen (used until about 10-11 AM)."
+                        },
+                        {
+                            id: "d10-q20",
+                            type: "choice",
+                            question: "Review: Which season is 'der Winter'?",
+                            options: ["Spring", "Summer", "Autumn", "Winter"],
+                            answer: "Winter",
+                            explanation: "der Winter = winter. All seasons are masculine."
+                        },
+                        {
+                            id: "d10-q21",
+                            type: "text",
+                            question: "Self-assessment: Rate your confidence 1-10 for basic conversations",
+                            answer: "Answers vary",
+                            explanation: "Honest self-assessment helps identify areas for improvement."
+                        },
+                        {
+                            id: "d10-q22",
+                            type: "choice",
+                            question: "Phase 1 complete! What's the most important grammar rule?",
+                            options: ["Verb in position 2", "Always use 'Sie'", "Memorize all plurals"],
+                            answer: "Verb in position 2",
+                            explanation: "Position 2 rule is fundamental to German sentence structure."
                         }
                     ]
                 }
