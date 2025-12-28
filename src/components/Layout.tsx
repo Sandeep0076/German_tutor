@@ -1,12 +1,10 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { BookOpen, Home, GraduationCap, BrainCircuit } from 'lucide-react';
-import { useAppContext } from '../context/AppContext';
 import QuickTranslator from './QuickTranslator';
+import NavbarCountdown from './NavbarCountdown';
 
 const Layout = () => {
-    const { role, setRole } = useAppContext();
-
     return (
         <div className="min-h-screen flex flex-col font-sans text-slate-800">
             {/* Navbar */}
@@ -27,26 +25,8 @@ const Layout = () => {
                                 <NavItem to="/doc-tutor" icon={<BrainCircuit size={20} />} label="AI Tutor" />
                             </div>
                         </div>
-                        <div className="flex items-center gap-4">
-                            <button
-                                onClick={() => setRole(role === 'student' ? 'teacher' : 'student')}
-                                className={`
-                  relative inline-flex h-7 w-12 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2
-                  ${role === 'teacher' ? 'bg-indigo-600' : 'bg-slate-300'}
-                `}
-                            >
-                                <span className="sr-only">Use setting</span>
-                                <span
-                                    aria-hidden="true"
-                                    className={`
-                    pointer-events-none inline-block h-6 w-6 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out
-                    ${role === 'teacher' ? 'translate-x-5' : 'translate-x-0'}
-                  `}
-                                />
-                            </button>
-                            <span className="hidden md:block text-sm font-semibold text-indigo-900 capitalize px-3 py-1 bg-white/30 rounded-full backdrop-blur-sm border border-white/40">
-                                {role} Mode
-                            </span>
+                        <div className="flex items-center">
+                            <NavbarCountdown />
                         </div>
                     </div>
                 </div>
