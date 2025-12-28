@@ -18,7 +18,7 @@ const Layout = () => {
                                 <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold shadow-lg ring-2 ring-white/50">
                                     D
                                 </div>
-                                <span className="font-bold text-2xl text-indigo-900 tracking-tight drop-shadow-sm">GermanTutor</span>
+                                <span className="font-bold text-2xl text-indigo-900 tracking-tight drop-shadow-sm">GermanTutor A1</span>
                             </div>
                             <div className="hidden sm:flex sm:space-x-4">
                                 <NavItem to="/" icon={<Home size={20} />} label="Dashboard" />
