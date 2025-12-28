@@ -2,9 +2,34 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, CheckCircle, Star } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
+import { syllabusData } from '../data/syllabus';
 
 const Home = () => {
     const { role, studentInfo } = useAppContext();
+    
+    // Find current day's topic title
+    const getCurrentDayTopic = () => {
+        for (const phase of syllabusData) {
+            const dayData = phase.days.find(d => d.day === studentInfo.currentDay);
+            if (dayData) {
+                return dayData.title;
+            }
+        }
+        return 'German Basics';
+    };
+
+    const currentTopic = getCurrentDayTopic();
+    const progressDate = studentInfo.progress.lastCompletedDate 
+        ? new Date(studentInfo.progress.lastCompletedDate).toLocaleDateString('en-US', {
+            month: 'short',
+            day: 'numeric',
+            year: 'numeric'
+        })
+        : new Date().toLocaleDateString('en-US', {
+            month: 'short', 
+            day: 'numeric',
+            year: 'numeric'
+        });
 
     return (
         <div className="space-y-8">
@@ -67,8 +92,14 @@ const Home = () => {
                         <div className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 to-purple-600 mb-1">
                             Day {role === 'student' ? studentInfo.currentDay : 1}
                         </div>
-                        <div className="text-sm text-slate-500 font-semibold uppercase tracking-wider mb-8">
+                        <div className="text-sm text-slate-500 font-semibold uppercase tracking-wider mb-2">
                             Current Progress
+                        </div>
+                        <div className="text-xs text-slate-600 font-medium mb-1">
+                            {currentTopic}
+                        </div>
+                        <div className="text-xs text-slate-400 mb-6">
+                            Last updated: {progressDate}
                         </div>
                         <div className="flex gap-2">
                             <div className="h-10 w-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">

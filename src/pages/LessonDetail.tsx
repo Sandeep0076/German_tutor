@@ -1,14 +1,15 @@
 import { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { syllabusData, type DayPlan, type Question } from '../data/syllabus';
-import { ArrowLeft, Volume2, Check, ChevronDown, ChevronUp } from 'lucide-react';
+import { ArrowLeft, Volume2, Check, ChevronDown, ChevronUp, CheckCircle } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 import LessonChatbot from '../components/LessonChatbot';
 import { speak } from '../utils/speech';
 
 const LessonDetail = () => {
     const { dayId } = useParams<{ dayId: string }>();
-    const { role } = useAppContext();
+    const { role, studentInfo, completeDay } = useAppContext();
+    const navigate = useNavigate();
     const [activeTab, setActiveTab] = useState<'guide' | 'homework'>('guide');
 
     // Find the day data
@@ -26,6 +27,17 @@ const LessonDetail = () => {
     }
 
     const details = currentDay.details;
+    const isDayCompleted = studentInfo.progress.completedDays.includes(currentDay.day);
+
+    const handleCompleteDay = () => {
+        console.log(`Marking day ${currentDay!.day} as complete: ${currentDay!.title}`);
+        completeDay(currentDay!.day, currentDay!.title);
+        
+        // Navigate back to syllabus after a brief delay
+        setTimeout(() => {
+            navigate('/syllabus');
+        }, 1000);
+    };
 
     return (
         <div className="max-w-4xl mx-auto space-y-8">
@@ -95,6 +107,24 @@ const LessonDetail = () => {
                                         )}
                                     </section>
                                 ))}
+                                
+                                {/* Complete Day Button */}
+                                <div className="flex justify-center pt-8 border-t border-slate-100">
+                                    {isDayCompleted ? (
+                                        <div className="flex items-center gap-2 text-emerald-600 bg-emerald-50 px-6 py-3 rounded-xl border border-emerald-200">
+                                            <CheckCircle size={20} />
+                                            <span className="font-semibold">Day Completed!</span>
+                                        </div>
+                                    ) : (
+                                        <button
+                                            onClick={handleCompleteDay}
+                                            className="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-semibold rounded-xl hover:from-emerald-600 hover:to-emerald-700 transition-all shadow-lg hover:shadow-emerald-500/30 ring-4 ring-emerald-600/20"
+                                        >
+                                            <CheckCircle className="mr-2" size={20} />
+                                            Complete Day {currentDay.day}
+                                        </button>
+                                    )}
+                                </div>
                             </div>
                         ) : (
                             <div className="bg-amber-50 text-amber-800 p-6 rounded-xl border border-amber-100">
@@ -102,7 +132,7 @@ const LessonDetail = () => {
                             </div>
                         )
                     ) : (
-                        <HomeworkSection content={details} role={role} />
+                        <HomeworkSection content={details} role={role} dayNumber={currentDay.day} isDayCompleted={isDayCompleted} handleCompleteDay={handleCompleteDay} />
                     )}
                 </div>
             </div>
@@ -112,7 +142,19 @@ const LessonDetail = () => {
     );
 };
 
-const HomeworkSection = ({ content, role }: { content?: any, role: string }) => {
+const HomeworkSection = ({ 
+    content, 
+    role, 
+    dayNumber, 
+    isDayCompleted, 
+    handleCompleteDay 
+}: { 
+    content?: any, 
+    role: string, 
+    dayNumber: number, 
+    isDayCompleted: boolean, 
+    handleCompleteDay: () => void 
+}) => {
     if (!content || !content.homework) return <div className="text-slate-500">No homework assigned.</div>;
 
     return (
@@ -128,6 +170,24 @@ const HomeworkSection = ({ content, role }: { content?: any, role: string }) => 
             {content.homework.map((q: Question, idx: number) => (
                 <HomeworkItem key={q.id} question={q} index={idx + 1} />
             ))}
+            
+            {/* Complete Day Button for Homework Tab */}
+            <div className="flex justify-center pt-8 border-t border-slate-100">
+                {isDayCompleted ? (
+                    <div className="flex items-center gap-2 text-emerald-600 bg-emerald-50 px-6 py-3 rounded-xl border border-emerald-200">
+                        <CheckCircle size={20} />
+                        <span className="font-semibold">Day Completed!</span>
+                    </div>
+                ) : (
+                    <button
+                        onClick={handleCompleteDay}
+                        className="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-semibold rounded-xl hover:from-emerald-600 hover:to-emerald-700 transition-all shadow-lg hover:shadow-emerald-500/30 ring-4 ring-emerald-600/20"
+                    >
+                        <CheckCircle className="mr-2" size={20} />
+                        Complete Day {dayNumber}
+                    </button>
+                )}
+            </div>
         </div>
     );
 };

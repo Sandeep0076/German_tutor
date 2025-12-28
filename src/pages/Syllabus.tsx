@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { syllabusData, type DayPlan } from '../data/syllabus';
-import { ChevronDown, ChevronRight, Book, PenTool } from 'lucide-react';
+import { ChevronDown, ChevronRight, Book, PenTool, CheckCircle } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 
 const Syllabus = () => {
-    const { role } = useAppContext();
+    const { role, studentInfo } = useAppContext();
     const [expandedPhase, setExpandedPhase] = useState<number | null>(1);
     const [expandedDay, setExpandedDay] = useState<number | null>(null);
 
@@ -55,6 +55,7 @@ const Syllabus = () => {
                                         isExpanded={expandedDay === day.day}
                                         onToggle={() => toggleDay(day.day)}
                                         role={role}
+                                        studentInfo={studentInfo}
                                     />
                                 ))}
                             </div>
@@ -66,7 +67,21 @@ const Syllabus = () => {
     );
 };
 
-const DayCard = ({ day, isExpanded, onToggle, role }: { day: DayPlan, isExpanded: boolean, onToggle: () => void, role: string }) => {
+const DayCard = ({ 
+    day, 
+    isExpanded, 
+    onToggle, 
+    role, 
+    studentInfo 
+}: { 
+    day: DayPlan, 
+    isExpanded: boolean, 
+    onToggle: () => void, 
+    role: string, 
+    studentInfo: any 
+}) => {
+    const isCompleted = studentInfo.progress.completedDays.includes(day.day);
+    
     return (
         <div
             className={`bg-white rounded-xl border transition-all duration-200 overflow-hidden
@@ -79,9 +94,9 @@ const DayCard = ({ day, isExpanded, onToggle, role }: { day: DayPlan, isExpanded
             >
                 <div className={`
           flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg
-          ${isExpanded ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-500'}
+          ${isExpanded ? 'bg-indigo-600 text-white' : isCompleted ? 'bg-emerald-500 text-white' : 'bg-slate-100 text-slate-500'}
         `}>
-                    {day.day}
+                    {isCompleted ? <CheckCircle size={20} /> : day.day}
                 </div>
 
                 <div className="flex-grow">
@@ -89,12 +104,14 @@ const DayCard = ({ day, isExpanded, onToggle, role }: { day: DayPlan, isExpanded
                         {day.title}
                     </h3>
                     <p className="text-sm text-slate-500">Focus: {day.focus}</p>
+                    {isCompleted && (
+                        <p className="text-xs text-emerald-600 font-medium mt-1">✓ Completed</p>
+                    )}
                 </div>
 
-                {/* Status Indicator (Mocked for now) */}
-                <div className="text-slate-300">
-                    {/* In real app, check completion status */}
-                    {/* <CheckCircle size={20} /> */}
+                {/* Status Indicator */}
+                <div className={`text-slate-300 ${isCompleted ? 'text-emerald-400' : ''}`}>
+                    {isCompleted && <CheckCircle size={20} />}
                 </div>
             </button>
 
