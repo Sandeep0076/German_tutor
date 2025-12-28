@@ -4259,18 +4259,129 @@ export const syllabusData: Phase[] = [
             {
                 day: 21,
                 title: "Hobbies & Inversion",
-                focus: "Sentence Structure",
-                activities: ["Talk about hobbies", "Verb position with inversion"],
-                homework: ["Write about hobbies"],
+                focus: "Sentence Structure & Leisure Activities",
+                activities: ["Talk about hobbies", "Verb position with inversion", "Express preferences"],
+                homework: ["Write about your hobbies and weekend activities"],
                 details: {
                     sections: [
                         {
-                            title: "1. Inversion (Verb Position 2)",
-                            content: "If you start the sentence with something other than the subject (like time), the verb stays at Pos 2, but Subject moves to Pos 3.\n\n* **Normal:** Ich spiele heute Fußball.\n* **Inversion:** Heute **spiele** ich Fußball.",
-                            examples: [{ german: "Am Wochenende lerne ich Deutsch.", english: "On the weekend I learn German." }]
+                            title: "1. Hobbies & Leisure Activities Vocabulary",
+                            content: "Essential vocabulary for describing what you like to do in your free time. These topics are very common in A1 conversations and exams.\n\n**Sports & Physical Activities:**\n* **Fußball spielen** (to play football/soccer)\n* **Tennis spielen** (to play tennis)\n* **schwimmen** (to swim)\n* **laufen / joggen** (to run / to jog)\n* **Rad fahren** (to ride a bike)\n* **wandern** (to hike)\n* **tanzen** (to dance)\n* **Yoga machen** (to do yoga)\n\n**Creative & Indoor Hobbies:**\n* **lesen** (to read)\n* **schreiben** (to write)\n* **malen** (to paint)\n* **zeichnen** (to draw)\n* **kochen** (to cook)\n* **backen** (to bake)\n* **Musik hören** (to listen to music)\n* **ein Instrument spielen** (to play an instrument)\n* **fotografieren** (to take photos)\n\n**Social & Entertainment:**\n* **Freunde treffen** (to meet friends)\n* **ins Kino gehen** (to go to the cinema)\n* **ins Theater gehen** (to go to the theater)\n* **ins Restaurant gehen** (to go to a restaurant)\n* **spazieren gehen** (to go for a walk)\n* **shoppen gehen** (to go shopping)\n\n**At Home:**\n* **fernsehen** (to watch TV)\n* **Filme schauen** (to watch films)\n* **Videospiele spielen** (to play video games)\n* **im Internet surfen** (to surf the internet)\n\n**Remember:** Use 'gern' after the verb to say you like doing something!\n* Ich spiele gern Fußball. (I like playing football.)",
+                            examples: [
+                                { german: "Ich spiele gern Fußball.", english: "I like playing football." },
+                                { german: "Sie liest gern Bücher.", english: "She likes reading books." },
+                                { german: "Wir gehen gern ins Kino.", english: "We like going to the cinema." },
+                                { german: "Er hört gern Musik.", english: "He likes listening to music." },
+                                { german: "Ich koche nicht gern.", english: "I don't like cooking." }
+                            ]
+                        },
+                        {
+                            title: "2. Talking About Frequency",
+                            content: "When discussing hobbies, you often need to say HOW OFTEN you do activities.\n\n**Frequency Adverbs:**\n* **immer** (always) - 100%\n* **meistens** (mostly/usually) - 80%\n* **oft** (often) - 60%\n* **manchmal** (sometimes) - 40%\n* **selten** (rarely) - 20%\n* **nie** (never) - 0%\n\n**Time Expressions:**\n* **jeden Tag** (every day)\n* **jede Woche** (every week)\n* **am Wochenende** (on the weekend)\n* **einmal/zweimal/dreimal pro Woche** (once/twice/three times per week)\n* **am Montag** (on Monday)\n* **montags** (on Mondays - regularly)\n\n**Position in Sentence:**\nFrequency words usually come AFTER the verb:\n* Ich spiele **oft** Fußball.\n* Er geht **manchmal** ins Kino.\n\nBut time expressions can start the sentence (causing inversion):\n* **Am Wochenende** gehe ich schwimmen.",
+                            examples: [
+                                { german: "Ich gehe oft ins Fitnessstudio.", english: "I often go to the gym." },
+                                { german: "Sie liest jeden Tag.", english: "She reads every day." },
+                                { german: "Am Wochenende treffe ich meine Freunde.", english: "On the weekend I meet my friends." },
+                                { german: "Er spielt zweimal pro Woche Tennis.", english: "He plays tennis twice per week." },
+                                { german: "Wir gehen selten ins Theater.", english: "We rarely go to the theater." }
+                            ]
+                        },
+                        {
+                            title: "3. Inversion - Verb Position Rule",
+                            content: "German word order follows a strict rule: **The verb is ALWAYS in position 2**. When you start a sentence with something other than the subject, the verb stays in position 2, but the subject moves to position 3.\n\n**The Rule: Position 1 → Verb (Position 2) → Subject (Position 3) → Rest**\n\n**Normal Word Order (Subject First):**\n* Position 1: **Ich** (subject)\n* Position 2: **spiele** (verb)\n* Position 3+: heute Fußball\n\n**Inverted Word Order (Time/Place First):**\n* Position 1: **Heute** (time)\n* Position 2: **spiele** (verb) - STILL POSITION 2!\n* Position 3: **ich** (subject moves here)\n* Position 4+: Fußball\n\n**What Can Start a Sentence? (Position 1)**\n* **Time:** Heute, Morgen, Am Wochenende, Jeden Tag\n* **Place:** In Berlin, Zu Hause, Im Park\n* **Object:** Das Buch (emphatic)\n* **Other:** Leider, Vielleicht, Natürlich\n\n**Key Point:** Germans use inversion very frequently! It makes speech more dynamic and natural. English speakers often forget to invert - this is a common mistake.",
+                            examples: [
+                                { german: "Normal: Ich gehe heute ins Kino.", english: "I'm going to the cinema today." },
+                                { german: "Inverted: Heute gehe ich ins Kino.", english: "Today I'm going to the cinema." },
+                                { german: "Normal: Wir lernen am Montag Deutsch.", english: "We learn German on Monday." },
+                                { german: "Inverted: Am Montag lernen wir Deutsch.", english: "On Monday we learn German." },
+                                { german: "Normal: Sie spielt oft Tennis.", english: "She often plays tennis." },
+                                { german: "Inverted: Oft spielt sie Tennis.", english: "Often she plays tennis." }
+                            ]
+                        },
+                        {
+                            title: "4. Inversion Practice Patterns",
+                            content: "Master these common inversion patterns for natural German speech.\n\n**Pattern 1: Time + Verb + Subject**\n* Morgen **fahre** ich nach Berlin.\n* Am Wochenende **besuche** ich meine Eltern.\n* Jeden Tag **lerne** ich Deutsch.\n\n**Pattern 2: Place + Verb + Subject**\n* In München **wohne** ich.\n* Im Park **spiele** ich Fußball.\n* Zu Hause **koche** ich gern.\n\n**Pattern 3: Adverb + Verb + Subject**\n* Leider **kann** ich nicht kommen.\n* Vielleicht **gehe** ich ins Kino.\n* Natürlich **spreche** ich Deutsch.\n\n**Pattern 4: Object + Verb + Subject (for emphasis)**\n* Das Buch **lese** ich gern. (emphasizing 'the book')\n* Pizza **esse** ich oft.\n\n**Important Notes:**\n* The verb NEVER moves from position 2\n* The subject is what changes position\n* In questions, the verb comes FIRST: **Gehst** du ins Kino?\n* With modal verbs, the modal verb stays in position 2: Heute **muss** ich arbeiten.",
+                            examples: [
+                                { german: "Heute spiele ich Tennis.", english: "Today I'm playing tennis." },
+                                { german: "Am Samstag gehe ich shoppen.", english: "On Saturday I'm going shopping." },
+                                { german: "Morgen fahre ich nach Hamburg.", english: "Tomorrow I'm driving to Hamburg." },
+                                { german: "Manchmal lese ich ein Buch.", english: "Sometimes I read a book." },
+                                { german: "In Berlin wohne ich seit einem Jahr.", english: "I've been living in Berlin for a year." },
+                                { german: "Leider habe ich keine Zeit.", english: "Unfortunately I don't have time." }
+                            ]
                         }
                     ],
-                    homework: [{ id: "d21-q1", type: "text", question: "Rewrite with 'Heute': 'Ich gehe ins Kino.'", answer: "Heute gehe ich ins Kino.", explanation: "Heute + Verb + Subject." }]
+                    homework: [
+                        { id: "d21-q1", type: "text", question: "Rewrite with 'Heute': 'Ich gehe ins Kino.'",
+                          answer: "Heute gehe ich ins Kino.", explanation: "Heute + Verb + Subject." },
+                        { id: "d21-q2", type: "text", question: "Translate: 'I like playing football.'",
+                          answer: "Ich spiele gern Fußball.", explanation: "verb + gern for activities you like" },
+                        { id: "d21-q3", type: "choice", question: "How do you say 'I like reading'?",
+                          options: ["Ich lese gern.", "Ich gern lese.", "Ich mag lesen."], answer: "Ich lese gern.",
+                          explanation: "verb + gern structure at A1 level" },
+                        { id: "d21-q4", type: "text", question: "Rewrite with 'Am Wochenende': 'Ich treffe meine Freunde.'",
+                          answer: "Am Wochenende treffe ich meine Freunde.", explanation: "Time + verb + subject inversion" },
+                        { id: "d21-q5", type: "text", question: "Translate: 'On Monday I learn German.'",
+                          answer: "Am Montag lerne ich Deutsch.", explanation: "Am + day triggers inversion" },
+                        { id: "d21-q6", type: "choice", question: "Which is correct inverted order?",
+                          options: ["Morgen ich gehe schwimmen.", "Morgen gehe ich schwimmen.", "Ich gehe morgen schwimmen."],
+                          answer: "Morgen gehe ich schwimmen.", explanation: "Time + VERB + subject" },
+                        { id: "d21-q7", type: "text", question: "What does 'oft' mean?",
+                          answer: "often", explanation: "Frequency adverb: oft = often" },
+                        { id: "d21-q8", type: "text", question: "Translate: 'She reads every day.'",
+                          answer: "Sie liest jeden Tag.", explanation: "jeden Tag = every day" },
+                        { id: "d21-q9", type: "text", question: "Rewrite: 'Sie geht oft ins Kino.' Start with 'Oft'.",
+                          answer: "Oft geht sie ins Kino.", explanation: "Adverb triggers inversion" },
+                        { id: "d21-q10", type: "choice", question: "Complete: 'Ich spiele ___ Tennis.' (twice per week)",
+                          options: ["zwei pro Woche", "zweimal pro Woche", "zwei Mal Woche"], answer: "zweimal pro Woche",
+                          explanation: "zweimal pro Woche = twice per week" },
+                        { id: "d21-q11", type: "text", question: "Translate: 'I don't like cooking.'",
+                          answer: "Ich koche nicht gern.", explanation: "nicht gern = don't like" },
+                        { id: "d21-q12", type: "text", question: "What's the hobby: 'Rad fahren'?",
+                          answer: "to ride a bike", explanation: "Rad fahren = to cycle/ride a bike" },
+                        { id: "d21-q13", type: "choice", question: "Which word means 'always'?",
+                          options: ["immer", "manchmal", "nie"], answer: "immer",
+                          explanation: "immer = always (100%)" },
+                        { id: "d21-q14", type: "text", question: "Rewrite starting with 'In München': 'Ich wohne in München.'",
+                          answer: "In München wohne ich.", explanation: "Place + verb + subject" },
+                        { id: "d21-q15", type: "text", question: "Translate: 'He likes listening to music.'",
+                          answer: "Er hört gern Musik.", explanation: "Musik hören + gern" },
+                        { id: "d21-q16", type: "choice", question: "What is the verb position in: 'Morgen fahre ich nach Berlin.'?",
+                          options: ["Position 1", "Position 2", "Position 3"], answer: "Position 2",
+                          explanation: "The verb is ALWAYS in position 2!" },
+                        { id: "d21-q17", type: "text", question: "Complete: 'Am Wochenende ___ ich meine Freunde.' (meet)",
+                          answer: "treffe", explanation: "treffen conjugated: ich treffe" },
+                        { id: "d21-q18", type: "text", question: "Translate: 'Sometimes I go shopping.'",
+                          answer: "Manchmal gehe ich shoppen.", explanation: "Manchmal triggers inversion" },
+                        { id: "d21-q19", type: "choice", question: "Which means 'never'?",
+                          options: ["nie", "oft", "selten"], answer: "nie",
+                          explanation: "nie = never (0%)" },
+                        { id: "d21-q20", type: "text", question: "What does 'wandern' mean?",
+                          answer: "to hike", explanation: "wandern = to hike/go hiking" },
+                        { id: "d21-q21", type: "text", question: "Rewrite: 'Ich kann leider nicht kommen.' Start with 'Leider'.",
+                          answer: "Leider kann ich nicht kommen.", explanation: "Adverb + modal verb + subject" },
+                        { id: "d21-q22", type: "text", question: "Translate: 'We rarely go to the theater.'",
+                          answer: "Wir gehen selten ins Theater.", explanation: "selten = rarely" },
+                        { id: "d21-q23", type: "choice", question: "Correct inversion: 'Heute ___ ich Fußball.'",
+                          options: ["spiele", "ich spiele", "spielen"], answer: "spiele",
+                          explanation: "After 'Heute', verb comes next, then subject 'ich'" },
+                        { id: "d21-q24", type: "text", question: "What's the German for 'to take photos'?",
+                          answer: "fotografieren", explanation: "fotografieren = to photograph/take photos" },
+                        { id: "d21-q25", type: "text", question: "Rewrite: 'Wir lernen am Montag Deutsch.' Start with 'Am Montag'.",
+                          answer: "Am Montag lernen wir Deutsch.", explanation: "Time expression triggers inversion" },
+                        { id: "d21-q26", type: "text", question: "Translate: 'I like going to the cinema.'",
+                          answer: "Ich gehe gern ins Kino.", explanation: "ins Kino gehen + gern" },
+                        { id: "d21-q27", type: "choice", question: "Which is a creative hobby?",
+                          options: ["malen", "laufen", "schwimmen"], answer: "malen",
+                          explanation: "malen = to paint (creative)" },
+                        { id: "d21-q28", type: "text", question: "Complete: 'Er spielt ___ pro Woche Fußball.' (three times)",
+                          answer: "dreimal", explanation: "dreimal pro Woche = three times per week" },
+                        { id: "d21-q29", type: "text", question: "Translate: 'On the weekend I go swimming.'",
+                          answer: "Am Wochenende gehe ich schwimmen.", explanation: "Am Wochenende + inversion" },
+                        { id: "d21-q30", type: "text", question: "Write a sentence about your hobby using 'gern' and inversion with a time expression.",
+                          answer: "Am Wochenende spiele ich gern Tennis.",
+                          explanation: "Example: Time expression + verb + subject + gern + hobby" }
+                    ]
                 }
             },
             {
@@ -4431,18 +4542,121 @@ export const syllabusData: Phase[] = [
             {
                 day: 22,
                 title: "City & Directions",
-                focus: "Imperative",
-                activities: ["Giving directions", "Imperative forms"],
-                homework: ["Map navigation exercise"],
+                focus: "Imperative & Navigation",
+                activities: ["Giving directions", "Imperative forms", "City vocabulary"],
+                homework: ["Map navigation exercises and imperative practice"],
                 details: {
                     sections: [
                         {
-                            title: "1. Imperative (Commands)",
-                            content: "Giving orders.\n* **Du:** Geh! (Stem)\n* **Ihr:** Geht! (Stem+t)\n* **Sie:** Gehen Sie!",
-                            examples: [{ german: "Gehen Sie geradeaus!", english: "Go straight!" }]
+                            title: "1. City Vocabulary (In der Stadt)",
+                            content: "Essential vocabulary for navigating a city and describing locations.\n\n**Key Places (Die Orte):**\n* **der Bahnhof** (train station)\n* **das Rathaus** (city hall)\n* **die Kirche** (church)\n* **das Krankenhaus** (hospital)\n* **die Apotheke** (pharmacy)\n* **die Bank** (bank)\n* **die Post** (post office)\n* **das Restaurant** (restaurant)\n* **das Café** (café)\n* **der Supermarkt** (supermarket)\n* **das Hotel** (hotel)\n* **das Museum** (museum)\n* **der Park** (park)\n* **die Schule** (school)\n* **die Universität** (university)\n\n**Streets & Directions:**\n* **die Straße** (street)\n* **die Ecke** (corner)\n* **die Kreuzung** (intersection/crossroads)\n* **die Ampel** (traffic light)\n* **der Platz** (square/plaza)\n* **die Brücke** (bridge)\n\n**Prepositions for Directions:**\n* **an** (at, by)\n* **auf** (on)\n* **neben** (next to)\n* **gegenüber** (across from)\n* **zwischen** (between)\n* **in** (in)",
+                            examples: [
+                                { german: "Der Bahnhof ist neben dem Hotel.", english: "The train station is next to the hotel." },
+                                { german: "Die Bank ist gegenüber der Post.", english: "The bank is across from the post office." },
+                                { german: "Das Museum ist an der Ecke.", english: "The museum is at the corner." }
+                            ]
+                        },
+                        {
+                            title: "2. Direction Commands (Richtungen)",
+                            content: "Key phrases for giving and understanding directions.\n\n**Basic Directions:**\n* **geradeaus** (straight ahead)\n* **links** (left)\n* **rechts** (right)\n* **zurück** (back)\n\n**Complete Direction Phrases:**\n* **Gehen Sie geradeaus.** (Go straight.)\n* **Gehen Sie nach links.** (Go to the left.)\n* **Gehen Sie nach rechts.** (Go to the right.)\n* **Biegen Sie links ab.** (Turn left.)\n* **Biegen Sie rechts ab.** (Turn right.)\n* **Gehen Sie zurück.** (Go back.)\n* **Überqueren Sie die Straße.** (Cross the street.)\n* **Nehmen Sie die erste/zweite Straße links.** (Take the first/second street on the left.)\n\n**Distance Indicators:**\n* **hier** (here)\n* **dort/da** (there)\n* **weit** (far)\n* **nah/in der Nähe** (near/nearby)\n* **100 Meter** (100 meters)\n* **5 Minuten** (5 minutes)\n\n**Asking for Directions:**\n* **Wo ist...?** (Where is...?)\n* **Wie komme ich zu/zum/zur...?** (How do I get to...?)\n* **Entschuldigung, wo ist der Bahnhof?** (Excuse me, where is the train station?)\n* **Ist das weit von hier?** (Is that far from here?)",
+                            examples: [
+                                { german: "Gehen Sie geradeaus und dann links.", english: "Go straight and then left." },
+                                { german: "Der Bahnhof ist 200 Meter von hier.", english: "The train station is 200 meters from here." },
+                                { german: "Nehmen Sie die zweite Straße rechts.", english: "Take the second street on the right." },
+                                { german: "Überqueren Sie die Brücke.", english: "Cross the bridge." }
+                            ]
+                        },
+                        {
+                            title: "3. The Imperative (Der Imperativ)",
+                            content: "The imperative is used for commands, instructions, and requests. German has THREE imperative forms based on who you're addressing.\n\n**Du-Form (Informal Singular):**\n* **Rule:** Use the verb stem (drop -en from infinitive)\n* **Regular:** gehen → **Geh!** (Go!)\n* **Regular:** machen → **Mach!** (Do!)\n* **Irregular (vowel change e→i):** nehmen → **Nimm!** (Take!)\n* **Irregular (vowel change e→ie):** lesen → **Lies!** (Read!)\n* **Note:** Usually NO 'e' ending, but can add for euphony\n\n**Ihr-Form (Informal Plural):**\n* **Rule:** Same as normal conjugation (stem + t)\n* gehen → **Geht!** (Go!)\n* machen → **Macht!** (Do!)\n* nehmen → **Nehmt!** (Take!)\n\n**Sie-Form (Formal Singular/Plural):**\n* **Rule:** Infinitive + Sie (verb comes BEFORE Sie!)\n* gehen → **Gehen Sie!** (Go!)\n* machen → **Machen Sie!** (Do!)\n* nehmen → **Nehmen Sie!** (Take!)\n* **Most common in giving directions to strangers**\n\n**Special Cases:**\n* **sein:** sei (du), seid (ihr), seien Sie (Sie)\n* **haben:** hab (du), habt (ihr), haben Sie (Sie)\n* **werden:** werd/werde (du), werdet (ihr), werden Sie (Sie)\n\n**Polite Imperative:**\nAdd 'bitte' (please) to make it more polite:\n* **Gehen Sie bitte geradeaus.** (Please go straight.)",
+                            examples: [
+                                { german: "Geh nach Hause! (du)", english: "Go home! (informal singular)" },
+                                { german: "Geht nach Hause! (ihr)", english: "Go home! (informal plural)" },
+                                { german: "Gehen Sie nach Hause! (Sie)", english: "Go home! (formal)" },
+                                { german: "Nimm das Buch! (du)", english: "Take the book! (informal)" },
+                                { german: "Lesen Sie bitte den Text! (Sie)", english: "Please read the text! (formal)" },
+                                { german: "Macht die Tür zu! (ihr)", english: "Close the door! (informal plural)" }
+                            ]
+                        },
+                        {
+                            title: "4. Practical Direction Dialogues",
+                            content: "Putting it all together - asking for and giving directions in real situations.\n\n**Dialogue Structure:**\n1. **Excuse me / Getting attention:** Entschuldigung...\n2. **Ask for direction:** Wo ist...? / Wie komme ich zu...?\n3. **Give direction:** Gehen Sie... / Nehmen Sie...\n4. **Thank:** Vielen Dank! / Danke schön!\n\n**Useful Complete Phrases:**\n* **Entschuldigung, können Sie mir helfen?** (Excuse me, can you help me?)\n* **Ich suche den Bahnhof.** (I'm looking for the train station.)\n* **Ist das weit?** (Is that far?)\n* **Kann ich zu Fuß gehen?** (Can I walk?)\n* **Wie lange dauert das?** (How long does that take?)\n* **Vielen Dank für Ihre Hilfe!** (Thank you very much for your help!)\n\n**Sample Navigation:**\n* Gehen Sie geradeaus bis zur Ampel. (Go straight until the traffic light.)\n* Dann biegen Sie links ab. (Then turn left.)\n* Gehen Sie über die Brücke. (Go over the bridge.)\n* Der Bahnhof ist auf der rechten Seite. (The train station is on the right side.)",
+                            examples: [
+                                { german: "Dialog:\nA: Entschuldigung, wo ist das Rathaus?\nB: Gehen Sie geradeaus und dann rechts.\nA: Ist das weit?\nB: Nein, nur 5 Minuten.\nA: Vielen Dank!",
+                                  english: "Dialogue:\nA: Excuse me, where is city hall?\nB: Go straight and then right.\nA: Is that far?\nB: No, only 5 minutes.\nA: Thank you very much!" }
+                            ]
                         }
                     ],
-                    homework: [{ id: "d22-q1", type: "text", question: "Imperative (Sie): 'Machen' (Do).", answer: "Machen Sie", explanation: "Formal imperative." }]
+                    homework: [
+                        { id: "d22-q1", type: "text", question: "Imperative (Sie): 'machen' (do/make)",
+                          answer: "Machen Sie", explanation: "Formal imperative: infinitive + Sie" },
+                        { id: "d22-q2", type: "text", question: "Translate: 'Go straight!' (formal)",
+                          answer: "Gehen Sie geradeaus!", explanation: "Gehen Sie + geradeaus" },
+                        { id: "d22-q3", type: "choice", question: "What is 'der Bahnhof'?",
+                          options: ["train station", "bus station", "airport"], answer: "train station",
+                          explanation: "der Bahnhof = train station" },
+                        { id: "d22-q4", type: "text", question: "Imperative (du): 'gehen' (go)",
+                          answer: "Geh", explanation: "Informal singular: verb stem" },
+                        { id: "d22-q5", type: "text", question: "How do you say 'left'?",
+                          answer: "links", explanation: "links = left, rechts = right" },
+                        { id: "d22-q6", type: "text", question: "Translate: 'Turn right!' (formal)",
+                          answer: "Biegen Sie rechts ab!", explanation: "abbiegen = to turn (separable)" },
+                        { id: "d22-q7", type: "choice", question: "Which means 'pharmacy'?",
+                          options: ["die Apotheke", "das Krankenhaus", "die Bank"], answer: "die Apotheke",
+                          explanation: "die Apotheke = pharmacy" },
+                        { id: "d22-q8", type: "text", question: "Imperative (ihr): 'lesen' (read)",
+                          answer: "Lest", explanation: "Informal plural: stem + t" },
+                        { id: "d22-q9", type: "text", question: "Translate: 'Where is the museum?'",
+                          answer: "Wo ist das Museum?", explanation: "Wo ist + noun" },
+                        { id: "d22-q10", type: "choice", question: "Complete: 'Gehen Sie ___' (straight ahead)",
+                          options: ["geradeaus", "links", "zurück"], answer: "geradeaus",
+                          explanation: "geradeaus = straight ahead" },
+                        { id: "d22-q11", type: "text", question: "What does 'die Kreuzung' mean?",
+                          answer: "intersection/crossroads", explanation: "die Kreuzung = intersection" },
+                        { id: "d22-q12", type: "text", question: "Imperative (Sie): 'nehmen' (take)",
+                          answer: "Nehmen Sie", explanation: "Formal: Nehmen Sie" },
+                        { id: "d22-q13", type: "text", question: "Translate: 'Cross the street!' (formal)",
+                          answer: "Überqueren Sie die Straße!", explanation: "überqueren = to cross" },
+                        { id: "d22-q14", type: "choice", question: "How do you ask 'How do I get to...?'",
+                          options: ["Wie komme ich zu...?", "Wo ist...?", "Was ist...?"], answer: "Wie komme ich zu...?",
+                          explanation: "Wie komme ich zu/zum/zur...?" },
+                        { id: "d22-q15", type: "text", question: "What is 'gegenüber'?",
+                          answer: "across from/opposite", explanation: "gegenüber = across from" },
+                        { id: "d22-q16", type: "text", question: "Imperative (du): 'nehmen' - irregular!",
+                          answer: "Nimm", explanation: "e→i vowel change: nimm" },
+                        { id: "d22-q17", type: "text", question: "Translate: 'The bank is next to the post office.'",
+                          answer: "Die Bank ist neben der Post.", explanation: "neben + dative" },
+                        { id: "d22-q18", type: "choice", question: "What is 'das Rathaus'?",
+                          options: ["city hall", "restaurant", "rat house"], answer: "city hall",
+                          explanation: "das Rathaus = city hall" },
+                        { id: "d22-q19", type: "text", question: "Complete: '___ Sie die zweite Straße rechts.' (Take)",
+                          answer: "Nehmen", explanation: "Nehmen Sie = Take (formal)" },
+                        { id: "d22-q20", type: "text", question: "How do you say 'Is that far?'",
+                          answer: "Ist das weit?", explanation: "weit = far" },
+                        { id: "d22-q21", type: "text", question: "Imperative (ihr): 'machen' (do)",
+                          answer: "Macht", explanation: "ihr-form: stem + t" },
+                        { id: "d22-q22", type: "choice", question: "What does 'die Ampel' mean?",
+                          options: ["traffic light", "lamp", "apple"], answer: "traffic light",
+                          explanation: "die Ampel = traffic light" },
+                        { id: "d22-q23", type: "text", question: "Translate: 'Go to the left!' (formal)",
+                          answer: "Gehen Sie nach links!", explanation: "nach links = to the left" },
+                        { id: "d22-q24", type: "text", question: "What is 'in der Nähe'?",
+                          answer: "nearby/in the vicinity", explanation: "in der Nähe = nearby" },
+                        { id: "d22-q25", type: "text", question: "Imperative (Sie): 'sein' (be) - irregular!",
+                          answer: "Seien Sie", explanation: "Irregular: seien Sie" },
+                        { id: "d22-q26", type: "choice", question: "To say 'between', you use:",
+                          options: ["zwischen", "neben", "an"], answer: "zwischen",
+                          explanation: "zwischen = between" },
+                        { id: "d22-q27", type: "text", question: "Translate: 'Take the first street on the left!' (formal)",
+                          answer: "Nehmen Sie die erste Straße links!", explanation: "erste Straße links" },
+                        { id: "d22-q28", type: "text", question: "Ask politely: 'Excuse me, can you help me?'",
+                          answer: "Entschuldigung, können Sie mir helfen?", explanation: "Polite request formula" },
+                        { id: "d22-q29", type: "text", question: "Complete direction: 'Gehen Sie geradeaus ___ zur Ampel.' (until)",
+                          answer: "bis", explanation: "bis zur = until the" },
+                        { id: "d22-q30", type: "text", question: "Give directions: From the station, go straight, then turn right at the traffic light (formal).",
+                          answer: "Gehen Sie geradeaus und biegen Sie dann an der Ampel rechts ab.",
+                          explanation: "Complete direction sequence with imperative" }
+                    ]
                 }
             },
             {
@@ -4584,19 +4798,125 @@ export const syllabusData: Phase[] = [
             },
             {
                 day: 23,
-                title: "Transport",
-                focus: "Travel vocab",
-                activities: ["Buying tickets", "Transport types"],
-                homework: ["Dialogue at station"],
+                title: "Transport & Travel",
+                focus: "Transportation & Ticket Buying",
+                activities: ["Transportation types", "Buying tickets", "Travel phrases", "Platform announcements"],
+                homework: ["Ticket purchase dialogues and transport scenarios"],
                 details: {
                     sections: [
                         {
-                            title: "Transport Vocabulary",
-                            content: "Der Zug, Der Bus, Die U-Bahn, Das Flugzeug.\n\n* Ein Ticket kaufen -> am Automaten.",
-                            examples: []
+                            title: "1. Types of Transportation (Verkehrsmittel)",
+                            content: "Essential vocabulary for different modes of transport in German-speaking countries.\n\n**Public Transport (Öffentliche Verkehrsmittel):**\n* **der Zug** (train) - plural: die Züge\n* **die S-Bahn** (suburban train) - Stadt-Bahn\n* **die U-Bahn** (subway/metro) - Untergrund-Bahn\n* **der Bus** (bus) - plural: die Busse\n* **die Straßenbahn / die Tram** (tram/streetcar)\n* **die Fähre** (ferry)\n\n**Long-Distance Transport:**\n* **das Flugzeug** (airplane) - plural: die Flugzeuge\n* **der ICE** (high-speed train) - InterCity Express\n* **der Fernbus** (long-distance bus)\n\n**Private Transport:**\n* **das Auto** (car) - plural: die Autos\n* **das Fahrrad** (bicycle) - plural: die Fahrräder\n* **das Motorrad** (motorcycle)\n* **das Taxi** (taxi)\n\n**On Foot:**\n* **zu Fuß gehen** (to walk/go on foot)\n\n**Verbs of Transportation:**\n* **fahren** (to drive, to go by vehicle) - irregular: ich fahre, du fährst\n* **fliegen** (to fly)\n* **nehmen** (to take) - ich nehme den Bus\n* **steigen** (to get on/board) - einsteigen, aussteigen",
+                            examples: [
+                                { german: "Ich fahre mit dem Zug.", english: "I'm traveling by train." },
+                                { german: "Sie nimmt die U-Bahn zur Arbeit.", english: "She takes the subway to work." },
+                                { german: "Wir fliegen nach Berlin.", english: "We're flying to Berlin." },
+                                { german: "Er geht zu Fuß.", english: "He walks./He goes on foot." }
+                            ]
+                        },
+                        {
+                            title: "2. At the Train Station (Am Bahnhof)",
+                            content: "Key vocabulary and phrases for navigating train stations.\n\n**Station Vocabulary:**\n* **der Bahnhof** (train station)\n* **der Hauptbahnhof (Hbf)** (main station)\n* **der Fahrplan** (timetable/schedule)\n* **das Gleis** (platform/track) - plural: die Gleise\n* **der Bahnsteig** (platform)\n* **die Abfahrt** (departure)\n* **die Ankunft** (arrival)\n* **der Schalter** (counter/ticket window)\n* **der Fahrkartenautomat** (ticket machine)\n* **die Auskunft** (information desk)\n* **der Wartesaal** (waiting room)\n* **das Gepäck** (luggage)\n* **der Koffer** (suitcase)\n\n**Ticket Types:**\n* **die Fahrkarte** (ticket)\n* **die Einzelfahrkarte** (single ticket/one-way)\n* **die Rückfahrkarte** (return ticket)\n* **die Tageskarte** (day pass)\n* **die Monatskarte** (monthly pass)\n* **erste Klasse** (first class)\n* **zweite Klasse** (second class)\n\n**Important Questions:**\n* **Von welchem Gleis fährt der Zug ab?** (Which platform does the train leave from?)\n* **Wann fährt der Zug ab?** (When does the train leave?)\n* **Wann kommt der Zug an?** (When does the train arrive?)\n* **Muss ich umsteigen?** (Do I have to change trains?)\n* **Wo ist Gleis 3?** (Where is platform 3?)",
+                            examples: [
+                                { german: "Der Zug fährt von Gleis 7 ab.", english: "The train departs from platform 7." },
+                                { german: "Ich brauche eine Fahrkarte nach München.", english: "I need a ticket to Munich." },
+                                { german: "Wann kommt der Zug in Berlin an?", english: "When does the train arrive in Berlin?" },
+                                { german: "Sie müssen in Frankfurt umsteigen.", english: "You have to change trains in Frankfurt." }
+                            ]
+                        },
+                        {
+                            title: "3. Buying a Ticket (Eine Fahrkarte kaufen)",
+                            content: "Essential phrases for purchasing tickets at the counter or machine.\n\n**At the Ticket Counter (Am Schalter):**\n\n**Basic Request:**\n* **Ich möchte eine Fahrkarte nach [Stadt].**\n  (I would like a ticket to [city].)\n* **Einmal/Zweimal nach [Stadt], bitte.**\n  (One/Two tickets to [city], please.)\n\n**Specifying Details:**\n* **Hin und zurück, bitte.** (Return ticket, please.)\n* **Nur Hinfahrt.** (One-way only.)\n* **Zweite Klasse, bitte.** (Second class, please.)\n* **Für morgen/heute/den 15. Mai.** (For tomorrow/today/May 15th.)\n* **Um wie viel Uhr fährt der Zug?** (What time does the train leave?)\n\n**Payment:**\n* **Was kostet das?** (How much does that cost?)\n* **Kann ich mit Karte bezahlen?** (Can I pay by card?)\n\n**At the Ticket Machine (Am Automaten):**\n* **Zielort wählen** (Select destination)\n* **Anzahl der Personen** (Number of people)\n* **Hinfahrt / Hin und zurück** (One-way / Return)\n* **Zahlungsart: Bar / Karte** (Payment method: Cash / Card)\n\n**Complete Dialogue Example:**\nKunde: Guten Tag. Ich möchte eine Fahrkarte nach Hamburg.\nMitarbeiter: Hin und zurück?\nKunde: Ja, bitte. Für morgen.\nMitarbeiter: Wann möchten Sie fahren?\nKunde: Am Vormittag, bitte.\nMitarbeiter: Der Zug fährt um 9:30 Uhr. Das kostet 78 Euro.\nKunde: Gut. Kann ich mit Karte bezahlen?\nMitarbeiter: Ja, natürlich.",
+                            examples: [
+                                { german: "Einmal nach Berlin, bitte.", english: "One ticket to Berlin, please." },
+                                { german: "Hin und zurück oder nur Hinfahrt?", english: "Return or one-way only?" },
+                                { german: "Was kostet eine Fahrkarte nach München?", english: "How much is a ticket to Munich?" },
+                                { german: "Der Zug fährt um 14:30 Uhr ab.", english: "The train departs at 2:30 PM." }
+                            ]
+                        },
+                        {
+                            title: "4. Travel Phrases & Situations",
+                            content: "Common situations and useful phrases while traveling.\n\n**On the Platform:**\n* **Ist das der Zug nach [Stadt]?** (Is this the train to [city]?)\n* **Ist dieser Platz frei?** (Is this seat free?)\n* **Entschuldigung, das ist mein Platz.** (Excuse me, that's my seat.)\n* **Wo ist der Speisewagen?** (Where is the dining car?)\n* **Nächster Halt: [Stadt]** (Next stop: [city])\n\n**Asking for Help:**\n* **Kann ich Ihnen helfen?** (Can I help you?)\n* **Entschuldigung, ich habe mich verirrt.** (Excuse me, I'm lost.)\n* **Wo muss ich umsteigen?** (Where do I have to change?)\n* **Wie komme ich zum Gleis 5?** (How do I get to platform 5?)\n\n**Announcements (Durchsagen):**\n* **Vorsicht an Gleis 3!** (Attention on platform 3!)\n* **Der Zug hat Verspätung.** (The train is delayed.)\n* **Bitte einsteigen!** (Please board!)\n* **Türen schließen!** (Doors closing!)\n* **Bitte zurückbleiben!** (Please stand back!)\n\n**Problems:**\n* **Ich habe meinen Zug verpasst.** (I missed my train.)\n* **Der Zug ist verspätet.** (The train is delayed.)\n* **Wo ist das Fundbüro?** (Where is the lost and found?)\n* **Ich habe mein Ticket verloren.** (I lost my ticket.)",
+                            examples: [
+                                { german: "Entschuldigung, fährt dieser Zug nach Hamburg?", english: "Excuse me, does this train go to Hamburg?" },
+                                { german: "Der Zug hat 10 Minuten Verspätung.", english: "The train is 10 minutes late." },
+                                { german: "Wo muss ich für München umsteigen?", english: "Where do I have to change for Munich?" },
+                                { german: "Ist dieser Platz noch frei?", english: "Is this seat still free?" }
+                            ]
                         }
                     ],
-                    homework: [{ id: "d23-q1", type: "text", question: "Translate 'The Train'.", answer: "Der Zug", explanation: "Maskulin." }]
+                    homework: [
+                        { id: "d23-q1", type: "text", question: "Translate: 'the train'",
+                          answer: "der Zug", explanation: "der Zug = the train (masculine)" },
+                        { id: "d23-q2", type: "choice", question: "What is 'die U-Bahn'?",
+                          options: ["subway/metro", "bus", "tram"], answer: "subway/metro",
+                          explanation: "U-Bahn = Untergrund-Bahn (underground train)" },
+                        { id: "d23-q3", type: "text", question: "How do you say 'I'm traveling by train'?",
+                          answer: "Ich fahre mit dem Zug.", explanation: "mit + dative: mit dem Zug" },
+                        { id: "d23-q4", type: "text", question: "What does 'der Bahnhof' mean?",
+                          answer: "train station", explanation: "der Bahnhof = train station" },
+                        { id: "d23-q5", type: "text", question: "Translate: 'the platform'",
+                          answer: "das Gleis", explanation: "das Gleis = platform/track" },
+                        { id: "d23-q6", type: "choice", question: "How do you say 'I need a ticket to Munich'?",
+                          options: ["Ich brauche eine Fahrkarte nach München.", "Ich will München.", "Ich gehe München."],
+                          answer: "Ich brauche eine Fahrkarte nach München.",
+                          explanation: "brauchen + eine Fahrkarte nach + city" },
+                        { id: "d23-q7", type: "text", question: "What is 'hin und zurück'?",
+                          answer: "return/round-trip", explanation: "hin und zurück = there and back (return ticket)" },
+                        { id: "d23-q8", type: "text", question: "Translate: 'When does the train depart?'",
+                          answer: "Wann fährt der Zug ab?", explanation: "abfahren = to depart (separable)" },
+                        { id: "d23-q9", type: "choice", question: "What does 'umsteigen' mean?",
+                          options: ["to change trains", "to get on", "to get off"], answer: "to change trains",
+                          explanation: "umsteigen = to change/transfer (trains/buses)" },
+                        { id: "d23-q10", type: "text", question: "How do you ask 'Which platform does the train leave from?'",
+                          answer: "Von welchem Gleis fährt der Zug ab?", explanation: "von welchem Gleis = from which platform" },
+                        { id: "d23-q11", type: "text", question: "What is 'die Fahrkarte'?",
+                          answer: "ticket", explanation: "die Fahrkarte = ticket (for transport)" },
+                        { id: "d23-q12", type: "text", question: "Translate: 'She takes the bus to work.'",
+                          answer: "Sie nimmt den Bus zur Arbeit.", explanation: "nehmen + accusative: den Bus" },
+                        { id: "d23-q13", type: "choice", question: "What is 'das Flugzeug'?",
+                          options: ["airplane", "train", "car"], answer: "airplane",
+                          explanation: "das Flugzeug = airplane" },
+                        { id: "d23-q14", type: "text", question: "What does 'der Fahrplan' mean?",
+                          answer: "timetable/schedule", explanation: "der Fahrplan = timetable" },
+                        { id: "d23-q15", type: "text", question: "Complete: 'Einmal nach Berlin, ___.' (please)",
+                          answer: "bitte", explanation: "bitte = please" },
+                        { id: "d23-q16", type: "choice", question: "How do you say 'to walk/go on foot'?",
+                          options: ["zu Fuß gehen", "mit dem Fuß", "Fuß fahren"], answer: "zu Fuß gehen",
+                          explanation: "zu Fuß gehen = to go on foot" },
+                        { id: "d23-q17", type: "text", question: "Translate: 'Is this seat free?'",
+                          answer: "Ist dieser Platz frei?", explanation: "dieser Platz = this seat" },
+                        { id: "d23-q18", type: "text", question: "What is 'die Verspätung'?",
+                          answer: "delay", explanation: "die Verspätung = delay" },
+                        { id: "d23-q19", type: "text", question: "Complete: '___ ich mit Karte bezahlen?' (Can I pay by card?)",
+                          answer: "Kann", explanation: "Kann ich = Can I" },
+                        { id: "d23-q20", type: "choice", question: "What does 'aussteigen' mean?",
+                          options: ["to get off", "to get on", "to change"], answer: "to get off",
+                          explanation: "aussteigen = to get off (separable verb)" },
+                        { id: "d23-q21", type: "text", question: "Translate: 'The train is delayed.'",
+                          answer: "Der Zug hat Verspätung.", explanation: "Verspätung haben = to be delayed" },
+                        { id: "d23-q22", type: "text", question: "What is 'zweite Klasse'?",
+                          answer: "second class", explanation: "zweite Klasse = second class" },
+                        { id: "d23-q23", type: "choice", question: "Which is the high-speed train?",
+                          options: ["der ICE", "die S-Bahn", "die U-Bahn"], answer: "der ICE",
+                          explanation: "ICE = InterCity Express (high-speed)" },
+                        { id: "d23-q24", type: "text", question: "How do you ask 'When does the train arrive?'",
+                          answer: "Wann kommt der Zug an?", explanation: "ankommen = to arrive (separable)" },
+                        { id: "d23-q25", type: "text", question: "What does 'der Schalter' mean?",
+                          answer: "counter/ticket window", explanation: "der Schalter = counter/window" },
+                        { id: "d23-q26", type: "text", question: "Translate: 'I missed my train.'",
+                          answer: "Ich habe meinen Zug verpasst.", explanation: "verpassen = to miss (perfect tense)" },
+                        { id: "d23-q27", type: "choice", question: "What is 'das Gepäck'?",
+                          options: ["luggage", "ticket", "platform"], answer: "luggage",
+                          explanation: "das Gepäck = luggage" },
+                        { id: "d23-q28", type: "text", question: "Complete dialogue: A: 'Hin und zurück?' B: 'Nein, nur ___.'",
+                          answer: "Hinfahrt", explanation: "nur Hinfahrt = one-way only" },
+                        { id: "d23-q29", type: "text", question: "Translate: 'Where do I have to change?'",
+                          answer: "Wo muss ich umsteigen?", explanation: "umsteigen = to change/transfer" },
+                        { id: "d23-q30", type: "text", question: "Create a ticket purchase: Ask for a return ticket to Hamburg for tomorrow, second class.",
+                          answer: "Ich möchte eine Fahrkarte nach Hamburg, hin und zurück, für morgen, zweite Klasse, bitte.",
+                          explanation: "Complete ticket request with all details" }
+                    ]
                 }
             },
             {
@@ -4761,36 +5081,251 @@ export const syllabusData: Phase[] = [
             },
             {
                 day: 24,
-                title: "Dative Case Basics",
-                focus: "Indirect Object",
-                activities: ["Dative articles", "Verbs with Dative"],
-                homework: ["Dative drills"],
+                title: "Dative Case Introduction",
+                focus: "Articles, Pronouns & Indirect Objects",
+                activities: ["Learn dative articles", "Practice dative pronouns", "Understand indirect objects"],
+                homework: ["Comprehensive dative article and pronoun practice"],
                 details: {
                     sections: [
                         {
-                            title: "The Dative Case",
-                            content: "Indirect Object (Receiver). Articles change!\n\n* der -> **dem**\n* die -> **der**\n* das -> **dem**\n* Plural -> **den (+n)**",
-                            examples: [{ german: "Ich helfe dem Mann.", english: "I help the man." }]
+                            title: "1. Introduction to the Dative Case (Der Dativ)",
+                            content: "The dative case is used for **indirect objects** - the person or thing that receives the action indirectly. It answers the question **Wem?** (To/for whom?).\n\n**When to Use Dative:**\n* With certain verbs (helfen, danken, gehören, gefallen, etc.)\n* After certain prepositions (aus, bei, mit, nach, seit, von, zu)\n* For indirect objects (the receiver)\n* With certain adjectives\n\n**Question Words:**\n* **Wem?** (To/for whom?) - Dative\n* **Wen?** (Whom?) - Accusative (direct object)\n* **Wer?** (Who?) - Nominative (subject)\n\n**Example Structure:**\nIch gebe **dem Mann** (dative - receiver) **das Buch** (accusative - thing given).\nI give the man the book.",
+                            examples: [
+                                { german: "Ich helfe dem Kind.", english: "I help the child. (Wem helfe ich? Dem Kind.)" },
+                                { german: "Sie dankt der Frau.", english: "She thanks the woman." },
+                                { german: "Wir geben den Kindern Geschenke.", english: "We give the children gifts." }
+                            ]
+                        },
+                        {
+                            title: "2. Dative Definite Articles (Bestimmte Artikel)",
+                            content: "In the dative case, the definite articles change from their nominative forms. These changes must be memorized.\n\n**Nominative → Dative:**\n* **der** (masculine) → **dem**\n* **die** (feminine) → **der**\n* **das** (neuter) → **dem**\n* **die** (plural) → **den** + noun ends in **-n** (if not already there)\n\n**Important Plural Rule:**\nIn dative plural, most nouns add **-n** at the end:\n* die Kinder → den Kinder**n**\n* die Männer → den Männer**n**\n* Exception: Nouns already ending in -n or -s don't change\n  - die Frauen → den Frauen (already has -n)\n  - die Autos → den Autos (ends in -s)\n\n**Pattern Recognition:**\nMasculine and neuter are the same in dative: **dem**\nFeminine looks like nominative masculine: **der**\nPlural: **den** + add **-n** to noun",
+                            examples: [
+                                { german: "Ich helfe dem Mann. (masculine)", english: "I help the man." },
+                                { german: "Er dankt der Lehrerin. (feminine)", english: "He thanks the teacher." },
+                                { german: "Sie gibt dem Kind ein Buch. (neuter)", english: "She gives the child a book." },
+                                { german: "Wir sprechen mit den Kindern. (plural)", english: "We speak with the children." },
+                                { german: "Das gehört den Frauen. (plural, already -n)", english: "That belongs to the women." }
+                            ]
+                        },
+                        {
+                            title: "3. Dative Personal Pronouns (Personalpronomen)",
+                            content: "Personal pronouns also change in the dative case. These are essential for everyday communication.\n\n**Dative Personal Pronouns:**\n* ich → **mir** (to/for me)\n* du → **dir** (to/for you - informal)\n* er → **ihm** (to/for him)\n* sie → **ihr** (to/for her)\n* es → **ihm** (to/for it)\n* wir → **uns** (to/for us)\n* ihr → **euch** (to/for you - plural informal)\n* sie → **ihnen** (to/for them)\n* Sie → **Ihnen** (to/for you - formal, capitalized)\n\n**Usage in Sentences:**\nThe dative pronoun comes AFTER the conjugated verb:\n* Ich helfe **dir**. (I help you.)\n* Er gibt **mir** das Buch. (He gives me the book.)\n\n**Common Verbs with Dative Pronouns:**\n* helfen: Ich helfe dir. (I help you.)\n* danken: Sie dankt mir. (She thanks me.)\n* geben: Er gibt ihm das Geld. (He gives him the money.)\n* gehören: Das gehört mir. (That belongs to me.)",
+                            examples: [
+                                { german: "Kannst du mir helfen?", english: "Can you help me?" },
+                                { german: "Ich gebe dir mein Buch.", english: "I give you my book." },
+                                { german: "Das gehört ihm.", english: "That belongs to him." },
+                                { german: "Wir danken Ihnen.", english: "We thank you. (formal)" },
+                                { german: "Er zeigt uns den Weg.", english: "He shows us the way." },
+                                { german: "Sie schickt euch eine E-Mail.", english: "She sends you (plural) an email." }
+                            ]
+                        },
+                        {
+                            title: "4. Common Dative Verbs (Verben mit Dativ)",
+                            content: "Certain German verbs ALWAYS take a dative object, even when English might use a direct object. These must be memorized.\n\n**Essential Dative Verbs:**\n* **danken** (to thank) - Ich danke dir.\n* **helfen** (to help) - Hilfst du mir?\n* **gehören** (to belong to) - Das Buch gehört dem Lehrer.\n* **gefallen** (to please/like) - Der Film gefällt mir.\n* **schmecken** (to taste good to) - Die Pizza schmeckt ihm.\n* **passen** (to fit) - Die Schuhe passen mir nicht.\n* **glauben** (to believe) - Ich glaube dir.\n* **folgen** (to follow) - Folgen Sie mir!\n* **antworten** (to answer) - Er antwortet der Frau.\n* **gratulieren** (to congratulate) - Wir gratulieren dir!\n\n**Important Note:**\nWith these verbs, you CANNOT use accusative. It's always dative.\n* ✅ Ich helfe **dir**. (dative)\n* ❌ Ich helfe **dich**. (accusative - WRONG!)\n\n**Gefallen vs Mögen:**\n* gefallen + dative: Der Film gefällt mir. (The film pleases me.)\n* mögen + accusative: Ich mag den Film. (I like the film.)",
+                            examples: [
+                                { german: "Ich danke dir für deine Hilfe.", english: "I thank you for your help." },
+                                { german: "Kannst du mir bitte helfen?", english: "Can you please help me?" },
+                                { german: "Das Auto gehört meinem Vater.", english: "The car belongs to my father." },
+                                { german: "Wie gefällt dir Berlin?", english: "How do you like Berlin?" },
+                                { german: "Das Essen schmeckt den Kindern nicht.", english: "The children don't like the food." },
+                                { german: "Diese Jacke passt mir perfekt.", english: "This jacket fits me perfectly." },
+                                { german: "Ich glaube ihm nicht.", english: "I don't believe him." },
+                                { german: "Folgen Sie dem Auto!", english: "Follow the car!" }
+                            ]
                         }
                     ],
-                    homework: [{ id: "d24-q1", type: "choice", question: "Ich danke ___ (die) Frau.", options: ["die", "der", "den"], answer: "der", explanation: "Dative feminine -> der." }]
+                    homework: [
+                        { id: "d24-q1", type: "choice", question: "Ich danke ___ (die) Frau.",
+                          options: ["die", "der", "den"], answer: "der",
+                          explanation: "Dative feminine article: die → der" },
+                        { id: "d24-q2", type: "text", question: "What is the dative form of 'der Mann'?",
+                          answer: "dem Mann", explanation: "Masculine: der → dem" },
+                        { id: "d24-q3", type: "text", question: "What is the dative form of 'das Kind'?",
+                          answer: "dem Kind", explanation: "Neuter: das → dem" },
+                        { id: "d24-q4", type: "choice", question: "Complete: 'Ich helfe ___ (die Kinder)' - plural!",
+                          options: ["die Kinder", "den Kindern", "der Kinder"], answer: "den Kindern",
+                          explanation: "Dative plural: den + add -n to noun" },
+                        { id: "d24-q5", type: "text", question: "What is the dative pronoun for 'ich'?",
+                          answer: "mir", explanation: "ich → mir in dative" },
+                        { id: "d24-q6", type: "text", question: "What is the dative pronoun for 'du'?",
+                          answer: "dir", explanation: "du → dir in dative" },
+                        { id: "d24-q7", type: "choice", question: "Complete: 'Er gibt ___ das Buch.' (to me)",
+                          options: ["mich", "mir", "mein"], answer: "mir",
+                          explanation: "Dative pronoun: to me = mir" },
+                        { id: "d24-q8", type: "text", question: "Translate: 'I help you.' (du form)",
+                          answer: "Ich helfe dir.", explanation: "helfen takes dative: dir" },
+                        { id: "d24-q9", type: "text", question: "Complete: 'Das gehört ___ (der Mann)'",
+                          answer: "dem Mann", explanation: "gehören + dative: dem Mann" },
+                        { id: "d24-q10", type: "choice", question: "Which verb takes dative?",
+                          options: ["sehen", "helfen", "haben"], answer: "helfen",
+                          explanation: "helfen always takes dative object" },
+                        { id: "d24-q11", type: "text", question: "What is the dative pronoun for 'er'?",
+                          answer: "ihm", explanation: "er → ihm in dative" },
+                        { id: "d24-q12", type: "text", question: "What is the dative pronoun for 'sie' (she)?",
+                          answer: "ihr", explanation: "sie (she) → ihr in dative" },
+                        { id: "d24-q13", type: "text", question: "Translate: 'The car belongs to him.'",
+                          answer: "Das Auto gehört ihm.", explanation: "gehören + dative pronoun ihm" },
+                        { id: "d24-q14", type: "choice", question: "Complete: 'Sie dankt ___ (die Lehrerin)'",
+                          options: ["die Lehrerin", "der Lehrerin", "den Lehrerin"], answer: "der Lehrerin",
+                          explanation: "Feminine dative: die → der" },
+                        { id: "d24-q15", type: "text", question: "What question does dative answer?",
+                          answer: "Wem?", explanation: "Wem? = To/for whom? (dative)" },
+                        { id: "d24-q16", type: "text", question: "Complete: 'Wir helfen ___ (die Frauen - plural)'",
+                          answer: "den Frauen", explanation: "Plural dative: den Frauen (already ends in -n)" },
+                        { id: "d24-q17", type: "choice", question: "What is the dative pronoun for 'wir'?",
+                          options: ["uns", "euch", "ihnen"], answer: "uns",
+                          explanation: "wir → uns in dative" },
+                        { id: "d24-q18", type: "text", question: "Translate: 'How do you like the film?' (du, use gefallen)",
+                          answer: "Wie gefällt dir der Film?", explanation: "gefallen + dative: dir" },
+                        { id: "d24-q19", type: "text", question: "Complete: 'Die Pizza schmeckt ___ (ich) nicht.'",
+                          answer: "mir", explanation: "schmecken + dative: mir" },
+                        { id: "d24-q20", type: "choice", question: "Dative plural ending rule for nouns:",
+                          options: ["add -e", "add -n", "add -s"], answer: "add -n",
+                          explanation: "Dative plural adds -n to most nouns" },
+                        { id: "d24-q21", type: "text", question: "What is the formal dative pronoun 'Sie'?",
+                          answer: "Ihnen", explanation: "Sie (formal) → Ihnen (capitalized)" },
+                        { id: "d24-q22", type: "text", question: "Translate: 'Can you help me?' (Sie form)",
+                          answer: "Können Sie mir helfen?", explanation: "helfen + dative mir" },
+                        { id: "d24-q23", type: "text", question: "Complete: 'Ich glaube ___ (du) nicht.'",
+                          answer: "dir", explanation: "glauben + dative: dir" },
+                        { id: "d24-q24", type: "choice", question: "Which is correct: 'Das Buch gehört ___'",
+                          options: ["meinem Vater", "mein Vater", "meinen Vater"], answer: "meinem Vater",
+                          explanation: "gehören + dative: meinem Vater" },
+                        { id: "d24-q25", type: "text", question: "Translate: 'We thank you.' (ihr form)",
+                          answer: "Wir danken euch.", explanation: "danken + dative: euch" }
+                    ]
                 }
             },
             {
                 day: 25,
-                title: "Prepositions with Dative",
-                focus: "aus, bei, mit...",
-                activities: ["Dative prepositions usage"],
-                homework: ["Write sentences with Dative prepositions"],
+                title: "Dative Prepositions",
+                focus: "aus, bei, mit, nach, seit, von, zu + Two-Way Prepositions",
+                activities: ["Learn dative-only prepositions", "Practice two-way prepositions", "Master Wo? vs Wohin?"],
+                homework: ["Comprehensive dative preposition practice"],
                 details: {
                     sections: [
                         {
-                            title: "Dative Prepositions",
-                            content: "aus, bei, mit, nach, seit, von, zu.\nAlways trigger Dative.",
-                            examples: [{ german: "Ich fahre mit dem Bus.", english: "I go by bus." }]
+                            title: "1. Dative-Only Prepositions (Präpositionen mit Dativ)",
+                            content: "Seven prepositions ALWAYS take the dative case, regardless of context. These must be memorized.\n\n**The Seven Dative Prepositions:**\n* **aus** (out of, from - origin)\n* **bei** (at, near, with - location/company)\n* **mit** (with - instrument/company)\n* **nach** (to, after - direction to cities/countries, after time)\n* **seit** (since, for - time duration)\n* **von** (from, of, by - origin/possession)\n* **zu** (to - direction to people/places)\n\n**Memory Aid - ABMNSVZ:**\nThink: **A**lways **B**ring **M**y **N**ew **S**ilver **V**ase **Z**uerst (first)\n\n**Important Contractions:**\n* bei + dem = **beim** (at the)\n* von + dem = **vom** (from the)\n* zu + dem = **zum** (to the - masculine/neuter)\n* zu + der = **zur** (to the - feminine)\n\n**Key Point:**\nAfter these prepositions, ALWAYS use dative case:\n* aus **dem** Haus (not: aus **das** Haus)\n* mit **der** Frau (not: mit **die** Frau)",
+                            examples: [
+                                { german: "Ich komme aus Deutschland.", english: "I come from Germany." },
+                                { german: "Er wohnt bei seinen Eltern.", english: "He lives with his parents." },
+                                { german: "Wir fahren mit dem Bus.", english: "We go by bus." },
+                                { german: "Sie fliegt nach Berlin.", english: "She's flying to Berlin." },
+                                { german: "Ich lerne seit zwei Jahren Deutsch.", english: "I've been learning German for two years." },
+                                { german: "Das Geschenk ist von meiner Mutter.", english: "The gift is from my mother." },
+                                { german: "Ich gehe zum Arzt.", english: "I'm going to the doctor." }
+                            ]
+                        },
+                        {
+                            title: "2. Detailed Usage of Each Dative Preposition",
+                            content: "**aus** (out of, from):\n* Origin: aus Deutschland, aus der Schweiz\n* Material: aus Holz (made of wood), aus Metall\n* Reason: aus Liebe (out of love), aus Angst (out of fear)\n\n**bei** (at, near, with):\n* Location: bei der Arbeit (at work), bei McDonald's\n* Living with: bei meinen Eltern wohnen\n* With businesses: beim Arzt (at the doctor's)\n\n**mit** (with):\n* Company: mit meinem Freund (with my friend)\n* Instrument: mit dem Auto fahren (travel by car)\n* Age: mit 18 Jahren (at age 18)\n\n**nach** (to, after):\n* Direction to cities/countries WITHOUT article: nach Berlin, nach Deutschland\n* After (time): nach dem Essen (after eating)\n* According to: nach meiner Meinung (in my opinion)\n* Note: Use 'zu' for places WITH article\n\n**seit** (since, for - time):\n* Duration: seit drei Jahren (for three years)\n* Starting point: seit Januar (since January)\n* Always with present tense in German!\n\n**von** (from, of, by):\n* Origin: von zu Hause (from home)\n* Possession: der Freund von meiner Schwester\n* Author: ein Buch von Goethe\n* Time span: von 9 bis 5 Uhr (from 9 to 5)\n\n**zu** (to):\n* Direction to people: zu meinem Freund, zum Arzt\n* Direction to places: zur Schule, zur Post\n* Purpose: zum Frühstück (for breakfast)\n* Note: Use 'nach' for cities/countries without article",
+                            examples: [
+                                { german: "Diese Tasche ist aus Leder.", english: "This bag is made of leather." },
+                                { german: "Ich arbeite bei Siemens.", english: "I work at Siemens." },
+                                { german: "Sie schreibt mit einem Bleistift.", english: "She writes with a pencil." },
+                                { german: "Nach dem Film gehen wir essen.", english: "After the film we're going to eat." },
+                                { german: "Er wohnt seit einem Jahr in München.", english: "He's been living in Munich for a year." },
+                                { german: "Ich komme gerade vom Supermarkt.", english: "I'm just coming from the supermarket." },
+                                { german: "Wir gehen zur Universität.", english: "We're going to the university." }
+                            ]
+                        },
+                        {
+                            title: "3. Two-Way Prepositions (Wechselpräpositionen)",
+                            content: "Nine prepositions can take EITHER dative OR accusative, depending on the context. This is one of the most important concepts in German!\n\n**The Nine Two-Way Prepositions:**\n**in, an, auf, über, unter, vor, hinter, neben, zwischen**\n\n**The Rule:**\n* **DATIVE (Wo?)** = LOCATION (where something IS) - no movement or movement within\n* **ACCUSATIVE (Wohin?)** = DIRECTION (where something is GOING) - movement toward\n\n**Memory Trick:**\n* **Wo?** (Where?) = **W**aitng, staying, being → **D**ative\n* **Wohin?** (Where to?) = **A**ction, going toward → **A**ccusative\n\n**DATIVE (Wo? - Location):**\n* **in dem** (im) Haus - in the house\n* **an der** Wand - on the wall\n* **auf dem** Tisch - on the table\n* **über dem** Bett - above the bed\n* **unter dem** Stuhl - under the chair\n* **vor der** Tür - in front of the door\n* **hinter dem** Haus - behind the house\n* **neben der** Bank - next to the bank\n* **zwischen den** Stühlen - between the chairs\n\n**ACCUSATIVE (Wohin? - Direction):**\n* **in das** (ins) Haus - into the house\n* **an die** Wand - onto the wall\n* **auf den** Tisch - onto the table\n* **über das** Bett - over the bed\n* **unter den** Stuhl - under the chair\n* **vor die** Tür - in front of the door\n* **hinter das** Haus - behind the house\n* **neben die** Bank - next to the bank\n* **zwischen die** Stühle - between the chairs",
+                            examples: [
+                                { german: "Ich bin im Kino. (Wo?)", english: "I am in the cinema. (DATIVE - location)" },
+                                { german: "Ich gehe ins Kino. (Wohin?)", english: "I'm going to the cinema. (ACCUSATIVE - direction)" },
+                                { german: "Das Bild hängt an der Wand. (Wo?)", english: "The picture hangs on the wall. (DATIVE)" },
+                                { german: "Ich hänge das Bild an die Wand. (Wohin?)", english: "I hang the picture on the wall. (ACCUSATIVE)" },
+                                { german: "Das Buch liegt auf dem Tisch. (Wo?)", english: "The book lies on the table. (DATIVE)" },
+                                { german: "Ich lege das Buch auf den Tisch. (Wohin?)", english: "I put the book on the table. (ACCUSATIVE)" }
+                            ]
+                        },
+                        {
+                            title: "4. Common Verb Pairs with Two-Way Prepositions",
+                            content: "Certain verb pairs help you remember when to use dative vs accusative with two-way prepositions.\n\n**DATIVE Verbs (Position/Location):**\n* **sein** (to be) - Ich bin **im** Zimmer.\n* **bleiben** (to stay) - Er bleibt **im** Bett.\n* **wohnen** (to live) - Sie wohnt **in der** Stadt.\n* **stehen** (to stand) - Das Auto steht **vor dem** Haus.\n* **liegen** (to lie flat) - Das Buch liegt **auf dem** Tisch.\n* **sitzen** (to sit) - Ich sitze **auf dem** Stuhl.\n* **hängen** (to hang) - Das Bild hängt **an der** Wand.\n\n**ACCUSATIVE Verbs (Action/Movement):**\n* **gehen** (to go) - Ich gehe **ins** Zimmer.\n* **fahren** (to drive) - Wir fahren **in die** Stadt.\n* **kommen** (to come) - Komm **ins** Haus!\n* **stellen** (to place upright) - Ich stelle die Flasche **auf den** Tisch.\n* **legen** (to lay flat) - Leg das Buch **auf den** Tisch!\n* **setzen** (to set/sit down) - Setz dich **auf den** Stuhl!\n* **hängen** (to hang up) - Ich hänge das Bild **an die** Wand.\n\n**Key Pattern:**\n* Position verbs (sein, stehen, liegen, sitzen, hängen) → DATIVE (Wo?)\n* Action verbs (stellen, legen, setzen, hängen) → ACCUSATIVE (Wohin?)",
+                            examples: [
+                                { german: "Wo ist der Schlüssel? - Er liegt auf dem Tisch.", english: "Where is the key? - It's lying on the table. (DATIVE)" },
+                                { german: "Wohin legst du den Schlüssel? - Ich lege ihn auf den Tisch.", english: "Where are you putting the key? - I'm putting it on the table. (ACCUSATIVE)" },
+                                { german: "Die Lampe steht neben dem Sofa.", english: "The lamp stands next to the sofa. (DATIVE)" },
+                                { german: "Ich stelle die Lampe neben das Sofa.", english: "I'm placing the lamp next to the sofa. (ACCUSATIVE)" }
+                            ]
                         }
                     ],
-                    homework: [{ id: "d25-q1", type: "choice", question: "Ich komme ___ (aus) Deutschland.", options: ["aus", "von"], answer: "aus", explanation: "Origin -> aus." }]
+                    homework: [
+                        { id: "d25-q1", type: "choice", question: "Ich komme ___ Deutschland.",
+                          options: ["aus", "von", "nach"], answer: "aus",
+                          explanation: "Country origin: aus + country name" },
+                        { id: "d25-q2", type: "text", question: "Translate: 'I'm going by bus.' (use mit)",
+                          answer: "Ich fahre mit dem Bus.", explanation: "mit + dative: dem Bus" },
+                        { id: "d25-q3", type: "text", question: "Complete: 'Sie wohnt ___ ihren Eltern.' (with)",
+                          answer: "bei", explanation: "Living with someone: bei + dative" },
+                        { id: "d25-q4", type: "choice", question: "Direction to a city without article uses which preposition?",
+                          options: ["zu", "nach", "bei"], answer: "nach",
+                          explanation: "nach + cities/countries without article" },
+                        { id: "d25-q5", type: "text", question: "Translate: 'I've been learning German for two years.' (use seit)",
+                          answer: "Ich lerne seit zwei Jahren Deutsch.", explanation: "seit + dative for duration" },
+                        { id: "d25-q6", type: "text", question: "Complete: 'Ich gehe ___ Arzt.' (to the doctor)",
+                          answer: "zum", explanation: "zu + dem = zum (to the doctor)" },
+                        { id: "d25-q7", type: "choice", question: "Complete: 'Das Geschenk ist ___ meiner Mutter.' (from)",
+                          options: ["von", "aus", "nach"], answer: "von",
+                          explanation: "from (a person): von + dative" },
+                        { id: "d25-q8", type: "text", question: "What is the contraction of 'zu + der'?",
+                          answer: "zur", explanation: "zu + der = zur (feminine)" },
+                        { id: "d25-q9", type: "text", question: "Translate: 'after eating' (use nach)",
+                          answer: "nach dem Essen", explanation: "nach + dative: dem Essen" },
+                        { id: "d25-q10", type: "choice", question: "Which preposition: 'This bag is made of leather.'",
+                          options: ["mit", "aus", "von"], answer: "aus",
+                          explanation: "Material: aus + dative (aus Leder)" },
+                        { id: "d25-q11", type: "text", question: "Complete: 'Ich bin ___ Kino.' (at the cinema - location)",
+                          answer: "im", explanation: "in + dem = im (Wo? → dative)" },
+                        { id: "d25-q12", type: "text", question: "Complete: 'Ich gehe ___ Kino.' (to the cinema - direction)",
+                          answer: "ins", explanation: "in + das = ins (Wohin? → accusative)" },
+                        { id: "d25-q13", type: "choice", question: "Das Buch liegt ___ Tisch. (on the table - location)",
+                          options: ["auf dem", "auf den", "auf das"], answer: "auf dem",
+                          explanation: "liegen + auf → Wo? → dative: auf dem" },
+                        { id: "d25-q14", type: "choice", question: "Ich lege das Buch ___ Tisch. (onto the table - direction)",
+                          options: ["auf dem", "auf den", "auf der"], answer: "auf den",
+                          explanation: "legen + auf → Wohin? → accusative: auf den" },
+                        { id: "d25-q15", type: "text", question: "What question word asks 'Where?' (location)?",
+                          answer: "Wo?", explanation: "Wo? = Where? (dative with two-way prepositions)" },
+                        { id: "d25-q16", type: "text", question: "What question word asks 'Where to?' (direction)?",
+                          answer: "Wohin?", explanation: "Wohin? = Where to? (accusative with two-way prepositions)" },
+                        { id: "d25-q17", type: "text", question: "Complete: 'Das Bild hängt ___ Wand.' (on the wall - location)",
+                          answer: "an der", explanation: "hängen (position) → Wo? → dative: an der" },
+                        { id: "d25-q18", type: "text", question: "Complete: 'Ich hänge das Bild ___ Wand.' (onto the wall)",
+                          answer: "an die", explanation: "hängen (action) → Wohin? → accusative: an die" },
+                        { id: "d25-q19", type: "choice", question: "Which verb indicates LOCATION (dative)?",
+                          options: ["legen (to lay)", "stellen (to place)", "liegen (to lie)"], answer: "liegen (to lie)",
+                          explanation: "Position verbs (liegen, stehen, sitzen) → dative" },
+                        { id: "d25-q20", type: "choice", question: "Which verb indicates DIRECTION (accusative)?",
+                          options: ["stehen (to stand)", "sitzen (to sit)", "setzen (to set down)"], answer: "setzen (to set down)",
+                          explanation: "Action verbs (setzen, legen, stellen) → accusative" },
+                        { id: "d25-q21", type: "text", question: "Translate: 'She lives in the city.' (use wohnen + in)",
+                          answer: "Sie wohnt in der Stadt.", explanation: "wohnen → location → Wo? → dative: in der" },
+                        { id: "d25-q22", type: "text", question: "Translate: 'We're driving to the city.' (use fahren + in)",
+                          answer: "Wir fahren in die Stadt.", explanation: "fahren → direction → Wohin? → accusative: in die" },
+                        { id: "d25-q23", type: "text", question: "Complete: 'Er steht ___ Tür.' (in front of the door - location)",
+                          answer: "vor der", explanation: "stehen → Wo? → dative: vor der" },
+                        { id: "d25-q24", type: "choice", question: "Complete: 'Ich stelle das Auto ___ Haus.' (in front of the house)",
+                          options: ["vor dem", "vor das", "vor der"], answer: "vor das",
+                          explanation: "stellen → Wohin? → accusative: vor das" },
+                        { id: "d25-q25", type: "text", question: "Name all 7 dative-only prepositions.",
+                          answer: "aus, bei, mit, nach, seit, von, zu", explanation: "These ALWAYS take dative" },
+                        { id: "d25-q26", type: "text", question: "Complete: 'Der Stuhl steht ___ Tisch und Fenster.' (between)",
+                          answer: "zwischen dem Tisch und dem Fenster", explanation: "zwischen → Wo? → dative" },
+                        { id: "d25-q27", type: "text", question: "Translate: 'The cat sits under the table.' (use sitzen)",
+                          answer: "Die Katze sitzt unter dem Tisch.", explanation: "sitzen → Wo? → dative: unter dem" },
+                        { id: "d25-q28", type: "text", question: "Translate: 'I'm coming from work.' (use von)",
+                          answer: "Ich komme von der Arbeit.", explanation: "von + dative: von der Arbeit" },
+                        { id: "d25-q29", type: "choice", question: "Memory aid Wo? vs Wohin? - Wo takes which case?",
+                          options: ["Nominative", "Accusative", "Dative"], answer: "Dative",
+                          explanation: "Wo? (where, location) → Dative" },
+                        { id: "d25-q30", type: "text", question: "Create a sentence: Use 'in' with dative (location) and then with accusative (direction).",
+                          answer: "Ich bin im Park. Ich gehe in den Park.",
+                          explanation: "Example showing Wo? (im Park - dative) vs Wohin? (in den Park - accusative)" }
+                    ]
                 }
             },
             {
@@ -5185,66 +5720,112 @@ export const syllabusData: Phase[] = [
             {
                 day: 36,
                 title: "Adjective Declension 2: Indefinite & Zero Articles",
-                focus: "Endings with ein/eine and no article",
-                activities: ["Learn 'ein' word endings", "Practice with zero-article nouns"],
-                homework: ["Describe items with indefinite articles"],
+                focus: "Endings with ein/eine, zero article, and all cases",
+                activities: ["Master indefinite article endings", "Practice zero-article nouns", "Learn dative adjective endings"],
+                homework: ["Comprehensive adjective declension practice"],
                 details: {
                     sections: [
                         {
-                            title: "1. Adjective Declension with Indefinite Articles (ein, eine)",
-                            content: "With indefinite articles, the adjective must show the gender and case of the noun because 'ein' doesn't always do so. These are called 'strong endings'.\n\n**Nominative:**\n* Masc: ein gut**er** Mann (der)\n* Fem: eine gut**e** Frau (die)\n* Neut: ein gut**es** Kind (das)\n\n**Accusative:**\n* Masc: einen gut**en** Mann\n* Fem: eine gut**e** Frau\n* Neut: ein gut**es** Kind",
+                            title: "1. Review: Three Types of Adjective Endings",
+                            content: "German has three patterns for adjective endings, depending on what comes before the adjective:\n\n**Type 1: Weak Endings (after definite articles)**\n* After: der, die, das, dieser, jeder, welcher\n* Pattern: Mostly **-e** and **-en**\n* Example: der alt**e** Mann, die schön**e** Frau\n\n**Type 2: Strong Endings (after indefinite articles & possessives)**\n* After: ein, eine, mein, dein, sein, kein\n* Pattern: Adjective shows the gender (like the definite article)\n* Example: ein alt**er** Mann, eine schön**e** Frau\n\n**Type 3: Strong Endings (with zero article)**\n* No article before the adjective\n* Pattern: Same as Type 2 - adjective shows gender\n* Example: alt**er** Wein, schön**e** Musik\n\n**Why Different Patterns?**\nGerman needs ONE element to show the gender and case. If the article does it → weak ending. If not → strong ending.\n\n**Key Principle:**\nWhen there's NO clear gender marker before the adjective, the adjective must show it with a **strong ending**.",
                             examples: [
-                                { german: "Das ist ein alter Mann.", english: "That is an old man." },
-                                { german: "Ich sehe einen alten Mann.", english: "I see an old man." },
-                                { german: "Sie kauft eine neue Tasche.", english: "She buys a new bag." }
+                                { german: "der alte Mann (weak - 'der' shows masculine)", english: "the old man" },
+                                { german: "ein alter Mann (strong - 'ein' doesn't show masculine)", english: "an old man" },
+                                { german: "alter Wein (strong - no article)", english: "old wine" }
                             ]
                         },
                         {
-                            title: "2. Adjective Declension with Zero Article",
-                            content: "When there is no article before the noun (e.g., with plural nouns or materials), the adjective takes the strong ending that shows the original article's gender/case.\n\n* **Nominative:** gut**er** Wein (der), gut**e** Milch (die), gut**es** Bier (das)\n* **Plural:** Gut**e** Weine sind teuer. (Good wines are expensive.)\n* **Accusative:** Ich trinke gut**en** Wein, gut**e** Milch, gut**es** Bier.",
+                            title: "2. Indefinite Article Declension (ein-words)",
+                            content: "With indefinite articles (ein, eine, mein, dein, sein, ihr, unser, euer, kein), the adjective takes STRONG endings in some cases because these articles don't always show the gender clearly.\n\n**NOMINATIVE (Subject):**\n* Masculine: ein gut**er** Mann (shows -er like 'der')\n* Feminine: eine gut**e** Frau (shows -e like 'die')\n* Neuter: ein gut**es** Kind (shows -es like 'das')\n* Plural: keine gut**en** Kinder (-en ending)\n\n**ACCUSATIVE (Direct Object):**\n* Masculine: einen gut**en** Mann (weak -en)\n* Feminine: eine gut**e** Frau (strong -e)\n* Neuter: ein gut**es** Kind (strong -es)\n* Plural: keine gut**en** Kinder (-en ending)\n\n**DATIVE (Indirect Object):**\n* Masculine: einem gut**en** Mann (-en)\n* Feminine: einer gut**en** Frau (-en)\n* Neuter: einem gut**en** Kind (-en)\n* Plural: keinen gut**en** Kindern (-en)\n\n**Pattern Recognition:**\n* Nominative masculine: -**er** (strong)\n* Nominative/Accusative neuter: -**es** (strong)\n* Nominative/Accusative feminine: -**e** (strong)\n* Accusative masculine: -**en** (weak)\n* ALL dative: -**en** (weak)\n* ALL plural: -**en** (weak)",
                             examples: [
-                                { german: "Ich trinke gern kaltes Wasser.", english: "I like to drink cold water." },
-                                { german: "Frische Brötchen riechen gut.", english: "Fresh bread rolls smell good." },
-                                { german: "Er isst roten Apfel.", english: "He eats red apple." }
+                                { german: "Das ist ein interessanter Film. (m, nom)", english: "That is an interesting film." },
+                                { german: "Ich sehe einen interessanten Film. (m, acc)", english: "I see an interesting film." },
+                                { german: "Ich spreche mit einem interessanten Mann. (m, dat)", english: "I speak with an interesting man." },
+                                { german: "Sie hat eine neue Tasche. (f, acc)", english: "She has a new bag." },
+                                { german: "Er kauft ein teures Auto. (n, acc)", english: "He buys an expensive car." },
+                                { german: "Wir helfen keinen kleinen Kindern. (pl, dat)", english: "We don't help small children." }
+                            ]
+                        },
+                        {
+                            title: "3. Zero-Article Declension (No Article)",
+                            content: "When there's NO article before the adjective (common with plural nouns, materials, abstractions, and professions), the adjective takes the SAME strong endings as with indefinite articles, showing the gender/case clearly.\n\n**When Zero Article is Used:**\n* **Plural nouns:** Gute Freunde sind wichtig.\n* **Materials:** Ich trinke kaltes Wasser.\n* **Abstract nouns:** Schlechtes Wetter nervt.\n* **Professions (predicative):** Er ist guter Arzt.\n* **Food/Drinks:** Ich esse gern frisches Obst.\n\n**NOMINATIVE (Zero Article):**\n* Masculine: gut**er** Wein (shows -er)\n* Feminine: gut**e** Milch (shows -e)\n* Neuter: gut**es** Bier (shows -es)\n* Plural: gut**e** Weine (shows -e)\n\n**ACCUSATIVE (Zero Article):**\n* Masculine: gut**en** Wein (-en)\n* Feminine: gut**e** Milch (-e)\n* Neuter: gut**es** Bier (-es)\n* Plural: gut**e** Weine (-e)\n\n**DATIVE (Zero Article):**\n* Masculine: mit gut**em** Wein (-em)\n* Feminine: mit gut**er** Milch (-er)\n* Neuter: mit gut**em** Bier (-em)\n* Plural: mit gut**en** Weinen (-en)\n\n**Key Pattern:**\nThe endings match the definite article's gender marker:\n* Masculine nom: -**er** (like d**er**)\n* Feminine nom/acc: -**e** (like di**e**)\n* Neuter nom/acc: -**es** (like da**s**)\n* Dative masc/neut: -**em** (like d**em**)\n* Dative fem: -**er** (like d**er**)\n* Plural: -**e** (nom/acc) or -**en** (dat)",
+                            examples: [
+                                { german: "Ich trinke gern kaltes Wasser. (n, acc)", english: "I like to drink cold water." },
+                                { german: "Frisches Obst ist gesund. (n, nom)", english: "Fresh fruit is healthy." },
+                                { german: "Sie isst gern roten Apfel. (m, acc)", english: "She likes eating red apple." },
+                                { german: "Guter Kaffee kostet viel. (m, nom)", english: "Good coffee costs a lot." },
+                                { german: "Mit frischer Milch schmeckt es besser. (f, dat)", english: "It tastes better with fresh milk." },
+                                { german: "Kleine Kinder spielen gern. (pl, nom)", english: "Small children like to play." }
+                            ]
+                        },
+                        {
+                            title: "4. Complete Adjective Ending Charts",
+                            content: "**STRONG ENDINGS (Indefinite & Zero Article):**\n\n|  | Masc | Fem | Neut | Plural |\n|---|---|---|---|---|\n| **Nom** | -er | -e | -es | -e |\n| **Acc** | -en | -e | -es | -e |\n| **Dat** | -em | -er | -em | -en |\n\n**Remember the Pattern:**\n* Nominative masculine: -**er** (unique)\n* Nominative/Accusative neuter: -**es** (same)\n* Nominative/Accusative feminine: -**e** (same)\n* Nominative/Accusative plural: -**e** (same)\n* Accusative masculine: -**en** (unique)\n* Dative singular: -**em** (m/n) / -**er** (f)\n* Dative plural: -**en**\n\n**Common Mistakes to Avoid:**\n* ❌ ein alter Mann → ✅ ein alt**er** Mann (not -e)\n* ❌ eine altes Frau → ✅ eine alt**e** Frau (not -es)\n* ❌ mit guten Wein → ✅ mit gut**em** Wein (not -en)\n* ❌ frische Wasser → ✅ frisch**es** Wasser (not -e)\n\n**Study Tips:**\n1. First identify: definite, indefinite, or zero article?\n2. Determine the case (nominative, accusative, dative)\n3. Check the gender (masculine, feminine, neuter, plural)\n4. Apply the corresponding ending from the chart",
+                            examples: [
+                                { german: "Das ist ein schöner Tag! (m, nom, indefinite)", english: "That's a beautiful day!" },
+                                { german: "Ich habe keinen guten Plan. (m, acc, indefinite)", english: "I don't have a good plan." },
+                                { german: "Sie trinkt kalte Milch. (f, acc, zero)", english: "She drinks cold milk." },
+                                { german: "Mit gutem Wetter fahren wir. (n, dat, zero)", english: "With good weather we'll drive." }
                             ]
                         }
                     ],
                     homework: [
-                        {
-                            id: "d36-q1",
-                            type: "text",
-                            question: "Complete: 'Das ist ein neu__ Auto.'",
-                            answer: "neues",
-                            explanation: "Nominative, neuter, indefinite article -> -es (strong ending)."
-                        },
-                        {
-                            id: "d36-q2",
-                            type: "text",
-                            question: "Complete: 'Ich habe einen alt__ Computer.'",
-                            answer: "alten",
-                            explanation: "Accusative, masculine, indefinite article -> -en."
-                        },
-                        {
-                            id: "d36-q3",
-                            type: "text",
-                            question: "Complete: 'Sie trinkt frisch__ Milch.' (zero article)",
-                            answer: "frische",
-                            explanation: "Accusative, feminine, zero article -> -e (strong ending)."
-                        },
-                        {
-                            id: "d36-q4",
-                            type: "text",
-                            question: "Complete: 'Guter Wein ist teuer.' (zero article)",
-                            answer: "Guter",
-                            explanation: "Nominative, masculine, zero article -> -er."
-                        },
-                        {
-                            id: "d36-q5",
-                            type: "text",
-                            question: "Complete: 'Ich esse eine groß__ Pizza.'",
-                            answer: "große",
-                            explanation: "Accusative, feminine, indefinite -> -e."
-                        }
+                        { id: "d36-q1", type: "text", question: "Complete: 'Das ist ein neu__ Auto.' (n, nom)",
+                          answer: "neues", explanation: "Nominative neuter indefinite: -es (strong ending)" },
+                        { id: "d36-q2", type: "text", question: "Complete: 'Ich habe einen alt__ Computer.' (m, acc)",
+                          answer: "alten", explanation: "Accusative masculine indefinite: -en" },
+                        { id: "d36-q3", type: "text", question: "Complete: 'Sie trinkt frisch__ Milch.' (f, acc, zero article)",
+                          answer: "frische", explanation: "Accusative feminine zero article: -e (strong)" },
+                        { id: "d36-q4", type: "text", question: "Complete: 'Gut__ Wein ist teuer.' (m, nom, zero)",
+                          answer: "Guter", explanation: "Nominative masculine zero article: -er" },
+                        { id: "d36-q5", type: "text", question: "Complete: 'Ich esse eine groß__ Pizza.' (f, acc)",
+                          answer: "große", explanation: "Accusative feminine indefinite: -e" },
+                        { id: "d36-q6", type: "choice", question: "Complete: 'Er ist ein gut__ Lehrer.' (m, nom)",
+                          options: ["guter", "gute", "gutes"], answer: "guter",
+                          explanation: "Nominative masculine indefinite: -er" },
+                        { id: "d36-q7", type: "text", question: "Complete: 'Wir sehen ein schön__ Haus.' (n, acc)",
+                          answer: "schönes", explanation: "Accusative neuter indefinite: -es" },
+                        { id: "d36-q8", type: "text", question: "Complete: 'Ich trinke gern kalt__ Wasser.' (n, acc, zero)",
+                          answer: "kaltes", explanation: "Accusative neuter zero: -es" },
+                        { id: "d36-q9", type: "text", question: "Complete: 'Mit einem neu__ Auto fahre ich.' (n, dat)",
+                          answer: "neuen", explanation: "Dative neuter indefinite: -en" },
+                        { id: "d36-q10", type: "choice", question: "Complete: 'Ich spreche mit einer nett__ Frau.' (f, dat)",
+                          options: ["nette", "netten", "netter"], answer: "netten",
+                          explanation: "Dative feminine indefinite: -en" },
+                        { id: "d36-q11", type: "text", question: "Complete: 'Klein__ Kinder spielen hier.' (pl, nom, zero)",
+                          answer: "Kleine", explanation: "Nominative plural zero: -e" },
+                        { id: "d36-q12", type: "text", question: "Complete: 'Das ist eine wichtig__ Frage.' (f, nom)",
+                          answer: "wichtige", explanation: "Nominative feminine indefinite: -e" },
+                        { id: "d36-q13", type: "text", question: "Complete: 'Ich mag frisch__ Obst.' (n, acc, zero)",
+                          answer: "frisches", explanation: "Accusative neuter zero: -es" },
+                        { id: "d36-q14", type: "choice", question: "Complete: 'Sie kauft einen neu__ Rock.' (m, acc)",
+                          options: ["neuer", "neue", "neuen"], answer: "neuen",
+                          explanation: "Accusative masculine indefinite: -en" },
+                        { id: "d36-q15", type: "text", question: "Complete: 'Mit gut__ Wein schmeckt es besser.' (m, dat, zero)",
+                          answer: "gutem", explanation: "Dative masculine zero: -em" },
+                        { id: "d36-q16", type: "text", question: "Complete: 'Er hat keine gut__ Ideen.' (pl, acc)",
+                          answer: "guten", explanation: "Accusative plural indefinite: -en" },
+                        { id: "d36-q17", type: "text", question: "Complete: 'Rot__ Wein trinke ich gern.' (m, acc, zero)",
+                          answer: "Roten", explanation: "Accusative masculine zero: -en" },
+                        { id: "d36-q18", type: "choice", question: "Complete: 'Das ist kein schlecht__ Film.' (m, nom)",
+                          options: ["schlechter", "schlechte", "schlechtes"], answer: "schlechter",
+                          explanation: "Nominative masculine with kein: -er" },
+                        { id: "d36-q19", type: "text", question: "Complete: 'Ich wohne in einer klein__ Wohnung.' (f, dat)",
+                          answer: "kleinen", explanation: "Dative feminine indefinite: -en" },
+                        { id: "d36-q20", type: "text", question: "Complete: 'Mit frisch__ Milch schmeckt der Kaffee gut.' (f, dat, zero)",
+                          answer: "frischer", explanation: "Dative feminine zero: -er" },
+                        { id: "d36-q21", type: "text", question: "What ending for nominative masculine with indefinite article?",
+                          answer: "-er", explanation: "ein gut-er Mann (strong ending)" },
+                        { id: "d36-q22", type: "choice", question: "Complete: 'Sie isst gern süß__ Äpfel.' (pl, acc, zero)",
+                          options: ["süße", "süßen", "süßer"], answer: "süße",
+                          explanation: "Accusative plural zero: -e" },
+                        { id: "d36-q23", type: "text", question: "Complete: 'Er schreibt mit einem blau__ Stift.' (m, dat)",
+                          answer: "blauen", explanation: "Dative masculine indefinite: -en" },
+                        { id: "d36-q24", type: "text", question: "Complete: 'Schlecht__ Wetter nervt mich.' (n, nom, zero)",
+                          answer: "Schlechtes", explanation: "Nominative neuter zero: -es" },
+                        { id: "d36-q25", type: "text", question: "Create: Describe something using indefinite article + adjective + noun (any case)",
+                          answer: "Ich habe einen großen Hund.",
+                          explanation: "Example with indefinite article + adjective (correct ending based on case/gender)" }
                     ]
                 }
             },

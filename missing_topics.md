@@ -1031,7 +1031,84 @@ Implement all CRITICAL priority additions before teaching begins, then progressi
 
 ---
 
-**Document Version:** 1.0
+## 10. FILE MANAGEMENT & REFACTORING GUIDELINES
+
+### Code Organization Best Practices
+
+As the syllabus expands with the recommended additions, it's essential to maintain clean, manageable file structures:
+
+**File Size Management:**
+
+- **Maximum recommended file size:** 500-800 lines per component file
+- **Maximum recommended file size:** 1,000-1,200 lines per data file (syllabus.ts, etc.)
+- **When files exceed limits:** Implement appropriate refactoring strategies
+
+**Refactoring Strategies:**
+
+1. **Component-Based Splitting:**
+
+   - Split large lesson components by topic/phase
+   - Example: `LessonDetail.tsx` → `LessonDetailGrammar.tsx`, `LessonDetailVocabulary.tsx`, `LessonDetailExercises.tsx`
+   - Use composition patterns to maintain functionality
+
+2. **Data File Modularization:**
+
+   - Split `syllabus.ts` by phases: `phase1.ts`, `phase2.ts`, `phase3.ts`, etc.
+   - Separate vocabulary by themes: `vocabularyFamily.ts`, `vocabularyFood.ts`, `vocabularyEducation.ts`
+   - Create index files to re-export consolidated data
+
+3. **Utility Function Separation:**
+
+   - Extract reusable functions into dedicated utility files
+   - Group related utilities: `grammarHelpers.ts`, `vocabularyHelpers.ts`, `examHelpers.ts`
+   - Maintain single responsibility principle
+
+4. **Progressive Enhancement Approach:**
+   - Start with additions to existing files
+   - Monitor file sizes during development
+   - Refactor when approaching size limits
+   - Maintain backward compatibility during refactoring
+
+**Implementation Guidelines:**
+
+- **Before adding new content:** Check current file sizes
+- **During expansion:** Monitor file growth and complexity
+- **After major additions:** Evaluate need for refactoring
+- **Maintain functionality:** Ensure all refactoring preserves existing features
+- **Update imports:** Properly manage import/export statements after splitting
+- **Test thoroughly:** Verify all components work after refactoring
+
+**File Organization Structure Examples:**
+
+```
+src/data/
+├── syllabus/
+│   ├── index.ts          # Main export
+│   ├── phase1.ts         # Days 1-10
+│   ├── phase2.ts         # Days 11-20
+│   ├── phase3.ts         # Days 21-36 (expanded)
+│   ├── phase4.ts         # Days 37-40
+│   └── phase5.ts         # Days 41-50
+├── vocabulary/
+│   ├── index.ts          # Consolidated exports
+│   ├── dailyLife.ts      # Food, family, home
+│   ├── education.ts      # School, studies (new)
+│   ├── communication.ts  # Phone, email, tech (new)
+│   └── cultural.ts       # Greetings, formality
+└── exercises/
+    ├── index.ts
+    ├── grammar.ts        # Case practice, verb conjugation
+    ├── vocabulary.ts     # Word exercises
+    └── functional.ts     # Invitations, suggestions (new)
+```
+
+**Priority for File Management:**
+🟡 **MEDIUM** - Implement as files grow beyond recommended limits during content additions
+
+---
+
+**Document Version:** 1.1
 **Date Completed:** December 28, 2024
+**Last Updated:** December 28, 2024 - Added file management guidelines
 **Next Review:** After implementing CRITICAL priority additions
 **Contact:** For questions or clarifications about this gap analysis
