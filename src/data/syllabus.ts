@@ -351,6 +351,50 @@ export const syllabusData: Phase[] = [
                             answer: "Drei Euro fünfzig",
                             explanation: "Pronounce the Euro and cents naturally."
                         }
+                                                ,
+                                                { id: "d4-q5", type: "choice", question: "Write '24' in German.",
+                                                    options: ["vierundzwanzig", "zwanzigvier", "vierzwanzig"],
+                                                    answer: "vierundzwanzig", explanation: "Unit + und + ten: vier-und-zwanzig." },
+                                                { id: "d4-q6", type: "text", question: "Write '93' in German words.",
+                                                    answer: "dreiundneunzig", explanation: "Three-and-ninety." },
+                                                { id: "d4-q7", type: "choice", question: "Choose the correct form for 67.",
+                                                    options: ["sechzigsieben", "siebenundsechzig", "sechzigund sieben"],
+                                                    answer: "siebenundsechzig", explanation: "Unit comes first: sieben + und + sechzig." },
+                                                { id: "d4-q8", type: "text", question: "Translate: 'How much is the bread?'",
+                                                    answer: "Wie viel kostet das Brot?", explanation: "Use 'Wie viel kostet ... ?'" },
+                                                { id: "d4-q9", type: "choice", question: "Say 4,50€ in German.",
+                                                    options: ["Vier Euro fünfzig", "Vier Euro und fünfzig Cent", "Vier Komma fünfzig Euro"],
+                                                    answer: "Vier Euro fünfzig", explanation: "Common spoken form drops 'Cent'." },
+                                                { id: "d4-q10", type: "text", question: "Write '31' in German words.",
+                                                    answer: "einunddreißig", explanation: "Remember ß in dreißig." },
+                                                { id: "d4-q11", type: "choice", question: "Which is 'dark blue'?",
+                                                    options: ["dunkelblau", "blau dunkel", "dunkel blau"],
+                                                    answer: "dunkelblau", explanation: "Prefix attaches directly to the color." },
+                                                { id: "d4-q12", type: "text", question: "Translate: 'How old are you?' (informal)",
+                                                    answer: "Wie alt bist du?", explanation: "Use 'sein' for age, informal 'du'." },
+                                                { id: "d4-q13", type: "text", question: "Answer: I am 29 years old.",
+                                                    answer: "Ich bin neunundzwanzig Jahre alt.",
+                                                    explanation: "Unit + und + twenty: neun-und-zwanzig." },
+                                                { id: "d4-q14", type: "choice", question: "Pick the correct color: 'white'",
+                                                    options: ["weiß", "weis", "weiss"], answer: "weiß",
+                                                    explanation: "Use 'ß' in 'weiß'." },
+                                                { id: "d4-q15", type: "text", question: "Write '56' in German words.",
+                                                    answer: "sechsundfünfzig", explanation: "Six-and-fifty." },
+                                                { id: "d4-q16", type: "choice", question: "How do you say 'orange' in German?",
+                                                    options: ["Orange", "Orang", "Oranje"], answer: "Orange",
+                                                    explanation: "The color is 'Orange' (loanword)." },
+                                                { id: "d4-q17", type: "text", question: "Translate: 'What does it cost?'",
+                                                    answer: "Was kostet das?",
+                                                    explanation: "Alternative to 'Wie viel kostet ... ?'" },
+                                                { id: "d4-q18", type: "choice", question: "100 in German is...",
+                                                    options: ["ein hundert", "hundert", "eins hundert"], answer: "hundert",
+                                                    explanation: "Commonly 'hundert'; 'einhundert' is also acceptable." },
+                                                { id: "d4-q19", type: "text", question: "Write '72' in German words.",
+                                                    answer: "zweiundsiebzig", explanation: "Two-and-seventy." },
+                                                { id: "d4-q20", type: "choice",
+                                                    question: "Select the correct translation: 'light blue'",
+                                                    options: ["hellblau", "leichtblau", "hell blau"], answer: "hellblau",
+                                                    explanation: "Prefix 'hell-' attaches to the color." }
                     ]
                 }
             },
@@ -373,11 +417,14 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "2. Months & Seasons (Monate & Jahreszeiten)",
-                            content: "* **Seasons:** der Frühling, der Sommer, der Herbst, der Winter.\n* **Months:** Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember.\n* **Preposition:** ALWAYS use **im** (in + dem) for months and seasons. (e.g., *im Sommer*, *im Mai*).",
+                            content: "**The Seasons (Die Jahreszeiten):**\n* der Frühling (Spring) - masculine\n* der Sommer (Summer) - masculine  \n* der Herbst (Autumn/Fall) - masculine\n* der Winter (Winter) - masculine\n\n**The Months (Die Monate):**\nAll months are masculine in German:\n* der Januar, der Februar, der März, der April, der Mai, der Juni\n* der Juli, der August, der September, der Oktober, der November, der Dezember\n\n**Grammar Rules for Time Expressions:**\n\n**1. With Preposition 'im' (in the):**\n* Use **im** (in + dem) for months and seasons when expressing 'in' a time period\n* Format: **im** + Month/Season\n* Examples: *im Januar*, *im Sommer*, *im Herbst*\n\n**2. Without Preposition (as subject/object):**\n* When the month/season is the subject: *Der Winter ist kalt.*\n* When describing characteristics: *Dieser Sommer war heiß.*\n\n**3. Common Sentence Patterns:**\n* **Birthdays:** Mein Geburtstag ist im [Month]\n* **Activities:** Im [Season] [verb] ich [activity]\n* **Weather:** Im [Season] ist es [adjective]\n* **Events:** [Event] ist im [Month]\n\n**4. Weak Usage Patterns:**\nWhile months and seasons aren't weak nouns, they follow predictable patterns:\n* Always use **im** for time expressions (never *in dem*)\n* Gender never changes (always masculine)\n* Plural forms rarely used in everyday speech",
                             examples: [
                                 { german: "Mein Geburtstag ist im Juli.", english: "My birthday is in July." },
-                                { german: "Im Winter schneit es.", english: "In winter it knows." },
-                                { german: "Der Frühling ist warm.", english: "Spring is warm." }
+                                { german: "Im Winter schneit es oft.", english: "In winter it often snows." },
+                                { german: "Der Frühling ist meine Lieblingsjahreszeit.", english: "Spring is my favorite season." },
+                                { german: "Im August fahren wir nach Italien.", english: "In August we're going to Italy." },
+                                { german: "Dieser Herbst ist sehr warm.", english: "This autumn is very warm." },
+                                { german: "Im Dezember feiern wir Weihnachten.", english: "In December we celebrate Christmas." }
                             ]
                         },
                         {
@@ -394,32 +441,167 @@ export const syllabusData: Phase[] = [
                         {
                             id: "d5-q1",
                             type: "choice",
-                            question: "Preposition for 'August'?",
+                            question: "Which preposition is used with months? 'Mein Geburtstag ist ___ August.'",
                             options: ["am", "im", "um"],
                             answer: "im",
-                            explanation: "Months take 'im' (in the)."
+                            explanation: "Months take 'im' (in + dem). All months are masculine."
                         },
                         {
                             id: "d5-q2",
                             type: "text",
                             question: "Translate: 'I like to swim.'",
                             answer: "Ich schwimme gern.",
-                            explanation: "Verb 'schwimme' + 'gern'."
+                            explanation: "Use verb + 'gern' to express liking an activity."
                         },
                         {
                             id: "d5-q3",
                             type: "choice",
-                            question: "What comes after Dienstag?",
+                            question: "What day comes after Dienstag?",
                             options: ["Montag", "Mittwoch", "Donnerstag"],
                             answer: "Mittwoch",
-                            explanation: "The order is Mo, Di, Mi, Do, Fr, Sa, So."
+                            explanation: "The order is: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
                         },
                         {
                             id: "d5-q4",
                             type: "text",
-                            question: "Translate: 'On Monday'",
-                            answer: "Am Montag",
-                            explanation: "Days take 'am'."
+                            question: "Translate: 'On Monday' (use correct preposition)",
+                            answer: "am Montag",
+                            explanation: "Days of the week use 'am' (an + dem)."
+                        },
+                        {
+                            id: "d5-q5",
+                            type: "choice",
+                            question: "Which season is 'der Herbst'?",
+                            options: ["Spring", "Summer", "Autumn/Fall", "Winter"],
+                            answer: "Autumn/Fall",
+                            explanation: "der Herbst = Autumn/Fall. All seasons are masculine."
+                        },
+                        {
+                            id: "d5-q6",
+                            type: "text",
+                            question: "Complete: 'Im ___ ist es sehr kalt.' (Winter)",
+                            answer: "Im Winter ist es sehr kalt.",
+                            explanation: "Use 'im' + season. 'Im Winter ist es sehr kalt' = 'In winter it is very cold.'"
+                        },
+                        {
+                            id: "d5-q7",
+                            type: "choice",
+                            question: "How do you say 'I don't like cooking'?",
+                            options: ["Ich koche nicht gern.", "Ich mag nicht kochen.", "Ich nicht gern koche."],
+                            answer: "Ich koche nicht gern.",
+                            explanation: "Use 'nicht gern' after the verb to express not liking an activity."
+                        },
+                        {
+                            id: "d5-q8",
+                            type: "text",
+                            question: "Translate: 'In July it is hot.'",
+                            answer: "Im Juli ist es heiß.",
+                            explanation: "Months use 'im': Im Juli ist es heiß."
+                        },
+                        {
+                            id: "d5-q9",
+                            type: "choice",
+                            question: "What is the German word for 'weekend'?",
+                            options: ["die Wochenende", "das Wochenende", "der Wochenende"],
+                            answer: "das Wochenende",
+                            explanation: "das Wochenende (neuter). Die Woche (week) + das Ende (end) = das Wochenende."
+                        },
+                        {
+                            id: "d5-q10",
+                            type: "text",
+                            question: "Complete: 'Heute ist Freitag. Morgen ist ___.'",
+                            answer: "Samstag",
+                            explanation: "Freitag (Friday) + 1 day = Samstag (Saturday)."
+                        },
+                        {
+                            id: "d5-q11",
+                            type: "choice",
+                            question: "Which preposition: 'Wir fahren ___ Sonntag nach Berlin.'",
+                            options: ["am", "im", "zu"],
+                            answer: "am",
+                            explanation: "Days use 'am': am Sonntag = on Sunday."
+                        },
+                        {
+                            id: "d5-q12",
+                            type: "text",
+                            question: "Translate: 'Do you like reading?' (du form)",
+                            answer: "Liest du gern?",
+                            explanation: "lesen (to read) -> du liest. Question: Liest du gern?"
+                        },
+                        {
+                            id: "d5-q13",
+                            type: "choice",
+                            question: "What is the third month of the year?",
+                            options: ["Februar", "März", "April"],
+                            answer: "März",
+                            explanation: "Januar (1), Februar (2), März (3), April (4)..."
+                        },
+                        {
+                            id: "d5-q14",
+                            type: "text",
+                            question: "Complete: '___ Frühling blühen die Blumen.' (In spring the flowers bloom)",
+                            answer: "Im Frühling blühen die Blumen.",
+                            explanation: "Seasons use 'im': Im Frühling = In spring."
+                        },
+                        {
+                            id: "d5-q15",
+                            type: "choice",
+                            question: "How do you ask 'Do you like playing tennis?' (Sie form)",
+                            options: ["Spielen Sie gern Tennis?", "Mögen Sie Tennis spielen?", "Tennis Sie gern spielen?"],
+                            answer: "Spielen Sie gern Tennis?",
+                            explanation: "Verb + Sie + gern + object: Spielen Sie gern Tennis?"
+                        },
+                        {
+                            id: "d5-q16",
+                            type: "text",
+                            question: "Translate: 'Yesterday was Thursday.'",
+                            answer: "Gestern war Donnerstag.",
+                            explanation: "gestern = yesterday, war = was. Gestern war Donnerstag."
+                        },
+                        {
+                            id: "d5-q17",
+                            type: "choice",
+                            question: "Which month comes before Oktober?",
+                            options: ["August", "September", "November"],
+                            answer: "September",
+                            explanation: "...August, September, Oktober, November..."
+                        },
+                        {
+                            id: "d5-q18",
+                            type: "text",
+                            question: "Complete: 'Ich ___ gern Musik.' (I like listening to music)",
+                            answer: "Ich höre gern Musik.",
+                            explanation: "hören = to listen/hear. Ich höre gern Musik = I like listening to music."
+                        },
+                        {
+                            id: "d5-q19",
+                            type: "choice",
+                            question: "What season comes after der Sommer?",
+                            options: ["der Frühling", "der Herbst", "der Winter"],
+                            answer: "der Herbst",
+                            explanation: "Frühling (Spring) → Sommer (Summer) → Herbst (Autumn) → Winter"
+                        },
+                        {
+                            id: "d5-q20",
+                            type: "text",
+                            question: "Translate: 'We work on Saturday.' (arbeiten = to work)",
+                            answer: "Wir arbeiten am Samstag.",
+                            explanation: "wir arbeiten = we work, am Samstag = on Saturday."
+                        },
+                        {
+                            id: "d5-q21",
+                            type: "choice",
+                            question: "How do you say 'My birthday is in December'?",
+                            options: ["Mein Geburtstag ist am Dezember.", "Mein Geburtstag ist im Dezember.", "Mein Geburtstag ist zu Dezember."],
+                            answer: "Mein Geburtstag ist im Dezember.",
+                            explanation: "Months use 'im': Mein Geburtstag ist im Dezember."
+                        },
+                        {
+                            id: "d5-q22",
+                            type: "text",
+                            question: "Complete: 'Er tanzt ___ gern.' (He doesn't like dancing)",
+                            answer: "Er tanzt nicht gern.",
+                            explanation: "To negate 'gern', use 'nicht gern': Er tanzt nicht gern."
                         }
                     ]
                 }
