@@ -127,47 +127,7 @@ export const syllabusData: Phase[] = [
                             question: "Pronounce: 'Ich spreche Deutsch'",
                             answer: "I speak German",
                             explanation: "Focus on the 'ch' soft sound and 'Sch'/'Sp' sounds."
-                        },
-                                                { id: "d1-q6", type: "choice", question: "Which letter sounds like English 'V'?",
-                                                    options: ["W", "V", "B"], answer: "W",
-                                                    explanation: "German W is pronounced like English V." },
-                                                { id: "d1-q7", type: "text", question: "Write the German word for 'street'",
-                                                    answer: "Straße", explanation: "Use ß (Eszett) after long vowels: Straße." },
-                                                { id: "d1-q8", type: "choice", question: "Pick the umlaut for 'schon' → 'beautiful'",
-                                                    options: ["ä", "ö", "ü"], answer: "ö",
-                                                    explanation: "schön uses Ö (O-umlaut)." },
-                                                { id: "d1-q9", type: "text", question: "Translate: 'Hello' (formal daytime)",
-                                                    answer: "Guten Tag", explanation: "Standard formal daytime greeting." },
-                                                { id: "d1-q10", type: "choice", question: "Which combo sounds like 'ee'?",
-                                                    options: ["ei", "ie", "eu"], answer: "ie",
-                                                    explanation: "ie is pronounced 'ee'." },
-                                                { id: "d1-q11", type: "text", question: "Write the sound of 'Z' in German",
-                                                    answer: "TS", explanation: "Z is pronounced 'tset' → TS sound." },
-                                                { id: "d1-q12", type: "choice", question: "Choose correct CH sound after 'a'",
-                                                    options: ["Ich-Laut", "Ach-Laut", "ch = k"], answer: "Ach-Laut",
-                                                    explanation: "After a/o/u use the back 'Ach-Laut'." },
-                                                { id: "d1-q13", type: "text", question: "Translate: 'See you later'",
-                                                    answer: "Bis später", explanation: "Common informal farewell." },
-                                                { id: "d1-q14", type: "choice", question: "ST at word start sounds like...",
-                                                    options: ["st", "sht", "zt"], answer: "sht",
-                                                    explanation: "st/sp at word start → sht/shp." },
-                                                { id: "d1-q15", type: "text", question: "Write the German for 'girl'",
-                                                    answer: "Mädchen", explanation: "Note ä and the -chen diminutive." },
-                                                { id: "d1-q16", type: "choice", question: "Pick the correct farewell (informal)",
-                                                    options: ["Auf Wiedersehen", "Tschüss", "Guten Abend"], answer: "Tschüss",
-                                                    explanation: "Tschüss is informal bye." },
-                                                { id: "d1-q17", type: "text", question: "Pronounce rule: Write 'Deutsch' sound",
-                                                    answer: "Doytsh", explanation: "eu/äu → 'oy' sound." },
-                                                { id: "d1-q18", type: "choice", question: "Which is an umlaut letter?",
-                                                    options: ["Ä", "Å", "Ç"], answer: "Ä",
-                                                    explanation: "German umlauts are Ä/Ö/Ü." },
-                                                { id: "d1-q19", type: "text", question: "Translate: 'Good evening'",
-                                                    answer: "Guten Abend", explanation: "Used after about 6pm." },
-                                                { id: "d1-q20", type: "choice", question: "Eszett (ß) represents...",
-                                                    options: ["ss", "sz", "b"], answer: "ss",
-                                                    explanation: "ß is the sharp s (double s) sound." },
-                                                { id: "d1-q21", type: "text", question: "Write: 'Goodbye' (informal)",
-                                                    answer: "Tschüss", explanation: "Informal farewell." }
+                        }
                     ]
                 }
             },
@@ -231,52 +191,7 @@ export const syllabusData: Phase[] = [
                             options: ["Sie", "ihr", "wir"],
                             answer: "ihr",
                             explanation: "'Ihr' is used for a group of people you would address individually as 'du'."
-                                                },
-                                                { id: "d2-q4", type: "text", question: "Translate: 'My name is Max.'",
-                                                    answer: "Ich heiße Max.", explanation: "Use 'Ich heiße ...' to introduce yourself." },
-                                                { id: "d2-q5", type: "choice", question: "Formal vs informal: Talking to a doctor",
-                                                    options: ["du", "Sie", "ihr"], answer: "Sie",
-                                                    explanation: "Use Sie with professionals and strangers." },
-                                                { id: "d2-q6", type: "text", question: "Ask: 'Where are you from?' (formal)",
-                                                    answer: "Woher kommen Sie?",
-                                                    explanation: "Formal Woher kommen Sie?" },
-                                                { id: "d2-q7", type: "choice", question: "Pick correct pronoun: speaking to two friends",
-                                                    options: ["du", "Sie", "ihr"], answer: "ihr",
-                                                    explanation: "Informal plural is 'ihr'." },
-                                                { id: "d2-q8", type: "text", question: "Translate: 'We live in Berlin.'",
-                                                    answer: "Wir wohnen in Berlin.", explanation: "wohnen = live/reside." },
-                                                { id: "d2-q9", type: "choice", question: "Register: Meeting your boss's parents",
-                                                    options: ["du", "Sie", "ihr"], answer: "Sie",
-                                                    explanation: "Default to formal Sie until offered du." },
-                                                { id: "d2-q10", type: "text", question: "Ask: 'What is your name?' (informal)",
-                                                    answer: "Wie heißt du?", explanation: "Informal singular 'du'." },
-                                                { id: "d2-q11", type: "choice", question: "Country with article: Switzerland",
-                                                    options: ["aus Schweiz", "aus der Schweiz", "aus die Schweiz"],
-                                                    answer: "aus der Schweiz",
-                                                    explanation: "Some countries take an article: aus der Schweiz." },
-                                                { id: "d2-q12", type: "text", question: "Translate: 'I am a student.' (male)",
-                                                    answer: "Ich bin Student.", explanation: "Use 'Ich bin ...' for profession/status." },
-                                                { id: "d2-q13", type: "choice", question: "Duzen request phrase",
-                                                    options: ["Wollen wir uns duzen?", "Du jetzt!", "Sei du!"],
-                                                    answer: "Wollen wir uns duzen?",
-                                                    explanation: "Polite way to offer switching to du." },
-                                                { id: "d2-q14", type: "text", question: "Translate: 'She is from Turkey.'",
-                                                    answer: "Sie kommt aus der Türkei.", explanation: "Use article with Türkei." },
-                                                { id: "d2-q15", type: "choice", question: "Pronoun for older neighbor (unknown)",
-                                                    options: ["du", "Sie", "ihr"], answer: "Sie",
-                                                    explanation: "Default formal with strangers/older people." },
-                                                { id: "d2-q16", type: "text", question: "Ask: 'Who are you?' (formal)",
-                                                    answer: "Wer sind Sie?", explanation: "Formal form uses 'sind Sie'." },
-                                                { id: "d2-q17", type: "choice", question: "Pronoun for group of colleagues (same age)",
-                                                    options: ["ihr", "Sie", "du"], answer: "Sie",
-                                                    explanation: "In workplace, default to Sie unless invited to du." },
-                                                { id: "d2-q18", type: "text", question: "Translate: 'We are learning German.'",
-                                                    answer: "Wir lernen Deutsch.", explanation: "Present tense statement." },
-                                                { id: "d2-q19", type: "choice", question: "Choose correct: 'You (formal) are from Italy.'",
-                                                    options: ["Du kommst aus Italien.", "Sie kommen aus Italien.", "Ihr kommt aus Italien."],
-                                                    answer: "Sie kommen aus Italien.", explanation: "Formal Sie uses plural verb form." },
-                                                { id: "d2-q20", type: "text", question: "Translate: 'I live in Munich now.'",
-                                                    answer: "Ich wohne jetzt in München.", explanation: "Include 'jetzt' for now." }
+                        }
                     ]
                 }
             },
@@ -356,47 +271,7 @@ export const syllabusData: Phase[] = [
                             options: ["habst", "hast", "hat"],
                             answer: "hast",
                             explanation: "Du hast (irregular, drops the b)."
-                                                },
-                                                { id: "d3-q5", type: "text", question: "Write the number 17 in German.",
-                                                    answer: "siebzehn", explanation: "Drop 'en' from sieben: siebzehn." },
-                                                { id: "d3-q6", type: "choice", question: "Conjugate 'sein' for 'ihr'",
-                                                    options: ["seid", "sind", "bist"], answer: "seid",
-                                                    explanation: "ihr seid." },
-                                                { id: "d3-q7", type: "text", question: "Translate: 'He has time.'",
-                                                    answer: "Er hat Zeit.", explanation: "haben + noun." },
-                                                { id: "d3-q8", type: "choice", question: "Pick correct: 'They are happy.'",
-                                                    options: ["Sie sind glücklich.", "Sie habt glücklich.", "Sie ist glücklich."],
-                                                    answer: "Sie sind glücklich.", explanation: "Plural 'sie' uses sind." },
-                                                { id: "d3-q9", type: "text", question: "Write 20 in German.",
-                                                    answer: "zwanzig", explanation: "20 = zwanzig." },
-                                                { id: "d3-q10", type: "choice", question: "Choose correct expression: 'to be thirsty'",
-                                                    options: ["Durst sein", "Durst haben", "Durst machen"], answer: "Durst haben",
-                                                    explanation: "Use haben for Durst/Hunger/Angst." },
-                                                { id: "d3-q11", type: "text", question: "Translate: 'We have money.'",
-                                                    answer: "Wir haben Geld.", explanation: "haben + noun." },
-                                                { id: "d3-q12", type: "choice", question: "Conjugate 'haben' for 'wir'",
-                                                    options: ["habt", "haben", "hat"], answer: "haben",
-                                                    explanation: "wir haben." },
-                                                { id: "d3-q13", type: "text", question: "Translate: 'Are you (informal) at home?'",
-                                                    answer: "Bist du zu Hause?", explanation: "sein question with 'bist du'." },
-                                                { id: "d3-q14", type: "choice", question: "Pick correct: 'I have a question.'",
-                                                    options: ["Ich bin Frage.", "Ich habe eine Frage.", "Ich fragt."],
-                                                    answer: "Ich habe eine Frage.", explanation: "haben + eine Frage." },
-                                                { id: "d3-q15", type: "text", question: "Write 13 and 19 in German.",
-                                                    answer: "dreizehn, neunzehn", explanation: "teen numbers: +zehn." },
-                                                { id: "d3-q16", type: "choice", question: "Select correct 'sein' for 'er'",
-                                                    options: ["ist", "sind", "seid"], answer: "ist",
-                                                    explanation: "er/sie/es ist." },
-                                                { id: "d3-q17", type: "text", question: "Translate: 'You (formal) are right.'",
-                                                    answer: "Sie haben Recht.", explanation: "Fixed phrase: Recht haben." },
-                                                { id: "d3-q18", type: "choice", question: "Pick correct number spelling: 12",
-                                                    options: ["zwölf", "zwolf", "zwölf"], answer: "zwölf",
-                                                    explanation: "Use umlaut: zwölf." },
-                                                { id: "d3-q19", type: "text", question: "Translate: 'She is afraid.'",
-                                                    answer: "Sie hat Angst.", explanation: "Angst haben." },
-                                                { id: "d3-q20", type: "choice", question: "Choose correct: 'We are at home.'",
-                                                    options: ["Wir sind zu Hause.", "Wir haben zu Hause.", "Wir seid zu Hause."],
-                                                    answer: "Wir sind zu Hause.", explanation: "sein + location." }
+                        }
                     ]
                 }
             },
@@ -2349,103 +2224,6 @@ export const syllabusData: Phase[] = [
                 }
             },
             {
-                day: 18.5,
-                title: "Education & Studies",
-                focus: "School, University, Subjects",
-                activities: ["Learn education vocabulary", "Describe school system", "Talk about studies"],
-                homework: ["Describe your education background"],
-                details: {
-                    sections: [
-                        {
-                            title: "1. The German School System (Das deutsche Schulsystem)",
-                            content: "Understanding the German education system helps you describe your background and discuss children's education.\n\n**Educational Institutions:**\n* **die Schule** (School - general)\n* **die Grundschule** (Primary/Elementary school - grades 1-4)\n* **das Gymnasium** (Academic secondary school - grades 5-12/13)\n* **die Realschule** (Practical secondary school - grades 5-10)\n* **die Hauptschule** (Basic secondary school - grades 5-9)\n* **die Gesamtschule** (Comprehensive school)\n* **die Universität / die Uni** (University)\n* **die Fachhochschule** (University of Applied Sciences)\n* **der Kindergarten** (Kindergarten - ages 3-6)\n\n**Educational Levels:**\n* **die Klasse** (Grade/Class)\n* **der Kurs** (Course)\n* **das Semester** (Semester)\n* **das Schuljahr** (School year)",
-                            examples: [
-                                { german: "Mein Sohn geht in die dritte Klasse.", english: "My son is in third grade." },
-                                { german: "Ich studiere an der Universität München.", english: "I study at Munich University." },
-                                { german: "Die Grundschule dauert vier Jahre.", english: "Primary school lasts four years." }
-                            ]
-                        },
-                        {
-                            title: "2. People in Education",
-                            content: "**Teachers and Students:**\n* **der Lehrer / die Lehrerin** (Teacher)\n* **der Schüler / die Schülerin** (School student)\n* **der Student / die Studentin** (University student)\n* **der Professor / die Professorin** (Professor)\n* **der Kommilitone / die Kommilitonin** (Fellow student)\n\n**Important:** Use Schüler for school, Student ONLY for university!",
-                            examples: [
-                                { german: "Meine Lehrerin heißt Frau Schmidt.", english: "My teacher is Ms. Schmidt." },
-                                { german: "Ich bin Student an der TU Berlin.", english: "I'm a student at TU Berlin." }
-                            ]
-                        },
-                        {
-                            title: "3. School Subjects (Schulfächer)",
-                            content: "All subjects are neuter (das):\n* **Deutsch, Mathematik/Mathe, Englisch**\n* **Geschichte, Geographie, Biologie**\n* **Physik, Chemie, Informatik**\n* **Kunst, Musik, Sport**",
-                            examples: [
-                                { german: "Mein Lieblingsfach ist Biologie.", english: "My favorite subject is biology." },
-                                { german: "Mathematik ist sehr schwer.", english: "Mathematics is very difficult." }
-                            ]
-                        },
-                        {
-                            title: "4. School Materials",
-                            content: "* **das Buch / die Bücher** (Book/Books)\n* **das Heft** (Notebook)\n* **der Stift, der Kugelschreiber** (Pen)\n* **der Bleistift** (Pencil)\n* **der Rucksack** (Backpack)\n* **der Computer, das Tablet** (Computer, Tablet)\n* **der Stundenplan** (Timetable)",
-                            examples: [
-                                { german: "Ich brauche einen neuen Kugelschreiber.", english: "I need a new pen." },
-                                { german: "Hast du dein Heft dabei?", english: "Do you have your notebook?" }
-                            ]
-                        },
-                        {
-                            title: "5. Educational Activities",
-                            content: "**Activities:**\n* **lernen** (to learn/study - general)\n* **studieren** (to study - university only!)\n* **unterrichten** (to teach)\n* **Hausaufgaben machen** (do homework)\n\n**Assessment:**\n* **die Prüfung** (Exam)\n* **der Test** (Test)\n* **die Note** (Grade)\n* **bestehen / durchfallen** (pass / fail)\n* **das Zeugnis** (Report card)\n\n**German Grades: 1=best, 6=worst**",
-                            examples: [
-                                { german: "Ich lerne für die Prüfung.", english: "I'm studying for the exam." },
-                                { german: "Ich habe eine Zwei in Deutsch bekommen.", english: "I got a 2 (good) in German." },
-                                { german: "Die Sommerferien dauern sechs Wochen.", english: "Summer holidays last six weeks." }
-                            ]
-                        }
-                    ],
-                    homework: [
-                        { id: "d18.5-q1", type: "choice", question: "What is 'university student' in German?",
-                          options: ["Schüler", "Student", "Lehrer"], answer: "Student",
-                          explanation: "Student is for university. School students are Schüler." },
-                        { id: "d18.5-q2", type: "choice", question: "Article for 'Schule'?",
-                          options: ["der", "die", "das"], answer: "die", explanation: "die Schule" },
-                        { id: "d18.5-q3", type: "choice", question: "Best grade in German system?",
-                          options: ["1", "4", "6"], answer: "1", explanation: "1 = sehr gut (excellent)" },
-                        { id: "d18.5-q4", type: "text", question: "Translate: 'My favorite subject is history.'",
-                          answer: "Mein Lieblingsfach ist Geschichte.", explanation: "das Lieblingsfach" },
-                        { id: "d18.5-q5", type: "text", question: "Feminine form of 'Lehrer'?",
-                          answer: "Lehrerin", explanation: "Add -in: die Lehrerin" },
-                        { id: "d18.5-q6", type: "text", question: "Translate: 'I study at the university.'",
-                          answer: "Ich studiere an der Universität.", explanation: "studieren (university level)" },
-                        { id: "d18.5-q7", type: "text", question: "What does 'bestehen' mean?",
-                          answer: "to pass (exam)", explanation: "bestehen = pass, durchfallen = fail" },
-                        { id: "d18.5-q8", type: "text", question: "Translate: 'Did you do homework?' (du)",
-                          answer: "Hast du die Hausaufgaben gemacht?", explanation: "die Hausaufgaben (plural)" },
-                        { id: "d18.5-q9", type: "text", question: "Say: 'I like Biology and English.'",
-                          answer: "Ich mag Biologie und Englisch.", explanation: "Use mögen for subjects" },
-                        { id: "d18.5-q10", type: "text", question: "Complete: 'Ich brauche einen ___' (pen)",
-                          answer: "Kugelschreiber", explanation: "der Kugelschreiber / der Kuli" },
-                        { id: "d18.5-q11", type: "text", question: "Translate: 'The exam was difficult.'",
-                          answer: "Die Prüfung war schwer.", explanation: "die Prüfung, war (past)" },
-                        { id: "d18.5-q12", type: "choice", question: "Error: 'Mein Sohn ist Student in der Grundschule.'",
-                          options: ["Should be Schüler", "Should be Lehrerin", "Correct"],
-                          answer: "Should be Schüler", explanation: "Student only for university!" },
-                        { id: "d18.5-q13", type: "text", question: "Create sentence: Study computer science at TU Munich",
-                          answer: "Ich studiere Informatik an der TU München.", explanation: "Informatik = CS" },
-                        { id: "d18.5-q14", type: "text", question: "Ask: 'Do you have your notebook?' (du)",
-                          answer: "Hast du dein Heft dabei?", explanation: "dabei = with you" },
-                        { id: "d18.5-q15", type: "text", question: "Say: 'I got a 1 in German.'",
-                          answer: "Ich habe eine Eins in Deutsch bekommen.", explanation: "eine Eins, bekommen" },
-                        { id: "d18.5-q16", type: "text", question: "Translate: 'Summer holidays last six weeks.'",
-                          answer: "Die Sommerferien dauern sechs Wochen.", explanation: "die Ferien (plural)" },
-                        { id: "d18.5-q17", type: "choice", question: "What is 'das Heft'?",
-                          options: ["Book", "Notebook", "Pencil"], answer: "Notebook", explanation: "das Heft" },
-                        { id: "d18.5-q18", type: "text", question: "Complete: 'Mein ___ ist Biologie.' (favorite subject)",
-                          answer: "Lieblingsfach", explanation: "das Lieblingsfach" },
-                        { id: "d18.5-q19", type: "text", question: "What are 'Ferien'?",
-                          answer: "holidays/vacation", explanation: "die Ferien (always plural)" },
-                        { id: "d18.5-q20", type: "text", question: "Translate: 'She teaches mathematics.'",
-                          answer: "Sie unterrichtet Mathematik.", explanation: "unterrichten = to teach" }
-                    ]
-                }
-            },
-            {
                 day: 19,
                 title: "Prepositions with Accusative",
                 focus: "für, um, durch...",
@@ -2486,113 +2264,6 @@ export const syllabusData: Phase[] = [
                             answer: "gegen",
                             explanation: "Gegen means against (an opponent)."
                         }
-                    ]
-                }
-            },
-            {
-                day: 19.5,
-                title: "Communication & Technology",
-                focus: "Phone, Email, Digital Communication",
-                activities: ["Phone vocabulary", "Making calls", "Email basics"],
-                homework: ["Write a phone dialogue"],
-                details: {
-                    sections: [
-                        {
-                            title: "1. Phone Communication (Telefonieren)",
-                            content: "Essential vocabulary for making phone calls in German:\n\n**Phone Equipment:**\n* **das Telefon** (Telephone)\n* **das Handy** (Mobile phone)\n* **das Smartphone** (Smartphone)\n* **die Telefonnummer** (Phone number)\n* **die Handynummer** (Mobile number)\n* **die Nummer** (Number)\n* **die Vorwahl** (Area code)\n\n**Phone Actions:**\n* **anrufen** (to call - separable!)\n* **telefonieren** (to telephone/make a call)\n* **sprechen** (to speak)\n* **zurückrufen** (to call back - separable)\n* **erreichen** (to reach someone)\n* **abheben** (to pick up - separable)\n* **auflegen** (to hang up - separable)\n\n**Messages:**\n* **die Nachricht** (Message)\n* **die SMS** (Text message)\n* **die Voicemail / die Mailbox** (Voicemail)\n* **der Anruf** (Call/Phone call)",
-                            examples: [
-                                { german: "Ich rufe dich später an.", english: "I'll call you later." },
-                                { german: "Kannst du mich zurückrufen?", english: "Can you call me back?" },
-                                { german: "Meine Handynummer ist 0176 123 4567.", english: "My mobile number is 0176 123 4567." },
-                                { german: "Ich habe eine SMS bekommen.", english: "I received a text message." }
-                            ]
-                        },
-                        {
-                            title: "2. Phone Conversation Phrases",
-                            content: "**Starting a Call:**\n* **Wer spricht da?** / **Wer ist am Apparat?** (Who's speaking?)\n* **Hier ist [Name].** / **[Name] am Apparat.** (This is [Name] speaking)\n* **Kann ich bitte [Name] sprechen?** (May I speak to [Name]?)\n* **Ist [Name] da?** (Is [Name] there?)\n\n**During the Call:**\n* **Einen Moment, bitte.** (One moment, please)\n* **Bleiben Sie bitte am Apparat.** (Please hold the line - formal)\n* **Er/Sie ist gerade nicht da.** (He/She isn't here right now)\n* **Er/Sie ist nicht zu Hause.** (He/She isn't at home)\n* **Kann er/sie mich zurückrufen?** (Can he/she call me back?)\n* **Ich verbinde Sie.** (I'll connect you)\n\n**Ending the Call:**\n* **Ich rufe später wieder an.** (I'll call again later)\n* **Auf Wiederhören!** (Goodbye - phone only!)\n* **Tschüss!** (Bye - informal)\n\n**Problems:**\n* **Die Verbindung ist schlecht.** (The connection is bad)\n* **Ich kann Sie nicht verstehen.** (I can't understand you)\n* **Können Sie das wiederholen?** (Can you repeat that?)\n* **Falsche Nummer!** (Wrong number!)",
-                            examples: [
-                                { german: "Guten Tag, hier ist Maria Müller.", english: "Hello, this is Maria Müller speaking." },
-                                { german: "Kann ich bitte Herrn Schmidt sprechen?", english: "May I speak to Mr. Schmidt?" },
-                                { german: "Tut mir leid, er ist nicht da. Kann er Sie zurückrufen?", english: "Sorry, he's not here. Can he call you back?" },
-                                { german: "Auf Wiederhören!", english: "Goodbye! (on phone)" }
-                            ]
-                        },
-                        {
-                            title: "3. Technology & Internet (Technologie & Internet)",
-                            content: "**Devices:**\n* **der Computer** (Computer)\n* **der Laptop** (Laptop)\n* **das Tablet** (Tablet)\n* **der Drucker** (Printer)\n* **die Tastatur** (Keyboard)\n* **die Maus** (Mouse)\n* **der Bildschirm** (Screen)\n\n**Internet & Connectivity:**\n* **das Internet** (Internet)\n* **das WLAN / das WiFi** (WiFi)\n* **das Passwort** (Password)\n* **der Browser** (Browser)\n* **die Website** (Website)\n* **die App** (App)\n* **online / offline** (online / offline)\n\n**Actions:**\n* **surfen** (to surf the internet)\n* **googeln** (to google)\n* **herunterladen** (to download - separable)\n* **hochladen** (to upload - separable)\n* **installieren** (to install)\n* **löschen** (to delete)",
-                            examples: [
-                                { german: "Hast du WLAN zu Hause?", english: "Do you have WiFi at home?" },
-                                { german: "Ich surfe jeden Tag im Internet.", english: "I surf the internet every day." },
-                                { german: "Wie lautet das Passwort?", english: "What's the password?" },
-                                { german: "Ich habe eine neue App heruntergeladen.", english: "I downloaded a new app." }
-                            ]
-                        },
-                        {
-                            title: "4. Email Communication (E-Mail-Kommunikation)",
-                            content: "**Email Basics:**\n* **die E-Mail** (Email)\n* **die E-Mail-Adresse** (Email address)\n* **der Anhang** (Attachment)\n* **der Betreff** (Subject line)\n* **das @ (At-Zeichen)** (@ symbol)\n* **der Punkt** (Dot/Period)\n\n**Email Actions:**\n* **eine E-Mail schreiben** (to write an email)\n* **eine E-Mail schicken/senden** (to send an email)\n* **eine E-Mail bekommen/erhalten** (to receive an email)\n* **eine E-Mail lesen** (to read an email)\n* **eine E-Mail weiterleiten** (to forward an email)\n* **antworten** (to reply)\n* **löschen** (to delete)\n\n**Email Parts:**\n* **Betreff:** Subject\n* **Sehr geehrte/r...** (Formal greeting)\n* **Liebe/r...** (Informal greeting)\n* **Mit freundlichen Grüßen** (Formal closing)\n* **Viele Grüße / Liebe Grüße** (Informal closing)",
-                            examples: [
-                                { german: "Kannst du mir eine E-Mail schicken?", english: "Can you send me an email?" },
-                                { german: "Ich habe deine E-Mail bekommen.", english: "I received your email." },
-                                { german: "Meine E-Mail-Adresse ist max@beispiel.de", english: "My email address is max@example.de" },
-                                { german: "Die E-Mail hat einen Anhang.", english: "The email has an attachment." }
-                            ]
-                        },
-                        {
-                            title: "5. Social Media & Messaging",
-                            content: "**Communication Verbs:**\n* **chatten** (to chat)\n* **simsen** (to text/SMS)\n* **posten** (to post)\n* **liken** (to like)\n* **teilen** (to share)\n* **kommentieren** (to comment)\n\n**Social Media Terms:**\n* **das soziale Netzwerk** (Social network)\n* **der Post / der Beitrag** (Post)\n* **der Kommentar** (Comment)\n* **der Follower** (Follower)\n* **das Profil** (Profile)\n* **der Messenger** (Messenger app)\n\n**Phrases:**\n* **Bist du auf Facebook?** (Are you on Facebook?)\n* **Schick mir eine Nachricht!** (Send me a message!)\n* **Ich chatte mit meinen Freunden.** (I chat with my friends)",
-                            examples: [
-                                { german: "Ich schreibe dir später eine Nachricht.", english: "I'll write you a message later." },
-                                { german: "Sie hat meinen Post geliked.", english: "She liked my post." },
-                                { german: "Wir chatten jeden Tag.", english: "We chat every day." }
-                            ]
-                        }
-                    ],
-                    homework: [
-                        { id: "d19.5-q1", type: "choice", question: "What is 'das Handy'?",
-                          options: ["Laptop", "Mobile phone", "Tablet"], answer: "Mobile phone",
-                          explanation: "das Handy = mobile phone (das Smartphone = smartphone)" },
-                        { id: "d19.5-q2", type: "choice", question: "How do you say 'Who's speaking?' on phone?",
-                          options: ["Wer bist du?", "Wer spricht da?", "Wie heißt du?"],
-                          answer: "Wer spricht da?", explanation: "Wer spricht da? or Wer ist am Apparat?" },
-                        { id: "d19.5-q3", type: "choice", question: "Phone goodbye in German:",
-                          options: ["Auf Wiedersehen", "Auf Wiederhören", "Bis später"],
-                          answer: "Auf Wiederhören", explanation: "Auf Wiederhören (hearing again) for phone" },
-                        { id: "d19.5-q4", type: "text", question: "Translate: 'I'll call you later.'",
-                          answer: "Ich rufe dich später an.", explanation: "anrufen is separable: rufe...an" },
-                        { id: "d19.5-q5", type: "text", question: "Translate: 'Can you call me back?'",
-                          answer: "Kannst du mich zurückrufen?", explanation: "zurückrufen = to call back" },
-                        { id: "d19.5-q6", type: "text", question: "Say: 'This is Maria speaking.' (phone)",
-                          answer: "Hier ist Maria.", explanation: "Or: Maria am Apparat" },
-                        { id: "d19.5-q7", type: "text", question: "Translate: 'He's not here right now.'",
-                          answer: "Er ist gerade nicht da.", explanation: "gerade = right now" },
-                        { id: "d19.5-q8", type: "choice", question: "What is 'WLAN'?",
-                          options: ["Website", "WiFi", "Password"], answer: "WiFi",
-                          explanation: "das WLAN or das WiFi" },
-                        { id: "d19.5-q9", type: "text", question: "Translate: 'Do you have WiFi at home?'",
-                          answer: "Hast du WLAN zu Hause?", explanation: "das WLAN, zu Hause = at home" },
-                        { id: "d19.5-q10", type: "text", question: "What is 'der Anhang'?",
-                          answer: "attachment", explanation: "Email attachment" },
-                        { id: "d19.5-q11", type: "text", question: "Translate: 'Can you send me an email?'",
-                          answer: "Kannst du mir eine E-Mail schicken?", explanation: "schicken or senden" },
-                        { id: "d19.5-q12", type: "text", question: "Say: 'I received your email.'",
-                          answer: "Ich habe deine E-Mail bekommen.", explanation: "bekommen or erhalten" },
-                        { id: "d19.5-q13", type: "choice", question: "Verb for 'to text/SMS':",
-                          options: ["chatten", "simsen", "posten"], answer: "simsen",
-                          explanation: "simsen = to text (from SMS)" },
-                        { id: "d19.5-q14", type: "text", question: "Translate: 'I received a text message.'",
-                          answer: "Ich habe eine SMS bekommen.", explanation: "die SMS" },
-                        { id: "d19.5-q15", type: "text", question: "What does 'herunterladen' mean?",
-                          answer: "to download", explanation: "separable verb: lade...herunter" },
-                        { id: "d19.5-q16", type: "text", question: "Say: 'My phone number is...' (mobile)",
-                          answer: "Meine Handynummer ist...", explanation: "die Handynummer" },
-                        { id: "d19.5-q17", type: "text", question: "Formal phone: 'May I speak to Mr. Schmidt?'",
-                          answer: "Kann ich bitte Herrn Schmidt sprechen?", explanation: "Kann ich bitte + name + sprechen?" },
-                        { id: "d19.5-q18", type: "text", question: "Say: 'The connection is bad.'",
-                          answer: "Die Verbindung ist schlecht.", explanation: "die Verbindung = connection" },
-                        { id: "d19.5-q19", type: "text", question: "Translate: 'I'll write you a message.'",
-                          answer: "Ich schreibe dir eine Nachricht.", explanation: "die Nachricht = message" },
-                        { id: "d19.5-q20", type: "text", question: "Create: Phone dialogue - ask if someone can call you back",
-                          answer: "Können Sie mich zurückrufen?", explanation: "zurückrufen = call back" }
                     ]
                 }
             },
@@ -2668,161 +2339,6 @@ export const syllabusData: Phase[] = [
                 }
             },
             {
-                day: 21.5,
-                title: "Reflexive Verbs - Part 1",
-                focus: "Daily Routine & Self-Care",
-                activities: ["Learn reflexive pronouns", "Practice daily routine verbs", "Master word order"],
-                homework: ["Describe your morning/evening routine with reflexive verbs"],
-                details: {
-                    sections: [
-                        {
-                            title: "1. Introduction to Reflexive Verbs in German",
-                            content: "Reflexive verbs are essential in German for describing daily routines, emotions, and many common activities. A reflexive verb is one where the subject and object are the same person or thing - the action 'reflects' back to the subject.\n\n**What Makes a Verb Reflexive?**\nA reflexive verb requires a reflexive pronoun (sich, mich, dich, etc.) that refers back to the subject:\n* **Ich wasche mich.** (I wash myself.)\n* **Du kämmst dich.** (You comb yourself.)\n\n**Why Reflexive Verbs Matter:**\n* Required for describing daily routines (CEFR A1 requirement)\n* Essential for Goethe A1 exam (Sprechen and Schreiben sections)\n* Used in approximately 20% of everyday German conversations\n* Cannot be avoided - you MUST use them to describe getting ready, feelings, meetings\n\n**Recognition:**\nIn dictionaries, reflexive verbs are listed with 'sich':\n* **sich waschen** (to wash oneself)\n* **sich freuen** (to be happy/look forward to)\n\n**Key Difference from English:**\nMany German reflexive verbs are NOT reflexive in English:\n* sich freuen = to be happy (NOT 'to happy oneself')\n* sich treffen = to meet (NOT 'to meet oneself')",
-                            examples: [
-                                { german: "Ich wasche mich jeden Morgen.", english: "I wash (myself) every morning." },
-                                { german: "Wir treffen uns um 8 Uhr.", english: "We meet (each other) at 8 o'clock." },
-                                { german: "Sie freut sich auf das Wochenende.", english: "She's looking forward to the weekend." }
-                            ]
-                        },
-                        {
-                            title: "2. Accusative Reflexive Pronouns",
-                            content: "Reflexive pronouns change based on the subject, just like personal pronouns. In the accusative case (most common), here are the reflexive pronouns:\n\n**Accusative Reflexive Pronouns:**\n* **ich** → **mich** (myself)\n* **du** → **dich** (yourself - informal)\n* **er/sie/es** → **sich** (himself/herself/itself)\n* **wir** → **uns** (ourselves)\n* **ihr** → **euch** (yourselves - informal plural)\n* **sie** → **sich** (themselves)\n* **Sie** → **sich** (yourself/yourselves - formal)\n\n**Important Notes:**\n* The 3rd person forms (er/sie/es/sie/Sie) ALL use **sich**\n* **Sich** is the same for singular, plural, and formal 'you'\n* The reflexive pronoun comes AFTER the conjugated verb\n* In questions, the pronoun comes right after the subject\n\n**Word Order:**\n* **Statement:** Ich wasche mich.\n* **Question:** Wäschst du dich?\n* **With time:** Ich wasche mich jeden Morgen.",
-                            examples: [
-                                { german: "Ich ziehe mich an.", english: "I get dressed." },
-                                { german: "Du kämmst dich.", english: "You comb your hair." },
-                                { german: "Er wäscht sich.", english: "He washes himself." },
-                                { german: "Wir duschen uns.", english: "We shower." },
-                                { german: "Ihr zieht euch um.", english: "You (plural) change clothes." },
-                                { german: "Sie waschen sich die Hände.", english: "They wash their hands." }
-                            ]
-                        },
-                        {
-                            title: "3. Daily Routine Reflexive Verbs",
-                            content: "These are essential verbs for describing your morning and evening routines. You MUST learn these for the Goethe A1 exam.\n\n**Morning/Evening Routine Verbs:**\n* **sich waschen** (to wash oneself) - ich wasche mich\n* **sich duschen** (to shower) - ich dusche mich\n* **sich baden** (to take a bath) - ich bade mich\n* **sich anziehen** (to get dressed) - ich ziehe mich an (SEPARABLE!)\n* **sich ausziehen** (to get undressed) - ich ziehe mich aus (SEPARABLE!)\n* **sich umziehen** (to change clothes) - ich ziehe mich um (SEPARABLE!)\n* **sich kämmen** (to comb one's hair) - ich kämme mich\n* **sich rasieren** (to shave) - ich rasiere mich\n* **sich schminken** (to put on makeup) - ich schminke mich\n\n**Important:** When reflexive verbs are SEPARABLE, the prefix still goes to the end:\n* Ich ziehe **mich** an. (I get dressed.)\n* Du ziehst **dich** um. (You change clothes.)\n\n**Typical Morning Routine Sentence:**\n* Ich stehe auf, dusche mich, ziehe mich an und frühstücke.",
-                            examples: [
-                                { german: "Ich wasche mich jeden Morgen.", english: "I wash myself every morning." },
-                                { german: "Wäschst du dich jeden Abend?", english: "Do you wash yourself every evening?" },
-                                { german: "Er duscht sich vor dem Frühstück.", english: "He showers before breakfast." },
-                                { german: "Wir ziehen uns schnell an.", english: "We get dressed quickly." },
-                                { german: "Sie kämmt sich die Haare.", english: "She combs her hair." },
-                                { german: "Ich rasiere mich jeden Tag.", english: "I shave every day." },
-                                { german: "Sie schminkt sich am Morgen.", english: "She puts on makeup in the morning." }
-                            ]
-                        },
-                        {
-                            title: "4. Emotional and Social Reflexive Verbs",
-                            content: "These reflexive verbs express emotions, interests, and social interactions. Very common in everyday German.\n\n**Emotional States:**\n* **sich freuen** (to be happy/glad, to look forward to)\n  - sich freuen **auf** + Acc (look forward to something in future)\n  - sich freuen **über** + Acc (be happy about something that happened)\n* **sich ärgern** (to be annoyed/angry)\n  - sich ärgern **über** + Acc (be annoyed about)\n* **sich fühlen** (to feel)\n  - Ich fühle mich gut/schlecht/müde (I feel good/bad/tired)\n* **sich interessieren** (to be interested in)\n  - sich interessieren **für** + Acc (be interested in)\n\n**Social Interactions:**\n* **sich treffen** (to meet)\n  - sich treffen **mit** + Dat (meet with someone)\n* **sich verabreden** (to make an appointment/date)\n  - sich verabreden **mit** + Dat (arrange to meet with)\n* **sich erholen** (to recover, relax, rest)\n  - sich erholen **von** + Dat (recover from)\n\n**Usage Notes:**\n* These verbs often require specific prepositions\n* The preposition determines which case follows\n* Learn verb + preposition combinations together",
-                            examples: [
-                                { german: "Ich freue mich auf das Wochenende.", english: "I'm looking forward to the weekend." },
-                                { german: "Sie freut sich über das Geschenk.", english: "She's happy about the gift." },
-                                { german: "Er ärgert sich über den Regen.", english: "He's annoyed about the rain." },
-                                { german: "Wie fühlst du dich heute?", english: "How do you feel today?" },
-                                { german: "Ich interessiere mich für Musik.", english: "I'm interested in music." },
-                                { german: "Wir treffen uns um 18 Uhr vor dem Kino.", english: "We're meeting at 6 PM in front of the cinema." },
-                                { german: "Sie verabredet sich mit ihrem Freund.", english: "She's making a date with her boyfriend." },
-                                { german: "Ich erhole mich am Wochenende.", english: "I relax on the weekend." }
-                            ]
-                        },
-                        {
-                            title: "5. Word Order with Reflexive Verbs",
-                            content: "Understanding where to place the reflexive pronoun is crucial for correct German sentences.\n\n**Standard Word Order (Main Clause):**\n1. **Subject + Verb + Reflexive Pronoun + Other Elements**\n   - Ich wasche mich jeden Morgen.\n   - Subject (Ich) + Verb (wasche) + Pronoun (mich) + Time (jeden Morgen)\n\n**Questions (Yes/No):**\n2. **Verb + Subject + Reflexive Pronoun + Other Elements**\n   - Wäschst du dich jeden Morgen?\n   - Verb (Wäschst) + Subject (du) + Pronoun (dich) + Time\n\n**Questions (W-Questions):**\n3. **W-Word + Verb + Subject + Reflexive Pronoun + Other**\n   - Wann ziehst du dich an?\n   - W-word (Wann) + Verb (ziehst) + Subject (du) + Pronoun (dich) + Prefix (an)\n\n**With Separable Verbs:**\n4. **Subject + Verb + Reflexive + Other + Prefix**\n   - Ich ziehe mich schnell an.\n   - The prefix (an) goes to the END\n\n**Position Rule:**\nThe reflexive pronoun typically comes:\n* RIGHT AFTER the conjugated verb in statements\n* RIGHT AFTER the subject in questions\n* BEFORE other objects or time expressions\n* BEFORE the separable prefix",
-                            examples: [
-                                { german: "Ich freue mich auf das Wochenende.", english: "I'm looking forward to the weekend. (Statement)" },
-                                { german: "Freust du dich auf das Wochenende?", english: "Are you looking forward to the weekend? (Question)" },
-                                { german: "Warum ärgerst du dich?", english: "Why are you annoyed? (W-Question)" },
-                                { german: "Wir treffen uns jeden Freitag.", english: "We meet every Friday. (With time)" },
-                                { german: "Ziehst du dich jetzt um?", english: "Are you changing clothes now? (Separable verb)" },
-                                { german: "Er wäscht sich die Hände vor dem Essen.", english: "He washes his hands before eating." }
-                            ]
-                        }
-                    ],
-                    homework: [
-                        { id: "d21.5-q1", type: "choice", question: "What is the reflexive pronoun for 'ich'?",
-                          options: ["mich", "dich", "sich"], answer: "mich",
-                          explanation: "ich → mich (myself)" },
-                        { id: "d21.5-q2", type: "choice", question: "What is the reflexive pronoun for 'er'?",
-                          options: ["ihn", "sich", "ihm"], answer: "sich",
-                          explanation: "All 3rd person forms use 'sich'" },
-                        { id: "d21.5-q3", type: "text", question: "Translate: 'I wash myself.'",
-                          answer: "Ich wasche mich.", explanation: "sich waschen → wasche mich" },
-                        { id: "d21.5-q4", type: "text", question: "Translate: 'Do you shower?' (du form)",
-                          answer: "Duschst du dich?", explanation: "sich duschen → duschst du dich?" },
-                        { id: "d21.5-q5", type: "choice", question: "Complete: 'Wir ___ uns jeden Tag.' (wash)",
-                          options: ["waschen", "wäscht", "wasche"], answer: "waschen",
-                          explanation: "wir waschen uns" },
-                        { id: "d21.5-q6", type: "text", question: "What does 'sich anziehen' mean?",
-                          answer: "to get dressed", explanation: "an = on, ziehen = pull → get dressed" },
-                        { id: "d21.5-q7", type: "text", question: "Translate: 'I get dressed.' (sich anziehen)",
-                          answer: "Ich ziehe mich an.", explanation: "Separable: ziehe mich...an" },
-                        { id: "d21.5-q8", type: "choice", question: "Complete: 'Er ___ sich jeden Morgen.' (shave)",
-                          options: ["rasiert", "rasiere", "rasierst"], answer: "rasiert",
-                          explanation: "er rasiert sich (he shaves)" },
-                        { id: "d21.5-q9", type: "text", question: "Translate: 'She combs her hair.'",
-                          answer: "Sie kämmt sich.", explanation: "sich kämmen → kämmt sich" },
-                        { id: "d21.5-q10", type: "text", question: "What is the reflexive pronoun for 'ihr'?",
-                          answer: "euch", explanation: "ihr → euch (yourselves)" },
-                        { id: "d21.5-q11", type: "choice", question: "Translate: 'We meet at 8 o'clock.'",
-                          options: ["Wir treffen uns um 8 Uhr.", "Wir treffen um 8 Uhr.", "Wir uns treffen um 8 Uhr."],
-                          answer: "Wir treffen uns um 8 Uhr.", explanation: "sich treffen → treffen uns" },
-                        { id: "d21.5-q12", type: "text", question: "Complete: 'Ich freue ___ auf das Wochenende.' (myself)",
-                          answer: "mich", explanation: "sich freuen → freue mich" },
-                        { id: "d21.5-q13", type: "text", question: "Translate: 'Are you getting dressed?' (du)",
-                          answer: "Ziehst du dich an?", explanation: "Question: Verb + du + dich + an" },
-                        { id: "d21.5-q14", type: "choice", question: "What does 'sich freuen auf' mean?",
-                          options: ["to be angry about", "to look forward to", "to be afraid of"],
-                          answer: "to look forward to", explanation: "sich freuen auf + Acc = look forward to" },
-                        { id: "d21.5-q15", type: "text", question: "Translate: 'He is interested in music.'",
-                          answer: "Er interessiert sich für Musik.", explanation: "sich interessieren für + Acc" },
-                        { id: "d21.5-q16", type: "text", question: "Complete: 'Sie ___ sich über das Geschenk.' (is happy)",
-                          answer: "freut", explanation: "sie freut sich über (is happy about)" },
-                        { id: "d21.5-q17", type: "choice", question: "Word order: Where does 'mich' go? 'Ich / wasche / jeden Morgen'",
-                          options: ["Ich wasche mich jeden Morgen", "Ich mich wasche jeden Morgen", "Ich wasche jeden Morgen mich"],
-                          answer: "Ich wasche mich jeden Morgen", explanation: "Pronoun after verb, before time" },
-                        { id: "d21.5-q18", type: "text", question: "Translate: 'How do you feel?' (du form)",
-                          answer: "Wie fühlst du dich?", explanation: "sich fühlen → fühlst du dich?" },
-                        { id: "d21.5-q19", type: "text", question: "What is 'sich ärgern über'?",
-                          answer: "to be annoyed about", explanation: "sich ärgern über + Acc" },
-                        { id: "d21.5-q20", type: "text", question: "Translate: 'I change clothes.' (sich umziehen)",
-                          answer: "Ich ziehe mich um.", explanation: "Separable: ziehe mich...um" },
-                        { id: "d21.5-q21", type: "choice", question: "Reflexive pronoun for 'Sie' (formal)?",
-                          options: ["sich", "Sich", "Ihnen"], answer: "sich",
-                          explanation: "Formal Sie → sich (lowercase)" },
-                        { id: "d21.5-q22", type: "text", question: "Complete morning routine: 'Ich stehe auf, ___ mich und ziehe mich an.'",
-                          answer: "dusche", explanation: "I get up, shower, and get dressed" },
-                        { id: "d21.5-q23", type: "text", question: "Translate: 'We're meeting in front of the cinema.'",
-                          answer: "Wir treffen uns vor dem Kino.", explanation: "sich treffen, vor + Dative" },
-                        { id: "d21.5-q24", type: "choice", question: "Which verb means 'to put on makeup'?",
-                          options: ["sich rasieren", "sich schminken", "sich kämmen"], answer: "sich schminken",
-                          explanation: "sich schminken = to put on makeup" },
-                        { id: "d21.5-q25", type: "text", question: "Ask: 'When are you getting dressed?' (du)",
-                          answer: "Wann ziehst du dich an?", explanation: "Wann + verb + du + dich + an" },
-                        { id: "d21.5-q26", type: "text", question: "Translate: 'I'm looking forward to the vacation.'",
-                          answer: "Ich freue mich auf den Urlaub.", explanation: "sich freuen auf + Acc" },
-                        { id: "d21.5-q27", type: "text", question: "What does 'sich erholen' mean?",
-                          answer: "to relax/recover/rest", explanation: "sich erholen = to recover/relax" },
-                        { id: "d21.5-q28", type: "choice", question: "Complete: 'Ihr ___ euch schnell an.' (get dressed)",
-                          options: ["zieht", "ziehst", "ziehen"], answer: "zieht",
-                          explanation: "ihr zieht euch...an" },
-                        { id: "d21.5-q29", type: "text", question: "Translate: 'They wash their hands before eating.'",
-                          answer: "Sie waschen sich die Hände vor dem Essen.", explanation: "sich waschen, vor + Dat" },
-                        { id: "d21.5-q30", type: "text", question: "Create sentence: I shave every day",
-                          answer: "Ich rasiere mich jeden Tag.", explanation: "sich rasieren, jeden Tag" },
-                        { id: "d21.5-q31", type: "choice", question: "Error check: 'Ich mich wasche jeden Morgen.'",
-                          options: ["Correct", "Should be: Ich wasche mich jeden Morgen", "Should be: Ich wasche jeden Morgen mich"],
-                          answer: "Should be: Ich wasche mich jeden Morgen", explanation: "Pronoun goes AFTER verb" },
-                        { id: "d21.5-q32", type: "text", question: "Ask: 'Are you annoyed?' (du form)",
-                          answer: "Ärgerst du dich?", explanation: "sich ärgern → ärgerst du dich?" },
-                        { id: "d21.5-q33", type: "text", question: "Translate: 'She takes a bath every evening.'",
-                          answer: "Sie badet sich jeden Abend.", explanation: "sich baden = to bathe" },
-                        { id: "d21.5-q34", type: "text", question: "Complete: 'Wir ___ uns von der Arbeit.' (relax/recover)",
-                          answer: "erholen", explanation: "sich erholen von + Dat" },
-                        { id: "d21.5-q35", type: "text", question: "Create your morning routine (2 reflexive verbs minimum)",
-                          answer: "Ich stehe auf, dusche mich und ziehe mich an.",
-                          explanation: "Example answer using reflexive verbs in routine" }
-                    ]
-                }
-            },
-            {
                 day: 22,
                 title: "City & Directions",
                 focus: "Imperative",
@@ -2840,143 +2356,6 @@ export const syllabusData: Phase[] = [
                 }
             },
             {
-                day: 22.5,
-                title: "Suggestions & Invitations",
-                focus: "Making and Responding to Invitations",
-                activities: ["Learn suggestion phrases", "Practice accepting/declining", "Role-play social situations"],
-                homework: ["Write invitation dialogues"],
-                details: {
-                    sections: [
-                        {
-                            title: "1. Making Suggestions (Vorschläge machen)",
-                            content: "Making suggestions is essential for social interaction and planning activities with others. These phrases allow you to propose ideas politely and naturally.\n\n**Key Suggestion Phrases:**\n\n**1. Wollen wir...? / Sollen wir...?** (Shall we...?)\n* Simple and direct way to suggest activities\n* Uses modal verbs wollen (want) or sollen (should)\n* Very common in everyday conversation\n\n**2. Wie wäre es mit...?** (How about...?)\n* More polite and formal\n* Literally: 'How would it be with...?'\n* Followed by Dative case\n\n**3. Hast du Lust auf...?** / **Hast du Lust, ... zu...?**\n* Informal and friendly\n* 'auf' + Accusative for nouns\n* 'zu' + infinitive for verbs\n\n**4. Möchtest du...?** (Would you like to...?)\n* Polite suggestion using möchten\n* Can be used in formal and informal contexts\n\n**5. Was hältst du von...?** (What do you think of...?)\n* Asks for opinion about a suggestion\n* 'von' + Dative\n\n**6. Lass uns...** (Let's... - informal)\n* Very casual, only with 'du'\n* Imperative form of lassen\n\n**7. Ich schlage vor, dass...** (I suggest that...)\n* More formal\n* Introduces a subordinate clause",
-                            examples: [
-                                { german: "Wollen wir am Samstag ins Kino gehen?", english: "Shall we go to the cinema on Saturday?" },
-                                { german: "Sollen wir morgen zusammen lernen?", english: "Shall we study together tomorrow?" },
-                                { german: "Wie wäre es mit Pizza?", english: "How about pizza?" },
-                                { german: "Wie wäre es mit einem Spaziergang?", english: "How about a walk?" },
-                                { german: "Hast du Lust auf Kino?", english: "Do you feel like going to the cinema?" },
-                                { german: "Hast du Lust, schwimmen zu gehen?", english: "Do you feel like going swimming?" },
-                                { german: "Möchtest du mit mir essen gehen?", english: "Would you like to go eat with me?" },
-                                { german: "Was hältst du von der Idee?", english: "What do you think of the idea?" },
-                                { german: "Lass uns zusammen kochen!", english: "Let's cook together!" },
-                                { german: "Ich schlage vor, dass wir uns um 18 Uhr treffen.", english: "I suggest that we meet at 6 PM." }
-                            ]
-                        },
-                        {
-                            title: "2. Accepting Invitations (Einladungen annehmen)",
-                            content: "When someone invites you or makes a suggestion, you need to know how to accept enthusiastically and politely.\n\n**Enthusiastic Acceptance:**\n\n**1. Ja, gerne!** (Yes, gladly!)\n* Most common positive response\n* Shows enthusiasm\n* Works in all contexts\n\n**2. Sehr gerne!** (Very gladly!)\n* Even more enthusiastic\n* Shows strong interest\n\n**3. Das ist eine gute Idee!** (That's a good idea!)\n* Shows approval of the suggestion\n* Encourages the planner\n\n**4. Das klingt super/toll/gut!** (That sounds super/great/good!)\n* Expresses excitement\n* Very natural and common\n\n**5. Ja, warum nicht?** (Yes, why not?)\n* Casual and agreeable\n* Shows openness\n\n**6. Einverstanden!** (Agreed! / Deal!)\n* Formal acceptance\n* Confirms agreement\n\n**7. Mit Vergnügen!** (With pleasure!)\n* Very polite and formal\n* Business or formal social settings\n\n**8. Klar! / Natürlich!** (Of course!)\n* Casual and immediate\n* Shows no hesitation",
-                            examples: [
-                                { german: "Wollen wir ins Kino gehen? – Ja, gerne!", english: "Shall we go to the cinema? – Yes, gladly!" },
-                                { german: "Kommst du zur Party? – Sehr gerne!", english: "Are you coming to the party? – Very gladly!" },
-                                { german: "Lass uns Pizza bestellen. – Das ist eine gute Idee!", english: "Let's order pizza. – That's a good idea!" },
-                                { german: "Wollen wir am Wochenende wandern? – Das klingt super!", english: "Shall we go hiking on the weekend? – That sounds great!" },
-                                { german: "Hast du Lust auf Kaffee? – Ja, warum nicht?", english: "Do you feel like coffee? – Yes, why not?" },
-                                { german: "Treffen wir uns um 8 Uhr? – Einverstanden!", english: "Shall we meet at 8? – Agreed!" },
-                                { german: "Möchten Sie mitkommen? – Mit Vergnügen!", english: "Would you like to come along? – With pleasure!" },
-                                { german: "Können wir morgen telefonieren? – Klar!", english: "Can we call tomorrow? – Of course!" }
-                            ]
-                        },
-                        {
-                            title: "3. Declining Invitations Politely (Absagen)",
-                            content: "Sometimes you need to decline invitations. It's important to do this politely and give a reason when appropriate.\n\n**Polite Declinations:**\n\n**1. Leider kann ich nicht.** (Unfortunately, I can't.)\n* Most common polite refusal\n* 'Leider' softens the rejection\n\n**2. Tut mir leid, ich habe keine Zeit.** (Sorry, I don't have time.)\n* Gives a clear reason\n* Very polite with 'tut mir leid'\n\n**3. Das geht leider nicht.** (That unfortunately doesn't work.)\n* Refers to the timing/situation\n* Less personal than 'I can't'\n\n**4. Vielleicht ein anderes Mal?** (Maybe another time?)\n* Softens the refusal\n* Leaves door open for future\n\n**5. Leider habe ich schon etwas vor.** (Unfortunately, I already have plans.)\n* Specific reason\n* 'etwas vorhaben' = to have plans\n\n**6. Das passt mir nicht so gut.** (That doesn't suit me so well.)\n* Polite way to say it's inconvenient\n* Suggests negotiation\n\n**7. Schade, aber ich muss...** (Too bad, but I have to...)\n* Expresses regret\n* Shows you wish you could accept\n\n**Important Cultural Note:**\nGermans appreciate direct communication but also value politeness. Always:\n* Start with 'Leider' or 'Tut mir leid'\n* Give a brief reason if appropriate\n* Suggest an alternative if possible",
-                            examples: [
-                                { german: "Kommst du heute Abend? – Leider kann ich nicht.", english: "Are you coming tonight? – Unfortunately, I can't." },
-                                { german: "Wollen wir essen gehen? – Tut mir leid, ich habe keine Zeit.", english: "Shall we go eat? – Sorry, I don't have time." },
-                                { german: "Hast du Lust auf Kino? – Das geht leider nicht.", english: "Do you feel like cinema? – That unfortunately doesn't work." },
-                                { german: "Können wir uns morgen treffen? – Vielleicht ein anderes Mal?", english: "Can we meet tomorrow? – Maybe another time?" },
-                                { german: "Kommst du zur Party? – Leider habe ich schon etwas vor.", english: "Are you coming to the party? – Unfortunately, I already have plans." },
-                                { german: "Passt dir Sonntag? – Das passt mir nicht so gut.", english: "Does Sunday suit you? – That doesn't suit me so well." },
-                                { german: "Möchtest du mitkommen? – Schade, aber ich muss arbeiten.", english: "Would you like to come along? – Too bad, but I have to work." }
-                            ]
-                        },
-                        {
-                            title: "4. Negotiating Alternatives (Alternativen vorschlagen)",
-                            content: "When you can't accept the original suggestion, it's polite to offer an alternative or ask about other options.\n\n**Suggesting Alternative Times:**\n\n**1. Wie wäre es am Samstag?** (How about Saturday?)\n* Proposes different day\n* Uses 'am' + day\n\n**2. Passt dir Sonntag besser?** (Does Sunday suit you better?)\n* Asks if alternative is better\n* 'passen' + Dative\n\n**3. Wann hast du Zeit?** (When do you have time?)\n* Open question\n* Lets other person choose\n\n**4. Um wie viel Uhr?** (At what time?)\n* Asks for specific time\n* Follow-up to accepted invitation\n\n**5. Geht es auch später?** (Does later also work?)\n* Suggests same day, different time\n* 'gehen' used for 'work/be possible'\n\n**6. Können wir einen anderen Tag nehmen?** (Can we take another day?)\n* Direct request for change\n* 'nehmen' = take/choose\n\n**Conversation Flow:**\n1. Make suggestion\n2. If declined, ask for alternative\n3. Agree on final plan\n4. Confirm time and place",
-                            examples: [
-                                { german: "Samstag geht nicht. Wie wäre es am Sonntag?", english: "Saturday doesn't work. How about Sunday?" },
-                                { german: "Morgen kann ich nicht. Passt dir Mittwoch besser?", english: "I can't tomorrow. Does Wednesday suit you better?" },
-                                { german: "Ich habe diese Woche viel zu tun. Wann hast du Zeit?", english: "I have a lot to do this week. When do you have time?" },
-                                { german: "Ja, gerne! Um wie viel Uhr?", english: "Yes, gladly! At what time?" },
-                                { german: "Um 18 Uhr kann ich nicht. Geht es auch später?", english: "I can't at 6 PM. Does later also work?" },
-                                { german: "Freitag ist schwierig. Können wir einen anderen Tag nehmen?", english: "Friday is difficult. Can we take another day?" }
-                            ]
-                        },
-                        {
-                            title: "5. Complete Invitation Dialogues",
-                            content: "Putting it all together - complete conversational exchanges for different social situations.\n\n**Dialogue Structure:**\n1. **Suggestion/Invitation**\n2. **Response** (Accept/Decline/Negotiate)\n3. **Details** (Time, place, specifics)\n4. **Confirmation**\n\n**Common Social Situations:**\n* Going to the cinema\n* Meeting for coffee\n* Dinner plans\n* Party invitation\n* Weekend activities\n* Sports/exercise\n\n**Useful Follow-up Phrases:**\n* **Wo treffen wir uns?** (Where shall we meet?)\n* **Wie kommen wir dahin?** (How do we get there?)\n* **Was sollen wir mitbringen?** (What should we bring?)\n* **Bis dann!** (See you then!)\n* **Ich freue mich darauf!** (I'm looking forward to it!)",
-                            examples: [
-                                { german: "Dialog 1:\nA: Wollen wir am Samstag ins Kino gehen?\nB: Ja, gerne! Um wie viel Uhr?\nA: Wie wäre es um 20 Uhr?\nB: Einverstanden! Bis Samstag!", english: "Dialogue 1:\nA: Shall we go to the cinema on Saturday?\nB: Yes, gladly! At what time?\nA: How about at 8 PM?\nB: Agreed! See you Saturday!" },
-                                { german: "Dialog 2:\nA: Hast du Lust, morgen schwimmen zu gehen?\nB: Leider kann ich nicht. Ich muss arbeiten.\nA: Schade! Vielleicht am Wochenende?\nB: Ja, Sonntag passt mir gut!", english: "Dialogue 2:\nA: Do you feel like going swimming tomorrow?\nB: Unfortunately, I can't. I have to work.\nA: Too bad! Maybe on the weekend?\nB: Yes, Sunday suits me well!" },
-                                { german: "Dialog 3:\nA: Ich schlage vor, dass wir zusammen kochen.\nB: Das ist eine gute Idee! Was möchtest du kochen?\nA: Vielleicht Pasta?\nB: Super! Wann?", english: "Dialogue 3:\nA: I suggest that we cook together.\nB: That's a good idea! What would you like to cook?\nA: Maybe pasta?\nB: Great! When?" }
-                            ]
-                        }
-                    ],
-                    homework: [
-                        { id: "d22.5-q1", type: "choice", question: "How do you say 'Shall we...' in German?",
-                          options: ["Wollen wir", "Haben wir", "Sind wir"], answer: "Wollen wir",
-                          explanation: "Wollen wir... = Shall we..." },
-                        { id: "d22.5-q2", type: "choice", question: "Most common way to accept an invitation:",
-                          options: ["Ja, gerne!", "Ja, gut!", "Ja, okay!"], answer: "Ja, gerne!",
-                          explanation: "Ja, gerne! is the most natural and common acceptance" },
-                        { id: "d22.5-q3", type: "text", question: "Translate: 'That's a good idea!'",
-                          answer: "Das ist eine gute Idee!", explanation: "Standard phrase for accepting suggestions" },
-                        { id: "d22.5-q4", type: "text", question: "How do you politely decline? 'Unfortunately, I can't.'",
-                          answer: "Leider kann ich nicht.", explanation: "Leider softens the refusal" },
-                        { id: "d22.5-q5", type: "choice", question: "Complete: 'Hast du Lust ___ Kino?' (Do you feel like cinema?)",
-                          options: ["auf", "für", "zu"], answer: "auf",
-                          explanation: "Lust auf + Accusative for nouns" },
-                        { id: "d22.5-q6", type: "text", question: "Translate: 'How about Saturday?'",
-                          answer: "Wie wäre es am Samstag?", explanation: "Wie wäre es + am + day" },
-                        { id: "d22.5-q7", type: "text", question: "Say: 'That sounds great!'",
-                          answer: "Das klingt toll!", explanation: "Or: Das klingt super/gut!" },
-                        { id: "d22.5-q8", type: "choice", question: "To say 'Maybe another time?':",
-                          options: ["Vielleicht ein anderes Mal?", "Vielleicht eine andere Zeit?", "Vielleicht später?"],
-                          answer: "Vielleicht ein anderes Mal?", explanation: "Standard polite phrase when declining" },
-                        { id: "d22.5-q9", type: "text", question: "Complete: 'Tut mir leid, ich habe ___ Zeit.' (no time)",
-                          answer: "keine", explanation: "keine Zeit = no time" },
-                        { id: "d22.5-q10", type: "text", question: "Ask: 'Does Sunday suit you better?' (du)",
-                          answer: "Passt dir Sonntag besser?", explanation: "passen + Dative: dir" },
-                        { id: "d22.5-q11", type: "choice", question: "Very formal way to accept:",
-                          options: ["Mit Vergnügen!", "Klar!", "Okay!"], answer: "Mit Vergnügen!",
-                          explanation: "Mit Vergnügen = With pleasure (very formal)" },
-                        { id: "d22.5-q12", type: "text", question: "Translate: 'Let's go to the cinema!' (informal du)",
-                          answer: "Lass uns ins Kino gehen!", explanation: "Lass uns + infinitive" },
-                        { id: "d22.5-q13", type: "text", question: "Say: 'Unfortunately, I already have plans.'",
-                          answer: "Leider habe ich schon etwas vor.", explanation: "etwas vorhaben = have plans" },
-                        { id: "d22.5-q14", type: "choice", question: "Complete dialogue: 'Wollen wir Pizza essen?' – '___'",
-                          options: ["Das klingt gut!", "Das ist gut!", "Das schmeckt gut!"],
-                          answer: "Das klingt gut!", explanation: "klingen = to sound (for ideas/suggestions)" },
-                        { id: "d22.5-q15", type: "text", question: "Ask: 'At what time?' (for meeting)",
-                          answer: "Um wie viel Uhr?", explanation: "Standard time question" },
-                        { id: "d22.5-q16", type: "text", question: "Translate: 'I'm looking forward to it!'",
-                          answer: "Ich freue mich darauf!", explanation: "sich freuen auf + Acc" },
-                        { id: "d22.5-q17", type: "choice", question: "To say it doesn't suit you:",
-                          options: ["Das passt mir nicht.", "Das mag ich nicht.", "Das will ich nicht."],
-                          answer: "Das passt mir nicht.", explanation: "passen = to suit/fit" },
-                        { id: "d22.5-q18", type: "text", question: "Complete: 'Wie wäre es ___ einem Spaziergang?' (with a walk)",
-                          answer: "mit", explanation: "Wie wäre es mit + Dative" },
-                        { id: "d22.5-q19", type: "text", question: "Say: 'Too bad, but I have to work.'",
-                          answer: "Schade, aber ich muss arbeiten.", explanation: "Schade expresses regret" },
-                        { id: "d22.5-q20", type: "text", question: "Ask: 'When do you have time?' (du)",
-                          answer: "Wann hast du Zeit?", explanation: "Open question for scheduling" },
-                        { id: "d22.5-q21", type: "choice", question: "Casual way to say 'of course':",
-                          options: ["Natürlich!", "Sicherlich!", "Bestimmt!"], answer: "Natürlich!",
-                          explanation: "Natürlich or Klar! for casual contexts" },
-                        { id: "d22.5-q22", type: "text", question: "Create dialogue: Suggest going to movies, friend accepts enthusiastically",
-                          answer: "A: Wollen wir ins Kino gehen? B: Ja, gerne! Das klingt super!",
-                          explanation: "Example answer with suggestion and enthusiastic acceptance" },
-                        { id: "d22.5-q23", type: "text", question: "Politely decline dinner invitation and suggest alternative",
-                          answer: "Leider kann ich nicht. Wie wäre es am Wochenende?",
-                          explanation: "Decline + alternative suggestion" },
-                        { id: "d22.5-q24", type: "text", question: "What does 'etwas vorhaben' mean?",
-                          answer: "to have plans", explanation: "Ich habe etwas vor = I have plans" },
-                        { id: "d22.5-q25", type: "text", question: "Complete party invitation: 'Ich ___ eine Party am Samstag. Kommst du?'",
-                          answer: "mache", explanation: "eine Party machen = to have/throw a party" }
-                    ]
-                }
-            },
-            {
                 day: 23,
                 title: "Transport",
                 focus: "Travel vocab",
@@ -2991,166 +2370,6 @@ export const syllabusData: Phase[] = [
                         }
                     ],
                     homework: [{ id: "d23-q1", type: "text", question: "Translate 'The Train'.", answer: "Der Zug", explanation: "Maskulin." }]
-                }
-            },
-            {
-                day: 23.5,
-                title: "Reflexive Verbs - Part 2",
-                focus: "Perfect Tense & Dative Reflexives",
-                activities: ["Learn perfect tense with reflexive verbs", "Practice dative reflexive pronouns", "Body parts expressions"],
-                homework: ["Write about your past routine"],
-                details: {
-                    sections: [
-                        {
-                            title: "1. Perfect Tense with Reflexive Verbs",
-                            content: "When using reflexive verbs in the perfect tense (past), the structure combines haben + reflexive pronoun + past participle. This is essential for describing past routines and experiences.\n\n**Perfect Tense Structure:**\n[Subject] + [haben] + [reflexive pronoun] + [past participle]\n\n**Formation Rules:**\n* ALL reflexive verbs use **haben** (never sein) in perfect tense\n* The reflexive pronoun stays in its normal position (after haben)\n* Past participle goes to the END of the sentence\n\n**Regular Reflexive Verbs (ge-...-t):**\n* **sich waschen** → Ich habe mich gewaschen (I washed myself)\n* **sich kämmen** → Du hast dich gekämmt (You combed your hair)\n* **sich rasieren** → Er hat sich rasiert (He shaved)\n* **sich freuen** → Wir haben uns gefreut (We were happy)\n\n**Separable Reflexive Verbs:**\nWhen the reflexive verb is also separable, the ge- goes BETWEEN the prefix and the stem:\n* **sich anziehen** → ge + prefix + stem + t → **angezogen**\n  - Ich habe mich angezogen (I got dressed)\n* **sich ausziehen** → ausge + zieh + en → **ausgezogen**\n  - Sie hat sich ausgezogen (She got undressed)\n* **sich umziehen** → umge + zieh + en → **umgezogen**\n  - Wir haben uns umgezogen (We changed clothes)\n\n**Irregular Reflexive Verbs (vowel changes):**\nSome reflexive verbs have irregular past participles:\n* **sich treffen** → getroffen (Wir haben uns getroffen - We met)\n* **sich waschen** → gewaschen (Er hat sich gewaschen - He washed)\n\n**Word Order Examples:**\n* **Simple:** Ich habe mich geduscht. (I showered)\n* **With time:** Gestern habe ich mich geduscht. (Yesterday I showered)\n* **Question:** Hast du dich schon geduscht? (Have you already showered?)",
-                            examples: [
-                                { german: "Ich habe mich heute Morgen gewaschen.", english: "I washed myself this morning." },
-                                { german: "Hast du dich schon angezogen?", english: "Have you already gotten dressed?" },
-                                { german: "Er hat sich vor dem Frühstück rasiert.", english: "He shaved before breakfast." },
-                                { german: "Wir haben uns gestern getroffen.", english: "We met yesterday." },
-                                { german: "Sie haben sich schnell umgezogen.", english: "They changed clothes quickly." },
-                                { german: "Habt ihr euch schon gekämmt?", english: "Have you already combed your hair?" },
-                                { german: "Ich habe mich über das Geschenk gefreut.", english: "I was happy about the gift." }
-                            ]
-                        },
-                        {
-                            title: "2. Dative vs Accusative Reflexive Pronouns",
-                            content: "Most reflexive verbs use accusative pronouns (mich, dich, sich), but when you specify a BODY PART, the reflexive pronoun becomes DATIVE and the body part becomes the direct object (accusative).\n\n**Accusative Reflexive Pronouns (Review):**\n* ich → **mich**\n* du → **dich**\n* er/sie/es → **sich**\n* wir → **uns**\n* ihr → **euch**\n* sie/Sie → **sich**\n\n**Dative Reflexive Pronouns:**\n* ich → **mir**\n* du → **dir**\n* er/sie/es → **sich** (NO CHANGE!)\n* wir → **uns** (NO CHANGE!)\n* ihr → **euch** (NO CHANGE!)\n* sie/Sie → **sich** (NO CHANGE!)\n\n**Key Difference:**\nOnly **ich** (mir) and **du** (dir) change between accusative and dative!\n\n**When to Use Dative:**\nUse dative reflexive pronouns when you mention a specific body part:\n* **Pattern:** Subject + Verb + DATIVE pronoun + ACCUSATIVE body part\n\n**Without Body Part (Accusative):**\n* Ich wasche **mich**. (I wash myself - general)\n* Du kämmst **dich**. (You comb yourself - general)\n\n**With Body Part (Dative):**\n* Ich wasche **mir** die Hände. (I wash my hands - specific)\n* Du kämmst **dir** die Haare. (You comb your hair - specific)\n* Er putzt **sich** die Zähne. (He brushes his teeth - sich stays same)\n\n**Why This Structure?**\nIn German logic: \"I wash TO MYSELF the hands\" (not \"I wash my hands\")\n* **mir/dir/sich** = to myself/yourself/himself (dative - indirect object)\n* **die Hände** = the hands (accusative - direct object)\n\n**Important Note:**\nThird person (er/sie/es/sie/Sie) and plural (wir/ihr) pronouns don't change form between accusative and dative - they're always **sich**, **uns**, or **euch**.",
-                            examples: [
-                                { german: "Ich wasche mir die Hände.", english: "I wash my hands. (Dative: mir)" },
-                                { german: "Du putzt dir die Zähne.", english: "You brush your teeth. (Dative: dir)" },
-                                { german: "Er kämmt sich die Haare.", english: "He combs his hair. (sich - no change)" },
-                                { german: "Wir waschen uns die Hände.", english: "We wash our hands. (uns - no change)" },
-                                { german: "Ihr putzt euch die Zähne.", english: "You (plural) brush your teeth. (euch - no change)" },
-                                { german: "Sie trocknen sich die Haare.", english: "They dry their hair. (sich - no change)" }
-                            ]
-                        },
-                        {
-                            title: "3. Body Parts with Reflexive Verbs",
-                            content: "When describing personal hygiene and grooming, you commonly use reflexive verbs with body parts. This is essential for daily routine descriptions.\n\n**Common Body Parts (Always with Article!):**\n* **die Hände** (hands - plural)\n* **die Zähne** (teeth - plural)\n* **die Haare** (hair - plural in German!)\n* **das Gesicht** (face)\n* **die Füße** (feet - plural)\n* **die Nase** (nose)\n* **die Ohren** (ears - plural)\n\n**Common Reflexive Verb + Body Part Expressions:**\n\n**1. sich waschen (to wash):**\n* sich die Hände waschen (wash one's hands)\n* sich das Gesicht waschen (wash one's face)\n* sich die Füße waschen (wash one's feet)\n\n**2. sich putzen (to clean/brush):**\n* sich die Zähne putzen (brush one's teeth)\n* sich die Nase putzen (blow one's nose)\n\n**3. sich kämmen (to comb):**\n* sich die Haare kämmen (comb one's hair)\n\n**4. sich trocknen (to dry):**\n* sich die Haare trocknen (dry one's hair)\n* sich die Hände trocknen (dry one's hands)\n\n**5. sich föhnen (to blow-dry):**\n* sich die Haare föhnen (blow-dry one's hair)\n\n**Perfect Tense with Body Parts:**\n* Ich habe **mir** die Hände gewaschen.\n* Du hast **dir** die Zähne geputzt.\n* Er hat **sich** die Haare gekämmt.\n\n**Important Grammar Note:**\nThe article (die/das) is REQUIRED with body parts in German. Never say \"Ich wasche Hände\" - always \"Ich wasche mir die Hände.\"",
-                            examples: [
-                                { german: "Ich putze mir die Zähne nach dem Frühstück.", english: "I brush my teeth after breakfast." },
-                                { german: "Sie wäscht sich die Hände vor dem Essen.", english: "She washes her hands before eating." },
-                                { german: "Er kämmt sich die Haare jeden Morgen.", english: "He combs his hair every morning." },
-                                { german: "Wir trocknen uns die Haare mit einem Handtuch.", english: "We dry our hair with a towel." },
-                                { german: "Putzt ihr euch die Zähne vor dem Schlafengehen?", english: "Do you brush your teeth before bed?" },
-                                { german: "Ich habe mir die Hände gewaschen.", english: "I washed my hands. (Perfect tense)" },
-                                { german: "Sie hat sich die Haare geföhnt.", english: "She blow-dried her hair. (Perfect tense)" }
-                            ]
-                        },
-                        {
-                            title: "4. Expanded Reflexive Verb Vocabulary",
-                            content: "Beyond basic daily routine, there are many important reflexive verbs for expressing emotions, relationships, and activities.\n\n**Emotional States (from Lesson 1 - Review):**\n* **sich freuen auf** + Acc (look forward to)\n* **sich freuen über** + Acc (be happy about)\n* **sich ärgern über** + Acc (be annoyed about)\n* **sich fühlen** (to feel)\n* **sich interessieren für** + Acc (be interested in)\n* **sich Sorgen machen um** + Acc (to worry about)\n* **sich fürchten vor** + Dat (to be afraid of)\n\n**Social Interactions:**\n* **sich treffen mit** + Dat (to meet with)\n* **sich verabreden mit** + Dat (to make a date/appointment with)\n* **sich unterhalten mit** + Dat (to converse with)\n* **sich kennenlernen** (to get to know each other)\n* **sich verlieben in** + Acc (to fall in love with)\n* **sich streiten mit** + Dat (to argue with)\n* **sich versöhnen mit** + Dat (to reconcile with)\n\n**Preparation & Movement:**\n* **sich vorbereiten auf** + Acc (to prepare for)\n* **sich setzen** (to sit down)\n* **sich hinlegen** (to lie down)\n* **sich ausruhen** (to rest)\n* **sich erholen von** + Dat (to recover from)\n* **sich beeilen** (to hurry)\n\n**Personal Care (Additional):**\n* **sich schminken** (to put on makeup)\n* **sich rasieren** (to shave)\n* **sich duschen** (to shower)\n* **sich baden** (to bathe)\n\n**These verbs in perfect tense:**\n* Ich habe mich auf die Prüfung vorbereitet. (I prepared for the exam)\n* Wir haben uns gestern getroffen. (We met yesterday)\n* Sie hat sich beeilt. (She hurried)",
-                            examples: [
-                                { german: "Ich habe mich auf die Party gefreut.", english: "I looked forward to the party." },
-                                { german: "Er hat sich in sie verliebt.", english: "He fell in love with her." },
-                                { german: "Wir haben uns mit Freunden getroffen.", english: "We met with friends." },
-                                { german: "Sie hat sich für die Prüfung vorbereitet.", english: "She prepared for the exam." },
-                                { german: "Habt ihr euch schon kennengelernt?", english: "Have you already gotten to know each other?" },
-                                { german: "Ich habe mich sehr beeilt.", english: "I hurried a lot." },
-                                { german: "Er hat sich von der Krankheit erholt.", english: "He recovered from the illness." },
-                                { german: "Sie haben sich gestritten.", english: "They argued." }
-                            ]
-                        },
-                        {
-                            title: "5. Complex Reflexive Constructions and Practice",
-                            content: "Putting it all together - reflexive verbs in various tenses, with different pronouns, and in complex sentences.\n\n**Present vs Perfect Tense Comparison:**\n* **Present:** Ich wasche mich. → **Perfect:** Ich habe mich gewaschen.\n* **Present:** Du freust dich. → **Perfect:** Du hast dich gefreut.\n* **Present:** Wir treffen uns. → **Perfect:** Wir haben uns getroffen.\n\n**With Separable Verbs:**\n* **Present:** Ich ziehe mich an. → **Perfect:** Ich habe mich angezogen.\n* **Present:** Er zieht sich um. → **Perfect:** Er hat sich umgezogen.\n\n**With Body Parts (Dative):**\n* **Present:** Ich putze mir die Zähne. → **Perfect:** Ich habe mir die Zähne geputzt.\n* **Present:** Sie wäscht sich die Hände. → **Perfect:** Sie hat sich die Hände gewaschen.\n\n**With Prepositions:**\n* Ich freue mich auf das Wochenende. (Present)\n* Ich habe mich auf das Wochenende gefreut. (Perfect)\n* Er interessiert sich für Musik. (Present)\n* Er hat sich für Musik interessiert. (Perfect)\n\n**Questions:**\n* Hast du dich heute Morgen geduscht?\n* Habt ihr euch schon die Zähne geputzt?\n* Hat sie sich auf die Prüfung vorbereitet?\n\n**Negative Sentences:**\n* Ich habe mich nicht geduscht.\n* Er hat sich die Haare nicht gekämmt.\n* Wir haben uns nicht getroffen.\n\n**Common Mistakes to Avoid:**\n* ❌ Ich habe gewaschen mich. → ✅ Ich habe mich gewaschen.\n* ❌ Ich habe mir gewaschen die Hände. → ✅ Ich habe mir die Hände gewaschen.\n* ❌ Ich bin mich geduscht. → ✅ Ich habe mich geduscht. (NEVER sein!)",
-                            examples: [
-                                { german: "Gestern habe ich mich um 7 Uhr geduscht und angezogen.", english: "Yesterday I showered and got dressed at 7 o'clock." },
-                                { german: "Haben Sie sich schon die Hände gewaschen?", english: "Have you already washed your hands?" },
-                                { german: "Wir haben uns letzte Woche im Café getroffen.", english: "We met at the café last week." },
-                                { german: "Sie hat sich sehr über das Geschenk gefreut.", english: "She was very happy about the gift." },
-                                { german: "Ich habe mir heute Morgen nicht die Haare gekämmt.", english: "I didn't comb my hair this morning." },
-                                { german: "Habt ihr euch für die Reise vorbereitet?", english: "Did you prepare for the trip?" }
-                            ]
-                        }
-                    ],
-                    homework: [
-                        { id: "d23.5-q1", type: "choice", question: "Which auxiliary verb do reflexive verbs use in perfect tense?",
-                          options: ["haben", "sein", "werden"], answer: "haben",
-                          explanation: "ALL reflexive verbs use haben in perfect tense, never sein" },
-                        { id: "d23.5-q2", type: "text", question: "Translate: 'I washed myself.' (perfect tense)",
-                          answer: "Ich habe mich gewaschen.", explanation: "haben + mich + gewaschen" },
-                        { id: "d23.5-q3", type: "text", question: "Translate: 'Did you shower?' (du, perfect)",
-                          answer: "Hast du dich geduscht?", explanation: "Question: Hast + du + dich + geduscht?" },
-                        { id: "d23.5-q4", type: "choice", question: "Complete: 'Er hat ___ rasiert.' (he shaved)",
-                          options: ["sich", "ihn", "ihm"], answer: "sich",
-                          explanation: "sich rasieren → hat sich rasiert" },
-                        { id: "d23.5-q5", type: "text", question: "What is the dative reflexive pronoun for 'ich'?",
-                          answer: "mir", explanation: "ich → mir (dative), mich (accusative)" },
-                        { id: "d23.5-q6", type: "text", question: "What is the dative reflexive pronoun for 'du'?",
-                          answer: "dir", explanation: "du → dir (dative), dich (accusative)" },
-                        { id: "d23.5-q7", type: "choice", question: "Complete: 'Ich putze ___ die Zähne.' (I brush my teeth)",
-                          options: ["mich", "mir", "mein"], answer: "mir",
-                          explanation: "With body part → dative: mir die Zähne" },
-                        { id: "d23.5-q8", type: "text", question: "Translate: 'I wash my hands.'",
-                          answer: "Ich wasche mir die Hände.", explanation: "mir (dative) + die Hände (accusative)" },
-                        { id: "d23.5-q9", type: "text", question: "Translate: 'You comb your hair.' (du)",
-                          answer: "Du kämmst dir die Haare.", explanation: "dir (dative) + die Haare" },
-                        { id: "d23.5-q10", type: "choice", question: "Complete: 'Er putzt ___ die Zähne.' (he brushes his teeth)",
-                          options: ["sich", "ihm", "sein"], answer: "sich",
-                          explanation: "Third person stays 'sich' in both accusative and dative" },
-                        { id: "d23.5-q11", type: "text", question: "Translate: 'I brushed my teeth.' (perfect)",
-                          answer: "Ich habe mir die Zähne geputzt.", explanation: "Perfect: habe + mir + die Zähne + geputzt" },
-                        { id: "d23.5-q12", type: "text", question: "What does 'sich die Hände waschen' mean?",
-                          answer: "to wash one's hands", explanation: "die Hände = hands (plural)" },
-                        { id: "d23.5-q13", type: "choice", question: "German word for 'teeth':",
-                          options: ["die Zähne", "der Zahn", "das Zahn"], answer: "die Zähne",
-                          explanation: "die Zähne (plural) - always plural in this context" },
-                        { id: "d23.5-q14", type: "text", question: "Translate: 'She dried her hair.' (perfect)",
-                          answer: "Sie hat sich die Haare getrocknet.", explanation: "Perfect: hat + sich + die Haare + getrocknet" },
-                        { id: "d23.5-q15", type: "text", question: "Translate: 'We got dressed.' (perfect)",
-                          answer: "Wir haben uns angezogen.", explanation: "sich anziehen → haben uns angezogen" },
-                        { id: "d23.5-q16", type: "choice", question: "Past participle of 'sich anziehen':",
-                          options: ["angezogen", "gezogenan", "angeziehen"], answer: "angezogen",
-                          explanation: "Separable: an + ge + zogen = angezogen" },
-                        { id: "d23.5-q17", type: "text", question: "Translate: 'Did you change clothes?' (ihr, perfect)",
-                          answer: "Habt ihr euch umgezogen?", explanation: "sich umziehen → habt...umgezogen" },
-                        { id: "d23.5-q18", type: "text", question: "Translate: 'They met yesterday.' (perfect)",
-                          answer: "Sie haben sich gestern getroffen.", explanation: "sich treffen → haben sich getroffen" },
-                        { id: "d23.5-q19", type: "choice", question: "Complete: 'Ich habe ___ auf die Party gefreut.'",
-                          options: ["mich", "mir", "sich"], answer: "mich",
-                          explanation: "sich freuen uses accusative: mich" },
-                        { id: "d23.5-q20", type: "text", question: "Translate: 'He was happy about the gift.' (perfect)",
-                          answer: "Er hat sich über das Geschenk gefreut.", explanation: "sich freuen über + Acc" },
-                        { id: "d23.5-q21", type: "text", question: "What does 'sich die Haare föhnen' mean?",
-                          answer: "to blow-dry one's hair", explanation: "föhnen = to blow-dry" },
-                        { id: "d23.5-q22", type: "choice", question: "Error check: 'Ich bin mich geduscht.'",
-                          options: ["Correct", "Should be: Ich habe mich geduscht", "Should be: Ich habe geduscht mich"],
-                          answer: "Should be: Ich habe mich geduscht", explanation: "Reflexive verbs always use haben!" },
-                        { id: "d23.5-q23", type: "text", question: "Complete: 'Wir haben ___ die Hände gewaschen.' (we)",
-                          answer: "uns", explanation: "wir → uns (same in accusative and dative)" },
-                        { id: "d23.5-q24", type: "text", question: "Translate: 'I prepared for the exam.' (perfect)",
-                          answer: "Ich habe mich auf die Prüfung vorbereitet.", explanation: "sich vorbereiten auf + Acc" },
-                        { id: "d23.5-q25", type: "choice", question: "When do you use dative reflexive pronouns?",
-                          options: ["Always", "Never", "When mentioning a body part"], answer: "When mentioning a body part",
-                          explanation: "Dative when specifying body part as direct object" },
-                        { id: "d23.5-q26", type: "text", question: "Translate: 'Did you wash your face?' (du, perfect)",
-                          answer: "Hast du dir das Gesicht gewaschen?", explanation: "dir + das Gesicht in perfect tense" },
-                        { id: "d23.5-q27", type: "text", question: "What does 'sich beeilen' mean?",
-                          answer: "to hurry", explanation: "Ich habe mich beeilt = I hurried" },
-                        { id: "d23.5-q28", type: "choice", question: "Complete: 'Sie hat ___ geschminkt.' (she put on makeup)",
-                          options: ["sich", "ihr", "sie"], answer: "sich",
-                          explanation: "sich schminken → hat sich geschminkt" },
-                        { id: "d23.5-q29", type: "text", question: "Translate: 'We hurried.' (perfect)",
-                          answer: "Wir haben uns beeilt.", explanation: "sich beeilen → haben uns beeilt" },
-                        { id: "d23.5-q30", type: "text", question: "Word order: Put in correct order: 'gewaschen / die Hände / habe / mir / ich'",
-                          answer: "Ich habe mir die Hände gewaschen.", explanation: "Subject + haben + dative pronoun + object + participle" },
-                        { id: "d23.5-q31", type: "choice", question: "Compare: 'Ich wasche mich' vs 'Ich wasche mir die Hände' - what's the difference?",
-                          options: ["No difference", "First is general, second specifies body part", "First is wrong"],
-                          answer: "First is general, second specifies body part", explanation: "Without body part: accusative (mich), with body part: dative (mir)" },
-                        { id: "d23.5-q32", type: "text", question: "Translate: 'They argued.' (perfect)",
-                          answer: "Sie haben sich gestritten.", explanation: "sich streiten → haben sich gestritten" },
-                        { id: "d23.5-q33", type: "text", question: "Create sentence: Yesterday I showered, got dressed, and brushed my teeth (perfect)",
-                          answer: "Gestern habe ich mich geduscht, mich angezogen und mir die Zähne geputzt.",
-                          explanation: "Multiple reflexive verbs in perfect tense" },
-                        { id: "d23.5-q34", type: "text", question: "Translate: 'Have you already washed your hands?' (ihr)",
-                          answer: "Habt ihr euch schon die Hände gewaschen?", explanation: "Question with 'schon' (already)" },
-                        { id: "d23.5-q35", type: "text", question: "Describe your morning routine yesterday using at least 3 reflexive verbs (perfect tense)",
-                          answer: "Gestern bin ich aufgestanden, habe mich geduscht, mir die Zähne geputzt und mich angezogen.",
-                          explanation: "Example answer using reflexive verbs in perfect tense with routine" }
-                    ]
                 }
             },
             {
@@ -3189,201 +2408,53 @@ export const syllabusData: Phase[] = [
             },
             {
                 day: 26,
-                title: "Perfect Tense 1: Introduction with 'haben'",
-                focus: "Forming the past tense with 'haben' and regular verbs",
-                activities: ["Learn ge-...-t pattern", "Practice with 15 common regular verbs"],
-                homework: ["Write 20 sentences about what you did yesterday"],
+                title: "Perfect Tense 1 (Haben)",
+                focus: "Past with Haben",
+                activities: ["Understanding 'ge-'", "Regular participles"],
+                homework: ["Write 5 sentences in Perfect"],
                 details: {
                     sections: [
                         {
-                            title: "1. Introduction to the Perfect Tense (Das Perfekt)",
-                            content: "The Perfect Tense is the most common way to talk about the past in spoken German. It's formed with an auxiliary (helping) verb, usually 'haben', and a past participle.\n\n**Structure:** [Subject] + [haben/sein in present tense] + ... + [Past Participle at the end].",
-                            examples: [
-                                { german: "Ich habe gearbeitet.", english: "I have worked / I worked." },
-                                { german: "Er hat Fußball gespielt.", english: "He has played / He played football." }
-                            ]
-                        },
-                        {
-                            title: "2. Regular Verbs (ge-...-t pattern)",
-                            content: "Regular (or weak) verbs form their past participle with the prefix **ge-** and the suffix **-t**.\n\n**Formula:** ge + verb stem + t\n\n* machen -> ge-mach-t -> **gemacht**\n* lernen -> ge-lern-t -> **gelernt**\n* kaufen -> ge-kauf-t -> **gekauft**",
-                            examples: [
-                                { german: "Gestern habe ich meine Hausaufgaben gemacht.", english: "Yesterday I did my homework." },
-                                { german: "Wir haben Deutsch gelernt.", english: "We learned German." },
-                                { german: "Sie hat ein neues Auto gekauft.", english: "She bought a new car." }
-                            ]
+                            title: "Perfect Tense (Das Perfekt)",
+                            content: "Spoken past. Structure: Haben/Sein + Partizip II (End).\n\n* **Regular:** ge + stem + t (machen -> gemacht).\n* ich habe ... gemacht.",
+                            examples: [{ german: "Ich habe Fußball gespielt.", english: "I played football." }]
                         }
                     ],
-                    homework: [
-                        {
-                            id: "d26-q1",
-                            type: "text",
-                            question: "What is the past participle of 'spielen'?",
-                            answer: "gespielt",
-                            explanation: "Regular verb: ge + spiel + t."
-                        },
-                        {
-                            id: "d26-q2",
-                            type: "text",
-                            question: "Translate: 'I cooked.'",
-                            answer: "Ich habe gekocht.",
-                            explanation: "kochen -> gekocht. Use with haben."
-                        },
-                        {
-                            id: "d26-q3",
-                            type: "text",
-                            question: "Put in perfect tense: 'Du hörst Musik.'",
-                            answer: "Du hast Musik gehört.",
-                            explanation: "hören -> gehört. du hast."
-                        },
-                        {
-                            id: "d26-q4",
-                            type: "text",
-                            question: "What is the past participle of 'sagen'?",
-                            answer: "gesagt",
-                            explanation: "Regular verb: ge + sag + t."
-                        },
-                        {
-                            id: "d26-q5",
-                            type: "text",
-                            question: "Translate: 'We worked.'",
-                            answer: "Wir haben gearbeitet.",
-                            explanation: "arbeiten -> gearbeitet. Special rule for -t stem."
-                        }
-                    ]
+                    homework: [{ id: "d26-q1", type: "text", question: "Participle of 'lernen'?", answer: "gelernt", explanation: "ge-lern-t." }]
                 }
             },
             {
                 day: 27,
-                title: "Perfect Tense 2: Irregular Verbs with 'haben'",
-                focus: "Forming the past tense with strong verbs",
-                activities: ["Learn ge-...-en pattern", "Memorize top 25 irregular verbs"],
-                homework: ["Practice sentences with irregular verbs"],
+                title: "Perfect Tense 2 (Irregular)",
+                focus: "Strong verbs",
+                activities: ["Irregular participles memorization"],
+                homework: ["Flashcards for irregulars"],
                 details: {
                     sections: [
                         {
-                            title: "1. Irregular (Strong) Verb Participles",
-                            content: "Irregular verbs (strong verbs) often change their stem vowel in the past participle and usually end in **-en**.\n\n**Formula:** ge + changed stem + en\n\n* sehen -> ge-seh-en -> **gesehen**\n* trinken -> ge-trunk-en -> **getrunken**\n* schreiben -> ge-schrieb-en -> **geschrieben**\n\nThere is no simple rule for the vowel change; these must be memorized.",
-                            examples: [
-                                { german: "Ich habe einen Film gesehen.", english: "I saw a film." },
-                                { german: "Er hat einen Brief geschrieben.", english: "He wrote a letter." },
-                                { german: "Wir haben Wasser getrunken.", english: "We drank water." }
-                            ]
-                        },
-                        {
-                            title: "2. Top Irregular Verbs with 'haben'",
-                            content: "Memorize these common irregular verbs that use 'haben':\n\n* **bleiben -> geblieben** (to stay) *Note: This is an exception, uses 'sein'*\n* **essen -> gegessen** (to eat)\n* **finden -> gefunden** (to find)\n* **geben -> gegeben** (to give)\n* **helfen -> geholfen** (to help)\n* **lesen -> gelesen** (to read)\n* **nehmen -> genommen** (to take)\n* **schlafen -> geschlafen** (to sleep)\n* **schreiben -> geschrieben** (to write)\n* **sehen -> gesehen** (to see)\n* **sprechen -> gesprochen** (to speak)\n* **tragen -> getragen** (to wear/carry)\n* **trinken -> getrunken** (to drink)\n* **vergessen -> vergessen** (to forget - inseparable)\n* **verstehen -> verstanden** (to understand - inseparable)",
-                            examples: [
-                                { german: "Hast du das Buch gelesen?", english: "Have you read the book?" },
-                                { german: "Sie hat mir geholfen.", english: "She helped me." },
-                                { german: "Ich habe seinen Namen vergessen.", english: "I forgot his name." }
-                            ]
+                            title: "Irregular Participles",
+                            content: "Often end in -en and change vowels.\n* essen -> gegessen\n* trinken -> getrunken\n* schreiben -> geschrieben",
+                            examples: [{ german: "Ich habe Pizza gegessen.", english: "I ate pizza." }]
                         }
                     ],
-                    homework: [
-                        {
-                            id: "d27-q1",
-                            type: "text",
-                            question: "What is the past participle of 'sprechen'?",
-                            answer: "gesprochen",
-                            explanation: "sprechen -> gesprochen."
-                        },
-                        {
-                            id: "d27-q2",
-                            type: "text",
-                            question: "Translate: 'I ate an apple.'",
-                            answer: "Ich habe einen Apfel gegessen.",
-                            explanation: "essen -> gegessen. Use with haben."
-                        },
-                        {
-                            id: "d27-q3",
-                            type: "text",
-                            question: "Put in perfect tense: 'Er liest die Zeitung.'",
-                            answer: "Er hat die Zeitung gelesen.",
-                            explanation: "lesen -> gelesen. er hat."
-                        },
-                        {
-                            id: "d27-q4",
-                            type: "text",
-                            question: "What is the past participle of 'geben'?",
-                            answer: "gegeben",
-                            explanation: "geben -> gegeben."
-                        },
-                        {
-                            id: "d27-q5",
-                            type: "text",
-                            question: "Translate: 'She slept well.'",
-                            answer: "Sie hat gut geschlafen.",
-                            explanation: "schlafen -> geschlafen."
-                        }
-                    ]
+                    homework: [{ id: "d27-q1", type: "text", question: "Participle of 'sehen'?", answer: "gesehen", explanation: "ge-seh-en." }]
                 }
             },
             {
                 day: 28,
-                title: "Perfect Tense 3: Verbs with 'sein'",
-                focus: "Using 'sein' for movement and change of state",
-                activities: ["Learn verbs that take 'sein'", "Practice distinguishing haben/sein"],
-                homework: ["Write about a journey using 'sein' verbs"],
+                title: "Perfect Tense 3 (Sein)",
+                focus: "Movement verbs",
+                activities: ["Verbs taking 'sein'"],
+                homework: ["Write about a trip (movement)"],
                 details: {
                     sections: [
                         {
-                            title: "1. When to Use 'sein' in the Perfect Tense",
-                            content: "A smaller group of verbs use **sein** as the auxiliary verb. These verbs typically express:\n\n1.  **Movement from A to B:** A change of location (e.g., walking, driving, flying).\n2.  **Change of State:** A change in condition or status (e.g., waking up, dying).\n3.  **Specific Verbs:** `sein` (to be), `bleiben` (to stay), and `werden` (to become).",
-                            examples: [
-                                { german: "Ich bin ins Kino gegangen.", english: "I went to the cinema. (Movement)" },
-                                { german: "Er ist schnell gewachsen.", english: "He grew quickly. (Change of State)" },
-                                { german: "Wir sind zu Hause geblieben.", english: "We stayed at home. (Special Verb)" }
-                            ]
-                        },
-                        {
-                            title: "2. Common Verbs with 'sein'",
-                            content: "Memorize this core list of verbs that form the perfect tense with 'sein':\n\n* **gehen -> gegangen** (to go)\n* **fahren -> gefahren** (to drive/travel)\n* **fliegen -> geflogen** (to fly)\n* **kommen -> gekommen** (to come)\n* **laufen -> gelaufen** (to run/walk)\n* **reisen -> gereist** (to travel)\n* **schwimmen -> geschwommen** (to swim)\n* **aufstehen -> aufgestanden** (to get up)\n* **wachsen -> gewachsen** (to grow)\n* **sterben -> gestorben** (to die)\n* **sein -> gewesen** (to be)\n* **bleiben -> geblieben** (to stay)\n* **werden -> geworden** (to become)",
-                            examples: [
-                                { german: "Gestern bin ich nach Hamburg gefahren.", english: "Yesterday I drove to Hamburg." },
-                                { german: "Sie ist um 7 Uhr aufgestanden.", english: "She got up at 7 o'clock." },
-                                { german: "Wir sind in Italien gewesen.", english: "We have been to Italy." }
-                            ]
+                            title: "Perfekt with Sein",
+                            content: "Movements (A to B) or Change of State take 'sein' instead of 'haben'.\n* gehen, fahren, fliegen, aufstehen.\n* ich bin gegangen (I went).",
+                            examples: [{ german: "Er ist nach Hause gefahren.", english: "He drove home." }]
                         }
                     ],
-                    homework: [
-                        {
-                            id: "d28-q1",
-                            type: "choice",
-                            question: "Complete: 'Ich ___ nach Hause gegangen.'",
-                            options: ["habe", "bin", "werde"],
-                            answer: "bin",
-                            explanation: "'gehen' is a verb of movement and takes 'sein'."
-                        },
-                        {
-                            id: "d28-q2",
-                            type: "text",
-                            question: "What is the past participle of 'fliegen'?",
-                            answer: "geflogen",
-                            explanation: "fliegen -> geflogen."
-                        },
-                        {
-                            id: "d28-q3",
-                            type: "text",
-                            question: "Translate: 'He came to Germany.'",
-                            answer: "Er ist nach Deutschland gekommen.",
-                            explanation: "'kommen' is a verb of movement and takes 'sein'."
-                        },
-                        {
-                            id: "d28-q4",
-                            type: "choice",
-                            question: "Complete: 'Wir ___ im Hotel geblieben.'",
-                            options: ["sind", "haben", "werden"],
-                            answer: "sind",
-                            explanation: "'bleiben' is a special verb that takes 'sein'."
-                        },
-                        {
-                            id: "d28-q5",
-                            type: "text",
-                            question: "Translate: 'You (du) swam in the sea.'",
-                            answer: "Du bist im Meer geschwommen.",
-                            explanation: "'schwimmen' implies movement and takes 'sein'."
-                        }
-                    ]
+                    homework: [{ id: "d28-q1", type: "choice", question: "Wir ___ nach Berlin geflogen.", options: ["haben", "sind"], answer: "sind", explanation: "Fliegen implies movement -> sind." }]
                 }
             },
             {
@@ -3505,197 +2576,41 @@ export const syllabusData: Phase[] = [
             },
             {
                 day: 35,
-                title: "Adjective Declension 1: Definite Articles",
-                focus: "Adjective endings with der, die, das",
-                activities: ["Learn endings for Nominative, Accusative, Dative", "Practice with all cases"],
-                homework: ["Describe items with definite articles"],
+                title: "Clothing & Adjective Endings",
+                focus: "Basic declension",
+                activities: ["Colors/Clothes", "Nominative/Accusative endings"],
+                homework: ["Describe someone's outfit"],
                 details: {
                     sections: [
                         {
-                            title: "1. Adjective Declension with Definite Articles",
-                            content: "When an adjective comes *before* a noun, it must be declined. The ending changes based on the noun's gender, case, and the article used. With definite articles (der, die, das), there are two main endings: **-e** or **-en**.",
-                            examples: [
-                                { german: "Der rote Apfel schmeckt gut.", english: "The red apple tastes good." },
-                                { german: "Ich sehe den roten Apfel.", english: "I see the red apple." },
-                                { german: "Ich gebe dem roten Apfel eine Note.", english: "I give the red apple a grade." }
-                            ]
+                            title: "Clothing Vocabulary",
+                            content: "Der Pullover, Die Hose (Pants), Das Hemd (Shirt), Der Schuh (Shoe).",
+                            examples: []
                         },
                         {
-                            title: "2. Endings for Nominative & Accusative",
-                            content: "In Nominative, most adjectives take **-e**. In Accusative, only the masculine form changes to **-en**. This is known as the 'plural and dativ always -en' rule, with accusative masculine as the main exception.",
-                            examples: [
-                                { german: "Nominativ: Der alte Mann, Die junge Frau, Das kleine Kind.", english: "Nominative: The old man, the young woman, the small child." },
-                                { german: "Akkusativ: Ich sehe den alten Mann, die junge Frau, das kleine Kind.", english: "Accusative: I see the old man, the young woman, the small child." }
-                            ]
-                        },
-                        {
-                            title: "3. Endings for Dative and Plural",
-                            content: "This is the easy part: In the Dative case and in all Plural forms (in any case), the adjective ending is **always -en**.",
-                            examples: [
-                                { german: "Dativ: Ich helfe dem alten Mann, der jungen Frau, dem kleinen Kind.", english: "Dative: I help the old man, the young woman, the small child." },
-                                { german: "Plural: Die alten Männer, die jungen Frauen, die kleinen Kinder.", english: "Plural: The old men, the young women, the small children." }
-                            ]
+                            title: "Adjective Endings (Intro)",
+                            content: "Unlike predicative adjectives, these change.\n* **Der** rote Pullover (Nom Masc)\n* **Den** roten Pullover (Acc Masc)\n* **Die** rote Hose (Fem)\n* **Das** rote Hemd (Neut)",
+                            examples: [{ german: "Ich kaufe das rote Kleid.", english: "I buy the red dress." }]
                         }
                     ],
-                    homework: [
-                        {
-                            id: "d35-q1",
-                            type: "text",
-                            question: "Complete: 'Der schnell__ Zug'",
-                            answer: "schnelle",
-                            explanation: "Nominative, masculine, definite article -> -e."
-                        },
-                        {
-                            id: "d35-q2",
-                            type: "text",
-                            question: "Complete: 'Ich sehe den schnell__ Zug.'",
-                            answer: "schnellen",
-                            explanation: "Accusative, masculine, definite article -> -en."
-                        },
-                        {
-                            id: "d35-q3",
-                            type: "text",
-                            question: "Complete: 'Ich fahre mit dem schnell__ Zug.'",
-                            answer: "schnellen",
-                            explanation: "Dative case (mit) -> always -en."
-                        },
-                        {
-                            id: "d35-q4",
-                            type: "text",
-                            question: "Complete: 'Die schön__ Blumen.' (Plural)",
-                            answer: "schönen",
-                            explanation: "Plural adjectives with definite articles always take -en."
-                        },
-                        {
-                            id: "d35-q5",
-                            type: "text",
-                            question: "Complete: 'Das neu__ Auto ist teuer.'",
-                            answer: "neue",
-                            explanation: "Nominative, neuter, definite article -> -e."
-                        }
-                    ]
+                    homework: [{ id: "d35-q1", type: "text", question: "Translate 'The black pants' (Nom).", answer: "Die schwarze Hose", explanation: "Die Hose -> schwarze." }]
                 }
             },
             {
                 day: 36,
-                title: "Adjective Declension 2: Indefinite & Zero Articles",
-                focus: "Endings with ein/eine and no article",
-                activities: ["Learn 'ein' word endings", "Practice with zero-article nouns"],
-                homework: ["Describe items with indefinite articles"],
+                title: "Weather",
+                focus: "Weather vocab",
+                activities: ["Talking about weather", "Seasons recap"],
+                homework: ["Weather report writing"],
                 details: {
                     sections: [
                         {
-                            title: "1. Adjective Declension with Indefinite Articles (ein, eine)",
-                            content: "With indefinite articles, the adjective must show the gender and case of the noun because 'ein' doesn't always do so. These are called 'strong endings'.\n\n**Nominative:**\n* Masc: ein gut**er** Mann (der)\n* Fem: eine gut**e** Frau (die)\n* Neut: ein gut**es** Kind (das)\n\n**Accusative:**\n* Masc: einen gut**en** Mann\n* Fem: eine gut**e** Frau\n* Neut: ein gut**es** Kind",
-                            examples: [
-                                { german: "Das ist ein alter Mann.", english: "That is an old man." },
-                                { german: "Ich sehe einen alten Mann.", english: "I see an old man." },
-                                { german: "Sie kauft eine neue Tasche.", english: "She buys a new bag." }
-                            ]
-                        },
-                        {
-                            title: "2. Adjective Declension with Zero Article",
-                            content: "When there is no article before the noun (e.g., with plural nouns or materials), the adjective takes the strong ending that shows the original article's gender/case.\n\n* **Nominative:** gut**er** Wein (der), gut**e** Milch (die), gut**es** Bier (das)\n* **Plural:** Gut**e** Weine sind teuer. (Good wines are expensive.)\n* **Accusative:** Ich trinke gut**en** Wein, gut**e** Milch, gut**es** Bier.",
-                            examples: [
-                                { german: "Ich trinke gern kaltes Wasser.", english: "I like to drink cold water." },
-                                { german: "Frische Brötchen riechen gut.", english: "Fresh bread rolls smell good." },
-                                { german: "Er isst roten Apfel.", english: "He eats red apple." }
-                            ]
+                            title: "The Weather (Das Wetter)",
+                            content: "* **Die Sonne scheint.** (The sun shines.)\n* **Es regnet.** (It rains.)\n* **Es schneit.** (It snows.)\n* **Es ist windig/wolvig.** (It is windy/cloudy.)",
+                            examples: [{ german: "Wie ist das Wetter heute?", english: "How is the weather today?" }]
                         }
                     ],
-                    homework: [
-                        {
-                            id: "d36-q1",
-                            type: "text",
-                            question: "Complete: 'Das ist ein neu__ Auto.'",
-                            answer: "neues",
-                            explanation: "Nominative, neuter, indefinite article -> -es (strong ending)."
-                        },
-                        {
-                            id: "d36-q2",
-                            type: "text",
-                            question: "Complete: 'Ich habe einen alt__ Computer.'",
-                            answer: "alten",
-                            explanation: "Accusative, masculine, indefinite article -> -en."
-                        },
-                        {
-                            id: "d36-q3",
-                            type: "text",
-                            question: "Complete: 'Sie trinkt frisch__ Milch.' (zero article)",
-                            answer: "frische",
-                            explanation: "Accusative, feminine, zero article -> -e (strong ending)."
-                        },
-                        {
-                            id: "d36-q4",
-                            type: "text",
-                            question: "Complete: 'Guter Wein ist teuer.' (zero article)",
-                            answer: "Guter",
-                            explanation: "Nominative, masculine, zero article -> -er."
-                        },
-                        {
-                            id: "d36-q5",
-                            type: "text",
-                            question: "Complete: 'Ich esse eine groß__ Pizza.'",
-                            answer: "große",
-                            explanation: "Accusative, feminine, indefinite -> -e."
-                        }
-                    ]
-                }
-            },
-            {
-                day: 36.5,
-                title: "Adjective Declension 3: Mixed Practice",
-                focus: "Consolidating all adjective endings",
-                activities: ["Mixed exercises with definite, indefinite, and zero articles"],
-                homework: ["Write a paragraph describing your room or a person"],
-                details: {
-                    sections: [
-                        {
-                            title: "1. Mixed Adjective Declension Practice",
-                            content: "This lesson consolidates everything you've learned about adjective declension. The key is to first identify the article (definite, indefinite, or zero), then the case (Nominative, Accusative, Dative), and finally the gender to choose the correct ending.",
-                            examples: [
-                                { german: "Der alte Mann trinkt einen kalten Saft.", english: "The old man drinks a cold juice." },
-                                { german: "Ich sehe die schöne Frau mit dem roten Auto.", english: "I see the beautiful woman with the red car." }
-                            ]
-                        }
-                    ],
-                    homework: [
-                        {
-                            id: "d36.5-q1",
-                            type: "text",
-                            question: "Complete: 'Ich kaufe d__ neu__ Pullover (der).'",
-                            answer: "den neuen",
-                            explanation: "Accusative, masculine, definite article."
-                        },
-                        {
-                            id: "d36.5-q2",
-                            type: "text",
-                            question: "Complete: 'Sie hat ein__ schön__ Kleid (das).'",
-                            answer: "ein schönes",
-                            explanation: "Accusative, neuter, indefinite article."
-                        },
-                        {
-                            id: "d36.5-q3",
-                            type: "text",
-                            question: "Complete: 'Wir essen frisch__ Brot (das) mit gut__ Butter (die).'",
-                            answer: "frisches Brot mit guter Butter",
-                            explanation: "Zero article Accusative (frisches) and Dative (mit guter)."
-                        },
-                        {
-                            id: "d36.5-q4",
-                            type: "text",
-                            question: "Complete: 'Er hilft ein__ alt__ Frau (die).'",
-                            answer: "einer alten",
-                            explanation: "Dative (helfen), feminine, indefinite article."
-                        },
-                        {
-                            id: "d36.5-q5",
-                            type: "text",
-                            question: "Complete: 'D__ klein__ Kinder (plural) spielen mit d__ groß__ Bällen (plural).'",
-                            answer: "Die kleinen Kinder spielen mit den großen Bällen",
-                            explanation: "Nominative plural (die kleinen) and Dative plural (mit den großen)."
-                        }
-                    ]
+                    homework: [{ id: "d36-q1", type: "text", question: "Translate 'It is raining.'", answer: "Es regnet.", explanation: "Regnen." }]
                 }
             },
             {
@@ -3733,82 +2648,6 @@ export const syllabusData: Phase[] = [
                 }
             },
             {
-                day: 38.5,
-                title: "Subordinating Conjunctions: weil & dass",
-                focus: "Verb-final word order, giving reasons",
-                activities: ["Learn 'weil' for reasons", "Learn 'dass' for clauses", "Practice verb-to-end rule"],
-                homework: ["Combine sentences using 'weil' and 'dass'"],
-                details: {
-                    sections: [
-                        {
-                            title: "1. Subordinating Conjunctions & Verb-Final Rule",
-                            content: "Subordinating conjunctions connect a main clause to a dependent (subordinate) clause. The most important rule is: **the conjugated verb moves to the very end of the subordinate clause.**\n\n**Main Clause:** Ich kann nicht kommen.\n**Reason:** Ich muss arbeiten.\n\n**Combined with 'weil':**\nIch kann nicht kommen, **weil** ich arbeiten **muss**.\n\nThis verb-final word order is a fundamental concept in German.",
-                            examples: [
-                                { german: "Ich lerne Deutsch, weil ich in Deutschland leben möchte.", english: "I am learning German because I want to live in Germany." },
-                                { german: "Er kommt nicht, weil er krank ist.", english: "He is not coming because he is sick." }
-                            ]
-                        },
-                        {
-                            title: "2. Using 'weil' (because)",
-                            content: "'Weil' is used to give a reason or cause for the action in the main clause. It answers the question 'Warum?' (Why?).\n\n**Structure:**\n[Main Clause], **weil** [Subject] [...other info...] [Verb at End].",
-                            examples: [
-                                { german: "Ich trinke Kaffee, weil ich müde bin.", english: "I drink coffee because I am tired." },
-                                { german: "Sie lernt Spanisch, weil ihre Mutter aus Spanien kommt.", english: "She learns Spanish because her mother comes from Spain." },
-                                { german: "Wir gehen nicht spazieren, weil es regnet.", english: "We are not going for a walk because it is raining." }
-                            ]
-                        },
-                        {
-                            title: "3. Using 'dass' (that)",
-                            content: "'Dass' is used to introduce a clause that is the object of the main verb, often for reporting speech, thoughts, or opinions.\n\n**Structure:**\n[Main Clause], **dass** [Subject] [...other info...] [Verb at End].\n\nCommon verbs used with 'dass' are: **denken** (to think), **sagen** (to say), **wissen** (to know), **glauben** (to believe), **hoffen** (to hope).",
-                            examples: [
-                                { german: "Ich denke, dass das Wetter schön ist.", english: "I think that the weather is nice." },
-                                { german: "Er sagt, dass er morgen kommt.", english: "He says that he is coming tomorrow." },
-                                { german: "Sie weiß, dass die Prüfung schwer ist.", english: "She knows that the exam is difficult." },
-                                { german: "Wir hoffen, dass du Zeit hast.", english: "We hope that you have time." }
-                            ]
-                        }
-                    ],
-                    homework: [
-                        {
-                            id: "d38.5-q1",
-                            type: "text",
-                            question: "Combine with 'weil': 'Ich bleibe zu Hause. Es regnet.'",
-                            answer: "Ich bleibe zu Hause, weil es regnet.",
-                            explanation: "The verb 'regnet' moves to the end of the clause introduced by 'weil'."
-                        },
-                        {
-                            id: "d38.5-q2",
-                            type: "text",
-                            question: "Combine with 'dass': 'Er denkt. Das Essen ist lecker.'",
-                            answer: "Er denkt, dass das Essen lecker ist.",
-                            explanation: "The verb 'ist' moves to the end of the 'dass' clause."
-                        },
-                        {
-                            id: "d38.5-q3",
-                            type: "choice",
-                            question: "Correct sentence: 'Ich kann nicht, weil ...'",
-                            options: ["ich habe keine Zeit.", "ich keine Zeit habe.", "habe ich keine Zeit."],
-                            answer: "ich keine Zeit habe.",
-                            explanation: "The conjugated verb 'habe' must go to the end of the 'weil' clause."
-                        },
-                        {
-                            id: "d38.5-q4",
-                            type: "text",
-                            question: "Translate: 'I hope that you are coming.'",
-                            answer: "Ich hoffe, dass du kommst.",
-                            explanation: "'kommst' moves to the end of the subordinate clause."
-                        },
-                        {
-                            id: "d38.5-q5",
-                            type: "text",
-                            question: "Why are you learning German? Answer with 'weil'.",
-                            answer: "Ich lerne Deutsch, weil ich es interessant finde.",
-                            explanation: "Example answer. The key is the verb 'finde' at the end."
-                        }
-                    ]
-                }
-            },
-            {
                 day: 39,
                 title: "Conjunctions",
                 focus: "Main clauses",
@@ -3823,82 +2662,6 @@ export const syllabusData: Phase[] = [
                         }
                     ],
                     homework: [{ id: "d39-q1", type: "choice", question: "Ich möchte Wein, ___ (but) ich muss fahren.", options: ["aber", "denn"], answer: "aber", explanation: "Aber = but." }]
-                }
-            },
-            {
-                day: 39.5,
-                title: "Subordinating Conjunctions: wenn & ob",
-                focus: "Conditional clauses and indirect questions",
-                activities: ["Learn 'wenn' vs 'wann'", "Practice 'ob' for yes/no questions"],
-                homework: ["Sentence transformations with 'wenn' and 'ob'"],
-                details: {
-                    sections: [
-                        {
-                            title: "1. Conditional & Temporal 'wenn' (if/when)",
-                            content: "The conjunction 'wenn' is versatile and can mean 'if' (for conditional sentences) or 'when'/'whenever' (for temporal sentences). In both cases, it sends the conjugated verb to the end of the clause.\n\n**Conditional 'wenn'**: Used for 'if...then' scenarios.\n**Temporal 'wenn'**: Used for repeated actions in the present or past, or a single action in the future.",
-                            examples: [
-                                { german: "Wenn es regnet, bleibe ich zu Hause.", english: "If it rains, I stay at home. (Conditional)" },
-                                { german: "Wenn ich Zeit habe, lese ich ein Buch.", english: "When(ever) I have time, I read a book. (Temporal)" },
-                                { german: "Ruf mich an, wenn du ankommst.", english: "Call me when you arrive. (Future temporal)" }
-                            ]
-                        },
-                        {
-                            title: "2. 'wenn' vs. 'wann'",
-                            content: "This is a common point of confusion. \n\n* **wann**: Is a question word ('When?'). It asks for a point in time. It is used in indirect questions.\n* **wenn**: Is a conjunction ('if'/'whenever'). It introduces a condition or a temporal clause.\n\n**Direct Question:** **Wann** kommst du?\n**Indirect Question:** Ich weiß nicht, **wann** er kommt.\n**Conditional:** **Wenn** er kommt, bin ich glücklich.",
-                            examples: [
-                                { german: "Wann beginnt der Film?", english: "When does the film start? (Question)" },
-                                { german: "Ich frage mich, wann der Film beginnt.", english: "I wonder when the film starts. (Indirect Question)" },
-                                { german: "Wenn der Film beginnt, müssen wir leise sein.", english: "When the film starts, we must be quiet. (Conjunction)" }
-                            ]
-                        },
-                        {
-                            title: "3. Indirect Questions with 'ob' (if/whether)",
-                            content: "'Ob' is used to introduce a subordinate clause that represents a yes/no question. It translates to 'if' or 'whether'. The verb-final rule also applies.\n\n**Direct Yes/No Question:** Kommst du zur Party?\n**Indirect Question with 'ob':** Ich weiß nicht, **ob** du zur Party **kommst**.",
-                            examples: [
-                                { german: "Er fragt, ob du Zeit hast.", english: "He asks if you have time." },
-                                { german: "Ich bin nicht sicher, ob das eine gute Idee ist.", english: "I am not sure if that is a good idea." },
-                                { german: "Kannst du mir sagen, ob der Zug pünktlich ist?", english: "Can you tell me if the train is on time?" }
-                            ]
-                        }
-                    ],
-                    homework: [
-                        {
-                            id: "d39.5-q1",
-                            type: "text",
-                            question: "Combine with 'wenn': 'Das Wetter ist gut. Wir gehen spazieren.'",
-                            answer: "Wenn das Wetter gut ist, gehen wir spazieren.",
-                            explanation: "The verb 'ist' moves to the end of the 'wenn' clause."
-                        },
-                        {
-                            id: "d39.5-q2",
-                            type: "text",
-                            question: "Turn into an indirect question with 'ob': 'Hat er Zeit?' (I don't know...)",
-                            answer: "Ich weiß nicht, ob er Zeit hat.",
-                            explanation: "The verb 'hat' moves to the end of the 'ob' clause."
-                        },
-                        {
-                            id: "d39.5-q3",
-                            type: "choice",
-                            question: "Choose the correct word: 'Ich weiß nicht, ___ er kommt.' (I don't know WHEN he is coming.)",
-                            options: ["wenn", "wann", "ob"],
-                            answer: "wann",
-                            explanation: "'Wann' is used for indirect questions about time."
-                        },
-                        {
-                            id: "d39.5-q4",
-                            type: "text",
-                            question: "Translate: 'I don't know if he likes pizza.'",
-                            answer: "Ich weiß nicht, ob er Pizza mag.",
-                            explanation: "'mag' is the conjugated verb and moves to the end."
-                        },
-                        {
-                            id: "d39.5-q5",
-                            type: "text",
-                            question: "Combine with 'wenn': 'Ich habe Geld. Ich kaufe ein Auto.'",
-                            answer: "Wenn ich Geld habe, kaufe ich ein Auto.",
-                            explanation: "Conditional sentence. Note the inversion in the main clause."
-                        }
-                    ]
                 }
             },
             {
