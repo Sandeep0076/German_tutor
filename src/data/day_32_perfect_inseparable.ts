@@ -1,4 +1,4 @@
-import { DayPlan } from './syllabus';
+import type { DayPlan } from './syllabus';
 
 export const day32PerfectInseparable: DayPlan = {
     day: 32,
