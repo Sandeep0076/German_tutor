@@ -9,13 +9,21 @@ const MockTester = () => {
     const [revealedIds, setRevealedIds] = useState<Set<string>>(new Set());
 
     const toggleReveal = (id: string) => {
-        const newRevealed = new Set(revealedIds);
-        if (newRevealed.has(id)) {
-            newRevealed.delete(id);
-        } else {
-            newRevealed.add(id);
+        console.log('Toggle reveal called for ID:', id, 'Current revealed IDs:', Array.from(revealedIds));
+        try {
+            const newRevealed = new Set(revealedIds);
+            if (newRevealed.has(id)) {
+                newRevealed.delete(id);
+                console.log('Hiding answer for:', id);
+            } else {
+                newRevealed.add(id);
+                console.log('Revealing answer for:', id);
+            }
+            setRevealedIds(newRevealed);
+            console.log('State updated successfully, new revealed IDs:', Array.from(newRevealed));
+        } catch (error) {
+            console.error('Error in toggleReveal:', error);
         }
-        setRevealedIds(newRevealed);
     };
 
     const categories = ['All', ...Array.from(new Set(mockQuestions.map(q => q.category)))];
@@ -67,7 +75,7 @@ const MockTester = () => {
                 ${revealedIds.has(q.id) ? 'bg-emerald-50 border border-emerald-100' : 'bg-slate-100 border border-dashed border-slate-300 min-h-[5rem] flex items-center justify-center'}
               `}>
                                 {revealedIds.has(q.id) ? (
-                                    <div className="animate-in fade-in zoom-in-95 duration-200">
+                                    <div className="opacity-100 transition-opacity duration-200 reveal-content">
                                         <p className="text-emerald-900 whitespace-pre-line font-medium">{q.answer}</p>
                                         {q.tips && (
                                             <div className="mt-3 text-xs text-emerald-600 flex items-start gap-1">
@@ -86,13 +94,19 @@ const MockTester = () => {
                         {/* Actions */}
                         <div className="p-4 bg-slate-50 border-t border-slate-100 flex justify-between items-center">
                             <button
-                                onClick={() => toggleReveal(q.id)}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    console.log('Mock tester reveal button clicked:', q.id);
+                                    toggleReveal(q.id);
+                                }}
                                 className={`
-                  flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors
+                  flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors touch-manipulation
                   ${revealedIds.has(q.id)
                                         ? 'text-slate-500 hover:text-slate-700'
                                         : 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-sm'}
                 `}
+                                style={{ WebkitTapHighlightColor: 'transparent' }}
                             >
                                 {revealedIds.has(q.id) ? (
                                     <> <EyeOff size={16} /> Hide Answer </>

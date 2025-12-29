@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { syllabusData, type DayPlan, type Question } from '../data/syllabus';
 import { ArrowLeft, Volume2, Check, ChevronDown, ChevronUp, CheckCircle } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 import LessonChatbot from '../components/LessonChatbot';
+import ErrorBoundary from '../components/ErrorBoundary';
 import { speak } from '../utils/speech';
 
 const LessonDetail = () => {
@@ -168,7 +169,9 @@ const HomeworkSection = ({
             </div>
 
             {content.homework.map((q: Question, idx: number) => (
-                <HomeworkItem key={q.id} question={q} index={idx + 1} />
+                <ErrorBoundary key={q.id}>
+                    <HomeworkItem question={q} index={idx + 1} />
+                </ErrorBoundary>
             ))}
             
             {/* Complete Day Button for Homework Tab */}
@@ -195,6 +198,18 @@ const HomeworkSection = ({
 const HomeworkItem = ({ question, index }: { question: Question, index: number }) => {
     const [revealed, setRevealed] = useState(false);
     const [userAnswer, setUserAnswer] = useState('');
+
+    const handleRevealToggle = useCallback((e: React.MouseEvent) => {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('Reveal answer clicked:', question.id, 'Current state:', revealed);
+        try {
+            setRevealed(prev => !prev);
+            console.log('State updated successfully');
+        } catch (error) {
+            console.error('Error updating reveal state:', error);
+        }
+    }, [revealed, question.id]);
 
     return (
         <div className="border border-slate-200 rounded-xl p-5 hover:border-indigo-200 transition-colors bg-white">
@@ -230,15 +245,16 @@ const HomeworkItem = ({ question, index }: { question: Question, index: number }
                     {/* Reveal Answer */}
                     <div className="pt-2">
                         <button
-                            onClick={() => setRevealed(!revealed)}
-                            className="text-sm font-medium text-indigo-600 flex items-center gap-1 hover:text-indigo-800"
+                            onClick={handleRevealToggle}
+                            className="text-sm font-medium text-indigo-600 flex items-center gap-1 hover:text-indigo-800 touch-manipulation"
+                            style={{ WebkitTapHighlightColor: 'transparent' }}
                         >
                             {revealed ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
                             {revealed ? 'Hide Answer' : 'Reveal Answer'}
                         </button>
 
                         {revealed && (
-                            <div className="mt-3 bg-slate-50 p-3 rounded-lg border border-slate-100 text-sm">
+                            <div className="mt-3 bg-slate-50 p-3 rounded-lg border border-slate-100 text-sm reveal-content">
                                 <p className="font-semibold text-slate-800">Correct Answer: <span className="text-emerald-600">{question.answer}</span></p>
                                 {question.explanation && <p className="text-slate-500 mt-1">{question.explanation}</p>}
                             </div>

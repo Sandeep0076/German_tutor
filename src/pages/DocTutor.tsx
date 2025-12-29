@@ -168,14 +168,25 @@ const QuizItem = ({ question }: { question: any }) => {
             <p className="font-medium text-slate-800 mb-3">{question.q}</p>
 
             {revealed ? (
-                <div className="bg-emerald-50 text-emerald-800 p-3 rounded-lg text-sm font-medium animate-in fade-in">
+                <div className="bg-emerald-50 text-emerald-800 p-3 rounded-lg text-sm font-medium reveal-content">
                     <Check size={16} className="inline mr-2" />
                     {question.a}
                 </div>
             ) : (
                 <button
-                    onClick={() => setRevealed(true)}
-                    className="text-sm text-indigo-600 font-medium hover:text-indigo-800 flex items-center gap-1"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        console.log('DocTutor reveal answer clicked');
+                        try {
+                            setRevealed(true);
+                            console.log('DocTutor answer revealed successfully');
+                        } catch (error) {
+                            console.error('Error revealing DocTutor answer:', error);
+                        }
+                    }}
+                    className="text-sm text-indigo-600 font-medium hover:text-indigo-800 flex items-center gap-1 touch-manipulation"
+                    style={{ WebkitTapHighlightColor: 'transparent' }}
                 >
                     Reveal Answer <ChevronRight size={14} />
                 </button>

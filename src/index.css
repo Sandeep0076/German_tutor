@@ -69,4 +69,64 @@
   .perspective-1000 {
     perspective: 1000px;
   }
+
+  /* Mobile-specific fixes */
+  .touch-manipulation {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+/* Mobile browser fixes */
+@media screen and (max-width: 768px) {
+  body {
+    /* Disable complex gradients on mobile to prevent rendering issues */
+    background: #f0f4f8 !important;
+    animation: none !important;
+  }
+  
+  .glass,
+  .glass-card,
+  .glass-panel {
+    /* Simplify backdrop effects on mobile */
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+  }
+
+  /* Prevent zoom on form inputs */
+  input, textarea, select {
+    font-size: 16px !important;
+  }
+
+  /* Prevent layout jumps when content is revealed */
+  .reveal-content {
+    min-height: 1px;
+    overflow: hidden;
+  }
+}
+
+/* Fix for mobile Chrome blank page issue */
+@supports (-webkit-touch-callout: none) {
+  .reveal-content {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: auto;
+  }
+
+  /* Additional mobile webkit fixes */
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
 }
