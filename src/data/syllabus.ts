@@ -23,6 +23,7 @@ export interface LessonContent {
 import verbConjugationChart from '../images/verb-conjugation-chart.jpeg';
 import articlesImage from '../images/articles.jpg';
 import einOderEinenImage from '../images/ein-oder-einen.jpg';
+import chart3Image from '../images/chart3.jpg';
 
 export interface DayPlan {
     day: number;
@@ -997,20 +998,38 @@ export const syllabusData: Phase[] = [
                             ]
                         },
                         {
-                            title: "3. Indefinite Articles: Ein, Eine, Ein",
-                            image: einOderEinenImage,
-                            content: "The indefinite articles correspond to 'a' or 'an' in English. They change based on the gender of the noun they accompany.\n\n**Indefinite Article System:**\n* **Masculine (der) → ein**: ein Tisch, ein Mann, ein Apfel\n* **Feminine (die) → eine**: eine Lampe, eine Frau, eine Banane  \n* **Neuter (das) → ein**: ein Auto, ein Kind, ein Haus\n* **Plural**: NO indefinite article (just like English: 'books', not 'a books')\n\n**Usage Patterns:**\n1. **Introducing something new:** Das ist ein Auto. (That's a car.)\n2. **Talking about professions:** Ich bin ein Lehrer. (I am a teacher.)\n3. **Describing quantities:** Ich möchte ein Bier. (I would like a beer.)\n4. **General statements:** Ein Hund ist ein Tier. (A dog is an animal.)\n\n**Important Notes:**\n- Unlike English, you can't use the indefinite article with plural nouns\n- The indefinite article changes form in Accusative case (later lesson)\n- Some expressions don't use articles where English does\n\n**Negative Form - Kein:**\nThe negative form of 'ein' is 'kein' (no/not a):\n* ein Apfel → kein Apfel (no apple)\n* eine Lampe → keine Lampe (no lamp)\n* ein Auto → kein Auto (no car)",
+                            title: "3. Understanding Subjects and Objects: The Foundation (MANDATORY)",
+                            content: "**This is the bread and butter of A1 German!** Before we learn how German marks subjects and objects, we need to understand WHAT they are. Don't skip this section!\n\n**STEP 1: What is a SUBJECT?**\n\nThe subject is the **DOER** of the action in a sentence. It's the person or thing that performs the verb.\n\n**How to find the subject:**\nAsk: **\"Who or what is doing the action?\"**\n\n**English Examples:**\n* **The dog** barks. → Who barks? → The dog (subject)\n* **Maria** reads a book. → Who reads? → Maria (subject)\n* **The car** is red. → What is red? → The car (subject)\n\n**German Examples:**\n* **Der Hund** bellt. → Wer bellt? → Der Hund (subject)\n* **Maria** liest ein Buch. → Wer liest? → Maria (subject)\n* **Das Auto** ist rot. → Was ist rot? → Das Auto (subject)\n\n**STEP 2: What is an OBJECT?**\n\nThe object is the **RECEIVER** of the action. It's the person or thing that the action is done TO.\n\n**How to find the object:**\nAsk: **\"Who or what is receiving the action?\"**\n\n**English Examples:**\n* The dog sees **the cat**. → What does the dog see? → the cat (object)\n* Maria reads **a book**. → What does Maria read? → a book (object)\n* I love **you**. → Whom do I love? → you (object)\n\n**German Examples:**\n* Der Hund sieht **die Katze**. → Was sieht der Hund? → die Katze (object)\n* Maria liest **ein Buch**. → Was liest Maria? → ein Buch (object)\n* Ich liebe **dich**. → Wen liebe ich? → dich (object)\n\n**STEP 3: Practice Identifying Subjects and Objects**\n\nLet's analyze this sentence together:\n**\"The man buys an apple.\"**\n\n1. Find the verb: **buys**\n2. Ask \"Who buys?\" → **The man** (SUBJECT - the doer)\n3. Ask \"What does he buy?\" → **an apple** (OBJECT - the receiver)\n\n**Another example:**\n**\"The teacher asks the student.\"**\n\n1. Find the verb: **asks**\n2. Ask \"Who asks?\" → **The teacher** (SUBJECT - the doer)\n3. Ask \"Whom does the teacher ask?\" → **the student** (OBJECT - the receiver)\n\n**STEP 4: Now Let's Learn How German Shows This!**\n\n**What Are Cases?**\nIn English, we show subject and object mainly through word order. In German, we use **CASES** - special forms of articles that show whether a noun is the subject or object.\n\nGerman has four cases, but at A1 level, you MUST master these two:\n\n**1. NOMINATIVE CASE (Der Nominativ) = SUBJECT**\n* **Function:** Marks the **SUBJECT** - the \"doer\" of the action\n* **Question:** Wer? (Who?) or Was? (What?) is doing the action?\n* **Position:** Usually before the verb in statements\n\n**2. ACCUSATIVE CASE (Der Akkusativ) = DIRECT OBJECT**\n* **Function:** Marks the **DIRECT OBJECT** - the \"receiver\" of the action\n* **Question:** Wen? (Whom?) or Was? (What?) is receiving the action?\n* **Position:** Usually after the verb\n\n**STEP 5: THE GOLDEN RULE (Memorize This!):**\n\n🌟 **ONLY THE MASCULINE ARTICLES CHANGE!** 🌟\n\nWhen a masculine noun changes from subject to object, its article changes:\n\n**Nominative (Subject) → Accusative (Object):**\n* **Masculine:** der → den, ein → einen ✓ **CHANGES!**\n* **Feminine:** die → die, eine → eine (NO CHANGE)\n* **Neuter:** das → das, ein → ein (NO CHANGE)\n* **Plural:** die → die (NO CHANGE)\n\n**Quick Reference:**\n* **Masculine changes:** der → den, ein → einen\n* **Everything else stays the same!**\n* **Memory trick:** Think of 'N' for 'eN' (den, einen, keinen)\n\n**STEP 6: Putting It All Together**\n\n**Example Analysis:**\n**Sentence:** Der Mann kauft einen Apfel.\n\n1. **Find the verb:** kauft (buys)\n2. **Find the subject:** Wer kauft? → **Der Mann** (Nominative - subject)\n3. **Find the object:** Was kauft der Mann? → **einen Apfel** (Accusative - object)\n4. **Why 'einen'?** Because Apfel is masculine AND it's the object!\n5. **Translation:** The man buys an apple.\n\n**Another Example:**\n**Sentence:** Ich sehe den Lehrer.\n\n1. **Find the verb:** sehe (see)\n2. **Find the subject:** Wer sieht? → **Ich** (Nominative - subject)\n3. **Find the object:** Wen sehe ich? → **den Lehrer** (Accusative - object)\n4. **Why 'den'?** Because Lehrer is masculine AND it's the object!\n5. **Translation:** I see the teacher.\n\n**Common Verbs That Take Accusative Objects:**\n* **haben** (to have): Ich habe einen Hund.\n* **sehen** (to see): Ich sehe den Film.\n* **trinken** (to drink): Er trinkt einen Kaffee.\n* **essen** (to eat): Sie isst einen Apfel.\n* **kaufen** (to buy): Wir kaufen ein Auto.\n* **lesen** (to read): Du liest das Buch.\n* **lieben** (to love): Ich liebe dich.\n* **brauchen** (to need): Er braucht einen Stift.\n\n**Negative Form - Kein:**\nThe negative 'kein' follows the same pattern:\n* **Nominative:** kein Mann, keine Frau, kein Kind\n* **Accusative:** keinen Mann, keine Frau, kein Kind\n\n**Critical Mistakes to Avoid:**\n* ❌ Ich sehe der Mann. → ✅ Ich sehe den Mann.\n* ❌ Er hat ein Bruder. → ✅ Er hat einen Bruder.\n* ❌ Wir kaufen einen Auto. → ✅ Wir kaufen ein Auto. (neuter doesn't change!)",
+                            image: chart3Image,
+                            imagePosition: "right",
                             examples: [
-                                { german: "Das ist ein Tisch (der).", english: "That is a table." },
-                                { german: "Ich habe eine Lampe (die).", english: "I have a lamp." },
-                                { german: "Das ist ein Haus (das).", english: "That is a house." },
-                                { german: "Das sind Bücher.", english: "Those are books. (No indefinite article for plural)" },
-                                { german: "Ich habe kein Auto.", english: "I don't have a car." },
-                                { german: "Sie ist eine Lehrerin.", english: "She is a teacher." }
+                                { german: "Der Mann kauft einen Apfel.", english: "The man (subject-NOM) buys an apple (object-ACC, masculine)." },
+                                { german: "Ich sehe den Lehrer.", english: "I see the teacher (object-ACC, masculine: der→den)." },
+                                { german: "Sie hat einen Bruder.", english: "She has a brother (object-ACC, masculine: ein→einen)." },
+                                { german: "Wir trinken die Milch.", english: "We drink the milk (object-ACC, feminine: die→die, NO CHANGE)." },
+                                { german: "Er liest das Buch.", english: "He reads the book (object-ACC, neuter: das→das, NO CHANGE)." },
+                                { german: "Die Frau kauft eine Lampe.", english: "The woman (subject-NOM) buys a lamp (object-ACC, feminine: eine→eine, NO CHANGE)." },
+                                { german: "Ich brauche keinen Stift.", english: "I don't need a pen (object-ACC, masculine: kein→keinen)." },
+                                { german: "Der Hund sieht den Vogel.", english: "The dog (subject-NOM) sees the bird (object-ACC, masculine: der→den)." },
+                                { german: "Hast du einen Computer?", english: "Do you have a computer? (object-ACC, masculine: ein→einen)" },
+                                { german: "Sie liebt den Film.", english: "She loves the film (object-ACC, masculine: der→den)." }
                             ]
                         },
                         {
-                            title: "4. Plural Formation - The Five Ways",
+                            title: "4. Indefinite Articles: Ein, Eine, Ein",
+                            content: "The indefinite articles correspond to 'a' or 'an' in English. They change based on the gender of the noun they accompany.\n\n**Indefinite Article System (Nominative):**\n* **Masculine (der) → ein**: ein Tisch, ein Mann, ein Apfel\n* **Feminine (die) → eine**: eine Lampe, eine Frau, eine Banane  \n* **Neuter (das) → ein**: ein Auto, ein Kind, ein Haus\n* **Plural**: NO indefinite article (just like English: 'books', not 'a books')\n\n**Indefinite Article System (Accusative):**\n* **Masculine (der) → einen**: einen Tisch, einen Mann, einen Apfel\n* **Feminine (die) → eine**: eine Lampe, eine Frau, eine Banane (NO CHANGE)\n* **Neuter (das) → ein**: ein Auto, ein Kind, ein Haus (NO CHANGE)\n\n**Usage Patterns:**\n1. **Introducing something new:** Das ist ein Auto. (That's a car.)\n2. **Talking about professions:** Ich bin ein Lehrer. (I am a teacher.)\n3. **Describing quantities:** Ich möchte ein Bier. (I would like a beer.)\n4. **With accusative objects:** Ich habe einen Hund. (I have a dog.)\n\n**Important Notes:**\n- Unlike English, you can't use the indefinite article with plural nouns\n- Remember: ein→einen for masculine accusative objects!\n- Some expressions don't use articles where English does\n\n**Negative Form - Kein:**\nThe negative form of 'ein' is 'kein' (no/not a):\n* **Nominative:** kein Apfel, keine Lampe, kein Auto\n* **Accusative:** keinen Apfel, keine Lampe, kein Auto",
+                            examples: [
+                                { german: "Das ist ein Tisch (der).", english: "That is a table. (Nominative)" },
+                                { german: "Ich habe eine Lampe (die).", english: "I have a lamp. (Accusative, feminine - no change)" },
+                                { german: "Das ist ein Haus (das).", english: "That is a house. (Nominative)" },
+                                { german: "Ich kaufe einen Tisch (der).", english: "I buy a table. (Accusative, masculine: ein→einen)" },
+                                { german: "Das sind Bücher.", english: "Those are books. (No indefinite article for plural)" },
+                                { german: "Ich habe kein Auto.", english: "I don't have a car. (Accusative, neuter)" },
+                                { german: "Sie ist eine Lehrerin.", english: "She is a teacher. (Nominative)" }
+                            ]
+                        },
+                        {
+                            title: "5. Plural Formation - The Five Ways",
                             content: "German plurals are more complex than English. There are five main patterns, and you must memorize the plural form with each noun.\n\n**Type 1: Add -n or -en (Most Common)**\nMost feminine nouns and many masculines:\n* die Lampe → die Lampen (lamps)\n* die Frau → die Frauen (women)\n* der Herr → die Herren (gentlemen)\n* der Mensch → die Menschen (people)\n\n**Type 2: Add -e (Common)**\nMany masculine and some neuter one-syllable nouns:\n* der Tag → die Tage (days)\n* der Hund → die Hunde (dogs)\n* das Jahr → die Jahre (years)\n* Sometimes with Umlaut: der Ball → die Bälle (balls)\n\n**Type 3: Add -er (Neuter + Some Masculine)**\nMost neuter one-syllable nouns, often with Umlaut:\n* das Kind → die Kinder (children)\n* das Haus → die Häuser (houses)\n* der Mann → die Männer (men)\n* das Buch → die Bücher (books)\n\n**Type 4: Add -s (Foreign Words)**\nLoanwords, especially from English:\n* das Auto → die Autos (cars)\n* das Hotel → die Hotels (hotels)\n* der Chef → die Chefs (bosses)\n* das Foto → die Fotos (photos)\n\n**Type 5: No Change (Often with Umlaut)**\nWords ending in -el, -en, -er, some neuters:\n* der Lehrer → die Lehrer (teachers)\n* das Mädchen → die Mädchen (girls)\n* der Apfel → die Äpfel (apples)\n* die Mutter → die Mütter (mothers)\n\n**Learning Strategy:**\nAlways learn: Article + Singular + Plural\nExample: der Tisch, die Tische (not just 'Tisch')",
                             examples: [
                                 { german: "die Blume → die Blumen", english: "flower → flowers (add -n)" },
@@ -1022,7 +1041,7 @@ export const syllabusData: Phase[] = [
                             ]
                         },
                         {
-                            title: "5. Compound Nouns - German's Building Blocks",
+                            title: "6. Compound Nouns - German's Building Blocks",
                             content: "German is famous for creating long compound nouns by combining multiple words. The gender is always determined by the LAST word in the compound.\n\n**Formation Rule:**\nWord 1 + Word 2 + Word 3... = Compound Noun\n**Gender = Gender of the LAST word**\n\n**Common Compound Patterns:**\n1. **Noun + Noun:** das Haus (house) + die Tür (door) = die Haustür (front door)\n2. **Verb + Noun:** schlafen (sleep) + das Zimmer (room) = das Schlafzimmer (bedroom)\n3. **Adjective + Noun:** klein (small) + das Kind (child) = das Kleinkind (toddler)\n\n**Connecting Elements (Fugen-s/n):**\nSometimes a connecting element is added:\n* der Geburtstag (birthday) = die Geburt + -s- + der Tag\n* die Studentenpartei = der Student + -en- + die Partei\n\n**Useful Household Compounds:**\n* die Küche (kitchen) + der Tisch (table) = der Küchentisch (kitchen table)\n* das Wohn (living) + das Zimmer (room) = das Wohnzimmer (living room)\n* das Bade (bath) + das Zimmer (room) = das Badezimmer (bathroom)\n* schlafen (sleep) + das Zimmer (room) = das Schlafzimmer (bedroom)",
                             examples: [
                                 { german: "die Haustür", english: "front door (das Haus + die Tür = die Tür determines gender)" },
@@ -1060,144 +1079,204 @@ export const syllabusData: Phase[] = [
                         {
                             id: "d7-q4",
                             type: "text",
-                            question: "Translate: 'That is a car.'",
-                            answer: "Das ist ein Auto.",
-                            explanation: "Das Auto (neuter) → ein Auto."
+                            question: "Complete: 'Sie kauft ___ Apfel.' (She buys an apple - der Apfel)",
+                            answer: "einen Apfel",
+                            explanation: "Apfel is masculine and the OBJECT. Accusative: ein → einen Apfel."
                         },
                         {
                             id: "d7-q5",
                             type: "choice",
-                            question: "What gender is 'Universität' (university)?",
-                            options: ["masculine", "feminine", "neuter"],
-                            answer: "feminine",
-                            explanation: "Words ending in -tät are always feminine: die Universität."
+                            question: "Complete: 'Ich trinke ___ Milch.' (I drink the milk - die Milch)",
+                            options: ["der", "die", "den"],
+                            answer: "die",
+                            explanation: "Milch is feminine. Feminine doesn't change in accusative: die → die!"
                         },
                         {
                             id: "d7-q6",
                             type: "text",
-                            question: "Plural of 'das Kind' (child)?",
-                            answer: "die Kinder",
-                            explanation: "Neuter monosyllabic noun: Kind → Kinder (add -er)."
+                            question: "Complete: 'Er liest ___ Buch.' (He reads the book - das Buch)",
+                            answer: "das Buch",
+                            explanation: "Buch is neuter. Neuter doesn't change in accusative: das → das!"
                         },
                         {
                             id: "d7-q7",
                             type: "choice",
-                            question: "Article for 'Mädchen' (girl)?",
-                            options: ["der", "die", "das"],
-                            answer: "das",
-                            explanation: "Words ending in -chen are always neuter: das Mädchen."
+                            question: "Identify the case: 'Der Lehrer fragt den Schüler.' What case is 'den Schüler'?",
+                            options: ["Nominative (subject)", "Accusative (object)", "Dative"],
+                            answer: "Accusative (object)",
+                            explanation: "Den Schüler receives the action (is being asked). It's the direct object = Accusative."
                         },
                         {
                             id: "d7-q8",
                             type: "text",
-                            question: "Indefinite article for 'Frau' (woman)?",
-                            answer: "eine",
-                            explanation: "Die Frau (feminine) → eine Frau."
+                            question: "Complete: 'Wir brauchen ___ Stift.' (We need a pen - der Stift)",
+                            answer: "einen Stift",
+                            explanation: "Stift is masculine and the OBJECT. Accusative: ein → einen Stift."
                         },
                         {
                             id: "d7-q9",
                             type: "choice",
-                            question: "Plural of 'der Apfel' (apple)?",
-                            options: ["die Äpfel", "die Apfel", "die Äpfels"],
-                            answer: "die Äpfel",
-                            explanation: "Words ending in -el: no change but add Umlaut: Apfel → Äpfel."
+                            question: "Complete: 'Hast du ___ Computer?' (Do you have a computer - der Computer)",
+                            options: ["ein", "einen", "eine"],
+                            answer: "einen",
+                            explanation: "Computer is masculine and the OBJECT. Accusative: ein → einen Computer."
                         },
                         {
                             id: "d7-q10",
                             type: "text",
-                            question: "What gender is 'Computer'?",
-                            answer: "masculine",
-                            explanation: "Words ending in -er are usually masculine: der Computer."
+                            question: "Negate: 'Ich habe einen Hund.' (I have a dog)",
+                            answer: "Ich habe keinen Hund.",
+                            explanation: "Hund is masculine accusative. Negative: einen → keinen Hund."
                         },
                         {
                             id: "d7-q11",
                             type: "choice",
-                            question: "Article for 'Information'?",
-                            options: ["der", "die", "das"],
-                            answer: "die",
-                            explanation: "Words ending in -ion are always feminine: die Information."
+                            question: "Which is correct? 'Der Hund sieht ___ Vogel.' (The dog sees the bird - der Vogel)",
+                            options: ["der Vogel", "den Vogel", "dem Vogel"],
+                            answer: "den Vogel",
+                            explanation: "Vogel is masculine and the OBJECT (being seen). Accusative: der → den!"
                         },
                         {
                             id: "d7-q12",
                             type: "text",
-                            question: "Plural of 'das Auto' (car)?",
-                            answer: "die Autos",
-                            explanation: "Foreign loanword: Auto → Autos (add -s)."
+                            question: "Complete: 'Sie liebt ___ Film.' (She loves the film - der Film)",
+                            answer: "den Film",
+                            explanation: "Film is masculine and the OBJECT. Accusative: der → den Film."
                         },
                         {
                             id: "d7-q13",
                             type: "choice",
-                            question: "Complete: 'Das ist ___ Lehrer.' (teacher/male)",
-                            options: ["ein", "eine", "der"],
+                            question: "Complete: 'Ich kaufe ___ Auto.' (I buy a car - das Auto)",
+                            options: ["ein", "einen", "eine"],
                             answer: "ein",
-                            explanation: "Der Lehrer (masculine) → ein Lehrer."
+                            explanation: "Auto is neuter. Neuter doesn't change in accusative: ein → ein Auto!"
                         },
                         {
                             id: "d7-q14",
                             type: "text",
-                            question: "What gender is 'Freundschaft' (friendship)?",
-                            answer: "feminine",
-                            explanation: "Words ending in -schaft are always feminine: die Freundschaft."
+                            question: "Complete: 'Wir sehen ___ Frau.' (We see the woman - die Frau)",
+                            answer: "die Frau",
+                            explanation: "Frau is feminine. Feminine doesn't change in accusative: die → die!"
                         },
                         {
                             id: "d7-q15",
                             type: "choice",
-                            question: "Plural of 'der Tag' (day)?",
-                            options: ["die Tage", "die Täge", "die Tags"],
-                            answer: "die Tage",
-                            explanation: "Masculine monosyllabic noun: Tag → Tage (add -e)."
+                            question: "What is the subject (nominative) in: 'Der Mann kauft einen Apfel.'?",
+                            options: ["Der Mann", "einen Apfel", "kauft"],
+                            answer: "Der Mann",
+                            explanation: "Der Mann is doing the action (buying) = subject = nominative."
                         },
                         {
                             id: "d7-q16",
                             type: "text",
-                            question: "Article for 'Dokument' (document)?",
-                            answer: "das",
-                            explanation: "Words ending in -ment are always neuter: das Dokument."
+                            question: "Complete: 'Er hat ___ Schwester.' (He has a sister - die Schwester)",
+                            answer: "eine Schwester",
+                            explanation: "Schwester is feminine. Feminine doesn't change: eine → eine Schwester!"
                         },
                         {
                             id: "d7-q17",
                             type: "choice",
-                            question: "Gender of compound 'Schlafzimmer' (bedroom)?",
-                            options: ["masculine", "feminine", "neuter"],
-                            answer: "neuter",
-                            explanation: "Compound gender = last word gender: das Zimmer → das Schlafzimmer."
+                            question: "Complete: 'Der Mann kauft ___ Apfel.' (The man buys an apple - der Apfel)",
+                            options: ["ein", "einen", "eine"],
+                            answer: "einen",
+                            explanation: "Apfel is masculine and the OBJECT. Accusative: ein → einen Apfel."
                         },
                         {
                             id: "d7-q18",
                             type: "text",
-                            question: "Plural of 'die Blume' (flower)?",
-                            answer: "die Blumen",
-                            explanation: "Feminine noun: Blume → Blumen (add -n)."
+                            question: "Translate: 'I see the teacher.' (der Lehrer)",
+                            answer: "Ich sehe den Lehrer.",
+                            explanation: "Lehrer is masculine object. Accusative: der → den Lehrer."
                         },
                         {
                             id: "d7-q19",
                             type: "choice",
-                            question: "Complete: 'Ich habe ___ Katze.' (cat/female)",
-                            options: ["ein", "eine", "der"],
-                            answer: "eine",
-                            explanation: "Die Katze (feminine) → eine Katze."
+                            question: "Complete: 'Sie hat ___ Bruder.' (She has a brother - der Bruder)",
+                            options: ["ein", "einen", "eine"],
+                            answer: "einen",
+                            explanation: "Bruder is masculine object. Accusative: ein → einen Bruder."
                         },
                         {
                             id: "d7-q20",
                             type: "text",
-                            question: "What gender is 'Museum'?",
-                            answer: "neuter",
-                            explanation: "Words ending in -um are usually neuter: das Museum."
+                            question: "Complete: 'Wir trinken ___ Milch.' (We drink the milk - die Milch)",
+                            answer: "die Milch",
+                            explanation: "Milch is feminine. Feminine doesn't change in accusative: die → die!"
                         },
                         {
                             id: "d7-q21",
                             type: "choice",
-                            question: "Plural of 'das Buch' (book)?",
-                            options: ["die Bücher", "die Bucher", "die Buchs"],
-                            answer: "die Bücher",
-                            explanation: "Neuter monosyllabic: Buch → Bücher (add -er + Umlaut)."
+                            question: "Complete: 'Er liest ___ Buch.' (He reads the book - das Buch)",
+                            options: ["der", "das", "den"],
+                            answer: "das",
+                            explanation: "Buch is neuter. Neuter doesn't change in accusative: das → das!"
                         },
                         {
                             id: "d7-q22",
                             type: "text",
-                            question: "Article for 'Gesundheit' (health)?",
-                            answer: "die",
-                            explanation: "Words ending in -heit are always feminine: die Gesundheit."
+                            question: "Complete: 'Die Frau kauft ___ Lampe.' (The woman buys a lamp - die Lampe)",
+                            answer: "eine Lampe",
+                            explanation: "Lampe is feminine object. Feminine doesn't change: eine → eine Lampe!"
+                        },
+                        {
+                            id: "d7-q23",
+                            type: "choice",
+                            question: "Negate: 'Ich brauche einen Stift.' (I need a pen)",
+                            options: ["Ich brauche nicht Stift.", "Ich brauche keinen Stift.", "Ich brauche kein Stift."],
+                            answer: "Ich brauche keinen Stift.",
+                            explanation: "Stift is masculine accusative. Negative: einen → keinen Stift."
+                        },
+                        {
+                            id: "d7-q24",
+                            type: "text",
+                            question: "Complete: 'Der Hund sieht ___ Vogel.' (The dog sees the bird - der Vogel)",
+                            answer: "den Vogel",
+                            explanation: "Vogel is masculine object. Accusative: der → den Vogel."
+                        },
+                        {
+                            id: "d7-q25",
+                            type: "choice",
+                            question: "Complete: 'Hast du ___ Computer?' (Do you have a computer - der Computer)",
+                            options: ["ein", "einen", "eine"],
+                            answer: "einen",
+                            explanation: "Computer is masculine object. Accusative: ein → einen Computer."
+                        },
+                        {
+                            id: "d7-q26",
+                            type: "text",
+                            question: "Complete: 'Sie liebt ___ Film.' (She loves the film - der Film)",
+                            answer: "den Film",
+                            explanation: "Film is masculine object. Accusative: der → den Film."
+                        },
+                        {
+                            id: "d7-q27",
+                            type: "choice",
+                            question: "Golden Rule: Which gender changes in accusative?",
+                            options: ["Only masculine", "Only feminine", "All genders"],
+                            answer: "Only masculine",
+                            explanation: "THE GOLDEN RULE: Only masculine changes! der→den, ein→einen"
+                        },
+                        {
+                            id: "d7-q28",
+                            type: "text",
+                            question: "What is the subject in: 'Der Mann kauft einen Apfel.'?",
+                            answer: "Der Mann",
+                            explanation: "Der Mann is doing the action (buying) = subject = nominative."
+                        },
+                        {
+                            id: "d7-q29",
+                            type: "choice",
+                            question: "What is the object in: 'Der Mann kauft einen Apfel.'?",
+                            options: ["Der Mann", "einen Apfel", "kauft"],
+                            answer: "einen Apfel",
+                            explanation: "Einen Apfel receives the action (is being bought) = object = accusative."
+                        },
+                        {
+                            id: "d7-q30",
+                            type: "text",
+                            question: "Plural of 'das Kind' (child)?",
+                            answer: "die Kinder",
+                            explanation: "Neuter monosyllabic noun: Kind → Kinder (add -er)."
                         }
                     ]
                 }
@@ -1695,7 +1774,7 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. Phase 1 Complete Review (Wiederholung)",
-                            content: "Congratulations! You have completed the first major milestone of your German learning journey. You can now handle basic everyday situations with confidence.\n\n**What You Have Mastered:**\n\n**🔤 Pronunciation & Alphabet (Day 1):**\n* German alphabet and special characters (ä, ö, ü, ß)\n* Key pronunciation rules (W=V, V=F, Z=TS, CH sounds)\n* Essential greetings and farewells\n* Letter combinations (ei, ie, eu, sch, st/sp)\n\n**👥 Personal Introduction (Day 2):**\n* Personal pronouns (ich, du, er/sie/es, wir, ihr, sie/Sie)\n* Formal vs informal address (du vs Sie)\n* Self-introduction patterns (Ich heiße... Ich komme aus... Ich wohne in...)\n\n**🔢 Numbers & Basic Needs (Days 3-4):**\n* Numbers 0-100 with special German patterns\n* Essential verbs 'sein' and 'haben'\n* Expressing basic needs (Hunger/Durst haben)\n* Colors and age expressions\n* Asking prices (Wie viel kostet das?)\n\n**📅 Time & Preferences (Day 5):**\n* Days of the week and months\n* Seasons and time expressions\n* Expressing likes with 'gern'\n* Using prepositions 'am' and 'im'\n\n**⚙️ Grammar Foundation (Days 6-9):**\n* Regular verb conjugation patterns\n* Sentence structure and Position 2 rule\n* Noun genders (der/die/das) and articles\n* Plural formation strategies\n* W-questions for information gathering\n* Yes/No question formation\n* Negation with 'nicht' vs 'kein'\n* The 'doch' response for contradicting negative questions\n\n**Your German Toolbox Now Contains:**\n* ~150-200 essential vocabulary words\n* Basic sentence patterns for everyday communication\n* Question formation for gathering information\n* Ability to express agreement, disagreement, and preferences\n* Foundation for more complex grammar structures",
+                            content: "Congratulations! You have completed the first major milestone of your German learning journey. You can now handle basic everyday situations with confidence.\n\n**What You Have Mastered:**\n\n**🔤 Pronunciation & Alphabet (Day 1):**\n* German alphabet and special characters (ä, ö, ü, ß)\n* Key pronunciation rules (W=V, V=F, Z=TS, CH sounds)\n* Essential greetings and farewells\n* Letter combinations (ei, ie, eu, sch, st/sp)\n\n**👥 Personal Introduction (Day 2):**\n* Personal pronouns (ich, du, er/sie/es, wir, ihr, sie/Sie)\n* Formal vs informal address (du vs Sie)\n* Self-introduction patterns (Ich heiße... Ich komme aus... Ich wohne in...)\n\n**🔢 Numbers & Basic Needs (Days 3-4):**\n* Numbers 0-100 with special German patterns\n* Essential verbs 'sein' and 'haben'\n* Expressing basic needs (Hunger/Durst haben)\n* Colors and age expressions\n* Asking prices (Wie viel kostet das?)\n\n**📅 Time & Preferences (Day 5):**\n* Days of the week and months\n* Seasons and time expressions\n* Expressing likes with 'gern'\n* Using prepositions 'am' and 'im'\n\n**⚙️ Grammar Foundation (Days 6-9):**\n* Regular verb conjugation patterns\n* Sentence structure and Position 2 rule\n* **Noun genders (der/die/das) and the case system**\n* **Understanding subjects (doers) vs objects (receivers)**\n* **THE GOLDEN RULE: Only masculine articles change in accusative (der→den, ein→einen)**\n* **Nominative case for subjects, Accusative case for direct objects**\n* Plural formation strategies\n* W-questions for information gathering\n* Yes/No question formation\n* Negation with 'nicht' vs 'kein'\n* The 'doch' response for contradicting negative questions\n\n**Your German Toolbox Now Contains:**\n* ~150-200 essential vocabulary words\n* Basic sentence patterns for everyday communication\n* Question formation for gathering information\n* Ability to express agreement, disagreement, and preferences\n* **Understanding of German case system (Nominative & Accusative)**\n* **Ability to identify subjects and objects in sentences**\n* Foundation for more complex grammar structures",
                             examples: [
                                 { german: "Ich spreche ein bisschen Deutsch.", english: "I speak a little German." },
                                 { german: "Das macht sehr viel Spaß.", english: "That is a lot of fun." },
@@ -1910,6 +1989,105 @@ export const syllabusData: Phase[] = [
                             options: ["Verb in position 2", "Always use 'Sie'", "Memorize all plurals"],
                             answer: "Verb in position 2",
                             explanation: "Position 2 rule is fundamental to German sentence structure."
+                        },
+                        {
+                            id: "d10-q23",
+                            type: "choice",
+                            question: "Review: What is the subject in a sentence?",
+                            options: ["The doer of the action", "The receiver of the action", "The verb"],
+                            answer: "The doer of the action",
+                            explanation: "The subject is the person/thing performing the action."
+                        },
+                        {
+                            id: "d10-q24",
+                            type: "choice",
+                            question: "Review: What is the object in a sentence?",
+                            options: ["The doer", "The receiver of the action", "The verb"],
+                            answer: "The receiver of the action",
+                            explanation: "The object receives the action being performed."
+                        },
+                        {
+                            id: "d10-q25",
+                            type: "choice",
+                            question: "Review: THE GOLDEN RULE - Which gender changes in accusative?",
+                            options: ["Only masculine", "Only feminine", "All three genders"],
+                            answer: "Only masculine",
+                            explanation: "Only masculine changes: der→den, ein→einen. Everything else stays the same!"
+                        },
+                        {
+                            id: "d10-q26",
+                            type: "text",
+                            question: "Review: Complete 'Ich sehe ___ Mann.' (der Mann - I see the man)",
+                            answer: "den Mann",
+                            explanation: "Mann is masculine object (accusative): der → den Mann."
+                        },
+                        {
+                            id: "d10-q27",
+                            type: "choice",
+                            question: "Review: Complete 'Er hat ___ Schwester.' (die Schwester)",
+                            options: ["eine", "einen", "ein"],
+                            answer: "eine",
+                            explanation: "Schwester is feminine. Feminine doesn't change in accusative: eine."
+                        },
+                        {
+                            id: "d10-q28",
+                            type: "text",
+                            question: "Review: Complete 'Wir kaufen ___ Auto.' (das Auto)",
+                            answer: "ein Auto",
+                            explanation: "Auto is neuter. Neuter doesn't change in accusative: ein Auto."
+                        },
+                        {
+                            id: "d10-q29",
+                            type: "choice",
+                            question: "Review: Which case is used for the subject?",
+                            options: ["Nominative", "Accusative", "Dative"],
+                            answer: "Nominative",
+                            explanation: "Nominative case marks the subject (the doer)."
+                        },
+                        {
+                            id: "d10-q30",
+                            type: "choice",
+                            question: "Review: Which case is used for the direct object?",
+                            options: ["Nominative", "Accusative", "Dative"],
+                            answer: "Accusative",
+                            explanation: "Accusative case marks the direct object (the receiver)."
+                        },
+                        {
+                            id: "d10-q31",
+                            type: "text",
+                            question: "Review: Negate 'Ich habe einen Hund.'",
+                            answer: "Ich habe keinen Hund.",
+                            explanation: "Masculine accusative: einen → keinen Hund."
+                        },
+                        {
+                            id: "d10-q32",
+                            type: "choice",
+                            question: "Review: In 'Der Lehrer fragt den Schüler', what is 'den Schüler'?",
+                            options: ["Subject (nominative)", "Direct object (accusative)", "Verb"],
+                            answer: "Direct object (accusative)",
+                            explanation: "Den Schüler receives the action (is being asked) = accusative object."
+                        },
+                        {
+                            id: "d10-q33",
+                            type: "text",
+                            question: "Review: Complete 'Sie liebt ___ Film.' (der Film)",
+                            answer: "den Film",
+                            explanation: "Film is masculine object: der → den Film (accusative)."
+                        },
+                        {
+                            id: "d10-q34",
+                            type: "choice",
+                            question: "Review: Memory trick for accusative masculine?",
+                            options: ["Think of 'N' for eN (den, einen, keinen)", "Think of 'M' for masculine", "No trick needed"],
+                            answer: "Think of 'N' for eN (den, einen, keinen)",
+                            explanation: "The 'N' trick helps remember: den, einen, keinen all end in -en."
+                        },
+                        {
+                            id: "d10-q35",
+                            type: "text",
+                            question: "Review: Complete 'Hast du ___ Computer?' (der Computer)",
+                            answer: "einen Computer",
+                            explanation: "Computer is masculine object: ein → einen Computer (accusative)."
                         }
                     ]
                 }
