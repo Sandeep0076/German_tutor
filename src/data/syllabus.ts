@@ -22,7 +22,6 @@ export interface LessonContent {
 
 import verbConjugationChart from '../images/verb-conjugation-chart.jpeg';
 import articlesImage from '../images/articles.jpg';
-import einOderEinenImage from '../images/ein-oder-einen.jpg';
 import chart3Image from '../images/chart3.jpg';
 
 export interface DayPlan {
