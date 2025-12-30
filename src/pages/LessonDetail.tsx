@@ -83,9 +83,26 @@ const LessonDetail = () => {
                                             <div className="w-1 h-6 bg-indigo-500 rounded-full" />
                                             {section.title}
                                         </h2>
-                                        <div className="prose prose-slate text-slate-600 leading-relaxed whitespace-pre-wrap">
-                                            {section.content}
-                                        </div>
+                                        
+                                        {/* Content with optional image layout */}
+                                        {section.image ? (
+                                            <div className={`flex flex-col ${section.imagePosition === 'left' ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-6 items-start`}>
+                                                <div className="flex-1 prose prose-slate text-slate-600 leading-relaxed whitespace-pre-wrap">
+                                                    {section.content}
+                                                </div>
+                                                <div className="flex-shrink-0 w-full lg:w-[45%]">
+                                                    <img
+                                                        src={section.image}
+                                                        alt={section.title}
+                                                        className="w-full h-auto rounded-lg border border-slate-200 shadow-sm"
+                                                    />
+                                                </div>
+                                            </div>
+                                        ) : (
+                                            <div className="prose prose-slate text-slate-600 leading-relaxed whitespace-pre-wrap">
+                                                {section.content}
+                                            </div>
+                                        )}
 
                                         {section.examples && (
                                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">

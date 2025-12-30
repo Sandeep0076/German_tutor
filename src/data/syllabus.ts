@@ -11,12 +11,16 @@ export interface LessonSection {
     title: string;
     content: string; // Markdown supported
     examples?: { german: string; english: string; audio?: boolean }[];
+    image?: string; // Optional image path
+    imagePosition?: 'left' | 'right'; // Image position (default: right)
 }
 
 export interface LessonContent {
     sections: LessonSection[];
     homework: Question[];
 }
+
+import verbConjugationChart from '../images/verb-conjugation-chart.jpeg';
 
 export interface DayPlan {
     day: number;
@@ -742,6 +746,8 @@ export const syllabusData: Phase[] = [
                         {
                             title: "1. Regular Verb Conjugation (The 'EN' Rule)",
                             content: "Verbs are the engine of the sentence. Regular verbs follow a strict pattern that you must master to communicate effectively.\n\n**The Pattern:** Remove '-en' from the infinitive (e.g., *kommen* -> *komm*), then add specific endings:\n* **ich**: **-e** (komme, lerne, spiele)\n* **du**: **-st** (kommst, lernst, spielst)\n* **er/sie/es**: **-t** (kommt, lernt, spielt)\n* **wir**: **-en** (kommen, lernen, spielen)\n* **ihr**: **-t** (kommt, lernt, spielt)\n* **sie/Sie**: **-en** (kommen, lernen, spielen)\n\n**Important Notes:**\n- The 'wir' and 'sie/Sie' forms are identical to the infinitive\n- The 'ihr' and 'er/sie/es' forms both end in '-t'\n- Always remember: verb stem + ending\n\n**Essential Regular Verbs for A1:**\n* **machen** (to do/make) - ich mache, du machst, er macht\n* **lernen** (to learn) - ich lerne, du lernst, sie lernt\n* **hören** (to hear) - ich höre, du hörst, wir hören\n* **sagen** (to say) - ich sage, du sagst, ihr sagt\n* **trinken** (to drink) - ich trinke, du trinkst, sie trinken\n* **spielen** (to play) - ich spiele, du spielst, er spielt\n* **wohnen** (to live) - ich wohne, du wohnst, wir wohnen\n* **arbeiten** (to work) - ich arbeite, du arbeitest, sie arbeitet\n* **kochen** (to cook) - ich koche, du kochst, er kocht\n* **kaufen** (to buy) - ich kaufe, du kaufst, sie kaufen",
+                            image: verbConjugationChart,
+                            imagePosition: "right",
                             examples: [
                                 { german: "Was machst du?", english: "What are you doing?" },
                                 { german: "Wir lernen zusammen.", english: "We are learning together." },
