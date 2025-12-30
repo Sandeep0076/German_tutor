@@ -21,6 +21,8 @@ export interface LessonContent {
 }
 
 import verbConjugationChart from '../images/verb-conjugation-chart.jpeg';
+import articlesImage from '../images/articles.jpg';
+import einOderEinenImage from '../images/ein-oder-einen.jpg';
 
 export interface DayPlan {
     day: number;
@@ -972,6 +974,7 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. The German Gender System: Der, Die, Das",
+                            image: articlesImage,
                             content: "Every German noun has one of three genders: masculine, feminine, or neuter. This is grammatical gender, not biological gender - it's a classification system that affects articles, adjectives, and pronouns.\n\n**The Three Articles:**\n* **der** (masculine) - approximately 35% of nouns\n* **die** (feminine) - approximately 40% of nouns  \n* **das** (neuter) - approximately 25% of nouns\n\n**Why Gender Matters:**\n- Determines which article to use (der/die/das)\n- Affects adjective endings (later lessons)\n- Changes in different cases (Accusative, Dative, Genitive)\n- Essential for pronoun replacement (er/sie/es)\n\n**Learning Strategy:**\nALWAYS learn nouns with their articles! Never memorize just 'Tisch' - always learn 'der Tisch'. Think of the article as part of the word itself.\n\n**Gender Memory Tips:**\n1. **Masculine (der):** Days of the week, months, seasons, directions, weather phenomena, alcoholic drinks, most car brands\n2. **Feminine (die):** Most fruits, flowers, most countries ending in -e, numbers as nouns, most rivers\n3. **Neuter (das):** Colors as nouns, metals, most countries without -e ending, diminutives",
                             examples: [
                                 { german: "der Montag, der Januar, der Sommer", english: "Monday, January, summer (all masculine)" },
@@ -995,6 +998,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "3. Indefinite Articles: Ein, Eine, Ein",
+                            image: einOderEinenImage,
                             content: "The indefinite articles correspond to 'a' or 'an' in English. They change based on the gender of the noun they accompany.\n\n**Indefinite Article System:**\n* **Masculine (der) → ein**: ein Tisch, ein Mann, ein Apfel\n* **Feminine (die) → eine**: eine Lampe, eine Frau, eine Banane  \n* **Neuter (das) → ein**: ein Auto, ein Kind, ein Haus\n* **Plural**: NO indefinite article (just like English: 'books', not 'a books')\n\n**Usage Patterns:**\n1. **Introducing something new:** Das ist ein Auto. (That's a car.)\n2. **Talking about professions:** Ich bin ein Lehrer. (I am a teacher.)\n3. **Describing quantities:** Ich möchte ein Bier. (I would like a beer.)\n4. **General statements:** Ein Hund ist ein Tier. (A dog is an animal.)\n\n**Important Notes:**\n- Unlike English, you can't use the indefinite article with plural nouns\n- The indefinite article changes form in Accusative case (later lesson)\n- Some expressions don't use articles where English does\n\n**Negative Form - Kein:**\nThe negative form of 'ein' is 'kein' (no/not a):\n* ein Apfel → kein Apfel (no apple)\n* eine Lampe → keine Lampe (no lamp)\n* ein Auto → kein Auto (no car)",
                             examples: [
                                 { german: "Das ist ein Tisch (der).", english: "That is a table." },
