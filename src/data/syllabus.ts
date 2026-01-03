@@ -2107,21 +2107,61 @@ export const syllabusData: Phase[] = [
                 details: {
                     sections: [
                         {
-                            title: "1. Family Vocabulary (Die Familie)",
-                            content: "Family members usually follow natural gender. \\n\\n* **Parents (Die Eltern):** Der Vater (Father), Die Mutter (Mother).\\n* **Siblings (Die Geschwister):** Der Bruder (Brother), Die Schwester (Sister).\\n* **Grandparents (Die Großeltern):** Der Opa (Grandpa), Die Oma (Grandma).\\n* **Children (Die Kinder):** Der Sohn (Son), Die Tochter (Daughter).\\n* **Relatives:** Der Onkel (Uncle), Die Tante (Aunt), Der Cousin (Cousin - male), Die Cousine (Cousin - female).",
+                            title: "1. Understanding German Family Structure (Die Familie)",
+                            content: "In German culture, family is extremely important and the vocabulary reflects this. Understanding family relationships helps you navigate social conversations and shows respect for German values.\n\n**Core Family Members:**\n* **Die Eltern** (Parents) - Always plural, like English\n* **Der Vater** (Father) - Masculine, formal term\n* **Der Papa/Vati** (Dad/Daddy) - Informal, more affectionate\n* **Die Mutter** (Mother) - Feminine, formal term  \n* **Die Mama/Mutti** (Mom/Mommy) - Informal, more affectionate\n\n**Memory Tip:** German family words usually match the biological gender of the person (der Mann = masculine, die Frau = feminine).",
                             examples: [
-                                { german: "Das ist meine Mutter.", english: "This is my mother." },
-                                { german: "Ich habe zwei Brüder.", english: "I have two brothers." },
-                                { german: "Meine Großeltern wohnen in Berlin.", english: "My grandparents live in Berlin." }
+                                { german: "Mein Vater arbeitet als Arzt.", english: "My father works as a doctor." },
+                                { german: "Meine Mama kocht sehr gut.", english: "My mom cooks very well." },
+                                { german: "Die Eltern sind stolz auf ihre Kinder.", english: "The parents are proud of their children." }
                             ]
                         },
                         {
-                            title: "2. Possessive Articles (Possessivartikel)",
-                            content: "These words replace 'the' or 'a' to show ownership. In the **Nominative** case, they follow the gender of the noun they are attached to.\\n\\n| Owner | (Masculine / Neutral) | (Feminine / Plural) |\\n|---|---|---|\\n| **ich** (my) | mein | meine |\\n| **du** (your) | dein | deine |\\n| **er/es** (his/its) | sein | seine |\\n| **sie** (her) | ihr | ihre |\\n| **wir** (our) | unser | unsere |\\n| **ihr** (your pl.) | euer | eure |\\n| **Sie/sie** (Your/their) | Ihr / ihr | Ihre / ihre |\\n\\n**Rule:** If the noun is 'die', add an 'e' to the owner word.",
+                            title: "2. Siblings & Extended Family (Geschwister & Verwandte)",
+                            content: "**Siblings (Die Geschwister):**\n* **Der Bruder** (Brother) - Plural: **die Brüder** (with umlaut!)\n* **Die Schwester** (Sister) - Plural: **die Schwestern**\n* **Das Einzelkind** (Only child) - When someone has no siblings\n\n**Grandparents (Die Großeltern):**\n* **Der Großvater/Opa** (Grandfather/Grandpa)\n* **Die Großmutter/Oma** (Grandmother/Grandma)\n\n**Children & Offspring:**\n* **Der Sohn** (Son) - Plural: **die Söhne** (with umlaut!)\n* **Die Tochter** (Daughter) - Plural: **die Töchter** (with umlaut!)\n* **Das Kind** (Child) - Plural: **die Kinder**\n\n**Extended Family:**\n* **Der Onkel** (Uncle) - Always masculine\n* **Die Tante** (Aunt) - Always feminine  \n* **Der Cousin** (Male cousin)\n* **Die Cousine** (Female cousin)\n* **Der Neffe** (Nephew)\n* **Die Nichte** (Niece)",
                             examples: [
-                                { german: "Ist das dein Vater?", english: "Is that your father? (Vater = Maskulin)" },
-                                { german: "Nein, das ist mein Onkel.", english: "No, that is my uncle." },
-                                { german: "Unsere Kinder sind laut.", english: "Our children are loud. (Kinder = Plural)" }
+                                { german: "Ich habe drei Geschwister: zwei Brüder und eine Schwester.", english: "I have three siblings: two brothers and one sister." },
+                                { german: "Meine Großeltern wohnen auf dem Land.", english: "My grandparents live in the countryside." },
+                                { german: "Der Onkel von meinem Vater ist sehr lustig.", english: "My father's uncle is very funny." },
+                                { german: "Ihre Cousine studiert Medizin.", english: "Her (female) cousin studies medicine." }
+                            ]
+                        },
+                        {
+                            title: "3. Marriage & In-Laws (Ehe & Schwiegereltern)",
+                            content: "**Marital Status:**\n* **Der Ehemann** (Husband)\n* **Die Ehefrau** (Wife)\n* **Verheiratet** (Married)\n* **Ledig** (Single/Unmarried)\n* **Geschieden** (Divorced)\n\n**In-Laws (Schwieger-):**\nIn German, you add 'Schwieger-' to family words for in-laws:\n* **Der Schwiegervater** (Father-in-law)\n* **Die Schwiegermutter** (Mother-in-law)\n* **Die Schwiegereltern** (Parents-in-law)\n* **Der Schwiegersohn** (Son-in-law)\n* **Die Schwiegertochter** (Daughter-in-law)",
+                            examples: [
+                                { german: "Mein Ehemann kommt aus Bayern.", english: "My husband comes from Bavaria." },
+                                { german: "Sie ist seit fünf Jahren verheiratet.", english: "She has been married for five years." },
+                                { german: "Die Schwiegereltern besuchen uns am Wochenende.", english: "The parents-in-law visit us on the weekend." }
+                            ]
+                        },
+                        {
+                            title: "4. Possessive Articles - The Complete System (Possessivartikel)",
+                            content: "Possessive articles are words that show ownership, like 'my', 'your', 'his', etc. They are crucial in German because they must agree with the gender, number, and case of the noun they modify.\n\n**The Basic Pattern (Nominative Case):**\n\n| Person | English | Masculine/Neuter | Feminine/Plural |\n|--------|---------|------------------|------------------|\n| ich | my | mein | meine |\n| du | your (informal) | dein | deine |\n| er/es | his/its | sein | seine |\n| sie | her | ihr | ihre |\n| wir | our | unser | unsere |\n| ihr | your (plural) | euer | eure |\n| Sie | your (formal) | Ihr | Ihre |\n| sie | their | ihr | ihre |\n\n**Important Rules:**\n1. **Gender Agreement:** The possessive must match the gender of the OWNED object, not the owner\n2. **The '-e' Rule:** Add '-e' for feminine nouns and all plurals\n3. **Capitalization:** Formal 'Sie' forms are always capitalized (Ihr/Ihre)",
+                            examples: [
+                                { german: "Das ist mein Vater. (der Vater - masculine)", english: "This is my father." },
+                                { german: "Das ist meine Mutter. (die Mutter - feminine)", english: "This is my mother." },
+                                { german: "Das ist mein Auto. (das Auto - neuter)", english: "This is my car." },
+                                { german: "Das sind meine Eltern. (plural)", english: "These are my parents." }
+                            ]
+                        },
+                        {
+                            title: "5. Special Cases & Common Mistakes",
+                            content: "**Watch out for 'euer':**\nWhen you add endings to 'euer', it drops the middle '-e-':\n* euer Vater → eure Mutter (NOT euere!)\n\n**Formal vs. Informal:**\n* **Du/dein/deine:** Use with friends, family, children, peers\n* **Sie/Ihr/Ihre:** Use with strangers, authority figures, in business\n\n**Context Matters:**\n* **ihr/ihre** can mean 'her' OR 'their' - context tells you which!\n* **Ihr/Ihre** (capitalized) always means formal 'your'\n\n**Common Mistakes to Avoid:**\n❌ *Mein Schwester* → ✅ *Meine Schwester* (feminine needs -e)\n❌ *Seine Mutter* → ✅ *Seine Mutter* (this is actually correct!)\n❌ *Ihr Auto* (meaning 'her car') → ✅ *Ihr Auto* (correct - neuter doesn't need -e)\n❌ *Unsere Vater* → ✅ *Unser Vater* (masculine doesn't need -e)",
+                            examples: [
+                                { german: "Wo ist euer Hund? Wo ist eure Katze?", english: "Where is your dog? Where is your cat?" },
+                                { german: "Das ist ihr Bruder. (her brother OR their brother)", english: "This is her/their brother." },
+                                { german: "Ist das Ihre Tochter, Herr Schmidt?", english: "Is this your daughter, Mr. Schmidt? (formal)" },
+                                { german: "Unsere Familie ist sehr groß.", english: "Our family is very large." }
+                            ]
+                        },
+                        {
+                            title: "6. Talking About Families - Useful Phrases",
+                            content: "**Describing Family Size:**\n* **Wie groß ist deine Familie?** - How big is your family?\n* **Ich komme aus einer großen/kleinen Familie.** - I come from a big/small family.\n* **Wir sind zu viert.** - There are four of us.\n\n**Asking About Family:**\n* **Hast du Geschwister?** - Do you have siblings?\n* **Wie viele Kinder haben Sie?** - How many children do you have?\n* **Wo wohnen deine Eltern?** - Where do your parents live?\n\n**Describing Relationships:**\n* **Das ist meine jüngere/ältere Schwester.** - This is my younger/older sister.\n* **Er sieht seinem Vater ähnlich.** - He looks like his father.\n* **Wir verstehen uns gut.** - We get along well.",
+                            examples: [
+                                { german: "Meine Familie besteht aus fünf Personen.", english: "My family consists of five people." },
+                                { german: "Ich bin das älteste von drei Kindern.", english: "I am the oldest of three children." },
+                                { german: "Meine Schwester und ich sehen uns sehr ähnlich.", english: "My sister and I look very similar." },
+                                { german: "Kommst du aus einer großen Familie?", english: "Do you come from a large family?" }
                             ]
                         }
                     ],
@@ -2304,21 +2344,21 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. Asking for the Time",
-                            content: "**Wie spät ist es?** OR **Wie viel Uhr ist es?**\\nBoth mean 'What time is it?'.\\n\\n**The word 'Uhr':**\\n* Used for 'o'clock' (Es ist 3 Uhr).\\n* Used for the physical clock (Die Uhr).\\n* Used for the abstract concept of time notation.",
+                            content: "**Wie spät ist es?** OR **Wie viel Uhr ist es?**\nBoth mean 'What time is it?'.\n\n**The word 'Uhr':**\n* Used for 'o'clock' (Es ist 3 Uhr).\n* Used for the physical clock (Die Uhr).\n* Used for the abstract concept of time notation.",
                             examples: [
                                 { german: "Entschuldigung, wie spät ist es?", english: "Excuse me, what time is it?" }
                             ]
                         },
                         {
                             title: "2. Official Time (24-Hour)",
-                            content: "Used for schedules, trains, TV, appointments.\\n**Format:** [Hour] Uhr [Minutes].\\n\\n* 14:00 -> Es ist vierzehn Uhr.\\n* 14:30 -> Es ist vierzehn Uhr dreißig.\\n* 09:15 -> Es ist neun Uhr fünfzehn.",
+                            content: "Used for schedules, trains, TV, appointments.\n**Format:** [Hour] Uhr [Minutes].\n\n* 14:00 -> Es ist vierzehn Uhr.\n* 14:30 -> Es ist vierzehn Uhr dreißig.\n* 09:15 -> Es ist neun Uhr fünfzehn.",
                             examples: [
                                 { german: "Der Zug kommt um 17 Uhr 20.", english: "The train comes at 17:20." }
                             ]
                         },
                         {
                             title: "3. Unofficial Time (12-Hour)",
-                            content: "Used in conversation. Complex but common.\\n\\n* **Full hour:** Ein Uhr (am/pm implied).\\n* **Half hour (Halo):** 'Halb' refers to the **NEXT** hour. (14:30 = **halb drei** - half way to three).\\n* **Quarters:**\\n  * 14:15 = Viertel nach zwei (Quarter past two).\\n  * 14:45 = Viertel vor drei (Quarter to three).\\n* **Minutes:**\\n  * 14:05 = Fünf nach zwei.\\n  * 14:55 = Fünf vor drei.",
+                            content: "Used in conversation. Complex but common.\n\n* **Full hour:** Ein Uhr (am/pm implied).\n* **Half hour (Halo):** 'Halb' refers to the **NEXT** hour. (14:30 = **halb drei** - half way to three).\n* **Quarters:**\n  * 14:15 = Viertel nach zwei (Quarter past two).\n  * 14:45 = Viertel vor drei (Quarter to three).\n* **Minutes:**\n  * 14:05 = Fünf nach zwei.\n  * 14:55 = Fünf vor drei.",
                             examples: [
                                 { german: "Es ist halb zehn.", english: "It is 9:30." },
                                 { german: "Es ist Viertel vor acht.", english: "It is 7:45." }
@@ -2326,7 +2366,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "4. Daily Routine Verbs",
-                            content: "Common verbs for your day:\\n* **aufstehen** (to get up - separable)\\n* **frühstücken** (to eat breakfast)\\n* **arbeiten** (to work)\\n* **kochen** (to cook)\\n* **fernsehen** (to watch TV - separable)\\n* **einkaufen** (to shop - separable)\\n* **schlafen** (to sleep)",
+                            content: "Common verbs for your day:\n* **aufstehen** (to get up - separable)\n* **frühstücken** (to eat breakfast)\n* **arbeiten** (to work)\n* **kochen** (to cook)\n* **fernsehen** (to watch TV - separable)\n* **einkaufen** (to shop - separable)\n* **schlafen** (to sleep)",
                             examples: [
                                 { german: "Ich frühstücke um 8 Uhr.", english: "I eat breakfast at 8." },
                                 { german: "Er kocht am Abend.", english: "He cooks in the evening." }
@@ -2534,7 +2574,7 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. The Concept of Separation",
-                            content: "Some German verbs have two parts: a **Prefix** and a **Main Verb**. In the present tense (simple sentences), the prefix detaches and moves to the **VERY END** of the sentence.\\n\\n* **Verb:** anrufen (to call)\\n* **Prefix:** an-\\n* **Main:** rufen\\n* **Sentence:** Ich **rufe** meine Mutter **an**.",
+                            content: "Some German verbs have two parts: a **Prefix** and a **Main Verb**. In the present tense (simple sentences), the prefix detaches and moves to the **VERY END** of the sentence.\n\n* **Verb:** anrufen (to call)\n* **Prefix:** an-\n* **Main:** rufen\n* **Sentence:** Ich **rufe** meine Mutter **an**.",
                             examples: [
                                 { german: "Ich stehe um 7 Uhr auf.", english: "I get up at 7." },
                                 { german: "Wir kaufen im Supermarkt ein.", english: "We shop in the supermarket." }
@@ -2542,7 +2582,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "2. Common Separable Prefixes",
-                            content: "Memorize these prefixes. They are almost always stressed.\\n\\n* **ab-**: abfahren (depart), abholen (pick up)\\n* **an-**: anfangen (begin), ankommen (arrive), anrufen (call)\\n* **auf-**: aufstehen (get up), aufräumen (clean up)\\n* **aus-**: ausgehen (go out), aussehen (look/appear)\\n* **ein-**: einkaufen (shop), einladen (invite)\\n* **mit-**: mitkommen (come with), mitbringen (bring along)\\n* **vor-**: vorlesen (read aloud), vorbereiten (prepare)",
+                            content: "Memorize these prefixes. They are almost always stressed.\n\n* **ab-**: abfahren (depart), abholen (pick up)\n* **an-**: anfangen (begin), ankommen (arrive), anrufen (call)\n* **auf-**: aufstehen (get up), aufräumen (clean up)\n* **aus-**: ausgehen (go out), aussehen (look/appear)\n* **ein-**: einkaufen (shop), einladen (invite)\n* **mit-**: mitkommen (come with), mitbringen (bring along)\n* **vor-**: vorlesen (read aloud), vorbereiten (prepare)",
                             examples: [
                                 { german: "Der Zug fährt um 9 Uhr ab.", english: "The train departs at 9." },
                                 { german: "Kommst du heute mit?", english: "Are you coming along today?" }
@@ -2550,7 +2590,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "3. Sentence Logic (The Bracket)",
-                            content: "The conjugated verb and the prefix form a 'bracket' around the sentence contents.\\n\\n**[Subject] [Verb Part 1] [Time/Object/Place] [Prefix].**\\n\\n* Er (1) **liest** (2) das Buch (3) **vor** (Ende).",
+                            content: "The conjugated verb and the prefix form a 'bracket' around the sentence contents.\n\n**[Subject] [Verb Part 1] [Time/Object/Place] [Prefix].**\n\n* Er (1) **liest** (2) das Buch (3) **vor** (Ende).",
                             examples: []
                         }
                     ],
@@ -2755,7 +2795,7 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. The Accusative Case (Der Akkusativ)",
-                            content: "The subject acts, the object receives. In German, the direct object is in the Accusative case.\\n\\n**THE GOLDEN RULE:** Only the **MASCULINE** article changes. Everything else stays the same!\\n\\n* **Der -> Den**\\n* **Ein -> Einen**\\n* **Kein -> Keinen**\\n\\n* Die -> Die / Eine -> Eine\\n* Das -> Das / Ein -> Ein\\n* Die (Pl) -> Die",
+                            content: "The subject acts, the object receives. In German, the direct object is in the Accusative case.\n\n**THE GOLDEN RULE:** Only the **MASCULINE** article changes. Everything else stays the same!\n\n* **Der -> Den**\n* **Ein -> Einen**\n* **Kein -> Keinen**\n\n* Die -> Die / Eine -> Eine\n* Das -> Das / Ein -> Ein\n* Die (Pl) -> Die",
                             examples: [
                                 { german: "Ich habe einen Bruder (Masc).", english: "I have a brother. (Accusative)" },
                                 { german: "Ich habe ein Auto (Neut).", english: "I have a car. (No change)" },
@@ -2764,7 +2804,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "2. Food Vocabulary (Essen & Trinken)",
-                            content: "* **Der:** Apfel (Apple), Kaffee (Coffee), Tee (Tea), Fisch (Fish), Kuchen (Cake), Käse (Cheese).\\n* **Die:** Banane (Banana), Orange (Orange), Milch (Milk), Wurst (Sausage).\\n* **Das:** Brot (Bread), Wasser (Water), Ei (Egg), Fleisch (Meat), Gemüse (Vegetables), Obst (Fruit).",
+                            content: "* **Der:** Apfel (Apple), Kaffee (Coffee), Tee (Tea), Fisch (Fish), Kuchen (Cake), Käse (Cheese).\n* **Die:** Banane (Banana), Orange (Orange), Milch (Milk), Wurst (Sausage).\n* **Das:** Brot (Bread), Wasser (Water), Ei (Egg), Fleisch (Meat), Gemüse (Vegetables), Obst (Fruit).",
                             examples: [
                                 { german: "Ich esse gern Obst.", english: "I like eating fruit." },
                                 { german: "Trinkst du einen Kaffee?", english: "Are you drinking a coffee?" }
@@ -2972,12 +3012,12 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. Understanding Modal Verbs",
-                            content: "Modal verbs modify another verb (the 'infinitive').\\n* **Sentence Structure:** [Subject] [Modal Verb] ... [Infinitive at END].\\n* *Example:* Ich **kann** gut **schwimmen**.",
+                            content: "Modal verbs modify another verb (the 'infinitive').\n* **Sentence Structure:** [Subject] [Modal Verb] ... [Infinitive at END].\n* *Example:* Ich **kann** gut **schwimmen**.",
                             examples: []
                         },
                         {
                             title: "2. Können (Ability/Possibility)",
-                            content: "Means 'can' or 'to be able to'.\\n\\n* **ich kann** (irregular!)\\n* **du kannst**\\n* **er/sie/es kann** (same as 'ich')\\n* **wir können**\\n* **ihr könnt**\\n* **sie/Sie können**",
+                            content: "Means 'can' or 'to be able to'.\n\n* **ich kann** (irregular!)\n* **du kannst**\n* **er/sie/es kann** (same as 'ich')\n* **wir können**\n* **ihr könnt**\n* **sie/Sie können**",
                             examples: [
                                 { german: "Ich kann nicht kommen.", english: "I cannot come." },
                                 { german: "Kannst du mir helfen?", english: "Can you help me?" }
@@ -2985,7 +3025,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "3. Wollen (Strong Desire)",
-                            content: "Means 'to want'. Often used for plans.\\n\\n* **ich will** (irregular!)\\n* **du willst**\\n* **er/sie/es will** (same as 'ich')\\n* **wir wollen**\\n* **ihr wollt**\\n* **sie/Sie wollen**",
+                            content: "Means 'to want'. Often used for plans.\n\n* **ich will** (irregular!)\n* **du willst**\n* **er/sie/es will** (same as 'ich')\n* **wir wollen**\n* **ihr wollt**\n* **sie/Sie wollen**",
                             examples: [
                                 { german: "Ich will nach Hause gehen.", english: "I want to go home." },
                                 { german: "Willst du Pizza essen?", english: "Do you want to eat pizza?" }
@@ -3193,7 +3233,7 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. Müssen (Necessity/Duty)",
-                            content: "Means 'must' or 'have to'.\\n\\n* **ich muss**\\n* **du musst**\\n* **er/sie/es muss**\\n* **wir müssen**\\n* **ihr müsst**\\n* **sie/Sie müssen**\\n\\n*Hint: Use this for external obligations (work, school).*",
+                            content: "Means 'must' or 'have to'.\n\n* **ich muss**\n* **du musst**\n* **er/sie/es muss**\n* **wir müssen**\n* **ihr müsst**\n* **sie/Sie müssen**\n\n*Hint: Use this for external obligations (work, school).*",
                             examples: [
                                 { german: "Ich muss arbeiten.", english: "I have to work." },
                                 { german: "Wir müssen jetzt gehen.", english: "We have to go now." }
@@ -3201,7 +3241,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "2. Dürfen (Permission)",
-                            content: "Means 'to be allowed to'.\\n\\n* **ich darf**\\n* **du darfst**\\n* **er/sie/es darf**\\n* **wir dürfen**\\n* **ihr dürft**\\n* **sie/Sie dürfen**",
+                            content: "Means 'to be allowed to'.\n\n* **ich darf**\n* **du darfst**\n* **er/sie/es darf**\n* **wir dürfen**\n* **ihr dürft**\n* **sie/Sie dürfen**",
                             examples: [
                                 { german: "Darf ich hier rauchen?", english: "May I smoke here?" },
                                 { german: "Darf ich reinkommen?", english: "May I come in?" }
@@ -3209,7 +3249,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "3. Negation Nuances",
-                            content: "* **Nicht dürfen:** Strictly forbidden. (Du darfst das nicht essen = Don't you dare eat that!)\\n* **Nicht müssen:** Not necessary (optional). (Du musst das nicht essen = You don't have to eat it if you don't want to.)",
+                            content: "* **Nicht dürfen:** Strictly forbidden. (Du darfst das nicht essen = Don't you dare eat that!)\n* **Nicht müssen:** Not necessary (optional). (Du musst das nicht essen = You don't have to eat it if you don't want to.)",
                             examples: []
                         }
                     ],
@@ -3414,7 +3454,7 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. Möchten (Polite Wish)",
-                            content: "Technically a form of 'mögen', but used as 'would like'. Use this in restaurants and shops!\\n\\n* **ich möchte**\\n* **du möchtest**\\n* **er/sie/es möchte**\\n* **wir möchten**\\n* **ihr möchtet**\\n* **sie/Sie möchten**",
+                            content: "Technically a form of 'mögen', but used as 'would like'. Use this in restaurants and shops!\n\n* **ich möchte**\n* **du möchtest**\n* **er/sie/es möchte**\n* **wir möchten**\n* **ihr möchtet**\n* **sie/Sie möchten**",
                             examples: [
                                 { german: "Ich möchte zahlen, bitte.", english: "I would like to pay, please." },
                                 { german: "Was möchten Sie trinken?", english: "What would you like to drink?" }
@@ -3422,7 +3462,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "2. Shopping Dialogue Structure",
-                            content: "**Verkäufer (Seller):**\\n* Bitte schön? (May I help you?)\\n* Sonst noch etwas? (Anything else?)\\n* Das macht 5 Euro.\\n\\n**Kunde (Customer):**\\n* Ich hätte gern... (I would like to have...)\\n* Ich möchte... (I would like...)\\n* Ich brauche... (I need...)\\n* Was kostet das?",
+                            content: "**Verkäufer (Seller):**\n* Bitte schön? (May I help you?)\n* Sonst noch etwas? (Anything else?)\n* Das macht 5 Euro.\n\n**Kunde (Customer):**\n* Ich hätte gern... (I would like to have...)\n* Ich möchte... (I would like...)\n* Ich brauche... (I need...)\n* Was kostet das?",
                             examples: []
                         }
                     ],
@@ -3627,7 +3667,7 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. Furniture Vocabulary (Möbel)",
-                            content: "Things you find in a house.\\n\\n* **Der:** Tisch (Table), Stuhl (Chair), Schrank (Cupboard/Wardrobe), Spiegel (Mirror).\\n* **Die:** Lampe (Lamp), Tür (Door), Küche (Kitchen).\\n* **Das:** Bett (Bed), Sofa (Sofa), Bild (Picture), Fenster (Window).",
+                            content: "Things you find in a house.\n\n* **Der:** Tisch (Table), Stuhl (Chair), Schrank (Cupboard/Wardrobe), Spiegel (Mirror).\n* **Die:** Lampe (Lamp), Tür (Door), Küche (Kitchen).\n* **Das:** Bett (Bed), Sofa (Sofa), Bild (Picture), Fenster (Window).",
                             examples: [
                                 { german: "Das Bett ist bequem.", english: "The bed is comfortable." },
                                 { german: "Ich brauche einen Stuhl.", english: "I need a chair." }
@@ -3635,7 +3675,7 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "2. Adjectives (Predicative Use)",
-                            content: "When an adjective follows 'ist' or 'sind' (to be), it **NEVER** changes its ending in German. It stays in its basic form.\\n\\n* **groß / klein** (big / small)\\n* **alt / neu** (old / new)\\n* **schön / hässlich** (beautiful / ugly)\\n* **teuer / billig** (expensive / cheap)\\n* **hell / dunkel** (light / dark)",
+                            content: "When an adjective follows 'ist' or 'sind' (to be), it **NEVER** changes its ending in German. It stays in its basic form.\n\n* **groß / klein** (big / small)\n* **alt / neu** (old / new)\n* **schön / hässlich** (beautiful / ugly)\n* **teuer / billig** (expensive / cheap)\n* **hell / dunkel** (light / dark)",
                             examples: [
                                 { german: "Die Lampe ist teuer.", english: "The lamp is expensive." },
                                 { german: "Die Stühle sind alt.", english: "The chairs are old." }
@@ -3940,7 +3980,7 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "1. The Accusative Prepositions",
-                            content: "These prepositions **ALWAYS** trigger the Accusative case (Masc -> Den).\\nRemember the acronym **DOGFU**:\\n\\n* **Durch** (Through): Ich gehe durch den Park.\\n* **Ohne** (Without): Ohne dich bin ich traurig.\\n* **Gegen** (Against/Around time): Das Auto fährt gegen den Baum. / Wir treffen uns gegen 8 Uhr.\\n* **Für** (For): Das ist für meinen Bruder.\\n* **Um** (Around): Wir sitzen um den Tisch.",
+                            content: "These prepositions **ALWAYS** trigger the Accusative case (Masc -> Den).\nRemember the acronym **DOGFU**:\n\n* **Durch** (Through): Ich gehe durch den Park.\n* **Ohne** (Without): Ohne dich bin ich traurig.\n* **Gegen** (Against/Around time): Das Auto fährt gegen den Baum. / Wir treffen uns gegen 8 Uhr.\n* **Für** (For): Das ist für meinen Bruder.\n* **Um** (Around): Wir sitzen um den Tisch.",
                             examples: [
                                 { german: "Ist der Kaffee für mich?", english: "Is the coffee for me?" },
                                 { german: "Wir gehen ohne den Hund spazieren.", english: "We are walking without the dog." }
@@ -4256,12 +4296,12 @@ export const syllabusData: Phase[] = [
                     sections: [
                         {
                             title: "Phase 2 Review (Wiederholung)",
-                            content: "In Phase 2, you have learned to navigate daily life!\\n\\n* **Family:** Explained relationships and used 'mein/dein'.\\n* **Time:** Told time officially (14:30) and casually (halb drei).\\n* **Verbs:** Used Separable verbs (anrufen) and Modals (können, wollen, müssen, dürfen).\\n* **Cases:** Mastered the Accusative (einen Apfel essen, für den Vater).\\n* **Topics:** Food, Furniture, Shopping.",
+                            content: "In Phase 2, you have learned to navigate daily life!\n\n* **Family:** Explained relationships and used 'mein/dein'.\n* **Time:** Told time officially (14:30) and casually (halb drei).\n* **Verbs:** Used Separable verbs (anrufen) and Modals (können, wollen, müssen, dürfen).\n* **Cases:** Mastered the Accusative (einen Apfel essen, für den Vater).\n* **Topics:** Food, Furniture, Shopping.",
                             examples: []
                         },
                         {
                             title: "Mock Test: Grammar Mixed Bag",
-                            content: "Try to solve these quickly:\\n1. Ich ___ Deutsch lernen (wollen).\\n2. Der Apfel ist ___ (für) den Lehrer.\\n3. Um 7 Uhr ___ ich __ (aufstehen).\\n4. Ich habe ___ (kein) Hunger.",
+                            content: "Try to solve these quickly:\n1. Ich ___ Deutsch lernen (wollen).\n2. Der Apfel ist ___ (für) den Lehrer.\n3. Um 7 Uhr ___ ich __ (aufstehen).\n4. Ich habe ___ (kein) Hunger.",
                             examples: [
                                 { german: "1. will, 2. für, 3. stehe ... auf, 4. keinen", english: "Answers" }
                             ]
