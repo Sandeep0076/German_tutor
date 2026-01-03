@@ -23,6 +23,7 @@ export interface LessonContent {
 import verbConjugationChart from '../images/verb-conjugation-chart.jpeg';
 import articlesImage from '../images/articles.jpg';
 import chart3Image from '../images/chart3.jpg';
+import possessiveArticleImage from '../images/possevearticle.jpg';
 
 export interface DayPlan {
     day: number;
@@ -2136,7 +2137,8 @@ export const syllabusData: Phase[] = [
                         },
                         {
                             title: "4. Possessive Articles - The Complete System (Possessivartikel)",
-                            content: "Possessive articles are words that show ownership, like 'my', 'your', 'his', etc. They are crucial in German because they must agree with the gender, number, and case of the noun they modify.\n\n**The Basic Pattern (Nominative Case):**\n\n| Person | English | Masculine/Neuter | Feminine/Plural |\n|--------|---------|------------------|------------------|\n| ich | my | mein | meine |\n| du | your (informal) | dein | deine |\n| er/es | his/its | sein | seine |\n| sie | her | ihr | ihre |\n| wir | our | unser | unsere |\n| ihr | your (plural) | euer | eure |\n| Sie | your (formal) | Ihr | Ihre |\n| sie | their | ihr | ihre |\n\n**Important Rules:**\n1. **Gender Agreement:** The possessive must match the gender of the OWNED object, not the owner\n2. **The '-e' Rule:** Add '-e' for feminine nouns and all plurals\n3. **Capitalization:** Formal 'Sie' forms are always capitalized (Ihr/Ihre)",
+                            content: "Possessive articles are words that show ownership, like 'my', 'your', 'his', etc. They are crucial in German because they must agree with the gender, number, and case of the noun they modify.\n\n**The Basic Pattern (Nominative Case):**\n\nSee the image for the complete possessive article system.\n\n**Important Rules:**\n1. **Gender Agreement:** The possessive must match the gender of the OWNED object, not the owner\n2. **The '-e' Rule:** Add '-e' for feminine nouns and all plurals\n3. **Capitalization:** Formal 'Sie' forms are always capitalized (Ihr/Ihre)",
+                            image: possessiveArticleImage,
                             examples: [
                                 { german: "Das ist mein Vater. (der Vater - masculine)", english: "This is my father." },
                                 { german: "Das ist meine Mutter. (die Mutter - feminine)", english: "This is my mother." },
