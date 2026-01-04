@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useAppContext } from '../context/AppContext';
 import { Link } from 'react-router-dom';
 import { getSkillsForDay, getSkillIcon, formatDayTitle } from '../utils/examUtils';
+import type { ExamDayProgress } from '../data/exam/examTypes';
 
 const ExamFocus: React.FC = () => {
   const { examFocusProgress } = useAppContext();
@@ -12,13 +13,15 @@ const ExamFocus: React.FC = () => {
   }, [examFocusProgress]);
 
   // Calculate completion statistics
-  const completedDays = examFocusProgress.days.filter(day => day.completed).length;
+  const completedDays = examFocusProgress.days
+    .filter((day: ExamDayProgress) => day.completed).length;
   const totalDays = 30;
   const completionPercentage = Math.round((completedDays / totalDays) * 100);
 
   // Check if a specific day is completed
   const isDayCompleted = (dayNumber: number): boolean => {
-    const dayProgress = examFocusProgress.days.find(d => d.dayNumber === dayNumber);
+    const dayProgress = examFocusProgress.days
+      .find((d: ExamDayProgress) => d.dayNumber === dayNumber);
     return dayProgress?.completed || false;
   };
 
