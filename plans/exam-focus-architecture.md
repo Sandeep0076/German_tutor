@@ -606,6 +606,19 @@ graph TD
 
 ## 11. Audio Implementation Details
 
+**IMPORTANT NOTE FOR FUTURE IMPLEMENTATION:**
+For all listening exercises in future days (Day 3, 5, 8, 10, 12, 15, 17, 19, 22, 24, 26, etc.), keep PLACEHOLDER references only. Do NOT write actual listening content until audio files are available. Use placeholder structure like:
+
+```typescript
+const listeningPractice: ListeningPractice = {
+  part: 1,
+  title: 'Teil 1: [Topic]',
+  description: '[PLACEHOLDER - Audio content to be added]',
+  instructions: '[PLACEHOLDER - Listening instructions to be added when audio is ready]',
+  questions: [] // Empty array - questions will be added with audio
+};
+```
+
 **Audio File Structure**:
 ```
 public/
