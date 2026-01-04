@@ -1,16 +1,15 @@
-import React, { useContext } from 'react';
-import { AppContext } from '../context/AppContext';
+import React, { useEffect } from 'react';
+import { useAppContext } from '../context/AppContext';
 import { Link } from 'react-router-dom';
 import { getSkillsForDay, getSkillIcon, formatDayTitle } from '../utils/examUtils';
 
 const ExamFocus: React.FC = () => {
-  const context = useContext(AppContext);
-  
-  if (!context) {
-    throw new Error('ExamFocus must be used within AppProvider');
-  }
+  const { examFocusProgress } = useAppContext();
 
-  const { examFocusProgress } = context;
+  // Minimal logging to help diagnose context issues
+  useEffect(() => {
+    console.log('ExamFocus mounted. days length:', examFocusProgress?.days?.length);
+  }, [examFocusProgress]);
 
   // Calculate completion statistics
   const completedDays = examFocusProgress.days.filter(day => day.completed).length;

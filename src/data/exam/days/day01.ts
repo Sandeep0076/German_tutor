@@ -6,12 +6,12 @@
  * Topics: Shopping, appointments, meeting people, invitations, personal messages
  */
 
-import { 
-  ExamDay, 
-  ListeningPractice, 
-  ReadingPractice, 
+import type {
+  ExamDay,
+  ListeningPractice,
+  ReadingPractice,
   VocabularyTheme,
-  ExamQuestion 
+  ExamQuestion
 } from '../examTypes';
 
 // ============================================================================
