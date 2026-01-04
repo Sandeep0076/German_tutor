@@ -1,4 +1,7 @@
-import { createContext, useContext, useState, type ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from 'react';
+import type { ExamFocusProgress } from '../data/exam/examTypes';
+import { initializeExamProgress } from '../data/exam/examFocusData';
+import { calculateOverallCompletion } from '../utils/examUtils';
 
 type UserRole = 'student' | 'teacher';
 
@@ -21,6 +24,8 @@ interface AppContextType {
     studentInfo: StudentInfo;
     setStudentInfo: (info: StudentInfo) => void;
     completeDay: (dayNumber: number, topicTitle: string) => void;
+    examFocusProgress: ExamFocusProgress;
+    completeExamDay: (dayNumber: number, scores?: { listening?: number; reading?: number; writing?: number; speaking?: number }) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -36,6 +41,25 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
             lastCompletedDate: undefined,
             currentTopicTitle: undefined
         }
+    });
+
+    // Initialize exam focus progress from localStorage or create new
+    const [examFocusProgress, setExamFocusProgress] = useState<ExamFocusProgress>(() => {
+        try {
+            const stored = localStorage.getItem('examFocusProgress');
+            if (stored) {
+                const parsed = JSON.parse(stored);
+                // Convert date strings back to Date objects if present
+                parsed.days = parsed.days.map((day: any) => ({
+                    ...day,
+                    completedDate: day.completedDate ? new Date(day.completedDate) : undefined
+                }));
+                return parsed;
+            }
+        } catch (error) {
+            console.error('Error loading exam focus progress from localStorage:', error);
+        }
+        return initializeExamProgress();
     });
 
     const completeDay = (dayNumber: number, topicTitle: string) => {
@@ -64,13 +88,63 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
         });
     };
 
+    // Complete an exam focus day
+    const completeExamDay = useCallback((
+        dayNumber: number,
+        scores?: { listening?: number; reading?: number; writing?: number; speaking?: number }
+    ) => {
+        setExamFocusProgress(prevProgress => {
+            // Create a copy of the days array
+            const updatedDays = prevProgress.days.map(day => {
+                if (day.dayNumber === dayNumber) {
+                    // Update this specific day
+                    return {
+                        ...day,
+                        completed: true,
+                        completedDate: new Date(),
+                        scores: scores || day.scores
+                    };
+                }
+                return day;
+            });
+
+            // Recalculate overall completion
+            const newOverallCompletion = calculateOverallCompletion(updatedDays);
+
+            const newProgress = {
+                days: updatedDays,
+                overallCompletion: newOverallCompletion
+            };
+
+            // Save to localStorage
+            try {
+                localStorage.setItem('examFocusProgress', JSON.stringify(newProgress));
+            } catch (error) {
+                console.error('Error saving exam focus progress to localStorage:', error);
+            }
+
+            return newProgress;
+        });
+    }, []);
+
+    // Persist exam focus progress to localStorage whenever it changes
+    useEffect(() => {
+        try {
+            localStorage.setItem('examFocusProgress', JSON.stringify(examFocusProgress));
+        } catch (error) {
+            console.error('Error persisting exam focus progress to localStorage:', error);
+        }
+    }, [examFocusProgress]);
+
     return (
-        <AppContext.Provider value={{ 
-            role, 
-            setRole, 
-            studentInfo, 
-            setStudentInfo, 
-            completeDay 
+        <AppContext.Provider value={{
+            role,
+            setRole,
+            studentInfo,
+            setStudentInfo,
+            completeDay,
+            examFocusProgress,
+            completeExamDay
         }}>
             {children}
         </AppContext.Provider>

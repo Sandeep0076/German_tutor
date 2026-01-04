@@ -5,6 +5,8 @@ import Syllabus from './pages/Syllabus';
 import LessonDetail from './pages/LessonDetail';
 import MockTester from './pages/MockTester';
 import DocTutor from './pages/DocTutor';
+import ExamFocus from './pages/ExamFocus';
+import ExamDayDetail from './pages/ExamDayDetail';
 import { AppProvider } from './context/AppContext';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
             <Route path="syllabus/day/:dayId" element={<LessonDetail />} />
             <Route path="mock-tester" element={<MockTester />} />
             <Route path="doc-tutor" element={<DocTutor />} />
+            <Route path="exam-focus/day/:dayNumber" element={<ExamDayDetail />} />
+            <Route path="exam-focus" element={<ExamFocus />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import { BookOpen, Home, GraduationCap, BrainCircuit } from 'lucide-react';
+import { BookOpen, Home, GraduationCap, BrainCircuit, Target } from 'lucide-react';
 import QuickTranslator from './QuickTranslator';
 import NavbarCountdown from './NavbarCountdown';
 
@@ -21,6 +21,7 @@ const Layout = () => {
                             <div className="hidden sm:flex sm:space-x-4">
                                 <NavItem to="/" icon={<Home size={20} />} label="Dashboard" />
                                 <NavItem to="/syllabus" icon={<BookOpen size={20} />} label="Syllabus" />
+                                <NavItem to="/exam-focus" icon={<Target size={20} />} label="Exam Focus" />
                                 <NavItem to="/mock-tester" icon={<GraduationCap size={20} />} label="Mock Exams" />
                                 <NavItem to="/doc-tutor" icon={<BrainCircuit size={20} />} label="AI Tutor" />
                             </div>
