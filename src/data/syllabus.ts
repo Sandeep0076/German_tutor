@@ -2796,12 +2796,12 @@ export const syllabusData: Phase[] = [
                 details: {
                     sections: [
                         {
-                            title: "1. The Accusative Case (Der Akkusativ)",
-                            content: "The subject acts, the object receives. In German, the direct object is in the Accusative case.\n\n**THE GOLDEN RULE:** Only the **MASCULINE** article changes. Everything else stays the same!\n\n* **Der -> Den**\n* **Ein -> Einen**\n* **Kein -> Keinen**\n\n* Die -> Die / Eine -> Eine\n* Das -> Das / Ein -> Ein\n* Die (Pl) -> Die",
+                            title: "1. Understanding Direct Objects & The Accusative Case",
+                            content: "**What is a Direct Object?**\n\nThe direct object is the person or thing that **receives the action** of the verb. It answers the question \"What?\" or \"Whom?\"\n\n**Examples in English:**\n* I eat **an apple** ← What do I eat? An apple!\n* She sees **the man** ← Whom does she see? The man!\n* We buy **bread** ← What do we buy? Bread!\n\n**In German:** The direct object takes the **Accusative Case (Akkusativ)**.\n\n**THE GOLDEN RULE:** Only **MASCULINE** articles change in the accusative case. Feminine, neuter, and plural articles stay exactly the same!\n\n**Article Changes:**\n\n| Gender | Nominative (Subject) | Accusative (Direct Object) |\n|--------|---------------------|---------------------------|\n| Masculine | **der** / **ein** | **den** / **einen** |\n| Feminine | die / eine | die / eine (no change) |\n| Neuter | das / ein | das / ein (no change) |\n| Plural | die | die (no change) |\n\n**Negation:**\n* **kein** → **keinen** (masculine only)\n* keine → keine (feminine, neuter, plural - no change)",
                             examples: [
-                                { german: "Ich habe einen Bruder (Masc).", english: "I have a brother. (Accusative)" },
-                                { german: "Ich habe ein Auto (Neut).", english: "I have a car. (No change)" },
-                                { german: "Er isst den Apfel (Masc).", english: "He eats the apple." }
+                                { german: "Ich habe einen Bruder.", english: "I have a brother. (masculine → einen)" },
+                                { german: "Ich habe eine Schwester.", english: "I have a sister. (feminine → eine, no change)" },
+                                { german: "Ich habe ein Auto.", english: "I have a car. (neuter → ein, no change)" }
                             ]
                         },
                         {

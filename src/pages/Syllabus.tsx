@@ -1,12 +1,62 @@
-import { useState } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { syllabusData, type DayPlan } from '../data/syllabus';
 import { ChevronDown, ChevronRight, Book, PenTool, CheckCircle } from 'lucide-react';
 import { useAppContext } from '../context/AppContext';
 
 const Syllabus = () => {
     const { role, studentInfo } = useAppContext();
-    const [expandedPhase, setExpandedPhase] = useState<number | null>(1);
+    
+    // Calculate which phase contains the current day
+    const getCurrentPhase = useMemo(() => {
+        const currentDay = studentInfo.currentDay;
+        
+        for (const phase of syllabusData) {
+            const dayNumbers = phase.days.map(d => d.day);
+            const minDay = Math.min(...dayNumbers);
+            const maxDay = Math.max(...dayNumbers);
+            
+            if (currentDay >= minDay && currentDay <= maxDay) {
+                return phase.id;
+            }
+        }
+        
+        // If current day is beyond all phases, return the last phase
+        return syllabusData[syllabusData.length - 1].id;
+    }, [studentInfo.currentDay]);
+    
+    // Check if a phase is fully completed
+    const isPhaseCompleted = (phase: typeof syllabusData[0]) => {
+        const phaseDayNumbers = phase.days.map(d => d.day);
+        return phaseDayNumbers.every(dayNum =>
+            studentInfo.progress.completedDays.includes(dayNum)
+        );
+    };
+    
+    // Find the next incomplete phase
+    const getNextIncompletePhase = () => {
+        for (const phase of syllabusData) {
+            if (!isPhaseCompleted(phase)) {
+                return phase.id;
+            }
+        }
+        return syllabusData[syllabusData.length - 1].id;
+    };
+    
+    const [expandedPhase, setExpandedPhase] = useState<number | null>(getCurrentPhase);
     const [expandedDay, setExpandedDay] = useState<number | null>(null);
+    
+    // Update expanded phase when current day changes or when phases are completed
+    useEffect(() => {
+        const currentPhase = syllabusData.find(p => p.id === getCurrentPhase);
+        
+        if (currentPhase && isPhaseCompleted(currentPhase)) {
+            // If current phase is completed, expand the next incomplete phase
+            setExpandedPhase(getNextIncompletePhase());
+        } else {
+            // Otherwise, expand the phase containing the current day
+            setExpandedPhase(getCurrentPhase);
+        }
+    }, [studentInfo.currentDay, studentInfo.progress.completedDays, getCurrentPhase]);
 
     const togglePhase = (id: number) => {
         setExpandedPhase(expandedPhase === id ? null : id);

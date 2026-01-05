@@ -66,12 +66,13 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
         console.log(`Completing day ${dayNumber}: ${topicTitle}`);
         
         setStudentInfo(prevInfo => {
-            const newCompletedDays = [...prevInfo.progress.completedDays];
+            // Create a set of all days from 1 to the completed day number
+            const allDaysUpToCurrent = Array.from({ length: dayNumber }, (_, i) => i + 1);
             
-            // Add the day to completed days if not already there
-            if (!newCompletedDays.includes(dayNumber)) {
-                newCompletedDays.push(dayNumber);
-            }
+            // Merge with existing completed days and remove duplicates
+            const newCompletedDays = Array.from(
+                new Set([...prevInfo.progress.completedDays, ...allDaysUpToCurrent])
+            ).sort((a, b) => a - b);
             
             // Update current day to next day
             const nextDay = Math.max(dayNumber + 1, prevInfo.currentDay);
@@ -96,13 +97,23 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
         setExamFocusProgress(prevProgress => {
             // Create a copy of the days array
             const updatedDays = prevProgress.days.map(day => {
-                if (day.dayNumber === dayNumber) {
-                    // Update this specific day
+                // Mark the current day and all previous days as completed
+                if (day.dayNumber <= dayNumber) {
+                    // If this is the day being completed now, use current date and scores
+                    if (day.dayNumber === dayNumber) {
+                        return {
+                            ...day,
+                            completed: true,
+                            completedDate: new Date(),
+                            scores: scores || day.scores
+                        };
+                    }
+                    // For previous days, mark as completed if not already
+                    // Keep existing completedDate if it exists
                     return {
                         ...day,
                         completed: true,
-                        completedDate: new Date(),
-                        scores: scores || day.scores
+                        completedDate: day.completedDate || new Date()
                     };
                 }
                 return day;

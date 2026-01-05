@@ -1,0 +1,28 @@
+SECTION 2:
+                        {
+                            title: "2. Der → Den Transformation (Definite Articles)",
+                            content: "When you're talking about **THE** specific thing (definite article), masculine **der** becomes **den** in accusative.\n\n**Pattern:** Subject + Verb + **den** + Masculine Noun\n\n**How to identify when to use den:**\n1. Ask yourself: \"What is receiving the action?\"\n2. Check if the noun is masculine (der)\n3. If yes → change der to den\n\n**Common Verbs that Take Accusative Objects:**\n* essen (to eat)\n* trinken (to drink)\n* kaufen (to buy)\n* haben (to have)\n* sehen (to see)\n* nehmen (to take)\n* bestellen (to order)\n* mögen (to like)\n* brauchen (to need)",
+                            examples: [
+                                { german: "Ich esse den Apfel.", english: "I eat the apple. (der Apfel → den Apfel)" },
+                                { german: "Er trinkt den Kaffee.", english: "He drinks the coffee. (der Kaffee → den Kaffee)" },
+                                { german: "Wir kaufen den Fisch.", english: "We buy the fish. (der Fisch → den Fisch)" },
+                                { german: "Sie sieht den Mann.", english: "She sees the man. (der Mann → den Mann)" },
+                                { german: "Ich nehme den Kuchen.", english: "I take the cake. (der Kuchen → den Kuchen)" },
+                                { german: "Bestellst du den Salat?", english: "Are you ordering the salad? (der Salat → den Salat)" }
+                            ]
+                        },
+
+SECTION 3:
+                        {
+                            title: "3. Ein → Einen Transformation (Indefinite Articles)",
+                            content: "When you're talking about **A/AN** thing (indefinite article), masculine **ein** becomes **einen** in accusative.\n\n**Pattern:** Subject + Verb + **einen** + Masculine Noun\n\n**This is the MOST COMMON mistake for learners!** Don't forget the -en ending!\n\n**Memory Trick:** Think of \"einen\" as \"ein\" + \"en\" (the accusative marker)\n\n**Negation:** kein → keinen (same pattern)",
+                            examples: [
+                                { german: "Ich habe einen Bruder.", english: "I have a brother. (ein Bruder → einen Bruder)" },
+                                { german: "Er isst einen Apfel.", english: "He eats an apple. (ein Apfel → einen Apfel)" },
+                                { german: "Wir trinken einen Tee.", english: "We drink a tea. (ein Tee → einen Tee)" },
+                                { german: "Sie kauft einen Kuchen.", english: "She buys a cake. (ein Kuchen → einen Kuchen)" },
+                                { german: "Ich brauche einen Löffel.", english: "I need a spoon. (ein Löffel → einen Löffel)" },
+                                { german: "Möchtest du einen Kaffee?", english: "Would you like a coffee? (ein Kaffee → einen Kaffee)" },
+                                { german: "Ich habe keinen Hunger.", english: "I have no hunger. (kein Hunger → keinen Hunger)" }
+                            ]
+                        },
