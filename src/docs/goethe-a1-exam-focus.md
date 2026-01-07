@@ -746,31 +746,808 @@ For listening, just write a placeholder do not need to write the whole dummy exe
 **Focus:** Making requests and responding
 
 **Writing Practice:**
-- Practice writing short messages for different purposes:
-  - Accepting/declining invitations
-  - Asking for tourist information
-  - Requesting hotel details
-- Focus on including all 3 required points
+- **Teil 2 (Part 2):** Write short messages for different purposes (~30 words each)
+  - **Time allocation:** 10 minutes for this task
+  - **Point value:** 10 points total
+  
+  **Purpose 1: Accepting/Declining Invitations**
+  - Respond to party, event, or meeting invitations
+  - Must include: Your decision (yes/no), reason, and a question
+  
+  **Sample Task:**
+  ```
+  Deine Freundin Maria lädt dich zu einem Konzert ein.
+  Schreibe an Maria:
+  - Kannst du kommen?
+  - Warum (nicht)?
+  - Was möchtest du wissen?
+  ```
+  
+  **Sample Response (Accepting - 33 words):**
+  ```
+  Liebe Maria,
+  
+  vielen Dank für die Einladung! Ja, ich komme sehr gerne zum Konzert.
+  Ich liebe Musik und habe am Samstag Zeit. Wann beginnt das Konzert und wo treffen wir uns?
+  
+  Bis dann!
+  Viele Grüße
+  [Your name]
+  ```
+  
+  **Sample Response (Declining - 31 words):**
+  ```
+  Liebe Maria,
+  
+  danke für die Einladung zum Konzert. Leider kann ich nicht kommen.
+  Ich muss am Samstag arbeiten. Können wir uns nächste Woche treffen?
+  
+  Liebe Grüße
+  [Your name]
+  ```
+  
+  **Purpose 2: Asking for Tourist Information**
+  - Request information about attractions, tours, or activities
+  - Must include: What you want to know, when you need it, why you're asking
+  
+  **Sample Task:**
+  ```
+  Du bist Tourist in Berlin. Schreibe an die Tourist-Information:
+  - Was möchtest du besichtigen?
+  - Wann hast du Zeit?
+  - Was möchtest du noch wissen?
+  ```
+  
+  **Sample Response (34 words):**
+  ```
+  Sehr geehrte Damen und Herren,
+  
+  ich bin Tourist in Berlin. Ich möchte das Brandenburger Tor und das Museum besichtigen.
+  Ich habe morgen Zeit. Wie viel kostet der Eintritt? Wann ist das Museum geöffnet?
+  
+  Vielen Dank!
+  Mit freundlichen Grüßen
+  [Your name]
+  ```
+  
+  **Purpose 3: Requesting Hotel Details**
+  - Ask about room availability, prices, or facilities
+  - Must include: What you need, when, and specific questions
+  
+  **Sample Task:**
+  ```
+  Du suchst ein Hotel. Schreibe an das Hotel:
+  - Wann brauchst du ein Zimmer?
+  - Für wie viele Personen?
+  - Was möchtest du wissen?
+  ```
+  
+  **Sample Response (36 words):**
+  ```
+  Sehr geehrte Damen und Herren,
+  
+  ich brauche ein Zimmer vom 15. bis 18. Juni für zwei Personen.
+  Wie viel kostet das Zimmer pro Nacht? Gibt es WLAN? Wo kann ich parken?
+  
+  Mit freundlichen Grüßen
+  [Your name]
+  ```
+  
+  **Key Phrases for Making Requests:**
+  - **Asking for things:**
+    - "Können Sie mir... sagen/geben/schicken?" (Can you tell/give/send me...?)
+    - "Ich möchte gern..." (I would like to...)
+    - "Haben Sie...?" (Do you have...?)
+    - "Gibt es...?" (Is there...?)
+  
+  - **Asking for information:**
+    - "Wie viel kostet...?" (How much does... cost?)
+    - "Wann ist... geöffnet/geschlossen?" (When is... open/closed?)
+    - "Wo ist/sind...?" (Where is/are...?)
+    - "Wie komme ich zu...?" (How do I get to...?)
+  
+  - **Polite requests:**
+    - "Bitte..." (Please...)
+    - "Könnten Sie...?" (Could you...?)
+    - "Wäre es möglich...?" (Would it be possible...?)
+  
+  **Tips for Including All 3 Required Points:**
+  - ✅ Read the task carefully and underline the 3 points
+  - ✅ Write one sentence for each point minimum
+  - ✅ Use simple, clear language
+  - ✅ Check that each point is clearly addressed before finishing
+  - ✅ Use appropriate greeting (formal: "Sehr geehrte..." / informal: "Liebe/r...")
+  - ✅ Include proper closing and signature
+  
+  **Common Request Scenarios:**
+  - Booking accommodations (hotel, hostel, apartment)
+  - Asking about tours or activities
+  - Requesting information about transportation
+  - Inquiring about restaurant reservations
+  - Asking about store hours or product availability
+  - Requesting help or assistance
 
 **Speaking Practice:**
 - **Teil 3 (Part 3):** Make and respond to requests using picture cards
-  - Practice: "Kann ich... haben/leihen/kaufen?"
-  - Learn appropriate responses: "Ja, gerne" / "Tut mir leid, aber..."
-  - Topics: Borrowing items, asking for help, making purchases
+  - **Format:** Interactive role-play with partner/examiner
+  - **Duration:** ~4 minutes total
+  - **Point value:** 5 points
+  - **Structure:** You see a picture card showing a situation where you need something
+  
+  **How Teil 3 Works:**
+  1. You receive a picture card (e.g., person at a store, someone needing help)
+  2. You make a polite request based on the picture
+  3. Your partner/examiner responds
+  4. You continue the brief dialogue (2-3 exchanges)
+  5. Then roles switch - partner makes request, you respond
+  
+  **Common Request Scenarios:**
+  
+  **Scenario 1: Borrowing Items**
+  - Picture: Someone needs a pen, book, phone charger, etc.
+  - **Your request:** "Entschuldigung, kann ich bitte deinen Stift haben? Ich habe meinen Stift vergessen."
+  - **Possible responses:**
+    - "Ja, gerne! Hier, bitte." (Yes, gladly! Here you go.)
+    - "Tut mir leid, ich brauche ihn selbst." (Sorry, I need it myself.)
+  
+  **Scenario 2: Asking for Help**
+  - Picture: Someone carrying heavy bags, needing directions, etc.
+  - **Your request:** "Entschuldigung, können Sie mir bitte helfen? Diese Tasche ist sehr schwer."
+  - **Possible responses:**
+    - "Ja, natürlich! Wohin möchten Sie gehen?" (Yes, of course! Where do you want to go?)
+    - "Gerne! Was kann ich für Sie tun?" (Gladly! What can I do for you?)
+  
+  **Scenario 3: Making Purchases**
+  - Picture: Customer at a store, bakery, market
+  - **Your request:** "Guten Tag! Ich hätte gern zwei Brötchen und einen Kaffee, bitte."
+  - **Possible responses:**
+    - "Gerne! Das macht 4 Euro 50, bitte." (Gladly! That's 4.50 euros, please.)
+    - "Möchten Sie noch etwas?" (Would you like anything else?)
+  
+  **Scenario 4: Requesting Services**
+  - Picture: At a hotel reception, train station, information desk
+  - **Your request:** "Guten Tag! Ich brauche ein Zimmer für zwei Nächte. Haben Sie noch ein Zimmer frei?"
+  - **Possible responses:**
+    - "Ja, wir haben noch Zimmer. Für wie viele Personen?" (Yes, we still have rooms. For how many people?)
+    - "Leider sind wir ausgebucht." (Unfortunately we're fully booked.)
+  
+  **Scenario 5: Asking for Directions**
+  - Picture: Lost person with map, looking for a place
+  - **Your request:** "Entschuldigung, wo ist der Bahnhof? Ich finde ihn nicht."
+  - **Possible responses:**
+    - "Gehen Sie geradeaus und dann links." (Go straight ahead and then left.)
+    - "Der Bahnhof ist hier in der Nähe, etwa 5 Minuten zu Fuß." (The station is nearby, about 5 minutes on foot.)
+  
+  **Scenario 6: Ordering Food/Drinks**
+  - Picture: At a café or restaurant
+  - **Your request:** "Ich möchte bitte einen Kaffee und ein Stück Kuchen. Was empfehlen Sie?"
+  - **Possible responses:**
+    - "Der Apfelkuchen ist sehr gut!" (The apple cake is very good!)
+    - "Möchten Sie Milch und Zucker zum Kaffee?" (Would you like milk and sugar with your coffee?)
+  
+  **Key Phrases for Making Requests:**
+  - **Polite openings:**
+    - "Entschuldigung..." (Excuse me...)
+    - "Entschuldigen Sie bitte..." (Excuse me please...)
+    - "Guten Tag!" (Good day!)
+  
+  - **Making requests:**
+    - "Kann ich... haben?" (Can I have...?)
+    - "Kann ich... leihen?" (Can I borrow...?)
+    - "Kann ich... kaufen?" (Can I buy...?)
+    - "Können Sie mir helfen?" (Can you help me?)
+    - "Könnten Sie mir bitte... geben/zeigen/sagen?" (Could you please give/show/tell me...?)
+    - "Ich hätte gern..." (I would like...)
+    - "Ich möchte..." (I want/would like...)
+    - "Ich brauche..." (I need...)
+  
+  **Response Phrases (When Someone Asks You):**
+  - **Accepting/Agreeing:**
+    - "Ja, gerne!" (Yes, gladly!)
+    - "Ja, natürlich!" (Yes, of course!)
+    - "Kein Problem!" (No problem!)
+    - "Selbstverständlich!" (Of course!)
+    - "Hier, bitte." (Here you go.)
+  
+  - **Declining/Unable to help:**
+    - "Tut mir leid, aber..." (I'm sorry, but...)
+    - "Leider nicht." (Unfortunately not.)
+    - "Leider kann ich nicht." (Unfortunately I can't.)
+    - "Das geht leider nicht." (That unfortunately doesn't work.)
+    - "Ich habe keinen/keine/kein..." (I don't have a/any...)
+  
+  - **Asking for clarification:**
+    - "Wie bitte?" (Pardon?)
+    - "Können Sie das wiederholen?" (Can you repeat that?)
+    - "Was brauchen Sie?" (What do you need?)
+  
+  **Sample Dialogue 1 - Borrowing a Pen:**
+  
+  **You:** "Entschuldigung, kann ich bitte deinen Stift leihen? Ich habe meinen vergessen."
+  **Partner:** "Ja, natürlich! Hier, bitte."
+  **You:** "Vielen Dank! Das ist sehr nett."
+  **Partner:** "Kein Problem!"
+  
+  **Sample Dialogue 2 - Buying Bread:**
+  
+  **You:** "Guten Tag! Ich hätte gern zwei Brötchen und ein Brot, bitte."
+  **Partner:** "Gerne! Möchten Sie noch etwas?"
+  **You:** "Nein, danke. Das ist alles. Was kostet das?"
+  **Partner:** "Das macht 3 Euro 50, bitte."
+  
+  **Sample Dialogue 3 - Asking for Help:**
+  
+  **You:** "Entschuldigung, können Sie mir bitte helfen? Wo ist die Post?"
+  **Partner:** "Ja, gerne! Die Post ist in der Hauptstraße."
+  **You:** "Wie komme ich dorthin?"
+  **Partner:** "Gehen Sie hier geradeaus und dann rechts."
+  
+  **Key Strategies for Speaking Teil 3:**
+  
+  - **Making Requests:**
+    - ✅ Always start politely: "Entschuldigung" or "Guten Tag"
+    - ✅ Use "bitte" (please) in your request
+    - ✅ Speak clearly and not too fast
+    - ✅ Make eye contact with your partner
+    - ✅ Use simple, direct language
+  
+  - **Responding to Requests:**
+    - ✅ Listen carefully to what is being asked
+    - ✅ Respond naturally - "Ja, gerne" or "Tut mir leid"
+    - ✅ Add one extra detail if possible: "Ja, hier bitte. Brauchst du noch etwas?"
+    - ✅ Stay in character for the role-play
+  
+  - **General Tips:**
+    - ✅ Don't panic if you don't understand - ask: "Wie bitte?"
+    - ✅ It's okay to pause briefly to think
+    - ✅ Use gestures naturally (pointing, showing, etc.)
+    - ✅ Keep the dialogue flowing - don't give one-word answers
+    - ✅ Be polite and friendly in tone
+  
+  **Common Mistakes to Avoid:**
+  - ❌ Forgetting to say "bitte" (please)
+  - ❌ Being too formal or too informal for the situation
+  - ❌ Giving up if you don't know a word - try to explain differently
+  - ❌ Speaking too quietly or too fast
+  - ❌ Not responding to your partner's questions
+  - ❌ Using only "Ja" or "Nein" without elaboration
 
-**Vocabulary Theme:** Common Objects (Brille, Handy, Tasche, Buch, etc.)
+**Vocabulary Theme:** Common Objects (Gegenstände)
+
+**Personal Items (Persönliche Gegenstände):**
+- **die Brille** (glasses) - "Ich brauche meine Brille zum Lesen."
+- **das Handy** (mobile phone) - "Mein Handy ist kaputt."
+- **die Tasche** (bag) - "Meine Tasche ist sehr schwer."
+- **der Schlüssel** (key) - "Wo ist mein Schlüssel?"
+- **die Geldbörse / das Portemonnaie** (wallet) - "Ich habe meine Geldbörse vergessen."
+- **der Regenschirm** (umbrella) - "Ich brauche einen Regenschirm."
+- **die Uhr** (watch/clock) - "Meine Uhr ist kaputt."
+- **der Ausweis** (ID card) - "Ich habe meinen Ausweis dabei."
+- **der Pass** (passport) - "Wo ist mein Pass?"
+- **die Kreditkarte** (credit card) - "Kann ich mit Kreditkarte bezahlen?"
+
+**Household Items (Haushaltsgegenstände):**
+- **der Stift / der Kugelschreiber** (pen) - "Hast du einen Stift?"
+- **der Bleistift** (pencil) - "Ich schreibe mit Bleistift."
+- **das Papier** (paper) - "Ich brauche Papier."
+- **das Buch** (book) - "Das Buch ist interessant."
+- **das Heft** (notebook) - "Mein Heft ist voll."
+- **die Schere** (scissors) - "Wo ist die Schere?"
+- **der Kleber** (glue) - "Ich brauche Kleber."
+- **das Lineal** (ruler) - "Hast du ein Lineal?"
+- **der Radiergummi** (eraser) - "Kann ich deinen Radiergummi haben?"
+- **die Lampe** (lamp) - "Die Lampe ist sehr hell."
+
+**Office/Study Items (Büro-/Lerngegenstände):**
+- **der Computer / der Laptop** (computer/laptop) - "Mein Computer funktioniert nicht."
+- **die Maus** (mouse) - "Die Maus ist kaputt."
+- **die Tastatur** (keyboard) - "Ich brauche eine neue Tastatur."
+- **der Drucker** (printer) - "Der Drucker druckt nicht."
+- **das Ladegerät** (charger) - "Wo ist mein Ladegerät?"
+- **das Kabel** (cable) - "Ich brauche ein USB-Kabel."
+- **der Ordner** (folder/binder) - "Die Dokumente sind im Ordner."
+- **der Kalender** (calendar) - "Ich schreibe den Termin in meinen Kalender."
+
+**Clothing Items (Kleidungsstücke):**
+- **die Jacke** (jacket) - "Meine Jacke ist warm."
+- **der Mantel** (coat) - "Im Winter trage ich einen Mantel."
+- **der Schal** (scarf) - "Der Schal ist sehr schön."
+- **die Mütze** (cap/beanie) - "Ich brauche eine Mütze."
+- **die Handschuhe** (gloves) - "Meine Handschuhe sind weg."
+- **die Schuhe** (shoes) - "Die Schuhe sind zu klein."
+- **die Socken** (socks) - "Ich brauche neue Socken."
+
+**Technology Items (Technische Geräte):**
+- **das Tablet** (tablet) - "Ich lese auf meinem Tablet."
+- **die Kopfhörer** (headphones) - "Meine Kopfhörer sind kaputt."
+- **die Kamera** (camera) - "Die Kamera macht gute Fotos."
+- **der USB-Stick** (USB stick) - "Ich speichere die Dateien auf dem USB-Stick."
+- **die Batterie** (battery) - "Die Batterie ist leer."
+
+**Action Verbs Related to Objects:**
+- **haben** (to have) - "Ich habe ein Handy."
+- **brauchen** (to need) - "Ich brauche einen Stift."
+- **leihen** (to borrow/lend) - "Kann ich dein Buch leihen?"
+- **kaufen** (to buy) - "Ich kaufe ein neues Handy."
+- **suchen** (to search/look for) - "Ich suche meinen Schlüssel."
+- **finden** (to find) - "Ich finde meine Brille nicht."
+- **vergessen** (to forget) - "Ich habe mein Handy vergessen."
+- **verlieren** (to lose) - "Ich habe meinen Schlüssel verloren."
+- **benutzen / verwenden** (to use) - "Ich benutze meinen Computer jeden Tag."
+- **mitbringen** (to bring along) - "Bitte bring dein Buch mit."
+
+**Useful Phrases with Objects:**
+- "Ich habe... vergessen." (I forgot...)
+- "Ich brauche..." (I need...)
+- "Kann ich... haben/leihen?" (Can I have/borrow...?)
+- "Wo ist mein/meine/mein...?" (Where is my...?)
+- "Hast du...?" (Do you have...?)
+- "Ich suche..." (I'm looking for...)
+- "... ist kaputt." (...is broken.)
+- "... funktioniert nicht." (...doesn't work.)
+
+**Sample Sentences for Practice:**
+1. "Entschuldigung, kann ich bitte deinen Stift leihen? Ich habe meinen vergessen."
+2. "Ich brauche ein neues Handy. Mein Handy ist kaputt."
+3. "Wo ist meine Brille? Ich finde sie nicht."
+4. "Hast du ein Ladegerät? Mein Handy-Akku ist leer."
+5. "Ich suche meinen Schlüssel. Hast du ihn gesehen?"
+6. "Kann ich bitte deine Schere haben? Ich muss etwas schneiden."
 
 ---
 
 ### Day 7: 🎯 Full Practice Test Day
 **Complete a full mock exam under timed conditions**
 
-- Listening: 20 minutes (all 3 parts)
-- Reading: 25 minutes (all 3 parts)
-- Writing: 20 minutes (both parts)
-- Speaking: 15 minutes (all 3 parts with partner or record yourself)
+This is your first complete practice test! The goal is to experience the full exam format, practice time management, and identify areas that need more work in Week 2.
 
-**Review and analyze:** Identify weak areas for Week 2 focus
+**Complete Mock Exam Structure:**
+
+**Total Time:** ~80 minutes (plus breaks)
+- Listening: 20 minutes
+- Reading: 25 minutes
+- Writing: 20 minutes
+- Speaking: 15 minutes
+
+**Exam Day Schedule:**
+1. **Listening Module** (20 minutes) - No break
+2. **5-minute break**
+3. **Reading Module** (25 minutes) - No break
+4. **5-minute break**
+5. **Writing Module** (20 minutes) - No break
+6. **10-minute break**
+7. **Speaking Module** (15 minutes) - With partner or self-recording
+
+---
+
+## 🎧 Listening Section (20 minutes total)
+
+**Teil 1: Short Dialogues (6 questions)**
+- **Time:** ~6 minutes
+- **Format:** 6 short everyday conversations
+- **Played:** TWICE
+- **Question type:** Multiple choice (3 options: A, B, C)
+
+**What to Listen For:**
+- WHO is speaking? (man/woman, age, relationship)
+- WHERE are they? (supermarket, office, home, etc.)
+- WHAT are they talking about? (shopping, appointments, plans)
+- WHEN is something happening? (times, days, dates)
+
+**Strategy:**
+- Read ALL questions before audio starts (30 seconds)
+- Underline key W-words in questions
+- First listening: Get general context
+- Second listening: Confirm specific details
+- Don't panic if you miss something - move to next question
+
+**Common Topics:**
+- Shopping conversations
+- Making appointments
+- Meeting people
+- Discussing plans
+- Asking for information
+- Talking about daily activities
+
+---
+
+**Teil 2: Public Announcements (4 questions)**
+- **Time:** ~6 minutes
+- **Format:** 4 announcements (train station, airport, supermarket, etc.)
+- **Played:** ONCE ONLY ⚠️
+- **Question type:** True/False (Richtig/Falsch)
+
+**What to Listen For:**
+- Platform/gate numbers
+- Departure/arrival times
+- Delays or changes
+- Special offers or information
+- Location details
+
+**Strategy:**
+- Read questions VERY carefully before audio (this is crucial!)
+- Underline key information you need to listen for
+- Focus intensely - you only hear it ONCE
+- Write down numbers and times immediately
+- If unsure, make your best guess - don't leave blank
+
+**Common Announcement Types:**
+- Train/bus platform changes
+- Flight gate announcements
+- Store closing times or special offers
+- Event location or time changes
+- Weather warnings or information
+
+---
+
+**Teil 3: Telephone Messages (5 questions)**
+- **Time:** ~8 minutes
+- **Format:** 5 voicemail messages or phone calls
+- **Played:** TWICE
+- **Question type:** Multiple choice (3 options: A, B, C)
+
+**What to Listen For:**
+- WHO is calling?
+- WHY are they calling?
+- WHEN is something happening?
+- WHERE should you go/meet?
+- WHAT should you do/bring?
+
+**Strategy:**
+- Read all 5 questions before audio starts
+- First listening: WHO + WHY (general purpose)
+- Second listening: Specific details (times, places, actions)
+- Watch for changes: "nicht um 3, sondern um 4" (not at 3, but at 4)
+- Note any numbers, times, or locations
+
+**Common Message Types:**
+- Doctor's office confirming/changing appointments
+- Friend calling about meeting plans
+- Store calling about order pickup
+- Family member about dinner/events
+- Colleague about work schedule
+
+---
+
+## 📖 Reading Section (25 minutes total)
+
+**Teil 1: Short Messages (2 texts, ~7 questions)**
+- **Time:** ~8 minutes
+- **Format:** 2 short emails/letters (40-70 words each)
+- **Question type:** True/False (Richtig/Falsch)
+
+**What to Look For:**
+- Personal information (names, dates, times)
+- Plans and invitations
+- Requests and questions
+- Reasons and explanations
+
+**Strategy:**
+- Read the text FIRST quickly (30 seconds)
+- Then read each statement carefully
+- Find the relevant sentence in the text
+- Check if statement matches EXACTLY
+- Watch for: "nicht" (not), "nur" (only), "alle" (all)
+
+**Common Text Types:**
+- Party/event invitations
+- Personal messages between friends
+- Travel plans
+- Appointment confirmations
+
+---
+
+**Teil 2: Matching Situations to Ads (5 questions)**
+- **Time:** ~8 minutes
+- **Format:** 5 situations + 8 advertisements (choose A or B for each)
+- **Question type:** Matching
+
+**What to Look For:**
+- Key requirements in the situation
+- Matching details in advertisements
+- Prices, times, locations
+- Specific features or conditions
+
+**Strategy:**
+- Read situation #1 carefully
+- Underline key requirements (price, time, location, features)
+- Scan both ads A and B for matching information
+- Choose the ad that matches ALL requirements
+- Move to next situation
+- Time management: ~1.5 minutes per situation
+
+**Common Situation Types:**
+- Finding apartments/rooms
+- Looking for services (cleaning, repair, lessons)
+- Searching for events or activities
+- Finding jobs or courses
+- Looking for items to buy
+
+---
+
+**Teil 3: Information Boards/Notices (5 questions)**
+- **Time:** ~9 minutes
+- **Format:** 1-2 information posters/notices
+- **Question type:** Multiple choice (3 options: A, B, C)
+
+**What to Look For:**
+- Opening hours (geöffnet/geschlossen)
+- Prices (Eintritt, Kosten)
+- Rules (verboten/erlaubt)
+- Special conditions (nur, außer, ab)
+- Contact information
+
+**Strategy:**
+- Scan the notice first (30 seconds) - what type is it?
+- Read question #1
+- Find relevant information in notice
+- Eliminate wrong answers
+- Repeat for each question
+- Don't read every word - SCAN for specific info
+
+**Common Notice Types:**
+- Museum/gallery information
+- Swimming pool/sports center rules
+- Parking regulations
+- Library borrowing rules
+- Store/restaurant hours
+- Event announcements
+
+---
+
+## ✍️ Writing Section (20 minutes total)
+
+**Teil 1: Form Completion (~5 minutes)**
+- **Format:** Fill in personal information on a form
+- **Points:** 5 points
+- **Information needed:** Name, address, date of birth, nationality, etc.
+
+**What to Write:**
+- Vorname (first name)
+- Nachname (last name)
+- Straße + Hausnummer (street + number)
+- Postleitzahl + Wohnort (postal code + city)
+- Land (country)
+- Geburtsdatum (date of birth)
+- Telefonnummer (phone number)
+- E-Mail-Adresse (email address)
+
+**Strategy:**
+- ✅ Write clearly and legibly
+- ✅ Use correct German format for dates (TT.MM.JJJJ)
+- ✅ Check spelling of your name and address
+- ✅ Don't leave any required fields blank
+- ✅ Spend maximum 5 minutes on this
+
+---
+
+**Teil 2: Short Message (~15 minutes)**
+- **Format:** Write ~30 words responding to 3 specific points
+- **Points:** 10 points
+- **Time allocation:** 12 minutes writing + 3 minutes checking
+
+**Structure (ALWAYS follow this!):**
+1. **Greeting:** Liebe/r [Name] OR Sehr geehrte Damen und Herren
+2. **Point 1:** Address first requirement (1-2 sentences)
+3. **Point 2:** Address second requirement (1-2 sentences)
+4. **Point 3:** Address third requirement (1-2 sentences)
+5. **Closing:** Viele Grüße / Mit freundlichen Grüßen
+6. **Signature:** Your name
+
+**Common Task Types:**
+- Responding to invitations (accept/decline + reason + question)
+- Asking for information (what you want + when + why)
+- Making suggestions (activity + time/place + what to bring)
+- Thanking/apologizing (express thanks/sorry + reason + future plan)
+
+**Strategy:**
+- ✅ Read task carefully - underline the 3 points
+- ✅ Plan quickly (30 seconds) - what will you write for each point?
+- ✅ Write 1-2 sentences per point
+- ✅ Count words as you write (aim for 30-40)
+- ✅ Use simple, correct sentences
+- ✅ Check: Did I address ALL 3 points?
+- ✅ Check: Greeting + closing + signature?
+- ✅ Check: Spelling, especially names and days?
+
+---
+
+## 🗣️ Speaking Section (15 minutes total)
+
+**Teil 1: Self-Introduction (~3 minutes)**
+- **Format:** Introduce yourself using prompt cards
+- **Points:** 3 points
+- **Topics:** Name, age, country, city, languages, hobbies, work/study
+
+**What to Prepare:**
+- "Ich heiße... / Mein Name ist..."
+- "Ich komme aus... / Ich bin aus..."
+- "Ich wohne in..."
+- "Ich bin... Jahre alt."
+- "Ich spreche... und..."
+- "Ich arbeite als... / Ich studiere..."
+- "Mein Hobby ist..."
+
+**Strategy:**
+- ✅ Speak clearly and not too fast
+- ✅ Spell your name: "Das buchstabiert man: M-A-R-I-A"
+- ✅ Give your phone number digit by digit
+- ✅ Practice beforehand so you're confident
+- ✅ Smile and make eye contact
+
+---
+
+**Teil 2: Q&A with Partner (~6 minutes)**
+- **Format:** Ask and answer questions using theme cards
+- **Points:** 6 points (3 for asking, 3 for answering)
+- **Themes:** Hobbies, food, daily routine, family, work, shopping, travel
+
+**What to Do:**
+1. You get a theme card (e.g., "Hobbies")
+2. Ask partner 3 W-questions about THEIR theme
+3. Partner asks you 3 W-questions about YOUR theme
+4. Answer their questions with complete sentences
+
+**Strategy:**
+- ✅ Use simple W-questions: Was? Wo? Wann? Wie? Warum?
+- ✅ Listen to partner's answers
+- ✅ Give complete answers, not just "Ja" or "Nein"
+- ✅ Add one detail: "Ich spiele Fußball. Das macht Spaß!"
+- ✅ If you don't understand: "Entschuldigung, können Sie das wiederholen?"
+
+---
+
+**Teil 3: Making Requests (~6 minutes)**
+- **Format:** Make and respond to requests using picture cards
+- **Points:** 6 points (3 for requesting, 3 for responding)
+- **Scenarios:** Borrowing items, asking for help, buying things, requesting services
+
+**What to Do:**
+1. See a picture card (e.g., person needing a pen)
+2. Make a polite request based on the picture
+3. Partner responds
+4. Brief dialogue (2-3 exchanges)
+5. Switch roles
+
+**Strategy:**
+- ✅ Start politely: "Entschuldigung..." or "Guten Tag!"
+- ✅ Use "bitte" in your request
+- ✅ Make request clear: "Kann ich... haben/leihen/kaufen?"
+- ✅ When responding: "Ja, gerne!" or "Tut mir leid, aber..."
+- ✅ Keep dialogue natural and flowing
+
+---
+
+## 📊 Self-Assessment & Review
+
+**After Completing the Mock Exam:**
+
+**1. Score Yourself (Estimate):**
+- Listening: ___/15 points
+- Reading: ___/15 points
+- Writing: ___/15 points
+- Speaking: ___/15 points
+- **Total: ___/60 points** (Need 36 to pass = 60%)
+
+**2. Time Management Check:**
+- ⏰ Did you finish each section in time?
+- ⏰ Which section felt rushed?
+- ⏰ Where did you spend too much time?
+
+**3. Difficulty Analysis:**
+
+**Listening:**
+- [ ] Teil 1 (Dialogues) - Easy / Medium / Hard
+- [ ] Teil 2 (Announcements) - Easy / Medium / Hard
+- [ ] Teil 3 (Phone messages) - Easy / Medium / Hard
+- **Hardest part:** _______________
+- **Why:** _______________
+
+**Reading:**
+- [ ] Teil 1 (Short messages) - Easy / Medium / Hard
+- [ ] Teil 2 (Matching ads) - Easy / Medium / Hard
+- [ ] Teil 3 (Information boards) - Easy / Medium / Hard
+- **Hardest part:** _______________
+- **Why:** _______________
+
+**Writing:**
+- [ ] Teil 1 (Form) - Easy / Medium / Hard
+- [ ] Teil 2 (Message) - Easy / Medium / Hard
+- **Did I address all 3 points?** Yes / No
+- **Word count:** ~___ words (target: 30-40)
+
+**Speaking:**
+- [ ] Teil 1 (Introduction) - Easy / Medium / Hard
+- [ ] Teil 2 (Q&A) - Easy / Medium / Hard
+- [ ] Teil 3 (Requests) - Easy / Medium / Hard
+- **Most challenging:** _______________
+
+**4. Weak Areas to Focus on in Week 2:**
+
+**Vocabulary gaps:**
+- Topics I struggled with: _______________
+- Words I didn't know: _______________
+
+**Grammar issues:**
+- Verb conjugation errors: _______________
+- Article mistakes (der/die/das): _______________
+- Word order problems: _______________
+
+**Skills needing work:**
+- [ ] Understanding fast speech (Listening)
+- [ ] Scanning for information (Reading)
+- [ ] Writing complete sentences (Writing)
+- [ ] Speaking fluently (Speaking)
+- [ ] Time management
+- [ ] Staying calm under pressure
+
+**5. Action Plan for Week 2:**
+
+**Priority 1 (Most urgent):**
+- Focus on: _______________
+- Practice by: _______________
+
+**Priority 2:**
+- Focus on: _______________
+- Practice by: _______________
+
+**Priority 3:**
+- Focus on: _______________
+- Practice by: _______________
+
+**6. Positive Observations:**
+- What went well: _______________
+- Strengths to maintain: _______________
+- Confidence level (1-10): ___
+
+---
+
+## 💡 Tips for Improvement Based on Common Mistakes
+
+**If you struggled with Listening:**
+- 🎧 Listen to German audio daily (news, podcasts, YouTube)
+- 🎧 Practice with official Goethe materials
+- 🎧 Focus on numbers and times - write them down quickly
+- 🎧 Learn to recognize key words even if you don't understand everything
+
+**If you struggled with Reading:**
+- 📖 Practice scanning, not reading every word
+- 📖 Learn to identify keywords quickly
+- 📖 Review time expressions (täglich, außer, von...bis)
+- 📖 Practice with real German notices (museum websites, parking signs)
+
+**If you struggled with Writing:**
+- ✍️ Memorize standard phrases (greetings, closings)
+- ✍️ Practice writing 5-10 short messages on different topics
+- ✍️ Always check: Did I cover all 3 points?
+- ✍️ Keep sentences simple - don't try to be fancy
+- ✍️ Review common verbs and their conjugations
+
+**If you struggled with Speaking:**
+- 🗣️ Practice speaking out loud every day
+- 🗣️ Record yourself and listen back
+- 🗣️ Find a language partner or tutor
+- 🗣️ Memorize common questions and answers
+- 🗣️ Don't worry about perfection - communication is key!
+
+---
+
+## 🎯 Week 2 Preview
+
+Based on your Day 7 results, Week 2 will help you:
+- **Days 8-9:** Family and relationships (strengthen vocabulary)
+- **Days 10-11:** Food and restaurants (practical conversations)
+- **Days 12-13:** Shopping and prices (numbers and transactions)
+- **Day 14:** Second progress check (compare with Day 7)
+
+**Remember:**
+- ✨ This is just your FIRST practice test
+- ✨ Mistakes are learning opportunities
+- ✨ You have 23 more days to improve
+- ✨ Focus on progress, not perfection
+- ✨ Consistency is more important than intensity
+
+**Gut gemacht! (Well done!)** You've completed Week 1! 🎉
 
 ---
 
@@ -780,17 +1557,251 @@ For listening, just write a placeholder do not need to write the whole dummy exe
 **Focus:** Family and relationships
 
 **Listening Practice:**
-- **Mixed practice:** All three parts with family-related contexts
-  - Dialogues about family plans, celebrations
-  - Announcements about family events
-  - Phone messages arranging family meetings
+
+**Mixed Practice - All Three Parts with Family Contexts**
+
+This day combines all three listening parts (Teil 1, 2, and 3) with a focus on family-related topics. This helps you practice switching between different listening formats while building vocabulary around family and relationships.
+
+**Teil 1: Dialogues about Family Plans and Celebrations**
+- **Format:** 6 short dialogues, played TWICE
+- **Common scenarios you'll encounter:**
+  - Planning birthday parties for family members
+  - Discussing family visits and reunions
+  - Arranging family dinners or gatherings
+  - Talking about children's activities
+  - Coordinating family celebrations (anniversaries, holidays)
+  - Making plans with relatives
+
+**Key phrases to listen for:**
+- "Wir feiern..." (We're celebrating...)
+- "Meine Familie kommt..." (My family is coming...)
+- "Am Wochenende treffen wir..." (On the weekend we're meeting...)
+- "Mein Bruder/Meine Schwester..." (My brother/My sister...)
+- "Die Kinder möchten..." (The children want to...)
+- "Unsere Eltern..." (Our parents...)
+
+**Practice identifying:**
+- Family relationships mentioned (who is related to whom)
+- When family events are happening
+- Where family members are meeting
+- What activities are planned
+- Who is invited or attending
+
+**Teil 2: Announcements about Family Events**
+- **Format:** 4 announcements, played ONCE ONLY
+- **Common scenarios:**
+  - Community center family days and programs
+  - Museum family programs and workshops
+  - Park family festivals and activities
+  - Library children's story hours
+  - Swimming pool family hours
+  - Zoo or aquarium family events
+
+**Focus on listening for:**
+- Dates and times of family-friendly events
+- Age-appropriate activities (for children, families with babies, etc.)
+- Special prices or discounts for families
+- What to bring or prepare
+- Registration requirements
+
+**Key vocabulary:**
+- "Familien mit Kindern" (families with children)
+- "Kinder ab... Jahren" (children from... years)
+- "Eltern und Kinder" (parents and children)
+- "kostenlos für Kinder unter..." (free for children under...)
+- "Anmeldung erforderlich" (registration required)
+
+**Teil 3: Phone Messages Arranging Family Meetings**
+- **Format:** 5 messages, played TWICE
+- **Common scenarios:**
+  - Messages about family gatherings or get-togethers
+  - Appointment changes for family events
+  - Invitation confirmations from relatives
+  - Messages about bringing family members to events
+  - Coordinating family travel plans
+  - Cancellations or postponements of family meetings
+
+**Practice understanding:**
+- Times and locations for family meetings
+- Requests (what to bring, who to bring)
+- Changes to original plans
+- Reasons for changes or cancellations
+- Contact information for follow-up
+
+**Listening Strategy Tips for Family Topics:**
+- Family relationships can be complex - listen for possessive pronouns (mein/meine, dein/deine, sein/seine, ihr/ihre)
+- Numbers are important: ages, number of people, times, dates
+- Pay attention to plural forms: "Kinder" (children), "Eltern" (parents), "Großeltern" (grandparents)
+- Listen for family activities: feiern (celebrate), besuchen (visit), treffen (meet), einladen (invite)
+
+---
 
 **Reading Practice:**
-- Read emails about family topics
-- Find advertisements for family activities
-- Information about family-friendly venues
 
-**Vocabulary Theme:** Family Members (Mutter, Vater, Schwester, Bruder, Großeltern, etc.)
+**Teil 1: Emails about Family Topics**
+
+Read short personal messages about family matters and answer True/False questions.
+
+**Sample text types:**
+- Birthday party invitations for children or family members
+- Family reunion announcements
+- Requests to bring family members to events
+- Messages about family visits
+- Emails coordinating family activities
+
+**What to look for:**
+- Who is invited (individuals or whole families)
+- When the event is happening
+- Where to meet or go
+- What to bring or prepare
+- RSVP information
+
+**Common True/False question patterns:**
+- "Die Party ist am Samstag." (The party is on Saturday.)
+- "Alle Kinder sind eingeladen." (All children are invited.)
+- "Man muss etwas mitbringen." (One must bring something.)
+- "Die Familie trifft sich zu Hause." (The family is meeting at home.)
+
+**Teil 2: Advertisements for Family Activities**
+
+Match family needs to appropriate services or activities.
+
+**Sample advertisement types:**
+- Family restaurants with children's menus and play areas
+- Children's playgrounds and indoor play centers
+- Family-friendly hotels or vacation rentals
+- Daycare centers or after-school programs
+- Family sports activities or classes
+- Children's birthday party venues
+
+**Matching criteria to consider:**
+- Age appropriateness (suitable for babies, toddlers, school-age children)
+- Price range (family discounts, children free, etc.)
+- Location and accessibility
+- Available facilities (parking, changing rooms, etc.)
+- Opening hours (weekends, evenings, holidays)
+- Special features (outdoor space, educational programs, etc.)
+
+**Teil 3: Information about Family-Friendly Venues**
+
+Read information posters about places suitable for families and answer multiple choice questions.
+
+**Common venue types:**
+- Zoo or animal park information
+- Swimming pool family hours and rules
+- Park facilities and playgrounds
+- Children's museums or science centers
+- Family restaurants or cafés
+- Libraries with children's sections
+
+**Questions typically ask about:**
+- Opening hours for families
+- Prices for adults vs. children
+- Age restrictions or recommendations
+- Facilities available (strollers allowed, changing tables, etc.)
+- Rules (what's allowed, what's forbidden)
+- Special family programs or events
+
+**Sample information you'll need to find:**
+- "Kinder unter 6 Jahren: Eintritt frei" (Children under 6: free entry)
+- "Familienpreis: 2 Erwachsene + 2 Kinder = 25 Euro" (Family price: 2 adults + 2 children = 25 euros)
+- "Kinderwagen erlaubt" (Strollers allowed)
+- "Wickelraum vorhanden" (Changing room available)
+- "Spielplatz für Kinder ab 3 Jahren" (Playground for children from 3 years)
+
+---
+
+**Vocabulary Theme: Family Members**
+
+**Immediate Family (Die engste Familie):**
+- **die Mutter** (mother) - "Meine Mutter heißt Anna."
+- **der Vater** (father) - "Mein Vater ist 50 Jahre alt."
+- **die Eltern** (parents) - "Meine Eltern wohnen in Berlin."
+- **die Schwester** (sister) - "Ich habe eine Schwester."
+- **der Bruder** (brother) - "Mein Bruder studiert Medizin."
+- **die Geschwister** (siblings) - "Ich habe zwei Geschwister."
+- **der Sohn** (son) - "Das ist mein Sohn Tom."
+- **die Tochter** (daughter) - "Meine Tochter ist 5 Jahre alt."
+- **die Kinder** (children) - "Wir haben drei Kinder."
+- **das Kind** (child) - "Das Kind spielt im Garten."
+
+**Extended Family (Die erweiterte Familie):**
+- **die Großmutter / die Oma** (grandmother/grandma) - "Meine Oma ist sehr nett."
+- **der Großvater / der Opa** (grandfather/grandpa) - "Mein Opa ist 75 Jahre alt."
+- **die Großeltern** (grandparents) - "Meine Großeltern leben in München."
+- **die Tante** (aunt) - "Tante Maria kommt zu Besuch."
+- **der Onkel** (uncle) - "Mein Onkel arbeitet in Hamburg."
+- **der Cousin** (male cousin) - "Mein Cousin heißt Max."
+- **die Cousine** (female cousin) - "Meine Cousine studiert in Wien."
+- **der Neffe** (nephew) - "Mein Neffe ist 8 Jahre alt."
+- **die Nichte** (niece) - "Meine Nichte geht in die Schule."
+- **der Enkel** (grandson) - "Das ist mein Enkel."
+- **die Enkelin** (granddaughter) - "Meine Enkelin ist sehr klug."
+
+**In-Laws (Angeheiratete Familie):**
+- **die Schwiegermutter** (mother-in-law) - "Meine Schwiegermutter ist sehr freundlich."
+- **der Schwiegervater** (father-in-law) - "Mein Schwiegervater kocht gern."
+- **die Schwiegereltern** (parents-in-law) - "Meine Schwiegereltern wohnen in der Nähe."
+- **der Schwager** (brother-in-law) - "Mein Schwager ist Arzt."
+- **die Schwägerin** (sister-in-law) - "Meine Schwägerin arbeitet in Berlin."
+
+**Marital Status & Relationships:**
+- **der Mann / der Ehemann** (husband) - "Mein Mann heißt Peter."
+- **die Frau / die Ehefrau** (wife) - "Meine Frau ist Lehrerin."
+- **der Partner / die Partnerin** (partner) - "Mein Partner kommt aus Italien."
+- **der Freund / die Freundin** (boyfriend/girlfriend) - "Das ist mein Freund."
+- **verheiratet** (married) - "Ich bin verheiratet."
+- **ledig** (single) - "Meine Schwester ist ledig."
+- **geschieden** (divorced) - "Er ist geschieden."
+- **verwitwet** (widowed) - "Sie ist verwitwet."
+
+**Possessive Pronouns for Family:**
+- **mein/meine** (my) - "mein Vater, meine Mutter, meine Eltern"
+- **dein/deine** (your - informal) - "dein Bruder, deine Schwester"
+- **sein/seine** (his) - "sein Sohn, seine Tochter"
+- **ihr/ihre** (her) - "ihr Mann, ihre Kinder"
+- **unser/unsere** (our) - "unser Haus, unsere Familie"
+- **euer/eure** (your - plural informal) - "euer Vater, eure Mutter"
+- **Ihr/Ihre** (your - formal) - "Ihr Sohn, Ihre Tochter"
+
+**Family-Related Verbs:**
+- **besuchen** (to visit) - "Ich besuche meine Großeltern."
+- **einladen** (to invite) - "Wir laden die Familie ein."
+- **feiern** (to celebrate) - "Wir feiern Geburtstag."
+- **treffen** (to meet) - "Wir treffen uns am Sonntag."
+- **kennenlernen** (to get to know) - "Ich möchte deine Familie kennenlernen."
+- **vorstellen** (to introduce) - "Ich stelle dir meine Eltern vor."
+- **ähneln** (to resemble) - "Er ähnelt seinem Vater."
+- **erziehen** (to raise/educate) - "Sie erzieht drei Kinder."
+
+**Sample Sentences for Practice:**
+1. "Meine Familie besteht aus fünf Personen: meine Eltern, zwei Geschwister und ich."
+2. "Ich habe einen Bruder und eine Schwester. Mein Bruder ist älter als ich."
+3. "Meine Großeltern wohnen in Hamburg. Ich besuche sie jeden Monat."
+4. "Am Wochenende feiern wir den Geburtstag meiner Mutter."
+5. "Meine Tante hat zwei Kinder. Sie sind meine Cousins."
+6. "Ich bin verheiratet und habe eine Tochter. Sie ist drei Jahre alt."
+7. "Meine Schwiegermutter kommt morgen zu Besuch."
+8. "Wir treffen uns mit der ganzen Familie zu Weihnachten."
+
+**Exam Tips for Day 8:**
+
+**For Listening:**
+- Family relationships can be confusing - draw a quick family tree if needed
+- Listen for possessive pronouns to understand relationships
+- Numbers are crucial: ages, number of family members, times
+- Pay attention to plural vs. singular (Kind vs. Kinder, Eltern is always plural)
+
+**For Reading:**
+- Scan for family-related keywords first
+- Look for age information (wichtig für family activities)
+- Check price information carefully (Erwachsene vs. Kinder)
+- Note special conditions (ab 3 Jahren, unter 6 Jahren frei, etc.)
+
+**Time Management:**
+- Mixed listening practice: ~20 minutes total
+- Reading all three parts: ~25 minutes total
+- Don't spend too long on one question - move forward
 
 ---
 
@@ -798,16 +1809,332 @@ For listening, just write a placeholder do not need to write the whole dummy exe
 **Focus:** Describing people and relationships
 
 **Writing Practice:**
-- Write about your family
-- Invite someone to a family event
-- Respond to family-related questions in messages
+
+**Task 1: Write about Your Family**
+
+Learn to describe your family structure, members, and basic information.
+
+**Structure to follow:**
+1. **Family size:** How many people are in your family?
+2. **Family members:** Who are they? (parents, siblings, etc.)
+3. **Ages:** How old are they?
+4. **Occupations:** What do they do?
+5. **Where they live:** Do they live together or separately?
+
+**Key phrases to use:**
+- "Meine Familie besteht aus... Personen." (My family consists of... people.)
+- "Ich habe..." (I have...)
+- "Mein Vater/Meine Mutter ist... Jahre alt." (My father/mother is... years old.)
+- "Er/Sie arbeitet als..." (He/She works as...)
+- "Wir wohnen in..." (We live in...)
+- "Meine Geschwister sind..." (My siblings are...)
+
+**Sample text describing a family (45 words):**
+```
+Meine Familie besteht aus vier Personen: meine Eltern, mein Bruder und ich.
+Mein Vater ist 52 Jahre alt und arbeitet als Ingenieur. Meine Mutter ist 48 und ist Lehrerin.
+Mein Bruder heißt Tom. Er ist 16 Jahre alt und geht noch zur Schule.
+Wir wohnen alle zusammen in Berlin.
+```
+
+**Task 2: Invite Someone to a Family Event**
+
+Practice writing invitations to family celebrations or gatherings.
+
+**Must include all 3 points:**
+1. What event is it? (birthday, dinner, celebration)
+2. When is it? (date and time)
+3. What should they bring or do?
+
+**Sample invitation to a birthday party (35 words):**
+```
+Liebe Sarah,
+
+am Samstag feiern wir den Geburtstag meiner Mutter. Die Party beginnt um 15 Uhr bei uns zu Hause.
+Kannst du einen Salat mitbringen? Wir freuen uns auf dich!
+
+Viele Grüße
+Anna
+```
+
+**Sample invitation to family dinner (32 words):**
+```
+Hallo Mark,
+
+wir machen am Sonntag ein Familienessen. Wir essen um 13 Uhr.
+Kommst du auch? Bitte bring deine Freundin mit. Wir möchten sie kennenlernen!
+
+Bis Sonntag!
+Lisa
+```
+
+**Polite invitation language:**
+- "Wir laden dich ein zu..." (We invite you to...)
+- "Wir feiern..." (We're celebrating...)
+- "Kommst du auch?" (Are you coming too?)
+- "Wir freuen uns auf dich!" (We're looking forward to seeing you!)
+- "Bitte bring... mit." (Please bring... with you.)
+- "Kannst du... mitbringen?" (Can you bring...?)
+
+**Task 3: Respond to Family-Related Questions**
+
+Practice answering questions about your family in written form.
+
+**Common questions you might need to answer:**
+- "Wie groß ist deine Familie?" (How big is your family?)
+- "Hast du Geschwister?" (Do you have siblings?)
+- "Wo wohnen deine Eltern?" (Where do your parents live?)
+- "Was machen deine Eltern?" (What do your parents do?)
+- "Wie oft siehst du deine Familie?" (How often do you see your family?)
+
+**Sample responses:**
+- "Meine Familie ist klein. Wir sind drei Personen." (My family is small. We are three people.)
+- "Ja, ich habe einen Bruder und eine Schwester." (Yes, I have a brother and a sister.)
+- "Meine Eltern wohnen in Hamburg." (My parents live in Hamburg.)
+- "Mein Vater ist Arzt und meine Mutter ist Verkäuferin." (My father is a doctor and my mother is a saleswoman.)
+- "Ich sehe meine Familie jeden Monat." (I see my family every month.)
+
+**How to describe family members briefly:**
+- Name + relationship: "Das ist mein Bruder Tom."
+- Age: "Er ist 25 Jahre alt."
+- Occupation: "Er arbeitet als Lehrer."
+- Location: "Er wohnt in München."
+- Characteristic: "Er ist sehr nett und lustig."
+
+**Practice expanding responses:**
+- Short: "Ich habe eine Schwester."
+- Expanded: "Ich habe eine Schwester. Sie heißt Lisa und ist 20 Jahre alt. Sie studiert in Berlin."
+
+---
 
 **Speaking Practice:**
-- Introduce family members
-- Talk about family activities
-- Ask and answer questions about someone's family
 
-**Vocabulary Theme:** Adjectives for Describing People (groß, klein, jung, alt, nett, etc.)
+**Teil 1: Introduce Family Members**
+
+Learn to present your family clearly and confidently.
+
+**How to structure your family introduction:**
+1. Start with family size: "Meine Familie besteht aus... Personen."
+2. Introduce each member: "Das ist mein Vater. Er heißt..."
+3. Give basic information: age, occupation, where they live
+4. Add one personal detail if possible
+
+**Sample family introduction:**
+```
+Meine Familie besteht aus vier Personen.
+Das ist mein Vater. Er heißt Michael und ist 55 Jahre alt. Er ist Ingenieur.
+Das ist meine Mutter. Sie heißt Anna und ist 52 Jahre alt. Sie arbeitet als Lehrerin.
+Ich habe einen Bruder. Er heißt Tom und ist 18 Jahre alt. Er studiert Informatik.
+Wir wohnen alle in Berlin.
+```
+
+**Pronunciation tips for family terms:**
+- **Mutter** - stress on first syllable: MUT-ter
+- **Vater** - stress on first syllable: VA-ter
+- **Geschwister** - ge-SHVIS-ter
+- **Großeltern** - GROSS-el-tern
+- Practice the "ch" sound in "Tochter" and "Nichte"
+
+**Teil 2: Talk about Family Activities**
+
+Discuss what your family does together.
+
+**Common family activities to talk about:**
+- **zusammen essen** (eat together) - "Wir essen jeden Sonntag zusammen."
+- **spielen** (play) - "Wir spielen oft Spiele."
+- **reisen** (travel) - "Im Sommer reisen wir zusammen."
+- **feiern** (celebrate) - "Wir feiern alle Geburtstage zusammen."
+- **spazieren gehen** (go for walks) - "Am Wochenende gehen wir spazieren."
+- **fernsehen** (watch TV) - "Abends sehen wir zusammen fern."
+- **kochen** (cook) - "Meine Mutter und ich kochen gern zusammen."
+
+**W-questions about family:**
+- "Was macht deine Familie am Wochenende?" (What does your family do on weekends?)
+- "Wie oft trifft sich deine Familie?" (How often does your family meet?)
+- "Was macht ihr zusammen?" (What do you do together?)
+- "Wo trefft ihr euch?" (Where do you meet?)
+- "Wann feiert ihr zusammen?" (When do you celebrate together?)
+
+**Sample Q&A dialogues:**
+
+**Q:** "Was macht deine Familie am Wochenende?"
+**A:** "Am Wochenende essen wir zusammen. Manchmal gehen wir auch spazieren oder besuchen meine Großeltern."
+
+**Q:** "Wie oft siehst du deine Familie?"
+**A:** "Ich sehe meine Eltern jede Woche. Meine Geschwister sehe ich jeden Monat."
+
+**Q:** "Was feiert ihr zusammen?"
+**A:** "Wir feiern alle Geburtstage und Weihnachten zusammen. Das ist sehr schön."
+
+**Teil 3: Ask and Answer Questions about Someone's Family**
+
+Practice both asking and responding to questions about family.
+
+**Question patterns to practice:**
+- "Hast du Geschwister?" (Do you have siblings?)
+- "Wie groß ist deine Familie?" (How big is your family?)
+- "Wo wohnen deine Eltern?" (Where do your parents live?)
+- "Was machen deine Eltern?" (What do your parents do?)
+- "Wie alt ist dein Bruder/deine Schwester?" (How old is your brother/sister?)
+- "Hast du Kinder?" (Do you have children?)
+- "Bist du verheiratet?" (Are you married?)
+
+**Answer templates:**
+- "Ja, ich habe... Geschwister." / "Nein, ich habe keine Geschwister."
+- "Meine Familie besteht aus... Personen."
+- "Meine Eltern wohnen in..."
+- "Mein Vater ist... und meine Mutter ist..."
+- "Er/Sie ist... Jahre alt."
+- "Ja, ich habe... Kinder." / "Nein, ich habe keine Kinder."
+- "Ja, ich bin verheiratet." / "Nein, ich bin ledig."
+
+**Follow-up questions practice:**
+
+After someone answers, ask a follow-up question:
+- **Initial:** "Hast du Geschwister?"
+- **Answer:** "Ja, ich habe einen Bruder."
+- **Follow-up:** "Wie alt ist er?" or "Wo wohnt er?"
+
+**Sample complete dialogue:**
+```
+A: Hast du Geschwister?
+B: Ja, ich habe eine Schwester und einen Bruder.
+A: Wie alt sind sie?
+B: Meine Schwester ist 25 und mein Bruder ist 20.
+A: Was machen sie?
+B: Meine Schwester ist Ärztin und mein Bruder studiert noch.
+```
+
+---
+
+**Vocabulary Theme: Adjectives for Describing People**
+
+**Physical Appearance - Size & Build:**
+- **groß** (tall/big) - "Mein Vater ist sehr groß."
+- **klein** (short/small) - "Meine Schwester ist klein."
+- **dünn** (thin) - "Er ist dünn."
+- **dick** (fat/thick) - "Der Mann ist dick."
+- **schlank** (slim) - "Sie ist schlank."
+- **stark** (strong) - "Mein Bruder ist stark."
+- **schwach** (weak) - "Ich bin schwach."
+
+**Age:**
+- **jung** (young) - "Meine Kinder sind noch jung."
+- **alt** (old) - "Meine Großeltern sind alt."
+- **älter** (older) - "Mein Bruder ist älter als ich."
+- **jünger** (younger) - "Meine Schwester ist jünger."
+
+**General Appearance:**
+- **hübsch** (pretty) - "Sie ist sehr hübsch."
+- **schön** (beautiful) - "Das ist eine schöne Frau."
+- **attraktiv** (attractive) - "Er ist attraktiv."
+- **hässlich** (ugly) - "Das Bild ist hässlich." (rarely used for people)
+
+**Personality Traits - Positive:**
+- **nett** (nice) - "Meine Mutter ist sehr nett."
+- **freundlich** (friendly) - "Er ist freundlich."
+- **lustig** (funny) - "Mein Onkel ist lustig."
+- **sympathisch** (likeable) - "Sie ist sehr sympathisch."
+- **intelligent** (intelligent) - "Mein Bruder ist intelligent."
+- **klug** (smart/clever) - "Meine Tochter ist klug."
+- **fleißig** (hardworking) - "Er ist fleißig."
+- **höflich** (polite) - "Die Kinder sind höflich."
+- **ehrlich** (honest) - "Mein Vater ist ehrlich."
+- **geduldig** (patient) - "Meine Lehrerin ist geduldig."
+
+**Personality Traits - Neutral/Negative:**
+- **ernst** (serious) - "Mein Chef ist ernst."
+- **ruhig** (quiet/calm) - "Meine Schwester ist ruhig."
+- **laut** (loud) - "Die Kinder sind laut."
+- **schüchtern** (shy) - "Ich bin schüchtern."
+- **faul** (lazy) - "Mein Bruder ist manchmal faul."
+- **ungeduldig** (impatient) - "Er ist ungeduldig."
+- **streng** (strict) - "Mein Vater ist streng."
+
+**Activity Level:**
+- **aktiv** (active) - "Meine Kinder sind sehr aktiv."
+- **sportlich** (sporty/athletic) - "Er ist sportlich."
+- **energisch** (energetic) - "Sie ist energisch."
+- **müde** (tired) - "Ich bin müde."
+
+**Talents & Interests:**
+- **musikalisch** (musical) - "Meine Tochter ist musikalisch."
+- **kreativ** (creative) - "Er ist kreativ."
+- **künstlerisch** (artistic) - "Sie ist künstlerisch."
+- **technisch** (technical) - "Mein Sohn ist technisch begabt."
+
+**Hair (Haare):**
+- **blond** (blonde) - "Sie hat blonde Haare."
+- **braun** (brown) - "Er hat braune Haare."
+- **schwarz** (black) - "Ich habe schwarze Haare."
+- **rot** (red) - "Sie hat rote Haare."
+- **grau** (gray) - "Mein Vater hat graue Haare."
+- **kurz** (short) - "Er hat kurze Haare."
+- **lang** (long) - "Sie hat lange Haare."
+- **lockig** (curly) - "Meine Schwester hat lockige Haare."
+- **glatt** (straight) - "Ich habe glatte Haare."
+
+**Eyes (Augen):**
+- **blau** (blue) - "Er hat blaue Augen."
+- **grün** (green) - "Sie hat grüne Augen."
+- **braun** (brown) - "Ich habe braune Augen."
+- **grau** (gray) - "Mein Vater hat graue Augen."
+
+**Sentence Structures for Describing People:**
+
+**Using "sein" (to be):**
+- "Er ist groß." (He is tall.)
+- "Sie ist nett." (She is nice.)
+- "Mein Bruder ist lustig." (My brother is funny.)
+
+**Using "haben" (to have):**
+- "Er hat blonde Haare." (He has blonde hair.)
+- "Sie hat blaue Augen." (She has blue eyes.)
+- "Mein Vater hat graue Haare." (My father has gray hair.)
+
+**Combining descriptions:**
+- "Meine Mutter ist klein und hat braune Haare." (My mother is short and has brown hair.)
+- "Er ist groß, schlank und sehr sportlich." (He is tall, slim, and very athletic.)
+- "Sie hat lange blonde Haare und blaue Augen." (She has long blonde hair and blue eyes.)
+
+**Comparative forms (A1 level):**
+- **größer** (taller/bigger) - "Mein Bruder ist größer als ich."
+- **kleiner** (shorter/smaller) - "Meine Schwester ist kleiner."
+- **älter** (older) - "Mein Vater ist älter als meine Mutter."
+- **jünger** (younger) - "Ich bin jünger als mein Bruder."
+
+**Sample descriptions of people:**
+
+**Description 1:**
+"Meine Mutter ist 50 Jahre alt. Sie ist klein und schlank. Sie hat kurze braune Haare und grüne Augen. Sie ist sehr nett und freundlich."
+
+**Description 2:**
+"Mein Bruder heißt Tom. Er ist 25 Jahre alt und sehr groß. Er hat schwarze Haare und braune Augen. Er ist sportlich und lustig."
+
+**Description 3:**
+"Meine Großmutter ist 75 Jahre alt. Sie ist klein und hat graue Haare. Sie ist sehr nett und geduldig. Ich liebe meine Oma!"
+
+**Exam Tips for Day 9:**
+
+**For Writing:**
+- Keep descriptions simple and clear
+- Use "sein" for characteristics and "haben" for physical features
+- Practice the structure: name + age + appearance + personality
+- Don't forget possessive pronouns (mein/meine)
+- Check adjective endings (but A1 level is forgiving)
+
+**For Speaking:**
+- Speak slowly and clearly when describing people
+- Use gestures to help (pointing to hair, eyes, etc.)
+- Practice pronunciation of adjectives beforehand
+- It's okay to pause and think
+- If you forget a word, try to describe it differently
+
+**Common Mistakes to Avoid:**
+- ❌ Mixing up "groß" (tall) and "alt" (old)
+- ❌ Forgetting "Haare" is plural: "blonde Haare" not "blonde Haar"
+- ❌ Using wrong possessive: "mein Mutter" → "meine Mutter"
+- ❌ Confusing "er" (he) and "sie" (she)
 
 ---
 

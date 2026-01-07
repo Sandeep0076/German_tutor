@@ -1,5 +1,5 @@
 /**
- * Day 5: Listening (Teil 3) + Reading (Teil 3)
+ * Day 5: Listening (Teil 1) + Reading (Teil 2, 3, 4, 5)
  * Focus: Telephone messages and information boards
  * 
  * Skills: Listening, Reading
@@ -15,20 +15,20 @@ import type {
 } from '../examTypes';
 
 // ============================================================================
-// LISTENING PRACTICE - Teil 3: Telephone Messages/Voicemails
+// LISTENING PRACTICE - Teil 1: Telephone Messages/Voicemails
 // ============================================================================
 // NOTE: Listening content is PLACEHOLDER until audio files are available
 
 const listeningPractice: ListeningPractice = {
-  part: 3,
-  title: 'Teil 3: Telephone Messages',
+  part: 1,
+  title: 'Teil 1: Telephone Messages',
   description: '[PLACEHOLDER - Audio content to be added]',
   instructions: '[PLACEHOLDER - Listening instructions to be added when audio is ready. This section will include 5 telephone messages/voicemails with multiple choice questions (A, B, C). Common scenarios: doctor appointments, friend meeting plans, store pickup notifications, family dinner messages, work schedule changes. Messages are played TWICE. Students should use first listening for WHO + WHY, second listening for specific details like times, dates, and locations.]',
   questions: [] // Empty array - questions will be added with audio
 };
 
 // ============================================================================
-// READING PRACTICE - Teil 3: Information Posters/Notices
+// READING PRACTICE - Teil 2-5: Information Posters/Notices
 // ============================================================================
 
 const readingText1 = `**Stadtmuseum Berlin**
@@ -262,8 +262,8 @@ const readingQuestions4: ExamQuestion[] = [
 ];
 
 const readingPractice1: ReadingPractice = {
-  part: 3,
-  title: 'Teil 3: Museum Information',
+  part: 2,
+  title: 'Teil 2: Museum Information',
   description: 'Read a museum notice and answer questions',
   instructions: 'Read the information poster and answer the multiple choice questions. Look for specific details about times, prices, and rules.',
   text: readingText1,
@@ -280,8 +280,8 @@ const readingPractice2: ReadingPractice = {
 };
 
 const readingPractice3: ReadingPractice = {
-  part: 3,
-  title: 'Teil 3: Parking Information',
+  part: 4,
+  title: 'Teil 4: Parking Information',
   description: 'Read parking regulations and fees',
   instructions: 'Read the parking sign and answer questions about costs, times, and payment methods.',
   text: readingText3,
@@ -289,8 +289,8 @@ const readingPractice3: ReadingPractice = {
 };
 
 const readingPractice4: ReadingPractice = {
-  part: 3,
-  title: 'Teil 3: Library Rules',
+  part: 5,
+  title: 'Teil 5: Library Rules',
   description: 'Read library opening hours and rules',
   instructions: 'Read the library information and answer questions about hours, borrowing periods, and rules.',
   text: readingText4,

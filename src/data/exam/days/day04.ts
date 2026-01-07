@@ -1,5 +1,5 @@
 /**
- * Day 4: Writing (Teil 2) + Speaking (Teil 2)
+ * Day 4: Writing (Teil 1-4) + Speaking (Teil 5-7)
  * Focus: Simple communication and requests
  * 
  * Skills: Writing, Speaking
@@ -14,12 +14,12 @@ import type {
 } from '../examTypes';
 
 // ============================================================================
-// WRITING PRACTICE - Teil 2: Short Informal Letter/Email
+// WRITING PRACTICE - Teil 1-4: Short Informal Letter/Email
 // ============================================================================
 
 const writingPractice1: WritingPractice = {
-  part: 2,
-  title: 'Teil 2: Invitation Response',
+  part: 1,
+  title: 'Teil 1: Invitation Response',
   description: 'Write a short email responding to a party invitation (~30 words)',
   instructions: 'Write a short email to your friend Max. Include all 3 points mentioned in the task. Use the structure: Greeting → 3 main points → Closing → Your name.',
   prompt: `Dein Freund Max lädt dich zu seiner Geburtstagsparty ein.
@@ -79,8 +79,8 @@ Thomas Schmidt`,
 };
 
 const writingPractice3: WritingPractice = {
-  part: 2,
-  title: 'Teil 2: Making Suggestions',
+  part: 3,
+  title: 'Teil 3: Making Suggestions',
   description: 'Write a short email suggesting a cinema visit (~30 words)',
   instructions: 'Write to your friend Lisa about going to the cinema. Cover all 3 points: which film, when to meet, where to meet.',
   prompt: `Du möchtest mit deiner Freundin Lisa ins Kino gehen.
@@ -109,8 +109,8 @@ Anna`,
 };
 
 const writingPractice4: WritingPractice = {
-  part: 2,
-  title: 'Teil 2: Declining an Invitation',
+  part: 4,
+  title: 'Teil 4: Declining an Invitation',
   description: 'Write a short email declining an invitation with reason (~30 words)',
   instructions: 'Write to your friend declining their invitation. Be polite and give a reason.',
   prompt: `Deine Freundin lädt dich zu ihrer Party ein.
@@ -138,12 +138,12 @@ Julia`,
 };
 
 // ============================================================================
-// SPEAKING PRACTICE - Teil 2: W-Questions with Theme Cards
+// SPEAKING PRACTICE - Teil 5-7: W-Questions with Theme Cards
 // ============================================================================
 
 const speakingPractice1: SpeakingPractice = {
-  part: 2,
-  title: 'Teil 2: Theme Card - Hobbies',
+  part: 5,
+  title: 'Teil 5: Theme Card - Hobbies',
   description: 'Ask and answer questions about hobbies and free time',
   instructions: 'Practice asking W-questions about hobbies. Give complete answers with details. Your card: Hobbies. Partner\'s card: Food.',
   prompts: [
@@ -163,8 +163,8 @@ const speakingPractice1: SpeakingPractice = {
 };
 
 const speakingPractice2: SpeakingPractice = {
-  part: 2,
-  title: 'Teil 2: Theme Card - Food & Drinks',
+  part: 6,
+  title: 'Teil 6: Theme Card - Food & Drinks',
   description: 'Ask and answer questions about food preferences',
   instructions: 'Practice asking W-questions about food. Your card: Food. Partner\'s card: Daily Routine.',
   prompts: [
@@ -184,8 +184,8 @@ const speakingPractice2: SpeakingPractice = {
 };
 
 const speakingPractice3: SpeakingPractice = {
-  part: 2,
-  title: 'Teil 2: Theme Card - Daily Routine',
+  part: 7,
+  title: 'Teil 7: Theme Card - Daily Routine',
   description: 'Ask and answer questions about daily activities',
   instructions: 'Practice asking W-questions about daily routine. Your card: Daily Routine. Partner\'s card: Hobbies.',
   prompts: [
