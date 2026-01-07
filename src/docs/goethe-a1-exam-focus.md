@@ -3,6 +3,7 @@
 ## About This Program
 
 This intensive 30-day program is designed specifically to prepare you for the **Goethe-Zertifikat A1: Start Deutsch 1** exam. Unlike grammar-focused courses, this syllabus concentrates on **exam strategy, practical skills, and authentic test formats**.
+For listening, just write a placeholder do not need to write the whole dummy exercise but mentioned that today's listening.
 
 ### Exam Overview
 - **Total Points:** 60 (15 per module)
@@ -74,17 +75,398 @@ This intensive 30-day program is designed specifically to prepare you for the **
 
 **Writing Practice:**
 - **Teil 2 (Part 2):** Write a short informal letter/email (~30 words)
-  - Practice structure: Greeting → 3 main points → Closing
-  - Common tasks: Asking for information, thanking, inviting
-  - Learn key phrases: "Liebe/r...", "Ich möchte...", "Viele Grüße"
+  - **Format:** Personal message addressing 3 specific points
+  - **Time allocation:** 10 minutes for this task
+  - **Point value:** 10 points total
+  
+  **Essential Structure (ALWAYS follow this!):**
+  1. **Greeting:** "Liebe/r [Name]," or "Hallo [Name],"
+  2. **3 Content Points:** Address each point from the task prompt
+  3. **Closing:** "Viele Grüße" / "Liebe Grüße" / "Bis bald"
+  4. **Signature:** Your name
+  
+  **Common Task Types You'll Encounter:**
+  
+  **Type 1: Invitation Response**
+  - Task: Respond to party/event invitation
+  - Points to cover:
+    - Accept or decline (Ja/Nein)
+    - Give reason (warum?)
+    - Ask a question about the event
+  
+  **Example Task:**
+  ```
+  Dein Freund Max lädt dich zu seiner Geburtstagsparty ein.
+  Schreibe an Max. Schreibe zu jedem Punkt ein bis zwei Sätze:
+  - Kannst du kommen?
+  - Warum (nicht)?
+  - Was bringst du mit?
+  ```
+  
+  **Sample Response (32 words):**
+  ```
+  Lieber Max,
+  
+  vielen Dank für die Einladung! Ja, ich komme gerne zu deiner Party.
+  Ich habe am Samstag Zeit. Ich bringe einen Kuchen und ein Geschenk mit.
+  
+  Bis Samstag!
+  Viele Grüße
+  [Your name]
+  ```
+  
+  **Type 2: Asking for Information**
+  - Task: Request details about service/place/event
+  - Points to cover:
+    - What you want to know
+    - Why you're asking
+    - When you need the information
+  
+  **Example Task:**
+  ```
+  Du möchtest einen Deutschkurs besuchen.
+  Schreibe an die Sprachschule:
+  - Wann beginnt der Kurs?
+  - Wie viel kostet der Kurs?
+  - Wo ist die Schule?
+  ```
+  
+  **Sample Response (35 words):**
+  ```
+  Sehr geehrte Damen und Herren,
+  
+  ich möchte einen Deutschkurs besuchen. Wann beginnt der nächste Kurs?
+  Wie viel kostet der Kurs? Wo ist die Sprachschule?
+  
+  Vielen Dank!
+  Mit freundlichen Grüßen
+  [Your name]
+  ```
+  
+  **Type 3: Making Suggestions/Plans**
+  - Task: Suggest activity with friend
+  - Points to cover:
+    - What activity
+    - When/where to meet
+    - What to bring/prepare
+  
+  **Example Task:**
+  ```
+  Du möchtest mit deiner Freundin Lisa ins Kino gehen.
+  Schreibe an Lisa:
+  - Welchen Film?
+  - Wann treffen wir uns?
+  - Wo treffen wir uns?
+  ```
+  
+  **Sample Response (31 words):**
+  ```
+  Liebe Lisa,
+  
+  möchtest du am Samstag ins Kino gehen? Ich möchte den neuen Film sehen.
+  Wir treffen uns um 19 Uhr vor dem Kino.
+  
+  Bis dann!
+  Viele Grüße
+  [Your name]
+  ```
+  
+  **Type 4: Thanking/Apologizing**
+  - Task: Thank someone or apologize
+  - Points to cover:
+    - Express thanks/apology
+    - Give reason
+    - Make future suggestion
+  
+  **Key Phrases for Writing Teil 2:**
+  
+  **Greetings (Formal vs Informal):**
+  - **Informal:** "Liebe/r [Name]," / "Hallo [Name],"
+  - **Formal:** "Sehr geehrte Damen und Herren," / "Sehr geehrte/r Frau/Herr [Name],"
+  
+  **Opening Phrases:**
+  - "Vielen Dank für..." (Thank you for...)
+  - "Ich möchte..." (I would like to...)
+  - "Ich habe eine Frage:" (I have a question:)
+  - "Entschuldigung, aber..." (Sorry, but...)
+  
+  **Expressing Acceptance:**
+  - "Ja, ich komme gerne!" (Yes, I'd love to come!)
+  - "Das ist eine gute Idee!" (That's a good idea!)
+  - "Ja, das passt mir gut." (Yes, that works for me.)
+  
+  **Expressing Decline:**
+  - "Leider kann ich nicht kommen." (Unfortunately I can't come.)
+  - "Tut mir leid, aber ich habe keine Zeit." (Sorry, but I don't have time.)
+  - "Das geht leider nicht." (That unfortunately doesn't work.)
+  
+  **Asking Questions:**
+  - "Wann...?" (When...?)
+  - "Wo...?" (Where...?)
+  - "Wie viel kostet...?" (How much does... cost?)
+  - "Was soll ich mitbringen?" (What should I bring?)
+  - "Wie lange...?" (How long...?)
+  
+  **Making Suggestions:**
+  - "Wir können..." (We can...)
+  - "Ich schlage vor..." (I suggest...)
+  - "Wie wäre es mit...?" (How about...?)
+  
+  **Closing Phrases (Informal):**
+  - "Viele Grüße" (Best regards)
+  - "Liebe Grüße" (Kind regards)
+  - "Bis bald!" (See you soon!)
+  - "Bis dann!" (See you then!)
+  - "Tschüss!" (Bye!)
+  
+  **Closing Phrases (Formal):**
+  - "Mit freundlichen Grüßen" (Sincerely)
+  - "Vielen Dank" (Thank you very much)
+  
+  **Critical Writing Tips:**
+  
+  - ✅ **Cover ALL 3 points** - Missing even one point loses significant marks!
+  - ✅ **Keep it simple** - Use vocabulary and grammar you're confident with
+  - ✅ **Count your words** - Aim for 30-40 words (minimum ~25, maximum ~50)
+  - ✅ **Check spelling** - Especially names, days, months
+  - ✅ **Use correct greeting/closing** - Match formality level to task
+  - ✅ **Write legibly** - If handwritten, make it clear and neat
+  - ⚠️ **Don't overcomplicate** - Simple, correct sentences score better than complex, wrong ones
+  - ⚠️ **Watch the time** - Spend max 10 minutes, save time for checking
+  
+  **Common Mistakes to Avoid:**
+  - ❌ Forgetting to address one of the 3 points
+  - ❌ Using formal language for informal task (or vice versa)
+  - ❌ Writing too much (wastes time) or too little (loses points)
+  - ❌ Forgetting greeting or closing
+  - ❌ Not signing your name
+  - ❌ Mixing "du" and "Sie" forms
 
 **Speaking Practice:**
 - **Teil 2 (Part 2):** Ask and answer questions with theme cards
-  - Practice forming W-questions: Was? Wo? Wann? Wie? Wer?
-  - Topics: Hobbies, Food, Daily routine
-  - Learn to ask partner questions and answer theirs
+  - **Format:** Interactive dialogue with partner/examiner
+  - **Duration:** ~6 minutes total
+  - **Point value:** 5 points
+  - **Structure:** You get a theme card, partner gets a different one
+  
+  **How Teil 2 Works:**
+  1. You receive a card with a topic (e.g., "Hobbies")
+  2. You ask your partner 3 questions about THEIR topic
+  3. Your partner asks you 3 questions about YOUR topic
+  4. You answer their questions
+  
+  **Common Theme Cards:**
+  - **Hobbies/Freizeit** (Free time)
+  - **Essen/Trinken** (Food/Drinks)
+  - **Tagesablauf** (Daily routine)
+  - **Familie** (Family)
+  - **Wohnen** (Living/Housing)
+  - **Arbeit/Beruf** (Work/Profession)
+  - **Einkaufen** (Shopping)
+  - **Reisen** (Travel)
+  
+  **Essential W-Questions (W-Fragen):**
+  
+  **Was? (What?)**
+  - "Was ist dein Hobby?" (What is your hobby?)
+  - "Was isst du gern?" (What do you like to eat?)
+  - "Was machst du am Wochenende?" (What do you do on weekends?)
+  
+  **Wo? (Where?)**
+  - "Wo wohnst du?" (Where do you live?)
+  - "Wo arbeitest du?" (Where do you work?)
+  - "Wo kaufst du ein?" (Where do you shop?)
+  
+  **Wann? (When?)**
+  - "Wann stehst du auf?" (When do you get up?)
+  - "Wann hast du Zeit?" (When do you have time?)
+  - "Wann gehst du ins Bett?" (When do you go to bed?)
+  
+  **Wie? (How?)**
+  - "Wie kommst du zur Arbeit?" (How do you get to work?)
+  - "Wie oft...?" (How often...?)
+  - "Wie lange...?" (How long...?)
+  
+  **Wer? (Who?)**
+  - "Wer ist das?" (Who is that?)
+  - "Mit wem...?" (With whom...?)
+  
+  **Warum? (Why?)**
+  - "Warum magst du...?" (Why do you like...?)
+  - "Warum lernst du Deutsch?" (Why are you learning German?)
+  
+  **Sample Dialogue - Theme: Hobbies**
+  
+  **You ask (Partner's card: Food):**
+  1. "Was isst du gern?"
+  2. "Wo kaufst du Lebensmittel ein?"
+  3. "Kochst du oft?"
+  
+  **Partner asks you (Your card: Hobbies):**
+  1. "Was ist dein Hobby?"
+  2. "Wie oft machst du Sport?"
+  3. "Was machst du am Wochenende?"
+  
+  **Your answers:**
+  1. "Mein Hobby ist Fußball. Ich spiele gern Fußball."
+  2. "Ich mache dreimal pro Woche Sport."
+  3. "Am Wochenende treffe ich Freunde und gehe ins Kino."
+  
+  **Key Strategies for Speaking Teil 2:**
+  
+  - **Asking Questions:**
+    - ✅ Speak clearly and not too fast
+    - ✅ Use simple, direct W-questions
+    - ✅ Make eye contact with partner
+    - ✅ Listen to their answers (you might need to react)
+  
+  - **Answering Questions:**
+    - ✅ Give complete answers, not just "Ja" or "Nein"
+    - ✅ Add one extra detail if possible: "Ich spiele Fußball. Das macht Spaß!"
+    - ✅ If you don't understand, ask: "Entschuldigung, können Sie das wiederholen?"
+    - ✅ Stay calm - it's okay to pause and think
+  
+  **Useful Answer Patterns:**
+  
+  **For "Was?" questions:**
+  - "Ich [verb] gern [noun]" - "Ich esse gern Pizza"
+  - "Mein Hobby ist [noun]" - "Mein Hobby ist Lesen"
+  
+  **For "Wo?" questions:**
+  - "Ich [verb] in/bei [place]" - "Ich arbeite in Berlin"
+  - "In/Bei [place]" - "Im Supermarkt"
+  
+  **For "Wann?" questions:**
+  - "Um [time]" - "Um 7 Uhr"
+  - "Am [day]" - "Am Montag"
+  - "[Time expression]" - "Jeden Tag" / "Manchmal"
+  
+  **For "Wie?" questions:**
+  - "Mit [transport]" - "Mit dem Bus"
+  - "[Frequency]" - "Jeden Tag" / "Zweimal pro Woche"
+  
+  **For "Warum?" questions:**
+  - "Weil..." - "Weil es Spaß macht"
+  - "Ich finde [noun] [adjective]" - "Ich finde Deutsch interessant"
+  
+  **Common Mistakes to Avoid:**
+  - ❌ Asking yes/no questions instead of W-questions
+  - ❌ Answering with only one word
+  - ❌ Speaking too quietly or too fast
+  - ❌ Not listening to partner's questions
+  - ❌ Panicking if you don't understand - just ask for repetition!
 
 **Vocabulary Theme:** Hobbies & Free Time Activities
+
+**Common Hobbies (Hobbys):**
+- **Sport treiben** (to do sports) - "Ich treibe gern Sport"
+- **Fußball spielen** (to play soccer) - "Ich spiele Fußball"
+- **schwimmen** (to swim) - "Ich schwimme im Sommer"
+- **laufen/joggen** (to run/jog) - "Ich laufe jeden Morgen"
+- **Rad fahren** (to cycle) - "Ich fahre gern Rad"
+- **Tennis spielen** (to play tennis)
+- **Yoga machen** (to do yoga)
+
+**Creative Activities:**
+- **lesen** (to read) - "Ich lese gern Bücher"
+- **Musik hören** (to listen to music) - "Ich höre Musik"
+- **singen** (to sing) - "Ich singe im Chor"
+- **tanzen** (to dance) - "Ich tanze gern"
+- **malen** (to paint) - "Ich male am Wochenende"
+- **fotografieren** (to photograph) - "Ich fotografiere gern"
+- **Gitarre spielen** (to play guitar) - "Ich spiele Gitarre"
+- **Klavier spielen** (to play piano)
+
+**Social Activities:**
+- **Freunde treffen** (to meet friends) - "Ich treffe oft Freunde"
+- **ins Kino gehen** (to go to cinema) - "Ich gehe gern ins Kino"
+- **ins Restaurant gehen** (to go to restaurant)
+- **ins Theater gehen** (to go to theater)
+- **ins Konzert gehen** (to go to concert)
+- **spazieren gehen** (to go for a walk) - "Ich gehe im Park spazieren"
+- **wandern** (to hike) - "Ich wandere in den Bergen"
+
+**Home Activities:**
+- **fernsehen** (to watch TV) - "Ich sehe abends fern"
+- **Filme schauen** (to watch movies)
+- **kochen** (to cook) - "Ich koche gern"
+- **backen** (to bake) - "Ich backe Kuchen"
+- **im Internet surfen** (to surf the internet)
+- **Computerspiele spielen** (to play computer games)
+- **schlafen** (to sleep) - "Ich schlafe gern lange"
+- **ausruhen** (to rest) - "Ich ruhe mich aus"
+
+**Frequency Expressions (How often?):**
+- **jeden Tag** (every day)
+- **jede Woche** (every week)
+- **jedes Wochenende** (every weekend)
+- **oft** (often)
+- **manchmal** (sometimes)
+- **selten** (rarely)
+- **nie** (never)
+- **immer** (always)
+- **einmal/zweimal/dreimal pro Woche** (once/twice/three times per week)
+- **am Wochenende** (on the weekend)
+- **in der Freizeit** (in free time)
+
+**Expressing Likes/Dislikes:**
+- **Ich mag [noun]** (I like...) - "Ich mag Sport"
+- **Ich [verb] gern** (I like to...) - "Ich lese gern"
+- **Ich finde [noun] [adjective]** (I find... [adjective]) - "Ich finde Fußball interessant"
+- **Das macht Spaß!** (That's fun!)
+- **Das gefällt mir** (I like that)
+- **Ich mag [noun] nicht** (I don't like...)
+- **Das ist langweilig** (That's boring)
+
+**Useful Adjectives:**
+- **interessant** (interesting)
+- **langweilig** (boring)
+- **toll** (great)
+- **schön** (nice/beautiful)
+- **gut** (good)
+- **schlecht** (bad)
+- **lustig** (funny)
+- **entspannend** (relaxing)
+- **anstrengend** (exhausting)
+
+**Time Expressions:**
+- **am Morgen** (in the morning)
+- **am Nachmittag** (in the afternoon)
+- **am Abend** (in the evening)
+- **am Wochenende** (on the weekend)
+- **in der Woche** (during the week)
+- **nach der Arbeit** (after work)
+- **vor dem Schlafen** (before sleeping)
+
+**Sample Sentences for Practice:**
+1. "Mein Hobby ist Lesen. Ich lese jeden Abend."
+2. "Ich spiele gern Fußball. Das macht Spaß!"
+3. "Am Wochenende treffe ich Freunde und gehe ins Kino."
+4. "Ich höre oft Musik. Ich mag Rock und Pop."
+5. "In meiner Freizeit koche ich gern oder gehe spazieren."
+6. "Ich mache zweimal pro Woche Sport."
+
+**Exam Tips for Day 4 Focus:**
+
+**For Writing Teil 2:**
+- ⏰ **Time management:** 10 minutes maximum
+- 📝 **Plan first:** Quickly note what you'll write for each point (30 seconds)
+- ✅ **Check your work:** Save 2 minutes to review spelling and completeness
+- 🎯 **Point coverage:** Make sure each of the 3 points is clearly addressed
+
+**For Speaking Teil 2:**
+- 🗣️ **Speak naturally:** Don't memorize - use simple, real language
+- 👂 **Listen actively:** Pay attention to your partner's answers
+- ❓ **Ask clearly:** Use simple W-questions you're confident with
+- 💬 **Answer fully:** Give more than one-word answers
+- 😊 **Stay positive:** Smile, make eye contact, show you're engaged
+
+**Practice Recommendations:**
+- Write 5-10 short emails on different topics
+- Practice asking and answering W-questions with a partner or mirror
+- Record yourself answering common questions
+- Time yourself on writing tasks to build speed
+- Learn the standard phrases by heart (greetings, closings, etc.)
 
 ---
 
@@ -93,17 +475,270 @@ This intensive 30-day program is designed specifically to prepare you for the **
 
 **Listening Practice:**
 - **Teil 3 (Part 3):** Listen to 5 telephone messages/voicemails
-  - Multiple choice questions (A, B, C)
-  - Practice identifying: Purpose of call, time mentioned, specific requests
-  - Played twice - use first listening for general idea, second for details
+  - **Format:** Multiple choice questions (A, B, C) - 5 questions total
+  - **Played TWICE:** Use strategically!
+  - **Common scenarios you'll encounter:**
+    - Doctor's office confirming/changing appointment times
+    - Friend calling about meeting plans or cancellations
+    - Store/service calling about order status or pickup
+    - Family member leaving message about dinner/events
+    - Colleague calling about work schedule changes
+  
+  **Key Listening Strategies for Teil 3:**
+  - **Before audio starts:**
+    - Read ALL 5 questions and answer options quickly
+    - Underline key W-words: Wann? (When?), Wo? (Where?), Was? (What?), Warum? (Why?)
+    - Note what information you're listening for (time, place, reason, etc.)
+  
+  - **First listening (Overview):**
+    - Focus on WHO is calling and WHY
+    - Listen for the general purpose/main message
+    - Don't try to answer all questions yet
+    - Note any numbers, times, or places you hear
+  
+  - **Second listening (Details):**
+    - Focus on specific information for each question
+    - Listen for exact times, dates, locations
+    - Pay attention to changes or corrections ("nicht um 3 Uhr, sondern um 4 Uhr")
+    - Confirm your answers from first listening
+  
+  **Essential Telephone Vocabulary:**
+  - **Opening phrases:**
+    - "Hallo, hier ist..." (Hello, this is...)
+    - "Guten Tag, hier spricht..." (Good day, speaking is...)
+    - "Hier ist die Praxis von Dr..." (This is Dr.'s office...)
+  
+  - **Purpose indicators:**
+    - "Ich rufe an, weil..." (I'm calling because...)
+    - "Ich möchte..." (I would like to...)
+    - "Es geht um..." (It's about...)
+    - "Ich habe eine Frage zu..." (I have a question about...)
+  
+  - **Time-related phrases:**
+    - "um ... Uhr" (at ... o'clock)
+    - "am Montag/Dienstag..." (on Monday/Tuesday...)
+    - "morgen/heute/übermorgen" (tomorrow/today/day after tomorrow)
+    - "früher/später" (earlier/later)
+    - "verschoben auf..." (postponed to...)
+  
+  - **Request/Action phrases:**
+    - "Bitte rufen Sie zurück" (Please call back)
+    - "Können Sie...?" (Can you...?)
+    - "Bitte kommen Sie..." (Please come...)
+    - "Bringen Sie bitte..." (Please bring...)
+  
+  **Common Traps to Avoid:**
+  - ⚠️ **Number confusion:** Listen carefully - "drei" (3) vs "zwei" (2), "fünfzehn" (15) vs "fünfzig" (50)
+  - ⚠️ **Time changes:** Speaker might say "nicht um 3, sondern um 4" - the answer is 4, not 3!
+  - ⚠️ **Negations:** Pay attention to "nicht" (not), "kein" (no/none), "leider nicht" (unfortunately not)
+  - ⚠️ **Similar-sounding words:** "Montag" vs "Morgen", "heute" vs "Leute"
+  - ⚠️ **Distractors:** All three options (A, B, C) might be mentioned - choose what answers the specific question
+  
+  **Practice Scenario Examples:**
+  *(Note: Full audio scripts not included - practice with official Goethe materials)*
+  
+  **Scenario 1:** Doctor's office message
+  - Question type: "Wann ist der Termin?" (When is the appointment?)
+  - Listen for: Day of week + time
+  - Trap: Original time vs. changed time
+  
+  **Scenario 2:** Friend's invitation
+  - Question type: "Wo treffen sie sich?" (Where are they meeting?)
+  - Listen for: Location (Café, Park, Bahnhof, etc.)
+  - Trap: Multiple locations mentioned (where they were vs. where they'll meet)
 
 **Reading Practice:**
-- **Teil 3 (Part 3):** Read information posters/notices
-  - Multiple choice questions about opening hours, prices, rules
-  - Topics: Museum notices, store hours, event information
-  - Practice finding specific details quickly
+- **Teil 3 (Part 3):** Read information posters/notices (Informationstafeln)
+  - **Format:** 5 multiple choice questions (A, B, C) about practical information
+  - **Time allocation:** ~8 minutes for this section
+  
+  **Common Text Types You'll See:**
+  - Museum/gallery opening hours and admission prices
+  - Library rules and borrowing information
+  - Swimming pool/sports center schedules and fees
+  - Parking regulations and costs
+  - Store/restaurant special hours or closures
+  - Event announcements (concerts, markets, festivals)
+  - Public facility rules (no smoking, no photos, etc.)
+  
+  **Key Reading Strategies for Teil 3:**
+  
+  - **Step 1: Scan the notice first (30 seconds)**
+    - What type of notice is it? (Museum? Store? Pool?)
+    - Look for: Times, prices, days, rules
+    - Note any special formatting (bold, underlined)
+  
+  - **Step 2: Read questions carefully**
+    - Underline the key information needed
+    - Note if asking about: Zeit (time), Preis (price), Regel (rule), Ort (place)
+  
+  - **Step 3: Find answers systematically**
+    - Match keywords from question to text
+    - Don't read every word - scan for specific information
+    - Cross out wrong answers as you eliminate them
+  
+  **Essential Keywords to Look For:**
+  
+  - **Time-related:**
+    - "geöffnet" (open) / "geschlossen" (closed)
+    - "von ... bis ..." (from ... to ...)
+    - "täglich" (daily) / "montags" (on Mondays)
+    - "außer" (except) / "nur" (only)
+    - "Öffnungszeiten" (opening hours)
+  
+  - **Price-related:**
+    - "Eintritt" (admission/entry)
+    - "kostenlos/gratis/frei" (free)
+    - "Erwachsene" (adults) / "Kinder" (children)
+    - "Ermäßigung" (discount/reduction)
+    - "pro Person/Tag/Stunde" (per person/day/hour)
+  
+  - **Rules/Restrictions:**
+    - "verboten" (forbidden)
+    - "erlaubt" (allowed)
+    - "nicht gestattet" (not permitted)
+    - "Bitte..." (Please...)
+    - "Man darf (nicht)..." (One may (not)...)
+  
+  **Time-Saving Tips:**
+  - ✅ Read the question FIRST, then scan the text for that specific information
+  - ✅ Look for numbers, times, and prices - they stand out visually
+  - ✅ Days of the week are easy to spot: Mo, Di, Mi, Do, Fr, Sa, So
+  - ✅ If you see "außer Montag" (except Monday), it means open all days EXCEPT Monday
+  - ✅ "ab" means "from/starting from" - "ab 18 Uhr" = from 6 PM onwards
+  
+  **Common Question Patterns:**
+  - "Wann ist das Museum geöffnet?" (When is the museum open?)
+  - "Wie viel kostet der Eintritt?" (How much does entry cost?)
+  - "Was ist verboten?" (What is forbidden?)
+  - "Bis wann kann man...?" (Until when can one...?)
+  - "Für wen ist der Eintritt frei?" (For whom is entry free?)
+  
+  **Sample Reading Text Types:**
+  
+  **Example 1: Museum Notice**
+  ```
+  Stadtmuseum
+  Öffnungszeiten: Di-So 10:00-18:00 Uhr
+  Montags geschlossen
+  Eintritt: Erwachsene 8€, Kinder unter 12 Jahren frei
+  Fotografieren ohne Blitz erlaubt
+  ```
+  - Possible questions: Opening days? Price for adults? Photography rules?
+  
+  **Example 2: Swimming Pool Information**
+  ```
+  Schwimmbad "Aqua Fun"
+  Geöffnet: täglich 9:00-20:00 Uhr
+  Eintritt: 5€ pro Person (3€ für Kinder)
+  Bitte keine Glasflaschen mitbringen!
+  Schwimmkurs: samstags 14:00 Uhr
+  ```
+  - Possible questions: Opening hours? Children's price? What's forbidden?
+  
+  **Example 3: Parking Sign**
+  ```
+  Parkplatz
+  Mo-Fr: 8:00-18:00 Uhr (2€/Stunde)
+  Sa-So: kostenlos
+  Maximale Parkdauer: 3 Stunden
+  ```
+  - Possible questions: Weekend parking cost? Maximum time? Weekday price?
 
-**Vocabulary Theme:** Daily Routine (aufstehen, frühstücken, arbeiten, etc.)
+**Vocabulary Theme:** Daily Routine & Time Expressions
+
+**Daily Routine Verbs (Tagesablauf):**
+
+**Morning Routine:**
+- **aufstehen** (to get up) - "Ich stehe um 7 Uhr auf"
+- **aufwachen** (to wake up) - "Ich wache früh auf"
+- **duschen** (to shower) - "Ich dusche jeden Morgen"
+- **sich waschen** (to wash oneself) - "Ich wasche mich"
+- **sich anziehen** (to get dressed) - "Ich ziehe mich an"
+- **frühstücken** (to have breakfast) - "Ich frühstücke um 8 Uhr"
+- **Zähne putzen** (to brush teeth) - "Ich putze meine Zähne"
+- **sich kämmen** (to comb hair) - "Ich kämme mich"
+
+**Daytime Activities:**
+- **arbeiten** (to work) - "Ich arbeite von 9 bis 17 Uhr"
+- **zur Arbeit gehen** (to go to work) - "Ich gehe zur Arbeit"
+- **lernen** (to learn/study) - "Ich lerne Deutsch"
+- **studieren** (to study at university) - "Ich studiere Medizin"
+- **Pause machen** (to take a break) - "Ich mache Pause"
+- **zu Mittag essen** (to have lunch) - "Ich esse zu Mittag"
+- **einkaufen** (to shop) - "Ich kaufe ein"
+- **kochen** (to cook) - "Ich koche das Abendessen"
+
+**Evening Routine:**
+- **nach Hause kommen** (to come home) - "Ich komme um 18 Uhr nach Hause"
+- **zu Abend essen** (to have dinner) - "Wir essen um 19 Uhr zu Abend"
+- **fernsehen** (to watch TV) - "Ich sehe fern"
+- **sich ausruhen** (to rest) - "Ich ruhe mich aus"
+- **ins Bett gehen** (to go to bed) - "Ich gehe um 22 Uhr ins Bett"
+- **schlafen** (to sleep) - "Ich schlafe 8 Stunden"
+- **einschlafen** (to fall asleep) - "Ich schlafe schnell ein"
+
+**Important Time Expressions:**
+- **morgens** (in the morning) - "Morgens trinke ich Kaffee"
+- **vormittags** (before noon) - "Vormittags arbeite ich"
+- **mittags** (at noon) - "Mittags esse ich"
+- **nachmittags** (in the afternoon) - "Nachmittags lerne ich"
+- **abends** (in the evening) - "Abends koche ich"
+- **nachts** (at night) - "Nachts schlafe ich"
+- **um ... Uhr** (at ... o'clock) - "um 7 Uhr"
+- **von ... bis ...** (from ... to ...) - "von 9 bis 17 Uhr"
+
+**Frequency Words:**
+- **jeden Tag** (every day)
+- **jeden Morgen** (every morning)
+- **manchmal** (sometimes)
+- **oft** (often)
+- **immer** (always)
+- **nie** (never)
+- **normalerweise** (normally)
+- **meistens** (mostly)
+
+**Separable vs. Inseparable Verbs (Important!):**
+
+**Separable (prefix separates in present tense):**
+- aufstehen → Ich stehe auf
+- anziehen → Ich ziehe mich an
+- einkaufen → Ich kaufe ein
+- fernsehen → Ich sehe fern
+- aufwachen → Ich wache auf
+
+**Inseparable (prefix stays attached):**
+- frühstücken → Ich frühstücke
+- beginnen → Ich beginne
+- verstehen → Ich verstehe
+
+**Sample Sentences for Practice:**
+1. "Ich stehe um 7 Uhr auf und dusche mich."
+2. "Dann frühstücke ich und gehe zur Arbeit."
+3. "Ich arbeite von 9 bis 17 Uhr."
+4. "Nachmittags mache ich eine Pause."
+5. "Abends koche ich und sehe fern."
+6. "Um 23 Uhr gehe ich ins Bett."
+
+**Exam Tips for Day 5 Focus:**
+
+**For Listening Teil 3:**
+- ⏰ **Time management:** You have about 4 minutes per message (including reading time)
+- 📝 **Take notes:** Write down numbers and times during listening
+- 🎯 **Focus strategy:** First listening = WHO + WHY, Second listening = specific details
+- ⚠️ **Watch for changes:** "nicht ... sondern ..." (not ... but rather ...)
+
+**For Reading Teil 3:**
+- ⏰ **Time management:** Spend max 8 minutes on this section
+- 🔍 **Scan, don't read:** Look for specific information, not full comprehension
+- ✂️ **Eliminate wrong answers:** Cross out obviously incorrect options first
+- 📍 **Visual cues:** Numbers, times, and days stand out - use them as anchors
+
+**Practice Recommendations:**
+- Listen to German voicemail messages (create your own or use online resources)
+- Read real German notices: museum websites, parking signs, pool schedules
+- Practice writing your own daily routine in German
+- Time yourself on practice exercises to build speed
 
 ---
 
