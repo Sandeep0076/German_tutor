@@ -42,24 +42,54 @@ const Syllabus = () => {
         return syllabusData[syllabusData.length - 1].id;
     };
     
-    const [expandedPhase, setExpandedPhase] = useState<number | null>(getCurrentPhase);
+    // Initialize expandedPhase from localStorage or use current phase
+    const [expandedPhase, setExpandedPhase] = useState<number | null>(() => {
+        try {
+            const stored = localStorage.getItem('expandedPhase');
+            if (stored) {
+                return JSON.parse(stored);
+            }
+        } catch (error) {
+            console.error('Error loading expanded phase from localStorage:', error);
+        }
+        return getCurrentPhase;
+    });
+    
     const [expandedDay, setExpandedDay] = useState<number | null>(null);
     
     // Update expanded phase when current day changes or when phases are completed
     useEffect(() => {
         const currentPhase = syllabusData.find(p => p.id === getCurrentPhase);
         
+        let newExpandedPhase: number;
         if (currentPhase && isPhaseCompleted(currentPhase)) {
             // If current phase is completed, expand the next incomplete phase
-            setExpandedPhase(getNextIncompletePhase());
+            newExpandedPhase = getNextIncompletePhase();
         } else {
             // Otherwise, expand the phase containing the current day
-            setExpandedPhase(getCurrentPhase);
+            newExpandedPhase = getCurrentPhase;
+        }
+        
+        setExpandedPhase(newExpandedPhase);
+        
+        // Save to localStorage
+        try {
+            localStorage.setItem('expandedPhase', JSON.stringify(newExpandedPhase));
+        } catch (error) {
+            console.error('Error saving expanded phase to localStorage:', error);
         }
     }, [studentInfo.currentDay, studentInfo.progress.completedDays, getCurrentPhase]);
 
     const togglePhase = (id: number) => {
-        setExpandedPhase(expandedPhase === id ? null : id);
+        const newExpandedPhase = expandedPhase === id ? null : id;
+        setExpandedPhase(newExpandedPhase);
+        
+        // Save to localStorage
+        try {
+            localStorage.setItem('expandedPhase', JSON.stringify(newExpandedPhase));
+        } catch (error) {
+            console.error('Error saving expanded phase to localStorage:', error);
+        }
     };
 
     const toggleDay = (day: number) => {

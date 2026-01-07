@@ -32,15 +32,27 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export const AppProvider = ({ children }: { children: ReactNode }) => {
     const [role, setRole] = useState<UserRole>('student');
-    const [studentInfo, setStudentInfo] = useState<StudentInfo>({
-        name: 'Ngoc',
-        profilePicture: '/ngoc-profile.jpg',
-        currentDay: 1,
-        progress: {
-            completedDays: [],
-            lastCompletedDate: undefined,
-            currentTopicTitle: undefined
+    
+    // Initialize studentInfo from localStorage or use defaults
+    const [studentInfo, setStudentInfo] = useState<StudentInfo>(() => {
+        try {
+            const stored = localStorage.getItem('studentInfo');
+            if (stored) {
+                return JSON.parse(stored);
+            }
+        } catch (error) {
+            console.error('Error loading student info from localStorage:', error);
         }
+        return {
+            name: 'Ngoc',
+            profilePicture: '/ngoc-profile.jpg',
+            currentDay: 1,
+            progress: {
+                completedDays: [],
+                lastCompletedDate: undefined,
+                currentTopicTitle: undefined
+            }
+        };
     });
 
     // Initialize exam focus progress from localStorage or create new
@@ -77,7 +89,7 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
             // Update current day to next day
             const nextDay = Math.max(dayNumber + 1, prevInfo.currentDay);
             
-            return {
+            const updatedInfo = {
                 ...prevInfo,
                 currentDay: nextDay,
                 progress: {
@@ -86,6 +98,15 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
                     currentTopicTitle: topicTitle
                 }
             };
+            
+            // Save to localStorage
+            try {
+                localStorage.setItem('studentInfo', JSON.stringify(updatedInfo));
+            } catch (error) {
+                console.error('Error saving student info to localStorage:', error);
+            }
+            
+            return updatedInfo;
         });
     };
 
@@ -137,6 +158,15 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
             return newProgress;
         });
     }, []);
+
+    // Persist studentInfo to localStorage whenever it changes
+    useEffect(() => {
+        try {
+            localStorage.setItem('studentInfo', JSON.stringify(studentInfo));
+        } catch (error) {
+            console.error('Error persisting student info to localStorage:', error);
+        }
+    }, [studentInfo]);
 
     // Persist exam focus progress to localStorage whenever it changes
     useEffect(() => {
