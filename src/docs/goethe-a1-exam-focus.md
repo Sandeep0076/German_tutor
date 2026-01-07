@@ -2142,16 +2142,304 @@ B: Meine Schwester ist Ärztin und mein Bruder studiert noch.
 **Focus:** Food, drinks, and restaurant situations
 
 **Listening Practice:**
-- Dialogues in restaurants and cafes
-- Announcements about special menus or closing times
-- Phone orders and reservations
+
+**Mixed Practice - All Three Parts with Food & Restaurant Contexts**
+
+This day combines all three listening parts (Teil 1, 2, and 3) with a focus on food, drinks, and restaurant situations. This helps you practice switching between different listening formats while building vocabulary around dining and food.
+
+**Teil 1: Dialogues in Restaurants and Cafes**
+- **Format:** 6 short dialogues, played TWICE
+- **Common scenarios you'll encounter:**
+  - Ordering food and drinks at a restaurant or cafe
+  - Asking about menu items and ingredients
+  - Requesting the bill or asking about prices
+  - Making reservations by phone or in person
+  - Asking for recommendations from waiters
+  - Discussing food preferences with friends
+
+**Key phrases to listen for:**
+- "Ich hätte gern..." (I would like...)
+- "Was empfehlen Sie?" (What do you recommend?)
+- "Die Rechnung, bitte." (The bill, please.)
+- "Haben Sie...?" (Do you have...?)
+- "Wie viel kostet...?" (How much does... cost?)
+- "Ich nehme..." (I'll take...)
+- "Für mich..." (For me...)
+
+**Practice identifying:**
+- What food or drinks are being ordered
+- Prices mentioned in the dialogue
+- Times for reservations or meal service
+- Special requests (vegetarian, no onions, etc.)
+- Payment methods discussed
+
+**Teil 2: Announcements about Special Menus or Closing Times**
+- **Format:** 4 announcements, played ONCE ONLY
+- **Common scenarios:**
+  - Restaurant daily specials and menu changes
+  - Cafe closing times or special hours
+  - Supermarket food offers and discounts
+  - Bakery fresh items and availability
+  - Food market announcements
+  - Cafeteria meal times and menus
+
+**Focus on listening for:**
+- Special offers: "Heute im Angebot..." (Today's special...)
+- Prices: "nur 5 Euro", "reduziert auf..." (reduced to...)
+- Times: opening hours, meal service times, last orders
+- Days: "montags bis freitags", "am Wochenende"
+- Food items on special offer
+- Closing or opening announcements
+
+**Key vocabulary:**
+- "Sonderangebot" (special offer)
+- "Tagesmenü" (daily menu)
+- "frisch" (fresh)
+- "heute" (today)
+- "geschlossen" (closed)
+- "geöffnet" (open)
+- "bis... Uhr" (until... o'clock)
+
+**Teil 3: Phone Orders and Reservations**
+- **Format:** 5 messages, played TWICE
+- **Common scenarios:**
+  - Restaurant reservation confirmations or changes
+  - Food delivery order confirmations
+  - Cafe calling about pickup orders
+  - Messages about table availability
+  - Catering service inquiries
+  - Cancellations or time changes for reservations
+
+**Practice understanding:**
+- Reservation times and dates
+- Number of people (persons) for booking
+- Special requests (window seat, quiet area, etc.)
+- Order details and pickup times
+- Changes to original plans
+- Contact information for confirmation
+
+**Listening Strategy Tips for Food Topics:**
+- Food vocabulary is concrete - visualize the items mentioned
+- Numbers are crucial: prices, quantities, times
+- Listen for negations: "kein Fleisch" (no meat), "ohne Zwiebeln" (without onions)
+- Pay attention to meal times: Frühstück (breakfast), Mittagessen (lunch), Abendessen (dinner)
+- Restaurant verbs are key: bestellen, essen, trinken, bezahlen, schmecken
+
+---
 
 **Reading Practice:**
-- Simple menus and price lists
-- Restaurant advertisements
-- Food-related information boards
 
-**Vocabulary Theme:** Food & Drinks (Brot, Käse, Wasser, Kaffee, Apfel, etc.)
+**Teil 1: Simple Menus and Price Lists**
+
+Read restaurant menus and answer True/False questions about items and prices.
+
+**Sample text types:**
+- Breakfast menus (Frühstückskarte) with items and prices
+- Lunch menus (Mittagskarte) with daily specials
+- Drinks menus (Getränkekarte) with beverages
+- Cafe menus with coffee, tea, and snacks
+- Fast food menus with combo meals
+
+**What to look for:**
+- Food items available
+- Prices for individual items or meals
+- What's included in set menus
+- Vegetarian or special diet options
+- Drink options and sizes
+
+**Common True/False question patterns:**
+- "Das Frühstück kostet 8 Euro." (Breakfast costs 8 euros.)
+- "Im Menü ist ein Getränk inklusive." (A drink is included in the menu.)
+- "Es gibt vegetarische Optionen." (There are vegetarian options.)
+- "Der Kaffee kostet 2,50 Euro." (Coffee costs 2.50 euros.)
+
+**Sample Menu Format:**
+```
+Frühstückskarte
+Brötchen mit Butter und Marmelade - 3,50 €
+Müsli mit Joghurt und Obst - 5,00 €
+Rührei mit Toast - 6,50 €
+Kaffee oder Tee inklusive
+
+Getränke
+Kaffee - 2,50 €
+Cappuccino - 3,00 €
+Tee - 2,00 €
+Orangensaft - 3,50 €
+```
+
+**Teil 2: Restaurant Advertisements**
+
+Match dining needs to appropriate restaurant advertisements.
+
+**Sample advertisement types:**
+- Family restaurants with children's menus
+- Vegetarian/vegan restaurants
+- Traditional German restaurants
+- Italian/Asian restaurants
+- Cafes with outdoor seating
+- Restaurants with delivery service
+
+**Matching criteria to consider:**
+- Type of cuisine offered
+- Price range (budget-friendly, mid-range, expensive)
+- Special features (terrace, garden, parking)
+- Opening hours (lunch only, dinner only, all day)
+- Location and accessibility
+- Special services (delivery, catering, reservations)
+
+**Sample Advertisement:**
+```
+Restaurant "Zum Löwen"
+Traditionelle deutsche Küche
+Täglich geöffnet 11:00-23:00 Uhr
+Mittagsmenü: 8,50 € (Mo-Fr)
+Biergarten mit 50 Plätzen
+Parkplatz vorhanden
+Tel: 030-12345678
+```
+
+**Teil 3: Food-Related Information Boards**
+
+Read information about food venues and answer multiple choice questions.
+
+**Common venue types:**
+- Restaurant opening hours and special events
+- Supermarket information (organic section, bakery hours)
+- Cafe rules and facilities
+- Food market schedules and vendors
+- Cafeteria meal times and prices
+- Bakery fresh goods schedule
+
+**Questions typically ask about:**
+- Opening and closing times
+- Prices for meals or items
+- What's available when (breakfast until 11:00, etc.)
+- Special offers or discounts
+- Rules (no outside food, etc.)
+- Facilities (WiFi, seating, takeaway)
+
+**Sample information you'll need to find:**
+- "Frühstück: täglich 7:00-11:00 Uhr" (Breakfast: daily 7:00-11:00)
+- "Mittagsmenü: Mo-Fr 12:00-14:00 Uhr, nur 7,50 €" (Lunch menu: Mon-Fri 12:00-14:00, only 7.50 €)
+- "Vegetarische Optionen verfügbar" (Vegetarian options available)
+- "Außer Haus: 10% Rabatt" (Takeaway: 10% discount)
+- "Reservierung empfohlen" (Reservation recommended)
+
+---
+
+**Vocabulary Theme: Food & Drinks**
+
+**Breakfast Items (Frühstück):**
+- **das Brot** (bread) - "Ich esse Brot zum Frühstück."
+- **das Brötchen** (bread roll) - "Zwei Brötchen, bitte."
+- **die Butter** (butter) - "Brötchen mit Butter."
+- **die Marmelade** (jam) - "Ich mag Erdbeermarmelade."
+- **der Honig** (honey) - "Brot mit Honig."
+- **das Ei / die Eier** (egg/eggs) - "Ich hätte gern zwei Eier."
+- **das Müsli** (muesli/cereal) - "Müsli mit Milch."
+- **der Joghurt** (yogurt) - "Joghurt mit Obst."
+- **der Käse** (cheese) - "Brot mit Käse."
+- **die Wurst** (sausage) - "Brötchen mit Wurst."
+- **der Schinken** (ham) - "Schinken und Käse."
+
+**Main Meals (Hauptgerichte):**
+- **das Fleisch** (meat) - "Ich esse kein Fleisch."
+- **das Hähnchen / das Huhn** (chicken) - "Hähnchen mit Reis."
+- **das Schweinefleisch** (pork) - "Schweinefleisch mit Kartoffeln."
+- **das Rindfleisch** (beef) - "Rindfleisch ist teuer."
+- **der Fisch** (fish) - "Ich esse gern Fisch."
+- **das Gemüse** (vegetables) - "Viel Gemüse ist gesund."
+- **die Kartoffel / die Kartoffeln** (potato/potatoes) - "Kartoffeln mit Butter."
+- **der Reis** (rice) - "Hähnchen mit Reis."
+- **die Nudeln** (pasta/noodles) - "Nudeln mit Tomatensoße."
+- **die Pommes (frites)** (french fries) - "Burger mit Pommes."
+- **der Salat** (salad) - "Einen grünen Salat, bitte."
+- **die Suppe** (soup) - "Tomatensuppe als Vorspeise."
+- **die Pizza** (pizza) - "Eine Pizza Margherita."
+
+**Drinks (Getränke):**
+- **das Wasser** (water) - "Ein Glas Wasser, bitte."
+- **das Mineralwasser** (mineral water) - "Mineralwasser mit Kohlensäure."
+- **der Kaffee** (coffee) - "Einen Kaffee, bitte."
+- **der Tee** (tea) - "Schwarzer Tee mit Zitrone."
+- **die Milch** (milk) - "Kaffee mit Milch."
+- **der Saft** (juice) - "Orangensaft zum Frühstück."
+- **der Orangensaft** (orange juice) - "Frischer Orangensaft."
+- **die Limonade** (lemonade/soda) - "Eine Cola, bitte."
+- **das Bier** (beer) - "Ein Bier vom Fass."
+- **der Wein** (wine) - "Ein Glas Rotwein."
+- **der Rotwein** (red wine) - "Rotwein zum Essen."
+- **der Weißwein** (white wine) - "Weißwein ist kalt."
+
+**Desserts & Snacks (Nachtisch & Snacks):**
+- **der Kuchen** (cake) - "Ein Stück Kuchen, bitte."
+- **das Eis** (ice cream) - "Schokoladeneis."
+- **die Schokolade** (chocolate) - "Heiße Schokolade."
+- **das Obst** (fruit) - "Frisches Obst."
+- **der Apfel** (apple) - "Ein Apfel am Tag."
+- **die Banane** (banana) - "Bananen sind gesund."
+- **die Orange** (orange) - "Orangen haben viel Vitamin C."
+- **die Erdbeere** (strawberry) - "Erdbeeren mit Sahne."
+
+**Common Adjectives for Food:**
+- **warm** (warm/hot) - "Die Suppe ist warm."
+- **kalt** (cold) - "Das Wasser ist kalt."
+- **heiß** (hot) - "Der Kaffee ist heiß."
+- **süß** (sweet) - "Der Kuchen ist süß."
+- **salzig** (salty) - "Die Pommes sind salzig."
+- **sauer** (sour) - "Die Zitrone ist sauer."
+- **scharf** (spicy/sharp) - "Das Essen ist scharf."
+- **lecker** (delicious/tasty) - "Das Essen ist lecker!"
+- **frisch** (fresh) - "Frisches Brot."
+- **vegetarisch** (vegetarian) - "Ich esse vegetarisch."
+- **vegan** (vegan) - "Vegane Optionen."
+
+**Restaurant Verbs:**
+- **bestellen** (to order) - "Ich möchte bestellen."
+- **essen** (to eat) - "Was essen Sie gern?"
+- **trinken** (to drink) - "Was trinken Sie?"
+- **bezahlen** (to pay) - "Ich möchte bezahlen."
+- **schmecken** (to taste) - "Das schmeckt gut!"
+- **kosten** (to cost) - "Was kostet das Menü?"
+- **nehmen** (to take) - "Ich nehme die Pizza."
+- **empfehlen** (to recommend) - "Was empfehlen Sie?"
+- **bringen** (to bring) - "Bringen Sie bitte die Rechnung."
+- **mögen** (to like) - "Ich mag Fisch."
+
+**Sample Sentences for Practice:**
+1. "Ich hätte gern ein Brötchen mit Käse und einen Kaffee."
+2. "Was kostet das Mittagsmenü? - Es kostet 8,50 Euro."
+3. "Ich esse kein Fleisch. Haben Sie vegetarische Gerichte?"
+4. "Die Rechnung, bitte! - Das macht 25 Euro."
+5. "Schmeckt das Essen? - Ja, es ist sehr lecker!"
+6. "Ich trinke gern Kaffee zum Frühstück."
+7. "Zum Nachtisch nehme ich ein Stück Kuchen."
+8. "Haben Sie auch vegane Optionen?"
+
+**Exam Tips for Day 10:**
+
+**For Listening:**
+- Food vocabulary is concrete - visualize the items
+- Prices are important - write them down immediately
+- Listen for meal times: Frühstück, Mittagessen, Abendessen
+- Pay attention to special requests: ohne (without), mit (with), kein (no)
+- Restaurant announcements often mention times and prices together
+
+**For Reading:**
+- Scan menus for prices first - they're easy to spot
+- Look for keywords: vegetarisch, vegan, inklusive, Angebot
+- Check what's included in set menus (Getränk inklusive?)
+- Note opening hours for different meals
+- Watch for special conditions: nur Mo-Fr, ab 18 Uhr, etc.
+
+**Time Management:**
+- Mixed listening practice: ~20 minutes total
+- Reading all three parts: ~25 minutes total
+- Don't spend too long trying to understand every word
+- Focus on the specific information asked in questions
+
+---
 
 ---
 

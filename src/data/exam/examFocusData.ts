@@ -14,6 +14,10 @@ import day06 from './days/day06';
 import day07 from './days/day07';
 import day08 from './days/day08';
 import day09 from './days/day09';
+import day10 from './days/day10';
+import day11 from './days/day11';
+import day12 from './days/day12';
+import day13 from './days/day13';
 import type { ExamDay, ExamFocusProgress, ExamDayProgress } from './examTypes';
 
 // ============================================================================
@@ -34,7 +38,11 @@ export const examDays: ExamDay[] = [
   day07,
   day08,
   day09,
-  // Days 10-30 will be added here as they are created
+  day10,
+  day11,
+  day12,
+  day13,
+  // Days 14-30 will be added here as they are created
   // Each day should be imported at the top and added to this array
 ];
 
