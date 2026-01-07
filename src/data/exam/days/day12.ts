@@ -22,17 +22,7 @@ const listeningPractice1: ListeningPractice = {
   title: 'Teil 1: Dialogues in Shops',
   description: 'Listen to conversations in clothing stores, supermarkets, and other shops',
   instructions: 'You will hear 6 short dialogues about shopping situations. Each dialogue is played TWICE. Choose the correct answer (A, B, or C) for each question. Time: ~6 minutes.',
-  audioPlaceholder: 'Audio files for shopping dialogues would be provided in the actual exam. Practice with official Goethe materials.',
-  keyVocabulary: [
-    'kaufen (to buy)',
-    'kosten (to cost)',
-    'Größe (size)',
-    'Farbe (color)',
-    'anprobieren (to try on)',
-    'bezahlen (to pay)',
-    'Kasse (cash register)',
-    'Rabatt (discount)'
-  ]
+  questions: [] // Empty array - questions will be added with audio
 };
 
 const listeningPractice2: ListeningPractice = {
@@ -40,16 +30,7 @@ const listeningPractice2: ListeningPractice = {
   title: 'Teil 2: Announcements about Sales and Offers',
   description: 'Listen to announcements in stores about special offers and sales',
   instructions: 'You will hear 4 announcements about shopping offers and sales. Each announcement is played ONCE ONLY. Mark each statement as True (Richtig) or False (Falsch). Time: ~6 minutes.',
-  audioPlaceholder: 'Audio files for store announcements would be provided in the actual exam. Topics include: sales, discounts, special offers, store hours.',
-  keyVocabulary: [
-    'Sonderangebot (special offer)',
-    'Rabatt (discount)',
-    'reduziert (reduced)',
-    'Schlussverkauf (clearance sale)',
-    'Prozent (percent)',
-    'Aktion (promotion)',
-    'nur heute (only today)'
-  ]
+  questions: [] // Empty array - questions will be added with audio
 };
 
 const listeningPractice3: ListeningPractice = {
@@ -57,16 +38,7 @@ const listeningPractice3: ListeningPractice = {
   title: 'Teil 3: Phone Conversations about Products and Prices',
   description: 'Listen to phone messages about product availability and orders',
   instructions: 'You will hear 5 telephone messages about shopping and products. Each message is played TWICE. Choose the correct answer (A, B, or C) for each question. Time: ~8 minutes.',
-  audioPlaceholder: 'Audio files for shopping phone messages would be provided in the actual exam. Listen for: product availability, prices, pickup times, store locations.',
-  keyVocabulary: [
-    'verfügbar (available)',
-    'ausverkauft (sold out)',
-    'auf Lager (in stock)',
-    'abholen (to pick up)',
-    'liefern (to deliver)',
-    'bestellen (to order)',
-    'Bestellung (order)'
-  ]
+  questions: [] // Empty array - questions will be added with audio
 };
 
 // ============================================================================
@@ -78,7 +50,7 @@ const readingPractice1: ReadingPractice = {
   title: 'Teil 1: Store Advertisements and Special Offers',
   description: 'Read store ads and answer True/False questions',
   instructions: 'Read 2 short advertisements about store sales and offers. Answer True/False questions about products and prices. Time: ~8 minutes.',
-  sampleText: `SUPER SONDERANGEBOT!
+  text: `SUPER SONDERANGEBOT!
 Modehaus Schmidt - Nur diese Woche!
 
 Jeans - statt 50€ jetzt nur 35€
@@ -94,14 +66,8 @@ Sonntag: geschlossen
 Zahlung: Bar, EC-Karte, Kreditkarte
 Parkplatz vorhanden
 Umtausch innerhalb 14 Tagen mit Kassenbon`,
-  questions: [
-    'Die Jeans kosten jetzt 35 Euro.',
-    'Ein T-Shirt kostet 9 Euro.',
-    'Es gibt 30% Rabatt auf Pullover.',
-    'Das Geschäft ist sonntags geöffnet.',
-    'Man kann mit Karte bezahlen.'
-  ],
-  answers: ['Richtig', 'Richtig', 'Richtig', 'Falsch', 'Richtig']
+  questions: [] // To be converted to proper ExamQuestion objects
+  // Original questions: ['Die Jeans kosten jetzt 35 Euro.', 'Ein T-Shirt kostet 9 Euro.', 'Es gibt 30% Rabatt auf Pullover.', 'Das Geschäft ist sonntags geöffnet.', 'Man kann mit Karte bezahlen.']
 };
 
 const readingPractice2: ReadingPractice = {
@@ -109,7 +75,7 @@ const readingPractice2: ReadingPractice = {
   title: 'Teil 2: Match Shopping Needs to Stores',
   description: 'Match people\'s shopping needs to appropriate stores',
   instructions: 'Read 5 situations about people looking for specific items. Match each situation to the correct store advertisement (A or B). Time: ~8 minutes.',
-  sampleText: `Situation 1: Anna sucht eine Jacke in Größe 38, nicht zu teuer.
+  text: `Situation 1: Anna sucht eine Jacke in Größe 38, nicht zu teuer.
 
 Advertisement A:
 Kleidungsgeschäft "Fashion"
@@ -126,10 +92,8 @@ Jacken ab 15€
 Verschiedene Größen
 Täglich 11:00-18:00 Uhr
 Nur Barzahlung`,
-  questions: [
-    'Welches Geschäft ist besser für Anna?'
-  ],
-  answers: ['B']
+  questions: [] // To be converted to proper ExamQuestion objects
+  // Original questions: ['Welches Geschäft ist besser für Anna?']
 };
 
 const readingPractice3: ReadingPractice = {
@@ -137,7 +101,7 @@ const readingPractice3: ReadingPractice = {
   title: 'Teil 2: More Shopping Matching',
   description: 'Continue matching shopping needs',
   instructions: 'Match more shopping situations to appropriate stores.',
-  sampleText: `Situation 2: Tom braucht Sportschuhe in Größe 42, gute Qualität.
+  text: `Situation 2: Tom braucht Sportschuhe in Größe 42, gute Qualität.
 
 Advertisement A:
 Sportgeschäft "Aktiv"
@@ -154,10 +118,8 @@ Nur Größen 39-43
 Keine Marken
 Selbstbedienung
 Keine Rückgabe`,
-  questions: [
-    'Welches Geschäft ist besser für Tom?'
-  ],
-  answers: ['A']
+  questions: [] // To be converted to proper ExamQuestion objects
+  // Original questions: ['Welches Geschäft ist besser für Tom?']
 };
 
 const readingPractice4: ReadingPractice = {
@@ -165,7 +127,7 @@ const readingPractice4: ReadingPractice = {
   title: 'Teil 3: Store Opening Hours and Locations',
   description: 'Read store information and answer multiple choice questions',
   instructions: 'Read information about a department store. Answer 5 multiple choice questions (A, B, or C). Time: ~9 minutes.',
-  sampleText: `Kaufhaus "Zentrum"
+  text: `Kaufhaus "Zentrum"
 Ihr Einkaufszentrum im Herzen der Stadt
 
 Öffnungszeiten:
@@ -193,14 +155,8 @@ Zahlung: Bar, EC-Karte, Kreditkarte, Kundenkarte
 Adresse: Hauptstraße 45, 10115 Berlin
 Tel: 030-98765432
 E-Mail: info@kaufhaus-zentrum.de`,
-  questions: [
-    'Wann ist das Kaufhaus sonntags geöffnet? A) 9:00-18:00 B) 9:00-20:00 C) Geschlossen',
-    'Wo findet man Schuhe? A) 1. Stock B) Erdgeschoss C) 2. Stock',
-    'Wie lange kann man kostenlos parken? A) 1 Stunde B) 2 Stunden C) 3 Stunden',
-    'Wie viel Rabatt gibt die Kundenkarte? A) 5% B) 10% C) 15%',
-    'Wie lange kann man Waren umtauschen? A) 14 Tage B) 30 Tage C) 60 Tage'
-  ],
-  answers: ['C', 'B', 'B', 'A', 'B']
+  questions: [] // To be converted to proper ExamQuestion objects
+  // Original questions: ['Wann ist das Kaufhaus sonntags geöffnet?', 'Wo findet man Schuhe?', ...]
 };
 
 const readingPractice5: ReadingPractice = {
@@ -208,7 +164,7 @@ const readingPractice5: ReadingPractice = {
   title: 'Teil 3: Supermarket Information',
   description: 'Read supermarket information and answer questions',
   instructions: 'Read information about a supermarket and answer multiple choice questions.',
-  sampleText: `Supermarkt "Frisch & Gut"
+  text: `Supermarkt "Frisch & Gut"
 Ihre Adresse für frische Lebensmittel
 
 Öffnungszeiten:
@@ -233,14 +189,8 @@ Keine Schecks
 
 Adresse: Berliner Straße 123
 Tel: 030-11223344`,
-  questions: [
-    'Wann öffnet der Supermarkt sonntags? A) 7:00 Uhr B) 9:00 Uhr C) 10:00 Uhr',
-    'Was kostet diese Woche weniger? A) Fleisch B) Obst und Gemüse C) Brot',
-    'Wann öffnet die Bäckerei? A) 6:00 Uhr B) 7:00 Uhr C) 8:00 Uhr',
-    'Ab wann gibt es Lieferservice? A) Ab 20€ B) Ab 30€ C) Ab 50€',
-    'Kann man mit Scheck bezahlen? A) Ja B) Nein C) Nur am Wochenende'
-  ],
-  answers: ['B', 'B', 'A', 'B', 'B']
+  questions: [] // To be converted to proper ExamQuestion objects
+  // Original questions: ['Wann öffnet der Supermarkt sonntags?', 'Was kostet diese Woche weniger?', ...]
 };
 
 // ============================================================================

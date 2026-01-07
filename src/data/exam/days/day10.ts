@@ -22,17 +22,7 @@ const listeningPractice1: ListeningPractice = {
   title: 'Teil 1: Dialogues in Restaurants and Cafes',
   description: 'Listen to conversations about ordering food and drinks',
   instructions: 'You will hear 6 short dialogues about restaurant situations. Each dialogue is played TWICE. Choose the correct answer (A, B, or C) for each question. Time: ~6 minutes.',
-  audioPlaceholder: 'Audio files for restaurant dialogues would be provided in the actual exam. Practice with official Goethe materials.',
-  keyVocabulary: [
-    'bestellen (to order)',
-    'Rechnung (bill)',
-    'empfehlen (to recommend)',
-    'Speisekarte (menu)',
-    'Getränk (drink)',
-    'Hauptgericht (main course)',
-    'Vorspeise (starter)',
-    'Nachtisch (dessert)'
-  ]
+  questions: [] // Empty array - questions will be added with audio
 };
 
 const listeningPractice2: ListeningPractice = {
@@ -40,16 +30,7 @@ const listeningPractice2: ListeningPractice = {
   title: 'Teil 2: Announcements about Special Menus or Closing Times',
   description: 'Listen to announcements in restaurants, cafes, and food venues',
   instructions: 'You will hear 4 announcements about food-related topics. Each announcement is played ONCE ONLY. Mark each statement as True (Richtig) or False (Falsch). Time: ~6 minutes.',
-  audioPlaceholder: 'Audio files for food venue announcements would be provided in the actual exam. Topics include: daily specials, closing times, special offers, menu changes.',
-  keyVocabulary: [
-    'Sonderangebot (special offer)',
-    'Tagesmenü (daily menu)',
-    'geschlossen (closed)',
-    'geöffnet (open)',
-    'reduziert (reduced)',
-    'frisch (fresh)',
-    'Angebot (offer)'
-  ]
+  questions: [] // Empty array - questions will be added with audio
 };
 
 const listeningPractice3: ListeningPractice = {
@@ -57,16 +38,7 @@ const listeningPractice3: ListeningPractice = {
   title: 'Teil 3: Phone Orders and Reservations',
   description: 'Listen to phone messages about restaurant reservations and food orders',
   instructions: 'You will hear 5 telephone messages about restaurant bookings and orders. Each message is played TWICE. Choose the correct answer (A, B, or C) for each question. Time: ~8 minutes.',
-  audioPlaceholder: 'Audio files for restaurant phone messages would be provided in the actual exam. Listen for: reservation times, number of people, special requests, order details.',
-  keyVocabulary: [
-    'Reservierung (reservation)',
-    'Tisch (table)',
-    'Person (person)',
-    'Uhrzeit (time)',
-    'abholen (to pick up)',
-    'liefern (to deliver)',
-    'bestätigen (to confirm)'
-  ]
+  questions: [] // Empty array - questions will be added with audio
 };
 
 // ============================================================================
@@ -78,7 +50,7 @@ const readingPractice1: ReadingPractice = {
   title: 'Teil 1: Simple Menus and Price Lists',
   description: 'Read restaurant menus and answer True/False questions',
   instructions: 'Read 2 short menus (breakfast menu, drinks menu). Answer True/False questions about items and prices. Time: ~8 minutes.',
-  sampleText: `Frühstückskarte - Café Sonnenschein
+  text: `Frühstückskarte - Café Sonnenschein
 
 Brötchen mit Butter und Marmelade - 3,50 €
 Müsli mit Joghurt und Obst - 5,00 €
@@ -95,13 +67,42 @@ Frischer Orangensaft (groß) - 4,00 €
 
 Öffnungszeiten Frühstück: täglich 7:00-11:00 Uhr`,
   questions: [
-    'Das Müsli kostet 5 Euro.',
-    'Bei jedem Frühstück ist ein Getränk inklusive.',
-    'Man kann nur Kaffee trinken.',
-    'Das Frühstück ist bis 12 Uhr verfügbar.',
-    'Ein Cappuccino kostet extra.'
-  ],
-  answers: ['Richtig', 'Richtig', 'Falsch', 'Falsch', 'Richtig']
+    {
+      id: 'day10-reading1-q1',
+      type: 'true-false',
+      question: 'Das Müsli kostet 5 Euro.',
+      correctAnswer: 'Richtig',
+      explanation: 'According to the menu, "Müsli mit Joghurt und Obst - 5,00 €"'
+    },
+    {
+      id: 'day10-reading1-q2',
+      type: 'true-false',
+      question: 'Bei jedem Frühstück ist ein Getränk inklusive.',
+      correctAnswer: 'Richtig',
+      explanation: 'The menu states "Getränke (inklusive bei allen Frühstücken)"'
+    },
+    {
+      id: 'day10-reading1-q3',
+      type: 'true-false',
+      question: 'Man kann nur Kaffee trinken.',
+      correctAnswer: 'Falsch',
+      explanation: 'The menu offers "Kaffee, Tee oder Orangensaft" - not just coffee'
+    },
+    {
+      id: 'day10-reading1-q4',
+      type: 'true-false',
+      question: 'Das Frühstück ist bis 12 Uhr verfügbar.',
+      correctAnswer: 'Falsch',
+      explanation: 'Breakfast hours are "täglich 7:00-11:00 Uhr" - until 11:00, not 12:00'
+    },
+    {
+      id: 'day10-reading1-q5',
+      type: 'true-false',
+      question: 'Ein Cappuccino kostet extra.',
+      correctAnswer: 'Richtig',
+      explanation: 'Cappuccino is listed under "Zusätzliche Getränke" and costs 3,00 €'
+    }
+  ]
 };
 
 const readingPractice2: ReadingPractice = {
@@ -109,7 +110,7 @@ const readingPractice2: ReadingPractice = {
   title: 'Teil 2: Restaurant Advertisements',
   description: 'Match dining needs to appropriate restaurant ads',
   instructions: 'Read 5 situations about people looking for restaurants. Match each situation to the correct advertisement (A or B). Time: ~8 minutes.',
-  sampleText: `Situation 1: Familie mit zwei kleinen Kindern sucht Restaurant mit Spielplatz.
+  text: `Situation 1: Familie mit zwei kleinen Kindern sucht Restaurant mit Spielplatz.
 
 Advertisement A:
 Restaurant "Bella Italia"
@@ -127,9 +128,15 @@ Nur Abendessen: 18:00-23:00 Uhr
 Reservierung erforderlich
 Keine Kindermenüs`,
   questions: [
-    'Welches Restaurant ist besser für die Familie?'
-  ],
-  answers: ['A']
+    {
+      id: 'day10-reading2-q1',
+      type: 'multiple-choice',
+      question: 'Welches Restaurant ist besser für die Familie?',
+      options: ['Restaurant A (Bella Italia)', 'Restaurant B (Gourmet)'],
+      correctAnswer: 0,
+      explanation: 'Restaurant A has a playground for children and children\'s menu, making it better for families'
+    }
+  ]
 };
 
 const readingPractice3: ReadingPractice = {
@@ -137,7 +144,7 @@ const readingPractice3: ReadingPractice = {
   title: 'Teil 2: More Restaurant Matching',
   description: 'Continue matching dining needs to restaurants',
   instructions: 'Match more situations to appropriate restaurants.',
-  sampleText: `Situation 2: Student sucht günstiges Mittagsmenü in der Nähe der Universität.
+  text: `Situation 2: Student sucht günstiges Mittagsmenü in der Nähe der Universität.
 
 Advertisement A:
 Mensa Universität
@@ -153,9 +160,15 @@ Mittagsmenü: 12,50 €
 Biergarten
 15 Minuten von der Uni`,
   questions: [
-    'Welches Restaurant ist besser für den Studenten?'
-  ],
-  answers: ['A']
+    {
+      id: 'day10-reading3-q1',
+      type: 'multiple-choice',
+      question: 'Welches Restaurant ist besser für den Studenten?',
+      options: ['Mensa Universität', 'Restaurant Zum Löwen'],
+      correctAnswer: 0,
+      explanation: 'The Mensa is cheaper (4,50€ for students), closer (directly on campus), and offers daily vegetarian options'
+    }
+  ]
 };
 
 const readingPractice4: ReadingPractice = {
@@ -163,7 +176,7 @@ const readingPractice4: ReadingPractice = {
   title: 'Teil 3: Food-Related Information Boards',
   description: 'Read information about food venues and answer multiple choice questions',
   instructions: 'Read information about a restaurant or cafe. Answer 5 multiple choice questions (A, B, or C). Time: ~9 minutes.',
-  sampleText: `Restaurant "Grüner Garten"
+  text: `Restaurant "Grüner Garten"
 Vegetarisches und veganes Restaurant
 
 Öffnungszeiten:
@@ -183,13 +196,47 @@ Reservierung empfohlen am Wochenende
 Tel: 030-12345678
 E-Mail: info@gruenergarten.de`,
   questions: [
-    'Wann ist das Restaurant geschlossen? A) Montags B) Sonntags C) Samstags',
-    'Was kostet das Mittagsmenü? A) 15 € B) 8,50 € C) 10 €',
-    'Was ist im Mittagsmenü inklusive? A) Nur Hauptgericht B) Suppe und Hauptgericht C) Suppe, Hauptgericht und Salat',
-    'Wann gibt es Brunch? A) Jeden Tag B) Samstags C) Sonntags',
-    'Was bekommt man beim Mitnehmen? A) 10% Rabatt B) Gratis Getränk C) Größere Portionen'
-  ],
-  answers: ['A', 'B', 'C', 'C', 'A']
+    {
+      id: 'day10-reading4-q1',
+      type: 'multiple-choice',
+      question: 'Wann ist das Restaurant geschlossen?',
+      options: ['Montags', 'Sonntags', 'Samstags'],
+      correctAnswer: 0,
+      explanation: 'The restaurant is closed on Mondays (Montag: Ruhetag)'
+    },
+    {
+      id: 'day10-reading4-q2',
+      type: 'multiple-choice',
+      question: 'Was kostet das Mittagsmenü?',
+      options: ['15 €', '8,50 €', '10 €'],
+      correctAnswer: 1,
+      explanation: 'The lunch menu costs 8,50 € (Mittagsmenü: 8,50 €)'
+    },
+    {
+      id: 'day10-reading4-q3',
+      type: 'multiple-choice',
+      question: 'Was ist im Mittagsmenü inklusive?',
+      options: ['Nur Hauptgericht', 'Suppe und Hauptgericht', 'Suppe, Hauptgericht und Salat'],
+      correctAnswer: 2,
+      explanation: 'The lunch menu includes soup, main course and salad (Inklusive: Suppe, Hauptgericht, Salat)'
+    },
+    {
+      id: 'day10-reading4-q4',
+      type: 'multiple-choice',
+      question: 'Wann gibt es Brunch?',
+      options: ['Jeden Tag', 'Samstags', 'Sonntags'],
+      correctAnswer: 2,
+      explanation: 'Brunch is available on Sundays (Sonntags: Brunch-Buffet)'
+    },
+    {
+      id: 'day10-reading4-q5',
+      type: 'multiple-choice',
+      question: 'Was bekommt man beim Mitnehmen?',
+      options: ['10% Rabatt', 'Gratis Getränk', 'Größere Portionen'],
+      correctAnswer: 0,
+      explanation: 'Takeaway orders get 10% discount (zum Mitnehmen: 10% Rabatt)'
+    }
+  ]
 };
 
 const readingPractice5: ReadingPractice = {
@@ -197,7 +244,7 @@ const readingPractice5: ReadingPractice = {
   title: 'Teil 3: Cafe Information',
   description: 'Read cafe information and answer questions',
   instructions: 'Read information about a cafe and answer multiple choice questions.',
-  sampleText: `Café "Kaffeehaus"
+  text: `Café "Kaffeehaus"
 Ihr gemütliches Café im Stadtzentrum
 
 Öffnungszeiten:
@@ -220,13 +267,47 @@ Besonderheiten:
 - Alle Kuchen hausgemacht
 - Laktosefreie Milch verfügbar`,
   questions: [
-    'Bis wann kann man frühstücken? A) 10:00 Uhr B) 11:00 Uhr C) 12:00 Uhr',
-    'Was kostet der günstigste Kaffee? A) 2,00 € B) 2,50 € C) 3,00 €',
-    'Was gibt es den ganzen Tag? A) Frühstück B) Mittagstisch C) Kaffee und Kuchen',
-    'Was ist kostenlos? A) Kuchen B) WLAN C) Zeitungen',
-    'Wo kann man bei gutem Wetter sitzen? A) Drinnen B) Draußen C) Im Garten'
-  ],
-  answers: ['B', 'B', 'C', 'B', 'B']
+    {
+      id: 'day10-reading5-q1',
+      type: 'multiple-choice',
+      question: 'Bis wann kann man frühstücken?',
+      options: ['10:00 Uhr', '11:00 Uhr', '12:00 Uhr'],
+      correctAnswer: 1,
+      explanation: 'Breakfast is served until 11:00 (Frühstück: 8:00-11:00 Uhr)'
+    },
+    {
+      id: 'day10-reading5-q2',
+      type: 'multiple-choice',
+      question: 'Was kostet der günstigste Kaffee?',
+      options: ['2,00 €', '2,50 €', '3,00 €'],
+      correctAnswer: 1,
+      explanation: 'Coffee starts from 2,50 € (Kaffee: ab 2,50 €)'
+    },
+    {
+      id: 'day10-reading5-q3',
+      type: 'multiple-choice',
+      question: 'Was gibt es den ganzen Tag?',
+      options: ['Frühstück', 'Mittagstisch', 'Kaffee und Kuchen'],
+      correctAnswer: 2,
+      explanation: 'Coffee and cake are available all day (Kaffee und Kuchen: den ganzen Tag)'
+    },
+    {
+      id: 'day10-reading5-q4',
+      type: 'multiple-choice',
+      question: 'Was ist kostenlos?',
+      options: ['Kuchen', 'WLAN', 'Zeitungen'],
+      correctAnswer: 1,
+      explanation: 'Free WiFi is available (Kostenloses WLAN)'
+    },
+    {
+      id: 'day10-reading5-q5',
+      type: 'multiple-choice',
+      question: 'Wo kann man bei gutem Wetter sitzen?',
+      options: ['Drinnen', 'Draußen', 'Im Garten'],
+      correctAnswer: 1,
+      explanation: 'Outside seating is available in good weather (Außenplätze bei gutem Wetter)'
+    }
+  ]
 };
 
 // ============================================================================
