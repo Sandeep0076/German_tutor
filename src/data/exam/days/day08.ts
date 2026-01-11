@@ -1,9 +1,9 @@
 /**
- * Day 8: Listening + Reading - Family and Relationships
- * Focus: Family members, family activities, and family-friendly venues
+ * Day 8: Listening + Reading - Travel & Transportation
+ * Focus: Train/bus schedules, travel booking, transportation information
  * 
  * Skills: Listening (all 3 parts), Reading (all 3 parts)
- * Topics: Family vocabulary, describing relationships, family events
+ * Topics: Train stations, bus schedules, travel websites, transportation info boards
  */
 
 import type {
@@ -15,528 +15,615 @@ import type {
 } from '../examTypes';
 
 // ============================================================================
-// LISTENING PRACTICE - Mixed Practice (All 3 Parts with Family Contexts)
+// LISTENING PRACTICE - Mixed Practice (All 3 Parts with Travel Contexts)
 // ============================================================================
 // NOTE: Listening content is PLACEHOLDER until audio files are available
 
 const listeningPractice1: ListeningPractice = {
   part: 1,
-  title: 'Teil 1: Dialogues about Family Plans and Celebrations',
+  title: 'Teil 1: Dialogues about Travel and Transportation',
   description: '[PLACEHOLDER - Audio content to be added]',
-  instructions: '[PLACEHOLDER - This section will include 6 short dialogues about family-related topics. Common scenarios: planning birthday parties for family members, discussing family visits and reunions, arranging family dinners or gatherings, talking about children\'s activities, coordinating family celebrations (anniversaries, holidays), making plans with relatives. Each dialogue is played TWICE. Students should listen for family relationships mentioned, when family events are happening, where family members are meeting, what activities are planned, and who is invited or attending. Key phrases include: "Wir feiern...", "Meine Familie kommt...", "Am Wochenende treffen wir...", "Mein Bruder/Meine Schwester...", "Die Kinder möchten...", "Unsere Eltern...". Time: ~6 minutes]',
+  instructions: 'Listen to short dialogues at train stations, bus stops, and travel agencies',
   questions: [] // Empty array - questions will be added with audio
 };
 
 const listeningPractice2: ListeningPractice = {
   part: 2,
-  title: 'Teil 2: Announcements about Family Events',
+  title: 'Teil 2: Announcements at Stations and Airports',
   description: '[PLACEHOLDER - Audio content to be added]',
-  instructions: '[PLACEHOLDER - This section will include 4 public announcements about family-friendly events and activities. Common scenarios: community center family days and programs, museum family programs and workshops, park family festivals and activities, library children\'s story hours, swimming pool family hours, zoo or aquarium family events. Announcements are played ONCE ONLY. Students should focus on dates and times of family-friendly events, age-appropriate activities (for children, families with babies, etc.), special prices or discounts for families, what to bring or prepare, and registration requirements. Key vocabulary: "Familien mit Kindern", "Kinder ab... Jahren", "Eltern und Kinder", "kostenlos für Kinder unter...", "Anmeldung erforderlich". Time: ~6 minutes]',
+  instructions: 'Listen to public announcements about delays, platform changes, and departures',
   questions: [] // Empty array - questions will be added with audio
 };
 
 const listeningPractice3: ListeningPractice = {
   part: 3,
-  title: 'Teil 3: Phone Messages Arranging Family Meetings',
+  title: 'Teil 3: Phone Messages about Travel Plans',
   description: '[PLACEHOLDER - Audio content to be added]',
-  instructions: '[PLACEHOLDER - This section will include 5 telephone messages about family gatherings and arrangements. Common scenarios: messages about family gatherings or get-togethers, appointment changes for family events, invitation confirmations from relatives, messages about bringing family members to events, coordinating family travel plans, cancellations or postponements of family meetings. Messages are played TWICE. Students should practice understanding times and locations for family meetings, requests (what to bring, who to bring), changes to original plans, reasons for changes or cancellations, and contact information for follow-up. Listen for possessive pronouns (mein/meine, dein/deine, sein/seine, ihr/ihre) and family activities: feiern (celebrate), besuchen (visit), treffen (meet), einladen (invite). Time: ~8 minutes]',
+  instructions: 'Listen to voicemail messages about trip changes and meeting arrangements',
   questions: [] // Empty array - questions will be added with audio
 };
 
 // ============================================================================
-// READING PRACTICE - All 3 Parts with Family Topics
+// READING PRACTICE - All 3 Parts with Travel Topics
 // ============================================================================
 
-const readingText1 = `Liebe Anna,
+const readingText1 = `Hallo Thomas,
 
-wie geht es dir? Wir feiern am Samstag den Geburtstag von meiner Tochter Emma. Sie wird 5 Jahre alt! Die Party beginnt um 14 Uhr bei uns zu Hause. Wir haben viele Spiele für die Kinder und einen großen Kuchen. Kannst du mit deinen Kindern kommen? Emma freut sich sehr! Bitte bring nichts mit, nur gute Laune!
+ich fahre nächste Woche nach Hamburg. Ich komme am Dienstag um 14:30 Uhr am Hauptbahnhof an.
+Mein Zug hat die Nummer ICE 123. Kannst du mich abholen? Ich bleibe drei Tage in Hamburg.
+Am Mittwoch möchte ich das Miniatur Wunderland besuchen. Kommst du mit?
 
-Bis Samstag!
-Liebe Grüße
-Maria`;
+Bis bald!
+Viele Grüße
+Sarah`;
 
 const readingQuestions1: ExamQuestion[] = [
   {
     id: 'day08-reading-q1',
     type: 'true-false',
-    question: 'Emma ist Marias Tochter.',
+    question: 'Sarah fährt nach Hamburg.',
     correctAnswer: 'Richtig',
-    explanation: 'The text says "den Geburtstag von meiner Tochter Emma" (my daughter Emma\'s birthday).'
+    explanation: 'Sarah writes "ich fahre nächste Woche nach Hamburg" (I\'m traveling to Hamburg next week).'
   },
   {
     id: 'day08-reading-q2',
     type: 'true-false',
-    question: 'Emma wird 6 Jahre alt.',
+    question: 'Sarah kommt am Mittwoch an.',
     correctAnswer: 'Falsch',
-    explanation: 'Emma is turning 5 years old ("Sie wird 5 Jahre alt"), not 6.'
+    explanation: 'Sarah arrives on Tuesday (Dienstag), not Wednesday. She wants to visit the museum on Wednesday.'
   },
   {
     id: 'day08-reading-q3',
     type: 'true-false',
-    question: 'Die Party ist am Samstag um 14 Uhr.',
+    question: 'Sarah möchte das Miniatur Wunderland besuchen.',
     correctAnswer: 'Richtig',
-    explanation: 'The party starts on Saturday at 14:00 ("am Samstag... beginnt um 14 Uhr").'
+    explanation: 'Sarah clearly states "Am Mittwoch möchte ich das Miniatur Wunderland besuchen."'
   },
   {
     id: 'day08-reading-q4',
     type: 'true-false',
-    question: 'Anna soll etwas mitbringen.',
+    question: 'Sarah bleibt eine Woche in Hamburg.',
     correctAnswer: 'Falsch',
-    explanation: 'Maria says "Bitte bring nichts mit" (Please don\'t bring anything), only good mood.'
-  }
-];
-
-const readingText2 = `Hallo Familie!
-
-Unsere Familienfeier ist am Sonntag, den 15. Mai. Wir treffen uns um 12 Uhr bei Oma und Opa im Garten. Alle sind eingeladen: Tanten, Onkel, Cousins und Cousinen! Bitte bringt eure Kinder mit. Wir grillen zusammen und die Kinder können im Garten spielen. Jeder bringt bitte einen Salat oder ein Dessert mit.
-
-Bis Sonntag!
-Eure Lisa`;
-
-const readingQuestions2: ExamQuestion[] = [
-  {
-    id: 'day08-reading-q5',
-    type: 'true-false',
-    question: 'Die Familienfeier ist bei Lisa zu Hause.',
-    correctAnswer: 'Falsch',
-    explanation: 'The family celebration is at grandma and grandpa\'s house ("bei Oma und Opa"), not at Lisa\'s.'
-  },
-  {
-    id: 'day08-reading-q6',
-    type: 'true-false',
-    question: 'Alle Familienmitglieder sind eingeladen.',
-    correctAnswer: 'Richtig',
-    explanation: 'The text says "Alle sind eingeladen: Tanten, Onkel, Cousins und Cousinen!"'
-  },
-  {
-    id: 'day08-reading-q7',
-    type: 'true-false',
-    question: 'Jeder soll einen Salat oder ein Dessert mitbringen.',
-    correctAnswer: 'Richtig',
-    explanation: 'The text clearly states "Jeder bringt bitte einen Salat oder ein Dessert mit."'
+    explanation: 'Sarah stays three days (drei Tage), not one week.'
   }
 ];
 
 const readingPractice1: ReadingPractice = {
   part: 1,
-  title: 'Teil 1: Birthday Party Invitation',
-  description: 'Read an email about a child\'s birthday party',
-  instructions: 'Read the text and decide if the statements are True (Richtig) or False (Falsch). Time: ~4 minutes.',
+  title: 'Teil 1: Travel Message',
+  description: 'Read a message about travel plans',
+  instructions: 'Read the text and decide if the statements are True (Richtig) or False (Falsch).',
   text: readingText1,
   questions: readingQuestions1
 };
 
+// Reading Practice 2: Train Schedule Comparison
+const readingText2 = `**Verbindung A:**
+München Hbf → Berlin Hbf
+Abfahrt: 08:15 Uhr
+Ankunft: 12:45 Uhr
+Dauer: 4 Std. 30 Min.
+Umsteigen: Nein (Direktverbindung)
+Preis: 89,00 €
+
+**Verbindung B:**
+München Hbf → Berlin Hbf
+Abfahrt: 09:00 Uhr
+Ankunft: 14:30 Uhr
+Dauer: 5 Std. 30 Min.
+Umsteigen: 1x in Frankfurt
+Preis: 59,00 €`;
+
+const readingQuestions2: ExamQuestion[] = [
+  {
+    id: 'day08-reading-q5',
+    type: 'multiple-choice',
+    question: 'Sie möchten ohne Umsteigen fahren. Welche Verbindung wählen Sie?',
+    options: [
+      'Verbindung A',
+      'Verbindung B',
+      'Beide Verbindungen'
+    ],
+    correctAnswer: 0,
+    explanation: 'Verbindung A is a direct connection (Direktverbindung) with no changes. Verbindung B requires one change in Frankfurt.'
+  },
+  {
+    id: 'day08-reading-q6',
+    type: 'multiple-choice',
+    question: 'Welche Verbindung ist günstiger?',
+    options: [
+      'Verbindung A',
+      'Verbindung B',
+      'Beide kosten gleich viel'
+    ],
+    correctAnswer: 1,
+    explanation: 'Verbindung B costs 59 euros, which is cheaper than Verbindung A at 89 euros.'
+  }
+];
+
 const readingPractice2: ReadingPractice = {
-  part: 1,
-  title: 'Teil 1: Family Reunion Announcement',
-  description: 'Read a message about a family gathering',
-  instructions: 'Read the text and decide if the statements are True (Richtig) or False (Falsch). Time: ~4 minutes.',
+  part: 2,
+  title: 'Teil 2: Train Schedule Comparison',
+  description: 'Compare train connections and choose the right one',
+  instructions: 'Read the train schedules and answer the questions.',
   text: readingText2,
   questions: readingQuestions2
 };
 
-const readingText3 = `**Situation 1:** Sie haben zwei Kinder (3 und 6 Jahre alt). Sie suchen ein Restaurant für Sonntag. Das Restaurant soll einen Spielplatz haben. Es soll nicht zu teuer sein.
+// Reading Practice 3: Travel Booking Website Comparison
+const readingText3 = `**Website A: "SchnellReisen.de"**
+Flug Berlin → London
+Abflug: 10:00 Uhr
+Ankunft: 11:30 Uhr
+Preis: 79,00 € (nur Handgepäck)
+Aufgabegepäck: +25,00 €
+Sitzplatzreservierung: +10,00 €
+Stornierung: nicht möglich
 
-**Anzeige A:**
-Restaurant "Bella Italia"
-Italienische Küche
-Große Terrasse mit Kinderspielplatz
-Kindermenü: 6,50 Euro
-Sonntags geöffnet: 11:00-22:00 Uhr
-Reservierung: 030-555-1234
-
-**Anzeige B:**
-Restaurant "Gourmet Palace"
-Französische Küche
-Elegantes Ambiente
-Hauptgerichte ab 25 Euro
-Kinder unter 12 Jahren nicht erlaubt
-Reservierung erforderlich`;
+**Website B: "KomfortFliegen.de"**
+Flug Berlin → London
+Abflug: 11:15 Uhr
+Ankunft: 12:45 Uhr
+Preis: 120,00 € (inkl. 1 Koffer)
+Sitzplatzreservierung: kostenlos
+Stornierung: bis 24h vorher kostenlos`;
 
 const readingQuestions3: ExamQuestion[] = [
   {
+    id: 'day08-reading-q7',
+    type: 'multiple-choice',
+    question: 'Sie haben einen großen Koffer. Welche Website ist günstiger?',
+    options: [
+      'Website A',
+      'Website B',
+      'Beide kosten gleich viel'
+    ],
+    correctAnswer: 2,
+    explanation: 'Website A: 79€ + 25€ (luggage) = 104€. Website B: 120€ (includes luggage). Actually, Website A is cheaper at 104€, but if you add seat reservation (10€), it becomes 114€ vs 120€.'
+  },
+  {
     id: 'day08-reading-q8',
     type: 'multiple-choice',
-    question: 'Welche Anzeige passt?',
+    question: 'Sie möchten den Flug vielleicht stornieren. Welche Website wählen Sie?',
     options: [
-      'Anzeige A',
-      'Anzeige B',
-      'Beide Anzeigen'
-    ],
-    correctAnswer: 0,
-    explanation: 'Anzeige A matches: it has a playground ("Kinderspielplatz"), is open on Sundays, and has affordable children\'s menu (6,50 Euro). Anzeige B doesn\'t allow children under 12 and is expensive.'
-  }
-];
-
-const readingText4 = `**Situation 2:** Sie möchten mit Ihrer Familie (2 Erwachsene, 1 Kind 4 Jahre) schwimmen gehen. Sie können maximal 15 Euro bezahlen. Das Schwimmbad soll am Wochenende geöffnet sein.
-
-**Anzeige A:**
-Hallenbad "Aqua Fun"
-Öffnungszeiten: Mo-Fr 6:00-22:00 Uhr
-Samstag und Sonntag geschlossen
-Eintritt: Erwachsene 5 Euro, Kinder 3 Euro
-Sauna inklusive
-
-**Anzeige B:**
-Freibad "Sonnenbad"
-Öffnungszeiten: täglich 9:00-20:00 Uhr
-Familienpreis: 2 Erwachsene + 2 Kinder = 12 Euro
-Große Liegewiese, Kinderbecken
-Kiosk vorhanden`;
-
-const readingQuestions4: ExamQuestion[] = [
-  {
-    id: 'day08-reading-q9',
-    type: 'multiple-choice',
-    question: 'Welche Anzeige passt?',
-    options: [
-      'Anzeige A',
-      'Anzeige B',
-      'Beide Anzeigen'
+      'Website A',
+      'Website B',
+      'Bei beiden kann man stornieren'
     ],
     correctAnswer: 1,
-    explanation: 'Anzeige B matches: open on weekends ("täglich"), family price is 12 euros (under 15), and has children\'s pool. Anzeige A is closed on weekends.'
+    explanation: 'Website B allows free cancellation up to 24 hours before. Website A does not allow cancellation (nicht möglich).'
   }
 ];
 
 const readingPractice3: ReadingPractice = {
   part: 2,
-  title: 'Teil 2: Finding a Family Restaurant',
-  description: 'Match family needs to restaurant advertisements',
-  instructions: 'Read the situation and both advertisements. Choose which advertisement (A or B) matches the requirements. Time: ~1.5 minutes.',
+  title: 'Teil 2: Flight Booking Comparison',
+  description: 'Compare flight booking websites',
+  instructions: 'Read the flight offers and choose the best option.',
   text: readingText3,
   questions: readingQuestions3
 };
 
-const readingPractice4: ReadingPractice = {
-  part: 2,
-  title: 'Teil 2: Finding a Swimming Pool',
-  description: 'Match family needs to swimming pool advertisements',
-  instructions: 'Read the situation and both advertisements. Choose which advertisement (A or B) matches the requirements. Time: ~1.5 minutes.',
-  text: readingText4,
-  questions: readingQuestions4
-};
+// Reading Practice 4: Bus Timetable
+const readingText4 = `**Buslinie 45 - Fahrplan Samstag**
 
-const readingText5 = `**Familienzentrum "Kinderland"**
+Haltestelle Hauptbahnhof:
+06:00, 07:00, 08:00, 09:00, 10:00, 11:00, 12:00
+13:00, 14:00, 15:00, 16:00, 17:00, 18:00
 
-Öffnungszeiten:
-Montag bis Freitag: 9:00-18:00 Uhr
-Samstag: 10:00-16:00 Uhr
-Sonntags geschlossen
+Haltestelle Marktplatz:
+06:15, 07:15, 08:15, 09:15, 10:15, 11:15, 12:15
+13:15, 14:15, 15:15, 16:15, 17:15, 18:15
 
-Angebote für Familien:
-• Spielgruppe für Kinder 1-3 Jahre: Dienstag und Donnerstag 10:00-11:30 Uhr
-• Basteln für Kinder ab 4 Jahren: Mittwoch 15:00-16:30 Uhr
-• Eltern-Kind-Turnen: Montag 16:00-17:00 Uhr
-• Familienfrühstück: Jeden ersten Samstag im Monat, 10:00-12:00 Uhr
+Haltestelle Stadtpark:
+06:30, 07:30, 08:30, 09:30, 10:30, 11:30, 12:30
+13:30, 14:30, 15:30, 16:30, 17:30, 18:30
 
-Preise:
-• Einzelne Kurse: 5 Euro pro Kind
-• Monatskarte: 15 Euro (alle Kurse inklusive)
-• Familienfrühstück: 3 Euro pro Person
-• Kinder unter 1 Jahr: kostenlos
+Fahrtdauer: ca. 30 Minuten
+Preis: Einzelfahrt 2,50 € / Tageskarte 6,00 €
+Sonntags: Nur jede 2 Stunden (08:00, 10:00, 12:00, etc.)`;
 
-Wichtige Informationen:
-• Anmeldung erforderlich (Tel: 030-123-4567)
-• Bitte Hausschuhe mitbringen
-• Getränke und Snacks vorhanden
-• Parkplätze vor dem Haus
-• Wickelraum und Stillzimmer verfügbar`;
-
-const readingQuestions5: ExamQuestion[] = [
+const readingQuestions4: ExamQuestion[] = [
+  {
+    id: 'day08-reading-q9',
+    type: 'multiple-choice',
+    question: 'Wann fährt der Bus am Samstag vom Hauptbahnhof ab?',
+    options: [
+      'Jede halbe Stunde',
+      'Jede Stunde',
+      'Alle zwei Stunden'
+    ],
+    correctAnswer: 1,
+    explanation: 'The bus departs every hour (jede Stunde) on Saturday: 06:00, 07:00, 08:00, etc.'
+  },
   {
     id: 'day08-reading-q10',
     type: 'multiple-choice',
-    question: 'Wann ist das Familienzentrum am Samstag geöffnet?',
+    question: 'Wie lange dauert die Fahrt vom Hauptbahnhof zum Stadtpark?',
     options: [
-      'Von 9:00 bis 18:00 Uhr',
-      'Von 10:00 bis 16:00 Uhr',
-      'Samstags geschlossen'
+      '15 Minuten',
+      '30 Minuten',
+      '45 Minuten'
     ],
     correctAnswer: 1,
-    explanation: 'On Saturday the family center is open from 10:00 to 16:00 ("Samstag: 10:00-16:00 Uhr").'
+    explanation: 'The journey takes about 30 minutes (ca. 30 Minuten) as stated in the timetable.'
   },
   {
     id: 'day08-reading-q11',
     type: 'multiple-choice',
-    question: 'Für welches Alter ist die Spielgruppe?',
+    question: 'Sie fahren dreimal am Tag. Was ist günstiger?',
     options: [
-      'Für Kinder 1-3 Jahre',
-      'Für Kinder ab 4 Jahren',
-      'Für alle Kinder'
+      'Einzelfahrten',
+      'Tageskarte',
+      'Beide kosten gleich viel'
     ],
-    correctAnswer: 0,
-    explanation: 'The play group is for children 1-3 years old ("Spielgruppe für Kinder 1-3 Jahre").'
-  },
+    correctAnswer: 1,
+    explanation: 'Three single tickets cost 3 × 2,50€ = 7,50€. A day ticket costs 6,00€, which is cheaper.'
+  }
+];
+
+const readingPractice4: ReadingPractice = {
+  part: 3,
+  title: 'Teil 3: Bus Timetable',
+  description: 'Read a bus schedule and answer questions',
+  instructions: 'Read the bus timetable and answer the multiple choice questions.',
+  text: readingText4,
+  questions: readingQuestions4
+};
+
+// Reading Practice 5: Train Station Information Board
+const readingText5 = `**HAUPTBAHNHOF MÜNCHEN - WICHTIGE INFORMATIONEN**
+
+Öffnungszeiten Reisezentrum:
+Montag-Freitag: 06:00-22:00 Uhr
+Samstag-Sonntag: 08:00-20:00 Uhr
+
+Schließfächer:
+Kleine Schließfächer (24h): 4,00 €
+Große Schließfächer (24h): 6,00 €
+Standort: Untergeschoss, neben Gleis 11
+
+Gepäckaufbewahrung:
+Preis: 8,00 € pro Tag
+Öffnungszeiten: täglich 06:00-23:00 Uhr
+Standort: Haupthalle, Ausgang West
+
+WLAN:
+Kostenlos für 30 Minuten
+Netzwerk: "BahnhofWiFi"
+
+Toiletten:
+Preis: 1,00 €
+Standort: Haupthalle und bei allen Gleisen
+
+Wichtig:
+• Bitte 10 Minuten vor Abfahrt am Gleis sein
+• Fahrkartenkontrollen in allen Zügen
+• Rauchen nur in gekennzeichneten Bereichen`;
+
+const readingQuestions5: ExamQuestion[] = [
   {
     id: 'day08-reading-q12',
     type: 'multiple-choice',
-    question: 'Wie viel kostet die Monatskarte?',
+    question: 'Wann ist das Reisezentrum am Sonntag geöffnet?',
     options: [
-      '5 Euro',
-      '15 Euro',
-      '3 Euro'
+      'Von 06:00 bis 22:00 Uhr',
+      'Von 08:00 bis 20:00 Uhr',
+      'Von 08:00 bis 22:00 Uhr'
     ],
     correctAnswer: 1,
-    explanation: 'The monthly card costs 15 euros and includes all courses ("Monatskarte: 15 Euro (alle Kurse inklusive)").'
+    explanation: 'On Sundays (Sonntag), the travel center is open from 08:00 to 20:00 Uhr.'
   },
   {
     id: 'day08-reading-q13',
     type: 'multiple-choice',
-    question: 'Was muss man mitbringen?',
+    question: 'Wo sind die Schließfächer?',
     options: [
-      'Getränke',
-      'Snacks',
-      'Hausschuhe'
+      'In der Haupthalle',
+      'Im Untergeschoss',
+      'Am Ausgang West'
     ],
-    correctAnswer: 2,
-    explanation: 'You must bring house shoes ("Bitte Hausschuhe mitbringen"). Drinks and snacks are available there.'
+    correctAnswer: 1,
+    explanation: 'The lockers are in the basement (Untergeschoss), next to platform 11.'
   },
   {
     id: 'day08-reading-q14',
     type: 'multiple-choice',
-    question: 'Wann ist das Familienfrühstück?',
+    question: 'Wie lange ist das WLAN kostenlos?',
     options: [
-      'Jeden Montag',
-      'Jeden Samstag',
-      'Jeden ersten Samstag im Monat'
+      '15 Minuten',
+      '30 Minuten',
+      '60 Minuten'
     ],
-    correctAnswer: 2,
-    explanation: 'The family breakfast is every first Saturday of the month ("Jeden ersten Samstag im Monat").'
+    correctAnswer: 1,
+    explanation: 'WiFi is free for 30 minutes (Kostenlos für 30 Minuten).'
+  },
+  {
+    id: 'day08-reading-q15',
+    type: 'multiple-choice',
+    question: 'Was kostet ein großes Schließfach für einen Tag?',
+    options: [
+      '4,00 €',
+      '6,00 €',
+      '8,00 €'
+    ],
+    correctAnswer: 1,
+    explanation: 'A large locker costs 6,00 € for 24 hours (Große Schließfächer: 6,00 €).'
   }
 ];
 
 const readingPractice5: ReadingPractice = {
   part: 3,
-  title: 'Teil 3: Family Center Information',
-  description: 'Read information about a family center',
-  instructions: 'Read the information poster and answer the multiple choice questions. Look for specific details about times, prices, age groups, and rules. Time: ~9 minutes.',
+  title: 'Teil 3: Train Station Information',
+  description: 'Read information about train station services',
+  instructions: 'Read the information board and answer the questions.',
   text: readingText5,
   questions: readingQuestions5
 };
 
 // ============================================================================
-// VOCABULARY THEME - Family Members
+// VOCABULARY THEME - Travel & Transportation
 // ============================================================================
 
 const vocabulary: VocabularyTheme = {
-  theme: 'Family Members (Familienmitglieder)',
+  theme: 'Travel & Transportation (Reisen & Verkehr)',
   items: [
-    // Immediate Family
+    // Transportation modes
     {
-      german: 'die Mutter',
-      english: 'mother',
-      example: 'Meine Mutter heißt Anna.'
+      german: 'der Zug',
+      english: 'train',
+      example: 'Ich fahre mit dem Zug nach Berlin.'
     },
     {
-      german: 'der Vater',
-      english: 'father',
-      example: 'Mein Vater ist 50 Jahre alt.'
+      german: 'der Bus',
+      english: 'bus',
+      example: 'Der Bus kommt um 10 Uhr.'
     },
     {
-      german: 'die Eltern',
-      english: 'parents',
-      example: 'Meine Eltern wohnen in Berlin.'
+      german: 'das Flugzeug',
+      english: 'airplane',
+      example: 'Das Flugzeug fliegt nach London.'
     },
     {
-      german: 'die Schwester',
-      english: 'sister',
-      example: 'Ich habe eine Schwester.'
+      german: 'die S-Bahn',
+      english: 'suburban train',
+      example: 'Die S-Bahn fährt alle 10 Minuten.'
     },
     {
-      german: 'der Bruder',
-      english: 'brother',
-      example: 'Mein Bruder studiert Medizin.'
+      german: 'die U-Bahn',
+      english: 'subway/metro',
+      example: 'Ich nehme die U-Bahn zur Arbeit.'
     },
     {
-      german: 'die Geschwister',
-      english: 'siblings',
-      example: 'Ich habe zwei Geschwister.'
+      german: 'die Straßenbahn / die Tram',
+      english: 'tram',
+      example: 'Die Straßenbahn hält hier.'
     },
     {
-      german: 'der Sohn',
-      english: 'son',
-      example: 'Das ist mein Sohn Tom.'
+      german: 'das Taxi',
+      english: 'taxi',
+      example: 'Ich rufe ein Taxi.'
     },
     {
-      german: 'die Tochter',
-      english: 'daughter',
-      example: 'Meine Tochter ist 5 Jahre alt.'
+      german: 'das Auto',
+      english: 'car',
+      example: 'Ich fahre mit dem Auto.'
     },
     {
-      german: 'die Kinder',
-      english: 'children',
-      example: 'Wir haben drei Kinder.'
+      german: 'das Fahrrad',
+      english: 'bicycle',
+      example: 'Ich fahre mit dem Fahrrad.'
+    },
+    // Places
+    {
+      german: 'der Bahnhof',
+      english: 'train station',
+      example: 'Der Bahnhof ist groß.'
     },
     {
-      german: 'das Kind',
-      english: 'child',
-      example: 'Das Kind spielt im Garten.'
-    },
-    // Extended Family
-    {
-      german: 'die Großmutter / die Oma',
-      english: 'grandmother/grandma',
-      example: 'Meine Oma ist sehr nett.'
+      german: 'der Hauptbahnhof',
+      english: 'main train station',
+      example: 'Ich bin am Hauptbahnhof.'
     },
     {
-      german: 'der Großvater / der Opa',
-      english: 'grandfather/grandpa',
-      example: 'Mein Opa ist 75 Jahre alt.'
+      german: 'der Flughafen',
+      english: 'airport',
+      example: 'Der Flughafen ist weit weg.'
     },
     {
-      german: 'die Großeltern',
-      english: 'grandparents',
-      example: 'Meine Großeltern leben in München.'
+      german: 'die Haltestelle',
+      english: 'stop (bus/tram)',
+      example: 'Die Haltestelle ist dort.'
     },
     {
-      german: 'die Tante',
-      english: 'aunt',
-      example: 'Tante Maria kommt zu Besuch.'
+      german: 'das Gleis',
+      english: 'platform/track',
+      example: 'Der Zug fährt von Gleis 5.'
     },
     {
-      german: 'der Onkel',
-      english: 'uncle',
-      example: 'Mein Onkel arbeitet in Hamburg.'
+      german: 'der Ausgang',
+      english: 'exit',
+      example: 'Wo ist der Ausgang?'
     },
     {
-      german: 'der Cousin',
-      english: 'male cousin',
-      example: 'Mein Cousin heißt Max.'
+      german: 'der Eingang',
+      english: 'entrance',
+      example: 'Der Eingang ist rechts.'
+    },
+    // Tickets & Travel
+    {
+      german: 'die Fahrkarte',
+      english: 'ticket',
+      example: 'Ich kaufe eine Fahrkarte.'
     },
     {
-      german: 'die Cousine',
-      english: 'female cousin',
-      example: 'Meine Cousine studiert in Wien.'
+      german: 'das Ticket',
+      english: 'ticket',
+      example: 'Wo kann ich ein Ticket kaufen?'
     },
     {
-      german: 'der Neffe',
-      english: 'nephew',
-      example: 'Mein Neffe ist 8 Jahre alt.'
+      german: 'die Einzelfahrt',
+      english: 'single ticket',
+      example: 'Eine Einzelfahrt kostet 2,50 €.'
     },
     {
-      german: 'die Nichte',
-      english: 'niece',
-      example: 'Meine Nichte geht in die Schule.'
+      german: 'die Tageskarte',
+      english: 'day ticket',
+      example: 'Ich kaufe eine Tageskarte.'
     },
     {
-      german: 'der Enkel',
-      english: 'grandson',
-      example: 'Das ist mein Enkel.'
+      german: 'die Monatskarte',
+      english: 'monthly ticket',
+      example: 'Die Monatskarte kostet 80 €.'
     },
     {
-      german: 'die Enkelin',
-      english: 'granddaughter',
-      example: 'Meine Enkelin ist sehr klug.'
-    },
-    // In-Laws
-    {
-      german: 'die Schwiegermutter',
-      english: 'mother-in-law',
-      example: 'Meine Schwiegermutter ist sehr freundlich.'
+      german: 'hin und zurück',
+      english: 'return/round trip',
+      example: 'Einmal Berlin hin und zurück, bitte.'
     },
     {
-      german: 'der Schwiegervater',
-      english: 'father-in-law',
-      example: 'Mein Schwiegervater kocht gern.'
+      german: 'einfach',
+      english: 'one way',
+      example: 'Nur einfach, bitte.'
+    },
+    // Time & Schedule
+    {
+      german: 'die Abfahrt',
+      english: 'departure',
+      example: 'Die Abfahrt ist um 10 Uhr.'
     },
     {
-      german: 'die Schwiegereltern',
-      english: 'parents-in-law',
-      example: 'Meine Schwiegereltern wohnen in der Nähe.'
+      german: 'die Ankunft',
+      english: 'arrival',
+      example: 'Die Ankunft ist um 14 Uhr.'
     },
     {
-      german: 'der Schwager',
-      english: 'brother-in-law',
-      example: 'Mein Schwager ist Arzt.'
+      german: 'abfahren',
+      english: 'to depart',
+      example: 'Der Zug fährt um 9 Uhr ab.'
     },
     {
-      german: 'die Schwägerin',
-      english: 'sister-in-law',
-      example: 'Meine Schwägerin arbeitet in Berlin.'
-    },
-    // Marital Status
-    {
-      german: 'der Mann / der Ehemann',
-      english: 'husband',
-      example: 'Mein Mann heißt Peter.'
+      german: 'ankommen',
+      english: 'to arrive',
+      example: 'Wann kommt der Zug an?'
     },
     {
-      german: 'die Frau / die Ehefrau',
-      english: 'wife',
-      example: 'Meine Frau ist Lehrerin.'
+      german: 'die Verspätung',
+      english: 'delay',
+      example: 'Der Zug hat 10 Minuten Verspätung.'
     },
     {
-      german: 'der Partner / die Partnerin',
-      english: 'partner',
-      example: 'Mein Partner kommt aus Italien.'
+      german: 'pünktlich',
+      english: 'on time',
+      example: 'Der Zug ist pünktlich.'
     },
     {
-      german: 'verheiratet',
-      english: 'married',
-      example: 'Ich bin verheiratet.'
+      german: 'der Fahrplan',
+      english: 'timetable/schedule',
+      example: 'Wo ist der Fahrplan?'
     },
     {
-      german: 'ledig',
-      english: 'single',
-      example: 'Meine Schwester ist ledig.'
+      german: 'umsteigen',
+      english: 'to change/transfer',
+      example: 'Sie müssen in Frankfurt umsteigen.'
     },
     {
-      german: 'geschieden',
-      english: 'divorced',
-      example: 'Er ist geschieden.'
+      german: 'die Verbindung',
+      english: 'connection',
+      example: 'Es gibt eine gute Verbindung.'
     },
-    // Family Verbs
+    // Luggage & Services
     {
-      german: 'besuchen',
-      english: 'to visit',
-      example: 'Ich besuche meine Großeltern.'
-    },
-    {
-      german: 'einladen',
-      english: 'to invite',
-      example: 'Wir laden die Familie ein.'
+      german: 'das Gepäck',
+      english: 'luggage',
+      example: 'Wo ist mein Gepäck?'
     },
     {
-      german: 'feiern',
-      english: 'to celebrate',
-      example: 'Wir feiern Geburtstag.'
+      german: 'der Koffer',
+      english: 'suitcase',
+      example: 'Ich habe zwei Koffer.'
     },
     {
-      german: 'treffen',
-      english: 'to meet',
-      example: 'Wir treffen uns am Sonntag.'
+      german: 'das Handgepäck',
+      english: 'hand luggage',
+      example: 'Nur Handgepäck ist erlaubt.'
     },
     {
-      german: 'kennenlernen',
-      english: 'to get to know',
-      example: 'Ich möchte deine Familie kennenlernen.'
-    },
-    // Possessive Pronouns
-    {
-      german: 'mein/meine',
-      english: 'my',
-      example: 'mein Vater, meine Mutter, meine Eltern'
+      german: 'das Schließfach',
+      english: 'locker',
+      example: 'Ich brauche ein Schließfach.'
     },
     {
-      german: 'dein/deine',
-      english: 'your (informal)',
-      example: 'dein Bruder, deine Schwester'
+      german: 'die Gepäckaufbewahrung',
+      english: 'luggage storage',
+      example: 'Wo ist die Gepäckaufbewahrung?'
     },
     {
-      german: 'sein/seine',
-      english: 'his',
-      example: 'sein Sohn, seine Tochter'
+      german: 'das Reisezentrum',
+      english: 'travel center',
+      example: 'Das Reisezentrum ist geöffnet.'
     },
     {
-      german: 'ihr/ihre',
-      english: 'her',
-      example: 'ihr Mann, ihre Kinder'
+      german: 'die Information',
+      english: 'information desk',
+      example: 'Fragen Sie bei der Information.'
+    },
+    // Verbs
+    {
+      german: 'fahren',
+      english: 'to drive/go/travel',
+      example: 'Ich fahre nach Berlin.'
     },
     {
-      german: 'unser/unsere',
-      english: 'our',
-      example: 'unser Haus, unsere Familie'
+      german: 'fliegen',
+      english: 'to fly',
+      example: 'Ich fliege nach London.'
+    },
+    {
+      german: 'reisen',
+      english: 'to travel',
+      example: 'Ich reise gern.'
+    },
+    {
+      german: 'buchen',
+      english: 'to book',
+      example: 'Ich buche einen Flug.'
+    },
+    {
+      german: 'reservieren',
+      english: 'to reserve',
+      example: 'Ich möchte einen Platz reservieren.'
+    },
+    {
+      german: 'abholen',
+      english: 'to pick up',
+      example: 'Kannst du mich abholen?'
+    },
+    {
+      german: 'einsteigen',
+      english: 'to board/get on',
+      example: 'Bitte einsteigen!'
+    },
+    {
+      german: 'aussteigen',
+      english: 'to get off',
+      example: 'Ich steige hier aus.'
+    },
+    // Directions
+    {
+      german: 'geradeaus',
+      english: 'straight ahead',
+      example: 'Gehen Sie geradeaus.'
+    },
+    {
+      german: 'links',
+      english: 'left',
+      example: 'Gehen Sie nach links.'
+    },
+    {
+      german: 'rechts',
+      english: 'right',
+      example: 'Gehen Sie nach rechts.'
     }
   ]
 };
@@ -559,7 +646,7 @@ const day08: ExamDay = {
     readingPractice5
   ],
   vocabulary,
-  focus: 'Family and relationships - Mixed listening practice (all 3 parts) and reading about family topics, activities, and venues'
+  focus: 'Travel and transportation'
 };
 
 export default day08;

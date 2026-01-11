@@ -17,6 +17,48 @@ import type {
 // WRITING PRACTICE - Describing Family and Inviting to Events
 // ============================================================================
 
+const writingPractice0: WritingPractice = {
+  part: 1,
+  title: 'Teil 1: Family Registration Form',
+  description: 'Fill in a registration form with family information',
+  instructions: 'Complete the registration form with your family details. Fill in all the required fields. Time: ~10 minutes.',
+  prompt: `**Familienregistrierung / Family Registration**
+
+Bitte füllen Sie das Formular aus:
+
+Familienname: _______________
+Vorname (Vater/Mutter): _______________
+Vorname (Partner/in): _______________
+Anzahl der Kinder: _______________
+Namen der Kinder: _______________
+Wohnort: _______________
+Straße, Hausnummer: _______________
+Postleitzahl: _______________
+Telefonnummer: _______________
+E-Mail-Adresse: _______________
+Staatsangehörigkeit: _______________`,
+  sampleAnswer: `Familienname: Schmidt
+Vorname (Vater/Mutter): Michael
+Vorname (Partner/in): Anna
+Anzahl der Kinder: 2
+Namen der Kinder: Tom, Lisa
+Wohnort: Berlin
+Straße, Hausnummer: Hauptstraße 45
+Postleitzahl: 10115
+Telefonnummer: 030-12345678
+E-Mail-Adresse: schmidt.familie@email.de
+Staatsangehörigkeit: deutsch`,
+  keyPhrases: [
+    'Familienname (family name)',
+    'Vorname (first name)',
+    'Anzahl der Kinder (number of children)',
+    'Wohnort (place of residence)',
+    'Straße, Hausnummer (street, house number)',
+    'Postleitzahl (postal code)',
+    'Staatsangehörigkeit (nationality)'
+  ]
+};
+
 const writingPractice1: WritingPractice = {
   part: 2,
   title: 'Teil 2: Write about Your Family',
@@ -494,6 +536,7 @@ const day09: ExamDay = {
   day: 9,
   skills: ['Writing', 'Speaking'],
   practices: [
+    writingPractice0,
     writingPractice1,
     writingPractice2,
     writingPractice3,

@@ -1,9 +1,9 @@
 /**
- * Day 13: Writing + Speaking - Transactions and Comparisons
- * Focus: Writing about shopping experiences, asking for products, speaking about purchases
+ * Day 13: Writing + Speaking - Work & Office
+ * Focus: Job applications, workplace communication, office situations
  * 
- * Skills: Writing (Teil 2), Speaking (all 3 parts)
- * Topics: Shopping experiences, product inquiries, transactions, colors, sizes, prices
+ * Skills: Writing (Teil 1 & 2), Speaking (all 3 parts)
+ * Topics: Job search, office communication, workplace requests, professional emails
  */
 
 import type {
@@ -14,483 +14,562 @@ import type {
 } from '../examTypes';
 
 // ============================================================================
-// WRITING PRACTICE - Shopping Experiences and Inquiries
+// WRITING PRACTICE - Work and Office Communication
 // ============================================================================
+
+const writingPractice0: WritingPractice = {
+  part: 1,
+  title: 'Teil 1: Job Application Form',
+  description: 'Fill in a job application form',
+  instructions: 'Complete the job application form with your information. Fill in all the required fields. Time: ~10 minutes.',
+  prompt: `**BEWERBUNGSFORMULAR / JOB APPLICATION FORM**
+
+Bitte füllen Sie das Formular aus:
+
+Persönliche Daten:
+Vorname: _______________
+Nachname: _______________
+Geburtsdatum: _______________
+Staatsangehörigkeit: _______________
+
+Kontaktdaten:
+Adresse: _______________
+Postleitzahl, Ort: _______________
+Telefonnummer: _______________
+E-Mail-Adresse: _______________
+
+Berufserfahrung:
+Aktueller Beruf: _______________
+Arbeitgeber: _______________
+Seit wann: _______________
+
+Ausbildung:
+Höchster Schulabschluss: _______________
+Studium/Ausbildung: _______________
+
+Sprachkenntnisse:
+Deutsch: _______________
+Englisch: _______________
+Weitere Sprachen: _______________
+
+Verfügbarkeit:
+Ab wann können Sie anfangen? _______________
+Vollzeit oder Teilzeit? _______________
+
+Datum: _______________
+Unterschrift: _______________`,
+  sampleAnswer: `Persönliche Daten:
+Vorname: Maria
+Nachname: Schmidt
+Geburtsdatum: 15.06.1990
+Staatsangehörigkeit: deutsch
+
+Kontaktdaten:
+Adresse: Hauptstraße 45
+Postleitzahl, Ort: 10115 Berlin
+Telefonnummer: 030-12345678
+E-Mail-Adresse: maria.schmidt@email.de
+
+Berufserfahrung:
+Aktueller Beruf: Verkäuferin
+Arbeitgeber: Kaufhaus Müller
+Seit wann: 01.03.2020
+
+Ausbildung:
+Höchster Schulabschluss: Abitur
+Studium/Ausbildung: Ausbildung zur Einzelhandelskauffrau
+
+Sprachkenntnisse:
+Deutsch: Muttersprache
+Englisch: Gut
+Weitere Sprachen: Spanisch (Grundkenntnisse)
+
+Verfügbarkeit:
+Ab wann können Sie anfangen? 01.04.2026
+Vollzeit oder Teilzeit? Vollzeit
+
+Datum: 11.01.2026
+Unterschrift: Maria Schmidt`,
+  keyPhrases: [
+    'Bewerbung (application)',
+    'Berufserfahrung (work experience)',
+    'Ausbildung (education/training)',
+    'Sprachkenntnisse (language skills)',
+    'Verfügbarkeit (availability)',
+    'Vollzeit (full-time)',
+    'Teilzeit (part-time)'
+  ]
+};
 
 const writingPractice1: WritingPractice = {
   part: 2,
-  title: 'Teil 2: Write about Shopping Experiences',
-  description: 'Describe a recent shopping trip or purchase',
-  instructions: 'Write about your last shopping experience. Include what you bought, where, and how much it cost. Write about 30-40 words. Time: ~15 minutes.',
-  prompt: `Schreibe über deinen letzten Einkauf. Schreibe zu jedem Punkt ein bis zwei Sätze:
-- Was hast du gekauft?
-- Wo hast du eingekauft?
-- Wie viel hat es gekostet?`,
-  sampleAnswer: `Gestern war ich im Kaufhaus und habe eine neue Jacke gekauft.
-Die Jacke ist blau und hat Größe 40. Sie war im Angebot und hat nur 45 Euro gekostet.
-Ich habe auch noch ein T-Shirt gekauft. Das war sehr günstig.`,
+  title: 'Teil 2: Email to Colleague about Meeting',
+  description: 'Write an email to a colleague about a meeting',
+  instructions: 'You need to arrange a meeting with your colleague. Write an email. Write 1-2 sentences for each point (~30 words total). Time: ~15 minutes.',
+  prompt: `Sie möchten ein Meeting mit Ihrem Kollegen haben. Schreiben Sie an Ihren Kollegen:
+- Warum brauchen Sie das Meeting?
+- Wann haben Sie Zeit?
+- Wo können Sie sich treffen?`,
+  sampleAnswer: `Hallo Thomas,
+
+ich möchte mit dir über das neue Projekt sprechen. Hast du morgen Zeit für ein Meeting?
+Wir können uns um 14 Uhr in Raum 301 treffen.
+
+Viele Grüße
+Maria`,
   keyPhrases: [
-    'Ich habe... gekauft.',
-    'Ich war im/in der...',
-    'Das hat... Euro gekostet.',
-    'Es war im Angebot.',
-    'Das war günstig/teuer.',
-    'Ich habe... bezahlt.'
+    'Ich möchte... besprechen (I would like to discuss...)',
+    'Hast du Zeit für...? (Do you have time for...?)',
+    'Wir können uns... treffen (We can meet...)',
+    'das Meeting (the meeting)',
+    'das Projekt (the project)'
   ]
 };
 
 const writingPractice2: WritingPractice = {
   part: 2,
-  title: 'Teil 2: Ask for Product Information',
-  description: 'Write to a store asking about product availability',
-  instructions: 'You want to buy a specific item. Write to the store asking about it. Write 1-2 sentences for each point (~35 words total). Time: ~15 minutes.',
-  prompt: `Du möchtest eine Jacke kaufen. Schreibe an das Geschäft:
-- Welche Jacke suchst du? (Farbe, Größe)
-- Wie viel darf sie kosten?
-- Wann kannst du ins Geschäft kommen?`,
-  sampleAnswer: `Sehr geehrte Damen und Herren,
+  title: 'Teil 2: Absence Notification',
+  description: 'Write an email to inform about absence',
+  instructions: 'You cannot come to work tomorrow. Write to your boss. Write 1-2 sentences for each point (~30 words total). Time: ~15 minutes.',
+  prompt: `Sie können morgen nicht zur Arbeit kommen. Schreiben Sie an Ihren Chef:
+- Warum können Sie nicht kommen?
+- Wie lange sind Sie weg?
+- Wer kann Ihre Arbeit machen?`,
+  sampleAnswer: `Sehr geehrter Herr Müller,
 
-ich suche eine schwarze Jacke in Größe 38 für den Winter.
-Die Jacke sollte nicht mehr als 80 Euro kosten. Haben Sie so eine Jacke?
-Ich kann morgen Nachmittag ins Geschäft kommen.
+ich bin leider krank und kann morgen nicht zur Arbeit kommen. Ich habe Fieber und gehe zum Arzt.
+Ich bin wahrscheinlich zwei Tage krank. Mein Kollege Thomas kann meine Aufgaben übernehmen.
 
 Mit freundlichen Grüßen
-Lisa Müller`,
+Anna Schmidt`,
   keyPhrases: [
-    'Ich suche...',
-    'Haben Sie...?',
-    'in Größe...',
-    'in der Farbe...',
-    'nicht mehr als... Euro',
-    'Ist das verfügbar?',
-    'Wann kann ich kommen?'
+    'Ich bin krank (I am sick)',
+    'Ich kann nicht kommen (I cannot come)',
+    'Ich bin... Tage weg (I will be away for... days)',
+    '... kann meine Aufgaben übernehmen (... can take over my tasks)',
+    'Sehr geehrter Herr/Frau... (Dear Mr./Ms...)'
   ]
 };
 
 const writingPractice3: WritingPractice = {
   part: 2,
-  title: 'Teil 2: Respond to Store Advertisement',
-  description: 'Write a response to a store sale advertisement',
-  instructions: 'You saw an advertisement for a sale. Write to the store with questions. Write 1-2 sentences for each point (~30 words total). Time: ~15 minutes.',
-  prompt: `Du hast eine Werbung für einen Schlussverkauf gesehen. Schreibe an das Geschäft:
-- Was interessiert dich?
-- Wie viel Rabatt gibt es?
-- Bis wann ist der Verkauf?`,
+  title: 'Teil 2: Request for Information about Job',
+  description: 'Write an email asking about a job position',
+  instructions: 'You saw a job advertisement. Write to the company. Write 1-2 sentences for each point (~30 words total). Time: ~15 minutes.',
+  prompt: `Sie haben eine Stellenanzeige gesehen. Schreiben Sie an die Firma:
+- Für welche Stelle interessieren Sie sich?
+- Welche Erfahrung haben Sie?
+- Wann können Sie anfangen?`,
   sampleAnswer: `Sehr geehrte Damen und Herren,
 
-ich habe Ihre Werbung gesehen. Ich interessiere mich für die Schuhe.
-Wie viel Rabatt gibt es auf Schuhe? Bis wann läuft der Schlussverkauf?
+ich interessiere mich für die Stelle als Verkäuferin in Ihrem Geschäft.
+Ich habe drei Jahre Erfahrung im Einzelhandel. Ich kann ab dem 1. Mai anfangen.
 
-Vielen Dank!
 Mit freundlichen Grüßen
-Tom Schmidt`,
+Lisa Weber`,
   keyPhrases: [
-    'Ich habe Ihre Werbung gesehen.',
-    'Ich interessiere mich für...',
-    'Wie viel Rabatt gibt es?',
-    'Bis wann...?',
-    'Gibt es noch...?',
-    'Sind die Preise reduziert?'
+    'Ich interessiere mich für die Stelle als... (I\'m interested in the position as...)',
+    'Ich habe... Jahre Erfahrung (I have... years of experience)',
+    'Ich kann ab... anfangen (I can start from...)',
+    'die Stellenanzeige (job advertisement)',
+    'die Bewerbung (application)'
   ]
 };
 
 // ============================================================================
-// SPEAKING PRACTICE - Shopping and Transactions
+// SPEAKING PRACTICE - Work and Office Situations
 // ============================================================================
 
 const speakingPractice1: SpeakingPractice = {
   part: 1,
-  title: 'Teil 1: Practice Buying Items in a Shop',
-  description: 'Learn to make purchases confidently',
-  instructions: 'Practice buying items in different types of shops. Ask about products, sizes, colors, and prices. Time: ~3 minutes.',
+  title: 'Teil 1: Talk about Your Job',
+  description: 'Introduce your work and professional background',
+  instructions: 'Answer questions about your job, work experience, and career. Time: ~3 minutes.',
   prompts: [
-    'Sie sind im Kleidungsgeschäft. Was suchen Sie?',
-    'Welche Größe brauchen Sie?',
-    'Welche Farbe möchten Sie?',
-    'Möchten Sie das anprobieren?',
-    'Wie möchten Sie bezahlen?'
+    'Was sind Sie von Beruf?',
+    'Wo arbeiten Sie?',
+    'Was machen Sie bei der Arbeit?',
+    'Wie lange arbeiten Sie schon dort?',
+    'Arbeiten Sie Vollzeit oder Teilzeit?',
+    'Wie kommen Sie zur Arbeit?'
   ],
   sampleResponses: [
-    'Guten Tag! Ich suche eine Jacke für den Winter.',
-    'Ich habe Größe 40. Haben Sie die Jacke in Größe 40?',
-    'Ich möchte die Jacke in Schwarz oder Blau.',
-    'Ja, gerne. Wo sind die Umkleidekabinen?',
-    'Ich bezahle mit Karte, bitte.'
+    'Ich bin Verkäuferin. / Ich arbeite als Lehrerin.',
+    'Ich arbeite bei einer Firma in Berlin. / Ich arbeite in einem Büro.',
+    'Ich verkaufe Kleidung und berate Kunden. / Ich unterrichte Deutsch.',
+    'Ich arbeite seit drei Jahren dort.',
+    'Ich arbeite Vollzeit, von Montag bis Freitag.',
+    'Ich komme mit dem Bus zur Arbeit. / Ich fahre mit dem Fahrrad.'
   ]
 };
 
 const speakingPractice2: SpeakingPractice = {
   part: 2,
-  title: 'Teil 2: Ask about Prices, Sizes, and Colors',
-  description: 'Practice asking detailed questions about products',
-  instructions: 'Ask and answer questions about products in a shop. Include questions about availability, sizes, colors, and prices. Time: ~3 minutes.',
+  title: 'Teil 2: Ask and Answer about Work',
+  description: 'Discuss work and career topics',
+  instructions: 'You receive a theme card about "Arbeit" (Work). Ask your partner 3 questions, then answer 3 questions. Time: ~6 minutes.',
   prompts: [
-    'Was kostet diese Hose?',
-    'Haben Sie das in Größe 42?',
-    'Welche Farben gibt es?',
-    'Gibt es Rabatt?',
-    'Kann ich das umtauschen?',
-    'Wo ist die Kasse?'
+    'Theme: Arbeit - Ask about: job, working hours, workplace',
+    'Sample questions you might ask:',
+    '- Was arbeitest du?',
+    '- Wie sind deine Arbeitszeiten?',
+    '- Magst du deinen Job?',
+    'Sample questions you might be asked:',
+    '- Wo arbeitest du?',
+    '- Was machst du bei der Arbeit?',
+    '- Wie lange arbeitest du schon dort?'
   ],
   sampleResponses: [
-    'Die Hose kostet 45 Euro. Sie ist heute im Angebot.',
-    'Ja, wir haben Größe 42. Möchten Sie die Hose anprobieren?',
-    'Wir haben die Hose in Schwarz, Blau und Grau.',
-    'Ja, heute gibt es 20% Rabatt auf alle Hosen.',
-    'Ja, Sie können das innerhalb von 14 Tagen mit Kassenbon umtauschen.',
-    'Die Kasse ist dort hinten, neben dem Ausgang.'
+    'Was arbeitest du? - Ich bin Ingenieur und arbeite bei einer Technologiefirma.',
+    'Wie sind deine Arbeitszeiten? - Ich arbeite von 9 bis 17 Uhr, Montag bis Freitag.',
+    'Magst du deinen Job? - Ja, sehr! Die Arbeit ist interessant und meine Kollegen sind nett.',
+    'Wo arbeitest du? - Ich arbeite in einem Büro in der Stadtmitte.',
+    'Was machst du bei der Arbeit? - Ich entwickle Software und arbeite an verschiedenen Projekten.',
+    'Wie lange arbeitest du schon dort? - Ich arbeite seit fünf Jahren bei dieser Firma.'
   ]
 };
 
 const speakingPractice3: SpeakingPractice = {
-  part: 3,
-  title: 'Teil 3: Make Shopping Requests',
-  description: 'Practice making polite requests when shopping',
-  instructions: 'Make polite requests in shopping situations. Ask to try on items, request different sizes or colors, and ask for help. Time: ~4 minutes.',
+  part: 2,
+  title: 'Teil 2: Talk about Work-Life Balance',
+  description: 'Discuss work schedule and free time',
+  instructions: 'Answer questions about your work schedule and how you balance work and free time. Time: ~3 minutes.',
   prompts: [
-    'Sie möchten eine Jacke anprobieren.',
-    'Sie brauchen eine andere Größe.',
-    'Sie suchen eine andere Farbe.',
-    'Sie möchten den Preis wissen.',
-    'Sie möchten bezahlen.'
+    'Wie viele Stunden arbeiten Sie pro Woche?',
+    'Haben Sie viel Stress bei der Arbeit?',
+    'Was machen Sie nach der Arbeit?',
+    'Arbeiten Sie auch am Wochenende?'
   ],
   sampleResponses: [
-    'Entschuldigung, kann ich diese Jacke anprobieren? Wo sind die Umkleidekabinen?',
-    'Diese Größe ist zu klein. Haben Sie das auch in Größe 42?',
-    'Haben Sie diesen Pullover auch in Rot oder Grün?',
-    'Entschuldigung, wie viel kostet dieser Rock?',
-    'Ich möchte bezahlen, bitte. Wo ist die Kasse?'
+    'Ich arbeite 40 Stunden pro Woche, von Montag bis Freitag.',
+    'Manchmal habe ich Stress, aber meistens ist die Arbeit okay.',
+    'Nach der Arbeit gehe ich nach Hause, koche und entspanne mich. Manchmal treffe ich Freunde.',
+    'Nein, am Wochenende habe ich frei. Ich arbeite nur von Montag bis Freitag.'
   ]
 };
 
 const speakingPractice4: SpeakingPractice = {
   part: 3,
-  title: 'Teil 3: Complete Shopping Dialogues',
-  description: 'Practice full conversations in shops',
-  instructions: 'Practice complete dialogues with shop assistants. Include greetings, requests, questions, and payment. Time: ~4 minutes.',
+  title: 'Teil 3: Make Requests at Work',
+  description: 'Practice making polite requests in office situations',
+  instructions: 'Make polite requests to colleagues and supervisors. Time: ~6 minutes.',
   prompts: [
-    'Dialogue 1: In a clothing store',
-    'Dialogue 2: Asking about sizes',
-    'Dialogue 3: Trying on clothes',
-    'Dialogue 4: At the checkout'
+    'Ask a colleague for help',
+    'Ask your boss for a day off',
+    'Ask for information about a meeting',
+    'Ask to borrow office supplies'
   ],
   sampleResponses: [
-    'Verkäufer: Kann ich Ihnen helfen? - Sie: Ja, ich suche eine Jacke in Größe 40.',
-    'Sie: Haben Sie das auch in Größe 38? - Verkäufer: Ja, einen Moment bitte. Hier ist Größe 38.',
-    'Sie: Kann ich das anprobieren? - Verkäufer: Ja, natürlich. Die Umkleidekabinen sind dort.',
-    'Sie: Ich nehme die Jacke. Was kostet sie? - Verkäufer: 65 Euro. Bar oder mit Karte?'
+    'Entschuldigung, kannst du mir bitte helfen? Ich verstehe dieses Programm nicht. - Ja, natürlich! Was ist das Problem?',
+    'Herr Müller, kann ich bitte nächsten Freitag frei haben? Ich habe einen Arzttermin. - Ja, kein Problem. Bitte schreiben Sie mir eine E-Mail.',
+    'Entschuldigung, wann ist das Meeting morgen? - Das Meeting ist um 10 Uhr in Raum 205.',
+    'Hast du einen Stift? Ich habe meinen vergessen. - Ja, hier bitte. - Danke!'
   ]
 };
 
 const speakingPractice5: SpeakingPractice = {
-  part: 2,
-  title: 'Teil 2: Talk about Shopping Preferences',
-  description: 'Discuss where and what you like to shop for',
-  instructions: 'Answer questions about your shopping habits and preferences. Give detailed answers about where you shop and what you buy. Time: ~3 minutes.',
+  part: 3,
+  title: 'Teil 3: Office Conversations',
+  description: 'Practice common office dialogues',
+  instructions: 'Have short conversations about typical office situations. Time: ~3 minutes.',
   prompts: [
-    'Wo kaufen Sie gern ein?',
-    'Was kaufen Sie oft?',
-    'Kaufen Sie gern Kleidung?',
-    'Wie oft gehen Sie einkaufen?',
-    'Bezahlen Sie lieber bar oder mit Karte?'
+    'Greet a colleague in the morning',
+    'Ask about weekend plans',
+    'Discuss a project deadline',
+    'Say goodbye at the end of the day'
   ],
   sampleResponses: [
-    'Ich kaufe gern im Kaufhaus ein. Dort gibt es alles und die Preise sind gut.',
-    'Ich kaufe oft Kleidung und Schuhe. Manchmal kaufe ich auch Bücher.',
-    'Ja, ich kaufe sehr gern Kleidung. Besonders Jacken und Pullover.',
-    'Ich gehe einmal pro Woche einkaufen, meistens am Samstag.',
-    'Ich bezahle lieber mit Karte. Das ist einfacher und schneller.'
+    'Guten Morgen! Wie geht es dir? - Guten Morgen! Mir geht es gut, danke. Und dir?',
+    'Was machst du am Wochenende? - Ich gehe wandern. Und du? - Ich besuche meine Familie.',
+    'Wann ist die Deadline für das Projekt? - Die Deadline ist nächsten Montag. - Okay, danke!',
+    'Schönen Feierabend! Bis morgen! - Danke, dir auch! Bis morgen!'
   ]
 };
 
 // ============================================================================
-// VOCABULARY THEME - Colors, Sizes, Numbers for Prices
+// VOCABULARY THEME - Work & Office
 // ============================================================================
 
 const vocabulary: VocabularyTheme = {
-  theme: 'Colors, Sizes, Numbers for Prices (Farben, Größen, Zahlen für Preise)',
+  theme: 'Work & Office (Arbeit & Büro)',
   items: [
-    // All Basic Colors
+    // Jobs & Professions
     {
-      german: 'rot',
-      english: 'red',
-      example: 'Ein rotes Kleid.'
+      german: 'der Beruf',
+      english: 'profession/job',
+      example: 'Was ist Ihr Beruf?'
     },
     {
-      german: 'blau',
-      english: 'blue',
-      example: 'Eine blaue Hose.'
+      german: 'die Arbeit',
+      english: 'work',
+      example: 'Ich gehe zur Arbeit.'
     },
     {
-      german: 'grün',
-      english: 'green',
-      example: 'Ein grüner Pullover.'
+      german: 'der Job',
+      english: 'job',
+      example: 'Ich suche einen neuen Job.'
     },
     {
-      german: 'gelb',
-      english: 'yellow',
-      example: 'Ein gelbes T-Shirt.'
+      german: 'der Lehrer / die Lehrerin',
+      english: 'teacher',
+      example: 'Sie ist Lehrerin.'
     },
     {
-      german: 'schwarz',
-      english: 'black',
-      example: 'Schwarze Schuhe.'
+      german: 'der Arzt / die Ärztin',
+      english: 'doctor',
+      example: 'Er ist Arzt.'
     },
     {
-      german: 'weiß',
-      english: 'white',
-      example: 'Ein weißes Hemd.'
+      german: 'der Ingenieur / die Ingenieurin',
+      english: 'engineer',
+      example: 'Ich bin Ingenieur.'
     },
     {
-      german: 'braun',
-      english: 'brown',
-      example: 'Braune Stiefel.'
+      german: 'der Verkäufer / die Verkäuferin',
+      english: 'salesperson',
+      example: 'Sie arbeitet als Verkäuferin.'
     },
     {
-      german: 'grau',
-      english: 'gray',
-      example: 'Ein grauer Mantel.'
+      german: 'der Programmierer / die Programmiererin',
+      english: 'programmer',
+      example: 'Er ist Programmierer.'
     },
     {
-      german: 'rosa',
-      english: 'pink',
-      example: 'Eine rosa Bluse.'
+      german: 'der Koch / die Köchin',
+      english: 'cook/chef',
+      example: 'Mein Bruder ist Koch.'
     },
     {
-      german: 'orange',
-      english: 'orange',
-      example: 'Ein oranges T-Shirt.'
+      german: 'der Kellner / die Kellnerin',
+      english: 'waiter/waitress',
+      example: 'Sie arbeitet als Kellnerin.'
+    },
+    // Workplace
+    {
+      german: 'das Büro',
+      english: 'office',
+      example: 'Ich arbeite in einem Büro.'
     },
     {
-      german: 'lila',
-      english: 'purple',
-      example: 'Ein lila Rock.'
-    },
-    // Size Vocabulary
-    {
-      german: 'klein',
-      english: 'small',
-      example: 'Das ist zu klein.'
+      german: 'die Firma',
+      english: 'company',
+      example: 'Ich arbeite bei einer großen Firma.'
     },
     {
-      german: 'mittel',
-      english: 'medium',
-      example: 'Ich brauche mittel.'
+      german: 'das Unternehmen',
+      english: 'company/enterprise',
+      example: 'Das Unternehmen ist international.'
     },
     {
-      german: 'groß',
-      english: 'large',
-      example: 'Haben Sie das in groß?'
+      german: 'der Arbeitsplatz',
+      english: 'workplace',
+      example: 'Mein Arbeitsplatz ist modern.'
     },
     {
-      german: 'die Größe',
-      english: 'size',
-      example: 'Welche Größe haben Sie?'
+      german: 'der Schreibtisch',
+      english: 'desk',
+      example: 'Mein Schreibtisch ist groß.'
     },
     {
-      german: 'Größe 38, 40, 42',
-      english: 'size 38, 40, 42',
-      example: 'Ich habe Größe 40.'
+      german: 'der Computer',
+      english: 'computer',
+      example: 'Ich arbeite am Computer.'
     },
     {
-      german: 'zu klein',
-      english: 'too small',
-      example: 'Diese Hose ist zu klein.'
+      german: 'das Meeting / die Besprechung',
+      english: 'meeting',
+      example: 'Das Meeting beginnt um 10 Uhr.'
     },
     {
-      german: 'zu groß',
-      english: 'too big',
-      example: 'Der Pullover ist zu groß.'
+      german: 'das Projekt',
+      english: 'project',
+      example: 'Ich arbeite an einem neuen Projekt.'
+    },
+    // Work Schedule
+    {
+      german: 'die Arbeitszeit',
+      english: 'working hours',
+      example: 'Meine Arbeitszeiten sind flexibel.'
     },
     {
-      german: 'passt',
-      english: 'fits',
-      example: 'Das passt perfekt!'
+      german: 'Vollzeit',
+      english: 'full-time',
+      example: 'Ich arbeite Vollzeit.'
     },
     {
-      german: 'passt nicht',
-      english: 'doesn\'t fit',
-      example: 'Das passt leider nicht.'
-    },
-    // Numbers for Prices (1-1000)
-    {
-      german: 'der Euro',
-      english: 'euro',
-      example: 'Das kostet 50 Euro.'
+      german: 'Teilzeit',
+      english: 'part-time',
+      example: 'Sie arbeitet Teilzeit.'
     },
     {
-      german: 'der Cent',
-      english: 'cent',
-      example: '2 Euro und 50 Cent.'
+      german: 'die Pause',
+      english: 'break',
+      example: 'Ich mache eine Pause.'
     },
     {
-      german: 'zehn Euro',
-      english: 'ten euros',
-      example: 'Das T-Shirt kostet zehn Euro.'
+      german: 'die Mittagspause',
+      english: 'lunch break',
+      example: 'Die Mittagspause ist von 12 bis 13 Uhr.'
     },
     {
-      german: 'zwanzig Euro',
-      english: 'twenty euros',
-      example: 'Die Hose kostet zwanzig Euro.'
+      german: 'der Feierabend',
+      english: 'end of work day',
+      example: 'Um 17 Uhr habe ich Feierabend.'
     },
     {
-      german: 'fünfzig Euro',
-      english: 'fifty euros',
-      example: 'Die Jacke kostet fünfzig Euro.'
+      german: 'der Urlaub',
+      english: 'vacation',
+      example: 'Ich habe zwei Wochen Urlaub.'
     },
     {
-      german: 'hundert Euro',
-      english: 'one hundred euros',
-      example: 'Der Mantel kostet hundert Euro.'
-    },
-    // Price Expressions
-    {
-      german: 'kostet',
-      english: 'costs',
-      example: 'Was kostet das?'
+      german: 'der freie Tag',
+      english: 'day off',
+      example: 'Morgen habe ich einen freien Tag.'
     },
     {
-      german: 'teuer',
-      english: 'expensive',
-      example: 'Das ist zu teuer.'
+      german: 'die Überstunden',
+      english: 'overtime',
+      example: 'Ich mache heute Überstunden.'
+    },
+    // Colleagues & Hierarchy
+    {
+      german: 'der Kollege / die Kollegin',
+      english: 'colleague',
+      example: 'Meine Kollegen sind nett.'
     },
     {
-      german: 'billig',
-      english: 'cheap',
-      example: 'Das ist sehr billig.'
+      german: 'der Chef / die Chefin',
+      english: 'boss',
+      example: 'Mein Chef ist streng.'
     },
     {
-      german: 'günstig',
-      english: 'affordable/good value',
-      example: 'Das ist günstig.'
+      german: 'der Mitarbeiter / die Mitarbeiterin',
+      english: 'employee',
+      example: 'Die Firma hat 100 Mitarbeiter.'
     },
     {
-      german: 'im Angebot',
-      english: 'on sale',
-      example: 'Die Schuhe sind im Angebot.'
+      german: 'das Team',
+      english: 'team',
+      example: 'Ich arbeite in einem Team.'
+    },
+    // Job Search & Application
+    {
+      german: 'die Stellenanzeige',
+      english: 'job advertisement',
+      example: 'Ich habe eine Stellenanzeige gelesen.'
     },
     {
-      german: 'reduziert',
-      english: 'reduced',
-      example: 'Alle Jacken sind reduziert.'
+      german: 'die Bewerbung',
+      english: 'application',
+      example: 'Ich schreibe eine Bewerbung.'
     },
     {
-      german: 'der Rabatt',
-      english: 'discount',
-      example: '20% Rabatt auf alles.'
+      german: 'der Lebenslauf',
+      english: 'CV/resume',
+      example: 'Mein Lebenslauf ist aktuell.'
     },
     {
-      german: 'Prozent',
-      english: 'percent',
-      example: '30 Prozent Rabatt.'
-    },
-    // Payment Terms
-    {
-      german: 'bezahlen',
-      english: 'to pay',
-      example: 'Ich möchte bezahlen.'
+      german: 'das Vorstellungsgespräch',
+      english: 'job interview',
+      example: 'Ich habe morgen ein Vorstellungsgespräch.'
     },
     {
-      german: 'bar bezahlen',
-      english: 'to pay cash',
-      example: 'Ich bezahle bar.'
+      german: 'die Erfahrung',
+      english: 'experience',
+      example: 'Ich habe fünf Jahre Erfahrung.'
     },
     {
-      german: 'mit Karte bezahlen',
-      english: 'to pay by card',
-      example: 'Kann ich mit Karte bezahlen?'
+      german: 'die Ausbildung',
+      english: 'training/education',
+      example: 'Ich habe eine Ausbildung als Verkäuferin.'
+    },
+    // Work Verbs
+    {
+      german: 'arbeiten',
+      english: 'to work',
+      example: 'Ich arbeite bei einer Firma.'
     },
     {
-      german: 'das Bargeld',
-      english: 'cash',
-      example: 'Ich habe kein Bargeld.'
+      german: 'anfangen',
+      english: 'to start',
+      example: 'Ich fange um 9 Uhr an.'
     },
     {
-      german: 'die Karte',
-      english: 'card',
-      example: 'Ich bezahle mit Karte.'
+      german: 'aufhören',
+      english: 'to finish/stop',
+      example: 'Ich höre um 17 Uhr auf.'
     },
     {
-      german: 'die Rechnung',
-      english: 'bill/invoice',
-      example: 'Kann ich eine Rechnung haben?'
-    },
-    {
-      german: 'die Quittung',
-      english: 'receipt',
-      example: 'Ich brauche eine Quittung.'
-    },
-    {
-      german: 'der Kassenbon',
-      english: 'receipt',
-      example: 'Hier ist Ihr Kassenbon.'
-    },
-    // Shopping Actions
-    {
-      german: 'kaufen',
-      english: 'to buy',
-      example: 'Ich möchte das kaufen.'
-    },
-    {
-      german: 'verkaufen',
-      english: 'to sell',
-      example: 'Verkaufen Sie Schuhe?'
+      german: 'verdienen',
+      english: 'to earn',
+      example: 'Ich verdiene 2000 Euro pro Monat.'
     },
     {
       german: 'suchen',
-      english: 'to look for',
-      example: 'Ich suche eine Jacke.'
+      english: 'to search/look for',
+      example: 'Ich suche einen neuen Job.'
     },
     {
-      german: 'finden',
-      english: 'to find',
-      example: 'Wo finde ich Pullover?'
+      german: 'sich bewerben',
+      english: 'to apply',
+      example: 'Ich bewerbe mich für die Stelle.'
     },
     {
-      german: 'anprobieren',
-      english: 'to try on',
-      example: 'Kann ich das anprobieren?'
+      german: 'kündigen',
+      english: 'to quit/resign',
+      example: 'Ich möchte kündigen.'
+    },
+    // Office Supplies
+    {
+      german: 'der Stift',
+      english: 'pen',
+      example: 'Ich brauche einen Stift.'
     },
     {
-      german: 'umtauschen',
-      english: 'to exchange',
-      example: 'Kann ich das umtauschen?'
+      german: 'das Papier',
+      english: 'paper',
+      example: 'Wo ist das Papier?'
     },
     {
-      german: 'zurückgeben',
-      english: 'to return',
-      example: 'Ich möchte das zurückgeben.'
-    },
-    // Useful Shopping Phrases
-    {
-      german: 'Ich hätte gern...',
-      english: 'I would like...',
-      example: 'Ich hätte gern eine Jacke.'
+      german: 'der Drucker',
+      english: 'printer',
+      example: 'Der Drucker funktioniert nicht.'
     },
     {
-      german: 'Ich suche...',
-      english: 'I\'m looking for...',
-      example: 'Ich suche schwarze Schuhe.'
+      german: 'der Ordner',
+      english: 'folder/binder',
+      example: 'Die Dokumente sind im Ordner.'
     },
     {
-      german: 'Haben Sie...?',
-      english: 'Do you have...?',
-      example: 'Haben Sie das in Größe 40?'
+      german: 'das Telefon',
+      english: 'telephone',
+      example: 'Das Telefon klingelt.'
+    },
+    // Useful Phrases
+    {
+      german: 'Ich arbeite als...',
+      english: 'I work as...',
+      example: 'Ich arbeite als Lehrer.'
     },
     {
-      german: 'Wie viel kostet...?',
-      english: 'How much does... cost?',
-      example: 'Wie viel kostet diese Hose?'
+      german: 'Ich bin... von Beruf.',
+      english: 'I am a... by profession.',
+      example: 'Ich bin Ingenieur von Beruf.'
     },
     {
-      german: 'Das nehme ich.',
-      english: 'I\'ll take that.',
-      example: 'Ja, das passt. Das nehme ich.'
+      german: 'Ich habe... Jahre Erfahrung.',
+      english: 'I have... years of experience.',
+      example: 'Ich habe drei Jahre Erfahrung.'
     },
     {
-      german: 'Das ist zu teuer.',
-      english: 'That\'s too expensive.',
-      example: 'Nein danke, das ist mir zu teuer.'
+      german: 'Kann ich frei haben?',
+      english: 'Can I have time off?',
+      example: 'Kann ich morgen frei haben?'
+    },
+    {
+      german: 'Schönen Feierabend!',
+      english: 'Have a nice evening! (after work)',
+      example: 'Tschüss! Schönen Feierabend!'
     }
   ]
 };
@@ -503,6 +582,7 @@ const day13: ExamDay = {
   day: 13,
   skills: ['Writing', 'Speaking'],
   practices: [
+    writingPractice0,
     writingPractice1,
     writingPractice2,
     writingPractice3,
@@ -513,7 +593,7 @@ const day13: ExamDay = {
     speakingPractice5
   ],
   vocabulary,
-  focus: 'Transactions and comparisons - Writing about shopping experiences, asking for product information, and speaking about purchases and preferences'
+  focus: 'Work and office'
 };
 
 export default day13;

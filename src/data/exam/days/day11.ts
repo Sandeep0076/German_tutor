@@ -1,9 +1,9 @@
 /**
- * Day 11: Writing + Speaking - Ordering and Expressing Preferences
- * Focus: Writing about food preferences, ordering in restaurants, expressing likes/dislikes
+ * Day 11: Writing + Speaking - Hobbies & Leisure Activities
+ * Focus: Sports clubs, hobby courses, leisure activities, weekend plans
  * 
- * Skills: Writing (Teil 2), Speaking (all 3 parts)
- * Topics: Food preferences, restaurant ordering, invitation responses
+ * Skills: Writing (Teil 1 & 2), Speaking (all 3 parts)
+ * Topics: Sports, hobbies, free time activities, club memberships
  */
 
 import type {
@@ -14,411 +14,544 @@ import type {
 } from '../examTypes';
 
 // ============================================================================
-// WRITING PRACTICE - Food Preferences and Restaurant Communication
+// WRITING PRACTICE - Hobbies and Leisure Activities
 // ============================================================================
+
+const writingPractice0: WritingPractice = {
+  part: 1,
+  title: 'Teil 1: Sports Club Registration Form',
+  description: 'Fill in a sports club registration form',
+  instructions: 'Complete the registration form for a sports club. Fill in all the required fields. Time: ~10 minutes.',
+  prompt: `**SPORTVEREIN "FIT & AKTIV" - ANMELDEFORMULAR**
+
+Bitte füllen Sie das Formular aus:
+
+Vorname: _______________
+Nachname: _______________
+Geburtsdatum: _______________
+Adresse: _______________
+Postleitzahl, Ort: _______________
+Telefonnummer: _______________
+E-Mail: _______________
+
+Welche Sportart möchten Sie machen?
+□ Fußball
+□ Tennis
+□ Schwimmen
+□ Fitness/Gym
+□ Yoga
+
+Wann haben Sie Zeit? (Bitte ankreuzen)
+□ Montag-Freitag (vormittags)
+□ Montag-Freitag (abends)
+□ Wochenende
+
+Mitgliedschaft:
+□ Monatskarte (45 €/Monat)
+□ Jahreskarte (450 €/Jahr)
+
+Unterschrift: _______________`,
+  sampleAnswer: `Vorname: Thomas
+Nachname: Müller
+Geburtsdatum: 15.03.1990
+Adresse: Hauptstraße 23
+Postleitzahl, Ort: 10115 Berlin
+Telefonnummer: 030-98765432
+E-Mail: thomas.mueller@email.de
+
+Welche Sportart: ☑ Fitness/Gym
+
+Wann haben Sie Zeit: ☑ Montag-Freitag (abends)
+
+Mitgliedschaft: ☑ Monatskarte (45 €/Monat)
+
+Unterschrift: Thomas Müller`,
+  keyPhrases: [
+    'Sportart (type of sport)',
+    'Mitgliedschaft (membership)',
+    'Monatskarte (monthly pass)',
+    'Jahreskarte (annual pass)',
+    'ankreuzen (to check/tick)',
+    'Unterschrift (signature)'
+  ]
+};
 
 const writingPractice1: WritingPractice = {
   part: 2,
-  title: 'Teil 2: Write about Your Favorite Foods',
-  description: 'Describe your food preferences and eating habits',
-  instructions: 'Write about your favorite foods. Include what you like to eat, what you don\'t like, and when/where you eat. Write about 30-40 words. Time: ~15 minutes.',
-  prompt: `Schreibe über dein Lieblingsessen. Schreibe zu jedem Punkt ein bis zwei Sätze:
-- Was isst du gern?
-- Was magst du nicht?
-- Wann und wo isst du am liebsten?`,
-  sampleAnswer: `Mein Lieblingsessen ist Pizza. Ich esse sehr gern italienisches Essen.
-Zum Frühstück esse ich Brötchen mit Marmelade und trinke Kaffee.
-Ich mag kein Fleisch, aber ich esse gern Fisch und Gemüse.
-Am Wochenende gehe ich oft ins Restaurant.`,
+  title: 'Teil 2: Inquiry about Hobby Course',
+  description: 'Write an email asking about a hobby course',
+  instructions: 'You want to join a photography course. Write to the community center. Write 1-2 sentences for each point (~30 words total). Time: ~15 minutes.',
+  prompt: `Sie möchten einen Fotokurs besuchen. Schreiben Sie an das Gemeindezentrum:
+- Wann beginnt der Kurs?
+- Wie viel kostet der Kurs?
+- Was müssen Sie mitbringen?`,
+  sampleAnswer: `Sehr geehrte Damen und Herren,
+
+ich interessiere mich für den Fotokurs. Wann beginnt der nächste Kurs?
+Wie viel kostet der Kurs und was muss ich mitbringen?
+
+Vielen Dank!
+Mit freundlichen Grüßen
+Anna Schmidt`,
   keyPhrases: [
-    'Mein Lieblingsessen ist...',
-    'Ich esse gern...',
-    'Ich mag... (nicht)',
-    'Zum Frühstück/Mittagessen/Abendessen esse ich...',
-    'Ich esse oft/manchmal/nie...',
-    'Am liebsten esse ich...'
+    'Ich interessiere mich für... (I\'m interested in...)',
+    'Wann beginnt...? (When does... start?)',
+    'Wie viel kostet...? (How much does... cost?)',
+    'Was muss ich mitbringen? (What do I need to bring?)',
+    'Mit freundlichen Grüßen (Sincerely)'
   ]
 };
 
 const writingPractice2: WritingPractice = {
   part: 2,
-  title: 'Teil 2: Accept/Decline Dinner Invitation',
-  description: 'Respond to an invitation to eat out or dine at someone\'s home',
-  instructions: 'Your friend Maria invites you to dinner. Write to Maria. Write 1-2 sentences for each point (~30 words total). Time: ~15 minutes.',
-  prompt: `Deine Freundin Maria lädt dich zum Abendessen ein. Schreibe an Maria:
-- Kannst du kommen?
-- Warum (nicht)?
-- Was möchtest du wissen oder mitbringen?`,
-  sampleAnswer: `Liebe Maria,
+  title: 'Teil 2: Weekend Activity Suggestion',
+  description: 'Write a message suggesting a weekend activity',
+  instructions: 'Write to your friend about doing something together on the weekend. Write 1-2 sentences for each point (~30 words total). Time: ~15 minutes.',
+  prompt: `Du möchtest am Wochenende etwas mit deinem Freund machen. Schreibe ihm:
+- Was möchtest du machen?
+- Wann und wo treffen wir uns?
+- Was soll dein Freund mitbringen?`,
+  sampleAnswer: `Hallo Max,
 
-vielen Dank für die Einladung zum Abendessen! Ja, ich komme sehr gerne.
-Italienisches Essen mag ich besonders. Soll ich einen Salat oder Wein mitbringen?
+möchtest du am Samstag wandern gehen? Wir können in den Bergen wandern.
+Wir treffen uns um 9 Uhr am Bahnhof. Bring bitte Wasser und Snacks mit!
 
-Bis Freitag!
-Viele Grüße
-Anna`,
+Bis Samstag!
+Lisa`,
   keyPhrases: [
-    'Vielen Dank für die Einladung!',
-    'Ja, ich komme gerne!',
-    'Leider kann ich nicht kommen.',
-    'Soll ich... mitbringen?',
-    'Was soll ich mitbringen?',
-    'Ich freue mich darauf!'
+    'möchtest du...? (would you like to...?)',
+    'Wir treffen uns... (We\'ll meet...)',
+    'Bring bitte... mit (Please bring...)',
+    'am Wochenende (on the weekend)',
+    'Bis dann! (See you then!)'
   ]
 };
 
 const writingPractice3: WritingPractice = {
   part: 2,
-  title: 'Teil 2: Ask about Restaurant Recommendations',
-  description: 'Request information about restaurants or places to eat',
-  instructions: 'You are looking for a good Italian restaurant. Write to the tourist information office. Write 1-2 sentences for each point (~35 words total). Time: ~15 minutes.',
-  prompt: `Du suchst ein gutes italienisches Restaurant. Schreibe an die Tourist-Information:
-- Was für ein Restaurant suchst du?
-- Wann möchtest du essen gehen?
-- Was möchtest du noch wissen?`,
-  sampleAnswer: `Sehr geehrte Damen und Herren,
-
-ich suche ein gutes italienisches Restaurant in der Nähe vom Bahnhof.
-Ich möchte am Samstag Abend essen gehen. Können Sie ein Restaurant empfehlen?
-Wie viel kostet ein Hauptgericht ungefähr?
-
-Vielen Dank!
-Mit freundlichen Grüßen
-Max Schmidt`,
+  title: 'Teil 2: Write about Your Hobbies',
+  description: 'Describe your hobbies and free time activities',
+  instructions: 'Write about your hobbies. Include what you like to do, how often, and why. Write about 30-40 words. Time: ~15 minutes.',
+  prompt: `Schreibe über deine Hobbys. Schreibe zu jedem Punkt ein bis zwei Sätze:
+- Was sind deine Hobbys?
+- Wie oft machst du das?
+- Warum magst du diese Hobbys?`,
+  sampleAnswer: `Meine Hobbys sind Lesen und Schwimmen. Ich lese jeden Abend vor dem Schlafen.
+Ich gehe zweimal pro Woche schwimmen. Ich mag Schwimmen, weil es gesund ist und Spaß macht.
+Am Wochenende treffe ich auch gerne Freunde.`,
   keyPhrases: [
-    'Ich suche ein... Restaurant.',
-    'Können Sie ein Restaurant empfehlen?',
-    'Gibt es... in der Nähe?',
-    'Wie viel kostet...?',
-    'Brauche ich eine Reservierung?',
-    'Ist das Restaurant gut?'
+    'Meine Hobbys sind... (My hobbies are...)',
+    'Ich... jeden Tag/jede Woche (I... every day/week)',
+    'Ich mag..., weil... (I like..., because...)',
+    'Das macht Spaß (That\'s fun)',
+    'In meiner Freizeit... (In my free time...)'
   ]
 };
 
 // ============================================================================
-// SPEAKING PRACTICE - Ordering and Expressing Preferences
+// SPEAKING PRACTICE - Hobbies and Leisure
 // ============================================================================
 
 const speakingPractice1: SpeakingPractice = {
   part: 1,
-  title: 'Teil 1: Practice Ordering in a Restaurant/Cafe',
-  description: 'Learn to order food and drinks confidently',
-  instructions: 'Practice ordering food and drinks in a restaurant or cafe. Use polite phrases and specify what you want. Time: ~3 minutes.',
+  title: 'Teil 1: Talk about Your Hobbies',
+  description: 'Introduce your hobbies and free time activities',
+  instructions: 'Answer questions about your hobbies and what you do in your free time. Time: ~3 minutes.',
   prompts: [
-    'Was möchten Sie bestellen?',
-    'Möchten Sie eine Vorspeise?',
-    'Was möchten Sie trinken?',
-    'Möchten Sie einen Nachtisch?',
-    'Möchten Sie die Rechnung?'
+    'Was sind Ihre Hobbys?',
+    'Was machen Sie in Ihrer Freizeit?',
+    'Wie oft machen Sie Sport?',
+    'Welche Sportart mögen Sie?',
+    'Was machen Sie am Wochenende?',
+    'Haben Sie ein Hobby?'
   ],
   sampleResponses: [
-    'Guten Tag! Ich hätte gern einen Kaffee und ein Stück Kuchen, bitte.',
-    'Ich nehme die Tomatensuppe als Vorspeise und dann die Pizza Margherita.',
-    'Ein Mineralwasser, bitte. Mit Kohlensäure.',
-    'Ja, ich nehme ein Eis. Schokolade, bitte.',
-    'Ja, die Rechnung, bitte. Kann ich mit Karte bezahlen?'
+    'Meine Hobbys sind Lesen, Schwimmen und Fotografieren.',
+    'In meiner Freizeit gehe ich gern spazieren oder treffe Freunde.',
+    'Ich mache dreimal pro Woche Sport. Ich gehe ins Fitnessstudio.',
+    'Ich mag Schwimmen und Tennis. Schwimmen ist mein Lieblingssport.',
+    'Am Wochenende gehe ich wandern oder ins Kino. Manchmal besuche ich meine Familie.',
+    'Ja, ich fotografiere gern. Ich mache Fotos von der Natur und von Menschen.'
   ]
 };
 
 const speakingPractice2: SpeakingPractice = {
   part: 2,
-  title: 'Teil 2: Express Likes and Dislikes about Food',
-  description: 'Talk about your food preferences',
-  instructions: 'Answer questions about what you like and don\'t like to eat and drink. Give complete answers with reasons if possible. Time: ~3 minutes.',
+  title: 'Teil 2: Ask and Answer about Sports',
+  description: 'Discuss sports and physical activities',
+  instructions: 'You receive a theme card about "Sport". Ask your partner 3 questions, then answer 3 questions. Time: ~6 minutes.',
   prompts: [
-    'Was essen Sie gern?',
-    'Mögen Sie Fisch?',
-    'Trinken Sie Kaffee?',
-    'Essen Sie Fleisch?',
-    'Was mögen Sie nicht?',
-    'Was ist Ihr Lieblingsessen?'
+    'Theme: Sport - Ask about: favorite sports, how often, where',
+    'Sample questions you might ask:',
+    '- Welche Sportart magst du?',
+    '- Wie oft machst du Sport?',
+    '- Wo machst du Sport?',
+    'Sample questions you might be asked:',
+    '- Treibst du gern Sport?',
+    '- Was ist dein Lieblingssport?',
+    '- Gehst du ins Fitnessstudio?'
   ],
   sampleResponses: [
-    'Ich esse gern Pizza und Pasta. Italienisches Essen schmeckt mir sehr gut.',
-    'Ja, ich mag Fisch sehr. Ich esse ihn zweimal pro Woche.',
-    'Ja, ich trinke jeden Morgen Kaffee. Ohne Kaffee kann ich nicht arbeiten!',
-    'Nein, ich esse kein Fleisch. Ich bin Vegetarier.',
-    'Ich mag keine Zwiebeln. Sie schmecken mir nicht.',
-    'Mein Lieblingsessen ist Pizza Margherita. Die esse ich sehr gern!'
+    'Welche Sportart magst du? - Ich mag Fußball und Schwimmen.',
+    'Wie oft machst du Sport? - Ich mache viermal pro Woche Sport.',
+    'Wo machst du Sport? - Ich gehe ins Fitnessstudio und manchmal jogge ich im Park.',
+    'Treibst du gern Sport? - Ja, sehr gern! Sport ist gesund und macht Spaß.',
+    'Was ist dein Lieblingssport? - Mein Lieblingssport ist Schwimmen. Ich schwimme seit 10 Jahren.',
+    'Gehst du ins Fitnessstudio? - Ja, ich gehe dreimal pro Woche ins Fitnessstudio.'
   ]
 };
 
 const speakingPractice3: SpeakingPractice = {
-  part: 3,
-  title: 'Teil 3: Make Requests for Food Items',
-  description: 'Practice asking for food politely in different situations',
-  instructions: 'Make polite requests for food and drinks in various situations (restaurant, cafe, bakery, etc.). Time: ~4 minutes.',
+  part: 2,
+  title: 'Teil 2: Talk about Weekend Activities',
+  description: 'Discuss what you do on weekends',
+  instructions: 'Answer questions about your weekend plans and activities. Time: ~3 minutes.',
   prompts: [
-    'Sie sind im Café. Was möchten Sie?',
-    'Sie sind in der Bäckerei. Was kaufen Sie?',
-    'Sie sind im Restaurant. Was bestellen Sie?',
-    'Sie möchten die Speisekarte sehen.',
-    'Sie möchten bezahlen.'
+    'Was machen Sie am Wochenende?',
+    'Wohin gehen Sie gern?',
+    'Mit wem machen Sie das?',
+    'Wie oft machen Sie das?'
   ],
   sampleResponses: [
-    'Guten Tag! Ich hätte gern einen Cappuccino und ein Stück Apfelkuchen, bitte.',
-    'Guten Morgen! Ich möchte zwei Brötchen und ein Brot, bitte.',
-    'Ich nehme die Suppe als Vorspeise und dann das Hähnchen mit Reis, bitte.',
-    'Entschuldigung, kann ich bitte die Speisekarte haben?',
-    'Die Rechnung, bitte! Kann ich mit Karte bezahlen?'
+    'Am Wochenende gehe ich wandern oder ins Kino. Manchmal bleibe ich zu Hause und lese.',
+    'Ich gehe gern in den Park oder ins Café. Im Sommer gehe ich auch gern schwimmen.',
+    'Ich mache das oft mit meinen Freunden. Manchmal gehe ich auch allein spazieren.',
+    'Ich gehe fast jedes Wochenende wandern. Das mache ich sehr gern.'
   ]
 };
 
 const speakingPractice4: SpeakingPractice = {
   part: 3,
-  title: 'Teil 3: Restaurant Dialogue Practice',
-  description: 'Complete dialogues in restaurant situations',
-  instructions: 'Practice complete dialogues with a waiter or in a cafe. Make requests, ask questions, and respond appropriately. Time: ~4 minutes.',
+  title: 'Teil 3: Make Suggestions for Activities',
+  description: 'Practice suggesting activities to friends',
+  instructions: 'Suggest activities to your partner and respond to their suggestions. Time: ~6 minutes.',
   prompts: [
-    'Dialogue 1: Ordering in a restaurant',
-    'Dialogue 2: Asking for recommendations',
-    'Dialogue 3: Making special requests',
-    'Dialogue 4: Asking for the bill'
+    'Suggest going to the cinema',
+    'Suggest playing tennis',
+    'Suggest going hiking',
+    'Respond to suggestions'
   ],
   sampleResponses: [
-    'Kellner: Guten Tag! Was möchten Sie? - Sie: Guten Tag! Ich hätte gern die Pizza Margherita und ein Wasser, bitte.',
-    'Sie: Was empfehlen Sie? - Kellner: Der Fisch ist sehr frisch heute. - Sie: Gut, dann nehme ich den Fisch.',
-    'Sie: Ich hätte gern die Pizza, aber ohne Zwiebeln, bitte. - Kellner: Kein Problem. Möchten Sie extra Käse?',
-    'Sie: Die Rechnung, bitte! - Kellner: Zusammen oder getrennt? - Sie: Zusammen, bitte.'
+    'Möchtest du am Samstag ins Kino gehen? Es gibt einen neuen Film. - Ja, gerne! Um wie viel Uhr?',
+    'Hast du Lust, Tennis zu spielen? Das Wetter ist schön. - Ja, super Idee! Wann hast du Zeit?',
+    'Wollen wir am Wochenende wandern gehen? - Ja, das klingt gut! Wo möchtest du wandern?',
+    'Möchtest du schwimmen gehen? - Leider habe ich keine Zeit. Können wir nächste Woche gehen?'
   ]
 };
 
 const speakingPractice5: SpeakingPractice = {
-  part: 2,
-  title: 'Teil 2: Talk about Eating Habits',
-  description: 'Discuss your daily eating routine and preferences',
-  instructions: 'Answer questions about when, where, and what you eat. Give detailed answers about your eating habits. Time: ~3 minutes.',
+  part: 3,
+  title: 'Teil 3: Ask for Information about Activities',
+  description: 'Practice asking about courses, clubs, and activities',
+  instructions: 'Ask questions about joining a sports club or hobby course. Time: ~3 minutes.',
   prompts: [
-    'Was essen Sie zum Frühstück?',
-    'Wo essen Sie zu Mittag?',
-    'Kochen Sie gern?',
-    'Gehen Sie oft ins Restaurant?',
-    'Was trinken Sie gern?'
+    'Ask about course times',
+    'Ask about costs',
+    'Ask what to bring',
+    'Ask about membership'
   ],
   sampleResponses: [
-    'Zum Frühstück esse ich Brötchen mit Marmelade und trinke Kaffee. Manchmal esse ich auch Müsli.',
-    'Ich esse zu Mittag in der Mensa. Das Essen ist gut und nicht teuer.',
-    'Ja, ich koche sehr gern! Am Wochenende koche ich oft für meine Familie.',
-    'Ja, ich gehe oft ins Restaurant. Besonders gern gehe ich zu italienischen Restaurants.',
-    'Ich trinke gern Kaffee und Wasser. Abends trinke ich manchmal auch ein Glas Wein.'
+    'Wann findet der Yogakurs statt? - Der Kurs ist jeden Dienstag um 18 Uhr.',
+    'Wie viel kostet die Mitgliedschaft? - Die Monatskarte kostet 45 Euro.',
+    'Was muss ich zum Training mitbringen? - Bringen Sie bitte Sportkleidung und Sportschuhe mit.',
+    'Kann ich eine Probestunde machen? - Ja, die erste Stunde ist kostenlos!'
   ]
 };
 
 // ============================================================================
-// VOCABULARY THEME - Restaurant Phrases & Food Verbs
+// VOCABULARY THEME - Hobbies & Leisure
 // ============================================================================
 
 const vocabulary: VocabularyTheme = {
-  theme: 'Restaurant Phrases & Food Verbs (Restaurantphrasen & Essensverben)',
+  theme: 'Hobbies & Leisure Activities (Hobbys & Freizeitaktivitäten)',
   items: [
-    // Ordering Phrases
+    // Sports
     {
-      german: 'Ich möchte bestellen.',
-      english: 'I would like to order.',
-      example: 'Entschuldigung, ich möchte bestellen.'
+      german: 'Sport treiben',
+      english: 'to do sports',
+      example: 'Ich treibe gern Sport.'
     },
     {
-      german: 'Ich hätte gern...',
-      english: 'I would like...',
-      example: 'Ich hätte gern eine Pizza.'
+      german: 'Fußball spielen',
+      english: 'to play soccer',
+      example: 'Ich spiele jeden Samstag Fußball.'
     },
     {
-      german: 'Ich nehme...',
-      english: 'I\'ll take...',
-      example: 'Ich nehme das Schnitzel.'
+      german: 'Tennis spielen',
+      english: 'to play tennis',
+      example: 'Möchtest du Tennis spielen?'
     },
     {
-      german: 'Für mich...',
-      english: 'For me...',
-      example: 'Für mich einen Kaffee, bitte.'
+      german: 'schwimmen',
+      english: 'to swim',
+      example: 'Ich gehe zweimal pro Woche schwimmen.'
     },
     {
-      german: 'Als Vorspeise...',
-      english: 'As a starter...',
-      example: 'Als Vorspeise nehme ich die Suppe.'
+      german: 'joggen / laufen',
+      english: 'to jog / to run',
+      example: 'Ich jogge jeden Morgen im Park.'
     },
     {
-      german: 'Als Hauptgericht...',
-      english: 'As a main course...',
-      example: 'Als Hauptgericht möchte ich den Fisch.'
+      german: 'wandern',
+      english: 'to hike',
+      example: 'Am Wochenende gehe ich wandern.'
     },
     {
-      german: 'Zum Nachtisch...',
-      english: 'For dessert...',
-      example: 'Zum Nachtisch nehme ich Eis.'
-    },
-    // Asking Phrases
-    {
-      german: 'Was empfehlen Sie?',
-      english: 'What do you recommend?',
-      example: 'Was empfehlen Sie heute?'
+      german: 'Rad fahren',
+      english: 'to cycle',
+      example: 'Ich fahre gern Rad.'
     },
     {
-      german: 'Haben Sie...?',
-      english: 'Do you have...?',
-      example: 'Haben Sie vegetarische Gerichte?'
+      german: 'Yoga machen',
+      english: 'to do yoga',
+      example: 'Ich mache jeden Mittwoch Yoga.'
     },
     {
-      german: 'Wie viel kostet...?',
-      english: 'How much does... cost?',
-      example: 'Wie viel kostet das Menü?'
+      german: 'ins Fitnessstudio gehen',
+      english: 'to go to the gym',
+      example: 'Ich gehe dreimal pro Woche ins Fitnessstudio.'
+    },
+    // Creative Hobbies
+    {
+      german: 'lesen',
+      english: 'to read',
+      example: 'Ich lese gern Bücher.'
     },
     {
-      german: 'Ist das vegetarisch?',
-      english: 'Is that vegetarian?',
-      example: 'Ist das Gericht vegetarisch?'
+      german: 'fotografieren',
+      english: 'to photograph',
+      example: 'Ich fotografiere gern die Natur.'
     },
     {
-      german: 'Ist das scharf?',
-      english: 'Is that spicy?',
-      example: 'Ist die Suppe scharf?'
+      german: 'malen',
+      english: 'to paint',
+      example: 'Meine Schwester malt sehr schön.'
     },
     {
-      german: 'Die Rechnung, bitte.',
-      english: 'The bill, please.',
-      example: 'Entschuldigung, die Rechnung, bitte.'
-    },
-    // Food Verbs - essen (to eat)
-    {
-      german: 'ich esse',
-      english: 'I eat',
-      example: 'Ich esse gern Pizza.'
+      german: 'zeichnen',
+      english: 'to draw',
+      example: 'Ich zeichne gern.'
     },
     {
-      german: 'du isst',
-      english: 'you eat',
-      example: 'Was isst du gern?'
+      german: 'Musik hören',
+      english: 'to listen to music',
+      example: 'Ich höre oft Musik.'
     },
     {
-      german: 'er/sie/es isst',
-      english: 'he/she/it eats',
-      example: 'Sie isst kein Fleisch.'
-    },
-    // Food Verbs - trinken (to drink)
-    {
-      german: 'ich trinke',
-      english: 'I drink',
-      example: 'Ich trinke Kaffee.'
+      german: 'ein Instrument spielen',
+      english: 'to play an instrument',
+      example: 'Ich spiele Gitarre.'
     },
     {
-      german: 'du trinkst',
-      english: 'you drink',
-      example: 'Was trinkst du?'
+      german: 'singen',
+      english: 'to sing',
+      example: 'Ich singe im Chor.'
     },
     {
-      german: 'er/sie/es trinkt',
-      english: 'he/she/it drinks',
-      example: 'Er trinkt Wasser.'
+      german: 'tanzen',
+      english: 'to dance',
+      example: 'Ich tanze gern.'
     },
-    // Other Food Verbs
+    // Social Activities
     {
-      german: 'bestellen',
-      english: 'to order',
-      example: 'Ich möchte bestellen.'
-    },
-    {
-      german: 'schmecken',
-      english: 'to taste',
-      example: 'Das schmeckt sehr gut!'
+      german: 'Freunde treffen',
+      english: 'to meet friends',
+      example: 'Am Wochenende treffe ich Freunde.'
     },
     {
-      german: 'es schmeckt mir',
-      english: 'I like it (taste)',
-      example: 'Pizza schmeckt mir sehr gut.'
+      german: 'ins Kino gehen',
+      english: 'to go to the cinema',
+      example: 'Möchtest du ins Kino gehen?'
     },
     {
-      german: 'mögen',
-      english: 'to like',
-      example: 'Ich mag Pizza.'
+      german: 'ins Theater gehen',
+      english: 'to go to the theater',
+      example: 'Wir gehen ins Theater.'
     },
     {
-      german: 'kosten',
-      english: 'to cost',
-      example: 'Was kostet das?'
-    },
-    // Table Conversation
-    {
-      german: 'Guten Appetit!',
-      english: 'Enjoy your meal!',
-      example: 'Guten Appetit! - Danke, gleichfalls!'
+      german: 'ins Konzert gehen',
+      english: 'to go to a concert',
+      example: 'Ich gehe gern ins Konzert.'
     },
     {
-      german: 'Prost! / Zum Wohl!',
-      english: 'Cheers!',
-      example: 'Prost! Auf deine Gesundheit!'
+      german: 'ins Museum gehen',
+      english: 'to go to the museum',
+      example: 'Am Sonntag gehe ich ins Museum.'
     },
     {
-      german: 'Das war sehr lecker!',
-      english: 'That was very delicious!',
-      example: 'Das Essen war sehr lecker!'
+      german: 'spazieren gehen',
+      english: 'to go for a walk',
+      example: 'Ich gehe im Park spazieren.'
     },
     {
-      german: 'Zusammen oder getrennt?',
-      english: 'Together or separate?',
-      example: 'Möchten Sie zusammen oder getrennt bezahlen?'
+      german: 'reisen',
+      english: 'to travel',
+      example: 'Ich reise gern.'
+    },
+    // Home Activities
+    {
+      german: 'fernsehen',
+      english: 'to watch TV',
+      example: 'Abends sehe ich fern.'
     },
     {
-      german: 'Stimmt so.',
-      english: 'Keep the change.',
-      example: 'Das macht 18 Euro. - Hier sind 20. Stimmt so.'
-    },
-    // Payment
-    {
-      german: 'Kann ich mit Karte bezahlen?',
-      english: 'Can I pay by card?',
-      example: 'Kann ich mit Kreditkarte bezahlen?'
+      german: 'Filme schauen',
+      english: 'to watch movies',
+      example: 'Ich schaue gern Filme.'
     },
     {
-      german: 'Bar oder mit Karte?',
-      english: 'Cash or card?',
-      example: 'Wie möchten Sie bezahlen? Bar oder mit Karte?'
+      german: 'kochen',
+      english: 'to cook',
+      example: 'Ich koche gern am Wochenende.'
     },
     {
-      german: 'Das macht... Euro.',
-      english: 'That\'s... euros.',
-      example: 'Das macht 25 Euro, bitte.'
-    },
-    // Preferences
-    {
-      german: 'Ich esse gern...',
-      english: 'I like to eat...',
-      example: 'Ich esse gern italienisches Essen.'
+      german: 'backen',
+      english: 'to bake',
+      example: 'Ich backe gern Kuchen.'
     },
     {
-      german: 'Ich trinke gern...',
-      english: 'I like to drink...',
-      example: 'Ich trinke gern Kaffee.'
+      german: 'im Internet surfen',
+      english: 'to surf the internet',
+      example: 'Ich surfe oft im Internet.'
     },
     {
-      german: 'Ich mag... nicht.',
-      english: 'I don\'t like...',
-      example: 'Ich mag Zwiebeln nicht.'
+      german: 'Computerspiele spielen',
+      english: 'to play computer games',
+      example: 'Mein Bruder spielt gern Computerspiele.'
+    },
+    // Places
+    {
+      german: 'der Sportverein',
+      english: 'sports club',
+      example: 'Ich bin Mitglied in einem Sportverein.'
     },
     {
-      german: 'Mein Lieblingsessen ist...',
-      english: 'My favorite food is...',
-      example: 'Mein Lieblingsessen ist Pizza.'
-    },
-    // Special Requests
-    {
-      german: 'Ohne... bitte.',
-      english: 'Without... please.',
-      example: 'Ohne Zwiebeln, bitte.'
+      german: 'das Fitnessstudio',
+      english: 'gym',
+      example: 'Das Fitnessstudio ist modern.'
     },
     {
-      german: 'Mit... bitte.',
-      english: 'With... please.',
-      example: 'Mit extra Käse, bitte.'
+      german: 'das Schwimmbad',
+      english: 'swimming pool',
+      example: 'Im Sommer gehe ich ins Schwimmbad.'
     },
     {
-      german: 'Ich bin allergisch gegen...',
-      english: 'I\'m allergic to...',
-      example: 'Ich bin allergisch gegen Nüsse.'
+      german: 'der Park',
+      english: 'park',
+      example: 'Ich jogge im Park.'
     },
     {
-      german: 'Ich bin Vegetarier/Veganer.',
-      english: 'I\'m vegetarian/vegan.',
-      example: 'Ich bin Vegetarier. Haben Sie vegetarische Gerichte?'
+      german: 'das Kino',
+      english: 'cinema',
+      example: 'Das Kino ist in der Stadtmitte.'
+    },
+    {
+      german: 'das Theater',
+      english: 'theater',
+      example: 'Das Theater ist sehr schön.'
+    },
+    {
+      german: 'das Museum',
+      english: 'museum',
+      example: 'Das Museum ist interessant.'
+    },
+    {
+      german: 'das Café',
+      english: 'café',
+      example: 'Wir treffen uns im Café.'
+    },
+    // Time Expressions
+    {
+      german: 'in der Freizeit',
+      english: 'in free time',
+      example: 'In der Freizeit lese ich gern.'
+    },
+    {
+      german: 'am Wochenende',
+      english: 'on the weekend',
+      example: 'Am Wochenende gehe ich wandern.'
+    },
+    {
+      german: 'jeden Tag',
+      english: 'every day',
+      example: 'Ich jogge jeden Tag.'
+    },
+    {
+      german: 'einmal pro Woche',
+      english: 'once a week',
+      example: 'Ich spiele einmal pro Woche Tennis.'
+    },
+    {
+      german: 'zweimal pro Woche',
+      english: 'twice a week',
+      example: 'Ich gehe zweimal pro Woche schwimmen.'
+    },
+    {
+      german: 'oft',
+      english: 'often',
+      example: 'Ich gehe oft ins Kino.'
+    },
+    {
+      german: 'manchmal',
+      english: 'sometimes',
+      example: 'Manchmal treffe ich Freunde.'
+    },
+    {
+      german: 'selten',
+      english: 'rarely',
+      example: 'Ich sehe selten fern.'
+    },
+    // Useful Phrases
+    {
+      german: 'Hast du Lust...?',
+      english: 'Do you feel like...?',
+      example: 'Hast du Lust, Tennis zu spielen?'
+    },
+    {
+      german: 'Möchtest du...?',
+      english: 'Would you like to...?',
+      example: 'Möchtest du ins Kino gehen?'
+    },
+    {
+      german: 'Das macht Spaß!',
+      english: 'That\'s fun!',
+      example: 'Schwimmen macht Spaß!'
+    },
+    {
+      german: 'Ich habe keine Zeit.',
+      english: 'I don\'t have time.',
+      example: 'Leider habe ich keine Zeit.'
+    },
+    {
+      german: 'Gute Idee!',
+      english: 'Good idea!',
+      example: 'Wandern? Gute Idee!'
+    },
+    // Membership
+    {
+      german: 'die Mitgliedschaft',
+      english: 'membership',
+      example: 'Die Mitgliedschaft kostet 50 Euro.'
+    },
+    {
+      german: 'die Monatskarte',
+      english: 'monthly pass',
+      example: 'Ich habe eine Monatskarte.'
+    },
+    {
+      german: 'die Jahreskarte',
+      english: 'annual pass',
+      example: 'Die Jahreskarte ist günstiger.'
+    },
+    {
+      german: 'der Kurs',
+      english: 'course',
+      example: 'Ich besuche einen Yogakurs.'
+    },
+    {
+      german: 'die Probestunde',
+      english: 'trial lesson',
+      example: 'Die Probestunde ist kostenlos.'
     }
   ]
 };
@@ -431,6 +564,7 @@ const day11: ExamDay = {
   day: 11,
   skills: ['Writing', 'Speaking'],
   practices: [
+    writingPractice0,
     writingPractice1,
     writingPractice2,
     writingPractice3,
@@ -441,7 +575,7 @@ const day11: ExamDay = {
     speakingPractice5
   ],
   vocabulary,
-  focus: 'Ordering and expressing preferences - Writing about food preferences, ordering in restaurants, and speaking about likes/dislikes'
+  focus: 'Hobbies and leisure activities'
 };
 
 export default day11;

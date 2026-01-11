@@ -10,302 +10,467 @@ export interface ExamMethodDay {
 }
 
 export const examMethod: ExamMethodDay[] = [
-    // Day 1: Listening & Reading - Social Interaction
+    // Day 1: Listening + Reading
     {
         day: 1,
         skills: ["Listening", "Reading"],
-        focus: "Social Interaction & Invitations",
+        focus: "Understanding exam structure and basic contexts",
         tasks: [
             {
-                type: "Reading",
-                topic: "Email - Geburtstagsparty einladen",
-                description: "Understanding an invitation email for a birthday party. Identifying key details like time, location, and what to bring."
-            },
-            {
-                type: "Reading",
-                topic: "Email - Woche in München",
-                description: "Reading a personal email about a week's schedule or travel plan in Munich. comprehending sequence of events."
-            },
-            {
                 type: "Listening",
-                topic: "General Conversations",
-                description: "Listening to short informal dialogues about meetings or parties."
+                topic: "Dialogues - Supermarket, Doctor Appointment, Introduction",
+                description: "Listen to short everyday conversations about shopping, appointments, and meeting people."
+            },
+            {
+                type: "Reading",
+                topic: "Email - Geburtstagsparty einladen (Lisa an Anna)",
+                description: "Read an email invitation to a birthday party and Identify key details like time and location."
+            },
+            {
+                type: "Reading",
+                topic: "Email - Woche in München/Treffen (Michael an Thomas)",
+                description: "Read a personal email about a travel schedule and a proposal to meet for coffee."
             }
         ]
     },
-    // Day 2: Writing & Speaking - Introduction & Forms
+    // Day 2: Writing + Speaking
     {
         day: 2,
         skills: ["Writing", "Speaking"],
-        focus: "Registration & Self-Introduction",
+        focus: "Basic self-expression and personal information",
         tasks: [
             {
                 type: "Writing",
-                topic: "Registration Form",
-                description: "Filling out a registration form (Anmeldeformular) with personal details."
+                topic: "Formular - Deutschkurs Anmeldung",
+                description: "Fill in a registration form with personal details (Name, Address, Phone)."
             },
             {
                 type: "Writing",
-                topic: "Email - Birthday Party",
-                description: "Writing a short reply to a birthday invitation or an invitation yourself."
+                topic: "Email - Antwort auf Geburtstagseinladung (an Anna)",
+                description: "Write a short email accepting an invitation and asking about the time."
             },
             {
                 type: "Speaking",
-                topic: "Self-Introduction",
-                description: "Introducing yourself (Sich vorstellen): Name, Age, Country, Profession, Hobbies."
+                topic: "Sich vorstellen - Name, Alter, Land, Beruf",
+                description: "Introduce yourself, spell your name, and give personal information (phone number, etc.)."
             }
         ]
     },
-    // Day 3: Listening & Reading - Appointments & Time
+    // Day 3: Listening + Reading
     {
         day: 3,
         skills: ["Listening", "Reading"],
-        focus: "Daily Routine & Appointments",
+        focus: "Understanding announcements and simple information",
         tasks: [
             {
                 type: "Listening",
-                topic: "Time & Dates",
-                description: "Listening to announcements about opening hours or appointment times."
+                topic: "Announcements - Public Places (Station, Airport)",
+                description: "Listen to public announcements and understand times, delays, and locations."
             },
             {
                 type: "Reading",
-                topic: "Appointment Emails",
-                description: "Reading emails changing or confirming doctor's appointments."
+                topic: "Anzeigen - Wohnungssuche (Studentin vs Arbeiter)",
+                description: "Match housing advertisements to the specific needs of different people."
             },
             {
                 type: "Reading",
-                topic: "Schedules",
-                description: "Understanding train or bus schedules and time tables."
+                topic: "Anzeigen - Deutschkurs (Abend vs Intensiv)",
+                description: "Find the right language course based on schedule and intensity."
+            },
+            {
+                type: "Reading",
+                topic: "Anzeigen - Fahrradverkauf (Kinder vs Erwachsene)",
+                description: "Match bicycle advertisements to the specific needs of buyers."
             }
         ]
     },
-    // Day 4: Writing & Speaking - Work & Profession
+    // Day 4: Writing + Speaking
     {
         day: 4,
         skills: ["Writing", "Speaking"],
-        focus: "Workplace Communication",
+        focus: "Simple communication and requests",
         tasks: [
             {
                 type: "Writing",
-                topic: "Email - Apology/sick note",
-                description: "Writing a short email to a boss or colleague excusing yourself for being late or sick."
+                topic: "Email - Antwort auf Einladung (Max Geburtstag)",
+                description: "Write an email accepting an invitation, explaining why, and mentioning what you bring."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Anfrage Sprachschule (Deutschkurs)",
+                description: "Write an enquiry about course start dates, costs, and location."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Vorschlag Kino (an Lisa)",
+                description: "Write an email suggesting a specific film and meeting time/place."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Absage Party (an Freundin)",
+                description: "Write an email declining a party invitation due to work and suggesting a new time."
             },
             {
                 type: "Speaking",
-                topic: "Talking about Work",
-                description: "Describing your profession, workplace, and daily work routine."
+                topic: "Theme Card - Hobbies",
+                description: "Ask and answer W-questions about hobbies, sports, and weekend activities."
             },
             {
                 type: "Speaking",
-                topic: "Requests at Work",
-                description: "Making polite requests in an office setting (asking for a pen, help, etc.)."
+                topic: "Theme Card - Food & Drinks",
+                description: "Ask and answer W-questions about food preferences, cooking, and meals."
+            },
+            {
+                type: "Speaking",
+                topic: "Theme Card - Daily Routine",
+                description: "Ask and answer W-questions about daily schedules, waking up, and work."
             }
         ]
     },
-    // Day 5: Reading & Listening - Housing & Living
+    // Day 5: Listening + Reading
     {
         day: 5,
-        skills: ["Reading", "Listening"],
-        focus: "Housing & Accommodation",
+        skills: ["Listening", "Reading"],
+        focus: "Telephone messages and information boards",
         tasks: [
             {
-                type: "Reading",
-                topic: "Housing Advertisements",
-                description: "Understanding classified adds for apartments (rent, location, size)."
-            },
-            {
                 type: "Listening",
-                topic: "Describing an Apartment",
-                description: "Listening to someone describe their home or room."
+                topic: "Telephone Messages & Voicemails",
+                description: "Listen to messages about appointments, closures, and meetings."
             },
             {
                 type: "Reading",
-                topic: "House Rules",
-                description: "Reading simple house rules (Hausordnung) or notes from neighbors."
+                topic: "Info - Stadtmuseum Berlin (Öffnungszeiten/Preise)",
+                description: "Read a museum information board for hours, prices, and rules."
+            },
+            {
+                type: "Reading",
+                topic: "Info - Schwimmbad 'Aqua Fun'",
+                description: "Read swimming pool details regarding opening times and prohibited items."
+            },
+            {
+                type: "Reading",
+                topic: "Info - Parkplatz Hauptstraße",
+                description: "Understand parking fees, allowed times, and payment methods."
+            },
+            {
+                type: "Reading",
+                topic: "Info - Stadtbibliothek (Regeln)",
+                description: "Read library rules about silence, food, and borrowing limits."
             }
         ]
     },
-    // Day 6: Writing & Speaking - Food & Dining
+    // Day 6: Writing + Speaking
     {
         day: 6,
         skills: ["Writing", "Speaking"],
-        focus: "Food & Restaurants",
+        focus: "Making requests and responding",
         tasks: [
             {
                 type: "Writing",
-                topic: "SMS - Dinner Plan",
-                description: "Writing a short message arranging a dinner meeting."
+                topic: "Email - Antwort auf Einladung (Max)",
+                description: "Respond to a birthday invitation detailing attendance and contributions."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Anfrage Tourist-Information",
+                description: "Write to a tourist center asking about sights, opening times, and costs."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Anfrage Hotel (Zimmer buchen)",
+                description: "Write to a hotel inquiring about room availability, parking, and prices."
             },
             {
                 type: "Speaking",
-                topic: "Ordering Food",
-                description: "Dialogue in a restaurant: Ordering food and drinks, asking for the bill."
+                topic: "Request - Borrowing Items (Pen, Book)",
+                description: "Politely ask to borrow everyday objects from a partner."
             },
             {
                 type: "Speaking",
-                topic: "Favorite Food",
-                description: "Talking about what you like to eat and drink."
+                topic: "Request - Asking for Help",
+                description: "Ask for assistance with heavy bags, directions, or finding items."
+            },
+            {
+                type: "Speaking",
+                topic: "Request - Making Purchases",
+                description: "Simulate buying items in a bakery or cafe."
+            },
+            {
+                type: "Speaking",
+                topic: "Request - Services (Hotel/Station)",
+                description: "Ask for hotel rooms, train information, or table reservations."
+            },
+            {
+                type: "Speaking",
+                topic: "Request - Directions",
+                description: "Ask for directions to specific places like the station or post office."
             }
         ]
     },
-    // Day 7: Listening & Reading - Travel & Transport
+    // Day 7: Full Practice Test Day
     {
         day: 7,
-        skills: ["Listening", "Reading"],
-        focus: "Public Transport & Travel",
+        skills: ["Listening", "Reading", "Writing", "Speaking"],
+        focus: "Full Practice Test Day - Complete mock exam",
         tasks: [
             {
                 type: "Listening",
-                topic: "Station Announcements",
-                description: "Understanding announcements at train stations or airports (delays, platforms)."
+                topic: "Dialogues & Announcements (Mock Exam)",
+                description: "Complete listening comprehension with various dialogues and announcements."
             },
             {
                 type: "Reading",
-                topic: "Travel Information",
-                description: "Reading concise travel info, tickets, or travel signs."
+                topic: "Email - Besuch in Hamburg (Sophie an Julia)",
+                description: "Read an email about travel plans and answering true/false questions."
             },
             {
-                type: "Listening",
-                topic: "Directions",
-                description: "Following simple directions to a destination."
+                type: "Reading",
+                topic: "Email - Absage Grillen (Martin an Paul)",
+                description: "Read a decline message for a BBQ party and identifying reasons."
+            },
+            {
+                type: "Reading",
+                topic: "Matching - Wohnungssuche München",
+                description: "Match apartment ads to specific requirements."
+            },
+            {
+                type: "Reading",
+                topic: "Info - Stadtbibliothek München",
+                description: "Read library regulations and answering multiple choice questions."
+            },
+            {
+                type: "Writing",
+                topic: "Formular - Deutschkurs Anmeldung",
+                description: "Complete a mock registration form with provided personal data."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Antwort auf Konzerteinladung",
+                description: "Write a response to a concert invitation asking for details."
+            },
+            {
+                type: "Speaking",
+                topic: "Mock Exam Speaking Parts 1-3",
+                description: "Practice self-introduction, Q&A on themes, and making requests."
             }
         ]
     },
-    // Day 8: Writing & Speaking - Services & Appointments
+    // Day 8: Travel & Transportation
     {
         day: 8,
-        skills: ["Writing", "Speaking"],
-        focus: "Official & Medical Services",
+        skills: ["Listening", "Reading"],
+        focus: "Travel and transportation",
         tasks: [
             {
-                type: "Writing",
-                topic: "Email - Appointment Request",
-                description: "Writing an email to make an appointment at a government office or doctor."
+                type: "Listening",
+                topic: "Dialogues - Travel and Transportation",
+                description: "Listen to conversations at train stations, bus stops, and travel agencies."
             },
             {
-                type: "Speaking",
-                topic: "Making an Appointment",
-                description: "Telephone simulation: Booking an appointment."
+                type: "Reading",
+                topic: "Message - Travel Plans to Hamburg",
+                description: "Read a message about travel plans and meeting arrangements."
             },
             {
-                type: "Speaking",
-                topic: "At the Receipt/Counter",
-                description: "Asking for information at a service counter."
+                type: "Reading",
+                topic: "Comparison - Train Schedules (München-Berlin)",
+                description: "Compare train connections and choose the right one."
+            },
+            {
+                type: "Reading",
+                topic: "Comparison - Flight Booking Websites",
+                description: "Compare flight offers and booking conditions."
+            },
+            {
+                type: "Reading",
+                topic: "Timetable - Bus Schedule",
+                description: "Read a bus timetable and understand departure times and prices."
+            },
+            {
+                type: "Reading",
+                topic: "Info - Train Station Services",
+                description: "Read information about train station facilities and services."
             }
         ]
     },
-    // Day 9: Reading & Listening - Hobbies & Leisure
+    // Day 9: Describing People and Relations
     {
         day: 9,
-        skills: ["Reading", "Listening"],
-        focus: "Free Time & Vacation",
-        tasks: [
-            {
-                type: "Reading",
-                topic: "Course Descriptions",
-                description: "Reading about leisure courses (e.g., language, sports) and their details."
-            },
-            {
-                type: "Listening",
-                topic: "Vacation Plans",
-                description: "Listening to friends talking about their weekend or vacation plans."
-            },
-            {
-                type: "Reading",
-                topic: "Postcard/Letter",
-                description: "Reading a postcard from a friend on holiday."
-            }
-        ]
-    },
-    // Day 10: Writing & Speaking - Communication
-    {
-        day: 10,
         skills: ["Writing", "Speaking"],
-        focus: "Messages & Phone Calls",
+        focus: "Describing people and relationships",
         tasks: [
             {
                 type: "Writing",
-                topic: "Note to a Friend",
-                description: "Leaving a note for a friend or family member (e.g. 'I am at the store')."
+                topic: "Form - Family Registration",
+                description: "Fill in a registration form with family information."
+            },
+            {
+                type: "Writing",
+                topic: "Text - Meine Familie beschreiben",
+                description: "Write a text introducing family members, their ages, and professions."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Einladung Mutter's Geburtstag",
+                description: "Write an email inviting a friend to a mother's birthday party."
             },
             {
                 type: "Speaking",
-                topic: "Phone Conversation",
-                description: "Starting and ending a phone call formally and informally."
+                topic: "Introduce Family",
+                description: "Verbally introduce family members and their key details."
             },
             {
                 type: "Speaking",
-                topic: "Answering Questions",
-                description: "Responding to specific questions about personal preferences."
+                topic: "Describe People (Appearance/Character)",
+                description: "Describe family members' looks (hair, eyes) and personality."
             }
         ]
     },
-    // Day 11: Listening & Reading - Health & Instructions
+    // Day 10: Health & Body
     {
-        day: 11,
+        day: 10,
         skills: ["Listening", "Reading"],
-        focus: "Health & Instructions",
+        focus: "Health and body",
         tasks: [
             {
                 type: "Listening",
-                topic: "Doctor's Advice",
-                description: "Understanding simple medical advice or instructions."
+                topic: "Dialogues - Doctor's Office and Pharmacy",
+                description: "Listen to conversations about health problems and medical appointments."
             },
             {
                 type: "Reading",
-                topic: "Medicine Instructions",
-                description: "Reading simple instructions on medicine packages or health tips."
+                topic: "Message - Illness Notification",
+                description: "Read a message about being sick and taking medication."
             },
             {
-                type: "Listening",
-                topic: "Weather Forecast",
-                description: "Understanding the weather report."
+                type: "Reading",
+                topic: "Comparison - Pharmacy Opening Hours",
+                description: "Compare two pharmacies and choose the right one."
+            },
+            {
+                type: "Reading",
+                topic: "Comparison - Doctor's Office Services",
+                description: "Compare medical practices and find the right doctor."
+            },
+            {
+                type: "Reading",
+                topic: "Info - Health Center Services",
+                description: "Read information about health center facilities and departments."
+            },
+            {
+                type: "Reading",
+                topic: "Confirmation - Doctor Appointment",
+                description: "Read an appointment confirmation with important details."
             }
         ]
     },
-    // Day 12: Listening & Reading - Shopping (Aligned with existing content)
+    // Day 11: Hobbies & Leisure Activities
+    {
+        day: 11,
+        skills: ["Writing", "Speaking"],
+        focus: "Hobbies and leisure activities",
+        tasks: [
+            {
+                type: "Writing",
+                topic: "Form - Sports Club Registration",
+                description: "Fill in a sports club registration form with personal details."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Inquiry about Hobby Course",
+                description: "Write to a community center asking about a photography course."
+            },
+            {
+                type: "Writing",
+                topic: "Message - Weekend Activity Suggestion",
+                description: "Suggest a weekend activity to a friend."
+            },
+            {
+                type: "Writing",
+                topic: "Text - Meine Hobbys",
+                description: "Write about your hobbies and why you enjoy them."
+            },
+            {
+                type: "Speaking",
+                topic: "Talk about Hobbies",
+                description: "Discuss your hobbies and free time activities."
+            },
+            {
+                type: "Speaking",
+                topic: "Sports and Physical Activities",
+                description: "Talk about sports you do and how often."
+            }
+        ]
+    },
+    // Day 12: Shopping and Prices
     {
         day: 12,
         skills: ["Listening", "Reading"],
-        focus: "Shopping & Prices",
+        focus: "Shopping and prices",
         tasks: [
             {
                 type: "Listening",
-                topic: "Shop Dialogues",
-                description: "Conversations in clothing stores, supermarkets, and shops."
+                topic: "Dialogues - Shops & Sales",
+                description: "Listen to conversations in stores and announcements about offers."
             },
             {
                 type: "Reading",
-                topic: "Store Ads",
-                description: "Reading store advertisements, sales offers, and product descriptions."
+                topic: "Comparison - Online Shops (Winterjacke)",
+                description: "Compare two online shops to find a specific jacket deal."
             },
             {
-                type: "Listening",
-                topic: "Price Announcements",
-                description: "Understanding numbers and prices in sales announcements."
+                type: "Reading",
+                topic: "Comparison - Öffnungszeiten (Schuhe)",
+                description: "Find a shoe store that is open on Sundays."
+            },
+            {
+                type: "Reading",
+                topic: "Info - Kaufhaus Wegweiser",
+                description: "Find the location of items in a department store directory."
+            },
+            {
+                type: "Reading",
+                topic: "Info - Schwarzes Brett (Verkauf/Suche)",
+                description: "Read notice board notes about selling items or looking for help."
             }
         ]
     },
-    // Day 13: Writing & Speaking - Shopping Transactions (Aligned with existing content)
+    // Day 13: Work & Office
     {
         day: 13,
         skills: ["Writing", "Speaking"],
-        focus: "Shopping Transactions",
+        focus: "Work and office",
         tasks: [
             {
                 type: "Writing",
-                topic: "Shopping Experience",
-                description: "Writing about a recent purchase or shopping trip."
+                topic: "Form - Job Application",
+                description: "Fill in a job application form with work experience and qualifications."
             },
             {
                 type: "Writing",
-                topic: "Product Inquiry",
-                description: "Writing an email asking about product availability or price."
+                topic: "Email - Meeting Request to Colleague",
+                description: "Write to a colleague to arrange a meeting about a project."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Absence Notification",
+                description: "Inform your boss about being sick and unable to come to work."
+            },
+            {
+                type: "Writing",
+                topic: "Email - Job Inquiry",
+                description: "Write to a company asking about a job position."
             },
             {
                 type: "Speaking",
-                topic: "Buying Items",
-                description: "Roleplay: Asking for sizes, colors, and paying in a shop."
+                topic: "Talk about Your Job",
+                description: "Discuss your work, workplace, and professional experience."
+            },
+            {
+                type: "Speaking",
+                topic: "Office Requests and Conversations",
+                description: "Make polite requests and have typical office dialogues."
             }
         ]
     }
