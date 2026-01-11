@@ -46,151 +46,209 @@ const listeningPractice3: ListeningPractice = {
 // ============================================================================
 
 const readingPractice1: ReadingPractice = {
-  part: 1,
-  title: 'Teil 1: Store Advertisements and Special Offers',
-  description: 'Read store ads and answer True/False questions',
-  instructions: 'Read 2 short advertisements about store sales and offers. Answer True/False questions about products and prices. Time: ~8 minutes.',
-  text: `SUPER SONDERANGEBOT!
-Modehaus Schmidt - Nur diese Woche!
+  part: 2,
+  title: 'Teil 2: Online Shopping - Website Comparison',
+  description: 'Find the right online shop for your needs',
+  instructions: 'Read the situation and look at the two websites. Decide which website (A or B) has the information or product described. Time: ~5 minutes.',
+  text: `**Situation:** Sie suchen eine Winterjacke für Ihren Sohn. Die Jacke soll wasserdicht sein und nicht mehr als 50 Euro kosten.
 
-Jeans - statt 50€ jetzt nur 35€
-T-Shirts - 3 für 20€ (einzeln 9€)
-Pullover - 30% Rabatt auf alle Modelle
-Schuhe - Alle Größen, viele Farben, ab 25€
+**Webseite A: www.kinder-mode-welt.de**
+*   **Großer Winterschlussverkauf!**
+*   Warme Winterjacken für Jungen und Mädchen
+*   Alle Größen verfügbar (98-176)
+*   **Neu:** Wasserdichte Regenjacken ab 59,99 €
+*   Schnelle Lieferung (2-3 Tage)
 
-Öffnungszeiten:
-Montag-Freitag: 9:00-20:00 Uhr
-Samstag: 9:00-18:00 Uhr
-Sonntag: geschlossen
-
-Zahlung: Bar, EC-Karte, Kreditkarte
-Parkplatz vorhanden
-Umtausch innerhalb 14 Tagen mit Kassenbon`,
-  questions: [] // To be converted to proper ExamQuestion objects
-  // Original questions: ['Die Jeans kosten jetzt 35 Euro.', 'Ein T-Shirt kostet 9 Euro.', 'Es gibt 30% Rabatt auf Pullover.', 'Das Geschäft ist sonntags geöffnet.', 'Man kann mit Karte bezahlen.']
+**Webseite B: www.sport-fuer-kids.de**
+*   Sportbekleidung für Kinder
+*   **Aktion:** Outdoor-Jacken (wasserdicht & winddicht)
+*   Top-Marken zu kleinen Preisen
+*   Jungen-Winterjacken ab 45,00 €
+*   Kostenlose Rücksendung`,
+  questions: [
+    {
+      id: 'day12-reading1-q1',
+      type: 'multiple-choice',
+      question: 'Welche Webseite passt besser?',
+      options: ['Webseite A (www.kinder-mode-welt.de)', 'Webseite B (www.sport-fuer-kids.de)'],
+      correctAnswer: 1,
+      explanation: 'Website B offers waterproof jackets ("wasserdicht") starting from 45.00 €, which fits the budget (under 50 €). Website A starts at 59.99 €, which is too expensive.'
+    }
+  ]
 };
 
 const readingPractice2: ReadingPractice = {
   part: 2,
-  title: 'Teil 2: Match Shopping Needs to Stores',
-  description: 'Match people\'s shopping needs to appropriate stores',
-  instructions: 'Read 5 situations about people looking for specific items. Match each situation to the correct store advertisement (A or B). Time: ~8 minutes.',
-  text: `Situation 1: Anna sucht eine Jacke in Größe 38, nicht zu teuer.
+  title: 'Teil 2: Finding Information - Opening Hours',
+  description: 'Compare information sources to find opening times',
+  instructions: 'You want to buy shoes on a Sunday. Look at the two websites. Which one helps you? Time: ~5 minutes.',
+  text: `**Situation:** Sie möchten am Sonntag neue Schuhe kaufen. Sie suchen ein Geschäft, das am Sonntag geöffnet ist.
 
-Advertisement A:
-Kleidungsgeschäft "Fashion"
-Große Auswahl an Jacken
-Alle Größen: 34-48
-Preise: 40€-150€
-Markenkleidung
-Mo-Sa: 10:00-19:00 Uhr
+**Webseite A: www.schuh-paradies-zentrum.de**
+*   Ihr Schuhgeschäft im Einkaufszentrum "City-Passage"
+*   Damen-, Herren- und Kinderschuhe
+*   **Öffnungszeiten:**
+    *   Mo-Sa: 10:00 - 20:00 Uhr
+    *   **Verkaufsoffener Sonntag (nur am 1. Sonntag im Monat):** 13:00 - 18:00 Uhr
 
-Advertisement B:
-Second-Hand-Laden "Günstig"
-Gebrauchte Kleidung
-Jacken ab 15€
-Verschiedene Größen
-Täglich 11:00-18:00 Uhr
-Nur Barzahlung`,
-  questions: [] // To be converted to proper ExamQuestion objects
-  // Original questions: ['Welches Geschäft ist besser für Anna?']
+**Webseite B: www.bahnhofs-schuhe.de**
+*   Direkt im Hauptbahnhof
+*   Schuhe für die ganze Familie
+*   Reiseproviant & Accessoires
+*   **Täglich geöffnet!**
+*   Mo-So: 8:00 - 22:00 Uhr (auch an Feiertagen)`,
+  questions: [
+    {
+      id: 'day12-reading2-q1',
+      type: 'multiple-choice',
+      question: 'Auf welcher Webseite finden Sie ein Geschäft, das jeden Sonntag offen ist?',
+      options: ['Webseite A', 'Webseite B'],
+      correctAnswer: 1,
+      explanation: 'Website B says "Täglich geöffnet!" and "Mo-So" (Mon-Sun), confirming it is open every Sunday. Website A is only open on the first Sunday of the month.'
+    }
+  ]
 };
 
 const readingPractice3: ReadingPractice = {
   part: 2,
-  title: 'Teil 2: More Shopping Matching',
-  description: 'Continue matching shopping needs',
-  instructions: 'Match more shopping situations to appropriate stores.',
-  text: `Situation 2: Tom braucht Sportschuhe in Größe 42, gute Qualität.
+  title: 'Teil 2: Product Search - Electronics',
+  description: 'Search for specific electronic features',
+  instructions: 'You are looking for a specific type of camera. Check the online offers. Time: ~5 minutes.',
+  text: `**Situation:** Sie suchen eine einfache Digitalkamera für Ihren Urlaub. Sie soll klein sein, Batterien benutzen (kein Akku) und unter 100 Euro kosten.
 
-Advertisement A:
-Sportgeschäft "Aktiv"
-Sportschuhe: alle Größen
-Marken: Nike, Adidas, Puma
-Preise: 60€-120€
-Beratung durch Experten
-Parkplatz vorhanden
+**Angebot A: Elektro-Markt "Technik-Profi"**
+*   Super-Zoom Kamera "Click 500"
+*   Inklusive Tasche und Speicherkarte
+*   Betrieb mit AA-Batterien
+*   Sehr handlich und leicht
+*   **Preis:** 89,00 €
 
-Advertisement B:
-Supermarkt "Billig"
-Sportschuhe: 25€
-Nur Größen 39-43
-Keine Marken
-Selbstbedienung
-Keine Rückgabe`,
-  questions: [] // To be converted to proper ExamQuestion objects
-  // Original questions: ['Welches Geschäft ist besser für Tom?']
+**Angebot B: Foto-Spezialist "Camera-World"**
+*   Profi-Kamera "Vision X"
+*   Hochleistungs-Li-Ion Akku (wiederaufladbar)
+*   Wasserdicht bis 10m
+*   Perfekt für Tauchurlaub
+*   **Preis:** 99,00 €`,
+  questions: [
+    {
+      id: 'day12-reading3-q1',
+      type: 'multiple-choice',
+      question: 'Welches Angebot passt zu Ihren Wünschen?',
+      options: ['Angebot A', 'Angebot B'],
+      correctAnswer: 0,
+      explanation: 'Offer A matches all criteria: it uses batteries ("Betrieb mit AA-Batterien"), is small/handy ("handlich"), and costs 89 € (under 100 €). Offer B uses a rechargeable battery ("Akku"), which you didn\'t want.'
+    }
+  ]
 };
 
 const readingPractice4: ReadingPractice = {
   part: 3,
-  title: 'Teil 3: Store Opening Hours and Locations',
-  description: 'Read store information and answer multiple choice questions',
-  instructions: 'Read information about a department store. Answer 5 multiple choice questions (A, B, or C). Time: ~9 minutes.',
-  text: `Kaufhaus "Zentrum"
-Ihr Einkaufszentrum im Herzen der Stadt
+  title: 'Teil 3: Information Board - Department Store',
+  description: 'Read the directory of a department store',
+  instructions: 'Look at the information board in a department store. Find where you can buy specific items. Time: ~5 minutes.',
+  text: `**KAUFHAUS 'CITY-MITTE' - WEGWEISER**
 
-Öffnungszeiten:
-Montag-Freitag: 9:00-20:00 Uhr
-Samstag: 9:00-18:00 Uhr
-Sonntag: geschlossen
+**4. Stock:**
+*   Restaurant & Café "Panorama"
+*   Kundentoiletten / Wickelraum
 
-Abteilungen:
-- Damenmode (1. Stock)
-- Herrenmode (1. Stock)
-- Kinderkleidung (2. Stock)
-- Schuhe (Erdgeschoss)
-- Haushaltswaren (3. Stock)
-- Lebensmittel (Untergeschoss)
+**3. Stock:**
+*   Unterhaltungselektronik (TV, Computer)
+*   Haushaltswaren (Töpfe, Pfannen, Geschirr)
+*   Spielwaren
 
-Services:
-- Kostenloser Parkplatz (2 Stunden)
-- Umkleidekabinen in allen Abteilungen
-- Umtausch innerhalb 30 Tagen mit Kassenbon
-- Geschenkverpackung kostenlos
-- Kundenkarte: 5% Rabatt auf alle Einkäufe
+**2. Stock:**
+*   Herrenmode
+*   Sportbekleidung & Sportgeräte
+*   Schuhabteilung (Herren & Sport)
 
-Zahlung: Bar, EC-Karte, Kreditkarte, Kundenkarte
+**1. Stock:**
+*   Damenmode
+*   Dessous & Nachtwäsche
+*   Schuhabteilung (Damen)
 
-Adresse: Hauptstraße 45, 10115 Berlin
-Tel: 030-98765432
-E-Mail: info@kaufhaus-zentrum.de`,
-  questions: [] // To be converted to proper ExamQuestion objects
-  // Original questions: ['Wann ist das Kaufhaus sonntags geöffnet?', 'Wo findet man Schuhe?', ...]
+**Erdgeschoss (EG):**
+*   Parfümerie & Kosmetik
+*   Schmuck & Uhren
+*   Taschen & Koffer
+*   Information / Service-Point
+
+**Untergeschoss (UG):**
+*   Supermarkt "Frisch & Fein"
+*   Bäckerei
+*   Schlüsseldienst`,
+  questions: [
+    {
+      id: 'day12-reading4-q1',
+      type: 'multiple-choice',
+      question: 'Wo finden Sie einen neuen Koffer?',
+      options: ['Im 3. Stock', 'Im Erdgeschoss', 'Im Untergeschoss'],
+      correctAnswer: 1,
+      explanation: 'Suitcases ("Koffer") are listed on the Ground Floor ("Erdgeschoss").'
+    },
+    {
+      id: 'day12-reading4-q2',
+      type: 'multiple-choice',
+      question: 'Sie möchten einen Kaffee trinken. Wohin gehen Sie?',
+      options: ['In den 1. Stock', 'In den 4. Stock', 'In das Untergeschoss'],
+      correctAnswer: 1,
+      explanation: 'The Café is located on the 4th Floor ("4. Stock").'
+    },
+    {
+      id: 'day12-reading4-q3',
+      type: 'multiple-choice',
+      question: 'Wo gibt es Sportschuhe?',
+      options: ['Im 2. Stock', 'Im 1. Stock', 'Im Erdgeschoss'],
+      correctAnswer: 0,
+      explanation: 'Sport shoes are part of the Shoe Department (Men & Sport) on the 2nd Floor ("2. Stock").'
+    }
+  ]
 };
 
 const readingPractice5: ReadingPractice = {
   part: 3,
-  title: 'Teil 3: Supermarket Information',
-  description: 'Read supermarket information and answer questions',
-  instructions: 'Read information about a supermarket and answer multiple choice questions.',
-  text: `Supermarkt "Frisch & Gut"
-Ihre Adresse für frische Lebensmittel
+  title: 'Teil 3: Notice Board - Supermarket Entrance',
+  description: 'Read notes on a community notice board',
+  instructions: 'Read the handwritten notes on the "Suche & Biete" (Search & Offer) board in a supermarket. Answer the questions. Time: ~5 minutes.',
+  text: `**DAS SCHWARZE BRETT**
 
-Öffnungszeiten:
-Montag-Samstag: 7:00-21:00 Uhr
-Sonntag: 9:00-20:00 Uhr
+**Zettel 1:**
+Verkaufe Kinderfahrrad (blau)
+Für Kinder von 4-6 Jahren.
+Guter Zustand!
+Preis: 40 €
+Tel: 0171-1234567 (Ab 18 Uhr)
 
-Angebote diese Woche:
-- Obst und Gemüse: 20% Rabatt
-- Milchprodukte: 2 für 1
-- Brot und Brötchen: täglich frisch
-- Bio-Produkte: große Auswahl
+**Zettel 2:**
+Suche Putzhilfe!
+Für 3 Stunden pro Woche (am Freitagvormittag).
+Wir bezahlen 15 € pro Stunde.
+Bitte melden bei Familie Weber.
+Tel: 030-9876543
 
-Services:
-- Bäckerei (öffnet um 6:00 Uhr)
-- Metzgerei (Mo-Sa bis 19:00 Uhr)
-- Kostenloser Parkplatz
-- Lieferservice (ab 30€ Einkaufswert)
-- Pfandautomat
-
-Zahlung: Bar, EC-Karte, Kreditkarte
-Keine Schecks
-
-Adresse: Berliner Straße 123
-Tel: 030-11223344`,
-  questions: [] // To be converted to proper ExamQuestion objects
-  // Original questions: ['Wann öffnet der Supermarkt sonntags?', 'Was kostet diese Woche weniger?', ...]
+**Zettel 3:**
+Verschenke altes Sofa!
+Farbe: Grau. Muss abgeholt werden (3. Stock, kein Aufzug!).
+Abholung nur diesen Samstag!
+Kontakt: Lisa, Tel: 0160-5555555`,
+  questions: [
+    {
+      id: 'day12-reading5-q1',
+      type: 'multiple-choice',
+      question: 'Wann können Sie wegen dem Fahrrad anrufen?',
+      options: ['Jeden Vormittag', 'Ab 18 Uhr', 'Nur am Wochenende'],
+      correctAnswer: 1,
+      explanation: 'The note says "Tel: ... (Ab 18 Uhr)" - call after 6 PM.'
+    },
+    {
+      id: 'day12-reading5-q2',
+      type: 'multiple-choice',
+      question: 'Was kostet das Sofa?',
+      options: ['15 Euro', '40 Euro', 'Nichts (kostenlos)'],
+      correctAnswer: 2,
+      explanation: 'The note says "Verschenke altes Sofa" (Giving away old sofa), implies it is free/0 Euro.'
+    }
+  ]
 };
 
 // ============================================================================
