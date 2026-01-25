@@ -2494,100 +2494,1778 @@ Read information about food venues and answer multiple choice questions.
 
 ---
 
-### Day 14: 🎯 Progress Check
-**Practice Test Day + Review**
+### Day 14: 🎯 Quick Progress Review
+**Week 2 Consolidation & Self-Assessment**
 
-- Complete another full mock exam
-- Compare scores with Day 7
-- Review all Week 2 vocabulary
-- Identify areas still needing work
+Today is a lighter day focused on consolidating what you learned in Week 2 and preparing for Week 3's new topics.
+
+**Self-Assessment Checklist:**
+
+**Week 2 Topics Mastery Check:**
+- [ ] Can I talk about my family members? (Day 8-9)
+- [ ] Can I describe people's appearance and personality? (Day 9)
+- [ ] Can I order food and drinks in a restaurant? (Day 10-11)
+- [ ] Can I understand menu items and prices? (Day 10)
+- [ ] Can I talk about shopping and ask for prices? (Day 12-13)
+- [ ] Can I describe colors, sizes, and make comparisons? (Day 13)
+
+**Vocabulary Review Exercise:**
+
+**Quick Test - Translate these sentences:**
+1. "Meine Familie besteht aus vier Personen."
+2. "Ich hätte gern einen Kaffee und ein Brötchen."
+3. "Wie viel kostet die blaue Jacke?"
+4. "Mein Bruder ist größer als ich."
+5. "Schmeckt das Essen? - Ja, es ist sehr lecker!"
+
+**Key Phrases You Should Know by Heart:**
+
+**Family:**
+- Meine Familie besteht aus... Personen
+- Ich habe einen Bruder / eine Schwester
+- Mein Vater/Meine Mutter ist... Jahre alt
+- Wir treffen uns am Wochenende
+
+**Food & Restaurant:**
+- Ich hätte gern...
+- Was empfehlen Sie?
+- Die Rechnung, bitte
+- Schmeckt gut!
+- Ich esse kein Fleisch / Ich esse vegetarisch
+
+**Shopping:**
+- Wie viel kostet...?
+- Ich suche...
+- Haben Sie das in Größe...?
+- Die Jacke ist zu teuer / zu klein
+- Ich nehme das
+
+**Quick Practice Tasks (15-20 minutes each):**
+
+**Listening:** Listen to one German podcast episode or YouTube video about family, food, or shopping (15 min)
+
+**Reading:** Read 2-3 restaurant menus or shop advertisements online in German (15 min)
+
+**Writing:** Write 3 short messages (10 min each):
+1. Describe your family briefly
+2. Invite a friend to a restaurant
+3. Ask about a product in a shop
+
+**Speaking:** Record yourself (5 min each):
+1. Introduce your family members
+2. Order a meal in German
+3. Ask about prices and sizes in a shop
+
+**Areas to Focus on in Week 3:**
+
+Identify your weakest area from Week 2:
+- [ ] Understanding family relationships → Review Day 8-9
+- [ ] Food vocabulary → Review Day 10-11
+- [ ] Shopping conversations → Review Day 12-13
+- [ ] Speaking fluently → More speaking practice needed
+- [ ] Writing complete sentences → Review writing structures
+
+**Week 3 Preview:**
+
+Next week you'll learn completely NEW themes:
+- **Days 15-16:** Travel and transportation (trains, buses, directions)
+- **Days 17-18:** Housing and living spaces (apartments, furniture)
+- **Days 19-20:** Work and occupations (jobs, professions)
+
+**Rest and Prepare:**
+- ✅ Review any vocabulary you struggled with
+- ✅ Get good sleep tonight
+- ✅ Stay motivated - you're halfway through the program!
+- ✅ Remember: Progress over perfection!
 
 ---
 
 ## Week 3: Mastering Real-World Contexts
 
 ### Day 15: 🎧 Listening + 📖 Reading
-**Focus:** Travel and transportation
+**Focus:** Music and arts
 
 **Listening Practice:**
-- Announcements at train stations and airports
-- Dialogues about travel plans
-- Phone messages about departure times
+
+Practice listening to short conversations about concerts, museums, musical instruments, and cultural events.
+
+*Placeholder: Listen to 6 short dialogues about concerts, museums, and arts activities. You will hear each dialogue twice. Answer questions about times, ticket prices, and cultural events.*
+
+**Common listening topics:**
+- Asking about concert times and tickets
+- Discussing favorite music and instruments
+- Planning museum visits
+- Talking about exhibitions and art galleries
+- Making arrangements for cultural events
+
+---
 
 **Reading Practice:**
-- Timetables and schedules
-- Travel advertisements
-- Information about transportation options
 
-**Vocabulary Theme:** Transport (Zug, Bus, Flugzeug, Bahnhof, Abfahrt, Ankunft)
+**Teil 1: Messages about Cultural Events**
+
+Read short personal messages about concerts, museums, and arts events. Answer True/False questions.
+
+**Sample text types:**
+- Concert invitations
+- Museum visit arrangements
+- Messages about exhibitions
+- Art gallery information
+- Music lesson updates
+
+**What to look for:**
+- Event times and dates
+- Ticket prices
+- Meeting locations
+- Type of cultural event
+- Plans after the event
+
+**Sample Email:**
+```
+Hallo Lisa,
+
+heute Abend ist das Konzert von meiner Lieblingsband! Das Konzert beginnt um 20 Uhr
+im Kulturzentrum. Die Band spielt tolle Rockmusik. Ich habe zwei Karten.
+Möchtest du mitkommen? Nach dem Konzert gehen wir ins Café.
+
+Bis später!
+Anna
+```
+
+**Sample Questions:**
+1. Das Konzert ist heute Abend. → **Richtig**
+2. Das Konzert beginnt um 19 Uhr. → **Falsch** (It starts at 20:00)
+3. Die Band spielt Rockmusik. → **Richtig**
+4. Nach dem Konzert gehen sie ins Café. → **Richtig**
+
+---
+
+**Teil 2: Cultural Event Advertisements**
+
+Match people's interests to appropriate concert or exhibition advertisements.
+
+**Sample advertisement types:**
+- Concert announcements (classical, rock, pop, jazz)
+- Museum exhibitions
+- Art gallery openings
+- Theater performances
+- Music festivals
+
+**Matching criteria to consider:**
+- Type of music or art (classical, modern, etc.)
+- Date and time (weekend, evening, afternoon)
+- Price range and budget
+- Location and accessibility
+- Special events or features
+
+**Sample Advertisement A:**
+```
+Klassisches Konzert
+Berliner Philharmonie
+Sonntag, 19:00 Uhr
+Werke von Mozart und Beethoven
+Eintritt: 12€ (Studenten 8€)
+Kartenreservierung: 030-123456
+```
+
+**Sample Advertisement B:**
+```
+Rockkonzert mit "Die Wilden"
+Open Air im Stadtpark
+Samstag, 21:00 Uhr
+Deutscher Rock & Pop
+Eintritt: 25€
+Tickets online: www.tickets.de
+```
+
+**Sample Situation:**
+"Max mag klassische Musik. Er möchte am Wochenende ein Konzert besuchen. Er hat nur 15 Euro."
+→ **Answer: A (Klassisches Konzert)** - classical music, weekend (Sunday), only 12€
+
+---
+
+**Teil 3: Museum Information**
+
+Read information about a museum (opening hours, tickets, rules) and answer multiple choice questions.
+
+**Common information types:**
+- Opening hours (different days)
+- Ticket prices (adults, students, children)
+- Guided tours
+- Museum rules
+- Facilities (café, shop, lockers)
+- Contact information
+
+**Sample Museum Information:**
+```
+Kunstmuseum Berlin
+
+Öffnungszeiten:
+Montag: Geschlossen
+Dienstag-Freitag: 10:00-18:00 Uhr
+Samstag-Sonntag: 9:00-19:00 Uhr
+
+Eintrittspreise:
+Erwachsene: 10€
+Studenten: 5€
+Kinder unter 12 Jahren: frei
+
+Führungen:
+Samstag und Sonntag um 14:00 Uhr
+Dauer: ca. 1 Stunde
+Anmeldung nicht nötig
+
+Café im Museum:
+Täglich 10:00-17:00 Uhr
+
+Regeln:
+- Fotografieren ohne Blitz erlaubt
+- Taschen bitte in Schließfächern lassen
+- Essen und Trinken nur im Café
+- Bitte leise sprechen
+
+Information:
+Tel: 030-987654
+E-Mail: info@kunstmuseum-berlin.de
+```
+
+**Sample Questions:**
+
+**Question 1:** Wann ist das Museum am Montag geöffnet?
+- A) 9:00-17:00 Uhr
+- B) 10:00-18:00 Uhr
+- C) Das Museum ist geschlossen ✓
+
+**Question 2:** Wie viel kostet der Eintritt für Studenten?
+- A) 5 Euro ✓
+- B) 8 Euro
+- C) 10 Euro
+
+**Question 3:** Wann sind die Führungen?
+- A) Jeden Tag um 11 Uhr
+- B) Samstag und Sonntag um 14 Uhr ✓
+- C) Nur am Freitag
+
+**Reading Strategy Tips for Arts Topics:**
+- Check opening days carefully - many museums closed on Monday
+- Look for price categories: adults, students, children
+- Führung = guided tour - check times and if registration needed
+- Geschlossen = closed, Geöffnet = open
+- Photo rules: mit Blitz = with flash, ohne Blitz = without flash
+
+---
+
+**Vocabulary Theme: Music & Arts**
+
+**Music & Instruments:**
+- **die Musik** (music) - "Ich höre gern Musik."
+- **das Konzert** (concert) - "Das Konzert beginnt um 20 Uhr."
+- **die Band** (band) - "Meine Lieblingsband spielt heute."
+- **der Sänger / die Sängerin** (singer m/f) - "Die Sängerin singt sehr schön."
+- **das Instrument** (instrument) - "Welches Instrument spielst du?"
+- **das Klavier** (piano) - "Ich spiele Klavier."
+- **die Gitarre** (guitar) - "Er spielt Gitarre."
+- **die Geige** (violin) - "Sie spielt Geige im Orchester."
+- **das Schlagzeug** (drums) - "Das Schlagzeug ist laut."
+- **die Flöte** (flute) - "Ich lerne Flöte spielen."
+
+**Music Genres:**
+- **die Klassik** (classical music) - "Ich mag klassische Musik."
+- **der Rock** (rock music) - "Rockmusik ist laut."
+- **der Pop** (pop music) - "Popmusik ist sehr populär."
+- **der Jazz** (jazz) - "Wir hören Jazz im Café."
+
+**Arts & Culture:**
+- **die Kunst** (art) - "Moderne Kunst ist interessant."
+- **das Museum** (museum) - "Das Museum ist heute geöffnet."
+- **die Galerie** (gallery) - "In der Galerie sind viele Bilder."
+- **die Ausstellung** (exhibition) - "Die Ausstellung ist bis Juni."
+- **das Bild** (picture/painting) - "Das Bild ist sehr schön."
+- **das Gemälde** (painting) - "Das Gemälde ist von Picasso."
+- **der Künstler / die Künstlerin** (artist m/f) - "Die Künstlerin malt Porträts."
+- **das Theater** (theater) - "Wir gehen ins Theater."
+- **die Oper** (opera) - "Die Oper beginnt um 19 Uhr."
+
+**Cultural Venues:**
+- **das Kulturzentrum** (cultural center) - "Das Konzert ist im Kulturzentrum."
+- **die Bühne** (stage) - "Die Band steht auf der Bühne."
+- **der Saal** (hall) - "Der Konzertsaal ist groß."
+
+**Tickets & Entry:**
+- **die Karte / das Ticket** (ticket) - "Ich habe zwei Karten für das Konzert."
+- **der Eintritt** (admission/entry) - "Der Eintritt kostet 10 Euro."
+- **frei** (free - no cost) - "Der Eintritt ist heute frei."
+- **die Führung** (guided tour) - "Die Führung beginnt um 14 Uhr."
+
+**Music & Arts Verbs:**
+- **spielen** (to play instrument) - "Ich spiele Gitarre."
+- **singen** (to sing) - "Sie singt sehr gut."
+- **hören** (to listen/hear) - "Wir hören Musik."
+- **malen** (to paint) - "Er malt gern Bilder."
+- **zeichnen** (to draw) - "Ich zeichne ein Porträt."
+- **besuchen** (to visit) - "Wir besuchen das Museum."
+- **ansehen / anschauen** (to look at/watch) - "Ich schaue mir die Bilder an."
+
+**Time & Events:**
+- **die Vorstellung** (performance/show) - "Die Vorstellung beginnt um 20 Uhr."
+- **beginnen / anfangen** (to begin/start) - "Das Konzert beginnt um 19 Uhr."
+- **dauern** (to last/take time) - "Das Konzert dauert 2 Stunden."
+- **geöffnet** (open) - "Das Museum ist geöffnet."
+- **geschlossen** (closed) - "Montags ist das Museum geschlossen."
+
+**Adjectives:**
+- **laut** (loud) - "Die Musik ist sehr laut."
+- **leise** (quiet) - "Bitte sprich leise im Museum."
+- **schön** (beautiful) - "Das Konzert war sehr schön."
+- **modern** (modern) - "Ich mag moderne Kunst."
+- **klassisch** (classical) - "Klassische Musik ist entspannend."
+
+**Sample Sentences for Practice:**
+1. "Ich gehe heute Abend ins Konzert."
+2. "Das Museum ist von 10 bis 18 Uhr geöffnet."
+3. "Welches Instrument spielst du? - Ich spiele Klavier."
+4. "Die Ausstellung ist sehr interessant."
+5. "Ich mag klassische Musik."
+6. "Der Eintritt für Studenten kostet 5 Euro."
+7. "Die Führung beginnt um 14 Uhr."
+8. "Möchtest du mit ins Theater kommen?"
+
+**Exam Tips for Day 15:**
+
+**For Listening:**
+- Listen for event times (concert, museum opening hours)
+- Note ticket prices carefully
+- Pay attention to music genres (Jazz, Rock, Klassik)
+- Listen for Lieblings- words (favorite): Lieblingsband, Lieblingsmusik
+
+**For Reading:**
+- Opening hours: Check which days are geschlossen (closed)
+- Prices: Look for different categories (Erwachsene, Studenten, Kinder)
+- Führungen: Check if Anmeldung (registration) is needed
+- Rules: fotografieren (photography), essen (eating) - often restricted
+
+**Time Management:**
+- Reading all three parts: ~25 minutes total
+- Don't spend more than 8 minutes per Teil
 
 ---
 
 ### Day 16: ✍️ Writing + 🗣️ Speaking
-**Focus:** Planning trips and giving directions
+**Focus:** Pets and animals
 
 **Writing Practice:**
-- Write about travel plans
-- Ask for travel information
-- Respond to trip invitations
+
+**Task 1: Write About Your Pet**
+
+Write a message describing your pet or a pet you would like to have.
+
+**Structure to follow:**
+1. What kind of animal?
+2. Name and age
+3. Appearance (color, size)
+4. What it likes to do
+5. Why you like it
+
+**Sample text about a pet (38 words):**
+```
+Liebe Maria,
+
+ich habe einen Hund. Er heißt Max und ist 3 Jahre alt. Er ist groß und braun. Max spielt gern im Park und schwimmt gern. Er ist sehr freundlich und mag Kinder. Ich liebe meinen Hund!
+
+Liebe Grüße
+Tom
+```
+
+**Key phrases:**
+- "Ich habe einen/eine..." (I have a...)
+- "Er/Sie heißt..." (His/Her name is...)
+- "Er/Sie ist... Jahre alt" (He/She is... years old)
+- "Er/Sie ist... (groß/klein/freundlich)" (He/She is... big/small/friendly)
+- "Er/Sie mag... / Er/Sie spielt gern..." (He/She likes... / He/She likes to play...)
+
+---
+
+**Task 2: Ask About Pet Care**
+
+Write to ask for help or information about taking care of a pet.
+
+**Must include all 3 points:**
+1. What pet do you have?
+2. What problem/question do you have?
+3. When can you meet/talk?
+
+**Sample inquiry about pet care (42 words):**
+```
+Lieber Herr Schmidt,
+
+ich habe eine Katze. Sie heißt Luna. Nächste Woche fahre ich in Urlaub. Können Sie meine Katze füttern? Sie braucht zweimal pro Tag Futter. Ich gebe Ihnen den Schlüssel. Vielen Dank!
+
+Viele Grüße
+Anna
+```
+
+**Key phrases:**
+- "Können Sie...?" (Can you...?)
+- "Ich fahre in Urlaub" (I'm going on vacation)
+- "füttern" (to feed)
+- "Gassi gehen" (to walk the dog)
+- "Brauchen Sie Hilfe?" (Do you need help?)
+
+---
+
+**Task 3: Respond to Pet Adoption**
+
+Write about adopting or finding a pet.
+
+**Sample response to pet advertisement (36 words):**
+```
+Sehr geehrte Damen und Herren,
+
+ich habe Ihre Anzeige gelesen. Ich interessiere mich für den Hund. Wie alt ist er? Ist er freundlich zu Kindern? Wann kann ich ihn besuchen?
+
+Mit freundlichen Grüßen
+Lisa Müller
+```
+
+**Key phrases:**
+- "Ich interessiere mich für..." (I'm interested in...)
+- "Wie alt ist...?" (How old is...?)
+- "Ist er/sie...?" (Is he/she...?)
+- "Wann kann ich...?" (When can I...?)
+
+---
 
 **Speaking Practice:**
-- Ask about transportation options
-- Tell time and schedules
-- Make travel-related requests
 
-**Vocabulary Theme:** Directions & Locations (links, rechts, geradeaus, neben, vor, hinter)
+**Teil 1: Talk About Your Pet**
+
+Describe your pet or an animal you like.
+
+**Key structures to practice:**
+- "Ich habe einen/eine..." (I have a...)
+- "Er/Sie heißt..." (His/Her name is...)
+- "Er/Sie ist... Jahre alt." (He/She is... years old.)
+- "Er/Sie mag..." (He/She likes...)
+
+**Sample monologue about a pet:**
+```
+Ja, ich habe eine Katze. Sie heißt Mimi. Sie ist klein und schwarz-weiß. Mimi ist 5 Jahre alt. Sie schläft sehr gern und spielt mit einem Ball. Sie ist sehr süß und kuschelt gern. Ich liebe meine Katze sehr. Sie ist wie Familie für mich.
+```
+
+**Common questions to prepare for:**
+- "Haben Sie ein Haustier?" (Do you have a pet?)
+- "Was für ein Tier ist das?" (What kind of animal is it?)
+- "Wie sieht Ihr Haustier aus?" (What does your pet look like?)
+- "Was macht Ihr Haustier gern?" (What does your pet like to do?)
+
+---
+
+**Teil 2: Ask and Answer Questions About Pets**
+
+Practice asking and responding to questions about animals and pets.
+
+**Common pet questions:**
+- "Haben Sie ein Haustier?" (Do you have a pet?)
+- "Was für ein Tier mögen Sie?" (What kind of animal do you like?)
+- "Wo wohnt Ihr Haustier?" (Where does your pet live?)
+- "Was frisst Ihr Haustier?" (What does your pet eat?)
+- "Wie oft füttern Sie Ihr Haustier?" (How often do you feed your pet?)
+- "Waren Sie schon mal im Zoo?" (Have you ever been to the zoo?)
+
+**Sample Q&A dialogue:**
+```
+A: Haben Sie ein Haustier?
+B: Ja, ich habe zwei Katzen.
+
+A: Wie heißen sie?
+B: Sie heißen Tom und Jerry.
+
+A: Was machen sie gern?
+B: Sie spielen gern und schlafen viel. Katzen schlafen sehr viel!
+
+A: Mögen Sie Hunde?
+B: Ja, sehr! Hunde sind sehr freundlich. Aber ich habe keine Zeit für einen Hund. Hunde brauchen viel Zeit.
+
+A: Welches Tier ist Ihr Lieblingstier?
+B: Ich mag Pferde sehr gern. Sie sind schön und intelligent.
+```
+
+---
+
+**Teil 3: Pet Care Situations**
+
+Practice making requests or asking for help related to pets.
+
+**Sample Situation 1 - Asking someone to pet-sit:**
+```
+A: Hallo Peter! Ich habe eine Bitte. Ich fahre nächste Woche nach Italien.
+B: Ja? Wie lange bist du weg?
+A: Eine Woche. Kannst du auf meinen Hund aufpassen?
+B: Ja, kein Problem! Was muss ich machen?
+A: Du musst ihn zweimal pro Tag füttern und mit ihm spazieren gehen.
+B: Das mache ich gern!
+```
+
+**Sample Situation 2 - At the vet:**
+```
+A: Guten Tag. Mein Hund ist krank. Er frisst nicht.
+B: Seit wann frisst er nicht?
+A: Seit gestern. Und er schläft die ganze Zeit.
+B: Ich untersuche ihn. Bitte warten Sie einen Moment.
+A: Ist es ernst?
+B: Nein, er hat nur Magenschmerzen. Ich gebe ihm Medizin.
+```
+
+**Sample Situation 3 - Asking about park rules:**
+```
+A: Entschuldigung, darf ich hier mit meinem Hund spazieren gehen?
+B: Ja, aber der Hund muss an der Leine bleiben.
+A: Verstehe. Gibt es einen Bereich für Hunde ohne Leine?
+B: Ja, dort hinten ist eine Hundewiese. Da dürfen Hunde frei laufen.
+```
+
+**Key Strategies for Speaking About Pets:**
+
+**When talking about your pet:**
+- ✅ Mention specific details: name, age, color, size
+- ✅ Describe personality: freundlich, intelligent, süß
+- ✅ Talk about activities: spielen, schlafen, laufen
+- ✅ Show emotion: Ich liebe meinen Hund!
+
+**When asking for pet care help:**
+- ✅ Be clear about what you need: füttern, Gassi gehen
+- ✅ Mention how often: zweimal pro Tag, jeden Morgen
+- ✅ Be polite: Kannst du...? Könntest du...?
+- ✅ Thank the person: Vielen Dank!
+
+---
+
+**Vocabulary Theme: Pets & Animals**
+
+**Common Pets:**
+- **das Haustier** (pet) - "Ich habe ein Haustier."
+- **der Hund** (dog) - "Mein Hund heißt Max."
+- **die Katze** (cat) - "Die Katze schläft auf dem Sofa."
+- **der Fisch** (fish) - "Ich habe drei Fische."
+- **der Vogel** (bird) - "Der Vogel singt schön."
+- **das Kaninchen** (rabbit) - "Das Kaninchen ist sehr süß."
+- **der Hamster** (hamster) - "Der Hamster läuft im Rad."
+- **die Maus** (mouse) - "Ich habe eine weiße Maus."
+
+**Farm & Wild Animals:**
+- **das Pferd** (horse) - "Ich reite gern Pferd."
+- **die Kuh** (cow) - "Die Kuh gibt Milch."
+- **das Schwein** (pig) - "Das Schwein ist rosa."
+- **das Schaf** (sheep) - "Das Schaf hat weiße Wolle."
+- **das Huhn** (chicken) - "Das Huhn legt Eier."
+- **der Elefant** (elephant) - "Der Elefant ist sehr groß."
+- **der Löwe** (lion) - "Der Löwe ist gefährlich."
+- **der Affe** (monkey) - "Der Affe klettert auf den Baum."
+- **das Zebra** (zebra) - "Das Zebra hat Streifen."
+
+**Animal Characteristics:**
+- **groß** (big/large) - "Der Hund ist groß."
+- **klein** (small) - "Die Katze ist klein."
+- **süß** (cute/sweet) - "Das Kaninchen ist sehr süß."
+- **freundlich** (friendly) - "Mein Hund ist freundlich."
+- **gefährlich** (dangerous) - "Der Löwe ist gefährlich."
+- **intelligent** (intelligent) - "Hunde sind sehr intelligent."
+- **schnell** (fast) - "Das Pferd läuft schnell."
+- **langsam** (slow) - "Die Schildkröte ist langsam."
+
+**Pet Care:**
+- **füttern** (to feed) - "Ich füttere meinen Hund zweimal pro Tag."
+- **das Futter** (food for animals) - "Das Futter für Katzen."
+- **fressen** (to eat - animals) - "Der Hund frisst sein Futter."
+- **trinken** (to drink) - "Die Katze trinkt Wasser."
+- **spielen** (to play) - "Der Hund spielt mit dem Ball."
+- **schlafen** (to sleep) - "Katzen schlafen viel."
+- **laufen** (to run/walk) - "Der Hund läuft im Park."
+- **spazieren gehen** (to go for a walk) - "Ich gehe mit dem Hund spazieren."
+- **Gassi gehen** (to walk the dog) - "Ich gehe dreimal pro Tag Gassi."
+
+**Pet-Related Places & Things:**
+- **der Tierarzt / die Tierärztin** (veterinarian m/f) - "Der Tierarzt untersucht meinen Hund."
+- **der Zoo** (zoo) - "Im Zoo gibt es viele Tiere."
+- **der Park** (park) - "Wir gehen in den Park."
+- **die Leine** (leash) - "Der Hund muss an der Leine bleiben."
+- **der Käfig** (cage) - "Der Vogel ist im Käfig."
+- **das Aquarium** (aquarium) - "Die Fische schwimmen im Aquarium."
+- **der Korb** (basket/bed for pets) - "Die Katze schläft in ihrem Korb."
+- **das Halsband** (collar) - "Der Hund hat ein rotes Halsband."
+
+**Animal Actions:**
+- **bellen** (to bark) - "Der Hund bellt laut."
+- **miauen** (to meow) - "Die Katze miaut."
+- **singen** (to sing - birds) - "Der Vogel singt am Morgen."
+- **schwimmen** (to swim) - "Fische schwimmen im Wasser."
+- **fliegen** (to fly) - "Vögel können fliegen."
+- **klettern** (to climb) - "Katzen klettern auf Bäume."
+- **springen** (to jump) - "Der Hund springt hoch."
+
+**Adjectives & Descriptions:**
+- **das Lieblingstier** (favorite animal) - "Mein Lieblingstier ist der Hund."
+- **wild** (wild) - "Löwen sind wilde Tiere."
+- **zahm** (tame) - "Meine Katze ist sehr zahm."
+- **krank** (sick) - "Mein Hund ist krank."
+- **gesund** (healthy) - "Die Katze ist gesund."
+
+**Sample Sentences for Practice:**
+1. "Ich habe einen Hund. Er heißt Bello und ist sehr freundlich."
+2. "Meine Katze schläft gern auf dem Sofa."
+3. "Können Sie meinen Hund füttern? Ich bin im Urlaub."
+4. "Jeden Morgen gehe ich mit meinem Hund Gassi."
+5. "Im Zoo gibt es viele Tiere: Elefanten, Löwen und Affen."
+6. "Der Tierarzt sagt, mein Hund ist gesund."
+7. "Hunde müssen an der Leine bleiben."
+8. "Mein Lieblingstier ist das Pferd. Pferde sind sehr schön."
+
+**Exam Tips for Day 16:**
+
+**For Writing:**
+- Describe pets with specific details: name, age, appearance
+- Use simple present tense for habits: "Er spielt gern", "Sie schläft viel"
+- Be polite when asking for help: "Können Sie...?" "Könnten Sie...?"
+- Always address all 3 points in the task
+
+**For Speaking:**
+- Prepare a few sentences about a pet (real or imaginary)
+- Know basic animal vocabulary and sounds (bellen, miauen)
+- Practice pet care phrases: füttern, Gassi gehen, aufpassen
+- Show emotion when appropriate: "Ich liebe meinen Hund!"
+
+**Common Mistakes to Avoid:**
+- ❌ Confusing essen (people eat) with fressen (animals eat)
+- ❌ Forgetting article gender: der Hund, die Katze, das Pferd
+- ❌ Using wrong verb for "to have": "Ich habe" not "Ich bin"
+- ❌ Not specifying how often: say "zweimal pro Tag" not just "manchmal"
 
 ---
 
 ### Day 17: 🎧 Listening + 📖 Reading
-**Focus:** Housing and living situations
+**Focus:** Technology and internet
 
 **Listening Practice:**
-- Dialogues about apartments and rooms
-- Announcements about housing offers
-- Phone conversations about rental inquiries
+
+Practice listening to short conversations about computers, smartphones, internet problems, and technical help.
+
+*Placeholder: Listen to 6 short dialogues about technology, internet, and technical issues. You will hear each dialogue twice. Answer questions about technical problems, device usage, and getting help.*
+
+**Common listening topics:**
+- Computer or internet problems
+- Asking for technical help
+- Discussing smartphones and apps
+- Password and login issues
+- Buying new devices
+
+---
 
 **Reading Practice:**
-- Apartment advertisements
-- Housing descriptions
-- Roommate search posts
 
-**Vocabulary Theme:** Rooms & Furniture (Zimmer, Küche, Bad, Tisch, Stuhl, Bett, Schrank)
+**Teil 1: Messages about Technical Issues**
+
+Read short personal messages about computer problems, internet issues, and technical help. Answer True/False questions.
+
+**Sample text types:**
+- Messages about broken devices
+- Requests for technical help
+- Internet connection problems
+- Questions about apps or programs
+- Computer repair arrangements
+
+**What to look for:**
+- What device has a problem (computer, phone, internet)
+- What the specific problem is
+- Who can help
+- When help is needed
+- Cost of repairs if mentioned
+
+**Sample Email:**
+```
+Hallo Tom,
+
+ich habe ein Problem! Mein Computer ist alt und langsam. Das Internet funktioniert nicht.
+Ich brauche das Internet für die Arbeit. Kannst du mir helfen? Oder kennst du einen guten
+Techniker? Der Techniker von der Computerfirma kommt heute Nachmittag. Aber er ist sehr teuer!
+
+Viele Grüße
+Lisa
+```
+
+**Sample Questions:**
+1. Der Computer ist neu. → **Falsch** (It's old - alt)
+2. Das Internet funktioniert nicht. → **Richtig**
+3. Lisa braucht das Internet für die Arbeit. → **Richtig**
+4. Der Techniker kommt morgen. → **Falsch** (He comes this afternoon - heute Nachmittag)
+
+---
+
+**Teil 2: Technology Service Advertisements**
+
+Match people's technology needs to appropriate service advertisements.
+
+**Sample advertisement types:**
+- Computer repair services
+- Smartphone repair (screen, battery)
+- Computer courses for beginners
+- Internet café services
+- Tech support hotlines
+- Software installation services
+
+**Matching criteria to consider:**
+- Type of problem (repair, learning, internet access)
+- Speed of service needed
+- Price range
+- Device type (computer, smartphone, tablet)
+- Skill level (beginner, advanced)
+
+**Sample Advertisement A:**
+```
+Computer-Reparatur Blitzschnell
+Schnellservice für alle Probleme
+Kleine Reparaturen: 30€
+Große Reparaturen: ab 50€
+Hausbesuch möglich
+Tel: 030-555-TECH
+```
+
+**Sample Advertisement B:**
+```
+Computerkurs für Anfänger
+Lernen Sie die Grundlagen!
+8 Wochen, 2x pro Woche
+Montag & Mittwoch 18:00-20:00 Uhr
+Kursgebühr: 120€
+Anmeldung: www.pc-schule.de
+```
+
+**Sample Situation:**
+"Peter hat ein Problem mit seinem Laptop. Er braucht schnelle Hilfe. Das Problem ist nicht kompliziert."
+→ **Answer: A (Computer-Reparatur)** - quick service for laptop repair, small problems
+
+---
+
+**Teil 3: Internet Café Information**
+
+Read information about an internet café (prices, hours, services) and answer multiple choice questions.
+
+**Common information types:**
+- Opening hours
+- Internet access prices
+- Printing and scanning costs
+- Rules and regulations
+- Available services
+- Payment methods
+- Contact information
+
+**Sample Internet Café Information:**
+```
+Internet-Café CyberConnect
+
+Öffnungszeiten:
+Montag-Freitag: 9:00-22:00 Uhr
+Samstag: 10:00-22:00 Uhr
+Sonntag: 12:00-18:00 Uhr
+
+Preise:
+30 Minuten: 2€
+1 Stunde: 3€
+3 Stunden: 8€
+Ganzer Tag: 15€
+
+Services:
+- Schnelles WLAN
+- Drucken: 0,20€ pro Seite
+- Scannen: 0,50€ pro Seite
+- Computer mit Office-Programmen
+- Headsets für Videoanrufe
+
+Regeln:
+- Bitte leise sprechen
+- Essen verboten
+- Getränke erlaubt
+- Rauchen verboten
+- Maximal 4 Stunden ohne Pause
+
+Café:
+- Kaffee, Tee, Limonade
+- Kuchen und Snacks
+- Bezahlung nur bar
+
+Kontakt:
+Tel: 030-123456
+E-Mail: info@cyberconnect.de
+Adresse: Hauptstraße 15, 10115 Berlin
+```
+
+**Sample Questions:**
+
+**Question 1:** Wie viel kostet eine Stunde Internet?
+- A) 2 Euro
+- B) 3 Euro ✓
+- C) 5 Euro
+
+**Question 2:** Bis wann ist das Internet-Café am Sonntag geöffnet?
+- A) 18:00 Uhr ✓
+- B) 20:00 Uhr
+- C) 22:00 Uhr
+
+**Question 3:** Was kann man im Café kaufen?
+- A) Nur Kaffee
+- B) Kaffee und Kuchen ✓
+- C) Nur Computer
+
+**Reading Strategy Tips for Technology Topics:**
+- Look for price patterns: per hour, per page, total cost
+- Times use 24-hour format: 22:00 = 10 PM
+- Services often listed with costs: Drucken 0,20€
+- Rules use verboten (forbidden) and erlaubt (allowed)
+- Tech vocab: WLAN, drucken, scannen, Computer
+
+---
+
+**Vocabulary Theme: Technology & Internet**
+
+**Devices:**
+- **der Computer / der PC** (computer) - "Mein Computer ist neu."
+- **der Laptop** (laptop) - "Ich arbeite am Laptop."
+- **das Handy / das Smartphone** (mobile phone/smartphone) - "Mein Handy ist kaputt."
+- **das Tablet** (tablet) - "Ich lese auf dem Tablet."
+- **der Bildschirm** (screen) - "Der Bildschirm ist groß."
+- **die Tastatur** (keyboard) - "Die Tastatur funktioniert nicht."
+- **die Maus** (mouse - computer) - "Ich brauche eine neue Maus."
+- **der Drucker** (printer) - "Der Drucker druckt nicht."
+
+**Internet & Communication:**
+- **das Internet** (internet) - "Das Internet ist langsam."
+- **das WLAN / WiFi** (WiFi) - "Gibt es hier WLAN?"
+- **die E-Mail** (email) - "Ich schreibe eine E-Mail."
+- **die Nachricht / die SMS** (message/text) - "Ich schicke dir eine Nachricht."
+- **die Website / die Webseite** (website) - "Die Website ist interessant."
+- **der Blog** (blog) - "Ich lese einen Blog."
+- **das soziale Netzwerk** (social network) - "Facebook ist ein soziales Netzwerk."
+
+**Internet Actions:**
+- **surfen / im Internet surfen** (to surf the internet) - "Ich surfe im Internet."
+- **googeln / suchen** (to google/search) - "Ich google die Information."
+- **herunterladen / downloaden** (to download) - "Ich lade die App herunter."
+- **hochladen** (to upload) - "Ich lade Fotos hoch."
+- **schicken / senden** (to send) - "Ich schicke dir die E-Mail."
+- **empfangen** (to receive) - "Ich empfange eine Nachricht."
+- **klicken** (to click) - "Klicken Sie hier."
+- **tippen** (to type) - "Ich tippe eine Nachricht."
+
+**Apps & Programs:**
+- **die App / die Anwendung** (app/application) - "Ich habe eine neue App."
+- **das Programm** (program) - "Das Programm ist kostenlos."
+- **die Software** (software) - "Die Software ist gut."
+- **das Passwort** (password) - "Ich habe mein Passwort vergessen."
+- **der Benutzername** (username) - "Mein Benutzername ist Max123."
+
+**Problems & Technical Terms:**
+- **das Problem** (problem) - "Ich habe ein Problem mit dem Computer."
+- **der Fehler** (error) - "Es gibt einen Fehler."
+- **kaputt** (broken) - "Mein Handy ist kaputt."
+- **langsam** (slow) - "Das Internet ist sehr langsam."
+- **schnell** (fast) - "Das WLAN ist schnell."
+- **funktionieren** (to work/function) - "Der Computer funktioniert nicht."
+- **reparieren** (to repair) - "Ich muss mein Handy reparieren."
+- **installieren** (to install) - "Ich installiere ein Programm."
+- **aktualisieren / updaten** (to update) - "Ich aktualisiere die App."
+- **löschen** (to delete) - "Ich lösche alte E-Mails."
+- **speichern** (to save) - "Bitte speichern Sie die Datei."
+
+**Technology Verbs:**
+- **anmachen / einschalten** (to turn on) - "Ich schalte den Computer ein."
+- **ausmachen / ausschalten** (to turn off) - "Ich schalte das Handy aus."
+- **laden / aufladen** (to charge) - "Ich lade mein Handy auf."
+- **verbinden** (to connect) - "Ich verbinde mich mit dem WLAN."
+- **drucken** (to print) - "Ich drucke das Dokument."
+- **scannen** (to scan) - "Können Sie das Dokument scannen?"
+
+**Adjectives & Descriptions:**
+- **online** (online) - "Ich bin online."
+- **offline** (offline) - "Mein Computer ist offline."
+- **kostenlos** (free - of charge) - "Die App ist kostenlos."
+- **teuer** (expensive) - "Das neue Handy ist teuer."
+- **einfach** (simple/easy) - "Das Programm ist einfach."
+- **kompliziert** (complicated) - "Die Website ist kompliziert."
+- **neu** (new) - "Ich habe einen neuen Computer."
+- **alt** (old) - "Mein Laptop ist alt."
+
+**Help & Support:**
+- **die Hilfe** (help) - "Ich brauche Hilfe."
+- **der Techniker / die Technikerin** (technician m/f) - "Der Techniker repariert den Computer."
+- **der Support** (support) - "Ich rufe den Support an."
+- **helfen** (to help) - "Können Sie mir helfen?"
+
+**Sample Sentences for Practice:**
+1. "Mein Computer ist kaputt. Ich brauche einen Techniker."
+2. "Das Internet ist heute sehr langsam."
+3. "Kannst du mir mit dem Passwort helfen?"
+4. "Ich lade die App herunter."
+5. "Wo kann ich das Dokument drucken?"
+6. "Das WLAN funktioniert nicht."
+7. "Ich suche eine kostenlose App."
+8. "Der Bildschirm von meinem Handy ist kaputt."
+
+**Exam Tips for Day 17:**
+
+**For Listening:**
+- Listen for device names: Computer, Handy, Laptop
+- Note specific problems: kaputt, langsam, funktioniert nicht
+- Pay attention to prices: 30€, 50€, pro Stunde
+- Listen for who can help: Techniker, Support, Freund
+
+**For Reading:**
+- Scan for prices and opening hours first
+- Look for services: drucken, scannen, WLAN
+- Check rules: verboten (forbidden), erlaubt (allowed)
+- Technical problems are usually clearly stated
+- Note payment methods: bar (cash), Karte (card)
+
+**Time Management:**
+- Reading all three parts: ~25 minutes total
+- Don't spend more than 8 minutes per Teil
 
 ---
 
 ### Day 18: ✍️ Writing + 🗣️ Speaking
-**Focus:** Describing living spaces
+**Focus:** Festivals and celebrations
 
 **Writing Practice:**
-- Describe your home/room
-- Respond to housing advertisements
-- Write about living preferences
+
+**Task 1: Write About a Celebration**
+
+Write a message describing a celebration or party.
+
+**Structure to follow:**
+1. What celebration?
+2. When and where?
+3. Who came?
+4. What did you do?
+5. How was it?
+
+**Sample text about a birthday party (42 words):**
+```
+Liebe Anna,
+
+am Samstag hatte ich Geburtstag! Ich bin 25 Jahre alt geworden. Wir haben im Restaurant gefeiert. Meine Familie und Freunde sind gekommen. Wir haben gegessen, getanzt und viel gelacht. Es war ein toller Tag!
+
+Viele Grüße
+Lisa
+```
+
+**Key phrases:**
+- "Ich hatte Geburtstag" (It was my birthday)
+- "Wir haben gefeiert" (We celebrated)
+- "Es war..." (It was...)
+- "Ich bin... Jahre alt geworden" (I turned... years old)
+- "Es war toll/schön!" (It was great/nice!)
+
+---
+
+**Task 2: Invitation to a Party**
+
+Write an invitation to a celebration or party.
+
+**Must include all 3 points:**
+1. What celebration?
+2. When and where?
+3. What should guests bring or do?
+
+**Sample invitation to housewarming (38 words):**
+```
+Lieber Max,
+
+ich habe eine neue Wohnung! Am Samstag, den 15. Mai, mache ich eine Party ab 18 Uhr. Die Adresse ist Mozartstraße 10. Bring bitte etwas zu trinken mit. Ich freue mich auf dich!
+
+Bis dann!
+Tom
+```
+
+**Key phrases:**
+- "Ich lade dich ein" (I invite you)
+- "Kommst du zu...?" (Are you coming to...?)
+- "Am... um... Uhr" (On... at... o'clock)
+- "Bring bitte... mit" (Please bring...)
+- "Ich freue mich auf dich!" (I look forward to seeing you!)
+
+---
+
+**Task 3: Thank You for a Gift**
+
+Write a thank you message for a gift or for coming to your celebration.
+
+**Sample thank you note (34 words):**
+```
+Liebe Sarah,
+
+vielen Dank für das schöne Geschenk! Das Buch ist toll. Ich lese es gerade. Es war auch schön, dass du zu meiner Party gekommen bist. Bis bald!
+
+Liebe Grüße
+Julia
+```
+
+**Key phrases:**
+- "Vielen Dank für..." (Thank you very much for...)
+- "Das Geschenk ist toll/schön" (The gift is great/nice)
+- "Ich habe mich gefreut" (I was happy)
+- "Danke, dass du gekommen bist" (Thanks for coming)
+
+---
 
 **Speaking Practice:**
-- Talk about your apartment/house
-- Ask and answer questions about living situations
-- Describe rooms and furniture
 
-**Vocabulary Theme:** Housing Verbs (wohnen, mieten, suchen, finden)
+**Teil 1: Talk About Your Favorite Holiday**
+
+Describe your favorite celebration or holiday.
+
+**Key structures to practice:**
+- "Mein Lieblingsfest ist..." (My favorite holiday is...)
+- "Wir feiern... am..." (We celebrate... on...)
+- "Ich feiere mit..." (I celebrate with...)
+- "Wir... (essen/tanzen/schenken)" (We... eat/dance/give gifts)
+
+**Sample monologue about Christmas:**
+```
+Mein Lieblingsfest ist Weihnachten. Wir feiern Weihnachten am 24., 25. und 26. Dezember. Ich feiere mit meiner Familie. Wir dekorieren einen Weihnachtsbaum. Wir schenken Geschenke. Am 24. Dezember essen wir zusammen. Es gibt Gans oder Fisch. Dann singen wir Weihnachtslieder. Ich mag Weihnachten sehr, weil die ganze Familie zusammen ist.
+```
+
+**Common questions to prepare for:**
+- "Was ist Ihr Lieblingsfest?" (What's your favorite holiday?)
+- "Wann feiern Sie dieses Fest?" (When do you celebrate this holiday?)
+- "Wie feiern Sie?" (How do you celebrate?)
+- "Mit wem feiern Sie?" (Who do you celebrate with?)
+
+---
+
+**Teil 2: Ask and Answer About Celebrations**
+
+Practice asking and responding to questions about holidays and parties.
+
+**Common celebration questions:**
+- "Welche Feste feiern Sie?" (Which holidays do you celebrate?)
+- "Wann haben Sie Geburtstag?" (When is your birthday?)
+- "Wie feiern Sie Ihren Geburtstag?" (How do you celebrate your birthday?)
+- "Was schenken Sie gern?" (What do you like to give as gifts?)
+- "Was ist das wichtigste Fest in Ihrem Land?" (What's the most important holiday in your country?)
+
+**Sample Q&A dialogue:**
+```
+A: Wann haben Sie Geburtstag?
+B: Ich habe am 15. März Geburtstag.
+
+A: Wie alt werden Sie?
+B: Ich werde 28 Jahre alt.
+
+A: Wie feiern Sie?
+B: Ich mache eine große Party. Ich lade alle meine Freunde ein. Wir tanzen und haben Spaß.
+
+A: Was schenken Sie gern?
+B: Ich schenke gern Bücher. Oder ich schenke Konzertkarten. Ich finde, Erlebnisse sind besser als Dinge.
+
+A: Welches Fest mögen Sie am liebsten?
+B: Ich mag Silvester am liebsten. An Silvester feiern wir das neue Jahr. Um Mitternacht gibt es Feuerwerk. Das ist sehr schön!
+```
+
+---
+
+**Teil 3: Plan a Celebration Together**
+
+Practice planning a party or celebration with someone.
+
+**Sample planning dialogue:**
+```
+A: Wir müssen Peters Geburtstag planen. Wann machen wir die Party?
+B: Am Samstag? Peter hat am Freitag Geburtstag.
+
+A: Gut. Wo feiern wir?
+B: Vielleicht bei mir zu Hause? Ich habe eine große Wohnung.
+
+A: Super! Ich bringe den Kuchen mit.
+B: Und ich kaufe die Getränke. Was schenken wir ihm?
+
+A: Peter mag Musik. Vielleicht eine CD oder Konzertkarten?
+B: Gute Idee! Ich kaufe zwei Konzertkarten für sein Lieblingskonzert.
+```
+
+**Key Strategies for Speaking About Celebrations:**
+
+**When talking about holidays:**
+- ✅ Mention specific dates and traditions
+- ✅ Explain who you celebrate with
+- ✅ Describe typical activities: essen, tanzen, schenken
+- ✅ Show enthusiasm: "Ich liebe...", "Es ist toll!"
+
+**When planning celebrations:**
+- ✅ Ask and suggest: "Wo feiern wir?", "Vielleicht..."
+- ✅ Divide responsibilities: "Ich bringe...", "Du kaufst..."
+- ✅ Make decisions together
+- ✅ Be specific about time and place
+
+---
+
+**Vocabulary Theme: Festivals & Celebrations**
+
+**Celebrations & Holidays:**
+- **das Fest / die Feier** (celebration/party) - "Wir haben ein großes Fest."
+- **die Party** (party) - "Kommst du zu meiner Party?"
+- **der Geburtstag** (birthday) - "Ich habe am 15. Mai Geburtstag."
+- **die Hochzeit** (wedding) - "Die Hochzeit ist im Juni."
+- **Weihnachten** (Christmas) - "Wir feiern Weihnachten im Dezember."
+- **Ostern** (Easter) - "Ostern ist im Frühling."
+- **Silvester / Neujahr** (New Year's Eve / New Year) - "An Silvester gibt es Feuerwerk."
+- **der Feiertag** (holiday) - "Weihnachten ist ein Feiertag."
+- **das Jubiläum** (anniversary/jubilee) - "Wir feiern unser 10-jähriges Jubiläum."
+
+**Birthday Expressions:**
+- **Herzlichen Glückwunsch!** (Congratulations!) - "Herzlichen Glückwunsch zum Geburtstag!"
+- **Alles Gute!** (All the best!) - "Alles Gute zum Geburtstag!"
+- **Ich gratuliere!** (I congratulate!) - "Ich gratuliere dir zum Geburtstag!"
+
+**Party Elements:**
+- **das Geschenk** (gift/present) - "Das Geschenk ist schön."
+- **die Einladung** (invitation) - "Danke für die Einladung!"
+- **der Gast** (guest) - "Wir haben viele Gäste."
+- **der Gastgeber** (host) - "Der Gastgeber kocht das Essen."
+- **die Musik** (music) - "Die Musik ist laut."
+- **der Kuchen** (cake) - "Der Geburtstagskuchen ist lecker."
+- **die Kerze** (candle) - "Auf dem Kuchen sind 25 Kerzen."
+- **die Dekoration** (decoration) - "Die Dekoration ist schön."
+- **der Ballon** (balloon) - "Wir haben bunte Ballons."
+
+**Actions at Celebrations:**
+- **feiern** (to celebrate) - "Wir feiern meinen Geburtstag."
+- **einladen** (to invite) - "Ich lade dich zu meiner Party ein."
+- **schenken** (to give as a gift) - "Was schenkst du ihr?"
+- **gratulieren** (to congratulate) - "Ich gratuliere dir!"
+- **tanzen** (to dance) - "Wir tanzen die ganze Nacht."
+- **singen** (to sing) - "Wir singen ein Geburtstagslied."
+- **anstoßen** (to toast/clink glasses) - "Wir stoßen mit Champagner an."
+- **lachen** (to laugh) - "Wir lachen viel auf der Party."
+- **Spaß haben** (to have fun) - "Wir haben viel Spaß!"
+
+**Gift-Related:**
+- **das Geschenkpapier** (wrapping paper) - "Ich brauche Geschenkpapier."
+- **die Blumen** (flowers) - "Ich schenke ihr Blumen."
+- **die Schokolade** (chocolate) - "Schokolade ist ein gutes Geschenk."
+- **das Geld** (money) - "Manche schenken Geld."
+- **die Karte** (card) - "Ich schreibe eine Geburtstagskarte."
+
+**Christmas Vocabulary:**
+- **der Weihnachtsbaum** (Christmas tree) - "Wir schmücken den Weihnachtsbaum."
+- **der Weihnachtsmann** (Santa Claus) - "Der Weihnachtsmann bringt Geschenke."
+- **das Weihnachtslied** (Christmas carol) - "Wir singen Weihnachtslieder."
+- **die Gans** (goose) - "An Weihnachten essen wir Gans."
+
+**New Year's Vocabulary:**
+- **das Feuerwerk** (fireworks) - "Um Mitternacht gibt es Feuerwerk."
+- **das neue Jahr** (new year) - "Frohes neues Jahr!"
+- **der Sekt / der Champagner** (sparkling wine/champagne) - "Wir trinken Sekt."
+- **Prosit! / Prost!** (Cheers!) - "Prost Neujahr!"
+
+**Party Verbs:**
+- **organisieren** (to organize) - "Ich organisiere die Party."
+- **dekorieren / schmücken** (to decorate) - "Wir dekorieren das Haus."
+- **mitbringen** (to bring along) - "Bring bitte etwas zu trinken mit."
+- **kommen** (to come) - "Kommst du zu meiner Party?"
+- **sich freuen** (to be happy/look forward to) - "Ich freue mich auf die Party!"
+
+**Adjectives:**
+- **toll** (great) - "Die Party war toll!"
+- **schön** (beautiful/nice) - "Das war ein schöner Tag."
+- **lustig** (funny/fun) - "Die Party war sehr lustig."
+- **fröhlich** (happy/cheerful) - "Alle sind fröhlich."
+- **besonders** (special) - "Das ist ein besonderer Tag."
+
+**Sample Sentences for Practice:**
+1. "Ich habe am 10. Juni Geburtstag. Ich werde 30 Jahre alt."
+2. "Kommst du zu meiner Party? Sie ist am Samstag um 19 Uhr."
+3. "Vielen Dank für das schöne Geschenk!"
+4. "Wir feiern Weihnachten mit der ganzen Familie."
+5. "An Silvester gibt es um Mitternacht Feuerwerk."
+6. "Ich schenke meiner Mutter Blumen zum Geburtstag."
+7. "Die Party war toll! Wir haben viel getanzt und gelacht."
+8. "Herzlichen Glückwunsch zum Geburtstag!"
+
+**Exam Tips for Day 18:**
+
+**For Writing:**
+- Party invitations should include: what, when, where, what to bring
+- Use past tense for describing celebrations: "hatte", "war", "haben gefeiert"
+- Thank you notes: mention the specific gift and say something nice about it
+- Show enthusiasm: "toll!", "schön!", "Ich freue mich!"
+
+**For Speaking:**
+- Prepare a short description of your favorite holiday
+- Practice birthday-related phrases: "Ich habe Geburtstag", "Ich werde... Jahre alt"
+- Know key celebration vocabulary: feiern, schenken, einladen
+- Express emotions: "Ich liebe...", "Es macht Spaß"
+
+**Common Mistakes to Avoid:**
+- ❌ Confusing Geburtstag (birthday) with Jubiläum (anniversary)
+- ❌ Wrong verb: "Ich bin Geburtstag" → "Ich habe Geburtstag"
+- ❌ Forgetting separable prefix: "Ich lade ein dich" → "Ich lade dich ein"
+- ❌ Wrong preposition: "zum Party" → "zur Party" (Party is feminine)
+
+---
+
+**Speaking Practice:**
+
+**Teil 1: Describe Where You Live**
+
+Learn to present information about your home clearly and confidently.
+
+**How to structure your description:**
+1. Start with housing type: "Ich wohne in einem Haus / einer Wohnung / einem Zimmer."
+2. Give size/room count: "Die Wohnung hat drei Zimmer."
+3. Describe the rooms: "Es gibt ein Wohnzimmer, ein Schlafzimmer und eine Küche."
+4. Add special features: "Wir haben einen Balkon / einen Garten."
+5. Mention location: "Die Wohnung ist im Zentrum / in der Nähe vom Bahnhof."
+
+**Sample description of apartment:**
+```
+Ich wohne in einer Wohnung in Hamburg. Die Wohnung ist im zweiten Stock.
+Sie hat drei Zimmer: ein Wohnzimmer, ein Schlafzimmer und ein Arbeitszimmer.
+Die Küche ist groß und modern. Wir haben auch einen Balkon.
+Das Bad ist klein aber neu. Die Wohnung ist hell und gemütlich.
+Ich wohne in der Nähe vom Bahnhof. Das ist sehr praktisch.
+```
+
+**Sample description of shared room:**
+```
+Ich wohne in einer WG. Ich habe ein eigenes Zimmer.
+Das Zimmer ist 18 Quadratmeter groß. Es ist möbliert.
+Ich habe ein Bett, einen Schreibtisch, einen Stuhl und einen Schrank.
+Die Küche und das Bad teile ich mit drei Mitbewohnern.
+Wir wohnen im dritten Stock. Es gibt einen Aufzug.
+Die WG ist in der Nähe der Universität.
+```
+
+**Teil 2: Ask and Answer Questions About Living Situations**
+
+Practice both asking and responding to questions about housing.
+
+**Common W-questions about housing:**
+- "Wo wohnst du?" (Where do you live?)
+- "Wie groß ist deine Wohnung?" (How big is your apartment?)
+- "Wie viele Zimmer hast du?" (How many rooms do you have?)
+- "Hast du einen Balkon/Garten?" (Do you have a balcony/garden?)
+- "Wie ist deine Wohnung?" (What's your apartment like?)
+- "Wohnst du allein?" (Do you live alone?)
+- "Wie viel Miete zahlst du?" (How much rent do you pay?)
+
+**Sample Q&A dialogue:**
+```
+A: Wo wohnst du?
+B: Ich wohne in Berlin, in Kreuzberg.
+
+A: Hast du eine Wohnung oder ein Zimmer?
+B: Ich habe eine Wohnung. Eine Zweizimmerwohnung.
+
+A: Wie ist die Wohnung?
+B: Sie ist klein aber gemütlich. Und sehr hell.
+
+A: Hast du einen Balkon?
+B: Ja, ich habe einen kleinen Balkon. Ich sitze gern dort im Sommer.
+
+A: Ist die Wohnung teuer?
+B: Die Miete ist 800 Euro warm. Das ist okay für Berlin.
+```
+
+**Teil 3: Make Housing-Related Requests**
+
+Practice asking for things or services related to your home.
+
+**Common housing-related requests:**
+- Asking neighbors to borrow items
+- Requesting help with moving
+- Asking about building facilities
+- Making appointments with landlord
+- Requesting repairs or maintenance
+
+**Sample Dialogue 1 - Borrowing Items:**
+```
+A: Hallo! Entschuldigung, hast du vielleicht einen Hammer?
+B: Einen Hammer? Ja, ich habe einen. Moment, ich hole ihn.
+
+A: Danke! Ich bringe ihn morgen zurück.
+B: Kein Problem. Brauchst du noch etwas?
+
+A: Nein, danke. Der Hammer reicht.
+```
+
+**Sample Dialogue 2 - Asking for Help Moving:**
+```
+A: Hi Maria! Ich ziehe nächste Woche um. Kannst du mir helfen?
+B: Wann ziehst du um?
+
+A: Am Samstag. Vormittags.
+B: Ja, klar! Ich helfe dir gerne.
+
+A: Super! Wir beginnen um 9 Uhr. Ich mache dann Pizza für alle!
+B: Perfekt! Bis Samstag dann.
+```
+
+**Sample Dialogue 3 - Talking to Landlord:**
+```
+A: Guten Tag, Herr Müller. Die Heizung in meiner Wohnung funktioniert nicht.
+B: Oh, das tut mir leid. Seit wann?
+
+A: Seit gestern. Es ist sehr kalt.
+B: Ich schicke heute einen Techniker. Sind Sie nachmittags zu Hause?
+
+A: Ja, ich bin ab 14 Uhr da.
+B: Gut. Der Techniker kommt zwischen 14 und 16 Uhr.
+```
+
+**Key Strategies for Speaking About Housing:**
+
+**When describing your home:**
+- ✅ Start with the basics: type, size, location
+- ✅ Use adjectives: groß, klein, hell, gemütlich, modern
+- ✅ Be specific: "drei Zimmer", "zweiter Stock"
+- ✅ Mention special features: Balkon, Garten, Aufzug
+
+**When asking about housing:**
+- ✅ Use polite questions: "Können Sie mir sagen...?"
+- ✅ Be specific about what you need to know
+- ✅ Ask follow-up questions to get details
+- ✅ Thank the person for information
+
+**When making housing requests:**
+- ✅ Start politely: "Entschuldigung..."
+- ✅ Be clear about what you need
+- ✅ Say when you need it / when you'll return it
+- ✅ Offer something in return if appropriate
+
+---
+
+**Vocabulary Theme: Furniture and Home Items**
+
+**Basic Furniture (Möbel):**
+- **das Bett** (bed) - "Mein Bett ist groß und bequem."
+- **der Tisch** (table) - "Der Tisch ist aus Holz."
+- **der Stuhl** (chair) - "Wir haben vier Stühle."
+- **der Sessel** (armchair) - "Der Sessel ist gemütlich."
+- **das Sofa / die Couch** (sofa/couch) - "Das Sofa ist neu."
+- **der Schrank** (wardrobe/cupboard) - "Meine Kleidung ist im Schrank."
+- **das Regal** (shelf/bookshelf) - "Das Regal ist voll mit Büchern."
+- **der Schreibtisch** (desk) - "Ich arbeite am Schreibtisch."
+- **der Kleiderschrank** (wardrobe) - "Der Kleiderschrank ist groß."
+- **die Kommode** (dresser/chest of drawers) - "Die Kommode ist im Schlafzimmer."
+
+**Bedroom Furniture (Schlafzimmermöbel):**
+- **das Bett** (bed) - "Ich schlafe im Bett."
+- **das Kissen** (pillow) - "Das Kissen ist weich."
+- **die Decke** (blanket/duvet) - "Die Decke ist warm."
+- **der Nachttisch** (nightstand) - "Die Lampe steht auf dem Nachttisch."
+- **der Kleiderschrank** (wardrobe) - "Meine Kleidung ist im Schrank."
+- **der Spiegel** (mirror) - "Der Spiegel hängt an der Wand."
+
+**Living Room Items (Wohnzimmermöbel):**
+- **das Sofa** (sofa) - "Das Sofa ist bequem."
+- **der Couchtisch** (coffee table) - "Der Couchtisch ist rund."
+- **der Fernseher** (television) - "Der Fernseher ist groß."
+- **das Regal** (shelf) - "Die Bücher sind im Regal."
+- **der Teppich** (carpet/rug) - "Der Teppich ist weich."
+- **die Lampe** (lamp) - "Die Lampe ist hell."
+- **das Bild** (picture/painting) - "Das Bild hängt an der Wand."
+- **die Pflanze** (plant) - "Die Pflanze steht am Fenster."
+
+**Kitchen Items (Küchengeräte):**
+- **der Kühlschrank** (refrigerator) - "Die Milch ist im Kühlschrank."
+- **der Herd** (stove) - "Ich koche auf dem Herd."
+- **der Backofen** (oven) - "Der Kuchen ist im Backofen."
+- **die Spülmaschine** (dishwasher) - "Die Spülmaschine ist praktisch."
+- **die Mikrowelle** (microwave) - "Die Mikrowelle ist schnell."
+- **die Waschmaschine** (washing machine) - "Die Waschmaschine ist im Bad."
+- **der Esstisch** (dining table) - "Wir essen am Esstisch."
+- **die Kaffeemaschine** (coffee maker) - "Die Kaffeemaschine ist neu."
+
+**Bathroom Items (Badezimmer):**
+- **die Dusche** (shower) - "Die Dusche ist groß."
+- **die Badewanne** (bathtub) - "Ich bade in der Badewanne."
+- **das Waschbecken** (sink) - "Das Waschbecken ist klein."
+- **die Toilette** (toilet) - "Die Toilette ist sauber."
+- **der Spiegel** (mirror) - "Der Spiegel ist über dem Waschbecken."
+- **das Handtuch** (towel) - "Das Handtuch ist weich."
+
+**Home Accessories (Wohnaccessoires):**
+- **die Lampe** (lamp) - "Die Lampe gibt viel Licht."
+- **der Vorhang / die Gardine** (curtain) - "Die Vorhänge sind geschlossen."
+- **das Fenster** (window) - "Das Fenster ist groß."
+- **die Tür** (door) - "Die Tür ist offen."
+- **die Wand** (wall) - "Die Wand ist weiß."
+- **der Boden** (floor) - "Der Boden ist sauber."
+- **die Decke** (ceiling) - "Die Decke ist hoch."
+- **die Uhr** (clock) - "Die Uhr hängt an der Wand."
+
+**Descriptive Adjectives for Furniture/Rooms:**
+- **groß** (big/large) - "Das Zimmer ist groß."
+- **klein** (small) - "Der Tisch ist klein."
+- **neu** (new) - "Das Sofa ist neu."
+- **alt** (old) - "Der Schrank ist alt."
+- **bequem** (comfortable) - "Der Sessel ist bequem."
+- **gemütlich** (cozy) - "Das Zimmer ist gemütlich."
+- **modern** (modern) - "Die Küche ist modern."
+- **praktisch** (practical) - "Das Regal ist praktisch."
+- **schön** (beautiful) - "Die Lampe ist schön."
+- **hässlich** (ugly) - "Der Teppich ist hässlich."
+
+**Furniture Verbs:**
+- **stehen** (to stand) - "Der Tisch steht in der Mitte."
+- **liegen** (to lie) - "Das Buch liegt auf dem Tisch."
+- **hängen** (to hang) - "Das Bild hängt an der Wand."
+- **haben** (to have) - "Ich habe einen neuen Schrank."
+- **brauchen** (to need) - "Ich brauche einen Stuhl."
+- **kaufen** (to buy) - "Ich kaufe ein neues Bett."
+- **stellen** (to place/put) - "Ich stelle die Lampe auf den Tisch."
+
+**Useful Furniture Phrases:**
+- "Das Bett steht im Schlafzimmer." (The bed is in the bedroom.)
+- "Der Tisch steht in der Mitte." (The table is in the middle.)
+- "Die Lampe hängt an der Decke." (The lamp hangs from the ceiling.)
+- "Das Bild hängt an der Wand." (The picture hangs on the wall.)
+- "Ich brauche einen neuen Schrank." (I need a new wardrobe.)
+- "Das Sofa ist sehr bequem." (The sofa is very comfortable.)
+- "Der Kühlschrank ist groß und modern." (The refrigerator is big and modern.)
+
+**Sample Sentences for Practice:**
+1. "Mein Schlafzimmer hat ein Bett, einen Schrank und einen Schreibtisch."
+2. "Im Wohnzimmer steht ein Sofa, ein Couchtisch und ein Regal."
+3. "Die Küche ist klein aber hat alle wichtigen Geräte: Kühlschrank, Herd und Spülmaschine."
+4. "Der Esstisch steht in der Mitte der Küche. Wir haben vier Stühle."
+5. "Das Bild hängt an der Wand über dem Sofa."
+6. "Ich brauche eine neue Lampe für mein Zimmer."
+7. "Der Schrank ist alt aber noch gut."
+8. "Die Waschmaschine ist im Badezimmer."
+
+**Exam Tips for Day 18:**
+
+**For Writing:**
+- Room descriptions should include: what's in them and how they look
+- Use position words: in der Mitte, an der Wand, auf dem Tisch
+- Adjectives make descriptions better: groß, klein, gemütlich, modern
+- When asking about apartments, be specific: Miete? Größe? Möbliert?
+
+**For Speaking:**
+- Describe systematically: room by room
+- Use "es gibt" (there is/are) to list items
+- Practice prepositions: im, auf dem, an der, neben dem
+- If you forget a furniture word, describe it: "das Ding für Kleider" (the thing for clothes = wardrobe)
+
+**Common Mistakes to Avoid:**
+- ❌ Wrong articles: "das Stuhl" → "der Stuhl"
+- ❌ Wrong preposition: "auf die Wand" → "an der Wand" (on the wall)
+- ❌ Wrong position verb: "Der Tisch liegt" → "Der Tisch steht" (tables stand, books lie)
+- ❌ Forgetting adjective endings (but A1 is forgiving!)
 
 ---
 
 ### Day 19: 🎧 Listening + 📖 Reading
-**Focus:** Work and occupations
+**Focus:** Nature and parks
 
 **Listening Practice:**
-- Dialogues about jobs and workplaces
-- Announcements about job times or meetings
-- Phone messages about work schedules
+
+Practice listening to short conversations about parks, outdoor activities, nature, and weather.
+
+*Placeholder: Listen to 6 short dialogues about parks, nature activities, and weather. You will hear each dialogue twice. Answer questions about outdoor plans, park activities, and weather conditions.*
+
+**Common listening topics:**
+- Planning picnics or park visits
+- Discussing the weather
+- Talking about outdoor activities
+- Asking about park facilities
+- Describing nature and seasons
+
+---
 
 **Reading Practice:**
-- Simple job advertisements
-- Work schedules and notices
-- Information about professions
 
-**Vocabulary Theme:** Professions (Lehrer, Arzt, Verkäufer, Student, Ingenieur, etc.)
+**Teil 1: Messages about Outdoor Activities**
+
+Read short personal messages about park visits, picnics, and outdoor activities. Answer True/False questions.
+
+**Sample text types:**
+- Invitations to park activities
+- Picnic arrangements
+- Messages about the weather
+- Outdoor sports plans
+- Nature walk invitations
+
+**What to look for:**
+- Meeting time and place
+- Weather conditions
+- What to bring
+- Activities planned
+- Who is coming
+
+**Sample Email:**
+```
+Hallo Max,
+
+morgen ist das Wetter schön! Die Sonne scheint und es ist warm.
+Gehen wir in den Englischen Garten? Wir können picknicken und spazieren gehen.
+Treffen wir uns um 10 Uhr am Eingang? Ich bringe Sandwiches und Getränke mit.
+Bring bitte eine Decke mit!
+
+Bis morgen!
+Lisa
+```
+
+**Sample Questions:**
+1. Morgen ist das Wetter schön. → **Richtig**
+2. Sie gehen in den Stadtpark. → **Falsch** (They go to the Englischer Garten)
+3. Sie treffen sich um 10 Uhr. → **Richtig**
+4. Lisa bringt Sandwiches mit. → **Richtig**
+
+---
+
+**Teil 2: Park Event Advertisements**
+
+Match people's interests to appropriate park activities and events.
+
+**Sample advertisement types:**
+- Open-air concerts
+- Yoga in the park
+- Guided nature tours
+- Sports activities
+- Children's playgrounds
+- Botanical garden visits
+
+**Matching criteria to consider:**
+- Type of activity (music, sports, relaxation, education)
+- Day and time
+- Cost (free or paid)
+- Age suitability
+- Weather dependency
+
+**Sample Advertisement A:**
+```
+Open-Air-Konzert im Stadtpark
+Samstag, 19:00 Uhr
+Live-Musik: Jazz und Pop
+Eintritt frei!
+Bringen Sie Decken und Snacks mit
+Bei Regen: abgesagt
+```
+
+**Sample Advertisement B:**
+```
+Yoga im Park
+Jeden Morgen 7:00-8:00 Uhr
+Im Volkspark (Wiese neben dem See)
+10€ pro Stunde oder 40€ für 5 Termine
+Anfänger willkommen
+Anmeldung: yoga-im-park@email.de
+```
+
+**Sample Situation:**
+"Tom mag Musik. Er möchte am Wochenende etwas im Park machen. Er hat kein Geld."
+→ **Answer: A (Open-Air-Konzert)** - music concert, weekend (Saturday), free entry
+
+---
+
+**Teil 3: Park Rules and Information**
+
+Read information about park rules, opening hours, and facilities. Answer multiple choice questions.
+
+**Common information types:**
+- Park opening hours
+- Rules and regulations
+- Facilities available
+- Activities allowed
+- Pet rules
+- Grill zones
+- Playground information
+
+**Sample Park Information:**
+```
+Stadtpark München - Besucherinformation
+
+Öffnungszeiten:
+April-September: 6:00-22:00 Uhr
+Oktober-März: 7:00-20:00 Uhr
+
+Eintritt:
+Kostenlos für alle
+
+Einrichtungen:
+- 3 Spielplätze für Kinder
+- 2 Grillzonen
+- Toiletten (beim Haupteingang und am See)
+- Café am See (9:00-18:00 Uhr)
+- Fahrradverleih (10:00-18:00 Uhr)
+
+Parkregeln:
+- Hunde an der Leine!
+- Müll in die Mülleimer
+- Grillen nur in der Grillzone erlaubt
+- Fahrradfahren auf den Wegen erlaubt
+- Blumen pflücken verboten
+- Laut Musik verboten (nach 20:00 Uhr)
+- Rauchen nur in markierten Bereichen
+
+Aktivitäten:
+- Joggen und Walken
+- Picknick auf den Wiesen
+- Bootfahren auf dem See (Mai-September)
+- Volleyball spielen (2 Felder)
+
+Information:
+Tel: 089-12345678
+E-Mail: info@stadtpark-muenchen.de
+
+Notfall: 112
+```
+
+**Sample Questions:**
+
+**Question 1:** Bis wann ist der Park im Sommer geöffnet?
+- A) 20:00 Uhr
+- B) 22:00 Uhr ✓
+- C) 24:00 Uhr (Mitternacht)
+
+**Question 2:** Wo darf man grillen?
+- A) Überall im Park
+- B) Nur in der Grillzone ✓
+- C) Grillen ist verboten
+
+**Question 3:** Was muss man für Hunde im Park haben?
+- A) Einen Maulkorb
+- B) Eine Leine ✓
+- C) Nichts
+
+**Reading Strategy Tips for Nature Topics:**
+- Look for seasonal information: Sommer, Winter, April-September
+- Check weather words: sonnig, regnerisch, warm, kalt
+- Rules use: erlaubt (allowed), verboten (forbidden)
+- Times matter: opening hours, activity times
+- Free vs. paid: kostenlos, Eintritt frei, costs in €
+
+---
+
+**Vocabulary Theme: Nature & Parks**
+
+**Nature & Places:**
+- **die Natur** (nature) - "Ich liebe die Natur."
+- **der Park** (park) - "Wir gehen in den Park."
+- **der Garten** (garden) - "Der Garten ist schön."
+- **der Wald** (forest) - "Im Wald gibt es viele Bäume."
+- **der See** (lake) - "Der See ist groß."
+- **der Fluss** (river) - "Der Fluss ist lang."
+- **der Berg** (mountain) - "Die Berge sind hoch."
+- **die Wiese** (meadow/lawn) - "Wir sitzen auf der Wiese."
+- **der Weg** (path/way) - "Der Weg führt durch den Wald."
+
+**Plants & Trees:**
+- **der Baum** (tree) - "Der Baum ist groß."
+- **die Blume** (flower) - "Die Blumen sind schön."
+- **das Gras** (grass) - "Das Gras ist grün."
+- **die Pflanze** (plant) - "Ich mag Pflanzen."
+- **das Blatt** (leaf) - "Die Blätter sind bunt."
+
+**Weather:**
+- **das Wetter** (weather) - "Das Wetter ist schön."
+- **die Sonne** (sun) - "Die Sonne scheint."
+- **der Regen** (rain) - "Es gibt Regen."
+- **der Schnee** (snow) - "Im Winter gibt es Schnee."
+- **der Wind** (wind) - "Der Wind ist stark."
+- **die Wolke** (cloud) - "Die Wolken sind grau."
+- **der Himmel** (sky) - "Der Himmel ist blau."
+
+**Weather Adjectives:**
+- **sonnig** (sunny) - "Heute ist es sonnig."
+- **warm** (warm) - "Es ist warm draußen."
+- **heiß** (hot) - "Im Sommer ist es heiß."
+- **kalt** (cold) - "Im Winter ist es kalt."
+- **kühl** (cool) - "Es ist kühl am Morgen."
+- **regnerisch** (rainy) - "Das Wetter ist regnerisch."
+- **windig** (windy) - "Heute ist es windig."
+- **bewölkt** (cloudy) - "Der Himmel ist bewölkt."
+
+**Seasons:**
+- **die Jahreszeit** (season) - "Welche Jahreszeit magst du?"
+- **der Frühling** (spring) - "Im Frühling blühen die Blumen."
+- **der Sommer** (summer) - "Der Sommer ist warm."
+- **der Herbst** (autumn/fall) - "Im Herbst fallen die Blätter."
+- **der Winter** (winter) - "Im Winter schneit es."
+
+**Outdoor Activities:**
+- **spazieren gehen** (to go for a walk) - "Wir gehen im Park spazieren."
+- **wandern** (to hike) - "Am Wochenende wandern wir in den Bergen."
+- **joggen / laufen** (to jog/run) - "Ich jogge jeden Morgen im Park."
+- **picknicken** (to have a picnic) - "Wir picknicken auf der Wiese."
+- **grillen** (to grill/barbecue) - "Im Sommer grillen wir oft."
+- **Rad fahren** (to ride a bike) - "Ich fahre gern Rad."
+- **schwimmen** (to swim) - "Im See kann man schwimmen."
+- **Boot fahren** (to go boating) - "Wir fahren Boot auf dem See."
+- **spielen** (to play) - "Die Kinder spielen im Park."
+
+**Nature Verbs:**
+- **scheinen** (to shine) - "Die Sonne scheint."
+- **regnen** (to rain) - "Es regnet heute."
+- **schneien** (to snow) - "Im Winter schneit es."
+- **blühen** (to bloom) - "Die Blumen blühen im Frühling."
+- **wachsen** (to grow) - "Die Pflanzen wachsen schnell."
+
+**Park Facilities:**
+- **der Spielplatz** (playground) - "Der Spielplatz ist für Kinder."
+- **die Bank** (bench) - "Wir sitzen auf der Bank."
+- **der Brunnen** (fountain) - "Der Brunnen ist schön."
+- **die Toilette** (toilet) - "Wo ist die Toilette?"
+- **der Mülleimer** (trash can) - "Bitte Müll in den Mülleimer!"
+- **der Eingang** (entrance) - "Der Eingang ist dort."
+
+**Picnic Items:**
+- **die Decke** (blanket) - "Wir brauchen eine Decke zum Picknicken."
+- **der Korb** (basket) - "Der Picknickkorb ist voll."
+- **das Sandwich** (sandwich) - "Ich esse ein Sandwich."
+- **das Getränk** (drink) - "Wir haben kalte Getränke."
+
+**Nature Adjectives:**
+- **schön** (beautiful) - "Die Natur ist schön."
+- **grün** (green) - "Das Gras ist grün."
+- **frisch** (fresh) - "Die Luft ist frisch."
+- **ruhig** (quiet/peaceful) - "Der Park ist ruhig."
+- **bunt** (colorful) - "Die Blumen sind bunt."
+
+**Time & Location:**
+- **draußen** (outside) - "Wir sind draußen im Park."
+- **drinnen** (inside) - "Bei Regen bleiben wir drinnen."
+- **am See** (at the lake) - "Wir sitzen am See."
+- **im Freien** (in the open air) - "Wir essen im Freien."
+
+**Sample Sentences for Practice:**
+1. "Heute ist das Wetter schön. Die Sonne scheint."
+2. "Wir gehen in den Park und picknicken auf der Wiese."
+3. "Im Frühling blühen die Blumen. Es ist sehr schön."
+4. "Der Park ist von 6 Uhr bis 22 Uhr geöffnet."
+5. "Hunde müssen an der Leine bleiben."
+6. "Wir fahren am Wochenende in die Berge und wandern."
+7. "Im Sommer ist es heiß. Wir schwimmen im See."
+8. "Das Gras ist grün und die Luft ist frisch."
+
+**Exam Tips for Day 19:**
+
+**For Listening:**
+- Listen for weather words: sonnig, regnerisch, warm, kalt
+- Note specific times: meeting times, opening hours
+- Pay attention to locations: Park, See, Wald
+- Listen for activities: picknicken, spazieren gehen, schwimmen
+
+**For Reading:**
+- Check opening hours and seasonal differences
+- Look for rules: erlaubt (allowed) vs. verboten (forbidden)
+- Scan for facilities: Spielplatz, Toiletten, Café
+- Weather-dependent activities: "Bei Regen abgesagt"
+- Free vs. paid: kostenlos, Eintritt, costs
+
+**Time Management:**
+- Reading all three parts: ~25 minutes total
+- Don't spend more than 8 minutes per Teil
 
 ---
 
@@ -2595,16 +4273,410 @@ Read information about food venues and answer multiple choice questions.
 **Focus:** Talking about work and studies
 
 **Writing Practice:**
-- Write about your job or studies
-- Respond to work-related questions
-- Describe daily work routine
+
+**Task 1: Write About Your Job or Studies**
+
+Learn to describe what you do for work or study.
+
+**Structure to follow:**
+1. What do you do? (profession or field of study)
+2. Where do you work/study?
+3. What are your working/study hours?
+4. What do you do there?
+5. Do you like it? Why/why not?
+
+**Sample text about a job (40 words):**
+```
+Ich bin Verkäuferin von Beruf. Ich arbeite in einem Modegeschäft im Zentrum.
+Ich arbeite Teilzeit, 25 Stunden pro Woche. Ich bediene Kunden und verkaufe Kleidung.
+Die Arbeit ist interessant. Meine Kollegen sind sehr nett.
+```
+
+**Sample text about studies (38 words):**
+```
+Ich bin Student. Ich studiere Informatik an der Technischen Universität.
+Ich bin im dritten Semester. Ich habe Vorlesungen von Montag bis Freitag.
+Das Studium ist schwer aber interessant. Ich lerne viel über Computer und Programmierung.
+```
+
+**Task 2: Respond to Work or Study Inquiries**
+
+Practice writing to answer questions about your occupation or education.
+
+**Must include all 3 points:**
+1. What is your profession/field of study?
+2. What do you do in your job/studies?
+3. What information can you provide?
+
+**Sample response about a job (36 words):**
+```
+Sehr geehrte Frau Schmidt,
+
+ich bin Ingenieur von Beruf. Ich arbeite bei einer Baufirma in München.
+Ich plane und kontrolliere Bauprojekte. Ich arbeite seit 3 Jahren hier.
+Kann ich Ihnen noch etwas mitteilen?
+
+Mit freundlichen Grüßen
+Thomas Müller
+```
+
+**Sample response about studies (34 words):**
+```
+Hallo Maria,
+
+ich studiere Medizin in Berlin. Ich bin im vierten Semester.
+Ich habe viele Kurse: Anatomie, Biochemie und Physiologie. Das Studium dauert sechs Jahre.
+Möchtest du auch Medizin studieren?
+
+Liebe Grüße
+Lisa
+```
+
+**Task 3: Ask About Job or Course Information**
+
+Practice writing inquiries about jobs or educational courses.
+
+**Sample inquiry about a job (35 words):**
+```
+Sehr geehrte Damen und Herren,
+
+ich habe Ihre Stellenanzeige gelesen. Ich interessiere mich für die Stelle als Büroassistent.
+Wie viele Stunden pro Woche ist die Arbeit? Wann kann ich mich vorstellen?
+
+Mit freundlichen Grüßen
+Anna Schmidt
+```
+
+**Sample inquiry about a course (33 words):**
+```
+Sehr geehrte Damen und Herren,
+
+ich möchte einen Deutschkurs besuchen. Wann beginnt der nächste Kurs?
+Wie viele Stunden pro Woche? Wie viel kostet der Kurs?
+
+Vielen Dank!
+Mit freundlichen Grüßen
+David Lee
+```
+
+**Key Phrases for Work/Study Writing:**
+
+**Describing your occupation:**
+- "Ich bin... von Beruf." (I am a... by profession.)
+- "Ich arbeite als..." (I work as...)
+- "Ich arbeite bei/in..." (I work at/in...)
+- "Ich mache..." (I do...)
+- "Meine Arbeit ist..." (My work is...)
+
+**Describing your studies:**
+- "Ich studiere..." (I study...)
+- "Ich bin Student/in." (I am a student.)
+- "Ich bin im... Semester." (I'm in the... semester.)
+- "Ich habe Kurse in..." (I have courses in...)
+- "Das Studium dauert... Jahre." (The degree takes... years.)
+
+**Asking about jobs:**
+- "Ich interessiere mich für die Stelle." (I'm interested in the position.)
+- "Welche Qualifikationen brauche ich?" (What qualifications do I need?)
+- "Wie sind die Arbeitszeiten?" (What are the working hours?)
+- "Wann kann ich anfangen?" (When can I start?)
+
+**Asking about courses:**
+- "Wann beginnt der Kurs?" (When does the course start?)
+- "Wie lange dauert der Kurs?" (How long does the course last?)
+- "Wie viel kostet der Kurs?" (How much does the course cost?)
+- "Brauche ich Vorkenntnisse?" (Do I need prior knowledge?)
+
+---
 
 **Speaking Practice:**
-- Talk about your profession or studies
-- Describe what you do at work/school
-- Ask about others' occupations
 
-**Vocabulary Theme:** Work Actions (arbeiten, lernen, studieren, verdienen, beginnen)
+**Teil 1: Introduce Your Profession or Studies**
+
+Learn to present information about your work or education clearly.
+
+**How to structure your introduction:**
+1. State your profession or field: "Ich bin... / Ich studiere..."
+2. Say where you work/study: "Ich arbeite bei... / Ich studiere an..."
+3. Describe your tasks or subjects: "Ich mache... / Ich habe Kurse in..."
+4. Mention schedule: "Ich arbeite von... bis... / Ich habe Vorlesungen..."
+5. Add your opinion: "Die Arbeit ist... / Das Studium ist..."
+
+**Sample introduction for a job:**
+```
+Ich bin Krankenschwester von Beruf. Ich arbeite im Universitätskrankenhaus in Hamburg.
+Ich arbeite in der Notaufnahme. Ich helfe kranken Menschen. Ich gebe Medikamente
+und kontrolliere die Patienten. Ich arbeite in Schichten. Manchmal arbeite ich nachts.
+Die Arbeit ist anstrengend aber sehr wichtig. Ich mag meine Arbeit sehr.
+```
+
+**Sample introduction for studies:**
+```
+Ich bin Studentin. Ich studiere Wirtschaft an der Universität Köln.
+Ich bin im zweiten Semester. Ich habe viele Kurse: Mathematik, Statistik,
+Marketing und Management. Ich habe Vorlesungen von Montag bis Donnerstag.
+Freitags lerne ich in der Bibliothek. Das Studium ist interessant aber schwer.
+Ich möchte später in einer großen Firma arbeiten.
+```
+
+**Teil 2: Ask and Answer Questions About Work and Studies**
+
+Practice both asking and responding to questions about occupations and education.
+
+**Common W-questions about work:**
+- "Was sind Sie von Beruf?" (What's your profession?)
+- "Wo arbeiten Sie?" (Where do you work?)
+- "Was machen Sie in Ihrem Beruf?" (What do you do in your job?)
+- "Wie sind Ihre Arbeitszeiten?" (What are your working hours?)
+- "Wie lange arbeiten Sie schon dort?" (How long have you been working there?)
+- "Gefällt Ihnen Ihre Arbeit?" (Do you like your work?)
+
+**Common W-questions about studies:**
+- "Was studierst du?" (What do you study?)
+- "Wo studierst du?" (Where do you study?)
+- "In welchem Semester bist du?" (What semester are you in?)
+- "Welche Kurse hast du?" (What courses do you have?)
+- "Wie ist das Studium?" (How are your studies?)
+- "Was möchtest du später werden?" (What do you want to become later?)
+
+**Sample Q&A dialogue about work:**
+```
+A: Was sind Sie von Beruf?
+B: Ich bin Mechaniker. Ich repariere Autos.
+
+A: Wo arbeiten Sie?
+B: Ich arbeite in einer Werkstatt in Kreuzberg.
+
+A: Wie sind Ihre Arbeitszeiten?
+B: Ich arbeite von 8 bis 17 Uhr, Montag bis Freitag.
+
+A: Gefällt Ihnen die Arbeit?
+B: Ja, sehr. Ich mag Autos. Die Arbeit macht Spaß.
+```
+
+**Sample Q&A dialogue about studies:**
+```
+A: Was studierst du?
+B: Ich studiere Architektur.
+
+A: In welchem Semester bist du?
+B: Ich bin im fünften Semester.
+
+A: Ist das Studium schwer?
+B: Ja, ziemlich schwer. Wir haben viele Projekte. Aber es ist kreativ und interessant.
+
+A: Was möchtest du später machen?
+B: Ich möchte Gebäude entwerfen. Vielleicht in einem großen Architekturbüro.
+```
+
+**Teil 3: Make Work or Study-Related Requests**
+
+Practice making requests related to your workplace or educational environment.
+
+**Common work-related requests:**
+- Asking for time off
+- Requesting help from colleagues
+- Making appointments with supervisors
+- Requesting information or materials
+- Asking about procedures
+
+**Sample Dialogue 1 - Requesting Time Off:**
+```
+A: Guten Tag, Herr Schmidt. Kann ich kurz mit Ihnen sprechen?
+B: Ja, natürlich. Was gibt es?
+
+A: Ich möchte nächste Woche Montag und Dienstag frei nehmen.
+   Meine Mutter ist krank und ich muss sie besuchen.
+B: Das tut mir leid. Ja, kein Problem. Füllen Sie bitte das Formular aus.
+
+A: Danke! Wo bekomme ich das Formular?
+B: Bei Frau Müller im Personalbüro.
+```
+
+**Sample Dialogue 2 - Asking a Colleague for Help:**
+```
+A: Hallo Lisa! Hast du kurz Zeit? Ich brauche deine Hilfe.
+B: Ja, klar. Was brauchst du?
+
+A: Ich verstehe das neue Computerprogramm nicht. Kannst du es mir erklären?
+B: Ja, natürlich. Komm, ich zeige es dir. Es ist ganz einfach.
+
+A: Super, vielen Dank!
+B: Gern geschehen!
+```
+
+**Sample Dialogue 3 - Asking About a Course:**
+```
+A: Entschuldigung, ich habe eine Frage zum Deutschkurs.
+B: Ja, bitte?
+
+A: Gibt es noch Plätze im Kurs für Anfänger?
+B: Ja, wir haben noch 5 Plätze frei.
+
+A: Wann beginnt der Kurs?
+B: Am 1. September. Immer montags und mittwochs, 18 bis 20 Uhr.
+
+A: Perfekt! Wie kann ich mich anmelden?
+B: Füllen Sie dieses Formular aus und bezahlen Sie die Kursgebühr.
+```
+
+**Key Strategies for Speaking About Work/Studies:**
+
+**When introducing your work/studies:**
+- ✅ Be clear about your occupation or field
+- ✅ Give context: where, when, what you do
+- ✅ Add personal opinion if possible
+- ✅ Use simple, clear sentences
+
+**When asking about work/studies:**
+- ✅ Start with basic questions: Was? Wo? Wann?
+- ✅ Show interest with follow-up questions
+- ✅ Ask about likes/dislikes: "Gefällt dir...?"
+- ✅ Listen actively to responses
+
+**When making work/study requests:**
+- ✅ Be polite: "Entschuldigung, kann ich...?"
+- ✅ State what you need clearly
+- ✅ Give reasons if necessary
+- ✅ Thank the person
+
+---
+
+**Vocabulary Theme: Study and Education**
+
+**Education Levels (Bildungsstufen):**
+- **die Schule** (school) - "Ich gehe zur Schule."
+- **die Grundschule** (elementary school) - "Mein Sohn ist in der Grundschule."
+- **das Gymnasium** (high school/grammar school) - "Sie besucht das Gymnasium."
+- **die Universität / die Uni** (university) - "Ich studiere an der Uni."
+- **die Fachhochschule** (university of applied sciences) - "Er studiert an der Fachhochschule."
+- **die Berufsschule** (vocational school) - "Sie geht zur Berufsschule."
+
+**Study-Related Terms (Studienbegriffe):**
+- **das Studium** (studies/degree program) - "Mein Studium dauert 3 Jahre."
+- **der Kurs** (course) - "Ich besuche einen Deutschkurs."
+- **der Unterricht** (class/instruction) - "Der Unterricht beginnt um 9 Uhr."
+- **die Vorlesung** (lecture) - "Ich habe drei Vorlesungen pro Woche."
+- **das Seminar** (seminar) - "Das Seminar ist interessant."
+- **das Semester** (semester) - "Ich bin im dritten Semester."
+- **die Prüfung / der Test** (exam/test) - "Die Prüfung ist nächste Woche."
+- **die Hausaufgabe** (homework) - "Ich mache meine Hausaufgaben."
+- **das Projekt** (project) - "Wir arbeiten an einem Projekt."
+- **die Bibliothek** (library) - "Ich lerne in der Bibliothek."
+
+**Study Fields (Studienfächer):**
+- **die Medizin** (medicine) - "Ich studiere Medizin."
+- **die Informatik** (computer science) - "Er studiert Informatik."
+- **die Wirtschaft / BWL** (business/economics) - "Sie studiert Wirtschaft."
+- **die Ingenieurwissenschaft** (engineering) - "Ich studiere Ingenieurwissenschaft."
+- **die Mathematik** (mathematics) - "Mathematik ist schwer."
+- **die Biologie** (biology) - "Sie studiert Biologie."
+- **die Chemie** (chemistry) - "Chemie ist interessant."
+- **die Physik** (physics) - "Physik ist kompliziert."
+- **die Geschichte** (history) - "Ich mag Geschichte."
+- **die Kunst** (art) - "Sie studiert Kunst."
+- **die Musik** (music) - "Er studiert Musik."
+- **die Sprachen** (languages) - "Ich lerne viele Sprachen."
+
+**People at University (Personen an der Uni):**
+- **der Student / die Studentin** (student m/f) - "Ich bin Student."
+- **der Professor / die Professorin** (professor m/f) - "Der Professor ist sehr gut."
+- **der Dozent / die Dozentin** (lecturer m/f) - "Die Dozentin erklärt alles gut."
+- **der Kommilitone / die Kommilitonin** (fellow student) - "Meine Kommilitonen sind nett."
+
+**Study Verbs (Studienverben):**
+- **studieren** (to study at university) - "Ich studiere in Berlin."
+- **lernen** (to learn/study for tests) - "Ich lerne für die Prüfung."
+- **unterrichten** (to teach) - "Der Professor unterrichtet Mathematik."
+- **besuchen** (to attend) - "Ich besuche die Vorlesung."
+- **teilnehmen** (to participate) - "Ich nehme am Seminar teil."
+- **machen** (to do/take) - "Ich mache einen Test."
+- **schreiben** (to write) - "Ich schreibe eine Hausarbeit."
+- **lesen** (to read) - "Ich lese viele Bücher."
+- **vorbereiten** (to prepare) - "Ich bereite mich auf die Prüfung vor."
+- **bestehen** (to pass) - "Ich habe die Prüfung bestanden."
+
+**School Supplies (Schulsachen):**
+- **das Buch** (book) - "Ich brauche ein Buch."
+- **das Heft** (notebook) - "Mein Heft ist voll."
+- **der Stift** (pen) - "Hast du einen Stift?"
+- **der Computer / der Laptop** (computer/laptop) - "Ich arbeite am Computer."
+- **die Tasche** (bag) - "Meine Bücher sind in der Tasche."
+
+**Study Adjectives:**
+- **schwer / schwierig** (difficult/hard) - "Das Studium ist schwer."
+- **leicht / einfach** (easy) - "Der Test ist leicht."
+- **interessant** (interesting) - "Die Vorlesung ist interessant."
+- **langweilig** (boring) - "Das Seminar ist langweilig."
+- **wichtig** (important) - "Die Prüfung ist wichtig."
+- **kompliziert** (complicated) - "Mathematik ist kompliziert."
+
+**Useful Study Phrases:**
+- "Ich studiere... an der Universität..." (I study... at the university of...)
+- "Ich bin im... Semester." (I'm in the... semester.)
+- "Ich habe Vorlesungen von... bis..." (I have lectures from... to...)
+- "Das Studium dauert... Jahre." (The degree takes... years.)
+- "Ich lerne für die Prüfung." (I'm studying for the exam.)
+- "Die Prüfung ist nächste Woche." (The exam is next week.)
+- "Ich schreibe eine Hausarbeit." (I'm writing a paper.)
+- "Ich habe viel zu tun." (I have a lot to do.)
+
+**Sample Sentences for Practice:**
+1. "Ich studiere Informatik an der Technischen Universität München."
+2. "Ich bin im zweiten Semester. Das Studium dauert vier Jahre."
+3. "Ich habe Vorlesungen von Montag bis Freitag."
+4. "Die Prüfung ist nächsten Montag. Ich lerne jeden Tag."
+5. "Meine Kommilitonen sind sehr nett. Wir lernen oft zusammen."
+6. "Das Studium ist schwer aber interessant."
+7. "Ich möchte nach dem Studium als Programmierer arbeiten."
+8. "Was studierst du? - Ich studiere Medizin."
+
+**Exam Tips for Day 20:**
+
+**For Writing:**
+- Work/study descriptions should include: what, where, when
+- Be specific: name your profession or field of study
+- Use time expressions: seit 3 Jahren, im dritten Semester
+- Include your opinion: interessant, schwer, gefällt mir
+
+**For Speaking:**
+- Practice your own work/study introduction beforehand
+- Be ready to explain what you do: specific tasks or subjects
+- Use linking words: aber, und, oder
+- If you forget a job title, describe what you do
+
+**Common Mistakes to Avoid:**
+- ❌ Confusing studieren (university study) and lernen (learn/study for tests)
+- ❌ Wrong preposition: "arbeiten in Siemens" → "arbeiten bei Siemens"
+- ❌ Wrong article for professions: "Ich bin eine Lehrerin" → "Ich bin Lehrerin"
+- ❌ Forgetting "von Beruf": "Was bist du?" → "Was bist du von Beruf?"
+
+---
+
+**🎉 Congratulations! You've Completed Days 14-20! 🎉**
+
+You've now covered:
+- **Day 14:** Progress review and consolidation
+- **Day 15-16:** Travel and directions
+- **Day 17-18:** Housing and living spaces
+- **Day 19-20:** Work and studies
+
+**Week 3 Skills Acquired:**
+- ✅ Talking about transportation and travel plans
+- ✅ Asking for and giving directions
+- ✅ Describing apartments and rooms
+- ✅ Discussing furniture and home features
+- ✅ Talking about jobs and professions
+- ✅ Describing work schedules and duties
+- ✅ Discussing studies and education
+
+**Keep Going!**
+- Days 21-30 will cover more advanced topics and exam strategies
+- Continue practicing vocabulary daily
+- Review difficult topics from Week 3
+- Stay motivated - you're making great progress!
+
+**Viel Erfolg weiter! (Continued success!)** 💪
 
 ---
 
