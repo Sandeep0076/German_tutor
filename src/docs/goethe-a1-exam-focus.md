@@ -4270,386 +4270,425 @@ Notfall: 112
 ---
 
 ### Day 20: ✍️ Writing + 🗣️ Speaking
-**Focus:** Talking about work and studies
+**Focus:** Emergencies and asking for help
 
 **Writing Practice:**
 
-**Task 1: Write About Your Job or Studies**
+**Task 1: Report a Problem**
 
-Learn to describe what you do for work or study.
+Learn to write about emergencies or problems you're experiencing.
 
 **Structure to follow:**
-1. What do you do? (profession or field of study)
-2. Where do you work/study?
-3. What are your working/study hours?
-4. What do you do there?
-5. Do you like it? Why/why not?
+1. State the problem clearly
+2. Explain when/where it happened
+3. Describe the situation
+4. Say what you need or what will happen next
 
-**Sample text about a job (40 words):**
+**Sample text - Lost wallet (38 words):**
 ```
-Ich bin Verkäuferin von Beruf. Ich arbeite in einem Modegeschäft im Zentrum.
-Ich arbeite Teilzeit, 25 Stunden pro Woche. Ich bediene Kunden und verkaufe Kleidung.
-Die Arbeit ist interessant. Meine Kollegen sind sehr nett.
-```
+Liebe Maria,
 
-**Sample text about studies (38 words):**
-```
-Ich bin Student. Ich studiere Informatik an der Technischen Universität.
-Ich bin im dritten Semester. Ich habe Vorlesungen von Montag bis Freitag.
-Das Studium ist schwer aber interessant. Ich lerne viel über Computer und Programmierung.
+ich habe ein Problem. Gestern habe ich meine Geldbörse verloren.
+Sie war in meiner Tasche. Jetzt ist sie weg. Meine Karten und mein Geld sind weg.
+Ich muss zur Bank und zur Polizei gehen.
+
+Viele Grüße
+Thomas
 ```
 
-**Task 2: Respond to Work or Study Inquiries**
-
-Practice writing to answer questions about your occupation or education.
-
-**Must include all 3 points:**
-1. What is your profession/field of study?
-2. What do you do in your job/studies?
-3. What information can you provide?
-
-**Sample response about a job (36 words):**
-```
-Sehr geehrte Frau Schmidt,
-
-ich bin Ingenieur von Beruf. Ich arbeite bei einer Baufirma in München.
-Ich plane und kontrolliere Bauprojekte. Ich arbeite seit 3 Jahren hier.
-Kann ich Ihnen noch etwas mitteilen?
-
-Mit freundlichen Grüßen
-Thomas Müller
-```
-
-**Sample response about studies (34 words):**
-```
-Hallo Maria,
-
-ich studiere Medizin in Berlin. Ich bin im vierten Semester.
-Ich habe viele Kurse: Anatomie, Biochemie und Physiologie. Das Studium dauert sechs Jahre.
-Möchtest du auch Medizin studieren?
-
-Liebe Grüße
-Lisa
-```
-
-**Task 3: Ask About Job or Course Information**
-
-Practice writing inquiries about jobs or educational courses.
-
-**Sample inquiry about a job (35 words):**
+**Sample text - Accident witness (36 words):**
 ```
 Sehr geehrte Damen und Herren,
 
-ich habe Ihre Stellenanzeige gelesen. Ich interessiere mich für die Stelle als Büroassistent.
-Wie viele Stunden pro Woche ist die Arbeit? Wann kann ich mich vorstellen?
+gestern um 15 Uhr gab es einen Unfall in der Hauptstraße.
+Zwei Autos sind zusammengestoßen. Ein Mann war verletzt. Ich habe die Polizei gerufen.
+Niemand konnte weiterfahren.
 
 Mit freundlichen Grüßen
 Anna Schmidt
 ```
 
-**Sample inquiry about a course (33 words):**
+**Task 2: Cancel Due to Emergency**
+
+Practice writing to cancel appointments or commitments because of an emergency.
+
+**Must include:**
+1. State what you need to cancel
+2. Explain the emergency situation
+3. Apologize
+4. Suggest alternative if possible
+
+**Sample cancellation - Illness (32 words):**
 ```
-Sehr geehrte Damen und Herren,
+Lieber Klaus,
 
-ich möchte einen Deutschkurs besuchen. Wann beginnt der nächste Kurs?
-Wie viele Stunden pro Woche? Wie viel kostet der Kurs?
+leider kann ich heute nicht zum Treffen kommen. Ich bin krank und habe Fieber.
+Es tut mir sehr leid. Können wir uns nächste Woche treffen?
 
-Vielen Dank!
+Liebe Grüße
+Sarah
+```
+
+**Sample cancellation - Family emergency (35 words):**
+```
+Sehr geehrte Frau Müller,
+
+ich kann morgen nicht zur Arbeit kommen. Meine Mutter hatte einen Unfall und ist im Krankenhaus.
+Ich muss zu ihr fahren. Es tut mir leid.
+
 Mit freundlichen Grüßen
-David Lee
+Michael Weber
 ```
 
-**Key Phrases for Work/Study Writing:**
+**Task 3: Ask for Help with a Situation**
 
-**Describing your occupation:**
-- "Ich bin... von Beruf." (I am a... by profession.)
-- "Ich arbeite als..." (I work as...)
-- "Ich arbeite bei/in..." (I work at/in...)
-- "Ich mache..." (I do...)
-- "Meine Arbeit ist..." (My work is...)
+Practice writing to request assistance during a problem.
 
-**Describing your studies:**
-- "Ich studiere..." (I study...)
-- "Ich bin Student/in." (I am a student.)
-- "Ich bin im... Semester." (I'm in the... semester.)
-- "Ich habe Kurse in..." (I have courses in...)
-- "Das Studium dauert... Jahre." (The degree takes... years.)
+**Sample help request - Car breakdown (34 words):**
+```
+Hallo Peter,
 
-**Asking about jobs:**
-- "Ich interessiere mich für die Stelle." (I'm interested in the position.)
-- "Welche Qualifikationen brauche ich?" (What qualifications do I need?)
-- "Wie sind die Arbeitszeiten?" (What are the working hours?)
-- "Wann kann ich anfangen?" (When can I start?)
+mein Auto ist kaputt. Ich bin auf der Autobahn bei Frankfurt.
+Kannst du mich abholen? Oder kannst du die Nummer von einem Abschleppdienst schicken?
+Danke!
 
-**Asking about courses:**
-- "Wann beginnt der Kurs?" (When does the course start?)
-- "Wie lange dauert der Kurs?" (How long does the course last?)
-- "Wie viel kostet der Kurs?" (How much does the course cost?)
-- "Brauche ich Vorkenntnisse?" (Do I need prior knowledge?)
+Bis bald
+Lisa
+```
+
+**Sample help request - Lost at station (31 words):**
+```
+Liebe Anna,
+
+ich bin am Hauptbahnhof aber ich finde den Ausgang nicht.
+Es gibt zu viele Menschen. Wo bist du? Kannst du mich treffen?
+
+Viele Grüße
+Tom
+```
+
+**Key Phrases for Emergency Writing:**
+
+**Reporting problems:**
+- "Ich habe ein Problem." (I have a problem.)
+- "Es ist ein Notfall." (It's an emergency.)
+- "Mir ist etwas passiert." (Something happened to me.)
+- "Ich habe... verloren." (I lost...)
+- "Es gab einen Unfall." (There was an accident.)
+
+**Describing emergencies:**
+- "Ich bin krank." (I'm sick.)
+- "Ich habe Fieber/Schmerzen." (I have fever/pain.)
+- "Jemand ist verletzt." (Someone is injured.)
+- "Mein Auto ist kaputt." (My car is broken.)
+- "Ich brauche Hilfe!" (I need help!)
+
+**Cancelling plans:**
+- "Leider kann ich nicht kommen." (Unfortunately I can't come.)
+- "Es tut mir sehr leid." (I'm very sorry.)
+- "Ich muss absagen." (I have to cancel.)
+- "Können wir einen neuen Termin machen?" (Can we make a new appointment?)
+
+**Asking for help:**
+- "Kannst du mir helfen?" (Can you help me?)
+- "Ich brauche deine Hilfe." (I need your help.)
+- "Kannst du kommen?" (Can you come?)
+- "Was soll ich machen?" (What should I do?)
 
 ---
 
 **Speaking Practice:**
 
-**Teil 1: Introduce Your Profession or Studies**
+**Teil 1: Describe an Emergency Situation**
 
-Learn to present information about your work or education clearly.
+Learn to talk about emergencies and problems clearly.
 
-**How to structure your introduction:**
-1. State your profession or field: "Ich bin... / Ich studiere..."
-2. Say where you work/study: "Ich arbeite bei... / Ich studiere an..."
-3. Describe your tasks or subjects: "Ich mache... / Ich habe Kurse in..."
-4. Mention schedule: "Ich arbeite von... bis... / Ich habe Vorlesungen..."
-5. Add your opinion: "Die Arbeit ist... / Das Studium ist..."
+**How to structure your description:**
+1. State what happened: "Es gab einen..."
+2. Say when and where: "Gestern... / In der..."
+3. Describe the situation: "Ich war... / Ein Mann war..."
+4. Say what you did: "Ich habe... gerufen."
+5. Explain the result: "Jetzt ist alles..."
 
-**Sample introduction for a job:**
+**Sample monologue - Accident:**
 ```
-Ich bin Krankenschwester von Beruf. Ich arbeite im Universitätskrankenhaus in Hamburg.
-Ich arbeite in der Notaufnahme. Ich helfe kranken Menschen. Ich gebe Medikamente
-und kontrolliere die Patienten. Ich arbeite in Schichten. Manchmal arbeite ich nachts.
-Die Arbeit ist anstrengend aber sehr wichtig. Ich mag meine Arbeit sehr.
-```
-
-**Sample introduction for studies:**
-```
-Ich bin Studentin. Ich studiere Wirtschaft an der Universität Köln.
-Ich bin im zweiten Semester. Ich habe viele Kurse: Mathematik, Statistik,
-Marketing und Management. Ich habe Vorlesungen von Montag bis Donnerstag.
-Freitags lerne ich in der Bibliothek. Das Studium ist interessant aber schwer.
-Ich möchte später in einer großen Firma arbeiten.
+Gestern gab es einen Unfall vor meinem Haus. Es war um 10 Uhr morgens.
+Ein Auto fuhr zu schnell und hat einen Radfahrer getroffen.
+Der Radfahrer ist gefallen. Er war verletzt und konnte nicht aufstehen.
+Ich habe sofort den Krankenwagen gerufen. Die Nummer ist 112.
+Nach 10 Minuten kam der Krankenwagen. Die Sanitäter haben dem Mann geholfen.
+Sie haben ihn ins Krankenhaus gebracht. Ich hoffe, es geht ihm jetzt besser.
 ```
 
-**Teil 2: Ask and Answer Questions About Work and Studies**
-
-Practice both asking and responding to questions about occupations and education.
-
-**Common W-questions about work:**
-- "Was sind Sie von Beruf?" (What's your profession?)
-- "Wo arbeiten Sie?" (Where do you work?)
-- "Was machen Sie in Ihrem Beruf?" (What do you do in your job?)
-- "Wie sind Ihre Arbeitszeiten?" (What are your working hours?)
-- "Wie lange arbeiten Sie schon dort?" (How long have you been working there?)
-- "Gefällt Ihnen Ihre Arbeit?" (Do you like your work?)
-
-**Common W-questions about studies:**
-- "Was studierst du?" (What do you study?)
-- "Wo studierst du?" (Where do you study?)
-- "In welchem Semester bist du?" (What semester are you in?)
-- "Welche Kurse hast du?" (What courses do you have?)
-- "Wie ist das Studium?" (How are your studies?)
-- "Was möchtest du später werden?" (What do you want to become later?)
-
-**Sample Q&A dialogue about work:**
+**Sample monologue - Lost item:**
 ```
-A: Was sind Sie von Beruf?
-B: Ich bin Mechaniker. Ich repariere Autos.
-
-A: Wo arbeiten Sie?
-B: Ich arbeite in einer Werkstatt in Kreuzberg.
-
-A: Wie sind Ihre Arbeitszeiten?
-B: Ich arbeite von 8 bis 17 Uhr, Montag bis Freitag.
-
-A: Gefällt Ihnen die Arbeit?
-B: Ja, sehr. Ich mag Autos. Die Arbeit macht Spaß.
+Letzte Woche habe ich meine Tasche verloren. Das war am Mittwoch.
+Ich war in der Stadt beim Einkaufen. Ich hatte viele Geschäfte besucht.
+Am Abend war meine Tasche plötzlich weg. Mein Handy, mein Portemonnaie
+und meine Schlüssel waren in der Tasche. Ich war sehr nervös.
+Ich bin zu allen Geschäften zurückgegangen. Im letzten Geschäft war meine Tasche!
+Eine Verkäuferin hat sie gefunden. Ich war so froh! Jetzt passe ich besser auf.
 ```
 
-**Sample Q&A dialogue about studies:**
+**Teil 2: Ask for and Offer Help**
+
+Practice both requesting help and offering assistance in emergencies.
+
+**Common help questions:**
+- "Brauchst du Hilfe?" (Do you need help?)
+- "Kann ich dir helfen?" (Can I help you?)
+- "Was ist passiert?" (What happened?)
+- "Geht es dir gut?" (Are you okay?)
+- "Soll ich einen Arzt rufen?" (Should I call a doctor?)
+- "Wo tut es weh?" (Where does it hurt?)
+
+**Sample Dialogue 1 - Helping someone who fell:**
 ```
-A: Was studierst du?
-B: Ich studiere Architektur.
+A: Oh! Sind Sie okay? Was ist passiert?
+B: Ich bin gefallen. Mein Fuß tut sehr weh.
 
-A: In welchem Semester bist du?
-B: Ich bin im fünften Semester.
+A: Können Sie aufstehen?
+B: Nein, ich glaube nicht. Der Schmerz ist zu stark.
 
-A: Ist das Studium schwer?
-B: Ja, ziemlich schwer. Wir haben viele Projekte. Aber es ist kreativ und interessant.
+A: Ich rufe den Krankenwagen. Bleiben Sie ruhig.
+B: Danke! Das ist sehr nett.
 
-A: Was möchtest du später machen?
-B: Ich möchte Gebäude entwerfen. Vielleicht in einem großen Architekturbüro.
-```
-
-**Teil 3: Make Work or Study-Related Requests**
-
-Practice making requests related to your workplace or educational environment.
-
-**Common work-related requests:**
-- Asking for time off
-- Requesting help from colleagues
-- Making appointments with supervisors
-- Requesting information or materials
-- Asking about procedures
-
-**Sample Dialogue 1 - Requesting Time Off:**
-```
-A: Guten Tag, Herr Schmidt. Kann ich kurz mit Ihnen sprechen?
-B: Ja, natürlich. Was gibt es?
-
-A: Ich möchte nächste Woche Montag und Dienstag frei nehmen.
-   Meine Mutter ist krank und ich muss sie besuchen.
-B: Das tut mir leid. Ja, kein Problem. Füllen Sie bitte das Formular aus.
-
-A: Danke! Wo bekomme ich das Formular?
-B: Bei Frau Müller im Personalbüro.
+A: Kein Problem. Hilfe kommt gleich. Wo wohnen Sie?
+B: In der Parkstraße 15.
 ```
 
-**Sample Dialogue 2 - Asking a Colleague for Help:**
+**Sample Dialogue 2 - Asking for directions when lost:**
 ```
-A: Hallo Lisa! Hast du kurz Zeit? Ich brauche deine Hilfe.
-B: Ja, klar. Was brauchst du?
+A: Entschuldigung! Können Sie mir helfen?
+B: Ja, natürlich. Was brauchen Sie?
 
-A: Ich verstehe das neue Computerprogramm nicht. Kannst du es mir erklären?
-B: Ja, natürlich. Komm, ich zeige es dir. Es ist ganz einfach.
+A: Ich habe mich verlaufen. Ich suche den Hauptbahnhof.
+B: Der Hauptbahnhof ist nicht weit. Gehen Sie geradeaus, dann links.
 
-A: Super, vielen Dank!
-B: Gern geschehen!
-```
+A: Wie weit ist es?
+B: Nur 5 Minuten zu Fuß. Sie können ihn nicht verfehlen.
 
-**Sample Dialogue 3 - Asking About a Course:**
-```
-A: Entschuldigung, ich habe eine Frage zum Deutschkurs.
-B: Ja, bitte?
-
-A: Gibt es noch Plätze im Kurs für Anfänger?
-B: Ja, wir haben noch 5 Plätze frei.
-
-A: Wann beginnt der Kurs?
-B: Am 1. September. Immer montags und mittwochs, 18 bis 20 Uhr.
-
-A: Perfekt! Wie kann ich mich anmelden?
-B: Füllen Sie dieses Formular aus und bezahlen Sie die Kursgebühr.
+A: Vielen Dank für Ihre Hilfe!
+B: Gern geschehen. Gute Reise!
 ```
 
-**Key Strategies for Speaking About Work/Studies:**
+**Sample Dialogue 3 - Offering help to tourist:**
+```
+A: Sie sehen verloren aus. Brauchen Sie Hilfe?
+B: Ja, danke! Ich suche ein Hotel. Das Hotel Merkur.
 
-**When introducing your work/studies:**
-- ✅ Be clear about your occupation or field
-- ✅ Give context: where, when, what you do
-- ✅ Add personal opinion if possible
-- ✅ Use simple, clear sentences
+A: Ah, das kenne ich. Es ist in der Nähe vom Marktplatz.
+B: Wie komme ich dorthin?
 
-**When asking about work/studies:**
-- ✅ Start with basic questions: Was? Wo? Wann?
-- ✅ Show interest with follow-up questions
-- ✅ Ask about likes/dislikes: "Gefällt dir...?"
-- ✅ Listen actively to responses
+A: Nehmen Sie die U-Bahn Linie 2. Drei Stationen. Dann sehen Sie das Hotel.
+B: Das ist super. Vielen herzlichen Dank!
 
-**When making work/study requests:**
-- ✅ Be polite: "Entschuldigung, kann ich...?"
-- ✅ State what you need clearly
-- ✅ Give reasons if necessary
-- ✅ Thank the person
+A: Bitte sehr. Viel Spaß in unserer Stadt!
+```
+
+**Teil 3: Emergency Phone Calls**
+
+Practice making emergency calls and reporting problems by phone.
+
+**Important emergency numbers in Germany:**
+- **112** - Ambulance and Fire Department (Krankenwagen und Feuerwehr)
+- **110** - Police (Polizei)
+- **116 117** - Medical on-call service (Ärztlicher Bereitschaftsdienst)
+
+**Sample Emergency Call - Calling 112:**
+```
+Operator: Notruf 112, was ist Ihr Notfall?
+Caller: Es gab einen Unfall! Ein Mann ist verletzt!
+
+Operator: Wo sind Sie?
+Caller: In der Hauptstraße 45, vor dem Supermarkt.
+
+Operator: Was ist passiert?
+Caller: Ein Auto hat einen Fußgänger angefahren. Der Mann liegt auf der Straße.
+
+Operator: Ist er bei Bewusstsein?
+Caller: Ja, aber er blutet. Er hat Schmerzen.
+
+Operator: Der Krankenwagen kommt sofort. Bleiben Sie bei dem Mann.
+Caller: Okay, danke!
+```
+
+**Sample Call - Calling Doctor:**
+```
+Receptionist: Praxis Dr. Schmidt, guten Tag.
+Patient: Guten Tag. Ich brauche dringend einen Termin.
+
+Receptionist: Was haben Sie für Beschwerden?
+Patient: Ich habe starke Bauchschmerzen seit heute Morgen. Und Fieber.
+
+Receptionist: Wie hoch ist das Fieber?
+Patient: 39 Grad.
+
+Receptionist: Das ist hoch. Können Sie um 14 Uhr kommen?
+Patient: Ja, das geht. Vielen Dank!
+```
+
+**Sample Call - Reporting Fire:**
+```
+Operator: Feuerwehr, was ist passiert?
+Caller: Es brennt! In meinem Nachbarhaus!
+
+Operator: Wie ist die Adresse?
+Caller: Rosenstraße 23, zweiter Stock.
+
+Operator: Sind noch Menschen im Haus?
+Caller: Ich weiß es nicht. Ich sehe Rauch aus dem Fenster.
+
+Operator: Die Feuerwehr ist unterwegs. Gehen Sie in Sicherheit!
+Caller: Okay, ich gehe weg vom Haus.
+```
+
+**Key Strategies for Emergency Speaking:**
+
+**When describing an emergency:**
+- ✅ Stay calm and speak clearly
+- ✅ Give location first: "In der... / Bei..."
+- ✅ Describe what happened: "Es gab... / Jemand ist..."
+- ✅ Say what help is needed: "Ich brauche..."
+
+**When offering help:**
+- ✅ Ask clearly: "Brauchen Sie Hilfe?"
+- ✅ Listen carefully to what they need
+- ✅ Give specific help or information
+- ✅ Stay with the person if serious
+
+**When calling for help:**
+- ✅ State emergency immediately: "Es ist ein Notfall!"
+- ✅ Give exact location
+- ✅ Describe the situation
+- ✅ Answer all questions clearly
+- ✅ Stay on the line if asked
 
 ---
 
-**Vocabulary Theme: Study and Education**
+**Vocabulary Theme: Emergencies and Help**
 
-**Education Levels (Bildungsstufen):**
-- **die Schule** (school) - "Ich gehe zur Schule."
-- **die Grundschule** (elementary school) - "Mein Sohn ist in der Grundschule."
-- **das Gymnasium** (high school/grammar school) - "Sie besucht das Gymnasium."
-- **die Universität / die Uni** (university) - "Ich studiere an der Uni."
-- **die Fachhochschule** (university of applied sciences) - "Er studiert an der Fachhochschule."
-- **die Berufsschule** (vocational school) - "Sie geht zur Berufsschule."
+**Emergency Words (Notfallwörter):**
+- **der Notfall** (emergency) - "Es ist ein Notfall!"
+- **die Hilfe** (help) - "Ich brauche Hilfe!"
+- **der Unfall** (accident) - "Es gab einen Unfall."
+- **die Gefahr** (danger) - "Das ist gefährlich!"
+- **das Problem** (problem) - "Ich habe ein Problem."
+- **die Panik** (panic) - "Keine Panik! Bleib ruhig."
+- **die Sicherheit** (safety) - "Gehen Sie in Sicherheit!"
 
-**Study-Related Terms (Studienbegriffe):**
-- **das Studium** (studies/degree program) - "Mein Studium dauert 3 Jahre."
-- **der Kurs** (course) - "Ich besuche einen Deutschkurs."
-- **der Unterricht** (class/instruction) - "Der Unterricht beginnt um 9 Uhr."
-- **die Vorlesung** (lecture) - "Ich habe drei Vorlesungen pro Woche."
-- **das Seminar** (seminar) - "Das Seminar ist interessant."
-- **das Semester** (semester) - "Ich bin im dritten Semester."
-- **die Prüfung / der Test** (exam/test) - "Die Prüfung ist nächste Woche."
-- **die Hausaufgabe** (homework) - "Ich mache meine Hausaufgaben."
-- **das Projekt** (project) - "Wir arbeiten an einem Projekt."
-- **die Bibliothek** (library) - "Ich lerne in der Bibliothek."
+**Emergency Services (Notdienste):**
+- **der Krankenwagen** (ambulance) - "Rufen Sie den Krankenwagen!"
+- **die Feuerwehr** (fire department) - "Die Feuerwehr kommt."
+- **die Polizei** (police) - "Ich rufe die Polizei."
+- **der Arzt / die Ärztin** (doctor m/f) - "Ich brauche einen Arzt."
+- **der Sanitäter / die Sanitäterin** (paramedic m/f) - "Der Sanitäter hilft."
+- **das Krankenhaus** (hospital) - "Er ist im Krankenhaus."
+- **die Apotheke** (pharmacy) - "Die Apotheke ist offen."
 
-**Study Fields (Studienfächer):**
-- **die Medizin** (medicine) - "Ich studiere Medizin."
-- **die Informatik** (computer science) - "Er studiert Informatik."
-- **die Wirtschaft / BWL** (business/economics) - "Sie studiert Wirtschaft."
-- **die Ingenieurwissenschaft** (engineering) - "Ich studiere Ingenieurwissenschaft."
-- **die Mathematik** (mathematics) - "Mathematik ist schwer."
-- **die Biologie** (biology) - "Sie studiert Biologie."
-- **die Chemie** (chemistry) - "Chemie ist interessant."
-- **die Physik** (physics) - "Physik ist kompliziert."
-- **die Geschichte** (history) - "Ich mag Geschichte."
-- **die Kunst** (art) - "Sie studiert Kunst."
-- **die Musik** (music) - "Er studiert Musik."
-- **die Sprachen** (languages) - "Ich lerne viele Sprachen."
+**Health Emergencies (Gesundheitsnotfälle):**
+- **krank** (sick) - "Ich bin krank."
+- **verletzt** (injured) - "Er ist verletzt."
+- **der Schmerz** (pain) - "Ich habe Schmerzen."
+- **das Fieber** (fever) - "Ich habe hohes Fieber."
+- **der Kopf** (head) - "Mein Kopf tut weh."
+- **der Bauch** (stomach/belly) - "Ich habe Bauchschmerzen."
+- **das Bein** (leg) - "Mein Bein ist gebrochen."
+- **der Arm** (arm) - "Mein Arm blutet."
+- **bluten** (to bleed) - "Die Wunde blutet."
+- **fallen** (to fall) - "Ich bin gefallen."
+- **bewusstlos** (unconscious) - "Er ist bewusstlos."
 
-**People at University (Personen an der Uni):**
-- **der Student / die Studentin** (student m/f) - "Ich bin Student."
-- **der Professor / die Professorin** (professor m/f) - "Der Professor ist sehr gut."
-- **der Dozent / die Dozentin** (lecturer m/f) - "Die Dozentin erklärt alles gut."
-- **der Kommilitone / die Kommilitonin** (fellow student) - "Meine Kommilitonen sind nett."
+**Accidents (Unfälle):**
+- **der Autounfall** (car accident) - "Es war ein Autounfall."
+- **das Feuer** (fire) - "Es brennt! Feuer!"
+- **der Rauch** (smoke) - "Ich sehe Rauch."
+- **kaputt** (broken) - "Das Auto ist kaputt."
+- **zusammenstoßen** (to collide) - "Zwei Autos sind zusammengestoßen."
+- **anfahren** (to hit with vehicle) - "Ein Auto hat mich angefahren."
 
-**Study Verbs (Studienverben):**
-- **studieren** (to study at university) - "Ich studiere in Berlin."
-- **lernen** (to learn/study for tests) - "Ich lerne für die Prüfung."
-- **unterrichten** (to teach) - "Der Professor unterrichtet Mathematik."
-- **besuchen** (to attend) - "Ich besuche die Vorlesung."
-- **teilnehmen** (to participate) - "Ich nehme am Seminar teil."
-- **machen** (to do/take) - "Ich mache einen Test."
-- **schreiben** (to write) - "Ich schreibe eine Hausarbeit."
-- **lesen** (to read) - "Ich lese viele Bücher."
-- **vorbereiten** (to prepare) - "Ich bereite mich auf die Prüfung vor."
-- **bestehen** (to pass) - "Ich habe die Prüfung bestanden."
+**Lost & Found (Verloren und Gefunden):**
+- **verlieren** (to lose) - "Ich habe meinen Pass verloren."
+- **finden** (to find) - "Hast du meinen Schlüssel gefunden?"
+- **suchen** (to search/look for) - "Ich suche meine Tasche."
+- **weg sein** (to be gone) - "Meine Geldbörse ist weg!"
+- **das Fundbüro** (lost and found office) - "Gehen Sie zum Fundbüro."
+- **die Geldbörse / das Portemonnaie** (wallet) - "Meine Geldbörse ist verloren."
+- **der Pass / Reisepass** (passport) - "Mein Pass ist weg."
+- **der Schlüssel** (key) - "Ich habe meine Schlüssel verloren."
+- **das Handy** (mobile phone) - "Mein Handy ist weg."
 
-**School Supplies (Schulsachen):**
-- **das Buch** (book) - "Ich brauche ein Buch."
-- **das Heft** (notebook) - "Mein Heft ist voll."
-- **der Stift** (pen) - "Hast du einen Stift?"
-- **der Computer / der Laptop** (computer/laptop) - "Ich arbeite am Computer."
-- **die Tasche** (bag) - "Meine Bücher sind in der Tasche."
+**Emergency Actions (Notfallhandlungen):**
+- **helfen** (to help) - "Können Sie mir helfen?"
+- **rufen** (to call) - "Rufen Sie die 112!"
+- **anrufen** (to phone) - "Ich rufe den Arzt an."
+- **kommen** (to come) - "Die Hilfe kommt gleich."
+- **retten** (to rescue/save) - "Die Feuerwehr rettet die Menschen."
+- **bringen** (to bring/take) - "Der Krankenwagen bringt ihn ins Krankenhaus."
+- **warten** (to wait) - "Warten Sie hier!"
+- **bleiben** (to stay) - "Bleiben Sie ruhig!"
+- **aufstehen** (to stand up) - "Können Sie aufstehen?"
+- **liegen** (to lie) - "Er liegt auf der Straße."
 
-**Study Adjectives:**
-- **schwer / schwierig** (difficult/hard) - "Das Studium ist schwer."
-- **leicht / einfach** (easy) - "Der Test ist leicht."
-- **interessant** (interesting) - "Die Vorlesung ist interessant."
-- **langweilig** (boring) - "Das Seminar ist langweilig."
-- **wichtig** (important) - "Die Prüfung ist wichtig."
-- **kompliziert** (complicated) - "Mathematik ist kompliziert."
+**Emergency Adjectives & Adverbs:**
+- **dringend** (urgent) - "Es ist dringend!"
+- **sofort** (immediately) - "Kommen Sie sofort!"
+- **schnell** (quick/fast) - "Schnell! Rufen Sie Hilfe!"
+- **gefährlich** (dangerous) - "Das ist sehr gefährlich."
+- **ruhig** (calm) - "Bleiben Sie ruhig."
+- **sicher** (safe) - "Hier sind Sie sicher."
+- **nervös** (nervous) - "Ich bin sehr nervös."
+- **schlimm** (bad/serious) - "Ist es schlimm?"
 
-**Useful Study Phrases:**
-- "Ich studiere... an der Universität..." (I study... at the university of...)
-- "Ich bin im... Semester." (I'm in the... semester.)
-- "Ich habe Vorlesungen von... bis..." (I have lectures from... to...)
-- "Das Studium dauert... Jahre." (The degree takes... years.)
-- "Ich lerne für die Prüfung." (I'm studying for the exam.)
-- "Die Prüfung ist nächste Woche." (The exam is next week.)
-- "Ich schreibe eine Hausarbeit." (I'm writing a paper.)
-- "Ich habe viel zu tun." (I have a lot to do.)
+**Emergency Locations:**
+- **die Straße** (street) - "Der Unfall ist auf der Straße."
+- **der Ausgang** (exit) - "Wo ist der Notausgang?"
+- **der Notausgang** (emergency exit) - "Nehmen Sie den Notausgang!"
+- **draußen** (outside) - "Wir müssen nach draußen!"
 
-**Sample Sentences for Practice:**
-1. "Ich studiere Informatik an der Technischen Universität München."
-2. "Ich bin im zweiten Semester. Das Studium dauert vier Jahre."
-3. "Ich habe Vorlesungen von Montag bis Freitag."
-4. "Die Prüfung ist nächsten Montag. Ich lerne jeden Tag."
-5. "Meine Kommilitonen sind sehr nett. Wir lernen oft zusammen."
-6. "Das Studium ist schwer aber interessant."
-7. "Ich möchte nach dem Studium als Programmierer arbeiten."
-8. "Was studierst du? - Ich studiere Medizin."
+**Useful Emergency Phrases:**
+- "Hilfe! / Zu Hilfe!" (Help!)
+- "Es ist ein Notfall!" (It's an emergency!)
+- "Rufen Sie die 112!" (Call 112!)
+- "Ich brauche einen Arzt!" (I need a doctor!)
+- "Wo tut es weh?" (Where does it hurt?)
+- "Können Sie aufstehen?" (Can you get up?)
+- "Bleiben Sie ruhig!" (Stay calm!)
+- "Die Hilfe kommt gleich." (Help is coming soon.)
+- "Ist jemand verletzt?" (Is anyone injured?)
+- "Wo ist das nächste Krankenhaus?" (Where is the nearest hospital?)
+
+**Sample Emergency Sentences:**
+1. "Hilfe! Es gab einen Unfall! Rufen Sie bitte den Krankenwagen!"
+2. "Ich habe meine Geldbörse verloren. Sie war in meiner Tasche."
+3. "Ein Mann ist gefallen. Er kann nicht aufstehen. Sein Bein tut weh."
+4. "Es brennt im zweiten Stock! Die Feuerwehr muss kommen!"
+5. "Ich bin krank. Ich habe hohes Fieber und starke Kopfschmerzen."
+6. "Mein Auto ist kaputt. Ich brauche einen Abschleppdienst."
+7. "Entschuldigung, können Sie mir helfen? Ich habe mich verlaufen."
+8. "Bleiben Sie ruhig! Der Krankenwagen ist schon unterwegs."
 
 **Exam Tips for Day 20:**
 
 **For Writing:**
-- Work/study descriptions should include: what, where, when
-- Be specific: name your profession or field of study
-- Use time expressions: seit 3 Jahren, im dritten Semester
-- Include your opinion: interessant, schwer, gefällt mir
+- Emergency descriptions should be clear and simple
+- State the problem first, then give details
+- Use past tense for completed events: "hatte", "war", "gab es"
+- Show urgency with words like "dringend", "sofort", "schnell"
+- When cancelling, always apologize: "Es tut mir leid"
 
 **For Speaking:**
-- Practice your own work/study introduction beforehand
-- Be ready to explain what you do: specific tasks or subjects
-- Use linking words: aber, und, oder
-- If you forget a job title, describe what you do
+- In emergencies, speak slowly and clearly
+- Give location information precisely
+- Use simple sentences - don't try to be fancy
+- Practice emergency numbers: 112 (ambulance/fire), 110 (police)
+- Stay calm and don't panic during the exam
 
 **Common Mistakes to Avoid:**
-- ❌ Confusing studieren (university study) and lernen (learn/study for tests)
-- ❌ Wrong preposition: "arbeiten in Siemens" → "arbeiten bei Siemens"
-- ❌ Wrong article for professions: "Ich bin eine Lehrerin" → "Ich bin Lehrerin"
-- ❌ Forgetting "von Beruf": "Was bist du?" → "Was bist du von Beruf?"
+- ❌ Confusing "helfen" (help someone) with "Hilfe" (help as noun)
+- ❌ Wrong verb: "Ich rufe Hilfe" → "Ich rufe um Hilfe"
+- ❌ Forgetting to give location in emergency calls
+- ❌ Using future tense in emergencies - use present: "Die Hilfe kommt" not "wird kommen"
 
 ---
 
@@ -4657,18 +4696,21 @@ B: Füllen Sie dieses Formular aus und bezahlen Sie die Kursgebühr.
 
 You've now covered:
 - **Day 14:** Progress review and consolidation
-- **Day 15-16:** Travel and directions
-- **Day 17-18:** Housing and living spaces
-- **Day 19-20:** Work and studies
+- **Day 15:** Music & Arts
+- **Day 16:** Pets & Animals
+- **Day 17:** Technology & Internet
+- **Day 18:** Festivals & Celebrations
+- **Day 19:** Nature & Parks
+- **Day 20:** Emergencies & Help
 
 **Week 3 Skills Acquired:**
-- ✅ Talking about transportation and travel plans
-- ✅ Asking for and giving directions
-- ✅ Describing apartments and rooms
-- ✅ Discussing furniture and home features
-- ✅ Talking about jobs and professions
-- ✅ Describing work schedules and duties
-- ✅ Discussing studies and education
+- ✅ Talking about cultural activities and hobbies
+- ✅ Describing pets and animals
+- ✅ Using technology vocabulary
+- ✅ Discussing celebrations and traditions
+- ✅ Describing nature and outdoor activities
+- ✅ Handling emergency situations
+- ✅ Asking for and offering help
 
 **Keep Going!**
 - Days 21-30 will cover more advanced topics and exam strategies
