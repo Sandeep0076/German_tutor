@@ -22,7 +22,7 @@ const writingPractice1: WritingPractice = {
   title: "Report a Problem",
   description: "Write a message reporting a problem or emergency",
   instructions: "Write to report a problem. Include: what happened, when, where, and what help you need. Write about 30-40 words.",
-  prompt: "You lost your wallet. Write to your friend asking for help.",
+  prompt: "Du hast dein Portemonnaie verloren. Schreib deinem Freund und bitte um Hilfe.",
   sampleAnswer: "Lieber Tom,\n\nich habe ein Problem! Ich habe mein Portemonnaie verloren. Ich war heute im Park. Vielleicht liegt es noch dort. Kannst du mit mir im Park suchen? Ich brauche deine Hilfe! Bitte ruf mich an.\n\nViele Grüße\nLisa",
   keyPhrases: [
     "Ich habe ein Problem (I have a problem)",
@@ -38,7 +38,7 @@ const writingPractice2: WritingPractice = {
   title: "Cancel Due to Emergency",
   description: "Write to cancel an appointment or meeting due to an emergency",
   instructions: "Write to cancel plans due to an emergency. Must include all 3 points: 1) What was planned? 2) Why can't you come? 3) When can you meet instead? Write about 30-40 words.",
-  prompt: "You can't meet your friend tomorrow because you're sick. Write to cancel and suggest a new date.",
+  prompt: "Du kannst deinen Freund morgen nicht treffen, weil du krank bist. Schreib ihm, sag ab und schlage ein neues Datum vor.",
   sampleAnswer: "Liebe Anna,\n\nes tut mir leid! Morgen kann ich nicht kommen. Ich bin krank. Ich habe Fieber und Kopfschmerzen. Der Arzt sagt, ich muss zu Hause bleiben. Können wir uns nächste Woche treffen?\n\nViele Grüße\nMax",
   keyPhrases: [
     "Es tut mir leid (I'm sorry)",
@@ -54,7 +54,7 @@ const writingPractice3: WritingPractice = {
   title: "Ask for Help with a Situation",
   description: "Write to ask for help with a difficult situation",
   instructions: "Write to ask someone for help with a problem. Explain the situation and what help you need. Write about 30-35 words.",
-  prompt: "Your car broke down. Write to your friend asking if he can pick you up.",
+  prompt: "Dein Auto ist kaputt. Schreib deinem Freund und frag, ob er dich abholen kann.",
   sampleAnswer: "Hallo Peter,\n\nmein Auto ist kaputt! Ich bin auf der Autobahn bei München. Kannst du mich abholen? Ich warte an der Tankstelle. Bitte komm schnell! Vielen Dank!\n\nTom",
   keyPhrases: [
     "Kannst du mich abholen? (Can you pick me up?)",

@@ -22,7 +22,7 @@ const writingPractice1: WritingPractice = {
   title: "Write About a Celebration",
   description: "Write a message describing a celebration or party",
   instructions: "Write to a friend about a celebration. Include: what celebration, when, where, who came, and what you did. Write about 30-40 words.",
-  prompt: "Tell your friend about your birthday party last weekend.",
+  prompt: "Erzähl deinem Freund von deiner Geburtstagsparty letztes Wochenende.",
   sampleAnswer: "Liebe Anna,\n\nam Samstag hatte ich Geburtstag! Ich bin 25 Jahre alt geworden. Wir haben im Restaurant gefeiert. Meine Familie und Freunde sind gekommen. Wir haben gegessen, getanzt und viel gelacht. Es war ein toller Tag!\n\nViele Grüße\nLisa",
   keyPhrases: [
     "Ich hatte Geburtstag (It was my birthday)",
@@ -38,7 +38,7 @@ const writingPractice2: WritingPractice = {
   title: "Invitation to a Party",
   description: "Write an invitation to a celebration or party",
   instructions: "Write an invitation to your party. Must include all 3 points: 1) What celebration? 2) When and where? 3) What should guests bring or do? Write about 30-40 words.",
-  prompt: "Invite your friend to your housewarming party.",
+  prompt: "Lade deinen Freund zu deiner Einweihungsparty ein.",
   sampleAnswer: "Lieber Max,\n\nich habe eine neue Wohnung! Am Samstag, den 15. Mai, mache ich eine Party ab 18 Uhr. Die Adresse ist Mozartstraße 10. Bring bitte etwas zu trinken mit. Ich freue mich auf dich!\n\nBis dann!\nTom",
   keyPhrases: [
     "Ich lade dich ein (I invite you)",
@@ -54,7 +54,7 @@ const writingPractice3: WritingPractice = {
   title: "Thank You for a Gift",
   description: "Write a thank you message for a gift or celebration",
   instructions: "Write to thank someone for a gift or for coming to your celebration. Write about 30-35 words.",
-  prompt: "Thank your friend for the birthday gift she gave you.",
+  prompt: "Bedank dich bei deiner Freundin für das Geburtstagsgeschenk, das sie dir gegeben hat.",
   sampleAnswer: "Liebe Sarah,\n\nvielen Dank für das schöne Geschenk! Das Buch ist toll. Ich lese es gerade. Es war auch schön, dass du zu meiner Party gekommen bist. Bis bald!\n\nLiebe Grüße\nJulia",
   keyPhrases: [
     "Vielen Dank für... (Thank you very much for...)",

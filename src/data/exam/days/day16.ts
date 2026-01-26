@@ -22,7 +22,7 @@ const writingPractice1: WritingPractice = {
   title: "Write About Your Pet",
   description: "Write a message describing your pet or a pet you would like to have",
   instructions: "Write to a friend about your pet. Include: what kind of animal, name, age, appearance, and what it likes to do. Write about 30-40 words.",
-  prompt: "Your friend asked you about your pet. Write an email describing your pet.",
+  prompt: "Dein Freund hat dich nach deinem Haustier gefragt. Schreib eine E-Mail und beschreib dein Haustier.",
   sampleAnswer: "Liebe Maria,\n\nich habe einen Hund. Er heißt Max und ist 3 Jahre alt. Er ist groß und braun. Max spielt gern im Park und schwimmt gern. Er ist sehr freundlich und mag Kinder. Ich liebe meinen Hund!\n\nLiebe Grüße\nTom",
   keyPhrases: [
     "Ich habe einen/eine... (I have a...)",
@@ -38,7 +38,7 @@ const writingPractice2: WritingPractice = {
   title: "Ask About Pet Care",
   description: "Write to ask for help or information about taking care of a pet",
   instructions: "Write an email asking for pet care advice. Must include all 3 points: 1) What pet do you have? 2) What problem/question do you have? 3) When can you meet/talk? Write about 30-40 words.",
-  prompt: "You're going on vacation and need someone to take care of your cat. Write to your neighbor asking for help.",
+  prompt: "Du fährst in den Urlaub und brauchst jemanden, der sich um deine Katze kümmert. Schreib deinem Nachbarn und bitte um Hilfe.",
   sampleAnswer: "Lieber Herr Schmidt,\n\nich habe eine Katze. Sie heißt Luna. Nächste Woche fahre ich in Urlaub. Können Sie meine Katze füttern? Sie braucht zweimal pro Tag Futter. Ich gebe Ihnen den Schlüssel. Vielen Dank!\n\nViele Grüße\nAnna",
   keyPhrases: [
     "Können Sie... (Can you...)",
@@ -54,7 +54,7 @@ const writingPractice3: WritingPractice = {
   title: "Respond to Pet Adoption",
   description: "Write about adopting or finding a pet",
   instructions: "Write a message about adopting a pet or responding to a lost pet announcement. Write about 30-35 words.",
-  prompt: "You saw an advertisement for a dog that needs a new home. Write to ask about the dog.",
+  prompt: "Du hast eine Anzeige für einen Hund gesehen, der ein neues Zuhause braucht. Schreib eine Nachricht und frag nach dem Hund.",
   sampleAnswer: "Sehr geehrte Damen und Herren,\n\nich habe Ihre Anzeige gelesen. Ich interessiere mich für den Hund. Wie alt ist er? Ist er freundlich zu Kindern? Wann kann ich ihn besuchen?\n\nMit freundlichen Grüßen\nLisa Müller",
   keyPhrases: [
     "Ich interessiere mich für... (I'm interested in...)",
