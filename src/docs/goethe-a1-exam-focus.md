@@ -65,20 +65,70 @@ Each question presents a scenario and two different websites. You must choose wh
 
 ### Format
 - **5 questions** (11-15)
-- For each question: **1 text/notice**
+- **Each question has 1 statement + 1 notice/sign/message**
 - Answer format: **Richtig** (Correct) or **Falsch** (False)
 
+### Important Structure Details
+- Each question is independent with its own notice/sign
+- The notice is usually substantial (not just one sentence)
+- Common notice types: signs, emails, message boards, announcements, information boards
+- You read the notice and decide if the statement is true or false based on the information
+
 ### Example Structure
-Each question presents a scenario and one notice/sign. You determine if the statement is correct or false based on the notice.
+Each question has: (1) A statement to evaluate, and (2) A notice/sign to read
 
-**Example:**
-- Question 0 (Beispiel): "Zum Deutsch Lernen gehen Sie in die Beethovenstraße 23."
-  - Notice shows: "SPRACHZENTRUM - Das Sprachzentrum ist umgezogen. Sie finden uns jetzt in der Beethovenstr. 23"
-  - Answer: **Richtig** / Falsch
+**Example Question 0 (Beispiel):**
+- **Statement**: "Zum Deutsch Lernen gehen Sie in die Beethovenstraße 23."
+- **Notice**:
+  ```
+  ┌─────────────────────────────────────┐
+  │      SPRACHZENTRUM                  │
+  │                                     │
+  │  Das Sprachzentrum ist umgezogen.   │
+  │  Sie finden uns jetzt in der        │
+  │  Beethovenstr. 23                   │
+  │                                     │
+  │  Neue Öffnungszeiten:               │
+  │  Mo-Fr: 9-18 Uhr                    │
+  └─────────────────────────────────────┘
+  ```
+- **Answer**: **Richtig** (The notice says they moved to Beethovenstr. 23)
 
-- Question 11: "In der Sprachschule können Sie etwas zu essen kaufen."
-  - Notice shows: "In der 10-Uhr-Pause bekommen Sie an der Rezeption ein Frühstückspaket: Belegte Brötchen und Getränke für 2 Euro."
-  - Answer: **Richtig** / Falsch
+**Example Question 11:**
+- **Statement**: "In der Sprachschule können Sie etwas zu essen kaufen."
+- **Notice**:
+  ```
+  ┌─────────────────────────────────────┐
+  │   SPRACHSCHULE INFORMATION          │
+  │                                     │
+  │  In der 10-Uhr-Pause bekommen Sie   │
+  │  an der Rezeption ein               │
+  │  Frühstückspaket:                   │
+  │                                     │
+  │  Belegte Brötchen und Getränke      │
+  │  für 2 Euro.                        │
+  │                                     │
+  │  Täglich frisch!                    │
+  └─────────────────────────────────────┘
+  ```
+- **Answer**: **Richtig** (You can buy breakfast at reception)
+
+**Example Question 12:**
+- **Statement**: "Das WLAN am Bahnhof kostet Geld."
+- **Notice**:
+  ```
+  ┌─────────────────────────────────────┐
+  │   KOSTENLOSES WLAN                  │
+  │   Deutsche Bahn                     │
+  │                                     │
+  │  WLAN-Name: "Free_WIFI_DB"          │
+  │                                     │
+  │  Jetzt für 30 Minuten kostenlos!    │
+  │  Danach automatische Trennung.      │
+  │  Eine neue Verbindung ist möglich.  │
+  └─────────────────────────────────────┘
+  ```
+- **Answer**: **Falsch** (The notice says "kostenlos" - free)
 
 ---
 
@@ -86,8 +136,26 @@ Each question presents a scenario and one notice/sign. You determine if the stat
 
 | Part | Questions | Format | Answer Type |
 |------|-----------|--------|-------------|
-| Teil 1 | 1-5 (5 questions) | 1 large text → 5 questions | Richtig/Falsch |
-| Teil 2 | 6-10 (5 questions) | 1 question → 2 texts (choose a or b) | a or b |
-| Teil 3 | 11-15 (5 questions) | 1 question → 1 text | Richtig/Falsch |
+| Teil 1 | 1-5 (5 questions) | **1 large text** → 5 questions about it | Richtig/Falsch |
+| Teil 2 | 6-10 (5 questions) | **Each question** has 2 different texts (a or b) | a or b |
+| Teil 3 | 11-15 (5 questions) | **Each question** has 1 statement + 1 notice/sign | Richtig/Falsch |
 
 **Total: 15 questions**
+
+### Key Differences Between Parts:
+
+**Teil 1**: One shared text for all 5 questions
+- You read ONE email/message/notice
+- Then answer 5 true/false questions about that same text
+
+**Teil 2**: Each question has its own pair of texts
+- Question 6 has websites a & b (specific to Q6)
+- Question 7 has websites a & b (different from Q6)
+- Question 8 has websites a & b (different from Q6 & Q7)
+- And so on... (5 questions × 2 texts = 10 different texts total)
+
+**Teil 3**: Each question has its own notice
+- Question 11 has statement + notice #1
+- Question 12 has statement + notice #2
+- Question 13 has statement + notice #3
+- And so on... (5 different notices total)
