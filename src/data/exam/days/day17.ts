@@ -56,203 +56,374 @@ const listeningPractice: ListeningPractice = {
 };
 
 // ============================================================================
-// READING PRACTICE - Teil 1: Messages about Technical Issues
+// READING PRACTICE - Teil 1: E-Mail (True/False)
 // ============================================================================
-
-const readingPart1Questions: ExamQuestion[] = [
-  {
-    id: 'day17-reading1-q1',
-    type: 'true-false',
-    question: 'Der Computer ist neu.',
-    correctAnswer: 'Falsch',
-    explanation: 'The email says the computer is old (alt), not new.'
-  },
-  {
-    id: 'day17-reading1-q2',
-    type: 'true-false',
-    question: 'Das Internet funktioniert nicht.',
-    correctAnswer: 'Richtig',
-    explanation: 'The email states "das Internet funktioniert nicht"'
-  },
-  {
-    id: 'day17-reading1-q3',
-    type: 'true-false',
-    question: 'Lisa braucht das Internet für die Arbeit.',
-    correctAnswer: 'Richtig',
-    explanation: 'Lisa mentions she needs internet for work (für die Arbeit).'
-  },
-  {
-    id: 'day17-reading1-q4',
-    type: 'true-false',
-    question: 'Der Techniker kommt morgen.',
-    correctAnswer: 'Falsch',
-    explanation: 'The technician comes today (heute Nachmittag), not tomorrow.'
-  }
-];
 
 const readingPractice1: ReadingPractice = {
   part: 1,
-  title: "Messages about Technical Issues",
-  description: "Read short personal messages about computer problems, internet issues, and technical help. Answer True/False questions.",
-  instructions: "Read the email and decide if each statement is Richtig (true) or Falsch (false).",
-  text: `Hallo Tom,
+  title: 'Teil 1: E-Mail von einem Freund',
+  description:
+    'Lesen Sie die E-Mail und die Aufgaben 1–5. Entscheiden Sie: Ist die Aussage Richtig oder Falsch?',
+  instructions:
+    'Lesen Sie die E-Mail. Entscheiden Sie bei jeder Aufgabe, ob die Aussage Richtig oder Falsch ist.',
+  questions: [
+    {
+      id: 'day17-reading1-q1',
+      type: 'true-false',
+      question: 'Alex hat einen neuen Computer.',
+      correctAnswer: 'Falsch',
+      explanation:
+        'Alex schreibt: "Mein alter Laptop ist jetzt kaputt". Er hat also einen alten, kaputten Laptop, keinen neuen Computer.'
+    },
+    {
+      id: 'day17-reading1-q2',
+      type: 'true-false',
+      question: 'Alex kann keine E-Mails schreiben.',
+      correctAnswer: 'Richtig',
+      explanation:
+        'Er sagt: "Ich kann keine E-Mails für meine Arbeit schreiben", weil der Laptop kaputt ist.'
+    },
+    {
+      id: 'day17-reading1-q3',
+      type: 'true-false',
+      question: 'Alex möchte einen Laptop für Computerspiele kaufen.',
+      correctAnswer: 'Falsch',
+      explanation:
+        'Er braucht den Laptop "für die Arbeit und für die Uni", nicht für Spiele.'
+    },
+    {
+      id: 'day17-reading1-q4',
+      type: 'true-false',
+      question: 'Der neue Laptop im Angebot kostet mehr als 500 Euro.',
+      correctAnswer: 'Falsch',
+      explanation: 'Der Laptop im Angebot kostet 499 Euro.'
+    },
+    {
+      id: 'day17-reading1-q5',
+      type: 'true-false',
+      question: 'Alex bittet um Hilfe beim Kauf des Laptops.',
+      correctAnswer: 'Richtig',
+      explanation:
+        'Er fragt: "Hast du am Samstag Zeit und kannst du mitkommen?", was eine Bitte um Hilfe ist.'
+    }
+  ],
+  text: `Hallo Sarah,
 
-ich habe ein Problem! Mein Computer ist alt und langsam. Das Internet funktioniert nicht.
-Ich brauche das Internet für die Arbeit. Kannst du mir helfen? Oder kennst du einen guten
-Techniker? Der Techniker von der Computerfirma kommt heute Nachmittag. Aber er ist sehr teuer!
+wie geht es dir? Mir geht es nicht so gut. Mein alter Laptop ist jetzt kaputt. Er startet nicht mehr. Das ist ein großes Problem, denn ich kann keine E-Mails für meine Arbeit schreiben und auch meine Hausaufgaben für die Uni nicht machen.
 
-Viele Grüße
-Lisa`,
-  questions: readingPart1Questions
+Ich muss schnell einen neuen Laptop kaufen. Ich brauche ihn nicht für Computerspiele, sondern nur für die Arbeit und für die Uni. Ich habe online ein Angebot gesehen: ein Laptop für 499 Euro. Das ist ein guter Preis, denke ich.
+
+Kannst du mir helfen? Du kennst dich doch gut mit Computern aus. Ist der Preis in Ordnung? Hast du am Samstag Zeit und kannst du mitkommen zum Geschäft "Tech-Welt"?
+
+Ich warte auf deine Antwort.
+
+Viele Grüße,
+Alex`
 };
 
 // ============================================================================
-// READING PRACTICE - Teil 2: Technology Service Advertisements
+// READING PRACTICE - Teil 2: Informationen auf Webseiten (a oder b)
 // ============================================================================
-
-const readingPart2Questions: ExamQuestion[] = [
-  {
-    id: 'day17-reading2-q1',
-    type: 'matching',
-    question: 'Peter hat ein Problem mit seinem Laptop. Er braucht schnelle Hilfe. Das Problem ist nicht kompliziert.',
-    options: [
-      'Advertisement A: Computer-Reparatur - Schnellservice - kleine Probleme 30€',
-      'Advertisement B: IT-Firma - Große Projekte - Nur für Firmen',
-      'Advertisement C: Computerkurs für Anfänger - 5 Wochen - 150€'
-    ],
-    correctAnswer: 0,
-    explanation: 'Advertisement A is best for Peter - laptop repair (Computer-Reparatur), quick service (Schnellservice), for small problems (kleine Probleme).'
-  },
-  {
-    id: 'day17-reading2-q2',
-    type: 'matching',
-    question: 'Maria möchte Computer lernen. Sie hat noch keine Kenntnisse. Sie hat Zeit am Abend.',
-    options: [
-      'Advertisement A: Computer-Reparatur - Schnellservice - kleine Probleme 30€',
-      'Advertisement B: Computerkurs für Anfänger - Abends 18-20 Uhr - 8 Wochen',
-      'Advertisement C: Smartphone-Reparatur - Displaytausch - 50€'
-    ],
-    correctAnswer: 1,
-    explanation: 'Advertisement B matches Maria - computer course for beginners (für Anfänger), evening hours (Abends 18-20 Uhr).'
-  }
-];
 
 const readingPractice2: ReadingPractice = {
   part: 2,
-  title: "Technology Service Advertisements",
-  description: "Match people's technology needs to appropriate service advertisements.",
-  instructions: "Read the situations and match each person to the best service (A, B, or C).",
-  text: `**Advertisement A:**
-Computer-Reparatur Blitzschnell
-Schnellservice für alle Probleme
-Kleine Reparaturen: 30€
-Große Reparaturen: ab 50€
-Hausbesuch möglich
-Tel: 030-555-TECH
+  title: 'Teil 2: Informationen finden',
+  description:
+    'Lesen Sie die Aufgaben 6–10 und die beiden Texte. Wo finden Sie die Information? Kreuzen Sie an: a oder b.',
+  instructions:
+    'Lesen Sie die fünf Situationen. Entscheiden Sie, auf welcher Webseite (a oder b) Sie die gesuchte Information finden.',
+  questions: [
+    {
+      id: 'day17-reading2-q6',
+      type: 'multiple-choice',
+      question:
+        'Sie möchten wissen, wie viel eine Reparatur für Ihr kaputtes Handy-Display kostet.',
+      options: ['a', 'b'],
+      correctAnswer: 0,
+      explanation:
+        'Webseite a ("Handy-Klinik") listet Preise für Reparaturen wie "Display-Reparatur ab 79 €".',
+      text: `**a) www.handy-klinik-berlin.de**
+Handy-Klinik Berlin
+Wir reparieren Ihr Smartphone und Tablet! Schnell und günstig.
+Unsere Preise:
+• Display-Reparatur: ab 79 €
+• Akku-Wechsel: 49 €
+• Wasserschaden: ab 59 €
+Adresse: Hauptstraße 15, 10827 Berlin
+Öffnungszeiten: Mo-Sa: 10-19 Uhr
 
-**Advertisement B:**
-Computerkurs für Anfänger
-Lernen Sie die Grundlagen!
-8 Wochen, 2x pro Woche
-Montag & Mittwoch 18:00-20:00 Uhr
-Kursgebühr: 120€
-Anmeldung: www.pc-schule.de
+**b) www.smartphone-shop-berlin.de**
+Smartphone-Shop Berlin
+Große Auswahl an neuen und gebrauchten Handys!
+• iPhone, Samsung, Huawei
+• Zubehör: Hüllen, Ladekabel, Kopfhörer
+• Handyverträge mit allen Anbietern
+Besuchen Sie uns: Berliner Straße 88, 10715 Berlin`
+    },
+    {
+      id: 'day17-reading2-q7',
+      type: 'multiple-choice',
+      question:
+        'Sie haben eine Frage zu Ihrem neuen Computer und möchten andere Nutzer um Rat fragen.',
+      options: ['a', 'b'],
+      correctAnswer: 1,
+      explanation:
+        'Webseite b ist ein Forum, wo man Fragen stellen kann ("Stellen Sie Ihre Frage an unsere Community").',
+      text: `**a) www.computer-shop24.de**
+Computer-Shop24
+Ihr Online-Shop für Computer und Zubehör
+• Laptops ab 299 €
+• Desktop-PCs ab 399 €
+• Monitore, Tastaturen, Mäuse
+Versandkostenfrei ab 50 €
+Lieferung in 2-3 Tagen
 
-**Advertisement C:**
-Smartphone-Reparatur Express
-Displaytausch: 50€
-Akku-Wechsel: 30€
-Wasserschaden-Reparatur: ab 80€
-Reparatur in 2 Stunden
-Öffnungszeiten: Mo-Sa 10-18 Uhr`,
-  questions: readingPart2Questions
+**b) www.computer-hilfe-forum.de**
+Computer-Hilfe Forum
+Haben Sie ein Problem mit Ihrem Computer? Wir helfen Ihnen!
+Forum-Kategorien:
+• Hardware & Kaufberatung
+• Software & Installation
+• Internet & Netzwerk
+• Kaufen & Verkaufen
+Stellen Sie Ihre Frage an unsere Community!`
+    },
+    {
+      id: 'day17-reading2-q8',
+      type: 'multiple-choice',
+      question: 'Sie möchten einen gebrauchten Laptop verkaufen.',
+      options: ['a', 'b'],
+      correctAnswer: 0,
+      explanation:
+        'Webseite a kauft gebrauchte Geräte ("Wir kaufen Ihr altes Gerät!").',
+      text: `**a) www.techankauf-berlin.de**
+TechAnkauf Berlin
+Wir kaufen Ihr altes Gerät!
+• Laptops, Tablets, Smartphones
+• Sofortige Bewertung online
+• Schnelle Bezahlung
+• Kostenlose Abholung in Berlin möglich
+Kontakt: info@techankauf-berlin.de
+
+**b) www.laptop-reparatur-service.de**
+Laptop-Reparatur-Service
+Professionelle Reparatur für alle Laptop-Marken
+• Bildschirm-Austausch
+• Tastatur-Reparatur
+• Virenentfernung
+• Datenrettung
+Öffnungszeiten: Mo-Fr 9-18 Uhr, Sa 10-14 Uhr`
+    },
+    {
+      id: 'day17-reading2-q9',
+      type: 'multiple-choice',
+      question:
+        'Sie möchten eine App auf Ihr Smartphone herunterladen und suchen Bewertungen.',
+      options: ['a', 'b'],
+      correctAnswer: 1,
+      explanation:
+        'Webseite b ist ein App-Portal mit Bewertungen ("Bewertungen von Nutzern").',
+      text: `**a) www.app-entwicklung-berlin.de**
+App-Entwicklung Berlin
+Wir entwickeln Ihre App!
+• iOS und Android Apps
+• Professionelles Design
+• Faire Preise
+Kontaktieren Sie uns für ein kostenloses Angebot
+Tel: 030-12345678
+
+**b) www.app-portal.de**
+App-Portal Deutschland
+Finden Sie die besten Apps!
+• Über 50.000 Apps
+• Bewertungen von Nutzern
+• Top-Charts und Empfehlungen
+• Kostenlose und kostenpflichtige Apps
+Alle Apps sicher und geprüft`
+    },
+    {
+      id: 'day17-reading2-q10',
+      type: 'multiple-choice',
+      question:
+        'Sie suchen einen Computerkurs für Anfänger in Ihrer Stadt.',
+      options: ['a', 'b'],
+      correctAnswer: 0,
+      explanation:
+        'Webseite a bietet Computerkurse an ("Computerkurse für Anfänger und Fortgeschrittene").',
+      text: `**a) www.vhs-berlin.de**
+Volkshochschule Berlin
+Computerkurse für Anfänger und Fortgeschrittene
+• Grundlagen: Word, Excel, Internet
+• Smartphone und Tablet Kurse
+• Kurse am Vormittag, Nachmittag und Abend
+Anmeldung online oder telefonisch: 030-987654
+
+**b) www.computer-notdienst-berlin.de**
+Computer-Notdienst Berlin
+24-Stunden-Service für Computerprobleme
+• Vor-Ort-Service bei Ihnen zu Hause
+• Virenentfernung
+• Datenrettung
+• Installation und Einrichtung
+Hotline: 030-24h-HILFE`
+    }
+  ],
+  text: '' // Each question has its own text in Teil 2
 };
 
 // ============================================================================
-// READING PRACTICE - Teil 3: Internet Café Information
+// READING PRACTICE - Teil 3: Aushänge und Schilder (True/False)
 // ============================================================================
-
-const readingPart3Questions: ExamQuestion[] = [
-  {
-    id: 'day17-reading3-q1',
-    type: 'multiple-choice',
-    question: 'Wie viel kostet eine Stunde Internet?',
-    options: [
-      '2 Euro',
-      '3 Euro',
-      '5 Euro'
-    ],
-    correctAnswer: 1,
-    explanation: 'One hour of internet costs 3 euros (1 Stunde: 3€).'
-  },
-  {
-    id: 'day17-reading3-q2',
-    type: 'multiple-choice',
-    question: 'Bis wann ist das Internet-Café am Sonntag geöffnet?',
-    options: [
-      '18:00 Uhr',
-      '20:00 Uhr',
-      '22:00 Uhr'
-    ],
-    correctAnswer: 0,
-    explanation: 'On Sunday (Sonntag) the café is open until 18:00.'
-  },
-  {
-    id: 'day17-reading3-q3',
-    type: 'multiple-choice',
-    question: 'Was kann man im Café kaufen?',
-    options: [
-      'Nur Kaffee',
-      'Kaffee und Kuchen',
-      'Nur Computer'
-    ],
-    correctAnswer: 1,
-    explanation: 'You can buy coffee and cake (Kaffee, Tee, Kuchen available).'
-  }
-];
 
 const readingPractice3: ReadingPractice = {
   part: 3,
-  title: "Internet Café Information",
-  description: "Read information about an internet café (prices, hours, services) and answer multiple choice questions.",
-  instructions: "Read the internet café information and answer the questions.",
-  text: `Internet-Café CyberConnect
-
-Öffnungszeiten:
-Montag-Freitag: 9:00-22:00 Uhr
-Samstag: 10:00-22:00 Uhr
-Sonntag: 12:00-18:00 Uhr
-
-Preise:
-30 Minuten: 2€
-1 Stunde: 3€
-3 Stunden: 8€
-Ganzer Tag: 15€
-
-Services:
-- Schnelles WLAN
-- Drucken: 0,20€ pro Seite
-- Scannen: 0,50€ pro Seite
-- Computer mit Office-Programmen
-- Headsets für Videoanrufe
-
-Regeln:
-- Bitte leise sprechen
-- Essen verboten
-- Getränke erlaubt
-- Rauchen verboten
-- Maximal 4 Stunden ohne Pause
-
-Café:
-- Kaffee, Tee, Limonade
-- Kuchen und Snacks
-- Bezahlung nur bar
-
-Kontakt:
-Tel: 030-123456
-E-Mail: info@cyberconnect.de
-Adresse: Hauptstraße 15, 10115 Berlin`,
-  questions: readingPart3Questions
+  title: 'Teil 3: Aushänge im Alltag',
+  description:
+    'Lesen Sie die Texte 11–15. Entscheiden Sie: Ist die Aussage Richtig oder Falsch?',
+  instructions:
+    'Lesen Sie die fünf Situationen mit den Aushängen. Entscheiden Sie bei jeder Aufgabe, ob die Aussage Richtig oder Falsch ist.',
+  questions: [
+    {
+      id: 'day17-reading3-q11',
+      type: 'true-false',
+      question: 'Sie bezahlen nur für die gedruckten Seiten.',
+      correctAnswer: 'Falsch',
+      explanation:
+        'Man bezahlt die Druckkosten UND eine zusätzliche Service-Gebühr von 1,00 €.',
+      text: `┌─────────────────────────────────────────────┐
+│         COPYSHOP SCHNELLDRUCK               │
+│                                             │
+│  Liebe Kunden,                              │
+│                                             │
+│  Für das Drucken von eigenen Dateien        │
+│  (USB-Stick, E-Mail, Cloud) berechnen       │
+│  wir eine Service-Gebühr von 1,00 €         │
+│  zusätzlich zu den Druckkosten.             │
+│                                             │
+│  Druckpreise:                               │
+│  • Schwarz-Weiß: 0,10 € pro Seite          │
+│  • Farbe: 0,50 € pro Seite                 │
+│                                             │
+│  Öffnungszeiten: Mo-Fr 8-18 Uhr            │
+│                                             │
+└─────────────────────────────────────────────┘`
+    },
+    {
+      id: 'day17-reading3-q12',
+      type: 'true-false',
+      question: 'Man kann das WLAN nur für eine halbe Stunde benutzen.',
+      correctAnswer: 'Falsch',
+      explanation:
+        'Nach 30 Minuten wird die Verbindung getrennt, aber "Eine neue Verbindung ist möglich". Man kann sich also erneut verbinden.',
+      text: `┌─────────────────────────────────────────────┐
+│          KOSTENLOSES WLAN                   │
+│          Deutsche Bahn                      │
+│                                             │
+│  WLAN-Name: "Free_WIFI_DB"                  │
+│                                             │
+│  Jetzt für 30 Minuten kostenlos nutzen!     │
+│                                             │
+│  Nach 30 Minuten erfolgt eine automatische  │
+│  Trennung. Eine neue Verbindung ist         │
+│  jederzeit möglich.                         │
+│                                             │
+│  Kein Passwort erforderlich.                │
+│                                             │
+│  Viel Spaß beim Surfen!                     │
+│                                             │
+└─────────────────────────────────────────────┘`
+    },
+    {
+      id: 'day17-reading3-q13',
+      type: 'true-false',
+      question: 'Am Freitagnachmittag kann man nicht am Computer arbeiten.',
+      correctAnswer: 'Richtig',
+      explanation:
+        'Ab 16:00 Uhr sind die Computer "nicht verfügbar", also kann man nicht arbeiten.',
+      text: `┌─────────────────────────────────────────────┐
+│     WICHTIGE INFORMATION                    │
+│     IT-Abteilung                            │
+│                                             │
+│  Sehr geehrte Mitarbeiterinnen und          │
+│  Mitarbeiter,                               │
+│                                             │
+│  wegen einer wichtigen Systemaktualisierung │
+│  sind am Freitag, den 15.03., ab 16:00 Uhr  │
+│  alle Computer und Server nicht verfügbar.  │
+│                                             │
+│  Bitte speichern Sie Ihre Arbeit            │
+│  rechtzeitig und melden Sie sich vor        │
+│  16:00 Uhr ab.                              │
+│                                             │
+│  Die Systeme sind ab Montag, 8:00 Uhr       │
+│  wieder verfügbar.                          │
+│                                             │
+│  Vielen Dank für Ihr Verständnis!           │
+│                                             │
+│  Ihre IT-Abteilung                          │
+└─────────────────────────────────────────────┘`
+    },
+    {
+      id: 'day17-reading3-q14',
+      type: 'true-false',
+      question: 'Man muss 10 € für einen Adapter bezahlen.',
+      correctAnswer: 'Falsch',
+      explanation:
+        'Man bezahlt 10 € als "Pfand". Das bedeutet, man bekommt das Geld zurück, wenn man den Adapter zurückgibt.',
+      text: `┌─────────────────────────────────────────────┐
+│     HOTEL EUROPA                            │
+│     Rezeption - Information                 │
+│                                             │
+│  Liebe Gäste,                               │
+│                                             │
+│  Sie können an der Rezeption folgende       │
+│  Artikel ausleihen:                         │
+│                                             │
+│  • Adapter für internationale Stecker       │
+│    (10 € Pfand)                             │
+│                                             │
+│  • Föhn (5 € Pfand)                         │
+│                                             │
+│  • Bügeleisen (10 € Pfand)                  │
+│                                             │
+│  Das Pfand bekommen Sie bei der Rückgabe    │
+│  der Artikel zurück.                        │
+│                                             │
+│  Rezeption geöffnet: 24 Stunden             │
+│                                             │
+└─────────────────────────────────────────────┘`
+    },
+    {
+      id: 'day17-reading3-q15',
+      type: 'true-false',
+      question: 'Im Supermarkt kann man mit dem Handy bezahlen.',
+      correctAnswer: 'Richtig',
+      explanation: 'Das Schild informiert, dass man mit dem Smartphone bezahlen kann ("Bezahlen Sie jetzt auch mit Ihrem Smartphone").',
+      text: `┌─────────────────────────────────────────────┐
+│     EDEKA SUPERMARKT                        │
+│                                             │
+│  ★ NEU BEI UNS! ★                           │
+│                                             │
+│  Bezahlen Sie jetzt auch mit Ihrem          │
+│  Smartphone!                                │
+│                                             │
+│  So einfach geht's:                         │
+│                                             │
+│  1. Öffnen Sie Ihre Banking-App oder        │
+│     Wallet-App auf dem Handy                │
+│                                             │
+│  2. Halten Sie Ihr Handy einfach an das     │
+│     Kartenlesegerät                         │
+│                                             │
+│  3. Fertig! Schnell und sicher.             │
+│                                             │
+│  Funktioniert mit Apple Pay, Google Pay     │
+│  und allen gängigen Banking-Apps.           │
+│                                             │
+└─────────────────────────────────────────────┘`
+    }
+  ],
+  text: '' // Each question has its own text in Teil 3
 };
 
 // ============================================================================

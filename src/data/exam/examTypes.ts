@@ -44,6 +44,7 @@ export interface ExamQuestion {
   explanation?: string;
   audioUrl?: string;
   imageUrl?: string;
+  text?: string; // Added for reading questions with individual texts (e.g., Part 3)
 }
 
 // ============================================================================

@@ -255,11 +255,14 @@ export default function ExamDayDetail() {
           <p className="text-sm font-medium text-gray-700">{practice.instructions}</p>
         </div>
 
-        <div className="bg-gray-50 rounded-lg p-6 mb-6 border-2 border-gray-300">
-          <div className="whitespace-pre-line text-gray-800 leading-relaxed">
-            {practice.text}
+        {/* Display main text if it exists (for Part 1 and Part 3 with shared text) */}
+        {practice.text && (
+          <div className="bg-gray-50 rounded-lg p-6 mb-6 border-2 border-gray-300">
+            <div className="whitespace-pre-line text-gray-800 leading-relaxed">
+              {practice.text}
+            </div>
           </div>
-        </div>
+        )}
 
         <div className="space-y-4">
           {practice.questions.map((question, qIndex) => {
@@ -269,6 +272,15 @@ export default function ExamDayDetail() {
 
             return (
               <div key={question.id} className="bg-white rounded-lg p-4 border border-gray-200">
+                {/* Display question-specific text if it exists (for Part 2 and Part 3) */}
+                {question.text && (
+                  <div className="bg-gray-50 rounded-lg p-4 mb-4 border border-gray-300">
+                    <div className="whitespace-pre-line text-gray-700 text-sm leading-relaxed">
+                      {question.text}
+                    </div>
+                  </div>
+                )}
+
                 <p className="font-medium text-gray-800 mb-3">
                   {qIndex + 1}. {question.question}
                 </p>
