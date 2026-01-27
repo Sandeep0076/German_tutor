@@ -275,7 +275,7 @@ export default function ExamDayDetail() {
                 {/* Display question-specific text if it exists (for Part 2 and Part 3) */}
                 {question.text && (
                   <div className="bg-gray-50 rounded-lg p-4 mb-4 border border-gray-300">
-                    <div className="whitespace-pre-line text-gray-700 text-sm leading-relaxed">
+                    <div className="whitespace-pre text-gray-700 text-sm leading-relaxed font-mono overflow-x-auto">
                       {question.text}
                     </div>
                   </div>
