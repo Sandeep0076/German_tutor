@@ -14,53 +14,135 @@ import type {
 } from '../examTypes';
 
 // ============================================================================
-// Writing Practices
+// Writing Practices - Following Goethe A1 Exam Format
 // ============================================================================
 
+// Teil 1: Form Completion - Question 1
 const writingPractice1: WritingPractice = {
   part: 1,
-  title: "Write About a Celebration",
-  description: "Write a message describing a celebration or party",
-  instructions: "Write to a friend about a celebration. Include: what celebration, when, where, who came, and what you did. Write about 30-40 words.",
-  prompt: "Erzähl deinem Freund von deiner Geburtstagsparty letztes Wochenende.",
-  sampleAnswer: "Liebe Anna,\n\nam Samstag hatte ich Geburtstag! Ich bin 25 Jahre alt geworden. Wir haben im Restaurant gefeiert. Meine Familie und Freunde sind gekommen. Wir haben gegessen, getanzt und viel gelacht. Es war ein toller Tag!\n\nViele Grüße\nLisa",
+  title: "Teil 1 - Form Completion: Birthday Party Registration",
+  description: "Complete a registration form for a birthday party event",
+  instructions: "Ihre Freundin Maria macht am Samstag eine große Geburtstagsparty in einem Restaurant. Sie möchte 15 Personen einladen, davon 3 Kinder. Die Party ist im Restaurant 'Zum goldenen Stern' in der Hauptstraße 45, 10115 Berlin. Die Party beginnt um 18 Uhr. Maria möchte bar bezahlen.\n\nIn dem Formular fehlen fünf Informationen. Helfen Sie Ihrer Freundin und schreiben Sie die fünf fehlenden Informationen in das Formular.",
+  prompt: `RESTAURANT "ZUM GOLDENEN STERN"
+Party-Anmeldung
+
+Familienname, Vorname:    Schmidt, Maria         (0)
+Anzahl der Personen:      _______________         (1)
+Davon Kinder:             _______________         (2)
+Restaurant-Adresse:       Zum goldenen Stern
+Straße, Hausnummer:       _______________         (3)
+PLZ, Ort:                 10115 ___________       (4)
+
+Der Preis ist bei der Anmeldung zu bezahlen.
+Zahlungsweise:                                    (5)
+  ☐ Bar
+  ☐ Kreditkarte
+
+Party-Beginn:             18 Uhr
+Unterschrift:             Maria Schmidt`,
+  sampleAnswer: `(1) 15
+(2) 3
+(3) Hauptstraße 45
+(4) Berlin
+(5) Bar (checked/marked)`,
   keyPhrases: [
-    "Ich hatte Geburtstag (It was my birthday)",
-    "Wir haben gefeiert (We celebrated)",
-    "Es war... (It was...)",
-    "Ich bin... Jahre alt geworden (I turned... years old)",
-    "Es war toll/schön! (It was great/nice!)"
+    "Anzahl der Personen (Number of people)",
+    "Davon Kinder (Of which children)",
+    "Straße, Hausnummer (Street, house number)",
+    "PLZ, Ort (Postal code, city)",
+    "Zahlungsweise (Payment method)",
+    "Bar (Cash)",
+    "Kreditkarte (Credit card)"
   ]
 };
 
+// Teil 1: Form Completion - Question 2
 const writingPractice2: WritingPractice = {
   part: 1,
-  title: "Invitation to a Party",
-  description: "Write an invitation to a celebration or party",
-  instructions: "Write an invitation to your party. Must include all 3 points: 1) What celebration? 2) When and where? 3) What should guests bring or do? Write about 30-40 words.",
-  prompt: "Lade deinen Freund zu deiner Einweihungsparty ein.",
-  sampleAnswer: "Lieber Max,\n\nich habe eine neue Wohnung! Am Samstag, den 15. Mai, mache ich eine Party ab 18 Uhr. Die Adresse ist Mozartstraße 10. Bring bitte etwas zu trinken mit. Ich freue mich auf dich!\n\nBis dann!\nTom",
+  title: "Teil 1 - Form Completion: Wedding Celebration Registration",
+  description: "Complete a registration form for a wedding celebration",
+  instructions: "Ihr Freund Thomas heiratet am 20. Juni. Er wurde am 5. März 1990 in München geboren. Seine Muttersprache ist Deutsch. Er spricht auch Englisch und Französisch. Er möchte einen Tanzkurs für die Hochzeit machen. Der Kurs ist von 17-19 Uhr.\n\nIn dem Formular fehlen fünf Informationen. Helfen Sie Ihrem Freund und schreiben Sie die fünf fehlenden Informationen in das Formular.",
+  prompt: `TANZSCHULE ELEGANZ
+Hochzeitstanz-Kurs Anmeldung
+
+Familienname:             Müller                  (0)
+Vorname:                  Thomas
+Geburtsdatum:             _______________         (1)
+Geburtsort:               _______________         (2)
+Muttersprache:            _______________         (3)
+Andere Sprachen:          _______________         (4)
+
+Hochzeitstermin:          20. Juni
+
+Kurszeit:                                         (5)
+  ☐ von 9 - 11 Uhr
+  ☐ von 13 - 15 Uhr
+  ☐ von 17 - 19 Uhr
+
+Unterschrift:             Thomas Müller`,
+  sampleAnswer: `(1) 5. März 1990 / 05.03.1990
+(2) München
+(3) Deutsch
+(4) Englisch und Französisch / Englisch, Französisch
+(5) von 17 - 19 Uhr (checked/marked)`,
   keyPhrases: [
-    "Ich lade dich ein (I invite you)",
-    "Kommst du zu...? (Are you coming to...?)",
-    "Am... um... Uhr (On... at... o'clock)",
-    "Bring bitte... mit (Please bring...)",
-    "Ich freue mich auf dich! (I look forward to seeing you!)"
+    "Geburtsdatum (Date of birth)",
+    "Geburtsort (Place of birth)",
+    "Muttersprache (Mother tongue)",
+    "Andere Sprachen (Other languages)",
+    "Kurszeit (Course time)",
+    "Hochzeitstermin (Wedding date)"
   ]
 };
 
+// Teil 2: Short Message/Email - Question 1
 const writingPractice3: WritingPractice = {
-  part: 1,
-  title: "Thank You for a Gift",
-  description: "Write a thank you message for a gift or celebration",
-  instructions: "Write to thank someone for a gift or for coming to your celebration. Write about 30-35 words.",
-  prompt: "Bedank dich bei deiner Freundin für das Geburtstagsgeschenk, das sie dir gegeben hat.",
-  sampleAnswer: "Liebe Sarah,\n\nvielen Dank für das schöne Geschenk! Das Buch ist toll. Ich lese es gerade. Es war auch schön, dass du zu meiner Party gekommen bist. Bis bald!\n\nLiebe Grüße\nJulia",
+  part: 2,
+  title: "Teil 2 - Short Message: Invitation to Birthday Party",
+  description: "Write a short invitation message to a friend",
+  instructions: "Sie haben am Samstag Geburtstag und möchten eine Party machen. Schreiben Sie an Ihren Freund Max:\n\n- Warum schreiben Sie?\n- Wann und wo ist die Party?\n- Was soll Max mitbringen?\n\nSchreiben Sie zu jedem Punkt ein bis zwei Sätze auf den Antwortbogen (circa 30 Wörter). Schreiben Sie auch eine Anrede und einen Gruß.",
+  prompt: "Sie haben am Samstag Geburtstag und möchten eine Party machen. Schreiben Sie an Ihren Freund Max.",
+  sampleAnswer: `Lieber Max,
+
+ich habe am Samstag Geburtstag und mache eine Party. Die Party ist am Samstag um 19 Uhr bei mir zu Hause. Kannst du bitte eine Flasche Wein mitbringen?
+
+Ich freue mich auf dich!
+Viele Grüße
+[Dein Name]`,
   keyPhrases: [
-    "Vielen Dank für... (Thank you very much for...)",
-    "Das Geschenk ist toll/schön (The gift is great/nice)",
-    "Ich habe mich gefreut (I was happy)",
-    "Danke, dass du gekommen bist (Thanks for coming)"
+    "Ich habe Geburtstag (It's my birthday)",
+    "Ich mache eine Party (I'm having a party)",
+    "Die Party ist am... um... Uhr (The party is on... at... o'clock)",
+    "bei mir zu Hause (at my place)",
+    "Kannst du... mitbringen? (Can you bring...?)",
+    "Ich freue mich auf dich! (I look forward to seeing you!)",
+    "Lieber/Liebe... (Dear...)",
+    "Viele Grüße (Best regards)"
+  ]
+};
+
+// Teil 2: Short Message/Email - Question 2
+const writingPractice4: WritingPractice = {
+  part: 2,
+  title: "Teil 2 - Short Message: Request for Party Information",
+  description: "Write a short message requesting information about a New Year's party",
+  instructions: "Sie möchten an einer Silvesterparty im Hotel 'Festsaal' teilnehmen. Schreiben Sie an das Hotel:\n\n- Warum schreiben Sie?\n- Fragen Sie: Wie viel kostet die Party?\n- Bitten Sie: Informationen über das Programm (Musik, Essen usw.).\n\nSchreiben Sie zu jedem Punkt ein bis zwei Sätze auf den Antwortbogen (circa 30 Wörter). Schreiben Sie auch eine Anrede und einen Gruß.",
+  prompt: "Sie möchten an einer Silvesterparty im Hotel 'Festsaal' teilnehmen. Schreiben Sie an das Hotel.",
+  sampleAnswer: `Sehr geehrte Damen und Herren,
+
+ich möchte an Ihrer Silvesterparty teilnehmen. Wie viel kostet die Party pro Person? Können Sie mir bitte Informationen über das Programm schicken? Ich möchte wissen, welche Musik und welches Essen es gibt.
+
+Mit freundlichen Grüßen
+[Ihr Name]`,
+  keyPhrases: [
+    "Ich möchte... teilnehmen (I would like to participate...)",
+    "Wie viel kostet...? (How much does... cost?)",
+    "pro Person (per person)",
+    "Können Sie mir... schicken? (Can you send me...?)",
+    "Ich möchte wissen... (I would like to know...)",
+    "Sehr geehrte Damen und Herren (Dear Sir or Madam)",
+    "Mit freundlichen Grüßen (Sincerely)",
+    "Informationen über... (Information about...)"
   ]
 };
 
@@ -220,6 +302,7 @@ const day18: ExamDay = {
     writingPractice1,
     writingPractice2,
     writingPractice3,
+    writingPractice4,
     speakingPractice1,
     speakingPractice2,
     speakingPractice3
