@@ -24,6 +24,7 @@ import verbConjugationChart from '../images/verb-conjugation-chart.jpeg';
 import articlesImage from '../images/articles.jpg';
 import chart3Image from '../images/chart3.jpg';
 import possessiveArticleImage from '../images/possevearticle.jpg';
+import { day34PerfectReview } from './day_34_perfect_review';
 
 export interface DayPlan {
     day: number;
@@ -6318,26 +6319,7 @@ export const syllabusData: Phase[] = [
                     homework: [{ id: "d33-q1", type: "choice", question: "Which verb means 'to cancel'?", options: ["absagen", "zusagen"], answer: "absagen", explanation: "Absagen = cancel." }]
                 }
             },
-            {
-                day: 34,
-                title: "Two-Way Prepositions",
-                focus: "Wo vs Wohin",
-                activities: ["Dative (Location) vs Accusative (Motion)"],
-                homework: ["Picture description (Where is the cat?)"],
-                details: {
-                    sections: [
-                        {
-                            title: "Wechselpräpositionen",
-                            content: "an, auf, hinter, in, neben, über, unter, vor, zwischen.\n\n* **Wo? (Location) -> Dative**\n* **Wohin? (Motion) -> Accusative**",
-                            examples: [
-                                { german: "Das Buch liegt auf dem Tisch (Dat).", english: "The book lies on the table." },
-                                { german: "Ich lege das Buch auf den Tisch (Acc).", english: "I lay the book on the table." }
-                            ]
-                        }
-                    ],
-                    homework: [{ id: "d34-q1", type: "choice", question: "Die Katze ist ___ (in) der Küche.", options: ["in", "im"], answer: "in", explanation: "In der Küche (Dative Fem)." }]
-                }
-            },
+            day34PerfectReview,
             {
                 day: 35,
                 title: "Adjective Declension 1: Definite Articles",
