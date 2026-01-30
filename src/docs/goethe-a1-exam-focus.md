@@ -1,5 +1,85 @@
 # Goethe A1 Exam Focus - Reading Section (Lesen)
 
+---
+
+## Exam Focus Days - Topics & Themes Overview
+
+### **Day 1**: Shopping & Appointments
+**Topics**: Supermarket shopping, doctor appointments, meeting new people, self-introduction, countries
+**Skills**: Listening (Teil 1), Reading (Teil 1)
+
+### **Day 2**: Personal Information & Self-Introduction
+**Topics**: Registration forms, birthday party invitations, personal details, numbers, alphabet, countries & cities
+**Skills**: Writing (Teil 1 & 2), Speaking (Teil 1)
+
+### **Day 3**: Housing & Services
+**Topics**: Housing advertisements, WG (shared apartments), language courses, bicycle advertisements, finding services
+**Skills**: Listening (Teil 2), Reading (Teil 2)
+
+### **Day 4**: Invitations & Daily Communication
+**Topics**: Informal emails, party invitations, W-questions, hobbies, food preferences, daily routine
+**Skills**: Writing (Teil 1-4), Speaking (Teil 5-7)
+
+### **Day 5**: Information Boards & Notices
+**Topics**: Voicemails, telephone messages, museum information, swimming pool rules, opening hours, public notices
+**Skills**: Listening (Teil 1), Reading (Teil 2-5)
+
+### **Day 6**: Requests & Assistance
+**Topics**: Party invitations, tourist information requests, hotel inquiries, borrowing items, asking for help, making purchases
+**Skills**: Writing (Teil 2), Speaking (Teil 3)
+
+### **Day 7**: Full Mock Exam
+**Topics**: Comprehensive review of all exam formats and question types
+**Skills**: Listening (all parts), Reading (all parts), Writing (all parts), Speaking (all parts)
+
+### **Day 8**: Travel & Transportation
+**Topics**: Train/bus schedules, travel booking, transportation information, station announcements, Miniatur Wunderland
+**Skills**: Listening (all 3 parts), Reading (all 3 parts)
+
+### **Day 9**: Family & Relationships
+**Topics**: Family descriptions, personal characteristics, adjectives for people, family events and invitations
+**Skills**: Writing (Teil 1 & 2), Speaking (all 3 parts)
+
+### **Day 10**: Health & Medical
+**Topics**: Doctor appointments, pharmacy visits, health insurance, medical contexts, illness descriptions
+**Skills**: Listening (all 3 parts), Reading (all 3 parts)
+
+### **Day 11**: Hobbies & Leisure
+**Topics**: Sports clubs, hobby courses, leisure activities, weekend plans, club memberships
+**Skills**: Writing (Teil 1 & 2), Speaking (all 3 parts)
+
+### **Day 12**: Shopping & Prices
+**Topics**: Clothing stores, prices, sizes, colors, sales announcements, store advertisements, opening hours
+**Skills**: Listening (all 3 parts), Reading (all 3 parts)
+
+### **Day 13**: Work & Office
+**Topics**: Job applications, workplace communication, office situations, professional emails, work experience
+**Skills**: Writing (Teil 1 & 2), Speaking (all 3 parts)
+
+### **Day 14**: Week 2 Review
+**Topics**: Family, Food, Shopping - consolidation and self-assessment
+**Skills**: Review
+
+### **Day 15**: Music & Arts
+**Topics**: Musical instruments, concerts, museums, art exhibitions, cultural events
+**Skills**: Listening (Teil 1), Reading (all parts)
+
+### **Day 16**: Pets & Animals
+**Topics**: Pets, pet care, animals, veterinarian, zoo, pet adoption
+**Skills**: Writing (Teil 1), Speaking (all parts)
+
+### **Day 17**: Technology & Internet
+**Topics**: Computers, smartphones, internet, apps, technical problems, passwords, email issues
+**Skills**: Listening (Teil 1), Reading (all parts)
+
+### **Day 18**: Festivals & Celebrations
+**Topics**: Birthdays, holidays, festivals, parties, celebrations, gifts, wedding preparations
+**Skills**: Writing (Teil 1 & 2), Speaking (all parts)
+
+---
+
+# Goethe A1 Exam Focus - Reading Section (Lesen)
+
 ## Overview
 
 The reading section of the Goethe A1 exam consists of three parts (Teil 1, 2, and 3) with a total of 15 questions.
