@@ -286,19 +286,17 @@ const readingPractice2e: ReadingPractice = {
 // ============================================================================
 
 // Question 11
-const q11Notice = `┌─────────────────────────────────────┐
-│    POSTFILIALE GESCHLOSSEN          │
-│                                     │
-│  Wegen Umbau geschlossen vom:       │
-│  15. Februar bis 28. Februar        │
-│                                     │
-│  Bitte nutzen Sie in dieser Zeit    │
-│  die Postfiliale in der             │
-│  Kirchstraße 12                     │
-│  (10 Minuten zu Fuß)                │
-│                                     │
-│  Öffnung: 1. März, 8:00 Uhr         │
-└─────────────────────────────────────┘`;
+const q11Notice = `POSTFILIALE GESCHLOSSEN
+
+Wegen Umbau geschlossen vom:
+15. Februar bis 28. Februar
+
+Bitte nutzen Sie in dieser Zeit
+die Postfiliale in der
+Kirchstraße 12
+(10 Minuten zu Fuß)
+
+Öffnung: 1. März, 8:00 Uhr`;
 
 const readingPart3Q11: ExamQuestion[] = [
   {
@@ -311,22 +309,20 @@ const readingPart3Q11: ExamQuestion[] = [
 ];
 
 // Question 12
-const q12Notice = `┌─────────────────────────────────────┐
-│       PAKETABHOLUNG                 │
-│                                     │
-│  WICHTIG!                           │
-│  Bringen Sie bitte mit:             │
-│  ✓ Personalausweis ODER Pass        │
-│  ✓ Benachrichtigungskarte           │
-│                                     │
-│  Ohne diese Dokumente können wir    │
-│  Ihr Paket nicht herausgeben.       │
-│                                     │
-│  Abholung möglich für:              │
-│  - Sie selbst                       │
-│  - Familienangehörige mit           │
-│    Vollmacht                        │
-└─────────────────────────────────────┘`;
+const q12Notice = `PAKETABHOLUNG
+
+WICHTIG!
+Bringen Sie bitte mit:
+✓ Personalausweis ODER Pass
+✓ Benachrichtigungskarte
+
+Ohne diese Dokumente können wir
+Ihr Paket nicht herausgeben.
+
+Abholung möglich für:
+- Sie selbst
+- Familienangehörige mit
+  Vollmacht`;
 
 const readingPart3Q12: ExamQuestion[] = [
   {
@@ -339,27 +335,25 @@ const readingPart3Q12: ExamQuestion[] = [
 ];
 
 // Question 13
-const q13Notice = `┌─────────────────────────────────────┐
-│   E-MAIL VON DEUTSCHE POST          │
-│                                     │
-│  Guten Tag Frau Weber,              │
-│                                     │
-│  Ihr Paket mit der Sendungsnummer   │
-│  RD 1234 5678 90 DE ist heute bei   │
-│  uns angekommen.                    │
-│                                     │
-│  Sie können es ab morgen in der     │
-│  Postfiliale abholen.               │
-│                                     │
-│  Lagerzeit: 7 Werktage              │
-│  Danach geht das Paket zurück.      │
-│                                     │
-│  Adresse: Hauptstraße 89, 10827     │
-│  Berlin                             │
-│                                     │
-│  Mit freundlichen Grüßen            │
-│  Ihr Post-Team                      │
-└─────────────────────────────────────┘`;
+const q13Notice = `E-MAIL VON DEUTSCHE POST
+
+Guten Tag Frau Weber,
+
+Ihr Paket mit der Sendungsnummer
+RD 1234 5678 90 DE ist heute bei
+uns angekommen.
+
+Sie können es ab morgen in der
+Postfiliale abholen.
+
+Lagerzeit: 7 Werktage
+Danach geht das Paket zurück.
+
+Adresse: Hauptstraße 89, 10827
+Berlin
+
+Mit freundlichen Grüßen
+Ihr Post-Team`;
 
 const readingPart3Q13: ExamQuestion[] = [
   {
@@ -372,24 +366,22 @@ const readingPart3Q13: ExamQuestion[] = [
 ];
 
 // Question 14
-const q14Notice = `┌─────────────────────────────────────┐
-│      BRIEFKASTEN-LEERUNG            │
-│                                     │
-│  Leerungszeiten:                    │
-│                                     │
-│  Montag - Freitag:                  │
-│  9:00 Uhr, 15:00 Uhr, 18:00 Uhr     │
-│                                     │
-│  Samstag:                           │
-│  11:00 Uhr (letzte Leerung)         │
-│                                     │
-│  Sonntag und Feiertage:             │
-│  Keine Leerung                      │
-│                                     │
-│  Wichtig: Briefe nach 18:00 Uhr     │
-│  werden erst am nächsten Werktag    │
-│  abgeholt.                          │
-└─────────────────────────────────────┘`;
+const q14Notice = `BRIEFKASTEN-LEERUNG
+
+Leerungszeiten:
+
+Montag - Freitag:
+9:00 Uhr, 15:00 Uhr, 18:00 Uhr
+
+Samstag:
+11:00 Uhr (letzte Leerung)
+
+Sonntag und Feiertage:
+Keine Leerung
+
+Wichtig: Briefe nach 18:00 Uhr
+werden erst am nächsten Werktag
+abgeholt.`;
 
 const readingPart3Q14: ExamQuestion[] = [
   {
@@ -402,25 +394,23 @@ const readingPart3Q14: ExamQuestion[] = [
 ];
 
 // Question 15
-const q15Notice = `┌─────────────────────────────────────┐
-│   PACKSTATION INFO                  │
-│                                     │
-│  24/7 Paketservice ohne Wartezeit!  │
-│                                     │
-│  So funktioniert es:                │
-│  1. Paket online frankieren         │
-│  2. Packstation als Abgabeort       │
-│     wählen                          │
-│  3. Paket zur Packstation bringen   │
-│  4. QR-Code scannen                 │
-│  5. Fach öffnet sich automatisch    │
-│  6. Paket einlegen - fertig!        │
-│                                     │
-│  Kosten: 0€ (nur Porto bezahlen)    │
-│                                     │
-│  Registrierung nötig unter:         │
-│  www.packstation.de                 │
-└─────────────────────────────────────┘`;
+const q15Notice = `PACKSTATION INFO
+
+24/7 Paketservice ohne Wartezeit!
+
+So funktioniert es:
+1. Paket online frankieren
+2. Packstation als Abgabeort
+   wählen
+3. Paket zur Packstation bringen
+4. QR-Code scannen
+5. Fach öffnet sich automatisch
+6. Paket einlegen - fertig!
+
+Kosten: 0€ (nur Porto bezahlen)
+
+Registrierung nötig unter:
+www.packstation.de`;
 
 const readingPart3Q15: ExamQuestion[] = [
   {
@@ -642,15 +632,27 @@ const vocabulary: VocabularyTheme = {
 
 const day19: ExamDay = {
   day: 19,
-  skills: ['Listening', 'Reading'],
+  skills: ['Reading'],
   practices: [
-    listeningPractice,
+    // Teil 1: ONE text with 5 questions
     readingPractice1,
-    readingPractice2,
-    readingPractice3
+    
+    // Teil 2: 5 separate reading practices, each with own pair of websites
+    readingPractice2a,
+    readingPractice2b,
+    readingPractice2c,
+    readingPractice2d,
+    readingPractice2e,
+    
+    // Teil 3: 5 separate reading practices, each with own notice
+    readingPractice3a,
+    readingPractice3b,
+    readingPractice3c,
+    readingPractice3d,
+    readingPractice3e
   ],
   vocabulary,
-  focus: "Nature and parks"
+  focus: "Post Office & Mail Services"
 };
 
 export default day19;
