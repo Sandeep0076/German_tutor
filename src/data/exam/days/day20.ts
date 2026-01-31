@@ -1,9 +1,9 @@
 /**
  * Day 20: Writing + Speaking
- * Focus: Emergencies and asking for help
- * 
+ * Focus: Weather and Seasons
+ *
  * Skills: Writing, Speaking
- * Topics: Emergencies, accidents, asking for help, giving help, problems, solutions
+ * Topics: Weather conditions, seasons, outdoor activities, vacation planning, weather-related clothing
  */
 
 import type {
@@ -19,48 +19,96 @@ import type {
 
 const writingPractice1: WritingPractice = {
   part: 1,
-  title: "Report a Problem",
-  description: "Write a message reporting a problem or emergency",
-  instructions: "Write to report a problem. Include: what happened, when, where, and what help you need. Write about 30-40 words.",
-  prompt: "Du hast dein Portemonnaie verloren. Schreib deinem Freund und bitte um Hilfe.",
-  sampleAnswer: "Lieber Tom,\n\nich habe ein Problem! Ich habe mein Portemonnaie verloren. Ich war heute im Park. Vielleicht liegt es noch dort. Kannst du mit mir im Park suchen? Ich brauche deine Hilfe! Bitte ruf mich an.\n\nViele Grüße\nLisa",
+  title: "Teil 1: Weather Report Form",
+  description: "Complete a weather observation form for a school project",
+  instructions: "You are helping your friend complete a weather observation form for their school project. Read the context and fill in the missing information in the form.",
+  prompt: `Dein Freund Max macht ein Schulprojekt über das Wetter. Er beobachtet das Wetter in Hamburg vom 15. bis 21. März. Am Montag, den 15. März, war es sonnig und warm (18 Grad). Es hat nicht geregnet. Max hat die Beobachtung um 14 Uhr gemacht. Der Wind war schwach.
+
+In dem Formular fehlen fünf Informationen.
+Helfen Sie Ihrem Freund und schreiben Sie die fünf fehlenden Informationen in das Formular.
+
+┌─────────────────────────────────────────────────┐
+│     WETTER-BEOBACHTUNG HAMBURG                  │
+│          Schulprojekt                           │
+│                                                 │
+│ Name:                   Max Schmidt        (0) │
+│ Beobachtungsort:        _______________    (1) │
+│ Datum:                  _______________    (2) │
+│ Uhrzeit:                _______________    (3) │
+│ Wetter:                 _______________    (4) │
+│ Temperatur:             _______________    (5) │
+│ Regen:                  ☐ Ja  ☐ Nein           │
+│ Wind:                   schwach                 │
+│                                                 │
+│ Unterschrift:           Max Schmidt             │
+└─────────────────────────────────────────────────┘`,
+  sampleAnswer: `(1) Hamburg
+(2) 15. März / Montag, 15. März
+(3) 14 Uhr / 14:00 Uhr
+(4) sonnig und warm
+(5) 18 Grad`,
   keyPhrases: [
-    "Ich habe ein Problem (I have a problem)",
-    "Ich brauche Hilfe (I need help)",
-    "Kannst du mir helfen? (Can you help me?)",
-    "Ich habe... verloren (I lost...)",
-    "Was soll ich tun? (What should I do?)"
+    "das Wetter (the weather)",
+    "die Temperatur (temperature)",
+    "sonnig (sunny)",
+    "der Grad (degree)",
+    "die Beobachtung (observation)"
   ]
 };
 
 const writingPractice2: WritingPractice = {
-  part: 1,
-  title: "Cancel Due to Emergency",
-  description: "Write to cancel an appointment or meeting due to an emergency",
-  instructions: "Write to cancel plans due to an emergency. Must include all 3 points: 1) What was planned? 2) Why can't you come? 3) When can you meet instead? Write about 30-40 words.",
-  prompt: "Du kannst deinen Freund morgen nicht treffen, weil du krank bist. Schreib ihm, sag ab und schlage ein neues Datum vor.",
-  sampleAnswer: "Liebe Anna,\n\nes tut mir leid! Morgen kann ich nicht kommen. Ich bin krank. Ich habe Fieber und Kopfschmerzen. Der Arzt sagt, ich muss zu Hause bleiben. Können wir uns nächste Woche treffen?\n\nViele Grüße\nMax",
+  part: 2,
+  title: "Teil 2: Ask About Weather for Trip",
+  description: "Write an email asking about weather conditions for your upcoming trip",
+  instructions: "Write an email to the tourist information office. Address all 3 points. Write about 30 words including greeting and closing.",
+  prompt: `Sie möchten im Juli nach Österreich fahren. Schreiben Sie an die Touristeninformation in Salzburg:
+
+• Warum schreiben Sie?
+• Fragen Sie: Wie ist das Wetter im Juli?
+• Fragen Sie: Was soll ich mitbringen?
+
+Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30 Wörter).
+Schreiben Sie auch eine Anrede und einen Gruß.`,
+  sampleAnswer: `Sehr geehrte Damen und Herren,
+
+ich möchte im Juli nach Salzburg fahren. Wie ist das Wetter im Juli? Ist es warm oder regnet es oft? Was für Kleidung soll ich mitbringen?
+
+Mit freundlichen Grüßen
+Anna Müller`,
   keyPhrases: [
-    "Es tut mir leid (I'm sorry)",
-    "Ich kann nicht kommen (I can't come)",
-    "Ich bin krank (I'm sick)",
-    "Ich habe einen Notfall (I have an emergency)",
-    "Können wir... (Can we...)"
+    "Sehr geehrte Damen und Herren (Dear Sir/Madam)",
+    "Wie ist das Wetter? (How is the weather?)",
+    "Was soll ich mitbringen? (What should I bring?)",
+    "die Kleidung (clothing)",
+    "Mit freundlichen Grüßen (Sincerely)"
   ]
 };
 
 const writingPractice3: WritingPractice = {
-  part: 1,
-  title: "Ask for Help with a Situation",
-  description: "Write to ask for help with a difficult situation",
-  instructions: "Write to ask someone for help with a problem. Explain the situation and what help you need. Write about 30-35 words.",
-  prompt: "Dein Auto ist kaputt. Schreib deinem Freund und frag, ob er dich abholen kann.",
-  sampleAnswer: "Hallo Peter,\n\nmein Auto ist kaputt! Ich bin auf der Autobahn bei München. Kannst du mich abholen? Ich warte an der Tankstelle. Bitte komm schnell! Vielen Dank!\n\nTom",
+  part: 2,
+  title: "Teil 2: Change Plans Due to Weather",
+  description: "Write to your friend about changing plans because of bad weather",
+  instructions: "Write an email to your friend. Address all 3 points. Write about 30 words including greeting and closing.",
+  prompt: `Das Wetter ist morgen sehr schlecht. Sie können nicht wandern gehen. Schreiben Sie an Ihre Freundin Lisa:
+
+• Warum können Sie nicht wandern?
+• Was schlagen Sie stattdessen vor?
+• Wann treffen Sie sich?
+
+Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30 Wörter).
+Schreiben Sie auch eine Anrede und einen Gruß.`,
+  sampleAnswer: `Liebe Lisa,
+
+morgen regnet es stark. Wir können leider nicht wandern gehen. Möchtest du stattdessen ins Kino gehen? Wir können uns um 15 Uhr vor dem Kino treffen.
+
+Viele Grüße
+Thomas`,
   keyPhrases: [
-    "Kannst du mich abholen? (Can you pick me up?)",
-    "Ich warte... (I'm waiting...)",
-    "Bitte komm schnell! (Please come quickly!)",
-    "Ich brauche deine Hilfe (I need your help)"
+    "es regnet (it's raining)",
+    "das Wetter ist schlecht (the weather is bad)",
+    "stattdessen (instead)",
+    "Möchtest du...? (Would you like to...?)",
+    "Viele Grüße (Best regards)"
   ]
 };
 
@@ -70,53 +118,51 @@ const writingPractice3: WritingPractice = {
 
 const speakingPractice1: SpeakingPractice = {
   part: 1,
-  title: "Describe an Emergency Situation",
-  description: "Talk about an emergency or problem you had",
-  instructions: "Prepare a short monologue (30-45 seconds) about a problem or emergency. Include: what happened, when, where, how you felt, and how it was solved.",
+  title: "Teil 1: Talk About Your Favorite Season",
+  description: "Describe your favorite season and weather preferences",
+  instructions: "Prepare a short monologue (30-45 seconds) about your favorite season. Include: which season, why you like it, what the weather is like, and what you do in that season.",
   prompts: [
-    "Hatten Sie schon mal einen Notfall? (Have you ever had an emergency?)",
-    "Haben Sie schon mal etwas verloren? (Have you ever lost something?)",
-    "Was war Ihr größtes Problem? (What was your biggest problem?)",
-    "Wie haben Sie das Problem gelöst? (How did you solve the problem?)"
+    "Welche Jahreszeit mögen Sie am liebsten? (Which season do you like best?)",
+    "Warum mögen Sie diese Jahreszeit? (Why do you like this season?)",
+    "Wie ist das Wetter in dieser Jahreszeit? (How is the weather in this season?)",
+    "Was machen Sie in dieser Jahreszeit? (What do you do in this season?)"
   ],
   sampleResponses: [
-    "Letztes Jahr hatte ich einen Unfall. Ich bin mit dem Fahrrad gefahren. Plötzlich ist ein Auto gekommen. Ich bin gestürzt. Mein Bein hat wehgetan. Ein Mann hat mir geholfen. Er hat den Krankenwagen gerufen. Im Krankenhaus war ich zwei Tage. Jetzt ist alles wieder gut. Aber ich fahre vorsichtiger!",
-    "Einmal habe ich mein Handy verloren. Ich war im Supermarkt. Zu Hause habe ich es nicht gefunden. Ich war sehr nervös. Alle wichtigen Nummern waren im Handy! Am nächsten Tag hat der Supermarkt angerufen. Jemand hat mein Handy gefunden! Ich war so glücklich! Jetzt schreibe ich wichtige Nummern auch auf Papier."
+    "Ich mag den Sommer am liebsten. Im Sommer ist es warm und sonnig. Die Sonne scheint fast jeden Tag. Ich gehe gern schwimmen und im Park spazieren. Am Wochenende fahre ich oft an den See. Dort kann ich schwimmen und in der Sonne liegen. Abends ist es lange hell. Das finde ich toll! Ich mag auch Eis essen im Sommer.",
+    "Meine Lieblingsjahreszeit ist der Herbst. Im Herbst ist das Wetter mild und kühl. Die Blätter sind bunt - rot, gelb und orange. Das ist sehr schön! Ich wandere gern im Herbst. Die Luft ist frisch. Manchmal regnet es, aber das macht nichts. Ich trage dann eine Jacke und nehme einen Regenschirm mit."
   ]
 };
 
 const speakingPractice2: SpeakingPractice = {
   part: 2,
-  title: "Ask for and Offer Help",
-  description: "Practice asking for help and offering to help others",
-  instructions: "Practice common emergency and help situations. Be prepared to ask for help and offer help.",
+  title: "Teil 2: Discuss Weather and Activities",
+  description: "Have a conversation about weather and outdoor activities",
+  instructions: "Practice asking and answering questions about weather and what you do in different weather conditions.",
   prompts: [
-    "Sie brauchen Hilfe. Fragen Sie jemanden. (You need help. Ask someone.)",
-    "Jemand braucht Hilfe. Was sagen Sie? (Someone needs help. What do you say?)",
-    "Sie haben etwas verloren. Was tun Sie? (You lost something. What do you do?)",
-    "Jemand ist krank. Wie helfen Sie? (Someone is sick. How do you help?)"
+    "Was machen Sie bei schönem Wetter? (What do you do in nice weather?)",
+    "Was machen Sie, wenn es regnet? (What do you do when it rains?)",
+    "Mögen Sie Schnee? Warum (nicht)? (Do you like snow? Why (not)?)",
+    "Wie ist das Wetter heute? (How is the weather today?)"
   ],
   sampleResponses: [
-    "A: Entschuldigung, können Sie mir helfen?\nB: Ja, natürlich! Was ist das Problem?\nA: Ich habe meinen Schlüssel verloren. Ich kann nicht in meine Wohnung.\nB: Oh je! Haben Sie einen Schlüsseldienst?\nA: Nein, ich kenne keinen. Können Sie mir eine Nummer geben?\nB: Ja, moment. Ich google das für Sie.",
-    "A: Hilfe! Mein Kind kann nicht schwimmen!\nB: Keine Panik! Ich hole den Rettungsschwimmer!\nA: Schnell bitte!\nB: Bleiben Sie ruhig. Hilfe kommt gleich.",
-    "A: Mir ist schlecht. Ich brauche einen Arzt.\nB: Setzen Sie sich. Ich rufe den Krankenwagen.\nA: Danke. Mein Kopf tut so weh.\nB: Der Krankenwagen kommt bald. Bleiben Sie ruhig."
+    "A: Was machen Sie bei schönem Wetter?\nB: Bei schönem Wetter gehe ich gern draußen spazieren. Ich gehe in den Park oder fahre Fahrrad. Und Sie?\nA: Ich gehe auch gern raus. Ich treffe Freunde und wir grillen im Garten.\nB: Das klingt toll! Machen Sie das oft?\nA: Ja, im Sommer fast jedes Wochenende.",
+    "A: Mögen Sie Schnee?\nB: Ja, ich mag Schnee sehr! Im Winter fahre ich gern Ski in den Bergen.\nA: Wirklich? Ich mag Schnee nicht so gern. Es ist zu kalt!\nB: Aber Sie können warme Kleidung tragen - einen Mantel, eine Mütze und Handschuhe.\nA: Ja, das stimmt. Aber ich bleibe lieber drinnen, wenn es schneit."
   ]
 };
 
 const speakingPractice3: SpeakingPractice = {
   part: 3,
-  title: "Emergency Phone Calls",
-  description: "Practice making emergency calls or asking for urgent help",
-  instructions: "Practice emergency situations: calling for help, reporting an accident, or asking for urgent assistance.",
+  title: "Teil 3: Plan Activities Based on Weather",
+  description: "Make plans and suggestions considering the weather forecast",
+  instructions: "Practice making plans with someone and discussing what to do based on the weather conditions.",
   prompts: [
-    "Sie haben einen Unfall gesehen. Rufen Sie 112 an. (You saw an accident. Call 112.)",
-    "Sie fühlen sich nicht gut. Rufen Sie den Arzt an. (You don't feel well. Call the doctor.)",
-    "In Ihrer Wohnung ist Feuer. Was tun Sie? (There's a fire in your apartment. What do you do?)"
+    "Planen Sie einen Ausflug. Sprechen Sie über das Wetter. (Plan a trip. Talk about the weather.)",
+    "Das Wetter ist schlecht. Was schlagen Sie vor? (The weather is bad. What do you suggest?)",
+    "Sie möchten am Wochenende etwas machen. Fragen Sie nach dem Wetter. (You want to do something on the weekend. Ask about the weather.)"
   ],
   sampleResponses: [
-    "A: Notruf 112, was ist passiert?\nB: Es gibt einen Unfall! Auf der Hauptstraße!\nA: Wo genau sind Sie?\nB: Ecke Hauptstraße und Goethestraße. Ein Auto und ein Fahrrad.\nA: Gibt es Verletzte?\nB: Ja, der Fahrradfahrer liegt auf der Straße. Er blutet!\nA: Wir schicken sofort einen Krankenwagen. Bleiben Sie bei dem Verletzten.\nB: Ja, ich bleibe hier.",
-    "A: Arztpraxis Dr. Müller, guten Tag.\nB: Guten Tag. Ich brauche dringend einen Termin. Mir geht es sehr schlecht.\nA: Was haben Sie für Beschwerden?\nB: Ich habe hohes Fieber und starke Halsschmerzen. Ich kann kaum schlucken.\nA: Das klingt nicht gut. Können Sie in einer Stunde kommen?\nB: Ja, ich komme sofort. Vielen Dank!",
-    "A: Feuerwehr, Notruf!\nB: Hilfe! In meiner Wohnung ist Feuer! In der Küche!\nA: Wo wohnen Sie?\nB: Schillerstraße 23, vierte Etage!\nA: Sind Sie allein? Können Sie raus?\nB: Ja, ich bin allein. Der Rauch ist stark!\nA: Verlassen Sie sofort die Wohnung! Gehen Sie nach draußen! Wir kommen!\nB: Ich gehe jetzt!"
+    "A: Möchtest du am Samstag wandern gehen?\nB: Gute Idee! Wie ist das Wetter am Samstag?\nA: Die Wettervorhersage sagt: sonnig und warm, 22 Grad.\nB: Perfect! Was soll ich mitbringen?\nA: Bring Wasser und eine Sonnenbrille mit. Und zieh bequeme Schuhe an!\nB: Okay! Um wie viel Uhr treffen wir uns?\nA: Um 9 Uhr am Bahnhof.",
+    "A: Oh nein! Morgen regnet es stark.\nB: Schade! Wir können nicht im Park grillen.\nA: Was machen wir stattdessen?\nB: Wir können ins Museum gehen. Oder ins Kino?\nA: Gute Idee! Ins Kino! Welchen Film möchtest du sehen?\nB: Vielleicht den neuen Film mit Tom Hanks?\nA: Super! Ich kaufe die Tickets online."
   ]
 };
 
@@ -125,94 +171,100 @@ const speakingPractice3: SpeakingPractice = {
 // ============================================================================
 
 const vocabulary: VocabularyTheme = {
-  theme: "Emergencies & Help",
+  theme: "Weather & Seasons",
   items: [
-    // Emergency Words
-    { german: "der Notfall", english: "emergency", example: "Es ist ein Notfall!" },
-    { german: "die Hilfe", english: "help", example: "Ich brauche Hilfe!" },
-    { german: "der Unfall", english: "accident", example: "Es gibt einen Unfall." },
-    { german: "die Gefahr", english: "danger", example: "Vorsicht! Gefahr!" },
-    { german: "das Problem", english: "problem", example: "Ich habe ein Problem." },
-    { german: "der Notruf", english: "emergency call", example: "Ich rufe den Notruf 112." },
+    // Weather conditions
+    { german: "das Wetter", english: "weather", example: "Wie ist das Wetter heute?" },
+    { german: "die Sonne", english: "sun", example: "Die Sonne scheint." },
+    { german: "sonnig", english: "sunny", example: "Heute ist es sonnig." },
+    { german: "der Regen", english: "rain", example: "Der Regen kommt." },
+    { german: "regnen", english: "to rain", example: "Es regnet stark." },
+    { german: "regnerisch", english: "rainy", example: "Das Wetter ist regnerisch." },
+    { german: "der Schnee", english: "snow", example: "Im Winter gibt es viel Schnee." },
+    { german: "schneien", english: "to snow", example: "Es schneit heute." },
+    { german: "der Wind", english: "wind", example: "Der Wind ist stark." },
+    { german: "windig", english: "windy", example: "Heute ist es sehr windig." },
+    { german: "die Wolke", english: "cloud", example: "Am Himmel sind viele Wolken." },
+    { german: "wolkig / bewölkt", english: "cloudy", example: "Es ist bewölkt." },
+    { german: "der Nebel", english: "fog", example: "Am Morgen ist oft Nebel." },
+    { german: "neblig", english: "foggy", example: "Es ist neblig." },
+    { german: "das Gewitter", english: "thunderstorm", example: "Heute Abend kommt ein Gewitter." },
+    { german: "der Blitz", english: "lightning", example: "Ich sehe einen Blitz!" },
+    { german: "der Donner", english: "thunder", example: "Der Donner ist laut." },
+    { german: "das Eis", english: "ice", example: "Auf der Straße ist Eis." },
+    { german: "der Hagel", english: "hail", example: "Es hagelt!" },
     
-    // Emergency Services
-    { german: "der Krankenwagen", english: "ambulance", example: "Rufen Sie einen Krankenwagen!" },
-    { german: "die Feuerwehr", english: "fire department", example: "Die Feuerwehr kommt." },
-    { german: "die Polizei", english: "police", example: "Ich rufe die Polizei." },
-    { german: "der Rettungsdienst", english: "rescue service", example: "Der Rettungsdienst hilft." },
-    { german: "der Arzt / die Ärztin", english: "doctor m/f", example: "Ich brauche einen Arzt." },
-    { german: "das Krankenhaus", english: "hospital", example: "Er ist im Krankenhaus." },
+    // Temperature
+    { german: "die Temperatur", english: "temperature", example: "Die Temperatur ist 20 Grad." },
+    { german: "der Grad", english: "degree", example: "Es sind 15 Grad." },
+    { german: "warm", english: "warm", example: "Im Sommer ist es warm." },
+    { german: "heiß", english: "hot", example: "Heute ist es sehr heiß." },
+    { german: "kalt", english: "cold", example: "Im Winter ist es kalt." },
+    { german: "kühl", english: "cool", example: "Am Abend ist es kühl." },
+    { german: "mild", english: "mild", example: "Das Wetter ist mild." },
     
-    // Health Emergencies
-    { german: "krank", english: "sick", example: "Ich bin krank." },
-    { german: "verletzt", english: "injured", example: "Er ist verletzt." },
-    { german: "der Schmerz", english: "pain", example: "Ich habe Schmerzen." },
-    { german: "das Fieber", english: "fever", example: "Ich habe Fieber." },
-    { german: "die Wunde", english: "wound", example: "Die Wunde blutet." },
-    { german: "bluten", english: "to bleed", example: "Mein Finger blutet." },
-    { german: "wehtun", english: "to hurt", example: "Mein Kopf tut weh." },
-    { german: "sich verletzen", english: "to injure oneself", example: "Ich habe mich verletzt." },
-    { german: "stürzen / fallen", english: "to fall", example: "Ich bin gestürzt." },
+    // Seasons
+    { german: "die Jahreszeit", english: "season", example: "Welche Jahreszeit magst du?" },
+    { german: "der Frühling", english: "spring", example: "Im Frühling blühen die Blumen." },
+    { german: "der Sommer", english: "summer", example: "Der Sommer ist warm." },
+    { german: "der Herbst", english: "autumn/fall", example: "Im Herbst fallen die Blätter." },
+    { german: "der Winter", english: "winter", example: "Im Winter schneit es." },
     
-    // Asking for Help
-    { german: "Hilfe!", english: "Help!", example: "Hilfe! Schnell!" },
-    { german: "helfen", english: "to help", example: "Können Sie mir helfen?" },
-    { german: "brauchen", english: "to need", example: "Ich brauche einen Arzt." },
-    { german: "rufen", english: "to call", example: "Rufen Sie die Polizei!" },
-    { german: "schnell", english: "quickly/fast", example: "Kommen Sie schnell!" },
-    { german: "sofort", english: "immediately", example: "Ich komme sofort!" },
-    { german: "dringend", english: "urgent", example: "Es ist dringend!" },
+    // Weather-related activities
+    { german: "schwimmen", english: "to swim", example: "Im Sommer schwimme ich gern." },
+    { german: "wandern", english: "to hike", example: "Im Herbst wandern wir." },
+    { german: "Ski fahren", english: "to ski", example: "Im Winter fahre ich Ski." },
+    { german: "spazieren gehen", english: "to go for a walk", example: "Bei schönem Wetter gehe ich spazieren." },
+    { german: "draußen", english: "outside", example: "Wir spielen draußen." },
+    { german: "drinnen", english: "inside", example: "Bei Regen bleiben wir drinnen." },
     
-    // Lost & Found
-    { german: "verlieren", english: "to lose", example: "Ich habe meinen Schlüssel verloren." },
-    { german: "finden", english: "to find", example: "Haben Sie mein Handy gefunden?" },
-    { german: "suchen", english: "to search/look for", example: "Ich suche meine Tasche." },
-    { german: "das Fundbüro", english: "lost and found office", example: "Gehen Sie zum Fundbüro." },
-    { german: "der Schlüssel", english: "key", example: "Ich habe meinen Schlüssel verloren." },
-    { german: "das Portemonnaie / die Geldbörse", english: "wallet", example: "Mein Portemonnaie ist weg!" },
-    { german: "die Tasche", english: "bag", example: "Ich finde meine Tasche nicht." },
-    { german: "der Pass / der Ausweis", english: "passport/ID", example: "Ich habe meinen Pass verloren." },
+    // Clothing for weather
+    { german: "die Jacke", english: "jacket", example: "Ich brauche eine Jacke." },
+    { german: "der Mantel", english: "coat", example: "Im Winter trage ich einen Mantel." },
+    { german: "der Regenschirm", english: "umbrella", example: "Nimm einen Regenschirm mit!" },
+    { german: "die Sonnenbrille", english: "sunglasses", example: "Ich trage eine Sonnenbrille." },
+    { german: "die Mütze", english: "cap/hat", example: "Im Winter brauche ich eine Mütze." },
+    { german: "der Schal", english: "scarf", example: "Der Schal ist warm." },
+    { german: "die Handschuhe", english: "gloves", example: "Meine Handschuhe sind warm." },
+    { german: "die Stiefel", english: "boots", example: "Bei Schnee trage ich Stiefel." },
+    { german: "die Badehose", english: "swimming trunks", example: "Im Sommer brauche ich eine Badehose." },
+    { german: "der Badeanzug", english: "swimsuit", example: "Ich kaufe einen neuen Badeanzug." },
     
-    // Accidents & Problems
-    { german: "kaputt", english: "broken", example: "Mein Auto ist kaputt." },
-    { german: "das Feuer", english: "fire", example: "Hilfe! Feuer!" },
-    { german: "der Rauch", english: "smoke", example: "Ich sehe Rauch!" },
-    { german: "der Brand", english: "fire (event)", example: "Es gibt einen Brand!" },
-    { german: "brennen", english: "to burn", example: "Das Haus brennt!" },
-    { german: "der Diebstahl", english: "theft", example: "Ich melde einen Diebstahl." },
-    { german: "stehlen", english: "to steal", example: "Jemand hat mein Fahrrad gestohlen." },
+    // Weather descriptions
+    { german: "schön", english: "nice/beautiful", example: "Das Wetter ist schön." },
+    { german: "schlecht", english: "bad", example: "Das Wetter ist schlecht." },
+    { german: "gut", english: "good", example: "Das Wetter ist gut." },
+    { german: "trocken", english: "dry", example: "Es ist trocken." },
+    { german: "nass", english: "wet", example: "Die Straße ist nass." },
+    { german: "feucht", english: "humid/damp", example: "Die Luft ist feucht." },
+    { german: "hell", english: "bright", example: "Es ist hell." },
+    { german: "dunkel", english: "dark", example: "Es wird dunkel." },
     
-    // Emergency Actions
-    { german: "anrufen", english: "to call (phone)", example: "Ich rufe den Notruf an." },
-    { german: "retten", english: "to rescue/save", example: "Der Arzt rettet Leben." },
-    { german: "warten", english: "to wait", example: "Bitte warten Sie hier." },
-    { german: "bleiben", english: "to stay", example: "Bleiben Sie ruhig!" },
-    { german: "kommen", english: "to come", example: "Der Krankenwagen kommt gleich." },
-    { german: "bringen", english: "to bring/take", example: "Ich bringe Sie ins Krankenhaus." },
-    { german: "abholen", english: "to pick up", example: "Können Sie mich abholen?" },
+    // Time expressions with weather
+    { german: "heute", english: "today", example: "Heute regnet es." },
+    { german: "morgen", english: "tomorrow", example: "Morgen scheint die Sonne." },
+    { german: "gestern", english: "yesterday", example: "Gestern war es kalt." },
+    { german: "am Morgen", english: "in the morning", example: "Am Morgen ist es kühl." },
+    { german: "am Nachmittag", english: "in the afternoon", example: "Am Nachmittag wird es warm." },
+    { german: "am Abend", english: "in the evening", example: "Am Abend kommt Regen." },
     
-    // Descriptions & States
-    { german: "gefährlich", english: "dangerous", example: "Das ist gefährlich!" },
-    { german: "sicher", english: "safe", example: "Hier ist es sicher." },
-    { german: "vorsichtig", english: "careful", example: "Seien Sie vorsichtig!" },
-    { german: "ruhig", english: "calm", example: "Bleiben Sie ruhig!" },
-    { german: "nervös", english: "nervous", example: "Ich bin sehr nervös." },
-    { german: "schlimm", english: "bad/serious", example: "Ist es schlimm?" },
-    { german: "ernst", english: "serious", example: "Die Situation ist ernst." },
+    // Useful phrases
+    { german: "Wie ist das Wetter?", english: "How is the weather?", example: "Wie ist das Wetter heute?" },
+    { german: "Es ist schönes Wetter.", english: "It's nice weather.", example: "Heute ist schönes Wetter." },
+    { german: "Es ist schlechtes Wetter.", english: "It's bad weather.", example: "Morgen ist schlechtes Wetter." },
+    { german: "Wie viel Grad sind es?", english: "How many degrees is it?", example: "Wie viel Grad sind es heute?" },
+    { german: "scheinen", english: "to shine", example: "Die Sonne scheint." },
+    { german: "werden", english: "to become/get", example: "Es wird kalt." },
+    { german: "mitbringen", english: "to bring along", example: "Bring einen Regenschirm mit!" },
+    { german: "anziehen", english: "to put on/wear", example: "Zieh eine Jacke an!" },
     
-    // Useful Phrases
-    { german: "Was ist passiert?", english: "What happened?", example: "Was ist passiert? Geht es Ihnen gut?" },
-    { german: "Geht es dir/Ihnen gut?", english: "Are you okay?", example: "Geht es dir gut?" },
-    { german: "Keine Panik!", english: "Don't panic!", example: "Keine Panik! Hilfe kommt!" },
-    { german: "Es tut mir leid.", english: "I'm sorry.", example: "Es tut mir leid, ich kann nicht helfen." },
-    { german: "Wo tut es weh?", english: "Where does it hurt?", example: "Wo tut es weh?" },
-    
-    // Locations for Emergencies
-    { german: "die Apotheke", english: "pharmacy", example: "Die Apotheke ist dort." },
-    { german: "die Tankstelle", english: "gas station", example: "Ich warte an der Tankstelle." },
-    { german: "die Straße", english: "street", example: "Der Unfall ist auf der Straße." },
-    { german: "draußen", english: "outside", example: "Gehen Sie nach draußen!" },
-    { german: "drinnen", english: "inside", example: "Bleiben Sie drinnen!" }
+    // Additional weather vocabulary
+    { german: "der Himmel", english: "sky", example: "Der Himmel ist blau." },
+    { german: "die Luft", english: "air", example: "Die Luft ist frisch." },
+    { german: "der Sturm", english: "storm", example: "Es kommt ein Sturm." },
+    { german: "stürmisch", english: "stormy", example: "Das Wetter ist stürmisch." },
+    { german: "die Wettervorhersage", english: "weather forecast", example: "Die Wettervorhersage sagt Regen." },
+    { german: "das Klima", english: "climate", example: "Das Klima ist mild." }
   ]
 };
 
@@ -232,7 +284,7 @@ const day20: ExamDay = {
     speakingPractice3
   ],
   vocabulary,
-  focus: "Emergencies and asking for help"
+  focus: "Weather and seasons - Writing about weather conditions and vacation planning, speaking about seasonal activities and weather preferences"
 };
 
 export default day20;

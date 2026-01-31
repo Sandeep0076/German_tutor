@@ -1,8 +1,18 @@
-# Goethe A1 Exam Focus - Reading Section (Lesen)
+ Vietnam# Goethe A1 Exam Focus - Reading Section (Lesen)
 
 ---
 
-## Exam Focus Days - Topics & Themes Overview
+## Exam Focus Days ### **Day 18**: Festivals & Celebrations
+**Topics**: Birthdays, holidays, festivals, parties, celebrations, gifts, wedding preparations
+**Skills**: Writing (Teil 1 & 2), Speaking (all 3 parts)
+
+### **Day 19**: Post Office & Mail Services
+**Topics**: Post office services, sending letters and packages, mail tracking, stamps, postal forms, shipping options, delivery services
+**Skills**: Reading (all 3 parts)
+
+---
+
+# Goethe A1 Exam Focus - Reading Section (Lesen)s & Themes Overview
 
 ### **Day 1**: Shopping & Appointments
 **Topics**: Supermarket shopping, doctor appointments, meeting new people, self-introduction, countries
