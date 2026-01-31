@@ -6580,19 +6580,188 @@ export const syllabusData: Phase[] = [
             },
             {
                 day: 38,
-                title: "Comparatives",
-                focus: "Gut, Besser, Am besten",
-                activities: ["Comparing things"],
-                homework: ["Compare two cities/people"],
+                title: "Making Requests & Responding (Speaking Part 3)",
+                focus: "Goethe A1 Exam - Bitten & Aufforderungen",
+                activities: ["Making polite requests", "Responding to requests", "Using 'bitte'", "Exam practice"],
+                homework: ["Practice request formulas", "Role-play scenarios"],
                 details: {
                     sections: [
                         {
-                            title: "Comparatives (Komparativ)",
-                            content: "Add **-er**.\n* schnell -> schneller\n* klein -> kleiner\n\n**Irregular:**\n* gut -> besser\n* viel -> mehr\n* gern -> lieber",
-                            examples: [{ german: "Berlin ist größer als München.", english: "Berlin is bigger than Munich." }]
+                            title: "❓ How to Ask Questions Politely - Question Formation Patterns",
+                            content: "Before diving into the exam scenarios, you need to master the different ways to ask questions in German. There are several patterns, each with different levels of politeness.\n\n---\n\n## 🎯 The Three Main Question Patterns\n\n### 1. Modal Verb Questions (Most Common for A1)\n\nModal verbs help you ask politely. The most important ones for requests are:\n\n**Können Sie...? (Can you...?)**\n* **Politeness Level:** Polite, standard\n* **Structure:** Können Sie + [verb infinitive] + bitte?\n* **Usage:** Most common for everyday requests\n* **Conjugation:** können → Sie können (formal you can)\n\n**Könnten Sie...? (Could you...?)**\n* **Politeness Level:** Very polite, more formal\n* **Structure:** Könnten Sie + [verb infinitive] + bitte?\n* **Usage:** Extra polite, shows more respect\n* **Conjugation:** können → Sie könnten (formal you could - Konjunktiv II)\n* **Note:** This is the subjunctive form, making it more tentative and polite\n\n**Dürfen Sie...? / Darf ich...? (May I...?)**\n* **Politeness Level:** Very polite, asking for permission\n* **Structure:** Darf ich + [verb infinitive] + bitte?\n* **Usage:** When asking for permission to do something yourself\n* **Conjugation:** dürfen → ich darf (I may), Sie dürfen (you may)\n\n---\n\n## 📊 Comparison Table: Modal Verbs for Requests\n\n| **Modal Verb** | **Meaning** | **Politeness** | **Example** |\n|----------------|-------------|----------------|-------------|\n| **Können Sie bitte...?** | Can you please...? | Polite (Standard) | Können Sie mir bitte helfen? |\n| **Könnten Sie bitte...?** | Could you please...? | Very Polite | Könnten Sie mir bitte helfen? |\n| **Dürfen Sie bitte...?** | May you please...? | Polite (Permission) | Dürfen Sie mir bitte helfen? |\n| **Darf ich bitte...?** | May I please...? | Polite (Self-permission) | Darf ich bitte Ihr Telefon benutzen? |\n\n---\n\n## 🗣️ Modal Verb Conjugation (Formal \"Sie\" Form)\n\nFor the Goethe A1 exam, you MUST use the formal \"Sie\" form. Here are the conjugations:\n\n**können (can/to be able to):**\n* ich kann\n* du kannst\n* er/sie/es kann\n* wir können\n* ihr könnt\n* **Sie können** ✓ (Use this in the exam!)\n\n**könnten (could - Konjunktiv II of können):**\n* ich könnte\n* du könntest\n* er/sie/es könnte\n* wir könnten\n* ihr könntet\n* **Sie könnten** ✓ (Extra polite!)\n\n**dürfen (may/to be allowed to):**\n* ich darf\n* du darfst\n* er/sie/es darf\n* wir dürfen\n* ihr dürft\n* **Sie dürfen** ✓ (For permission)\n\n---\n\n## 💡 Practical Examples with Modal Verbs\n\n**Using \"Können Sie bitte...?\"**\n* Können Sie mir bitte helfen? (Can you please help me?)\n* Können Sie mir bitte den Stift geben? (Can you please give me the pen?)\n* Können Sie bitte das Fenster öffnen? (Can you please open the window?)\n* Können Sie mir bitte ein Glas Wasser geben? (Can you please give me a glass of water?)\n\n**Using \"Könnten Sie bitte...?\" (More Polite)**\n* Könnten Sie mir bitte helfen? (Could you please help me?)\n* Könnten Sie mir bitte den Weg zeigen? (Could you please show me the way?)\n* Könnten Sie bitte langsamer sprechen? (Could you please speak more slowly?)\n* Könnten Sie mir bitte sagen, wie spät es ist? (Could you please tell me what time it is?)\n\n**Using \"Darf ich bitte...?\" (Asking Permission)**\n* Darf ich bitte Ihr Telefon benutzen? (May I please use your phone?)\n* Darf ich mich bitte setzen? (May I please sit down?)\n* Darf ich bitte das Fenster öffnen? (May I please open the window?)\n* Darf ich bitte eine Frage stellen? (May I please ask a question?)\n\n---\n\n### 2. Imperative Form (Direct Commands)\n\nThe imperative is a direct command form. While it can sound commanding, adding \"bitte\" makes it polite.\n\n**Structure (Formal Sie):**\n* **Verb (infinitive form)** + Sie + [object] + bitte!\n* The verb comes FIRST in the sentence\n\n**Formation:**\n* Take the infinitive form of the verb\n* Place it at the beginning\n* Add \"Sie\" immediately after\n* Add \"bitte\" for politeness\n\n**Examples:**\n* **Geben** Sie mir bitte den Apfel! (Give me the apple, please!)\n* **Öffnen** Sie bitte das Fenster! (Open the window, please!)\n* **Schließen** Sie bitte die Tür! (Close the door, please!)\n* **Helfen** Sie mir bitte! (Help me, please!)\n* **Leihen** Sie mir bitte Ihren Stift! (Lend me your pen, please!)\n\n**Note:** The imperative is more direct than modal verbs, but still polite with \"bitte\".\n\n---\n\n### 3. Question Form with Imperative\n\nYou can make the imperative even more polite by turning it into a question (adding a question mark and rising intonation).\n\n**Structure:**\n* **Verb** + Sie + [object] + bitte**?**\n\n**Examples:**\n* Geben Sie mir bitte den Apfel**?** (Can you give me the apple, please?)\n* Öffnen Sie bitte das Fenster**?** (Can you open the window, please?)\n* Schließen Sie bitte die Tür**?** (Can you close the door, please?)\n\n**Difference:**\n* **Statement:** Geben Sie mir bitte den Apfel. (Give me the apple, please.)\n* **Question:** Geben Sie mir bitte den Apfel? (Can you give me the apple, please?)\n\nThe question form is softer and more polite!\n\n---\n\n## 🎓 When to Use Each Pattern\n\n**Use Modal Verbs (Können Sie...? / Könnten Sie...?) when:**\n* You want to be extra polite\n* You're asking someone to do something for you\n* You're in a formal situation\n* You want to sound less direct\n\n**Use Imperative (Geben Sie...! / Geben Sie...?) when:**\n* You want to be clear and direct (but still polite with \"bitte\")\n* The situation is straightforward\n* You're comfortable with the person\n* You want to keep it simple (good for A1 level!)\n\n**Use \"Darf ich...?\" when:**\n* You're asking for permission to do something yourself\n* You want to be very polite\n* You're asking to use someone's belongings\n\n---\n\n## ⚠️ Important Grammar Notes\n\n**1. Formal vs. Informal:**\n* **Formal (Sie):** Können **Sie** bitte...? / Geben **Sie** mir bitte...?\n* **Informal (du):** Kannst **du** bitte...? / Gib mir bitte...?\n* **In the exam, ALWAYS use formal \"Sie\"!**\n\n**2. Word Order with Modal Verbs:**\n* Modal verb is in position 2 (conjugated)\n* Main verb goes to the END (infinitive)\n* Example: Können Sie mir bitte **helfen**? (Can you please help me?)\n\n**3. Word Order with Imperative:**\n* Verb comes FIRST\n* \"Sie\" comes immediately after\n* Example: **Geben** Sie mir bitte den Stift.\n\n**4. Position of \"bitte\":**\n* Usually after the verb and \"Sie\"\n* Can also go at the end\n* Examples: Können Sie **bitte** helfen? / Können Sie mir helfen, **bitte**?\n\n---\n\n## 🔄 Transformation Practice\n\nLet's see how the same request can be expressed in different ways:\n\n**Request: \"Give me the pen\"**\n\n1. **Modal Verb (Standard):** Können Sie mir bitte den Stift geben?\n2. **Modal Verb (Very Polite):** Könnten Sie mir bitte den Stift geben?\n3. **Imperative (Statement):** Geben Sie mir bitte den Stift.\n4. **Imperative (Question):** Geben Sie mir bitte den Stift?\n5. **Permission (Self):** Darf ich bitte Ihren Stift haben?\n\n**All are correct! Choose based on the situation and your comfort level.**\n\n---\n\n## 📝 Quick Reference for the Exam\n\n**Most Common Patterns for Goethe A1:**\n\n✅ **Können Sie mir bitte... geben?** (Can you please give me...?)\n✅ **Geben Sie mir bitte...?** (Can you give me...?)\n✅ **Darf ich bitte...?** (May I please...?)\n✅ **Könnten Sie bitte...?** (Could you please...? - extra polite)\n\n**Remember:**\n* Always use **\"Sie\"** (formal)\n* Always include **\"bitte\"** (please)\n* Speak clearly and make eye contact\n* Start with a reason (Ich habe Hunger/Durst/...)",
+                            examples: [
+                                { german: "Können Sie mir bitte helfen?", english: "Can you please help me? (Modal verb - standard politeness)" },
+                                { german: "Könnten Sie mir bitte helfen?", english: "Could you please help me? (Modal verb - very polite)" },
+                                { german: "Geben Sie mir bitte den Stift.", english: "Give me the pen, please. (Imperative - direct but polite)" },
+                                { german: "Geben Sie mir bitte den Stift?", english: "Can you give me the pen, please? (Imperative as question - polite)" },
+                                { german: "Darf ich bitte Ihr Telefon benutzen?", english: "May I please use your phone? (Asking permission)" },
+                                { german: "Können Sie mir bitte ein Glas Wasser geben?", english: "Can you please give me a glass of water? (Modal verb request)" },
+                                { german: "Öffnen Sie bitte das Fenster?", english: "Can you open the window, please? (Imperative as question)" },
+                                { german: "Könnten Sie bitte langsamer sprechen?", english: "Could you please speak more slowly? (Very polite modal verb)" }
+                            ]
+                        },
+                        {
+                            title: "📋 Structure of Speaking Part 3",
+                            content: "In the **Goethe-Institut A1 Exam**, Speaking Part 3 (Sprechen Teil 3) is about **making requests** and **responding** to them. This part tests if you can survive daily life in Germany by asking for help or items.\n\n---\n\n**The Task:**\nYou will see a picture card (e.g., a picture of a bottle of water, a pen, or a window).\n\n**Your Job:**\n1. Formulate a **Request** (Bitten) or a **Command** (Aufforderung) based on the picture.\n2. Use the word **\"bitte\"** (please) to be polite.\n\n**The Partner's Job:**\nYour partner must respond (either by saying \"Yes\" and giving the item, or \"No\" with a reason).\n\n**The Exam Expectation:**\n\nThe examiners want to see two things:\n1. **Context:** Why are you asking? (Give a short reason).\n2. **The Question:** Can you use the imperative or a polite question?",
+                            examples: [
+                                { german: "Ich habe Hunger. Geben Sie mir bitte den Apfel?", english: "I am hungry. Can you give me the apple, please?" },
+                                { german: "Ich habe Durst. Können Sie mir bitte ein Glas Wasser geben?", english: "I am thirsty. Can you please give me a glass of water?" },
+                                { german: "Es ist kalt hier. Schließen Sie bitte das Fenster?", english: "It is cold here. Can you please close the window?" }
+                            ]
+                        },
+                        {
+                            title: "🛠 How to Build Your Request (The Formula)",
+                            content: "For the Goethe A1 exam, use this simple 2-step formula to get maximum points:\n\n**[Reason/Problem] + [Action Question] + [bitte]?**\n\n---\n\n**Example 1: Picture of an Apple (Apfel)**\n* **Reason:** Ich habe Hunger. (I am hungry.)\n* **Request:** Geben Sie mir bitte den Apfel? (Can you give me the apple, please?)\n\n**Example 2: Picture of a Glass of Water (Wasser)**\n* **Reason:** Ich habe Durst. (I am thirsty.)\n* **Request:** Können Sie mir bitte ein Glas Wasser geben? (Can you please give me a glass of water?)\n\n**Example 3: Picture of a Window (Fenster)**\n* **Reason:** Es ist kalt hier. (It is cold here.)\n* **Request:** Schließen Sie bitte das Fenster? (Can you please close the window?)\n\n---\n\n**Key Vocabulary for Reasons:**\n* **Ich habe Hunger.** - I am hungry.\n* **Ich habe Durst.** - I am thirsty.\n* **Es ist kalt/warm hier.** - It is cold/warm here.\n* **Ich möchte schreiben.** - I would like to write.\n* **Ich verstehe das Wort nicht.** - I don't understand the word.\n* **Es ist sehr laut.** - It is very loud.\n* **Ich habe keine Uhr.** - I don't have a watch.\n\n**Key Request Patterns:**\n* **Geben Sie mir bitte...** - Give me please...\n* **Können Sie mir bitte... geben?** - Can you please give me...?\n* **Schließen/Öffnen Sie bitte...** - Please close/open...\n* **Leihen Sie mir bitte...** - Please lend me...\n* **Machen Sie bitte... zu/auf?** - Please close/open...?",
+                            examples: [
+                                { german: "Ich möchte schreiben. Leihen Sie mir bitte Ihren Stift?", english: "I would like to write. Can you lend me your pen, please?" },
+                                { german: "Ich habe keine Uhr. Wie spät ist es bitte?", english: "I don't have a watch. What time is it, please?" },
+                                { german: "Es ist sehr laut. Machen Sie bitte die Tür zu?", english: "It is very loud. Can you please close the door?" }
+                            ]
+                        },
+                        {
+                            title: "💡 Top 5 Exam Examples",
+                            content: "Here are common A1 themes and how to handle them:\n\n| **Picture on Card** | **Reason (The \"Why\")** | **The Request (The \"Question\")** |\n|---------------------|------------------------|----------------------------------|\n| **A Pen (Kugelschreiber)** | Ich möchte schreiben. | Leihen Sie mir bitte Ihren Stift? |\n| **A Window (Fenster)** | Es ist kalt hier. | Schließen Sie bitte das Fenster? |\n| **A Clock (Uhr)** | Ich habe keine Uhr. | Wie spät ist es bitte? |\n| **A Book (Buch)** | Ich verstehe das Wort nicht. | Geben Sie mir bitte das Wörterbuch? |\n| **A Door (Tür)** | Es ist sehr laut. | Machen Sie bitte die Tür zu? |\n\n---\n\n**Additional Common Items:**\n\n| **Picture** | **Reason** | **Request** |\n|-------------|------------|-------------|\n| **Water (Wasser)** | Ich habe Durst. | Können Sie mir bitte ein Glas Wasser geben? |\n| **Apple (Apfel)** | Ich habe Hunger. | Geben Sie mir bitte den Apfel? |\n| **Chair (Stuhl)** | Ich bin müde. | Darf ich mich bitte setzen? |\n| **Light (Licht)** | Es ist dunkel hier. | Machen Sie bitte das Licht an? |\n| **Phone (Telefon)** | Ich muss telefonieren. | Darf ich bitte Ihr Telefon benutzen? |",
+                            examples: [
+                                { german: "Ich bin müde. Darf ich mich bitte setzen?", english: "I am tired. May I please sit down?" },
+                                { german: "Es ist dunkel hier. Machen Sie bitte das Licht an?", english: "It is dark here. Can you please turn on the light?" },
+                                { german: "Ich muss telefonieren. Darf ich bitte Ihr Telefon benutzen?", english: "I need to make a call. May I please use your phone?" }
+                            ]
+                        },
+                        {
+                            title: "🤝 How to Respond (The Partner's Role)",
+                            content: "When your partner asks you a question, you must respond clearly.\n\n---\n\n**If you say \"Yes\":**\n* **Ja, gerne. Hier ist der/das/die...** (Yes, gladly. Here is the...)\n* **Klar, bitte sehr.** (Sure, here you go.)\n* **Natürlich, hier bitte.** (Of course, here please.)\n* **Ja, kein Problem.** (Yes, no problem.)\n\n**If you say \"No\":**\n* **Tut mir leid, das geht nicht.** (I'm sorry, that's not possible.)\n* **Nein, ich brauche das selbst.** (No, I need that myself.)\n* **Leider nicht, ich habe keinen/keine/kein...** (Unfortunately not, I don't have a...)\n* **Es tut mir leid, aber...** (I'm sorry, but...)\n\n---\n\n**Complete Response Examples:**\n\n**Positive Responses:**\n* Q: Geben Sie mir bitte den Stift?\n* A: Ja, gerne. Hier ist der Stift.\n\n* Q: Können Sie mir bitte helfen?\n* A: Natürlich, kein Problem.\n\n**Negative Responses:**\n* Q: Leihen Sie mir bitte Ihr Telefon?\n* A: Tut mir leid, das geht nicht. Ich brauche es selbst.\n\n* Q: Haben Sie einen Stift für mich?\n* A: Leider nicht, ich habe keinen Stift dabei.",
+                            examples: [
+                                { german: "Ja, gerne. Hier ist der Apfel.", english: "Yes, gladly. Here is the apple." },
+                                { german: "Klar, bitte sehr.", english: "Sure, here you go." },
+                                { german: "Tut mir leid, das geht nicht.", english: "I'm sorry, that's not possible." },
+                                { german: "Nein, ich brauche das selbst.", english: "No, I need that myself." },
+                                { german: "Leider nicht, ich habe kein Wasser.", english: "Unfortunately not, I don't have any water." }
+                            ]
+                        },
+                        {
+                            title: "⚠️ Important for Goethe A1 (Vietnamese Learner Tips)",
+                            content: "**The \"bitte\" Rule:**\nIf you forget \"bitte,\" you lose politeness points. Always include it in your requests!\n\n---\n\n**Pronunciation Focus:**\n\n**1. \"Ich\" Sound:**\n* Ensure the \"ch\" is a soft hiss, not a \"k\" sound.\n* Practice: Ich, mich, dich, nicht\n* **Vietnamese learners:** This is like a soft \"h\" sound, not \"ik\"\n\n**2. \"Hunger\" Pronunciation:**\n* Pronounce the \"r\" at the end lightly (vocalized R), like \"Hunga.\"\n* The \"H\" is aspirated (breathy)\n* **Vietnamese learners:** Don't pronounce it as \"Hung-ger\" with a hard \"g\"\n\n**3. \"Bitte\" Pronunciation:**\n* BIT-teh (not BEE-teh)\n* Short \"i\" sound, like in \"bit\"\n* Double \"t\" is pronounced clearly\n\n---\n\n**Sentence Order:**\nIn a request/command, the **Verb** usually comes first (e.g., **Geben** Sie mir...).\n\n**Formal vs. Informal:**\n* In the exam, always use **Sie** (formal you)\n* **Geben Sie** (formal) NOT **Gib** (informal)\n* **Können Sie** (formal) NOT **Kannst du** (informal)\n\n---\n\n**Common Mistakes to Avoid:**\n\n❌ **Ich will einen Apfel.** (Too direct, sounds demanding)\n✅ **Geben Sie mir bitte einen Apfel?** (Polite request)\n\n❌ **Gib mir das Buch.** (Informal, wrong for exam)\n✅ **Geben Sie mir bitte das Buch?** (Formal, correct)\n\n❌ **Ich brauche Wasser.** (Statement, not a request)\n✅ **Können Sie mir bitte Wasser geben?** (Polite request)\n\n---\n\n**Exam Success Tips:**\n1. **Always start with a reason** (Ich habe Hunger/Durst/...)\n2. **Always use \"bitte\"** in your request\n3. **Use formal \"Sie\" form** (not \"du\")\n4. **Speak clearly and slowly**\n5. **Make eye contact** with your partner\n6. **Smile** - it shows confidence!",
+                            examples: [
+                                { german: "Ich habe Durst. Können Sie mir bitte Wasser geben?", english: "I am thirsty. Can you please give me water? (CORRECT - reason + polite request)" },
+                                { german: "Geben Sie mir bitte den Stift?", english: "Can you give me the pen, please? (CORRECT - formal Sie + bitte)" },
+                                { german: "Es ist kalt. Schließen Sie bitte das Fenster?", english: "It is cold. Can you please close the window? (CORRECT - reason + request)" }
+                            ]
                         }
                     ],
-                    homework: [{ id: "d38-q1", type: "text", question: "Better than?", answer: "besser als", explanation: "Als = than." }]
+                    homework: [
+                        { id: "d38-q1", type: "choice", question: "What is the main focus of Speaking Part 3?",
+                          options: ["Describing pictures", "Making requests and responding", "Telling stories"],
+                          answer: "Making requests and responding",
+                          explanation: "Speaking Part 3 tests your ability to make polite requests and respond to them." },
+                        
+                        { id: "d38-q2", type: "choice", question: "Which word MUST you include in every request?",
+                          options: ["danke", "bitte", "gerne"],
+                          answer: "bitte",
+                          explanation: "Always use 'bitte' (please) to be polite. Forgetting it loses points!" },
+                        
+                        { id: "d38-q3", type: "text", question: "Translate: 'I am hungry.' (reason for requesting food)",
+                          answer: "Ich habe Hunger.",
+                          explanation: "Use 'haben' with Hunger: Ich habe Hunger." },
+                        
+                        { id: "d38-q4", type: "text", question: "Translate: 'I am thirsty.' (reason for requesting water)",
+                          answer: "Ich habe Durst.",
+                          explanation: "Use 'haben' with Durst: Ich habe Durst." },
+                        
+                        { id: "d38-q5", type: "choice", question: "Complete the request formula: [Reason] + [___] + [bitte]?",
+                          options: ["Statement", "Action Question", "Greeting"],
+                          answer: "Action Question",
+                          explanation: "Formula: Reason + Action Question + bitte" },
+                        
+                        { id: "d38-q6", type: "text", question: "Request an apple politely (formal): 'Give me the apple, please.'",
+                          answer: "Geben Sie mir bitte den Apfel?",
+                          explanation: "Geben Sie (formal) + mir + bitte + den Apfel (masculine accusative)" },
+                        
+                        { id: "d38-q7", type: "choice", question: "Which form should you use in the exam?",
+                          options: ["du (informal)", "Sie (formal)", "ihr (plural informal)"],
+                          answer: "Sie (formal)",
+                          explanation: "Always use formal 'Sie' in the Goethe A1 exam." },
+                        
+                        { id: "d38-q8", type: "text", question: "Translate: 'It is cold here.' (reason for closing window)",
+                          answer: "Es ist kalt hier.",
+                          explanation: "Es ist kalt hier. (It is cold here.)" },
+                        
+                        { id: "d38-q9", type: "choice", question: "How do you say 'Yes, gladly. Here is...'?",
+                          options: ["Ja, gerne. Hier ist...", "Ja, bitte. Hier ist...", "Ja, danke. Hier ist..."],
+                          answer: "Ja, gerne. Hier ist...",
+                          explanation: "Ja, gerne. Hier ist... (Yes, gladly. Here is...)" },
+                        
+                        { id: "d38-q10", type: "text", question: "Politely ask for a pen (der Stift): 'Can you lend me your pen, please?'",
+                          answer: "Leihen Sie mir bitte Ihren Stift?",
+                          explanation: "Leihen Sie mir bitte Ihren Stift? (formal request)" },
+                        
+                        { id: "d38-q11", type: "choice", question: "Complete: 'Tut mir leid, ___' (I'm sorry, that's not possible)",
+                          options: ["das geht nicht", "das ist gut", "das macht nichts"],
+                          answer: "das geht nicht",
+                          explanation: "Tut mir leid, das geht nicht. (I'm sorry, that's not possible.)" },
+                        
+                        { id: "d38-q12", type: "text", question: "Ask what time it is politely: 'What time is it, please?'",
+                          answer: "Wie spät ist es bitte?",
+                          explanation: "Wie spät ist es bitte? (What time is it, please?)" },
+                        
+                        { id: "d38-q13", type: "choice", question: "Picture: Window. Reason: It's cold. Request: ___",
+                          options: ["Öffnen Sie bitte das Fenster?", "Schließen Sie bitte das Fenster?", "Geben Sie mir bitte das Fenster?"],
+                          answer: "Schließen Sie bitte das Fenster?",
+                          explanation: "If it's cold, you want to CLOSE the window: Schließen Sie bitte das Fenster?" },
+                        
+                        { id: "d38-q14", type: "text", question: "Translate: 'I would like to write.' (reason for requesting pen)",
+                          answer: "Ich möchte schreiben.",
+                          explanation: "Ich möchte schreiben. (I would like to write.)" },
+                        
+                        { id: "d38-q15", type: "choice", question: "Negative response: 'No, I need that myself.'",
+                          options: ["Nein, ich brauche das selbst.", "Nein, ich habe das nicht.", "Nein, das ist meins."],
+                          answer: "Nein, ich brauche das selbst.",
+                          explanation: "Nein, ich brauche das selbst. (No, I need that myself.)" },
+                        
+                        { id: "d38-q16", type: "text", question: "Request water politely: 'Can you please give me a glass of water?'",
+                          answer: "Können Sie mir bitte ein Glas Wasser geben?",
+                          explanation: "Können Sie mir bitte ein Glas Wasser geben?" },
+                        
+                        { id: "d38-q17", type: "choice", question: "What does 'Klar, bitte sehr' mean?",
+                          options: ["Sure, here you go", "No, sorry", "Maybe later"],
+                          answer: "Sure, here you go",
+                          explanation: "Klar, bitte sehr. = Sure, here you go. (positive response)" },
+                        
+                        { id: "d38-q18", type: "text", question: "Translate: 'It is very loud.' (reason for closing door)",
+                          answer: "Es ist sehr laut.",
+                          explanation: "Es ist sehr laut. (It is very loud.)" },
+                        
+                        { id: "d38-q19", type: "choice", question: "Picture: Door. Reason: It's loud. Request: ___",
+                          options: ["Öffnen Sie bitte die Tür?", "Machen Sie bitte die Tür zu?", "Geben Sie mir bitte die Tür?"],
+                          answer: "Machen Sie bitte die Tür zu?",
+                          explanation: "If it's loud, you want to CLOSE the door: Machen Sie bitte die Tür zu?" },
+                        
+                        { id: "d38-q20", type: "text", question: "Politely ask to close the window: 'Please close the window.'",
+                          answer: "Schließen Sie bitte das Fenster.",
+                          explanation: "Schließen Sie bitte das Fenster. (imperative + bitte)" },
+                        
+                        { id: "d38-q21", type: "choice", question: "Common mistake: Which is WRONG for the exam?",
+                          options: ["Gib mir das Buch. (informal)", "Geben Sie mir bitte das Buch?", "Können Sie mir bitte helfen?"],
+                          answer: "Gib mir das Buch. (informal)",
+                          explanation: "Never use informal 'du' form in the exam! Always use formal 'Sie'." },
+                        
+                        { id: "d38-q22", type: "text", question: "Respond positively: 'Of course, no problem.'",
+                          answer: "Natürlich, kein Problem.",
+                          explanation: "Natürlich, kein Problem. (Of course, no problem.)" },
+                        
+                        { id: "d38-q23", type: "choice", question: "Pronunciation tip: How should 'ich' sound?",
+                          options: ["Like 'ik' with hard k", "Like soft hiss (not k)", "Like 'ish'"],
+                          answer: "Like soft hiss (not k)",
+                          explanation: "The 'ch' in 'ich' is a soft hiss, NOT a hard 'k' sound." },
+                        
+                        { id: "d38-q24", type: "text", question: "Complete the formula: Ich habe Hunger. ___ Sie mir bitte den Apfel?",
+                          answer: "Geben",
+                          explanation: "Geben Sie mir bitte den Apfel? (Give me the apple, please?)" },
+                        
+                        { id: "d38-q25", type: "choice", question: "What should you do if you forget 'bitte'?",
+                          options: ["You lose politeness points", "Nothing happens", "You fail the exam"],
+                          answer: "You lose politeness points",
+                          explanation: "Forgetting 'bitte' loses politeness points. Always include it!" }
+                    ]
                 }
             },
             {
