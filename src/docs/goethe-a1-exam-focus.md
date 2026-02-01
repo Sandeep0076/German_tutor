@@ -2,17 +2,9 @@
 
 ---
 
-## Exam Focus Days ### **Day 18**: Festivals & Celebrations
-**Topics**: Birthdays, holidays, festivals, parties, celebrations, gifts, wedding preparations
-**Skills**: Writing (Teil 1 & 2), Speaking (all 3 parts)
 
-### **Day 19**: Post Office & Mail Services
-**Topics**: Post office services, sending letters and packages, mail tracking, stamps, postal forms, shipping options, delivery services
-**Skills**: Reading (all 3 parts)
 
----
-
-# Goethe A1 Exam Focus - Reading Section (Lesen)s & Themes Overview
+# Goethe A1 Exam Focus - Reading/writing Section (Lesen)s & Themes Overview
 
 ### **Day 1**: Shopping & Appointments
 **Topics**: Supermarket shopping, doctor appointments, meeting new people, self-introduction, countries
@@ -85,6 +77,20 @@
 ### **Day 18**: Festivals & Celebrations
 **Topics**: Birthdays, holidays, festivals, parties, celebrations, gifts, wedding preparations
 **Skills**: Writing (Teil 1 & 2), Speaking (all parts)
+
+### **Day 19**: Post Office & Mail Services
+**Topics**: Post office services, sending letters and packages, mail tracking, stamps, postal forms, shipping options, delivery services
+**Skills**: Reading (all 3 parts)
+
+### **Day 20**: Weather & Seasons
+**Topics**: Weather conditions, seasons, outdoor activities, vacation planning, weather-related clothing
+**Skills**: Writing (Teil 1 & 2), Speaking (all 3 parts)
+
+### **Day 21**: Public Library & Books
+**Topics**: Library membership, borrowing books, library rules, book recommendations, reading habits, library services
+**Skills**: Reading (all 3 parts)
+
+---
 
 ---
 
@@ -483,3 +489,551 @@ Mit freundlichen Grüßen
 - Manage your time: don't spend too long on one part
 - Check your work for basic spelling and grammar
 - Use vocabulary and structures you know well (A1 level)
+
+---
+
+# Day 21: Public Library & Books - Reading Section (Lesen)
+
+## Theme: Public Library & Books
+**Topics**: Library membership, borrowing books, library rules, book recommendations, reading habits, library services
+**Skills**: Reading (all 3 parts)
+
+---
+
+## Teil 1 (Part 1) - Questions 1-5
+### Library Email about New Services
+
+**Instructions**: Read the email from the city library. Then read the 5 statements (1-5) and decide if each statement is **Richtig** (correct) or **Falsch** (false).
+
+---
+
+**Email Text:**
+
+```
+Von: stadtbibliothek@berlin-mitte.de
+An: mitglieder@bibliothek.de
+Betreff: Neue Öffnungszeiten und Services ab Februar
+
+Liebe Bibliotheksmitglieder,
+
+ab dem 1. Februar hat unsere Stadtbibliothek Berlin-Mitte neue Öffnungszeiten. 
+Wir sind jetzt montags bis freitags von 9 bis 20 Uhr geöffnet. Am Samstag öffnen 
+wir von 10 bis 16 Uhr. Sonntags bleibt die Bibliothek geschlossen.
+
+Wir haben auch neue Services für Sie:
+- Sie können jetzt E-Books und Hörbücher kostenlos ausleihen
+- Wir haben einen neuen Lesesaal mit 30 Arbeitsplätzen und kostenlosem WLAN
+- Jeden Dienstag um 18 Uhr gibt es eine Buchlesung für Erwachsene
+- Für Kinder haben wir jeden Freitagnachmittag um 15 Uhr eine Vorlesestunde
+
+Die Bibliothek ist im August für drei Wochen wegen Renovierung geschlossen. 
+In dieser Zeit können Sie Bücher nur online verlängern.
+
+Sie können maximal 10 Bücher gleichzeitig ausleihen. Die Leihfrist ist 4 Wochen. 
+Wenn Sie ein Buch zu spät zurückgeben, kostet das 0,50 Euro pro Tag.
+
+Die neue Bibliothekskarte kostet 15 Euro pro Jahr. Für Studenten und Schüler 
+ist sie nur 8 Euro. Kinder unter 12 Jahren bekommen die Karte kostenlos.
+
+Wir freuen uns auf Ihren Besuch!
+
+Mit freundlichen Grüßen
+Ihr Bibliotheksteam Berlin-Mitte
+```
+
+---
+
+**Fragen (Questions 1-5):**
+
+**0. (Beispiel)**: Die Bibliothek hat neue Öffnungszeiten ab Februar.
+- ✓ **Richtig** (Correct - mentioned in the first paragraph)
+- ☐ Falsch
+
+**1.** Die Bibliothek ist am Sonntag von 10 bis 16 Uhr geöffnet.
+- ☐ Richtig
+- ☐ Falsch
+
+**2.** Man kann E-Books und Hörbücher kostenlos ausleihen.
+- ☐ Richtig
+- ☐ Falsch
+
+**3.** Die Buchlesung für Erwachsene ist jeden Freitag um 18 Uhr.
+- ☐ Richtig
+- ☐ Falsch
+
+**4.** Im August ist die Bibliothek wegen Renovierung geschlossen.
+- ☐ Richtig
+- ☐ Falsch
+
+**5.** Die Bibliothekskarte kostet für alle Menschen 15 Euro pro Jahr.
+- ☐ Richtig
+- ☐ Falsch
+
+---
+
+**Answers:**
+- **0.** Richtig (Example - new opening hours from February)
+- **1.** Falsch (Sunday is closed - "Sonntags bleibt die Bibliothek geschlossen")
+- **2.** Richtig (E-books and audiobooks free - "E-Books und Hörbücher kostenlos ausleihen")
+- **3.** Falsch (Reading is Tuesday at 18:00, not Friday - "Jeden Dienstag um 18 Uhr")
+- **4.** Richtig (Closed in August for renovation - "im August für drei Wochen wegen Renovierung geschlossen")
+- **5.** Falsch (Different prices for students/children - "Für Studenten und Schüler ist sie nur 8 Euro. Kinder unter 12 Jahren bekommen die Karte kostenlos")
+
+---
+
+## Teil 2 (Part 2) - Questions 6-10
+### Which Website Has the Information?
+
+**Instructions**: You are looking for information on the internet. For each of the 5 situations (6-10), choose which website (a or b) has the information you need.
+
+---
+
+**Beispiel (Example - Question 0):**
+
+**Sie möchten wissen: Welche Bücher sind neu in der Bibliothek?**
+(You want to know: Which books are new in the library?)
+
+a) **www.buch-shop-berlin.de**
+```
+┌─────────────────────────────────────┐
+│    BUCH-SHOP BERLIN                 │
+│                                     │
+│ Wir verkaufen neue und gebrauchte   │
+│ Bücher. Große Auswahl an Romanen,   │
+│ Krimis und Sachbüchern.             │
+│                                     │
+│ Besuchen Sie unseren Laden in       │
+│ der Friedrichstraße 45.             │
+└─────────────────────────────────────┘
+```
+
+b) **www.stadtbibliothek-neuigkeiten.de** ✓
+```
+┌─────────────────────────────────────┐
+│    STADTBIBLIOTHEK AKTUELL          │
+│                                     │
+│ Neue Bücher im Februar:             │
+│ - Romane, Krimis, Kinderbücher      │
+│ - Hörbücher und E-Books             │
+│                                     │
+│ Hier finden Sie unsere              │
+│ Neuerscheinungen und Bestseller.    │
+└─────────────────────────────────────┘
+```
+
+**Answer: b** (Library website has information about new books)
+
+---
+
+**Frage 6:**
+
+**Sie suchen einen Deutschkurs für Anfänger in Berlin.**
+(You are looking for a German course for beginners in Berlin.)
+
+a) **www.deutsch-lernen-berlin.de**
+```
+┌─────────────────────────────────────┐
+│    SPRACHSCHULE BERLIN              │
+│                                     │
+│ Deutschkurse für alle Niveaus:      │
+│ • A1 Anfänger - Mo-Fr 9-12 Uhr      │
+│ • A2 Grundstufe - Mo-Fr 14-17 Uhr   │
+│ • B1 Mittelstufe - Di+Do 18-20 Uhr  │
+│                                     │
+│ Kostenlose Probestunde!             │
+│ Anmeldung: Tel. 030-12345678        │
+└─────────────────────────────────────┘
+```
+
+b) **www.deutsch-buch-shop.de**
+```
+┌─────────────────────────────────────┐
+│    DEUTSCH-BÜCHER ONLINE            │
+│                                     │
+│ Lehrbücher für Deutsch als          │
+│ Fremdsprache:                       │
+│ • Grammatikbücher A1-C2             │
+│ • Übungsbücher mit Lösungen         │
+│ • Wörterbücher Deutsch-Englisch     │
+│                                     │
+│ Versandkostenfrei ab 20 Euro!       │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Frage 7:**
+
+**Sie möchten wissen: Wann hat die Bibliothek am Wochenende geöffnet?**
+(You want to know: When is the library open on weekends?)
+
+a) **www.buchhandlung-schmidt.de**
+```
+┌─────────────────────────────────────┐
+│    BUCHHANDLUNG SCHMIDT             │
+│                                     │
+│ Öffnungszeiten:                     │
+│ Mo-Fr: 9-19 Uhr                     │
+│ Samstag: 10-16 Uhr                  │
+│ Sonntag: geschlossen                │
+│                                     │
+│ Große Auswahl an Büchern und        │
+│ Zeitschriften!                      │
+└─────────────────────────────────────┘
+```
+
+b) **www.bibliothek-info-berlin.de**
+```
+┌─────────────────────────────────────┐
+│    STADTBIBLIOTHEK BERLIN           │
+│         Öffnungszeiten              │
+│                                     │
+│ Mo-Fr: 9-20 Uhr                     │
+│ Samstag: 10-16 Uhr                  │
+│ Sonntag: geschlossen                │
+│                                     │
+│ Alle Standorte und Kontakt:         │
+│ info@bibliothek-berlin.de           │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Frage 8:**
+
+**Sie suchen ein gutes Restaurant für ein Abendessen am Samstag.**
+(You are looking for a good restaurant for dinner on Saturday.)
+
+a) **www.berlin-restaurants.de**
+```
+┌─────────────────────────────────────┐
+│    BERLIN RESTAURANTS               │
+│                                     │
+│ Die besten Restaurants in Berlin:   │
+│ • Italienisch, Griechisch, Asiatisch│
+│ • Bewertungen und Preise            │
+│ • Online-Reservierung möglich       │
+│                                     │
+│ Finden Sie Ihr Lieblingsrestaurant! │
+│ Öffnungszeiten: täglich 11-23 Uhr   │
+└─────────────────────────────────────┘
+```
+
+b) **www.bibliothek-cafe.de**
+```
+┌─────────────────────────────────────┐
+│    BIBLIOTHEKS-CAFÉ                 │
+│                                     │
+│ Kleines Café in der Stadtbibliothek │
+│ • Kaffee, Tee, Kuchen               │
+│ • Snacks und Sandwiches             │
+│                                     │
+│ Öffnungszeiten:                     │
+│ Mo-Fr: 9-18 Uhr, Sa: 10-14 Uhr      │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Frage 9:**
+
+**Sie möchten ein Buch online bestellen und nach Hause liefern lassen.**
+(You want to order a book online and have it delivered home.)
+
+a) **www.bibliothek-ausleihe.de**
+```
+┌─────────────────────────────────────┐
+│    BIBLIOTHEK ONLINE-KATALOG        │
+│                                     │
+│ Suchen Sie Bücher in unserer        │
+│ Bibliothek:                         │
+│ • Bücher reservieren                │
+│ • Leihfrist verlängern              │
+│ • E-Books downloaden                │
+│                                     │
+│ Ausleihe nur mit Bibliothekskarte!  │
+└─────────────────────────────────────┘
+```
+
+b) **www.online-buchversand.de**
+```
+┌─────────────────────────────────────┐
+│    ONLINE BUCHVERSAND               │
+│                                     │
+│ Über 10 Millionen Bücher:           │
+│ • Neue und gebrauchte Bücher        │
+│ • Lieferung in 2-3 Tagen            │
+│ • Kostenloser Versand ab 15 Euro    │
+│                                     │
+│ Jetzt bestellen und bezahlen!       │
+│ Kreditkarte oder PayPal             │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Frage 10:**
+
+**Sie wollen wissen: Gibt es in der Bibliothek Computer mit Internet?**
+(You want to know: Are there computers with internet in the library?)
+
+a) **www.stadtbibliothek-services.de**
+```
+┌─────────────────────────────────────┐
+│    BIBLIOTHEK SERVICES              │
+│                                     │
+│ Unsere Services für Sie:            │
+│ • 15 Computer mit Internetanschluss │
+│ • Drucker und Scanner               │
+│ • Kostenloses WLAN                  │
+│ • Arbeitsplätze zum Lernen          │
+│                                     │
+│ Nutzung kostenlos mit               │
+│ Bibliothekskarte!                   │
+└─────────────────────────────────────┘
+```
+
+b) **www.computer-reparatur-berlin.de**
+```
+┌─────────────────────────────────────┐
+│    COMPUTER-REPARATUR               │
+│                                     │
+│ Wir reparieren:                     │
+│ • Computer und Laptops              │
+│ • Drucker und Scanner               │
+│ • Internet-Probleme lösen           │
+│                                     │
+│ Schnell, günstig, zuverlässig!      │
+│ Tel: 030-987654321                  │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Answers (Teil 2):**
+- **Question 6: a** (Language school offers German courses)
+- **Question 7: b** (Library website has library opening hours)
+- **Question 8: a** (Restaurant website for dining)
+- **Question 9: b** (Online bookstore delivers books home)
+- **Question 10: a** (Library services shows computers available)
+
+---
+
+## Teil 3 (Part 3) - Questions 11-15
+### Reading Notices and Signs
+
+**Instructions**: Read each statement and the corresponding notice/sign. Decide if the statement is **Richtig** (correct) or **Falsch** (false) based on the information in the notice.
+
+---
+
+**Beispiel (Example - Question 0):**
+
+**Statement**: "In der Bibliothek kann man jeden Tag Bücher ausleihen."
+(In the library you can borrow books every day.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    STADTBIBLIOTHEK MÜNCHEN          │
+│         Öffnungszeiten              │
+│                                     │
+│ Montag - Freitag:  10-18 Uhr        │
+│ Samstag:           10-14 Uhr        │
+│                                     │
+│ Sonntag und Feiertage: geschlossen  │
+│                                     │
+│ Wir freuen uns auf Ihren Besuch!    │
+└─────────────────────────────────────┘
+```
+
+**Answer: Falsch** (Sunday is closed, so you cannot borrow books every day)
+
+---
+
+**Frage 11:**
+
+**Statement**: "Kinder können in der Bibliothek am Mittwoch eine Geschichte hören."
+(Children can hear a story in the library on Wednesday.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    KINDERPROGRAMM                   │
+│      Stadtbibliothek                │
+│                                     │
+│ VORLESESTUNDE FÜR KINDER            │
+│ (4-8 Jahre)                         │
+│                                     │
+│ Jeden Mittwoch: 15:00-16:00 Uhr     │
+│                                     │
+│ Wir lesen spannende Geschichten     │
+│ und basteln zusammen!               │
+│                                     │
+│ Eintritt frei!                      │
+│ Keine Anmeldung nötig.              │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Frage 12:**
+
+**Statement**: "Wenn man die Bücher zu spät zurückgibt, muss man nichts bezahlen."
+(If you return books late, you don't have to pay anything.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    WICHTIGE INFORMATION             │
+│         Leihfristen                 │
+│                                     │
+│ Bücher:        4 Wochen             │
+│ DVDs:          2 Wochen             │
+│ Zeitschriften: 1 Woche              │
+│                                     │
+│ Bei verspäteter Rückgabe:           │
+│ Gebühr: 0,50 € pro Tag              │
+│                                     │
+│ Verlängern Sie online oder          │
+│ telefonisch!                        │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Frage 13:**
+
+**Statement**: "Am Montag kann man in der Bibliothek einen Computerkurs besuchen."
+(On Monday you can attend a computer course in the library.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    KURSANGEBOT                      │
+│      Februar - April                │
+│                                     │
+│ COMPUTER FÜR SENIOREN               │
+│ Jeden Montag: 14-16 Uhr             │
+│ Anmeldung erforderlich              │
+│                                     │
+│ ENGLISCH FÜR ANFÄNGER               │
+│ Jeden Donnerstag: 18-19:30 Uhr      │
+│ Anmeldung erforderlich              │
+│                                     │
+│ Kosten: 5 € pro Kurs                │
+│ Tel: 089-12345678                   │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Frage 14:**
+
+**Statement**: "Die Bibliothek hat im Sommer besondere Öffnungszeiten."
+(The library has special opening hours in summer.)
+
+**Email/Message:**
+```
+Von: bibliothek@stadt-frankfurt.de
+Betreff: Sommeröffnungszeiten
+
+Liebe Bibliotheksnutzer,
+
+ab dem 1. Juli bis 31. August haben wir 
+geänderte Öffnungszeiten:
+
+Montag bis Freitag: 10-16 Uhr
+Samstag: geschlossen
+
+In den letzten zwei Wochen im August (16.-31.8.) 
+bleibt die Bibliothek wegen Renovierungsarbeiten 
+komplett geschlossen.
+
+Ab September sind wir wieder zu den normalen 
+Zeiten für Sie da.
+
+Ihr Bibliotheksteam
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Frage 15:**
+
+**Statement**: "Man darf in der Bibliothek telefonieren und laut sprechen."
+(You are allowed to make phone calls and speak loudly in the library.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    BIBLIOTHEKSREGELN                │
+│                                     │
+│ Bitte beachten Sie:                 │
+│                                     │
+│ ✓ Leise sprechen                    │
+│ ✓ Handys auf lautlos stellen        │
+│ ✓ Essen und Trinken nur im Café     │
+│ ✓ Taschen an der Garderobe abgeben  │
+│                                     │
+│ ✗ Nicht telefonieren                │
+│ ✗ Keine laute Musik                 │
+│                                     │
+│ Vielen Dank für Ihr Verständnis!    │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Answers (Teil 3):**
+- **Question 11: Richtig** (Story time Wednesday 15:00-16:00 - "Jeden Mittwoch: 15:00-16:00 Uhr")
+- **Question 12: Falsch** (Late fee is 0.50€ per day - "Gebühr: 0,50 € pro Tag")
+- **Question 13: Richtig** (Computer course Monday 14-16 - "COMPUTER FÜR SENIOREN Jeden Montag: 14-16 Uhr")
+- **Question 14: Richtig** (Summer hours from July 1 to August 31 - "ab dem 1. Juli bis 31. August haben wir geänderte Öffnungszeiten")
+- **Question 15: Falsch** (Not allowed to phone - "✗ Nicht telefonieren" and must speak quietly - "✓ Leise sprechen")
+
+---
+
+## Summary - Day 21 Reading Practice
+
+**Total Questions: 15**
+- **Teil 1**: 5 questions (Richtig/Falsch) - One long email about library services
+- **Teil 2**: 5 questions (a or b) - Each question with 2 different websites
+- **Teil 3**: 5 questions (Richtig/Falsch) - Each question with its own notice/sign
+
+**Theme**: Public Library & Books
+**Difficulty Level**: A1 (with some challenging vocabulary appropriate for exam preparation)
+**Real-world relevance**: Library visits, memberships, rules, and services
+
+**Key Vocabulary Practiced**:
+- Library services (ausleihen, zurückgeben, Leihfrist, Bibliothekskarte)
+- Opening hours (Öffnungszeiten, geschlossen, geöffnet)
+- Rules and regulations (Regeln, erlaubt, verboten)
+- Time expressions (täglich, wöchentlich, Wochenende)
+- Numbers and prices (Euro, kostenlos, Gebühr)
+
+**Tips for Students**:
+1. **Teil 1**: Read the email twice, underline key dates, times, and numbers
+2. **Teil 2**: Focus on what each website offers - match the need with the service
+3. **Teil 3**: Pay attention to words like "kein", "nicht", "verboten" that indicate negatives
+4. Look for exact information - don't assume or guess
+5. Practice time management - don't spend too long on one question
+
