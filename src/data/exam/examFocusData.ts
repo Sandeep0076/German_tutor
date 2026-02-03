@@ -1,6 +1,6 @@
 /**
  * Exam Focus Data - Central Index
- * 
+ *
  * This file serves as the central access point for all exam day data.
  * It exports the examDays array and helper functions for accessing exam data.
  */
@@ -26,6 +26,7 @@ import day18 from './days/day18';
 import day19 from './days/day19';
 import day20 from './days/day20';
 import day21 from './days/day21';
+import day22 from './days/day22';
 import type { ExamDay, ExamFocusProgress, ExamDayProgress } from './examTypes';
 
 // ============================================================================
@@ -58,7 +59,8 @@ export const examDays: ExamDay[] = [
   day19,
   day20,
   day21,
-  // Days 22-30 will be added here as they are created
+  day22,
+  // Days 23-30 will be added here as they are created
   // Each day should be imported at the top and added to this array
 ];
 

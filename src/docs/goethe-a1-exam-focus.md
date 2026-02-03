@@ -90,6 +90,10 @@
 **Topics**: Library membership, borrowing books, library rules, book recommendations, reading habits, library services
 **Skills**: Reading (all 3 parts)
 
+### **Day 22**: Bank & Money
+**Topics**: Opening bank accounts, ATM services, money transfers, banking forms, currency exchange, payment methods, handling banking problems
+**Skills**: Writing (Teil 1 & 2)
+
 ---
 
 ---
