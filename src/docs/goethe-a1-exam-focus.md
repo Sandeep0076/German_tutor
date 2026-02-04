@@ -94,6 +94,10 @@
 **Topics**: Opening bank accounts, ATM services, money transfers, banking forms, currency exchange, payment methods, handling banking problems
 **Skills**: Writing (Teil 1 & 2)
 
+### **Day 23**: Sports Center & Fitness
+**Topics**: Gym membership, fitness courses, swimming pool, sports facilities, training schedules, membership fees, facility rules
+**Skills**: Reading (all 3 parts)
+
 ---
 
 ---
@@ -1040,4 +1044,599 @@ Ihr Bibliotheksteam
 3. **Teil 3**: Pay attention to words like "kein", "nicht", "verboten" that indicate negatives
 4. Look for exact information - don't assume or guess
 5. Practice time management - don't spend too long on one question
+
+---
+
+# Day 23: Sports Center & Fitness - Reading Section (Lesen)
+
+## Theme: Sports Center & Fitness
+**Topics**: Gym membership, fitness courses, swimming pool, sports facilities, training schedules, membership fees, facility rules
+**Skills**: Reading (all 3 parts)
+
+---
+
+## Teil 1 (Part 1) - Questions 1-5
+### Sports Center Membership Information Email
+
+**Instructions**: Read the email from the sports center. Then read the 5 statements (1-5) and decide if each statement is **Richtig** (correct) or **Falsch** (false).
+
+---
+
+**Email Text:**
+
+```
+Von: info@fitnesscenter-hamburg.de
+An: neukunden@fitcenter.de
+Betreff: Willkommen im FitnessCenter Hamburg - Ihre Mitgliedschaft
+
+Sehr geehrte Damen und Herren,
+
+vielen Dank für Ihr Interesse an unserem FitnessCenter Hamburg! Ab dem 
+1. März bieten wir Ihnen noch mehr Möglichkeiten für Sport und Fitness.
+
+Unsere neuen Öffnungszeiten ab März:
+Montag bis Freitag: 6-22 Uhr
+Samstag und Sonntag: 8-20 Uhr
+An Feiertagen: 10-18 Uhr
+
+Wir haben drei verschiedene Mitgliedschaften für Sie:
+
+1. BASIS-Mitgliedschaft (29 Euro/Monat):
+   - Fitnessraum mit modernen Geräten
+   - Umkleidekabinen mit Duschen
+   
+2. PREMIUM-Mitgliedschaft (49 Euro/Monat):
+   - Alles aus BASIS
+   - Schwimmbad und Sauna
+   - 2 Fitness-Kurse pro Woche kostenlos
+
+3. FAMILY-Mitgliedschaft (79 Euro/Monat):
+   - Für 2 Erwachsene und bis zu 3 Kinder (unter 16 Jahren)
+   - Alle Einrichtungen inklusive
+   - Unbegrenzte Kurse für die ganze Familie
+
+Unsere Fitness-Kurse:
+- Yoga: Montag und Donnerstag um 18 Uhr (60 Minuten)
+- Zumba: Dienstag und Freitag um 19 Uhr (45 Minuten)  
+- Schwimmen für Anfänger: Mittwoch um 17 Uhr (90 Minuten)
+- Rückenfitness: Samstag um 10 Uhr (60 Minuten)
+
+Wichtige Informationen:
+- Die Anmeldung ist online oder direkt bei uns möglich
+- Sie brauchen ein Handtuch und Sportschuhe
+- Im Juli machen wir zwei Wochen Betriebsferien (15.-31. Juli)
+- Während der Betriebsferien können Sie in unserem Partner-Studio in 
+  Altona kostenlos trainieren
+
+Für Studenten und Rentner gibt es 20% Rabatt auf alle Mitgliedschaften!
+Die erste Probestunde ist immer kostenlos.
+
+Wir freuen uns auf Sie!
+
+Mit sportlichen Grüßen
+Ihr Team vom FitnessCenter Hamburg
+Mühlenkamp 45, 22303 Hamburg
+Tel: 040-123456
+```
+
+---
+
+**Fragen (Questions 1-5):**
+
+**0. (Beispiel)**: Das FitnessCenter hat ab März neue Öffnungszeiten.
+- ✓ **Richtig** (Correct - mentioned "Ab dem 1. März")
+- ☐ Falsch
+
+**1.** Am Wochenende ist das FitnessCenter von 6 bis 22 Uhr geöffnet.
+- ☐ Richtig
+- ☐ Falsch
+
+**2.** Mit der PREMIUM-Mitgliedschaft kann man das Schwimmbad benutzen.
+- ☐ Richtig
+- ☐ Falsch
+
+**3.** Der Yoga-Kurs ist jeden Montag und Donnerstag um 19 Uhr.
+- ☐ Richtig
+- ☐ Falsch
+
+**4.** Im Juli ist das FitnessCenter zwei Wochen geschlossen.
+- ☐ Richtig
+- ☐ Falsch
+
+**5.** Studenten bezahlen den vollen Preis für die Mitgliedschaft.
+- ☐ Richtig
+- ☐ Falsch
+
+---
+
+**Answers:**
+- **0.** Richtig (Example - new opening hours from March)
+- **1.** Falsch (Weekend is 8-20, not 6-22 - "Samstag und Sonntag: 8-20 Uhr")
+- **2.** Richtig (Premium includes swimming pool - "Schwimmbad und Sauna")
+- **3.** Falsch (Yoga is at 18:00, not 19:00 - "Yoga: Montag und Donnerstag um 18 Uhr")
+- **4.** Richtig (Closed July 15-31 - "Im Juli machen wir zwei Wochen Betriebsferien (15.-31. Juli)")
+- **5.** Falsch (Students get 20% discount - "Für Studenten und Rentner gibt es 20% Rabatt")
+
+---
+
+## Teil 2 (Part 2) - Questions 6-10
+### Which Website Has the Information?
+
+**Instructions**: You are looking for information on the internet. For each of the 5 situations (6-10), choose which website (a or b) has the information you need.
+
+---
+
+**Beispiel (Example - Question 0):**
+
+**Sie möchten wissen: Wie ist das Wetter morgen zum Joggen?**
+(You want to know: What's the weather tomorrow for jogging?)
+
+a) **www.sport-kleidung-shop.de**
+```
+┌─────────────────────────────────────┐
+│    SPORT-KLEIDUNG ONLINE            │
+│                                     │
+│ Große Auswahl:                      │
+│ • Laufschuhe für Damen und Herren   │
+│ • Sportbekleidung für alle Jahres-  │
+│   zeiten                            │
+│ • Fitness-Zubehör                   │
+│                                     │
+│ Versandkostenfrei ab 50 Euro!       │
+└─────────────────────────────────────┘
+```
+
+b) **www.wetter-deutschland.de** ✓
+```
+┌─────────────────────────────────────┐
+│    WETTER DEUTSCHLAND               │
+│                                     │
+│ 7-Tage-Wettervorhersage:            │
+│ • Temperatur und Niederschlag       │
+│ • Wind und Luftfeuchtigkeit         │
+│ • Stündliche Updates                │
+│                                     │
+│ Planen Sie Ihre Outdoor-Aktivitäten!│
+└─────────────────────────────────────┘
+```
+
+**Answer: b** (Weather website has weather information)
+
+---
+
+**Frage 6:**
+
+**Sie suchen einen Schwimmkurs für Ihr 6-jähriges Kind.**
+(You are looking for a swimming course for your 6-year-old child.)
+
+a) **www.schwimmschule-muenchen.de**
+```
+┌─────────────────────────────────────┐
+│    SCHWIMMSCHULE MÜNCHEN            │
+│                                     │
+│ Schwimmkurse für Kinder:            │
+│ • Anfänger (5-8 Jahre)              │
+│   Samstag 9-10 Uhr                  │
+│ • Fortgeschrittene (9-12 Jahre)     │
+│   Samstag 10-11 Uhr                 │
+│                                     │
+│ Kursgebühr: 120 Euro (10 Stunden)   │
+│ Anmeldung: Tel. 089-555444          │
+└─────────────────────────────────────┘
+```
+
+b) **www.schwimmbad-therme.de**
+```
+┌─────────────────────────────────────┐
+│    THERME & WELLNESS                │
+│                                     │
+│ Öffnungszeiten:                     │
+│ Täglich 9-22 Uhr                    │
+│                                     │
+│ Einrichtungen:                      │
+│ • Hallenbad (25m)                   │
+│ • Sauna und Dampfbad                │
+│ • Restaurant                        │
+│                                     │
+│ Tageskarte: 15 Euro (Erwachsene)    │
+│             8 Euro (Kinder)         │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Frage 7:**
+
+**Sie möchten wissen: Kann man im Fitnessstudio Sportkleidung kaufen?**
+(You want to know: Can you buy sports clothing at the gym?)
+
+a) **www.fitness-first-berlin.de**
+```
+┌─────────────────────────────────────┐
+│    FITNESS FIRST BERLIN             │
+│                                     │
+│ Unser Service für Sie:              │
+│ • Über 100 Fitnessgeräte            │
+│ • Personal Training                 │
+│ • Getränke-Bar                      │
+│ • Shop: Sportkleidung, Proteinshakes│
+│   und Fitness-Zubehör               │
+│                                     │
+│ Probetraining jetzt buchen!         │
+└─────────────────────────────────────┘
+```
+
+b) **www.online-sportshop.de**
+```
+┌─────────────────────────────────────┐
+│    ONLINE SPORTSHOP                 │
+│                                     │
+│ Sportbekleidung online bestellen:   │
+│ • Nike, Adidas, Puma                │
+│ • Laufschuhe, T-Shirts, Hosen       │
+│ • Günstige Preise                   │
+│                                     │
+│ Lieferung in 1-2 Tagen              │
+│ Kostenloser Versand ab 40 Euro      │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Frage 8:**
+
+**Sie wollen einen Tennisplatz für Samstag reservieren.**
+(You want to reserve a tennis court for Saturday.)
+
+a) **www.tennis-shop-koeln.de**
+```
+┌─────────────────────────────────────┐
+│    TENNIS-SHOP KÖLN                 │
+│                                     │
+│ Alles für Tennis:                   │
+│ • Tennisschläger                    │
+│ • Tennisbälle                       │
+│ • Sportbekleidung                   │
+│ • Schuhe                            │
+│                                     │
+│ Beratung von Profis!                │
+│ Öffnungszeiten: Mo-Sa 10-19 Uhr     │
+└─────────────────────────────────────┘
+```
+
+b) **www.tennisclub-koeln.de**
+```
+┌─────────────────────────────────────┐
+│    TENNISCLUB KÖLN                  │
+│                                     │
+│ Platzreservierung:                  │
+│ • 6 Außenplätze                     │
+│ • 2 Hallenplätze                    │
+│ • Online-Buchung 24/7               │
+│                                     │
+│ Preis: 15 Euro pro Stunde           │
+│ Mitglieder: 10 Euro pro Stunde      │
+│ Tel: 0221-789456                    │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Frage 9:**
+
+**Sie suchen Informationen über gesunde Ernährung für Sportler.**
+(You are looking for information about healthy nutrition for athletes.)
+
+a) **www.sport-ernaehrung-tipps.de**
+```
+┌─────────────────────────────────────┐
+│    ERNÄHRUNG FÜR SPORTLER           │
+│                                     │
+│ Kostenlose Tipps und Artikel:       │
+│ • Ernährungspläne                   │
+│ • Rezepte für Sportler              │
+│ • Vitamins und Mineralien           │
+│ • Trinken beim Sport                │
+│                                     │
+│ Wöchentlicher Newsletter!           │
+│ Jetzt kostenlos anmelden.           │
+└─────────────────────────────────────┘
+```
+
+b) **www.restaurant-gesund-essen.de**
+```
+┌─────────────────────────────────────┐
+│    RESTAURANT "GESUND LEBEN"        │
+│                                     │
+│ Unser Angebot:                      │
+│ • Bio-Gerichte                      │
+│ • Vegetarisch und vegan             │
+│ • Salate und Smoothies              │
+│                                     │
+│ Öffnungszeiten:                     │
+│ Mo-Sa: 11-22 Uhr                    │
+│ Tischreservierung: 030-147852       │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Frage 10:**
+
+**Sie möchten wissen: Gibt es im Sportcenter einen Parkplatz?**
+(You want to know: Is there a parking lot at the sports center?)
+
+a) **www.parkhaus-zentrum.de**
+```
+┌─────────────────────────────────────┐
+│    PARKHAUS STADTMITTE              │
+│                                     │
+│ Günstig parken im Zentrum:          │
+│ • 24 Stunden geöffnet               │
+│ • 500 Parkplätze                    │
+│ • 2 Euro pro Stunde                 │
+│ • Tageskarte: 12 Euro               │
+│                                     │
+│ Adresse: Hauptstraße 89             │
+│ Zufahrt über Bahnhofstraße          │
+└─────────────────────────────────────┘
+```
+
+b) **www.sportcenter-hamburg-info.de**
+```
+┌─────────────────────────────────────┐
+│    SPORTCENTER HAMBURG              │
+│         Anfahrt & Parken            │
+│                                     │
+│ So finden Sie uns:                  │
+│ • Mit U-Bahn: Station Borgweg       │
+│ • Mit Bus: Linie 6, 20, 25          │
+│ • 80 kostenlose Parkplätze direkt   │
+│   am Gebäude                        │
+│                                     │
+│ Adresse: Sportweg 12, 22299 Hamburg │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ a ☐ b**
+
+---
+
+**Answers (Teil 2):**
+- **Question 6: a** (Swimming school offers courses for children 5-8 years)
+- **Question 7: a** (Fitness First has a shop selling sports clothing)
+- **Question 8: b** (Tennis club allows court reservations)
+- **Question 9: a** (Sports nutrition website has information for athletes)
+- **Question 10: b** (Sports center info page shows parking availability)
+
+---
+
+## Teil 3 (Part 3) - Questions 11-15
+### Reading Notices and Signs
+
+**Instructions**: Read each statement and the corresponding notice/sign. Decide if the statement is **Richtig** (correct) or **Falsch** (false) based on the information in the notice.
+
+---
+
+**Beispiel (Example - Question 0):**
+
+**Statement**: "Man kann im Fitnesscenter jeden Tag von 6 Uhr morgens trainieren."
+(You can train at the fitness center every day from 6 AM.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    FITNESSCENTER BERLIN             │
+│         Öffnungszeiten              │
+│                                     │
+│ Montag - Freitag:  6-23 Uhr         │
+│ Samstag - Sonntag: 8-20 Uhr         │
+│                                     │
+│ Feiertage: 10-18 Uhr                │
+│                                     │
+│ 24/7 Zugang nur für Premium-        │
+│ Mitglieder                          │
+└─────────────────────────────────────┘
+```
+
+**Answer: Falsch** (Weekend opens at 8:00, not 6:00 every day)
+
+---
+
+**Frage 11:**
+
+**Statement**: "Kinder unter 14 Jahren dürfen nur mit einem Erwachsenen ins Fitnessstudio."
+(Children under 14 years are only allowed in the gym with an adult.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    WICHTIGE INFORMATION             │
+│         Zutrittsregeln              │
+│                                     │
+│ • Mitglieder ab 16 Jahren:          │
+│   alleine trainieren                │
+│                                     │
+│ • Kinder und Jugendliche (10-15):   │
+│   nur mit Erwachsenenbegleitung     │
+│                                     │
+│ • Kinder unter 10 Jahren:           │
+│   kein Zutritt zum Fitnessraum      │
+│   (Kinderkurse im separaten Raum)   │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Frage 12:**
+
+**Statement**: "Man muss die eigenen Getränke mitbringen, weil es keine Bar gibt."
+(You must bring your own drinks because there is no bar.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    SPORTCENTER SERVICES             │
+│                                     │
+│ Für Ihr Wohlbefinden:               │
+│                                     │
+│ ✓ Getränke-Bar (Wasser, Säfte,      │
+│   Proteinshakes)                    │
+│ ✓ Handtuch-Service (2 Euro)         │
+│ ✓ Schließfächer (kostenlos)         │
+│ ✓ Kostenlose Parkplätze             │
+│                                     │
+│ Eigene Getränkeflaschen sind        │
+│ erlaubt!                            │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Frage 13:**
+
+**Statement**: "Der Spinning-Kurs am Mittwoch kostet 8 Euro extra."
+(The spinning class on Wednesday costs an extra 8 euros.)
+
+**Email/Message:**
+```
+Von: kurse@fitnesscenter.de
+Betreff: Neue Kurse ab April
+
+Liebe Mitglieder,
+
+ab April haben wir neue Kurse für Sie:
+
+SPINNING
+Mittwoch: 19:00-20:00 Uhr
+Freitag: 18:00-19:00 Uhr
+Für Premium-Mitglieder kostenlos!
+Basis-Mitglieder: 8 Euro pro Kurs
+
+PILATES
+Dienstag: 17:30-18:30 Uhr
+Donnerstag: 18:00-19:00 Uhr
+Für alle Mitglieder inklusive!
+
+Anmeldung an der Rezeption erforderlich.
+
+Sportliche Grüße
+Ihr Kurs-Team
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Frage 14:**
+
+**Statement**: "Im Schwimmbad darf man keine Musik hören."
+(You are not allowed to listen to music in the swimming pool.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    SCHWIMMBAD-ORDNUNG               │
+│      Bitte beachten Sie:            │
+│                                     │
+│ ✓ Duschen vor dem Schwimmen         │
+│   (Pflicht!)                        │
+│ ✓ Badeschuhe im Umkleidebereich     │
+│ ✓ Schwimmkappe empfohlen            │
+│                                     │
+│ ✗ Kein Essen im Schwimmbad          │
+│ ✗ Keine Glasflaschen                │
+│ ✗ Keine Unterwasserkameras          │
+│ ✗ Keine laute Musik oder            │
+│   Kopfhörer im Wasser               │
+│                                     │
+│ Vielen Dank für Ihr Verständnis!    │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Frage 15:**
+
+**Statement**: "Wenn man den Kurs absagt, bekommt man das Geld zurück."
+(If you cancel the course, you get your money back.)
+
+**Notice:**
+```
+┌─────────────────────────────────────┐
+│    KURS-ANMELDUNG                   │
+│  Allgemeine Geschäftsbedingungen    │
+│                                     │
+│ Stornierung (Absage):               │
+│                                     │
+│ • Bis 7 Tage vor Kursbeginn:        │
+│   100% Rückerstattung               │
+│                                     │
+│ • 3-6 Tage vor Kursbeginn:          │
+│   50% Rückerstattung                │
+│                                     │
+│ • Weniger als 3 Tage vor Kurs-      │
+│   beginn oder Nichterscheinen:      │
+│   Keine Rückerstattung              │
+│                                     │
+│ Bitte schriftlich absagen per       │
+│ E-Mail an: kurse@sportcenter.de     │
+└─────────────────────────────────────┘
+```
+
+**Answer: ☐ Richtig ☐ Falsch**
+
+---
+
+**Answers (Teil 3):**
+- **Question 11: Falsch** (Children 10-15 need adult supervision, not under 14 - "Kinder und Jugendliche (10-15): nur mit Erwachsenenbegleitung")
+- **Question 12: Falsch** (There is a drinks bar - "Getränke-Bar (Wasser, Säfte, Proteinshakes)")
+- **Question 13: Richtig** (Spinning costs 8 euros for Basic members - "Basis-Mitglieder: 8 Euro pro Kurs")
+- **Question 14: Richtig** (No loud music or headphones in water - "Keine laute Musik oder Kopfhörer im Wasser")
+- **Question 15: Falsch** (Depends on when you cancel - only 100% refund if 7+ days before, otherwise partial or no refund)
+
+---
+
+## Summary - Day 23 Reading Practice
+
+**Total Questions: 15**
+- **Teil 1**: 5 questions (Richtig/Falsch) - One long email about fitness center membership
+- **Teil 2**: 5 questions (a or b) - Each question with 2 different websites
+- **Teil 3**: 5 questions (Richtig/Falsch) - Each question with its own notice/sign
+
+**Theme**: Sports Center & Fitness
+**Difficulty Level**: A1 (challenging but appropriate for exam preparation)
+**Real-world relevance**: Gym memberships, fitness activities, sports facilities, health and wellness
+
+**Key Vocabulary Practiced**:
+- Sports facilities (Fitnessraum, Schwimmbad, Sauna, Tennisplatz)
+- Membership types (Mitgliedschaft, Mitglieder, Rabatt, Gebühr)
+- Sports activities (Yoga, Zumba, Schwimmen, Spinning, Pilates)
+- Time and schedules (Öffnungszeiten, Kurs, Training, Betriebsferien)
+- Rules and regulations (Regeln, erlaubt, verboten, Pflicht)
+- Facilities (Umkleidekabine, Dusche, Parkplatz, Schließfach)
+
+**Tips for Students**:
+1. **Teil 1**: Pay attention to different membership types and what each includes
+2. **Teil 2**: Distinguish between shops, facilities, and information websites
+3. **Teil 3**: Look for specific conditions and exceptions in rules and policies
+4. Focus on numbers: times, prices, ages, and durations
+5. Watch for negative words: kein, nicht, verboten, geschlossen
+6. Practice reading cancellation policies and age restrictions carefully
+
+
 
