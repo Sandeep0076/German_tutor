@@ -98,6 +98,10 @@
 **Topics**: Gym membership, fitness courses, swimming pool, sports facilities, training schedules, membership fees, facility rules
 **Skills**: Reading (all 3 parts)
 
+### **Day 24**: Hairdresser & Beauty Services
+**Topics**: Hair salon appointments, beauty treatments, describing hairstyles, booking services, hair care, salon communication
+**Skills**: Writing (Teil 1 & 2)
+
 ---
 
 ---
@@ -1637,6 +1641,402 @@ Ihr Kurs-Team
 4. Focus on numbers: times, prices, ages, and durations
 5. Watch for negative words: kein, nicht, verboten, geschlossen
 6. Practice reading cancellation policies and age restrictions carefully
+
+---
+
+# Day 24: Hairdresser & Beauty Services - Writing Section (Schreiben)
+
+## Overview
+
+**Theme**: Hairdresser & Beauty Services  
+**Skills Focus**: Writing (Teil 1 & 2)  
+**Topics**: Hair salon appointments, beauty treatments, describing hairstyles, booking services, hair care, salon communication  
+**Difficulty Level**: A1
+
+---
+
+## Teil 1 (Part 1) - Hair Salon Appointment Form
+
+### Format
+- Read a context about someone booking a hair salon appointment
+- Complete a registration form with 5-6 missing pieces of information
+- Information to extract: phone number, date, time, services, hair length
+- Write answers on the answer sheet
+
+---
+
+### Exercise: Hair Salon Appointment Registration
+
+**Context:**
+
+Ihre Freundin, Maria Gonzalez, möchte einen Termin im Friseursalon "Schöne Haare" in München buchen. Sie ist 28 Jahre alt und möchte am nächsten Samstag um 14:00 Uhr kommen. Maria hat lange, blonde Haare und möchte einen neuen Haarschnitt und eine Haarfarbe. Sie hat die Telefonnummer 0176-8945671. Maria war noch nie in diesem Salon.
+
+In dem Formular fehlen fünf Informationen.  
+Helfen Sie Ihrer Freundin und schreiben Sie die fünf fehlenden Informationen in das Formular.  
+Am Ende schreiben Sie Ihre Lösungen bitte auf den Antwortbogen.
+
+**Form to Complete:**
+
+```
+┌─────────────────────────────────────────────────┐
+│        FRISEURSALON "SCHÖNE HAARE"              │
+│           Terminvereinbarung                    │
+│                                                 │
+│ Familienname, Vorname:  Gonzalez, Maria   (0) │
+│ Telefonnummer:          _______________    (1) │
+│ E-Mail:                 optional                │
+│                                                 │
+│ Wunschtag:              _______________    (2) │
+│ Wunschzeit:             _______________    (3) │
+│                                                 │
+│ Gewünschte Leistung:    _______________    (4) │
+│   ☐ Haarschnitt (Haircut)                      │
+│   ☐ Waschen & Föhnen (Wash & Blow-dry)         │
+│   ☐ Haarfarbe (Hair coloring)                  │
+│   ☐ Dauerwelle (Perm)                           │
+│   ☐ Hochsteckfrisur (Updo)                     │
+│                                                 │
+│ Haarlänge:              _______________    (5) │
+│   ☐ Kurz (Short)                                │
+│   ☐ Mittel (Medium)                             │
+│   ☐ Lang (Long)                                 │
+│                                                 │
+│ Waren Sie schon bei uns?                        │
+│   ☐ Ja    ☐ Nein                                │
+│                                                 │
+│ Unterschrift:           Maria Gonzalez          │
+└─────────────────────────────────────────────────┘
+```
+
+**Answers:**
+- **(1)** 0176-8945671 / 0176 8945671
+- **(2)** Samstag / nächster Samstag
+- **(3)** 14:00 Uhr / 14 Uhr / 14.00
+- **(4)** Haarschnitt und Haarfarbe / Haarschnitt, Haarfarbe
+- **(5)** Lang / lange Haare
+
+**Key Vocabulary:**
+- der Friseur / der Friseursalon (hairdresser/hair salon)
+- der Termin (appointment)
+- der Haarschnitt (haircut)
+- die Haarfarbe (hair coloring)
+- lang (long)
+- die Telefonnummer (phone number)
+
+---
+
+## Teil 2 (Part 2) - Short Messages/Emails
+
+### Format
+- Write short messages (approximately 30 words)
+- Address 3 specific points given in the prompt
+- Include appropriate greeting and closing
+- Use simple A1-level language
+
+---
+
+### Exercise 1: Email About Appointment Change
+
+**Scenario:**
+
+Sie haben einen Termin beim Friseur am Montag um 10 Uhr, aber Sie können nicht kommen. Schreiben Sie an den Friseursalon:
+
+• Warum schreiben Sie?  
+• Sagen Sie: Sie können nicht am Montag kommen  
+• Fragen Sie: Können Sie am Dienstag um 15 Uhr kommen?
+
+Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30 Wörter).  
+Schreiben Sie auch eine Anrede und einen Gruß.
+
+**Sample Answer:**
+
+```
+Sehr geehrte Damen und Herren,
+
+ich habe einen Termin am Montag um 10 Uhr. Leider kann ich nicht 
+kommen. Ich habe einen wichtigen Termin. Kann ich am Dienstag um 
+15 Uhr kommen?
+
+Mit freundlichen Grüßen
+Lisa Schmidt
+```
+
+**Key Phrases:**
+- Sehr geehrte Damen und Herren (Dear Sir/Madam)
+- der Termin (appointment)
+- leider (unfortunately)
+- nicht können (cannot)
+- Kann ich...? (Can I...?)
+- Mit freundlichen Grüßen (Sincerely)
+
+---
+
+### Exercise 2: Email About Hair Treatment
+
+**Scenario:**
+
+Sie haben trockene Haare. Sie möchten eine spezielle Behandlung. Schreiben Sie an den Friseursalon "Haarpflege Plus":
+
+• Beschreiben Sie Ihr Problem: trockene Haare  
+• Fragen Sie: Welche Behandlung ist gut für trockene Haare?  
+• Fragen Sie: Wie viel kostet die Behandlung?
+
+Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30 Wörter).  
+Schreiben Sie auch eine Anrede und einen Gruß.
+
+**Sample Answer:**
+
+```
+Sehr geehrte Damen und Herren,
+
+ich habe sehr trockene Haare. Welche Behandlung ist gut für 
+trockene Haare? Haben Sie eine spezielle Haarkur? Wie viel 
+kostet die Behandlung?
+
+Mit freundlichen Grüßen
+Anna Weber
+```
+
+**Key Phrases:**
+- trocken (dry)
+- die Haare (hair)
+- die Behandlung (treatment)
+- die Haarkur (hair mask/treatment)
+- Welche...? (Which...?)
+- Wie viel kostet...? (How much does... cost?)
+
+---
+
+### Exercise 3: Email to Friend About Hairdresser Recommendation
+
+**Scenario:**
+
+Ihre Freundin sucht einen guten Friseur in der Stadt. Sie kennen einen guten Salon. Schreiben Sie an Ihre Freundin Julia:
+
+• Empfehlen Sie einen Friseursalon  
+• Sagen Sie: Warum ist der Salon gut?  
+• Geben Sie die Adresse oder Telefonnummer
+
+Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30 Wörter).  
+Schreiben Sie auch eine Anrede und einen Gruß.
+
+**Sample Answer:**
+
+```
+Liebe Julia,
+
+ich kenne einen sehr guten Friseursalon. Der Salon heißt 
+"Schnipp-Schnapp" und ist in der Hauptstraße 45. Die Friseure 
+sind sehr nett und die Preise sind günstig. Die Telefonnummer 
+ist 089-5567890.
+
+Viele Grüße
+Sophie
+```
+
+**Key Phrases:**
+- Liebe/Lieber... (Dear...)
+- empfehlen (to recommend)
+- gut (good)
+- nett (nice)
+- günstig (inexpensive/affordable)
+- Viele Grüße (Best regards)
+
+---
+
+## Vocabulary - Hairdresser & Beauty Services
+
+### Basic Salon Vocabulary
+
+| German | English | Example |
+|--------|---------|---------|
+| der Friseur / die Friseuse | hairdresser | Ich gehe zum Friseur. |
+| der Friseursalon / der Salon | hair salon | Der Salon ist in der Bahnhofstraße. |
+| der Termin | appointment | Ich habe einen Termin um 14 Uhr. |
+| die Haare / das Haar | hair | Ich habe lange Haare. |
+| der Haarschnitt | haircut | Ich brauche einen neuen Haarschnitt. |
+| die Frisur | hairstyle | Deine Frisur ist schön! |
+
+### Hair Length & Types
+
+| German | English | Example |
+|--------|---------|---------|
+| kurz | short | Ich möchte kurze Haare. |
+| lang | long | Sie hat lange, blonde Haare. |
+| mittellang / mittel | medium length | Mittellange Haare, bitte. |
+| glatt | straight | Ich habe glattes Haar. |
+| lockig | curly | Sie hat lockige Haare. |
+| wellig | wavy | Wellige Haare sind schön. |
+
+### Hair Colors
+
+| German | English | Example |
+|--------|---------|---------|
+| blond | blonde | Blonde Haare |
+| braun | brown | Er hat braune Haare. |
+| schwarz | black | Schwarze Haare |
+| rot | red | Rote Haare sind selten. |
+| grau | gray | Graue Haare |
+
+### Hair Condition
+
+| German | English | Example |
+|--------|---------|---------|
+| trocken | dry | Ich habe trockene Haare. |
+| fettig / ölig | oily/greasy | Fettige Haare |
+| normal | normal | Normales Haar |
+| dünn | thin | Dünnes Haar |
+| dick | thick | Dickes Haar |
+| gesund | healthy | Gesunde Haare |
+| kaputt / beschädigt | damaged | Meine Haare sind kaputt. |
+
+### Hair Services
+
+| German | English | Example |
+|--------|---------|---------|
+| schneiden | to cut | Bitte schneiden Sie 5 cm ab. |
+| waschen | to wash | Die Haare waschen |
+| föhnen | to blow-dry | Können Sie föhnen? |
+| färben | to dye/color | Ich möchte die Haare färben. |
+| tönen | to tint | Die Haare tönen |
+| stylen | to style | Wie möchten Sie stylen? |
+
+### Specific Treatments
+
+| German | English | Example |
+|--------|---------|---------|
+| die Dauerwelle | perm | Ich möchte eine Dauerwelle. |
+| die Hochsteckfrisur | updo | Für die Hochzeit brauche ich eine Hochsteckfrisur. |
+| die Haarkur | hair treatment/mask | Diese Haarkur ist sehr gut. |
+| die Behandlung | treatment | Welche Behandlung empfehlen Sie? |
+| die Spülung | conditioner | Ich brauche eine gute Spülung. |
+| der Pony | bangs/fringe | Ich möchte einen Pony. |
+| die Strähnchen | highlights | Blonde Strähnchen, bitte. |
+
+### Salon Actions
+
+| German | English | Example |
+|--------|---------|---------|
+| einen Termin machen | to make an appointment | Ich möchte einen Termin machen. |
+| einen Termin verschieben | to reschedule | Kann ich den Termin verschieben? |
+| einen Termin absagen | to cancel appointment | Ich muss den Termin absagen. |
+| warten | to wait | Bitte warten Sie einen Moment. |
+| empfehlen | to recommend | Was empfehlen Sie? |
+| beraten | to advise/consult | Können Sie mich beraten? |
+
+### Measurements & Amounts
+
+| German | English | Example |
+|--------|---------|---------|
+| der Zentimeter / cm | centimeter | 5 cm abschneiden |
+| die Spitzen | the ends/tips | Nur die Spitzen schneiden |
+| abschneiden | to cut off | Wie viel abschneiden? |
+| nur ein bisschen | just a little | Nur ein bisschen, bitte. |
+| viel | a lot | Nicht zu viel! |
+| kürzer | shorter | Kürzer, bitte. |
+| länger | longer | Längere Haare |
+
+### Cost & Payment
+
+| German | English | Example |
+|--------|---------|---------|
+| der Preis | price | Wie ist der Preis? |
+| kosten | to cost | Wie viel kostet das? |
+| bezahlen | to pay | Ich möchte bezahlen. |
+| teuer | expensive | Nicht zu teuer |
+| günstig | inexpensive | Günstige Preise |
+| das Trinkgeld | tip | Trinkgeld geben |
+
+### Time & Scheduling
+
+| German | English | Example |
+|--------|---------|---------|
+| heute | today | Haben Sie heute Zeit? |
+| morgen | tomorrow | Kann ich morgen kommen? |
+| nächste Woche | next week | Nächste Woche |
+| am Montag | on Monday | Am Montag um 14 Uhr |
+| um ... Uhr | at ... o'clock | Um 15 Uhr |
+| die Öffnungszeiten | opening hours | Was sind die Öffnungszeiten? |
+
+### Useful Questions & Phrases
+
+| German | English |
+|--------|---------|
+| Ich möchte einen Termin machen | I'd like to make an appointment |
+| Haben Sie einen Termin frei? | Do you have an appointment available? |
+| Wie lange dauert...? | How long does... take? |
+| Wie viel kostet...? | How much does... cost? |
+| Was empfehlen Sie? | What do you recommend? |
+| Können Sie...? | Can you...? |
+| Nur die Spitzen, bitte | Just the tips, please |
+| Nicht zu viel abschneiden | Don't cut too much |
+| Das sieht super aus! | That looks great! |
+| Ich bin zufrieden | I'm satisfied |
+
+### Adjectives & Descriptions
+
+| German | English | Example |
+|--------|---------|---------|
+| schön | beautiful/nice | Sehr schön! |
+| gut | good | Das sieht gut aus! |
+| perfekt | perfect | Perfekt! |
+| zufrieden | satisfied | Ich bin zufrieden. |
+| nett | nice/kind | Sehr nett |
+| freundlich | friendly | Freundliches Personal |
+| professionell | professional | Professioneller Service |
+
+---
+
+## Summary - Day 24 Writing Practice
+
+**Total Exercises: 4 Writing Tasks**
+- **Teil 1**: 1 form completion exercise (5 blanks)
+- **Teil 2**: 3 email/message writing exercises (3 points each)
+
+**Theme**: Hairdresser & Beauty Services  
+**Difficulty Level**: A1  
+**Real-world Relevance**: Making salon appointments, describing hair needs, handling appointment changes, getting recommendations
+
+**Key Skills Practiced**:
+1. **Form Completion**: Extracting information from context (dates, times, services, personal details)
+2. **Email Writing**: Formal and informal communication
+3. **Describing Needs**: Hair type, length, color, services desired
+4. **Making Requests**: Politely asking for appointments, changes, recommendations
+5. **Giving Information**: Providing details about preferences and problems
+
+**Key Vocabulary Themes**:
+- Salon appointments and scheduling
+- Hair characteristics (length, color, type, condition)
+- Hair services (cut, color, style, treatments)
+- Salon equipment and products
+- Time expressions
+- Cost and payment
+- Polite requests and questions
+
+**Tips for Students**:
+1. **Teil 1**: Read the context carefully and underline key information before filling the form
+2. **Teil 2**: Address all 3 points clearly in your message
+3. Use simple, direct language appropriate for A1 level
+4. Include proper greetings (Sehr geehrte Damen und Herren / Liebe/r...) and closings (Mit freundlichen Grüßen / Viele Grüße)
+5. Practice common phrases for making appointments and describing hair
+6. Keep messages around 30 words (not counting greeting/closing)
+7. Use "möchte" (would like) and "können Sie?" (can you?) for polite requests
+8. Remember: accuracy is more important than complexity at A1 level
+
+**Common Mistakes to Avoid**:
+- Forgetting to include greeting and closing in Teil 2
+- Not addressing all 3 points in the writing prompt
+- Writing too much (keep it simple and concise)
+- Using overly complex grammar structures
+- Misspelling common words like "Termin," "Haare," "können"
+- Confusing "lang" (long) with "kurz" (short)
+
+**Practice Tips**:
+- Make flashcards for hair-related vocabulary
+- Practice describing your own hair in German
+- Role-play salon conversations with a study partner
+- Write practice emails for different salon scenarios
+- Listen to salon-related dialogues to learn natural phrases
 
 
 
