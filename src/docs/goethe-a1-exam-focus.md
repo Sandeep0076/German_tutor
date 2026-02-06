@@ -2038,5 +2038,7 @@ Sophie
 - Write practice emails for different salon scenarios
 - Listen to salon-related dialogues to learn natural phrases
 
-
+### **Day 25**: Government & Offices (Ämter und Behörden)
+**Topics**: Appointments at public offices, filling out forms (Anmeldung), understanding official notices, residency registration, vehicle registration office (KFZ-Zulassungsstelle).
+**Skills**: Reading (all 3 parts), Writing (Teil 1 & 2)
 

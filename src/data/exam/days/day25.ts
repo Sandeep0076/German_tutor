@@ -1,10 +1,10 @@
 /**
  * Day 25: Reading & Writing Focus
- * Focus: Public Transportation & City Navigation
+ * Focus: Government and Offices (Ämter und Behörden)
  *
  * Skills: Reading (Teil 1, 2, 3) & Writing (Teil 1 & 2)
- * Topics: Bus/tram tickets, city maps, asking for directions, transportation cards,
- *         lost & found at stations, navigation help, public transport rules
+ * Topics: Appointments at public offices, filling out forms (Anmeldung), understanding official notices,
+ *         residency registration, vehicle registration office (KFZ-Zulassungsstelle).
  */
 
 import type {
@@ -16,313 +16,254 @@ import type {
 } from '../examTypes';
 
 // =========================================================================
-// READING PRACTICE - Teil 1: Email About City Transport Card
+// READING PRACTICE - Teil 1: Email about an Appointment at the Bürgeramt
 // ==========================================================================
 
 const readingPractice1: ReadingPractice = {
   part: 1,
-  title: "Teil 1 - Email About Public Transport Card",
-  description: "Read an email about getting a city transport card and answer 5 Richtig/Falsch questions.",
+  title: "Teil 1 - E-Mail an das Bürgeramt",
+  description: "Read an email to the citizen's office (Bürgeramt) and answer 5 Richtig/Falsch questions.",
   instructions: "Lesen Sie die E-Mail. Sind die Sätze 1-5 Richtig oder Falsch? Markieren Sie.",
-  text: `Von: thomas.mueller@email.de
-An: info@verkehrsbetriebe-hamburg.de
-Betreff: Frage zur Hamburg Card
+  text: `Von: anna.schmidt@email.de
+An: termin@buergeramt-berlin.de
+Betreff: Termin für Anmeldung
 
 Sehr geehrte Damen und Herren,
 
-ich bin Student und wohne seit zwei Wochen in Hamburg. Ich brauche eine 
-Fahrkarte für Bus und U-Bahn. Mein Freund sagt, die Hamburg Card ist gut 
-für Studenten. Ich fahre jeden Tag zur Universität. Die Fahrt dauert 
-40 Minuten. Ich brauche die Karte für das ganze Jahr.
+ich bin neu in Berlin und möchte mich anmelden. Mein Name ist Anna Schmidt und ich wohne in der Hauptstraße 10, 10115 Berlin. Ich komme aus der Schweiz.
 
-Kann ich die Hamburg Card auch am Wochenende benutzen? Meine Freundin 
-besucht mich oft am Samstag. Können wir zusammen mit einer Karte fahren?
+Ich brauche einen Termin für die Anmeldung. Kann ich nächste Woche am Montag oder Dienstagvormittag kommen? Ich arbeite am Nachmittag und habe keine Zeit.
 
-Wo kann ich die Karte kaufen? Kann ich sie online bestellen? Ich habe 
-eine Kreditkarte.
+Welche Dokumente muss ich mitbringen? Ich habe meinen Pass und den Mietvertrag. Brauche ich noch etwas?
+
+Ich habe gelesen, dass die Anmeldung Geld kostet. Wie viel kostet die Anmeldung? Kann ich mit Kreditkarte bezahlen?
+
+Vielen Dank für Ihre Hilfe.
 
 Mit freundlichen Grüßen
-Thomas Müller`,
+Anna Schmidt`,
   questions: [
     {
       id: 'day25-reading1-q1',
       type: 'true-false',
-      question: 'Thomas wohnt schon lange in Hamburg.',
+      question: 'Anna Schmidt wohnt schon lange in Berlin.',
       correctAnswer: 'Falsch',
-      explanation: 'He says "seit zwei Wochen" (for two weeks) - not long.'
+      explanation: 'She says "ich bin neu in Berlin" (I am new in Berlin).'
     },
     {
       id: 'day25-reading1-q2',
       type: 'true-false',
-      question: 'Thomas fährt jeden Tag mit Bus oder U-Bahn zur Uni.',
-      correctAnswer: 'Richtig',
-      explanation: 'He says "Ich fahre jeden Tag zur Universität."'
+      question: 'Anna hat am Vormittag keine Zeit für einen Termin.',
+      correctAnswer: 'Falsch',
+      explanation: 'She says she can come on Monday or Tuesday morning ("Vormittag").'
     },
     {
       id: 'day25-reading1-q3',
       type: 'true-false',
-      question: 'Die Fahrt zur Universität dauert mehr als eine Stunde.',
+      question: 'Anna weiß genau, welche Dokumente sie braucht.',
       correctAnswer: 'Falsch',
-      explanation: 'It takes 40 minutes, which is less than an hour.'
+      explanation: 'She asks what documents she needs to bring ("Welche Dokumente muss ich mitbringen?").'
     },
     {
       id: 'day25-reading1-q4',
       type: 'true-false',
-      question: 'Thomas möchte die Karte nur für einen Monat kaufen.',
+      question: 'Anna denkt, die Anmeldung ist kostenlos.',
       correctAnswer: 'Falsch',
-      explanation: 'He needs it "für das ganze Jahr" (for the whole year).'
+      explanation: 'She has read that the registration costs money ("dass die Anmeldung Geld kostet").'
     },
     {
       id: 'day25-reading1-q5',
       type: 'true-false',
-      question: 'Thomas fragt, ob er die Karte online kaufen kann.',
+      question: 'Anna möchte wissen, ob sie mit Kreditkarte bezahlen kann.',
       correctAnswer: 'Richtig',
-      explanation: 'He asks "Kann ich sie online bestellen?"'
+      explanation: 'She asks "Kann ich mit Kreditkarte bezahlen?"'
     }
   ]
 };
 
 // =========================================================================
-// READING PRACTICE - Teil 2: Finding Information About Transport
+// READING PRACTICE - Teil 2: Finding the Right Office
 // ==========================================================================
 
 const readingPractice2: ReadingPractice = {
   part: 2,
-  title: "Teil 2: Transport Websites - Match Questions to Information",
-  description: "Match each situation to the correct website (a or b).",
-  instructions: "Lesen Sie die Aufgaben 6-10 und die beiden Anzeigen. Welche Anzeige passt zu welcher Situation? Schreiben Sie den Buchstaben.",
+  title: "Teil 2: Welches Amt ist das richtige?",
+  description: "Match each situation to the correct office's website (a or b).",
+  instructions: "Lesen Sie die Aufgaben 6-7 und die beiden Anzeigen. Welche Anzeige passt zu welcher Situation? Schreiben Sie den Buchstaben.",
   text: `Anzeige a)
-www.fundsache-stadt.de
-Fundbüro Stadt Köln
-Haben Sie etwas verloren?
-Bus, Bahn, Taxi - wir helfen!
-Öffnungszeiten: Mo-Fr 8-16 Uhr
-Telefon: 0221-123456
+www.strassenverkehrsamt-hamburg.de
+Straßenverkehrsamt Hamburg
+- KFZ-Zulassung
+- Führerscheinstelle
+- Bewohnerparkausweis
+Termin online buchen!
 
 Anzeige b)
-www.bustickets-koeln.de
-Bus-Tickets Online
-Einzelfahrt, Tageskarte, Monatskarte
-Schnell und einfach kaufen
-Bezahlung: PayPal, Kreditkarte`,
+www.buergeramt-hamburg.de
+Bürgeramt Hamburg
+- Anmeldung und Ummeldung
+- Personalausweis und Reisepass
+- Meldebescheinigung
+Nur mit Termin!`,
   questions: [
     {
       id: 'day25_r2_q6',
       type: 'multiple-choice',
-      question: "Sie haben Ihre Tasche im Bus vergessen.",
+      question: "Sie sind neu in Hamburg und müssen sich anmelden.",
       options: ['a', 'b'],
-      correctAnswer: 0,
-      explanation: 'The "Fundbüro" (lost and found office) is the correct place for lost items.'
+      correctAnswer: 1,
+      explanation: 'The "Bürgeramt" is responsible for residency registration ("Anmeldung").'
     },
     {
         id: 'day25_r2_q7',
         type: 'multiple-choice',
-        question: "Sie brauchen eine Monatskarte für Bus und Bahn.",
+        question: "Sie haben ein neues Auto gekauft und brauchen ein Nummernschild.",
         options: ['a', 'b'],
-        correctAnswer: 1,
-        explanation: 'The ticket website sells monthly passes ("Monatskarte").'
+        correctAnswer: 0,
+        explanation: 'The "Straßenverkehrsamt" handles vehicle registration ("KFZ-Zulassung").'
     }
   ]
 };
 
 // =========================================================================
-// READING PRACTICE - Teil 3: Signs and Notices at Stations
+// READING PRACTICE - Teil 3: Official Notices
 // ==========================================================================
 
 const readingPractice3: ReadingPractice = {
   part: 3,
-  title: "Teil 3: Public Transport Signs and Notices",
-  description: "Read signs and notices, and decide if the statements are correct.",
-  instructions: "Lesen Sie die Texte und die Aufgaben 11-15. Ist die Aussage Richtig oder Falsch?",
-  text: "Various signs and notices found in public transport areas.", // General text for the practice part
+  title: "Teil 3: Öffentliche Bekanntmachungen",
+  description: "Read official notices and signs, and decide if the statements are correct.",
+  instructions: "Lesen Sie die Texte und die Aufgaben 8-10. Ist die Aussage Richtig oder Falsch?",
+  text: "Various signs and notices from public offices.",
   questions: [
     {
-      id: 'day25_r3_q11',
+      id: 'day25_r3_q8',
       type: 'true-false',
       text: `┌─────────────────────────────────────┐
-│     WICHTIGE INFORMATION            │
+│     Bürgeramt München-Pasing        │
 │                                     │
-│  Fahrkartenkauf nur vor der Fahrt! │
+│     Öffnungszeiten:                 │
+│     Mo, Di, Fr: 8:00 - 12:00 Uhr      │
+│     Do: 8:00 - 12:00 Uhr und          │
+│         14:00 - 18:00 Uhr             │
+│     Mittwoch: geschlossen             │
 │                                     │
-│  Im Bus können Sie KEINE Fahrkarte │
-│  kaufen.                            │
-│                                     │
-│  Bitte kaufen Sie Ihre Fahrkarte:  │
-│  • Am Automaten                     │
-│  • In der Smartphone-App            │
-│  • Im Vorverkauf                    │
+│     Besuch nur mit Onlinetermin!      │
 └─────────────────────────────────────┘`,
-      question: 'Sie müssen die Fahrkarte vor der Fahrt kaufen.',
-      correctAnswer: 'Richtig',
-      explanation: 'The notice explicitly states "Fahrkartenkauf nur vor der Fahrt!" (Ticket purchase only before the journey).'
-    },
-    {
-      id: 'day25_r3_q12',
-      type: 'true-false',
-      text: `┌─────────────────────────────────────┐
-│     BAUARBEITEN - LINIE 8           │
-│                                     │
-│  Die Straßenbahn Linie 8 fährt     │
-│  vom 15. bis 20. Februar nur bis   │
-│  zur Haltestelle "Stadtmitte".     │
-│                                     │
-│  Danach: Ersatzbus zum Hauptbahnhof│
-│                                     │
-│  Wir bitten um Ihr Verständnis.    │
-└─────────────────────────────────────┘`,
-      question: 'Die Straßenbahn fährt heute bis zum Hauptbahnhof.',
+      question: 'Man kann das Bürgeramt am Mittwochnachmittag besuchen.',
       correctAnswer: 'Falsch',
-      explanation: 'The tram only goes to "Stadtmitte", and a replacement bus runs from there to the main station.'
+      explanation: 'The notice says Wednesday is closed ("Mittwoch: geschlossen").'
     },
     {
-      id: 'day25_r3_q13',
+      id: 'day25_r3_q9',
       type: 'true-false',
       text: `┌─────────────────────────────────────┐
-│     FAHRPREISE                      │
-│     Stadtverkehr Bremen             │
+│     Wichtige Information zur Anmeldung  │
 │                                     │
-│  Einzelfahrt:                       │
-│  Erwachsene:        2,80 €          │
-│  Kinder (6-14 J.):  1,50 €          │
-│  Kinder unter 6 J.: FREI            │
-│                                     │
-│  Tageskarte:        6,50 €          │
-│  Monatskarte:       65,00 €         │
+│     Bitte mitbringen:               │
+│     - Personalausweis oder Reisepass│
+│     - Anmeldeformular (ausgefüllt)  │
+│     - Wohnungsgeberbestätigung      │
+│       (vom Vermieter)               │
 └─────────────────────────────────────┘`,
-      question: 'Kinder unter 6 Jahren fahren kostenlos.',
-      correctAnswer: 'Richtig',
-      explanation: 'The price list shows that children under 6 travel for free ("FREI").'
-    },
-    {
-      id: 'day25_r3_q14',
-      type: 'true-false',
-      text: `┌─────────────────────────────────────┐
-│     FAHRRAD IN DER U-BAHN           │
-│                                     │
-│  Fahrradmitnahme erlaubt:           │
-│                                     │
-│  • Mo-Fr: nach 9 Uhr                │
-│  • Mo-Fr: vor 16 Uhr                │
-│  • Sa, So, Feiertage: ganztägig    │
-│                                     │
-│  Fahrradticket: 2,00 €              │
-│                                     │
-│  Nicht erlaubt: Hauptverkehrszeit  │
-│  (7-9 Uhr, 16-18 Uhr)               │
-└─────────────────────────────────────┘`,
-      question: 'Sie können Ihr Fahrrad den ganzen Tag in der U-Bahn mitnehmen.',
+      question: 'Man braucht für die Anmeldung nur den Personalausweis.',
       correctAnswer: 'Falsch',
-      explanation: 'Bicycle transport is not allowed during peak hours (7-9 AM and 4-6 PM) on weekdays.'
+      explanation: 'You need the ID card, the registration form, and a confirmation from the landlord.'
     },
     {
-        id: 'day25_r3_q15',
-        type: 'true-false',
-        text: `┌─────────────────────────────────────┐
-│     IHRE TAGESKARTE                 │
-│     Gültig für:                     │
+      id: 'day25_r3_q10',
+      type: 'true-false',
+      text: `┌─────────────────────────────────────┐
+│     KFZ-Zulassungsstelle Köln       │
 │                                     │
-│  ✓ Alle Busse in Freiburg           │
-│  ✓ Alle Straßenbahnen               │
-│  ✓ Regionalzüge nach Emmendingen   │
+│     Wartenummer ziehen und warten.  │
+│     Ihre Nummer wird aufgerufen.      │
 │                                     │
-│  Gültigkeit: 24 Stunden ab          │
-│  Entwertung                         │
-│                                     │
-│  Preis: 6,50 € (Erwachsene)        │
+│     ZAHLUNG:                         │
+│     Nur mit EC-Karte.                 │
+│     Kein Bargeld!                     │
 └─────────────────────────────────────┘`,
-        question: 'Das Ticket gilt auch für die Nachbarstadt.',
-        correctAnswer: 'Richtig',
-        explanation: 'The ticket is valid for regional trains to Emmendingen, which is a neighboring town.'
+      question: 'Man kann bei der Zulassungsstelle mit Bargeld bezahlen.',
+      correctAnswer: 'Falsch',
+      explanation: 'The sign explicitly states "Kein Bargeld!" (No cash!).'
     }
   ]
 };
 
 // =========================================================================
-// WRITING PRACTICE - Teil 1: Bus Pass Registration Form
+// WRITING PRACTICE - Teil 1: Registration Form (Anmeldung)
 // ==========================================================================
 
 const writingPractice1: WritingPractice = {
   part: 1,
-  title: "Teil 1: Monthly Bus Pass Registration Form",
-  description: "Complete a monthly transport pass application form.",
-  instructions: "Sie helfen Ihrem Freund, eine Monatskarte zu beantragen. Lesen Sie den Kontext und füllen Sie die sechs fehlenden Informationen im Formular aus.",
-  prompt: `Ihr Freund, Alex Petrov, ist 22 Jahre alt und Student an der 
-Technischen Universität in Stuttgart. Er wohnt in der Gartenstraße 17, 
-70173 Stuttgart. Alex braucht eine Monatskarte für den Stadtverkehr. 
-Er möchte die Karte ab 1. März haben. 
+  title: "Teil 1: Anmeldeformular",
+  description: "Complete a residency registration form (Anmeldung).",
+  instructions: "Sie helfen Ihrer Freundin bei der Anmeldung in einer neuen Stadt. Lesen Sie den Kontext und füllen Sie die fünf fehlenden Informationen im Formular aus.",
+  prompt: `Ihre Freundin, Elena Popova, kommt aus Russland. Sie ist am 15.04.1995 geboren. Sie ist am 01.08.2023 in die Wohnung in der Schillerstraße 5, 10625 Berlin, eingezogen. Ihre alte Adresse war in Moskau. Sie ist ledig.
 
-In dem Formular fehlen sechs Informationen.
-Schreiben Sie die sechs fehlenden Informationen in das Formular.
+In dem Formular fehlen fünf Informationen.
+Schreiben Sie die fünf fehlenden Informationen in das Formular.
 
 ┌─────────────────────────────────────────────────┐
-│    STUTTGARTER VERKEHRSBETRIEBE (SSB)           │
-│       Antrag auf Monatskarte                    │
+│              ANMELDUNG bei der Meldebehörde     │
 │                                                 │
-│ Familienname, Vorname:  Petrov, Alex       (0) │
-│ Geburtsdatum:           _______________    (1) │
-│ Alter:                  22 Jahre                │
+│ Familienname:           Popova             (0) │
+│ Vorname:                _______________    (1) │
+│ Geburtsdatum:           _______________    (2) │
 │                                                 │
-│ Adresse:                                        │
-│ Straße, Hausnummer:     _______________    (2) │
-│ PLZ, Ort:               70173 __________   (3) │
+│ Anschrift der neuen Wohnung:                    │
+│ Straße, Hausnummer:     Schillerstraße 5       │
+│ PLZ, Ort:               _______________    (3) │
+│ Einzugsdatum:           _______________    (4) │
 │                                                 │
-│ Status:                 _______________    (4) │
-│   ☐ Schüler                                     │
-│   ☐ Student (mit Ausweis)                       │
-│   ☐ Berufstätig                                 │
-│   ☐ Rentner                                     │
-│                                                 │
-│ Gültigkeit ab:          _______________    (5) │
-│                                                 │
-│ Zahlungsweise:          Banküberweisung    (6) │
+│ Familienstand:          _______________    (5) │
+│   ☐ ledig  ☐ verheiratet  ☐ geschieden         │
 └─────────────────────────────────────────────────┘`,
-  sampleAnswer: `(1) [Geburtsdatum nicht gegeben]
-(2) Gartenstraße 17
-(3) Stuttgart
-(4) Student
-(5) 1. März / 01.03.
-(6) Banküberweisung`,
+  sampleAnswer: `(1) Elena
+(2) 15.04.1995
+(3) 10625 Berlin
+(4) 01.08.2023
+(5) ledig`,
   keyPhrases: [
-    "die Monatskarte (monthly ticket)",
-    "der Student / die Studentin (student)",
-    "die Adresse (address)",
-    "gültig ab (valid from)",
-    "die Banküberweisung (bank transfer)"
+    "die Anmeldung (registration)",
+    "die Meldebehörde (registration office)",
+    "das Geburtsdatum (date of birth)",
+    "der Einzug (moving in)",
+    "der Familienstand (marital status)",
+    "ledig (single)"
   ]
 };
 
 // =========================================================================
-// WRITING PRACTICE - Teil 2: Email About Lost Item on Train
+// WRITING PRACTICE - Teil 2: Email to Make an Appointment
 // ==========================================================================
 
 const writingPractice2: WritingPractice = {
   part: 2,
-  title: "Teil 2: Email to Lost & Found",
-  description: "Write an email to the lost and found office about an item you left on the train.",
-  instructions: "Schreiben Sie eine E-Mail an das Fundbüro des Bahnhofs. Beantworten Sie alle 3 Punkte. Schreiben Sie etwa 30 Wörter.",
-  prompt: `Sie haben gestern Ihre Tasche im Zug vergessen. In der Tasche 
-sind wichtige Dokumente. Schreiben Sie an das Fundbüro des Bahnhofs:
+  title: "Teil 2: E-Mail für einen Termin",
+  description: "Write an email to an office to ask for an appointment.",
+  instructions: "Schreiben Sie eine E-Mail an das Straßenverkehrsamt. Beantworten Sie alle 3 Punkte. Schreiben Sie etwa 30 Wörter.",
+  prompt: `Sie haben ein Auto gekauft und möchten es anmelden. Schreiben Sie an das Straßenverkehrsamt:
 
-• Sagen Sie: Was haben Sie vergessen?
-• Beschreiben Sie die Tasche (Farbe, Größe)
-• Fragen Sie: Haben Sie die Tasche?
+• Sagen Sie, warum Sie schreiben (Auto anmelden).
+• Fragen Sie nach einem Termin.
+• Fragen Sie, welche Dokumente Sie brauchen.
 
 Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30 Wörter).
 Schreiben Sie auch eine Anrede und einen Gruß.`,
   sampleAnswer: `Sehr geehrte Damen und Herren,
 
-ich habe gestern meine Tasche im Zug vergessen. Die Tasche ist schwarz 
-und klein. In der Tasche sind wichtige Dokumente. Haben Sie meine 
-Tasche gefunden?
+ich möchte mein neues Auto anmelden. Wann haben Sie einen Termin frei? 
+Ich kann nächste Woche am Vormittag. Welche Dokumente muss ich bitte mitbringen?
 
 Mit freundlichen Grüßen
 [Ihr Name]`,
   keyPhrases: [
     "Sehr geehrte Damen und Herren",
-    "ich habe ... vergessen",
-    "die Tasche",
-    "wichtige Dokumente",
-    "Haben Sie ... gefunden?",
+    "anmelden (to register)",
+    "einen Termin machen (to make an appointment)",
+    "Welche Dokumente? (Which documents?)",
+    "mitbringen (to bring with)",
     "Mit freundlichen Grüßen"
   ]
 };
@@ -332,36 +273,34 @@ Mit freundlichen Grüßen
 // ==========================================================================
 
 const vocabularyTheme: VocabularyTheme = {
-  theme: 'Public Transportation & City Navigation',
+  theme: 'Government and Offices (Ämter und Behörden)',
   items: [
-    { german: 'der Bus', english: 'bus', example: 'Ich fahre mit dem Bus.' },
-    { german: 'die U-Bahn', english: 'subway/underground', example: 'Die U-Bahn ist schnell.' },
-    { german: 'die Straßenbahn / die Tram', english: 'tram', example: 'Die Straßenbahn fährt alle 10 Minuten.' },
-    { german: 'der Zug', english: 'train', example: 'Der Zug kommt um 9 Uhr.' },
-    { german: 'die Fahrkarte / das Ticket', english: 'ticket', example: 'Ich kaufe eine Fahrkarte.' },
-    { german: 'die Einzelfahrt', english: 'single ticket', example: 'Eine Einzelfahrt, bitte.' },
-    { german: 'die Tageskarte', english: 'day ticket', example: 'Die Tageskarte kostet 6 Euro.' },
-    { german: 'die Monatskarte', english: 'monthly pass', example: 'Ich habe eine Monatskarte.' },
-    { german: 'der Automat', english: 'ticket machine', example: 'Der Automat ist am Bahnsteig.' },
-    { german: 'der Bahnhof', english: 'train station', example: 'Der Bahnhof ist groß.' },
-    { german: 'der Hauptbahnhof', english: 'main station', example: 'Ich bin am Hauptbahnhof.' },
-    { german: 'die Haltestelle', english: 'stop (bus/tram)', example: 'Die Haltestelle ist hier.' },
-    { german: 'der Bahnsteig / das Gleis', english: 'platform/track', example: 'Der Zug fährt von Gleis 5.' },
-    { german: 'der Ausgang', english: 'exit', example: 'Wo ist der Ausgang?' },
-    { german: 'fahren', english: 'to go/drive/travel', example: 'Ich fahre nach Hause.' },
-    { german: 'einsteigen', english: 'to get on/board', example: 'Bitte einsteigen!' },
-    { german: 'aussteigen', english: 'to get off', example: 'Hier müssen Sie aussteigen.' },
-    { german: 'umsteigen', english: 'to change/transfer', example: 'Sie müssen in Marienplatz umsteigen.' },
-    { german: 'entwerten', english: 'to validate', example: 'Bitte entwerten Sie das Ticket!' },
-    { german: 'verpassen', english: 'to miss', example: 'Ich habe den Bus verpasst.' },
-    { german: 'vergessen', english: 'to forget', example: 'Ich habe meine Tasche vergessen.' },
-    { german: 'der Weg', english: 'way/path', example: 'Kennen Sie den Weg?' },
-    { german: 'die Richtung', english: 'direction', example: 'In welche Richtung?' },
-    { german: 'links / rechts / geradeaus', english: 'left / right / straight ahead', example: 'Gehen Sie links, dann rechts.' },
-    { german: 'der Fahrplan', english: 'schedule/timetable', example: 'Der Fahrplan ist online.' },
-    { german: 'die Abfahrt / die Ankunft', english: 'departure / arrival', example: 'Die Abfahrt ist um 10 Uhr.' },
-    { german: 'die Verspätung', english: 'delay', example: 'Der Bus hat 10 Minuten Verspätung.' },
-    { german: 'das Fundbüro', english: 'lost & found', example: 'Wo ist das Fundbüro?' }
+    { german: 'das Amt / die Behörde', english: 'office / authority', example: 'Ich muss zum Amt gehen.' },
+    { german: 'das Bürgeramt', english: "citizen's office", example: 'Im Bürgeramt kann man sich anmelden.' },
+    { german: 'die Anmeldung', english: 'registration', example: 'Ich brauche einen Termin für die Anmeldung.' },
+    { german: 'anmelden', english: 'to register', example: 'Ich möchte mich anmelden.' },
+    { german: 'das Formular', english: 'form', example: 'Füllen Sie bitte dieses Formular aus.' },
+    { german: 'ausfüllen', english: 'to fill out', example: 'Sie müssen das Formular ausfüllen.' },
+    { german: 'der Personalausweis', english: 'ID card', example: 'Haben Sie Ihren Personalausweis dabei?' },
+    { german: 'der Reisepass', english: 'passport', example: 'Mein Reisepass ist noch gültig.' },
+    { german: 'der Termin', english: 'appointment', example: 'Ich habe einen Termin um 10 Uhr.' },
+    { german: 'vereinbaren', english: 'to arrange/agree on', example: 'Wir müssen einen Termin vereinbaren.' },
+    { german: 'die Öffnungszeiten', english: 'opening hours', example: 'Wie sind die Öffnungszeiten?' },
+    { german: 'geschlossen', english: 'closed', example: 'Am Mittwoch ist das Amt geschlossen.' },
+    { german: 'geöffnet', english: 'open', example: 'Das Amt ist von 8 bis 12 Uhr geöffnet.' },
+    { german: 'die Wartenummer', english: 'waiting number', example: 'Bitte ziehen Sie eine Wartenummer.' },
+    { german: 'warten', english: 'to wait', example: 'Ich warte schon eine Stunde.' },
+    { german: 'das Dokument', english: 'document', example: 'Bringen Sie alle Dokumente mit.' },
+    { german: 'die Gebühr', english: 'fee', example: 'Die Gebühr beträgt 10 Euro.' },
+    { german: 'bezahlen', english: 'to pay', example: 'Sie können mit EC-Karte bezahlen.' },
+    { german: 'das Bargeld', english: 'cash', example: 'Wir akzeptieren kein Bargeld.' },
+    { german: 'die Unterschrift', english: 'signature', example: 'Hier fehlt Ihre Unterschrift.' },
+    { german: 'unterschreiben', english: 'to sign', example: 'Bitte unterschreiben Sie hier.' },
+    { german: 'gültig', english: 'valid', example: 'Der Pass ist nicht mehr gültig.' },
+    { german: 'der Antrag', english: 'application', example: 'Sie müssen einen Antrag stellen.' },
+    { german: 'die Genehmigung', english: 'permit / approval', example: 'Sie brauchen eine Genehmigung.' },
+    { german: 'das Standesamt', english: 'registry office (for marriage, birth)', example: 'Wir heiraten im Standesamt.' },
+    { german: 'die Ausländerbehörde', english: "foreigners' office", example: 'Ich brauche ein Visum von der Ausländerbehörde.' }
   ]
 };
 
@@ -372,7 +311,7 @@ const vocabularyTheme: VocabularyTheme = {
 const day25: ExamDay = {
   day: 25,
   skills: ['Reading', 'Writing'],
-  focus: 'Public Transportation & City Navigation',
+  focus: 'Government and Offices (Ämter und Behörden)',
   practices: [
     readingPractice1,
     readingPractice2,
