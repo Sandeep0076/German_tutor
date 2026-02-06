@@ -11,8 +11,7 @@ import type {
   ExamDay,
   ReadingPractice,
   WritingPractice,
-  VocabularyTheme,
-  ExamQuestion
+  VocabularyTheme
 } from '../examTypes';
 
 // =========================================================================
@@ -85,26 +84,28 @@ Anna Schmidt`,
 // READING PRACTICE - Teil 2: Finding the Right Office
 // ==========================================================================
 
-const readingPractice2: ReadingPractice = {
-  part: 2,
-  title: "Teil 2: Welches Amt ist das richtige?",
-  description: "Match each situation to the correct office's website (a or b).",
-  instructions: "Lesen Sie die Aufgaben 6-7 und die beiden Anzeigen. Welche Anzeige passt zu welcher Situation? Schreiben Sie den Buchstaben.",
-  text: `Anzeige a)
-www.strassenverkehrsamt-hamburg.de
+const q6TextA = `**Website a: www.strassenverkehrsamt-hamburg.de**
+
 Straßenverkehrsamt Hamburg
 - KFZ-Zulassung
 - Führerscheinstelle
 - Bewohnerparkausweis
-Termin online buchen!
+Termin online buchen!`;
 
-Anzeige b)
-www.buergeramt-hamburg.de
+const q6TextB = `**Website b: www.buergeramt-hamburg.de**
+
 Bürgeramt Hamburg
 - Anmeldung und Ummeldung
 - Personalausweis und Reisepass
 - Meldebescheinigung
-Nur mit Termin!`,
+Nur mit Termin!`;
+
+const readingPractice2a: ReadingPractice = {
+  part: 2,
+  title: "Teil 2 - Question 6: Residency Registration",
+  description: "Choose the correct office website for registering your new address.",
+  instructions: "Lesen Sie die Aufgabe und die Websites a und b. Welche Website passt? Markieren Sie a oder b.",
+  text: `${q6TextA}\n\n${q6TextB}`,
   questions: [
     {
       id: 'day25_r2_q6',
@@ -113,14 +114,40 @@ Nur mit Termin!`,
       options: ['a', 'b'],
       correctAnswer: 1,
       explanation: 'The "Bürgeramt" is responsible for residency registration ("Anmeldung").'
-    },
+    }
+  ]
+};
+
+const q7TextA = `**Website a: www.strassenverkehrsamt-koeln.de**
+
+Straßenverkehrsamt Köln
+- KFZ-Zulassung
+- Führerscheinstelle
+- Bewohnerparkausweis
+Termin online buchen!`;
+
+const q7TextB = `**Website b: www.finanzamt-koeln.de**
+
+Finanzamt Köln
+- Steuererklärung
+- Steuer-ID
+- Beratung
+Öffnungszeiten: Mo-Fr 8-12 Uhr`;
+
+const readingPractice2b: ReadingPractice = {
+  part: 2,
+  title: "Teil 2 - Question 7: Vehicle Registration",
+  description: "Choose the correct office website for registering a new car.",
+  instructions: "Lesen Sie die Aufgabe und die Websites a und b. Welche Website passt? Markieren Sie a oder b.",
+  text: `${q7TextA}\n\n${q7TextB}`,
+  questions: [
     {
-        id: 'day25_r2_q7',
-        type: 'multiple-choice',
-        question: "Sie haben ein neues Auto gekauft und brauchen ein Nummernschild.",
-        options: ['a', 'b'],
-        correctAnswer: 0,
-        explanation: 'The "Straßenverkehrsamt" handles vehicle registration ("KFZ-Zulassung").'
+      id: 'day25_r2_q7',
+      type: 'multiple-choice',
+      question: "Sie haben ein neues Auto gekauft und brauchen ein Nummernschild.",
+      options: ['a', 'b'],
+      correctAnswer: 0,
+      explanation: 'The "Straßenverkehrsamt" handles vehicle registration ("KFZ-Zulassung").'
     }
   ]
 };
@@ -129,60 +156,77 @@ Nur mit Termin!`,
 // READING PRACTICE - Teil 3: Official Notices
 // ==========================================================================
 
-const readingPractice3: ReadingPractice = {
+const q8Notice = `Bürgeramt München-Pasing
+
+Öffnungszeiten:
+Mo, Di, Fr: 8:00 - 12:00 Uhr
+Do: 8:00 - 12:00 Uhr und
+    14:00 - 18:00 Uhr
+Mittwoch: geschlossen
+
+Besuch nur mit Onlinetermin!`;
+
+const readingPractice3a: ReadingPractice = {
   part: 3,
-  title: "Teil 3: Öffentliche Bekanntmachungen",
-  description: "Read official notices and signs, and decide if the statements are correct.",
-  instructions: "Lesen Sie die Texte und die Aufgaben 8-10. Ist die Aussage Richtig oder Falsch?",
-  text: "Various signs and notices from public offices.",
+  title: "Teil 3 - Question 8: Office Opening Hours",
+  description: "Read office opening hours and decide if the statement is correct.",
+  instructions: "Lesen Sie den Text und die Aussage. Ist die Aussage Richtig oder Falsch?",
+  text: q8Notice,
   questions: [
     {
       id: 'day25_r3_q8',
       type: 'true-false',
-      text: `┌─────────────────────────────────────┐
-│     Bürgeramt München-Pasing        │
-│                                     │
-│     Öffnungszeiten:                 │
-│     Mo, Di, Fr: 8:00 - 12:00 Uhr      │
-│     Do: 8:00 - 12:00 Uhr und          │
-│         14:00 - 18:00 Uhr             │
-│     Mittwoch: geschlossen             │
-│                                     │
-│     Besuch nur mit Onlinetermin!      │
-└─────────────────────────────────────┘`,
       question: 'Man kann das Bürgeramt am Mittwochnachmittag besuchen.',
       correctAnswer: 'Falsch',
       explanation: 'The notice says Wednesday is closed ("Mittwoch: geschlossen").'
-    },
+    }
+  ]
+};
+
+const q9Notice = `Wichtige Information zur Anmeldung
+
+Bitte mitbringen:
+- Personalausweis oder Reisepass
+- Anmeldeformular (ausgefüllt)
+- Wohnungsgeberbestätigung
+  (vom Vermieter)`;
+
+const readingPractice3b: ReadingPractice = {
+  part: 3,
+  title: "Teil 3 - Question 9: Registration Documents",
+  description: "Read information about required documents and decide if the statement is correct.",
+  instructions: "Lesen Sie den Text und die Aussage. Ist die Aussage Richtig oder Falsch?",
+  text: q9Notice,
+  questions: [
     {
       id: 'day25_r3_q9',
       type: 'true-false',
-      text: `┌─────────────────────────────────────┐
-│     Wichtige Information zur Anmeldung  │
-│                                     │
-│     Bitte mitbringen:               │
-│     - Personalausweis oder Reisepass│
-│     - Anmeldeformular (ausgefüllt)  │
-│     - Wohnungsgeberbestätigung      │
-│       (vom Vermieter)               │
-└─────────────────────────────────────┘`,
       question: 'Man braucht für die Anmeldung nur den Personalausweis.',
       correctAnswer: 'Falsch',
       explanation: 'You need the ID card, the registration form, and a confirmation from the landlord.'
-    },
+    }
+  ]
+};
+
+const q10Notice = `KFZ-Zulassungsstelle Köln
+
+Wartenummer ziehen und warten.
+Ihre Nummer wird aufgerufen.
+
+ZAHLUNG:
+Nur mit EC-Karte.
+Kein Bargeld!`;
+
+const readingPractice3c: ReadingPractice = {
+  part: 3,
+  title: "Teil 3 - Question 10: Payment Methods",
+  description: "Read payment information and decide if the statement is correct.",
+  instructions: "Lesen Sie den Text und die Aussage. Ist die Aussage Richtig oder Falsch?",
+  text: q10Notice,
+  questions: [
     {
       id: 'day25_r3_q10',
       type: 'true-false',
-      text: `┌─────────────────────────────────────┐
-│     KFZ-Zulassungsstelle Köln       │
-│                                     │
-│     Wartenummer ziehen und warten.  │
-│     Ihre Nummer wird aufgerufen.      │
-│                                     │
-│     ZAHLUNG:                         │
-│     Nur mit EC-Karte.                 │
-│     Kein Bargeld!                     │
-└─────────────────────────────────────┘`,
       question: 'Man kann bei der Zulassungsstelle mit Bargeld bezahlen.',
       correctAnswer: 'Falsch',
       explanation: 'The sign explicitly states "Kein Bargeld!" (No cash!).'
@@ -314,8 +358,11 @@ const day25: ExamDay = {
   focus: 'Government and Offices (Ämter und Behörden)',
   practices: [
     readingPractice1,
-    readingPractice2,
-    readingPractice3,
+    readingPractice2a,
+    readingPractice2b,
+    readingPractice3a,
+    readingPractice3b,
+    readingPractice3c,
     writingPractice1,
     writingPractice2
   ],
