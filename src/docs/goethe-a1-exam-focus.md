@@ -2046,7 +2046,705 @@ Sophie
 - Write practice emails for different salon scenarios
 - Listen to salon-related dialogues to learn natural phrases
 
-### **Day 25**: Government & Offices (Ämter und Behörden)
-**Topics**: Appointments at public offices, filling out forms (Anmeldung), understanding official notices, residency registration, vehicle registration office (KFZ-Zulassungsstelle).
-**Skills**: Reading (all 3 parts), Writing (Teil 1 & 2)
+---
+
+# Day 25: Government & Offices (Ämter und Behörden) - Reading & Writing Section
+
+## Overview
+**Theme**: Government Offices and Official Procedures  
+**Skills Focus**: Reading (Teil 1, 2, 3) & Writing (Teil 1 & 2)  
+**Real-world Context**: Registering at the Bürgeramt, understanding official documents, appointment scheduling at government offices
+
+---
+
+## Reading Practice - Teil 1: Email to the Bürgeramt
+
+### Text
+**Von**: anna.schmidt@email.de  
+**An**: termin@buergeramt-berlin.de  
+**Betreff**: Termin für Anmeldung
+
+Sehr geehrte Damen und Herren,
+
+ich bin neu in Berlin und möchte mich anmelden. Mein Name ist Anna Schmidt und ich wohne in der Hauptstraße 10, 10115 Berlin. Ich komme aus der Schweiz.
+
+Ich brauche einen Termin für die Anmeldung. Kann ich nächste Woche am Montag oder Dienstagvormittag kommen? Ich arbeite am Nachmittag und habe keine Zeit.
+
+Welche Dokumente muss ich mitbringen? Ich habe meinen Pass und den Mietvertrag. Brauche ich noch etwas?
+
+Ich habe gelesen, dass die Anmeldung Geld kostet. Wie viel kostet die Anmeldung? Kann ich mit Kreditkarte bezahlen?
+
+Vielen Dank für Ihre Hilfe.
+
+Mit freundlichen Grüßen  
+Anna Schmidt
+
+### Questions (Richtig oder Falsch)
+
+**0. (Beispiel)** Anna Schmidt wohnt schon lange in Berlin.  
+✅ **Falsch** (She says "ich bin neu in Berlin")
+
+**1.** Anna Schmidt möchte einen Termin für die Anmeldung.  
+✅ **Richtig**
+
+**2.** Anna kann am Montagnachmittag zum Bürgeramt kommen.  
+✅ **Falsch** (She works in the afternoon and has no time)
+
+**3.** Anna hat ihren Pass und den Mietvertrag.  
+✅ **Richtig**
+
+**4.** Anna weiß, wie viel die Anmeldung kostet.  
+✅ **Falsch** (She asks "Wie viel kostet die Anmeldung?")
+
+**5.** Anna möchte mit Kreditkarte bezahlen.  
+✅ **Richtig** (She asks if she can pay with credit card)
+
+---
+
+## Reading Practice - Teil 2: Notice Board at the KFZ-Zulassungsstelle
+
+### Instructions
+Lesen Sie die Informationen am Schwarzen Brett (notice board). Wählen Sie die richtige Antwort (a, b oder c).
+
+### Text 1: Opening Hours
+```
+KFZ-ZULASSUNGSSTELLE MÜNCHEN
+──────────────────────────────
+Öffnungszeiten:
+Montag - Freitag: 8:00 - 15:00 Uhr
+Donnerstag: 8:00 - 18:00 Uhr
+Samstag: Geschlossen
+
+WICHTIG: Mittagspause 12:00 - 13:00 Uhr
+(außer donnerstags)
+```
+
+**6.** Am Donnerstag ist die KFZ-Zulassungsstelle...
+- a) bis 15 Uhr geöffnet
+- b) den ganzen Tag geschlossen
+- c) bis 18 Uhr geöffnet ✅
+
+---
+
+### Text 2: Appointment Notice
+```
+ACHTUNG!
+Für die Fahrzeuganmeldung brauchen Sie:
+1. Personalausweis oder Reisepass
+2. Fahrzeugschein
+3. TÜV-Bericht
+4. Versicherungsbestätigung
+
+Online-Terminbuchung: www.kfz-muenchen.de
+Wartezeit ohne Termin: ca. 2-3 Stunden
+```
+
+**7.** Ohne Termin muss man...
+- a) nach Hause gehen
+- b) lange warten ✅
+- c) online bezahlen
+
+---
+
+### Text 3: Information Desk
+```
+INFORMATIONSSCHALTER
+Haben Sie Fragen?
+Wir helfen Ihnen gerne!
+
+Schalter 1: Fahrzeuganmeldung
+Schalter 2: Fahrzeugabmeldung
+Schalter 3: Adressänderung
+Schalter 4: Nummernschilder
+
+Bei Fragen rufen Sie an: 089-555-1234
+```
+
+**8.** Für ein neues Nummernschild geht man zu...
+- a) Schalter 2
+- b) Schalter 3
+- c) Schalter 4 ✅
+
+---
+
+### Text 4: Payment Information
+```
+ZAHLUNGSINFORMATION
+──────────────────────
+Fahrzeuganmeldung: 28,50 €
+Fahrzeugabmeldung: 7,00 €
+Nummernschilder: 26,80 €
+
+Bezahlung: Bar oder EC-Karte
+(Keine Kreditkarten!)
+```
+
+**9.** Eine Fahrzeuganmeldung kostet...
+- a) 7 Euro
+- b) 26,80 Euro
+- c) 28,50 Euro ✅
+
+---
+
+### Text 5: Parking Information
+```
+PARKEN
+Parkplätze vor dem Gebäude:
+Kostenlos für 1 Stunde
+
+Langzeitparken:
+Parkhaus Hauptstraße
+2 € pro Stunde
+```
+
+**10.** Parken vor dem Gebäude ist...
+- a) immer kostenlos
+- b) eine Stunde kostenlos ✅
+- c) 2 Euro pro Stunde
+
+---
+
+## Reading Practice - Teil 3: Notice about Anmeldung
+
+### Instructions
+Lesen Sie die Nachricht. Wählen Sie für jede Lücke (11-15) das richtige Wort (a, b oder c).
+
+### Text
+```
+WICHTIGE INFORMATION
+Anmeldung in Berlin
+
+Liebe Bürgerinnen und Bürger,
+
+wenn Sie neu in Berlin sind, müssen Sie sich __(11)__ zwei Wochen anmelden. 
+Die Anmeldung ist __(12)__ im Bürgeramt möglich.
+
+Für die Anmeldung brauchen Sie diese __(13)__:
+- Personalausweis oder Reisepass
+- Anmeldeformular (bekommen Sie im Bürgeramt)
+- Wohnungsgeberbestätigung vom Vermieter
+
+Die Anmeldung __(14)__ etwa 15 Minuten. Bitte machen Sie vorher online 
+einen __(15)__. So müssen Sie nicht lange warten.
+
+Ihr Bürgeramt Berlin
+```
+
+**11.**
+- a) in ✅
+- b) an
+- c) auf
+
+**12.**
+- a) nie
+- b) nur ✅
+- c) manchmal
+
+**13.**
+- a) Briefe
+- b) Dokumente ✅
+- c) Tickets
+
+**14.**
+- a) dauert ✅
+- b) macht
+- c) arbeitet
+
+**15.**
+- a) Brief
+- b) Termin ✅
+- c) Formular
+
+---
+
+## Writing Practice - Teil 1: Anmeldeformular (Registration Form)
+
+### Instructions
+Sie sind neu in Deutschland und möchten sich anmelden. Lesen Sie den Kontext und füllen Sie die fünf fehlenden Informationen im Formular aus.
+
+### Context
+Ihr Name ist Maria Gonzalez. Sie kommen aus Spanien und sind am 15. März 1995 geboren. Sie sind am 1. Februar 2026 nach Deutschland gekommen. Ihre neue Adresse ist Lindenstraße 25, 10115 Berlin. Sie sind ledig (single) und arbeiten als Lehrerin. Ihre Telefonnummer ist 030-12345678 und Ihre E-Mail ist maria.gonzalez@email.com.
+
+### Form
+```
+┌──────────────────────────────────────────────────┐
+│         ANMELDEFORMULAR                          │
+│         Bürgeramt Berlin-Mitte                   │
+│                                                  │
+│ Familienname:           Gonzalez            (0)  │
+│ Vorname:                _______________     (1)  │
+│                                                  │
+│ Geburtsdatum:           _______________     (2)  │
+│ Geburtsland:            Spanien                  │
+│                                                  │
+│ Neue Anschrift in Deutschland:                   │
+│ Straße, Hausnummer:     _______________     (3)  │
+│ PLZ, Ort:               10115 Berlin             │
+│                                                  │
+│ Einzugsdatum:           _______________     (4)  │
+│                                                  │
+│ Familienstand:          _______________     (5)  │
+│   ☐ ledig  ☐ verheiratet  ☐ geschieden          │
+│                                                  │
+│ Beruf:                  Lehrerin                 │
+│ Telefon:                030-12345678             │
+└──────────────────────────────────────────────────┘
+```
+
+### Answers
+- **(0)** Gonzalez (Beispiel)
+- **(1)** Maria
+- **(2)** 15.03.1995 / 15. März 1995
+- **(3)** Lindenstraße 25
+- **(4)** 01.02.2026 / 1. Februar 2026
+- **(5)** ledig
+
+---
+
+## Writing Practice - Teil 2: Email Tasks
+
+### Task 1: Requesting an Appointment
+**Situation**: Sie brauchen einen Termin im Bürgeramt für Ihre Anmeldung.
+
+**Schreiben Sie eine E-Mail an das Bürgeramt. Schreiben Sie etwas zu allen drei Punkten:**
+- Warum schreiben Sie?
+- Wann haben Sie Zeit?
+- Welche Dokumente haben Sie?
+
+**Sample Answer**:
+```
+Betreff: Termin für Anmeldung
+
+Sehr geehrte Damen und Herren,
+
+ich bin neu in Berlin und möchte einen Termin für meine Anmeldung. 
+Ich habe Zeit am Montag oder Dienstag am Vormittag. Ich habe meinen 
+Pass und den Mietvertrag.
+
+Mit freundlichen Grüßen
+[Ihr Name]
+```
+
+---
+
+### Task 2: Confirming an Appointment
+**Situation**: Sie haben eine SMS vom Bürgeramt bekommen. Ihr Termin ist am Mittwoch, 10. März, um 10:00 Uhr. Schreiben Sie eine Antwort.
+
+**Schreiben Sie eine SMS an das Bürgeramt. Schreiben Sie etwas zu allen drei Punkten:**
+- Bedanken Sie sich
+- Bestätigen Sie den Termin
+- Fragen Sie nach Dokumenten
+
+**Sample Answer**:
+```
+Vielen Dank für den Termin. Ich komme am Mittwoch, 10. März, um 
+10 Uhr. Welche Dokumente muss ich noch mitbringen?
+
+Mit freundlichen Grüßen
+[Ihr Name]
+```
+
+---
+
+### Task 3: Asking for Help
+**Situation**: Sie verstehen das Anmeldeformular nicht. Schreiben Sie eine E-Mail an einen deutschen Freund.
+
+**Schreiben Sie eine E-Mail. Schreiben Sie etwas zu allen drei Punkten:**
+- Erklären Sie das Problem
+- Bitten Sie um Hilfe
+- Fragen Sie nach Zeit
+
+**Sample Answer**:
+```
+Betreff: Hilfe mit Formular
+
+Lieber Max,
+
+ich muss ein Anmeldeformular ausfüllen, aber ich verstehe nicht 
+alles. Kannst du mir bitte helfen? Hast du am Wochenende Zeit?
+
+Viele Grüße
+[Ihr Name]
+```
+
+---
+
+## Key Vocabulary - Day 25
+
+### Government Offices & Procedures
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| das Bürgeramt | citizen's office | Ich gehe zum Bürgeramt. |
+| die Anmeldung | registration | Die Anmeldung ist wichtig. |
+| die Abmeldung | deregistration | Ich brauche eine Abmeldung. |
+| das Amt | office/authority | Das Amt ist geöffnet. |
+| die Behörde | authority | Behörden in Deutschland |
+| der Termin | appointment | Ich habe einen Termin. |
+| die KFZ-Zulassungsstelle | vehicle registration | Ich gehe zur KFZ-Zulassungsstelle. |
+| sich anmelden | to register | Ich melde mich an. |
+| sich abmelden | to deregister | Er meldet sich ab. |
+
+### Documents
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| der Personalausweis | ID card | Ich brauche meinen Personalausweis. |
+| der Reisepass | passport | Mein Reisepass ist hier. |
+| der Mietvertrag | rental contract | Der Mietvertrag ist wichtig. |
+| die Wohnungsgeberbestätigung | landlord confirmation | Ich habe die Wohnungsgeberbestätigung. |
+| das Formular | form | Das Formular ist hier. |
+| das Dokument | document | Welche Dokumente brauche ich? |
+| der Fahrzeugschein | vehicle registration | Ich habe den Fahrzeugschein. |
+| die Versicherung | insurance | Die Versicherung ist teuer. |
+| die Bestätigung | confirmation | Ich brauche eine Bestätigung. |
+
+### Actions & Verbs
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| ausfüllen | to fill out | Ich fülle das Formular aus. |
+| mitbringen | to bring along | Was muss ich mitbringen? |
+| bekommen | to receive/get | Ich bekomme einen Termin. |
+| brauchen | to need | Ich brauche Hilfe. |
+| kosten | to cost | Wie viel kostet das? |
+| dauern | to last/take time | Die Anmeldung dauert 15 Minuten. |
+| warten | to wait | Ich muss lange warten. |
+| bezahlen | to pay | Ich möchte bezahlen. |
+| helfen | to help | Können Sie mir helfen? |
+
+### Time & Scheduling
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| die Öffnungszeit | opening hours | Die Öffnungszeiten sind wichtig. |
+| die Wartezeit | waiting time | Die Wartezeit ist lang. |
+| die Mittagspause | lunch break | Mittagspause ist von 12 bis 13 Uhr. |
+| der Vormittag | morning | Ich komme am Vormittag. |
+| der Nachmittag | afternoon | Am Nachmittag arbeite ich. |
+| pünktlich | punctual/on time | Bitte kommen Sie pünktlich. |
+| vorher | beforehand | Machen Sie vorher einen Termin. |
+| etwa | approximately | Es dauert etwa 15 Minuten. |
+
+### Personal Information
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| der Familienstand | marital status | Mein Familienstand ist ledig. |
+| ledig | single | Ich bin ledig. |
+| verheiratet | married | Sie ist verheiratet. |
+| geschieden | divorced | Er ist geschieden. |
+| die Staatsangehörigkeit | nationality | Meine Staatsangehörigkeit ist spanisch. |
+| der Beruf | profession | Mein Beruf ist Lehrer. |
+| die Anschrift | address | Meine Anschrift ist Hauptstraße 10. |
+| das Einzugsdatum | move-in date | Das Einzugsdatum ist 1. Februar. |
+
+---
+
+## Summary - Day 25 Reading & Writing Practice
+
+**Total Exercises**: 
+- **Reading**: 15 questions (5 Teil 1 + 5 Teil 2 + 5 Teil 3)
+- **Writing**: 4 tasks (1 form + 3 emails)
+
+**Theme**: Government & Offices  
+**Difficulty Level**: A1  
+**Real-world Relevance**: Essential for anyone moving to Germany
+
+**Key Skills Practiced**:
+1. **Reading Comprehension**: Understanding official emails and notices
+2. **Information Extraction**: Finding specific details in official texts
+3. **Form Completion**: Filling out registration forms accurately
+4. **Formal Writing**: Communicating with government offices
+5. **Document Knowledge**: Understanding required documents
+
+**Tips for Students**:
+1. Learn the key vocabulary for official procedures
+2. Practice reading official notices and forms
+3. Understand the importance of appointments (Termin)
+4. Know which documents are commonly required
+5. Use formal language when writing to offices (Sehr geehrte Damen und Herren)
+6. Be clear and specific about your requests
+7. Always include your contact information
+
+---
+
+# Day 26: Apartment Viewing & Moving (Wohnungsbesichtigung & Umzug) - Writing Section
+
+## Overview
+**Theme**: Moving and Apartment Viewing  
+**Skills Focus**: Writing (Teil 1 & 2)  
+**Real-world Context**: Booking moving services, communicating with landlords, arranging apartment viewings
+
+---
+
+## Writing Practice - Teil 1: Moving Service Booking Form
+
+### Instructions
+Sie helfen Ihrem Freund bei der Buchung eines Umzugsservices. Lesen Sie den Kontext und füllen Sie die fünf fehlenden Informationen im Formular aus.
+
+### Context
+Ihr Freund, Thomas Müller, zieht am 15. März von München nach Hamburg um. Seine alte Adresse ist Rosenstraße 12, 80331 München. Seine neue Adresse ist Elbstraße 45, 20095 Hamburg. Er hat eine 3-Zimmer-Wohnung und braucht einen großen Transporter. Er möchte am Vormittag umziehen, weil er am Nachmittag arbeiten muss. Er hat keine Umzugskartons und braucht 20 Kartons.
+
+### Form
+```
+┌─────────────────────────────────────────────────┐
+│         UMZUGSSERVICE "SCHNELL & GUT"           │
+│              Buchungsformular                   │
+│                                                 │
+│ Familienname, Vorname:  Müller, Thomas     (0) │
+│ Telefonnummer:          0176-5544332            │
+│                                                 │
+│ ALTE ADRESSE:                                   │
+│ Straße, Hausnummer:     _______________    (1) │
+│ PLZ, Ort:               80331 München           │
+│                                                 │
+│ NEUE ADRESSE:                                   │
+│ Straße, Hausnummer:     Elbstraße 45            │
+│ PLZ, Ort:               _______________    (2) │
+│                                                 │
+│ Umzugstermin:           _______________    (3) │
+│ Uhrzeit:                _______________    (4) │
+│   ☐ Vormittag (8-12 Uhr)                        │
+│   ☐ Nachmittag (13-18 Uhr)                      │
+│                                                 │
+│ Zusätzliche Services:                           │
+│ Umzugskartons:          _______________    (5) │
+│   (Anzahl)                                      │
+│                                                 │
+│ Fahrzeuggröße:          Großer Transporter      │
+└─────────────────────────────────────────────────┘
+```
+
+### Answers
+- **(0)** Müller, Thomas (Beispiel)
+- **(1)** Rosenstraße 12
+- **(2)** 20095 Hamburg
+- **(3)** 15. März / 15.03.
+- **(4)** Vormittag / 8-12 Uhr
+- **(5)** 20 / 20 Stück
+
+---
+
+## Writing Practice - Teil 2: Email Tasks
+
+### Task 1: Requesting an Apartment Viewing
+**Situation**: Sie haben eine Wohnungsanzeige im Internet gesehen. Die Wohnung ist in der Parkstraße 33 in Köln. Sie möchten die Wohnung besichtigen.
+
+**Schreiben Sie eine E-Mail an den Vermieter. Schreiben Sie etwas zu allen drei Punkten:**
+- Warum schreiben Sie?
+- Wann können Sie die Wohnung sehen?
+- Fragen Sie nach der Miete
+
+**Sample Answer**:
+```
+Betreff: Wohnungsbesichtigung Parkstraße 33
+
+Sehr geehrte Damen und Herren,
+
+ich habe Ihre Wohnungsanzeige gesehen und möchte die Wohnung gerne 
+besichtigen. Ich habe Zeit am Dienstag oder Mittwoch am Nachmittag. 
+Wie hoch ist die Miete?
+
+Mit freundlichen Grüßen
+[Ihr Name]
+```
+
+---
+
+### Task 2: Confirming Moving Help
+**Situation**: Ihr Freund Paul hat Ihnen eine Nachricht geschickt. Er kann Ihnen beim Umzug am Samstag helfen. Antworten Sie ihm.
+
+**Schreiben Sie eine Nachricht an Paul. Schreiben Sie etwas zu allen drei Punkten:**
+- Bedanken Sie sich
+- Geben Sie die Uhrzeit
+- Sagen Sie, was er mitbringen soll
+
+**Sample Answer**:
+```
+Lieber Paul,
+
+vielen Dank für deine Hilfe! Kannst du um 9 Uhr kommen? Bitte 
+bring starke Handschuhe mit.
+
+Viele Grüße
+[Ihr Name]
+```
+
+---
+
+### Task 3: Problem with Moving Company
+**Situation**: Der Umzugsservice hat Ihnen eine E-Mail geschickt. Ihr Umzug am Freitag ist nicht möglich. Die Firma kann nur am Samstag kommen. Schreiben Sie eine Antwort.
+
+**Schreiben Sie eine E-Mail. Schreiben Sie etwas zu allen drei Punkten:**
+- Reagieren Sie auf die Nachricht
+- Sagen Sie, ob Samstag OK ist
+- Fragen Sie nach der Uhrzeit
+
+**Sample Answer**:
+```
+Betreff: Re: Umzugstermin
+
+Sehr geehrte Damen und Herren,
+
+Samstag ist für mich in Ordnung. Um wie viel Uhr können Sie kommen? 
+Bitte bestätigen Sie den neuen Termin.
+
+Mit freundlichen Grüßen
+[Ihr Name]
+```
+
+---
+
+### Task 4: Asking Landlord for Information
+**Situation**: Sie sind neu in Ihrer Wohnung. Sie wissen nicht, wann Sie den Müll rausbringen müssen. Schreiben Sie eine E-Mail an Ihren Vermieter, Herrn Schmidt.
+
+**Schreiben Sie eine E-Mail. Schreiben Sie etwas zu allen drei Punkten:**
+- Stellen Sie sich vor
+- Fragen Sie nach dem Müll
+- Fragen Sie nach der Hausordnung
+
+**Sample Answer**:
+```
+Betreff: Frage zur Müllentsorgung
+
+Sehr geehrter Herr Schmidt,
+
+ich bin Ihre neue Mieterin in Wohnung 3B. Wann muss ich den Müll 
+rausbringen? Können Sie mir bitte die Hausordnung schicken?
+
+Mit freundlichen Grüßen
+[Ihr Name]
+```
+
+---
+
+## Key Vocabulary - Day 26
+
+### Moving & Apartment
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| der Umzug | move/moving | Der Umzug ist am Samstag. |
+| umziehen | to move | Ich ziehe um. |
+| die Wohnung | apartment | Ich suche eine Wohnung. |
+| die Wohnungsbesichtigung | apartment viewing | Die Besichtigung ist morgen. |
+| der Vermieter | landlord | Der Vermieter ist nett. |
+| der Mieter | tenant | Ich bin der neue Mieter. |
+| die Miete | rent | Die Miete ist 800 Euro. |
+| die Kaution | deposit | Die Kaution ist zwei Monatsmieten. |
+| der Mietvertrag | rental contract | Ich unterschreibe den Mietvertrag. |
+
+### Moving Services
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| der Umzugsservice | moving service | Ich brauche einen Umzugsservice. |
+| der Transporter | van/truck | Wir brauchen einen großen Transporter. |
+| der Umzugskarton | moving box | Ich habe 20 Umzugskartons. |
+| die Möbel (pl.) | furniture | Die Möbel sind schwer. |
+| tragen | to carry | Kannst du das tragen? |
+| einpacken | to pack | Ich packe meine Sachen ein. |
+| auspacken | to unpack | Ich packe die Kartons aus. |
+| transportieren | to transport | Wir transportieren die Möbel. |
+| die Hilfe | help | Ich brauche Hilfe. |
+
+### Apartment Features
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| das Zimmer | room | Die Wohnung hat 3 Zimmer. |
+| die Küche | kitchen | Die Küche ist groß. |
+| das Badezimmer | bathroom | Das Badezimmer ist modern. |
+| das Wohnzimmer | living room | Das Wohnzimmer ist hell. |
+| das Schlafzimmer | bedroom | Ich brauche zwei Schlafzimmer. |
+| der Balkon | balcony | Die Wohnung hat einen Balkon. |
+| der Keller | basement/cellar | Der Keller ist klein. |
+| die Quadratmeter (m²) | square meters | Die Wohnung hat 60 m². |
+| hell | bright | Die Wohnung ist sehr hell. |
+
+### Household & Utilities
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| der Müll | garbage/trash | Ich bringe den Müll raus. |
+| die Müllentsorgung | waste disposal | Die Müllentsorgung ist wichtig. |
+| die Hausordnung | house rules | Ich lese die Hausordnung. |
+| die Nebenkosten | additional costs | Die Nebenkosten sind 150 Euro. |
+| der Strom | electricity | Der Strom ist teuer. |
+| das Wasser | water | Wasser ist in den Nebenkosten. |
+| die Heizung | heating | Die Heizung funktioniert nicht. |
+| das Internet | internet | Ich brauche Internet. |
+| anmelden | to register | Ich melde das Internet an. |
+
+### Time & Scheduling
+| German | English | Example Sentence |
+|--------|---------|------------------|
+| der Umzugstermin | moving date | Der Umzugstermin ist am 15. März. |
+| der Besichtigungstermin | viewing appointment | Der Besichtigungstermin ist um 15 Uhr. |
+| der Einzug | move-in | Der Einzug ist nächste Woche. |
+| der Auszug | move-out | Der Auszug ist Ende März. |
+| pünktlich | on time | Bitte kommen Sie pünktlich. |
+| verschieben | to postpone | Können wir den Termin verschieben? |
+| bestätigen | to confirm | Bitte bestätigen Sie den Termin. |
+| absagen | to cancel | Ich muss den Termin absagen. |
+
+### Useful Phrases
+| German | English | Example |
+|--------|---------|---------|
+| Ich ziehe um | I'm moving | Ich ziehe nach Hamburg um. |
+| Ich suche eine Wohnung | I'm looking for an apartment | Ich suche eine 2-Zimmer-Wohnung. |
+| Kann ich die Wohnung besichtigen? | Can I view the apartment? | Kann ich die Wohnung morgen besichtigen? |
+| Wie hoch ist die Miete? | How high is the rent? | Wie hoch ist die Miete pro Monat? |
+| Wann kann ich einziehen? | When can I move in? | Wann kann ich einziehen? |
+| Ich brauche Hilfe beim Umzug | I need help with moving | Ich brauche Hilfe beim Umzug am Samstag. |
+| Ist die Wohnung noch frei? | Is the apartment still available? | Ist die Wohnung noch frei? |
+| In Ordnung | Okay/Alright | Das ist in Ordnung. |
+
+---
+
+## Summary - Day 26 Writing Practice
+
+**Total Exercises**: 5 Writing Tasks
+- **Teil 1**: 1 form completion exercise (5 blanks)
+- **Teil 2**: 4 email/message writing exercises (3 points each)
+
+**Theme**: Apartment Viewing & Moving  
+**Difficulty Level**: A1  
+**Real-world Relevance**: Essential for anyone moving to or within Germany
+
+**Key Skills Practiced**:
+1. **Form Completion**: Extracting information about moving details (addresses, dates, services)
+2. **Formal Communication**: Writing to landlords and service providers
+3. **Informal Communication**: Writing to friends about moving help
+4. **Problem Solving**: Handling schedule changes and apartment questions
+5. **Making Requests**: Asking for viewings, information, and help
+
+**Key Vocabulary Themes**:
+- Moving services and logistics
+- Apartment features and characteristics
+- Landlord-tenant communication
+- Household management (waste disposal, house rules)
+- Scheduling and appointments
+- Furniture and belongings
+
+**Tips for Students**:
+1. **Teil 1**: Carefully read the context to find exact information needed for each blank
+2. **Teil 2**: Always address all 3 points in your writing
+3. Use "Sehr geehrte Damen und Herren" or "Sehr geehrter Herr/Frau [Name]" for formal emails
+4. Use "Lieber/Liebe [Name]" for informal messages to friends
+5. Learn key phrases for apartment searching and moving
+6. Keep messages concise but complete (around 30 words for Teil 2)
+7. Practice writing about dates, times, and addresses accurately
+
+**Common Mistakes to Avoid**:
+- Forgetting to include proper greetings and closings
+- Not addressing all 3 required points in Teil 2
+- Mixing formal and informal language (Sie vs. du)
+- Incorrect date formats (German uses day.month.year)
+- Misspelling common words like "Wohnung," "Umzug," "Vermieter"
+- Using English words when German equivalents exist
+
+**Practice Tips**:
+- Make flashcards for moving and apartment vocabulary
+- Practice writing emails for different apartment scenarios
+- Role-play apartment viewings with a study partner
+- Read real German apartment advertisements (e.g., on ImmobilienScout24)
+- Learn common abbreviations in rental ads (m², Zi., NK, KM)
+- Practice filling out various forms related to housing
+
+---
+
+**End of Day 25 & Day 26 Exam Focus Content**
 
