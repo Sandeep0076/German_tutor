@@ -102,6 +102,14 @@
 **Topics**: Hair salon appointments, beauty treatments, describing hairstyles, booking services, hair care, salon communication
 **Skills**: Writing (Teil 1 & 2)
 
+### **Day 25**: Government & Offices (Ämter und Behörden)
+**Topics**: Appointments at public offices, filling out forms (Anmeldung), understanding official notices, residency registration, vehicle registration office (KFZ-Zulassungsstelle)
+**Skills**: Reading (all 3 parts) & Writing (Teil 1 & 2)
+
+### **Day 26**: Apartment Viewing & Moving (Wohnungsbesichtigung & Umzug)
+**Topics**: Apartment viewing appointments, moving services, furniture delivery, landlord communication, moving-in checklist, utility registration
+**Skills**: Writing (Teil 1 & 2)
+
 ---
 
 ---
